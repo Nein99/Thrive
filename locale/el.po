@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-10-24 15:45-0500\n"
+"POT-Creation-Date: 2024-10-24 16:57-0500\n"
 "PO-Revision-Date: 2022-03-31 05:02+0000\n"
 "Last-Translator: Apostolos Paschidis <tolissius@gmail.com>\n"
 "Language-Team: Greek <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/el/>\n"
@@ -181,6 +181,9 @@ msgid "APPLY_CHANGES"
 msgstr ""
 
 msgid "APRIL"
+msgstr ""
+
+msgid "AQUIFER"
 msgstr ""
 
 msgid "ARE_YOU_SURE_TO_RESET_ALL_SETTINGS"
@@ -2113,6 +2116,9 @@ msgstr ""
 msgid "GUI_VOLUME"
 msgstr ""
 
+msgid "HADOPELAGIC"
+msgstr ""
+
 msgid "HEALTH"
 msgstr ""
 
@@ -2153,6 +2159,9 @@ msgid "HORIZONTAL_COLON"
 msgstr ""
 
 msgid "HORIZONTAL_WITH_AXIS_NAME_COLON"
+msgstr ""
+
+msgid "HOTSPRING"
 msgstr ""
 
 msgid "HP_COLON"
@@ -4435,6 +4444,9 @@ msgstr ""
 msgid "SCROLLLOCK"
 msgstr ""
 
+msgid "SEAMOUNT"
+msgstr ""
+
 msgid "SEARCH_DOT_DOT_DOT"
 msgstr ""
 
@@ -5539,6 +5551,9 @@ msgid "VACUOLE_SPECIALIZED_DESCRIPTION"
 msgstr ""
 
 msgid "VALUE_WITH_UNIT"
+msgstr ""
+
+msgid "VENT_ROCK"
 msgstr ""
 
 msgid "VERSION_COLON"

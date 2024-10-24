@@ -10,7 +10,7 @@ config_version=5
 
 [application]
 
-config/name="Thrive"
+config/name="Thrive (Aaron's Fork)"
 config/description="Thrive is an open source evolution simulation game. 
 Play as a microbe on an alien world trying to survive and adapt to your surroundings in order to thrive.
 

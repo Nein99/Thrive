@@ -69,6 +69,7 @@ adjustment_saturation = 1.09
 [sub_resource type="CameraAttributesPhysical" id="CameraAttributesPhysical_m7s8d"]
 auto_exposure_enabled = true
 auto_exposure_scale = 0.02
+auto_exposure_min_exposure_value = -16.0
 auto_exposure_max_exposure_value = -2.12
 
 [node name="MicrobeCamera" type="Camera3D"]

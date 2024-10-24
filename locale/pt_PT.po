@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-10-24 15:45-0500\n"
+"POT-Creation-Date: 2024-10-24 16:57-0500\n"
 "PO-Revision-Date: 2024-10-17 07:24+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Portuguese (Portugal) <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/pt_PT/>\n"
@@ -207,6 +207,9 @@ msgstr "Aplicar Alterações"
 
 msgid "APRIL"
 msgstr "Abril"
+
+msgid "AQUIFER"
+msgstr ""
 
 msgid "ARE_YOU_SURE_TO_RESET_ALL_SETTINGS"
 msgstr "Tem a certeza que deseja repor todas as definições por defeito?"
@@ -2300,6 +2303,10 @@ msgstr "{0} m"
 msgid "GUI_VOLUME"
 msgstr "Volume da GUI"
 
+#, fuzzy
+msgid "HADOPELAGIC"
+msgstr "Zona Abissopelágica"
+
 msgid "HEALTH"
 msgstr "Vida"
 
@@ -2341,6 +2348,10 @@ msgstr "Horizontal:"
 
 msgid "HORIZONTAL_WITH_AXIS_NAME_COLON"
 msgstr "Horizontal (Eixo: {0})"
+
+#, fuzzy
+msgid "HOTSPRING"
+msgstr "Print Screen"
 
 msgid "HP_COLON"
 msgstr "HP:"
@@ -4873,6 +4884,9 @@ msgstr "Relativo ao ecrã"
 msgid "SCROLLLOCK"
 msgstr "Scroll Lock"
 
+msgid "SEAMOUNT"
+msgstr ""
+
 msgid "SEARCH_DOT_DOT_DOT"
 msgstr "Procurar..."
 
@@ -6185,6 +6199,9 @@ msgstr "O vacúolo irá armazenar {0} unidades do composto selecionado"
 
 msgid "VALUE_WITH_UNIT"
 msgstr "{0} {1}"
+
+msgid "VENT_ROCK"
+msgstr ""
 
 msgid "VERSION_COLON"
 msgstr "Versão:"

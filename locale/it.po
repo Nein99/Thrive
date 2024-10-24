@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-10-24 15:45-0500\n"
+"POT-Creation-Date: 2024-10-24 16:57-0500\n"
 "PO-Revision-Date: 2024-10-17 07:24+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Italian <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/it/>\n"
@@ -207,6 +207,9 @@ msgstr "Applica modifiche"
 
 msgid "APRIL"
 msgstr "Aprile"
+
+msgid "AQUIFER"
+msgstr ""
 
 msgid "ARE_YOU_SURE_TO_RESET_ALL_SETTINGS"
 msgstr "Sicuro di voler ripristinare TUTTE le impostazioni ai valori predefiniti?"
@@ -2350,6 +2353,10 @@ msgstr "{0}mila"
 msgid "GUI_VOLUME"
 msgstr "Volume della GUI"
 
+#, fuzzy
+msgid "HADOPELAGIC"
+msgstr "Abissopelagico"
+
 msgid "HEALTH"
 msgstr "Salute"
 
@@ -2395,6 +2402,10 @@ msgstr "Versione:"
 
 msgid "HORIZONTAL_WITH_AXIS_NAME_COLON"
 msgstr ""
+
+#, fuzzy
+msgid "HOTSPRING"
+msgstr "Stamp [Print Screen]"
 
 msgid "HP_COLON"
 msgstr "PS:"
@@ -5042,6 +5053,9 @@ msgstr "per aumentare la"
 msgid "SCROLLLOCK"
 msgstr "Bloc Scroll [Scroll Lock]"
 
+msgid "SEAMOUNT"
+msgstr ""
+
 msgid "SEARCH_DOT_DOT_DOT"
 msgstr "Cerca..."
 
@@ -6378,6 +6392,9 @@ msgstr "Aumenta lo spazio di stoccaggio della cellula."
 
 msgid "VALUE_WITH_UNIT"
 msgstr "{0} {1}"
+
+msgid "VENT_ROCK"
+msgstr ""
 
 msgid "VERSION_COLON"
 msgstr "Versione:"

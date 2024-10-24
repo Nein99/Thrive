@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-10-24 15:45-0500\n"
+"POT-Creation-Date: 2024-10-24 16:57-0500\n"
 "PO-Revision-Date: 2024-10-17 07:24+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Hebrew <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/he/>\n"
@@ -198,6 +198,9 @@ msgstr "החל שינויים"
 
 msgid "APRIL"
 msgstr "אפריל"
+
+msgid "AQUIFER"
+msgstr ""
 
 msgid "ARE_YOU_SURE_TO_RESET_ALL_SETTINGS"
 msgstr "האם אתה בטוח שברצונך לאפס את כל הגדרות לברירת מחדל?"
@@ -2378,6 +2381,10 @@ msgstr "{0} אלפים"
 msgid "GUI_VOLUME"
 msgstr "עוצמת ממשק עזרים"
 
+#, fuzzy
+msgid "HADOPELAGIC"
+msgstr "אביסלפלגיים"
+
 msgid "HEALTH"
 msgstr "חיים"
 
@@ -2422,6 +2429,10 @@ msgstr "אופקי:"
 
 msgid "HORIZONTAL_WITH_AXIS_NAME_COLON"
 msgstr "אופקי (ציר: {0})"
+
+#, fuzzy
+msgid "HOTSPRING"
+msgstr "מקש Print Screen"
 
 msgid "HP_COLON"
 msgstr "חיים:"
@@ -5039,6 +5050,9 @@ msgstr "להגדלת התנועה"
 msgid "SCROLLLOCK"
 msgstr "מקש Scroll Lock"
 
+msgid "SEAMOUNT"
+msgstr ""
+
 msgid "SEARCH_DOT_DOT_DOT"
 msgstr "מחפש..."
 
@@ -6374,6 +6388,9 @@ msgstr "מגדיל את שטח האחסון של התא."
 
 msgid "VALUE_WITH_UNIT"
 msgstr "{0} {1}"
+
+msgid "VENT_ROCK"
+msgstr ""
 
 msgid "VERSION_COLON"
 msgstr "גרסה:"

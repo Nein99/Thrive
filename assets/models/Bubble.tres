@@ -1,0 +1,29 @@
+[gd_resource type="ShaderMaterial" load_steps=6 format=3 uid="uid://cwvgujofv1dix"]
+
+[ext_resource type="Shader" path="res://assets/models/Bubble.gdshader" id="1_ux2p5"]
+
+[sub_resource type="FastNoiseLite" id="FastNoiseLite_524sc"]
+
+[sub_resource type="NoiseTexture2D" id="NoiseTexture2D_pr8i6"]
+seamless = true
+seamless_blend_skirt = 1.0
+noise = SubResource("FastNoiseLite_524sc")
+
+[sub_resource type="FastNoiseLite" id="FastNoiseLite_sswi4"]
+
+[sub_resource type="NoiseTexture2D" id="NoiseTexture2D_vid5w"]
+seamless = true
+seamless_blend_skirt = 1.0
+noise = SubResource("FastNoiseLite_sswi4")
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_ux2p5")
+shader_parameter/distortionView = 0.03
+shader_parameter/speedView = 0.175
+shader_parameter/tintColor = Color(2.31028e-06, 0.508611, 0.509879, 1)
+shader_parameter/fesnelAmount = 3.2
+shader_parameter/distortionVertex = 0.03
+shader_parameter/speedVertex = 0.1
+shader_parameter/noiseViewX = SubResource("NoiseTexture2D_pr8i6")
+shader_parameter/noiseViewY = SubResource("NoiseTexture2D_vid5w")

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-10-24 15:45-0500\n"
+"POT-Creation-Date: 2024-10-24 16:57-0500\n"
 "PO-Revision-Date: 2024-10-21 16:34+0000\n"
 "Last-Translator: Sentry Primis <sentryprime92@gmail.com>\n"
 "Language-Team: Russian <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/ru/>\n"
@@ -196,6 +196,9 @@ msgstr "Применить изменения"
 
 msgid "APRIL"
 msgstr "Апрель"
+
+msgid "AQUIFER"
+msgstr ""
 
 msgid "ARE_YOU_SURE_TO_RESET_ALL_SETTINGS"
 msgstr "Вы действительно хотите сбросить ВСЕ настройки до значений по умолчанию?"
@@ -2247,6 +2250,10 @@ msgstr "Навигация в интерфейсе"
 msgid "GUI_VOLUME"
 msgstr "Громкость пользовательского интерфейса"
 
+#, fuzzy
+msgid "HADOPELAGIC"
+msgstr "Абиссопелагический"
+
 msgid "HEALTH"
 msgstr "Здоровье"
 
@@ -2288,6 +2295,10 @@ msgstr "По горизонтали:"
 
 msgid "HORIZONTAL_WITH_AXIS_NAME_COLON"
 msgstr "По горизонтали (ось: {0})"
+
+#, fuzzy
+msgid "HOTSPRING"
+msgstr "Спринт"
 
 msgid "HP_COLON"
 msgstr "ОЗ:"
@@ -4767,6 +4778,9 @@ msgstr "Относительно экрана"
 msgid "SCROLLLOCK"
 msgstr "Scroll Lock"
 
+msgid "SEAMOUNT"
+msgstr ""
+
 msgid "SEARCH_DOT_DOT_DOT"
 msgstr "Поиск..."
 
@@ -6022,6 +6036,9 @@ msgstr "Эта вакуоль будет хранить {0} единиц выб�
 
 msgid "VALUE_WITH_UNIT"
 msgstr "{0} {1}"
+
+msgid "VENT_ROCK"
+msgstr ""
 
 msgid "VERSION_COLON"
 msgstr "Версия:"

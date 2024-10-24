@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-10-24 15:45-0500\n"
+"POT-Creation-Date: 2024-10-24 16:57-0500\n"
 "PO-Revision-Date: 2024-10-17 07:24+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Estonian <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/et/>\n"
@@ -219,6 +219,9 @@ msgstr "Rakenda muudatused"
 
 msgid "APRIL"
 msgstr "aprill"
+
+msgid "AQUIFER"
+msgstr ""
 
 msgid "ARE_YOU_SURE_TO_RESET_ALL_SETTINGS"
 msgstr "Kas olete kindel, et soovite lähtestada KÕIK seaded normaalseks?"
@@ -2453,6 +2456,10 @@ msgstr "{0}K"
 msgid "GUI_VOLUME"
 msgstr "GUI helitugevus"
 
+#, fuzzy
+msgid "HADOPELAGIC"
+msgstr "Abyss"
+
 msgid "HEALTH"
 msgstr "Elu"
 
@@ -2497,6 +2504,10 @@ msgstr "Versioon:"
 
 msgid "HORIZONTAL_WITH_AXIS_NAME_COLON"
 msgstr ""
+
+#, fuzzy
+msgid "HOTSPRING"
+msgstr "Prindi ekraan"
 
 msgid "HP_COLON"
 msgstr "HP:"
@@ -5202,6 +5213,9 @@ msgstr ""
 msgid "SCROLLLOCK"
 msgstr "Kerimislukk"
 
+msgid "SEAMOUNT"
+msgstr ""
+
 msgid "SEARCH_DOT_DOT_DOT"
 msgstr "Otsing..."
 
@@ -6573,6 +6587,9 @@ msgid "VACUOLE_SPECIALIZED_DESCRIPTION"
 msgstr "Suurendab raku salvestusruumi."
 
 msgid "VALUE_WITH_UNIT"
+msgstr ""
+
+msgid "VENT_ROCK"
 msgstr ""
 
 msgid "VERSION_COLON"

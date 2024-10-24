@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://cqhdlis08inaf"]
+
+[ext_resource type="Material" uid="uid://cvnsu7lttsfsh" path="res://addons/boujie_water_shader/prefabs/outset_ocean_material.tres" id="1_p46yw"]
+
+[sub_resource type="SphereMesh" id="SphereMesh_68awl"]
+lightmap_size_hint = Vector2i(630, 316)
+radius = 20.0
+height = 40.0
+
+[node name="OutsetOceanSphere" type="MeshInstance3D"]
+transform = Transform3D(0.125, 0, 0, 0, 0.125, 0, 0, 0, 0.125, 0, 3.18241, 0)
+mesh = SubResource("SphereMesh_68awl")
+skeleton = NodePath("../..")
+surface_material_override/0 = ExtResource("1_p46yw")

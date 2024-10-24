@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-10-24 15:45-0500\n"
+"POT-Creation-Date: 2024-10-24 16:57-0500\n"
 "PO-Revision-Date: 2024-10-23 11:01+0000\n"
 "Last-Translator: punctdan <yunusemredilek@hotmail.com>\n"
 "Language-Team: Turkish <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/tr/>\n"
@@ -196,6 +196,9 @@ msgstr "Değişiklikleri Uygula"
 
 msgid "APRIL"
 msgstr "Nisan"
+
+msgid "AQUIFER"
+msgstr ""
 
 msgid "ARE_YOU_SURE_TO_RESET_ALL_SETTINGS"
 msgstr "BÜTÜN ayarları varsayılan değerlere sıfırlamak istediğinizden emin misiniz?"
@@ -2247,6 +2250,10 @@ msgstr "Kullanıcı Arayüzünde Sekme Gezinme"
 msgid "GUI_VOLUME"
 msgstr "Arayüz sesi"
 
+#, fuzzy
+msgid "HADOPELAGIC"
+msgstr "Abissopelajik"
+
 msgid "HEALTH"
 msgstr "Sağlık"
 
@@ -2288,6 +2295,10 @@ msgstr "Yatay:"
 
 msgid "HORIZONTAL_WITH_AXIS_NAME_COLON"
 msgstr "Yatay (Eksen: {0})"
+
+#, fuzzy
+msgid "HOTSPRING"
+msgstr "Hızlan"
 
 msgid "HP_COLON"
 msgstr "HP:"
@@ -4768,6 +4779,9 @@ msgstr "Ekrana bağlı"
 msgid "SCROLLLOCK"
 msgstr "Scroll Lock"
 
+msgid "SEAMOUNT"
+msgstr ""
+
 msgid "SEARCH_DOT_DOT_DOT"
 msgstr "Ara..."
 
@@ -6020,6 +6034,9 @@ msgstr "Koful, seçili bileşikten {0} birim depolayacak"
 
 msgid "VALUE_WITH_UNIT"
 msgstr "{0} {1}"
+
+msgid "VENT_ROCK"
+msgstr ""
 
 msgid "VERSION_COLON"
 msgstr "Sürüm:"
