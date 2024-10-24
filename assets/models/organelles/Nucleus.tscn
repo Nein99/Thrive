@@ -52,11 +52,12 @@ shader_parameter/jiggleAmount = 0.0005
 shader_parameter/texture = ExtResource("5")
 shader_parameter/dissolveTexture = ExtResource("9")
 
-[node name="Nucleus" type="MeshInstance3D"]
+[node name="Nucleus" type="MeshInstance3D" node_paths=PackedStringArray("meshChildren")]
 transform = Transform3D(127.947, 0, 0, 0, -2.08452e-05, 127.947, 0, -127.947, -2.08452e-05, 0, 0, 0)
 material_override = SubResource("1")
 mesh = ExtResource("1")
 script = ExtResource("3")
+meshChildren = []
 
 [node name="Golgi" type="MeshInstance3D" parent="."]
 transform = Transform3D(-0.74586, -0.666102, -1.08522e-07, 0.666102, -0.74586, -2.84437e-07, 1.08522e-07, -2.84437e-07, 0.999999, -0.00490416, -0.0155195, -2.52845e-09)

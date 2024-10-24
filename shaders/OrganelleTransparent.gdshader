@@ -14,10 +14,10 @@ uniform vec4 growColor : source_color;
 
 uniform vec4 tint : source_color = vec4(1, 1, 1, 1);
 
-uniform float jiggleAmount = 0.0005f;
+uniform float jiggleAmount = 0.001f;
 
-const float jiggleMaxAngle = 15.f;
-const float jiggleTimeMultiplier = 0.5f;
+const float jiggleMaxAngle = 45.f;
+const float jiggleTimeMultiplier = 0.3f;
 
 void vertex(){
     // Offset animation
