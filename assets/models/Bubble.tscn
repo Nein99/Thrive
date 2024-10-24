@@ -1,0 +1,15 @@
+[gd_scene load_steps=4 format=3 uid="uid://gru25w6uycer"]
+
+[ext_resource type="Material" uid="uid://cwvgujofv1dix" path="res://assets/models/Bubble.tres" id="1_gsye3"]
+[ext_resource type="ArrayMesh" uid="uid://csbcy5jkxa47i" path="res://assets/models/organelles/BindingAgent_Membrane.mesh" id="2_l3wuu"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_mtr8r"]
+next_pass = ExtResource("1_gsye3")
+proximity_fade_distance = 460.23
+distance_fade_max_distance = 0.4
+
+[node name="bubble" type="MeshInstance3D"]
+transform = Transform3D(100, 0, 0, 0, 100, 0, 0, 0, 100, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_mtr8r")
+mesh = ExtResource("2_l3wuu")
+surface_material_override/0 = ExtResource("1_gsye3")

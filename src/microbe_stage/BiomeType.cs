@@ -20,4 +20,8 @@ public enum BiomeType
     Cave,
     IceShelf,
     Vents,
+    HotSpring,
+    Seamount,
+    Aquifer,
+    Hadopelagic,
 }

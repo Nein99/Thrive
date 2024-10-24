@@ -732,6 +732,28 @@ public static class PatchMapGenerator
                 ScreenCoordinates = new Vector2(70, 160),
             },
 
+            BiomeType.HotSpring => new Patch(GetPatchLocalizedName(regionName, "HOTSPRING"),
+                id, GetBiomeTemplate("hotspring"), BiomeType.HotSpring, region)
+            {
+                Depth =
+                {
+                    [0] = 0,
+                    [1] = 200,
+                },
+                ScreenCoordinates = new Vector2(70, 160),
+            },
+
+            BiomeType.Aquifer => new Patch(GetPatchLocalizedName(regionName, "AQUIFER"),
+                id, GetBiomeTemplate("aquifer"), BiomeType.Aquifer, region)
+            {
+                Depth =
+                {
+                    [0] = 200,
+                    [1] = 1000,
+                },
+                ScreenCoordinates = new Vector2(70, 260),
+            },
+
             BiomeType.IceShelf => new Patch(GetPatchLocalizedName(regionName, "ICESHELF"),
                 id, GetBiomeTemplate("ice_shelf"), BiomeType.IceShelf, region)
             {
@@ -752,6 +774,17 @@ public static class PatchMapGenerator
                     [1] = 1000,
                 },
                 ScreenCoordinates = new Vector2(200, 200),
+            },
+
+            BiomeType.Hadopelagic => new Patch(GetPatchLocalizedName(regionName, "HADOPELAGIC"),
+                id, GetBiomeTemplate("hadopelagic"), BiomeType.Hadopelagic, region)
+            {
+                Depth =
+                {
+                    [0] = 6000,
+                    [1] = 8000,
+                },
+                ScreenCoordinates = new Vector2(300, 500),
             },
 
             BiomeType.Seafloor => new Patch(GetPatchLocalizedName(regionName, "SEA_FLOOR"),

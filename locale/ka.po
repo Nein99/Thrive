@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-10-24 15:45-0500\n"
+"POT-Creation-Date: 2024-10-24 16:57-0500\n"
 "PO-Revision-Date: 2024-10-21 16:34+0000\n"
 "Last-Translator: NorwayFun <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/ka/>\n"
@@ -196,6 +196,9 @@ msgstr "ცვლილებების გადატარება"
 
 msgid "APRIL"
 msgstr "აპრილი"
+
+msgid "AQUIFER"
+msgstr ""
 
 msgid "ARE_YOU_SURE_TO_RESET_ALL_SETTINGS"
 msgstr "დარწმუნებული ბრძანდებით, რომ გნებავთ, ყველა პარამეტრი ნაგულისხმევ მნიშვნელობაზე ჩამოყაროთ?"
@@ -2157,6 +2160,10 @@ msgstr "ინტერფეისის ჩანართში ნავი�
 msgid "GUI_VOLUME"
 msgstr "GUI-ის ხმა"
 
+#, fuzzy
+msgid "HADOPELAGIC"
+msgstr "აბისოპელაგიური"
+
 msgid "HEALTH"
 msgstr "ჯანმრთელობა"
 
@@ -2198,6 +2205,10 @@ msgstr "ჰორიზონტალური:"
 
 msgid "HORIZONTAL_WITH_AXIS_NAME_COLON"
 msgstr "ჰორიზონტალური (ღერძი: {0})"
+
+#, fuzzy
+msgid "HOTSPRING"
+msgstr "სირბილი"
 
 msgid "HP_COLON"
 msgstr "სიცოცხლ:"
@@ -4506,6 +4517,9 @@ msgstr "ეკრანთან ფარდობით"
 msgid "SCROLLLOCK"
 msgstr "ScrollLock"
 
+msgid "SEAMOUNT"
+msgstr ""
+
 msgid "SEARCH_DOT_DOT_DOT"
 msgstr "ძებნა..."
 
@@ -5641,6 +5655,9 @@ msgstr "ვაკუოლა არჩეული ნაერთის {0} �
 
 msgid "VALUE_WITH_UNIT"
 msgstr "{0} {1}"
+
+msgid "VENT_ROCK"
+msgstr ""
 
 msgid "VERSION_COLON"
 msgstr "ვერსია:"

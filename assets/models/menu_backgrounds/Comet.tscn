@@ -1,0 +1,94 @@
+[gd_scene load_steps=12 format=3 uid="uid://dokew8lhrri5"]
+
+[ext_resource type="PackedScene" uid="uid://c5ttb5il1h1ix" path="res://assets/models/IronRock1.tscn" id="1_dp368"]
+[ext_resource type="Texture2D" uid="uid://c4lakneio0v00" path="res://assets/textures/IronChunk_normal.png" id="2_7t38l"]
+[ext_resource type="Material" uid="uid://dcd6x2v3mfqfn" path="res://assets/models/menu_backgrounds/CometFireStart.tres" id="6_h1j6i"]
+[ext_resource type="Material" uid="uid://d1e2we22pcrbu" path="res://assets/models/menu_backgrounds/CometFireEnd.tres" id="7_71lin"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_y5stp"]
+roughness = 0.72
+normal_enabled = true
+normal_texture = ExtResource("2_7t38l")
+
+[sub_resource type="QuadMesh" id="7"]
+size = Vector2(0.133, 0.271)
+center_offset = Vector3(0, 0.048, 0)
+
+[sub_resource type="Curve" id="8"]
+bake_resolution = 128
+_data = [Vector2(0, 0), 0.0, 0.0, 0, 0, Vector2(0.0896226, 1), 0.0, 0.0, 0, 0, Vector2(1, 0.00568175), 0.0, 0.0, 0, 0]
+point_count = 3
+
+[sub_resource type="Gradient" id="12"]
+offsets = PackedFloat32Array(0, 0.438776, 0.99095)
+colors = PackedColorArray(1, 1, 1, 0.294118, 1, 1, 1, 0, 1, 1, 1, 0)
+
+[sub_resource type="QuadMesh" id="27"]
+size = Vector2(0.135, 0.245)
+
+[sub_resource type="Curve" id="28"]
+bake_resolution = 128
+_data = [Vector2(0, 0), 0.0, 0.0, 0, 0, Vector2(0.0896226, 1), 0.0, 0.0, 0, 0, Vector2(1, 0.00568175), 0.0, 0.0, 0, 0]
+point_count = 3
+
+[sub_resource type="Gradient" id="29"]
+offsets = PackedFloat32Array(0, 0.387755, 0.99095)
+colors = PackedColorArray(1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 0)
+
+[node name="Comet" type="Node3D"]
+transform = Transform3D(1.19735, 0.106705, -0.897193, -0.168807, 1.48969, -0.0481104, 0.887606, 0.139372, 1.20114, 0, 0, 0)
+
+[node name="Rock" parent="." instance=ExtResource("1_dp368")]
+transform = Transform3D(-0.0011855, -0.0133449, -0.0995409, -0.0121901, 0.13882, -0.00941794, 0.136451, 0.0122857, -0.00170615, 0.0802385, 0.0707815, -0.22425)
+material_override = SubResource("StandardMaterial3D_y5stp")
+skeleton = NodePath("")
+
+[node name="FireStart" type="CPUParticles3D" parent="."]
+transform = Transform3D(-0.144453, -0.0340682, -0.0217369, -0.0325947, 0.145915, -0.0120848, 0.0238896, -0.00691445, -0.147924, 0.0271111, 0.061502, -0.189438)
+material_override = ExtResource("6_h1j6i")
+amount = 1000
+lifetime = 1.64
+preprocess = 2.12
+speed_scale = 0.5
+fixed_fps = 100
+local_coords = true
+mesh = SubResource("7")
+particle_flag_align_y = true
+spread = 180.0
+gravity = Vector3(-100, 0, 0)
+initial_velocity_min = 10.0
+initial_velocity_max = 10.0
+radial_accel_min = -38.0
+radial_accel_max = -38.0
+damping_min = 50.0
+damping_max = 64.0
+scale_amount_min = 3.0
+scale_amount_max = 3.0
+scale_amount_curve = SubResource("8")
+color = Color(0, 0, 0, 1)
+color_ramp = SubResource("12")
+
+[node name="FireEnd" type="CPUParticles3D" parent="."]
+transform = Transform3D(-0.144131, -0.0340964, -0.0237375, -0.0324937, 0.14592, -0.012301, 0.0258879, -0.00667752, -0.147599, 0.0271187, 0.0614996, -0.189449)
+material_override = ExtResource("7_71lin")
+amount = 1000
+lifetime = 1.87
+preprocess = 2.78
+speed_scale = 0.7
+fixed_fps = 100
+local_coords = true
+mesh = SubResource("27")
+particle_flag_align_y = true
+spread = 180.0
+gravity = Vector3(-100, 2, 0)
+initial_velocity_min = 10.0
+initial_velocity_max = 10.0
+radial_accel_min = -38.0
+radial_accel_max = -38.0
+damping_min = 50.0
+damping_max = 52.0
+scale_amount_min = 4.0
+scale_amount_max = 4.0
+scale_amount_curve = SubResource("28")
+color = Color(0, 0, 0, 1)
+color_ramp = SubResource("29")

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-10-24 15:45-0500\n"
+"POT-Creation-Date: 2024-10-24 16:57-0500\n"
 "PO-Revision-Date: 2024-10-17 07:24+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Hungarian <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/hu/>\n"
@@ -203,6 +203,9 @@ msgstr "Változtatások elfogadása"
 
 msgid "APRIL"
 msgstr "Április"
+
+msgid "AQUIFER"
+msgstr ""
 
 msgid "ARE_YOU_SURE_TO_RESET_ALL_SETTINGS"
 msgstr "Biztos MINDEN beállítást vissza akarsz állítani az alap értelmezetre?"
@@ -2376,6 +2379,10 @@ msgstr "{0} K"
 msgid "GUI_VOLUME"
 msgstr "GUI hangerő"
 
+#, fuzzy
+msgid "HADOPELAGIC"
+msgstr "Abisszopelágikus"
+
 msgid "HEALTH"
 msgstr "Életerő"
 
@@ -2421,6 +2428,10 @@ msgstr "Verzió:"
 
 msgid "HORIZONTAL_WITH_AXIS_NAME_COLON"
 msgstr ""
+
+#, fuzzy
+msgid "HOTSPRING"
+msgstr "Print Screen"
 
 msgid "HP_COLON"
 msgstr "HP:"
@@ -5072,6 +5083,9 @@ msgstr ""
 msgid "SCROLLLOCK"
 msgstr "Scroll Lock"
 
+msgid "SEAMOUNT"
+msgstr ""
+
 msgid "SEARCH_DOT_DOT_DOT"
 msgstr "Keresés..."
 
@@ -6410,6 +6424,9 @@ msgstr "Növeli a sejt tárkapacitását."
 
 msgid "VALUE_WITH_UNIT"
 msgstr "{0} {1}"
+
+msgid "VENT_ROCK"
+msgstr ""
 
 msgid "VERSION_COLON"
 msgstr "Verzió:"

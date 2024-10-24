@@ -53,6 +53,33 @@
     ],
     "ParticleEffect": "res://src/microbe_stage/particles/background/Estuary.tscn"
   },
+  "hotspring": {
+    "Textures": [
+      "res://assets/textures/background/Thrive_hotspring0.png",
+      "res://assets/textures/background/Thrive_tidepool1.png",
+      "res://assets/textures/background/Thrive_tidepool2.png",
+      "res://assets/textures/background/Thrive_tidepool3.png"
+    ],
+    "ParticleEffect": "res://src/microbe_stage/particles/background/HotSpring.tscn"
+  },
+  "seamount": {
+    "Textures": [
+      "res://assets/textures/background/Thrive_seamount0.png",
+      "res://assets/textures/background/Thrive_meso1.png",
+      "res://assets/textures/background/Thrive_meso2.png",
+      "res://assets/textures/background/Thrive_meso3.png"
+    ],
+    "ParticleEffect": "res://src/microbe_stage/particles/background/Vent.tscn"
+  },
+  "aquifer": {
+    "Textures": [
+      "res://assets/textures/background/Thrive_aquifer0.png",
+      "res://assets/textures/background/Thrive_aquifer1.png",
+      "res://assets/textures/background/Thrive_aquifer2.png",
+      "res://assets/textures/background/Thrive_aquifer3.png"
+    ],
+    "ParticleEffect": "res://src/microbe_stage/particles/background/Abyss.tscn"
+  },
   "iceshelf": {
     "Textures": [
       "res://assets/textures/background/Thrive_iceshelf0.png",
@@ -74,6 +101,15 @@
   "seafloor": {
     "Textures": [
       "res://assets/textures/background/Thrive_seafloor0.png",
+      "res://assets/textures/background/Thrive_seafloor1.png",
+      "res://assets/textures/background/Thrive_seafloor2.png",
+      "res://assets/textures/background/Thrive_seafloor3.png"
+    ],
+    "ParticleEffect": "res://src/microbe_stage/particles/background/Bathypelagic_Seafloor.tscn"
+  },
+  "hadopelagic": {
+    "Textures": [
+      "res://assets/textures/background/Thrive_abyss0.png",
       "res://assets/textures/background/Thrive_seafloor1.png",
       "res://assets/textures/background/Thrive_seafloor2.png",
       "res://assets/textures/background/Thrive_seafloor3.png"

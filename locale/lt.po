@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-10-24 15:45-0500\n"
+"POT-Creation-Date: 2024-10-24 16:57-0500\n"
 "PO-Revision-Date: 2023-10-12 00:43+0000\n"
 "Last-Translator: Irmantas <irmantas_i@yahoo.com>\n"
 "Language-Team: Lithuanian <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/lt/>\n"
@@ -207,6 +207,9 @@ msgstr "Pritaikyti Pakeitimus"
 
 msgid "APRIL"
 msgstr "Balandis"
+
+msgid "AQUIFER"
+msgstr ""
 
 msgid "ARE_YOU_SURE_TO_RESET_ALL_SETTINGS"
 msgstr "Ar esate tikras, kad norite grąžinti visus nustatymus į pradines vertes?"
@@ -2312,6 +2315,10 @@ msgstr ""
 msgid "GUI_VOLUME"
 msgstr ""
 
+#, fuzzy
+msgid "HADOPELAGIC"
+msgstr "Bedugnė"
+
 msgid "HEALTH"
 msgstr ""
 
@@ -2353,6 +2360,9 @@ msgid "HORIZONTAL_COLON"
 msgstr "Pavadinimas:"
 
 msgid "HORIZONTAL_WITH_AXIS_NAME_COLON"
+msgstr ""
+
+msgid "HOTSPRING"
 msgstr ""
 
 msgid "HP_COLON"
@@ -4708,6 +4718,9 @@ msgstr ""
 msgid "SCROLLLOCK"
 msgstr ""
 
+msgid "SEAMOUNT"
+msgstr ""
+
 msgid "SEARCH_DOT_DOT_DOT"
 msgstr "Ieškoti..."
 
@@ -5858,6 +5871,9 @@ msgid "VACUOLE_SPECIALIZED_DESCRIPTION"
 msgstr "Elemento aprašymas:"
 
 msgid "VALUE_WITH_UNIT"
+msgstr ""
+
+msgid "VENT_ROCK"
 msgstr ""
 
 msgid "VERSION_COLON"

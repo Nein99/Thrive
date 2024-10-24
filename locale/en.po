@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-10-24 15:45-0500\n"
-"PO-Revision-Date: 2024-10-24 15:47-0500\n"
+"POT-Creation-Date: 2024-10-24 16:57-0500\n"
+"PO-Revision-Date: 2024-10-24 16:58-0500\n"
 "Last-Translator: Henri Hyyryläinen <hhyyrylainen@revolutionarygamesstudio.com>\n"
 "Language-Team: English <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/en/>\n"
 "Language: en\n"
@@ -196,6 +196,9 @@ msgstr "Apply Changes"
 
 msgid "APRIL"
 msgstr "April"
+
+msgid "AQUIFER"
+msgstr "Aquifer"
 
 msgid "ARE_YOU_SURE_TO_RESET_ALL_SETTINGS"
 msgstr "Are you sure you want to reset ALL settings to default values?"
@@ -2236,6 +2239,9 @@ msgstr "UI Tab Navigation"
 msgid "GUI_VOLUME"
 msgstr "GUI volume"
 
+msgid "HADOPELAGIC"
+msgstr "Hadopelagic"
+
 msgid "HEALTH"
 msgstr "Health"
 
@@ -2277,6 +2283,9 @@ msgstr "Horizontal:"
 
 msgid "HORIZONTAL_WITH_AXIS_NAME_COLON"
 msgstr "Horizontal (Axis: {0})"
+
+msgid "HOTSPRING"
+msgstr "Hot Spring"
 
 msgid "HP_COLON"
 msgstr "HP:"
@@ -4752,6 +4761,9 @@ msgstr "Screen relative"
 msgid "SCROLLLOCK"
 msgstr "Scroll Lock"
 
+msgid "SEAMOUNT"
+msgstr "Seamount"
+
 msgid "SEARCH_DOT_DOT_DOT"
 msgstr "Search..."
 
@@ -6004,6 +6016,9 @@ msgstr "The vacuole will store {0} units of the selected compound"
 
 msgid "VALUE_WITH_UNIT"
 msgstr "{0} {1}"
+
+msgid "VENT_ROCK"
+msgstr "Lava Rock"
 
 msgid "VERSION_COLON"
 msgstr "Version:"
