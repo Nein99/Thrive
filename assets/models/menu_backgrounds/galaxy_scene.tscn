@@ -1,0 +1,15 @@
+[gd_scene load_steps=4 format=3 uid="uid://417im5ljdrjy"]
+
+[ext_resource type="PackedScene" uid="uid://bhr38slph6fsp" path="res://assets/models/menu_backgrounds/galaxy_model.glb" id="1_b3yhq"]
+[ext_resource type="Shader" path="res://assets/models/menu_backgrounds/galaxy_stars.gdshader" id="2_kb1or"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_7mgqn"]
+render_priority = 0
+shader = ExtResource("2_kb1or")
+
+[node name="Sketchfab_Scene" instance=ExtResource("1_b3yhq")]
+
+[node name="Object_2" parent="Sketchfab_model/Geode" index="0"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.9389, 18.5944, 0.827583)
+gi_mode = 2
+surface_material_override/0 = SubResource("ShaderMaterial_7mgqn")

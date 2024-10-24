@@ -1,0 +1,24 @@
+[gd_scene load_steps=5 format=3 uid="uid://ci81w0bqtrgi2"]
+
+[ext_resource type="PackedScene" uid="uid://c5ttb5il1h1ix" path="res://assets/models/IronRock1.tscn" id="1_qqosy"]
+[ext_resource type="Texture2D" uid="uid://btvaabw1tcq3d" path="res://assets/textures/IronChunk_Full.png" id="2_ed8u8"]
+[ext_resource type="Texture2D" uid="uid://c4lakneio0v00" path="res://assets/textures/IronChunk_normal.png" id="3_2pid2"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_lldvc"]
+cull_mode = 2
+vertex_color_use_as_albedo = true
+vertex_color_is_srgb = true
+albedo_color = Color(0.5994, 0.81, 0.76437, 1)
+albedo_texture = ExtResource("2_ed8u8")
+metallic_specular = 0.0
+roughness_texture_channel = 4
+normal_scale = 1.04
+normal_texture = ExtResource("3_2pid2")
+anisotropy_enabled = true
+anisotropy = 1.0
+subsurf_scatter_enabled = true
+subsurf_scatter_strength = 0.08
+uv1_scale = Vector3(10, 10, 10)
+
+[node name="LargeBGRock" instance=ExtResource("1_qqosy")]
+material_override = SubResource("StandardMaterial3D_lldvc")

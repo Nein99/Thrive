@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://ed8byt8mqd55"]
+
+[ext_resource type="PackedScene" uid="uid://dxvgakwrnw6ak" path="res://assets/models/menu_backgrounds/MenuPlanet.glb" id="1_ou684"]
+[ext_resource type="Material" uid="uid://dcy33qrmimba4" path="res://assets/models/menu_backgrounds/Planetclouds_Material.tres" id="2_gqi67"]
+
+[node name="MenuPlanet" instance=ExtResource("1_ou684")]
+
+[node name="Sphere" parent="." index="0"]
+transform = Transform3D(1.001, 0, 0, 0, 1.001, 0, 0, 0, 1.001, 0, 0, 0)
+surface_material_override/0 = ExtResource("2_gqi67")

@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://cr0v0b738553g"
-path="res://.godot/imported/SphereSkyBox.glb-61633af83ef2c132f3bab25bc7bc4ab8.scn"
+uid="uid://u158v8f8afg3"
+path="res://.godot/imported/UnderwaterChimney2.glb-8cf987261bba9ded13a5b888e2f356dc.scn"
 
 [deps]
 
-source_file="res://assets/models/menu_backgrounds/SphereSkyBox.glb"
-dest_files=["res://.godot/imported/SphereSkyBox.glb-61633af83ef2c132f3bab25bc7bc4ab8.scn"]
+source_file="res://assets/models/menu_backgrounds_old/UnderwaterChimney2.glb"
+dest_files=["res://.godot/imported/UnderwaterChimney2.glb-8cf987261bba9ded13a5b888e2f356dc.scn"]
 
 [params]
 
@@ -33,4 +33,4 @@ animation/import_rest_as_RESET=false
 import_script/path=""
 _subresources={}
 gltf/naming_version=0
-gltf/embedded_image_handling=1
+gltf/embedded_image_handling=2

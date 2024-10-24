@@ -1,0 +1,376 @@
+[gd_scene load_steps=21 format=3 uid="uid://c602awxmufavy"]
+
+[ext_resource type="PackedScene" uid="uid://c2h4vpmx0juq8" path="res://assets/models/menu_backgrounds/StarsMesh.tscn" id="1_jkjp5"]
+[ext_resource type="PackedScene" uid="uid://7etncy6memi4" path="res://assets/models/menu_backgrounds/MenuPlanet.tscn" id="2_uuml2"]
+[ext_resource type="PackedScene" uid="uid://cioaty38mki8x" path="res://assets/models/menu_backgrounds/MenuPlanetClouds.tscn" id="3_yvwkx"]
+[ext_resource type="PackedScene" uid="uid://bjhv73tanuowa" path="res://assets/models/menu_backgrounds/MenuPlanetFakeAtmosphere.tscn" id="4_mjctq"]
+[ext_resource type="PackedScene" uid="uid://dokew8lhrri5" path="res://assets/models/menu_backgrounds/Comet.tscn" id="5_mx1sl"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_bibmf"]
+sky_curve = 0.0923359
+sky_energy_multiplier = 0.0
+ground_bottom_color = Color(0.156863, 0.184314, 0.211765, 1)
+ground_horizon_color = Color(0.423529, 0.396078, 0.372549, 1)
+ground_energy_multiplier = 0.0
+sun_angle_max = 96.99
+sun_curve = 0.0174943
+
+[sub_resource type="Sky" id="2"]
+sky_material = SubResource("ProceduralSkyMaterial_bibmf")
+
+[sub_resource type="Environment" id="1"]
+background_mode = 2
+sky = SubResource("2")
+sky_rotation = Vector3(-0.452023, 0, -0.269235)
+ambient_light_color = Color(1, 1, 1, 1)
+ambient_light_sky_contribution = 0.24
+ambient_light_energy = 0.0
+ssr_enabled = true
+ssao_enabled = true
+ssao_radius = 3.42
+glow_enabled = true
+glow_levels/1 = 1.0
+glow_levels/2 = 1.0
+glow_levels/4 = 1.0
+glow_levels/6 = 1.0
+glow_levels/7 = 1.0
+glow_intensity = 0.5
+glow_strength = 0.85
+glow_bloom = 0.7
+glow_blend_mode = 1
+glow_hdr_threshold = 1.29
+glow_hdr_scale = 2.2
+glow_hdr_luminance_cap = 156.51
+adjustment_enabled = true
+adjustment_brightness = 1.06
+adjustment_contrast = 0.97
+adjustment_saturation = 0.99
+
+[sub_resource type="CameraAttributesPractical" id="CameraAttributesPractical_5nfsl"]
+auto_exposure_scale = 0.01
+auto_exposure_speed = 19.92
+
+[sub_resource type="StandardMaterial3D" id="19"]
+albedo_color = Color(0, 0, 0, 1)
+metallic = 1.0
+metallic_specular = 1.0
+roughness = 0.0
+emission_enabled = true
+emission = Color(0.843137, 0.780392, 0.627451, 1)
+emission_energy_multiplier = 10.0
+disable_receive_shadows = true
+
+[sub_resource type="Animation" id="20"]
+resource_name = "PlanetRotation"
+length = 60.0
+loop_mode = 1
+step = 1.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("MenuPlanet:rotation_degrees")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 60),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0, 0, 0), Vector3(0, 720, 0)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("MenuPlanet/MenuPlanetClouds:rotation_degrees")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 60),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0, 0, 0), Vector3(0, -360, 0)]
+}
+
+[sub_resource type="Animation" id="21"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:rotation_degrees")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 107.741, 0)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath(".:scale")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(1.001, 1.001, 1.001)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_3b6d4"]
+_data = {
+"PlanetRotation": SubResource("20"),
+"RESET": SubResource("21")
+}
+
+[sub_resource type="Animation" id="22"]
+resource_name = "CameraAnimation"
+length = 12.0
+loop_mode = 1
+tracks/0/type = "bezier"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Camera3D:position:x")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"handle_modes": PackedInt32Array(0, 0, 0),
+"points": PackedFloat32Array(-67.6689, -0.25, 0, 0.25, 0, -67.6689, -0.25, 0, 0.25, 0, -67.6689, -0.25, 0, 0.25, 0),
+"times": PackedFloat32Array(0, 6, 12)
+}
+tracks/1/type = "bezier"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Camera3D:position:y")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"handle_modes": PackedInt32Array(0, 0, 0),
+"points": PackedFloat32Array(-4.91601, -0.25, 0, 0.25, 0, -4.882, -0.25, 0, 0.25, 0, -4.91601, -0.25, 0, 0.25, 0),
+"times": PackedFloat32Array(0, 6, 12)
+}
+tracks/2/type = "bezier"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Camera3D:position:z")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"handle_modes": PackedInt32Array(0, 0, 0),
+"points": PackedFloat32Array(34.013, -0.25, 0, 0.25, 0, 34.013, -0.25, 0, 0.25, 0, 34.013, -0.25, 0, 0.25, 0),
+"times": PackedFloat32Array(0, 6, 12)
+}
+tracks/3/type = "bezier"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("Camera3D:rotation:x")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"handle_modes": PackedInt32Array(0, 0, 0),
+"points": PackedFloat32Array(-0.00326379, -0.25, 0, 0.25, 0, 0.0195804, -0.25, 0, 0.25, 0, -0.00326379, -0.25, 0, 0.25, 0),
+"times": PackedFloat32Array(0, 6, 12)
+}
+tracks/4/type = "bezier"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("Camera3D:rotation:y")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"handle_modes": PackedInt32Array(0, 0, 0),
+"points": PackedFloat32Array(-1.03397, -0.25, 0, 0.25, 0, -1.02316, -0.25, 0, 0.25, 0, -1.03397, -0.25, 0, 0.25, 0),
+"times": PackedFloat32Array(0, 6, 12)
+}
+tracks/5/type = "bezier"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("Camera3D:rotation:z")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"handle_modes": PackedInt32Array(0, 0, 0),
+"points": PackedFloat32Array(-0.0111876, -0.25, 0, 0.25, 0, 0.0027424, -0.25, 0, 0.25, 0, -0.0111876, -0.25, 0, 0.25, 0),
+"times": PackedFloat32Array(0, 6, 12)
+}
+
+[sub_resource type="Animation" id="24"]
+length = 0.001
+tracks/0/type = "bezier"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Camera3D:position:x")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"handle_modes": PackedInt32Array(0),
+"points": PackedFloat32Array(-67.6689, -0.25, 0, 0.25, 0),
+"times": PackedFloat32Array(0)
+}
+tracks/1/type = "bezier"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Camera3D:position:y")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"handle_modes": PackedInt32Array(0),
+"points": PackedFloat32Array(-4.91601, -0.25, 0, 0.25, 0),
+"times": PackedFloat32Array(0)
+}
+tracks/2/type = "bezier"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Camera3D:position:z")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"handle_modes": PackedInt32Array(0),
+"points": PackedFloat32Array(34.013, -0.25, 0, 0.25, 0),
+"times": PackedFloat32Array(0)
+}
+tracks/3/type = "bezier"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("Camera3D:rotation:x")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"handle_modes": PackedInt32Array(0),
+"points": PackedFloat32Array(-0.00326379, -0.25, 0, 0.25, 0),
+"times": PackedFloat32Array(0)
+}
+tracks/4/type = "bezier"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("Camera3D:rotation:y")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"handle_modes": PackedInt32Array(0),
+"points": PackedFloat32Array(-1.03397, -0.25, 0, 0.25, 0),
+"times": PackedFloat32Array(0)
+}
+tracks/5/type = "bezier"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("Camera3D:rotation:z")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"handle_modes": PackedInt32Array(0),
+"points": PackedFloat32Array(-0.0111876, -0.25, 0, 0.25, 0),
+"times": PackedFloat32Array(0)
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_vqvxl"]
+_data = {
+"CameraAnimation": SubResource("22"),
+"RESET": SubResource("24")
+}
+
+[sub_resource type="Gradient" id="40"]
+interpolation_mode = 2
+offsets = PackedFloat32Array(0, 0.519084, 0.564885)
+colors = PackedColorArray(0, 0, 0, 0, 1, 1, 1, 0.160784, 0, 0, 0, 0)
+
+[sub_resource type="GradientTexture2D" id="41"]
+gradient = SubResource("40")
+width = 256
+height = 256
+fill = 1
+fill_from = Vector2(0.5, 0.5)
+fill_to = Vector2(1, 0.9)
+
+[sub_resource type="StandardMaterial3D" id="39"]
+render_priority = 2
+transparency = 4
+blend_mode = 1
+cull_mode = 2
+shading_mode = 0
+vertex_color_use_as_albedo = true
+albedo_color = Color(0.4, 0.329412, 0.913725, 1)
+albedo_texture = SubResource("41")
+albedo_texture_force_srgb = true
+billboard_mode = 3
+billboard_keep_scale = true
+particles_anim_h_frames = 1
+particles_anim_v_frames = 1
+particles_anim_loop = false
+
+[sub_resource type="QuadMesh" id="38"]
+material = SubResource("39")
+size = Vector2(62, 62)
+
+[node name="MainMenuScene1" type="Node3D"]
+transform = Transform3D(-0.305019, 0, 0.953396, 0, 1.001, 0, -0.953396, 0, -0.305019, 0, 0, 0)
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("1")
+camera_attributes = SubResource("CameraAttributesPractical_5nfsl")
+
+[node name="starssphere" parent="." instance=ExtResource("1_jkjp5")]
+transform = Transform3D(10000, -2.45937, 1.74549, 2.44336, 9999.6, 91.1048, -1.76782, -91.1044, 9999.6, -12.7566, 0, 8.74701)
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(0.510837, 0.00851734, -0.858473, -0.0111761, 0.998933, 0.00326052, 0.858442, 0.00793674, 0.510898, -67.6689, -4.91601, 34.013)
+current = true
+fov = 36.8
+far = 15000.0
+
+[node name="Sun" type="OmniLight3D" parent="."]
+transform = Transform3D(1, 0, 3.28153e-07, 0, 1, 0, -3.28153e-07, 0, 1, 26.1623, 30.7487, -115.11)
+light_color = Color(0.972549, 0.956863, 0.937255, 1)
+light_energy = 25.0
+light_indirect_energy = 1.263
+light_size = 50000.0
+light_specular = 1.682
+light_bake_mode = 0
+omni_range = 4096.0
+
+[node name="CSGSphere3D" type="CSGSphere3D" parent="Sun"]
+transform = Transform3D(0.994733, 0.102497, 0, -0.102497, 0.994733, 0, 0, 0, 1, 0, 0, 0)
+radius = 2.613
+radial_segments = 32
+rings = 16
+material = SubResource("19")
+
+[node name="MenuPlanet" parent="." instance=ExtResource("2_uuml2")]
+transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, 20.8068, -18.562, 23.6122)
+
+[node name="MenuPlanetClouds" parent="MenuPlanet" instance=ExtResource("3_yvwkx")]
+transform = Transform3D(1.02, 0, -3.00974e-08, 0, 1.02, 0, 3.00974e-08, 0, 1.02, 0, 0, 0)
+
+[node name="MenuPlanet2" parent="MenuPlanet" instance=ExtResource("4_mjctq")]
+transform = Transform3D(-0.175385, 0, 0.994658, 0, 1.01, 0, -0.99466, 0, -0.175385, 0, 0, 0)
+
+[node name="PlanetRotation" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_3b6d4")
+}
+autoplay = "PlanetRotation"
+speed_scale = 0.1
+
+[node name="Comet" parent="." instance=ExtResource("5_mx1sl")]
+transform = Transform3D(-0.435714, -0.0203125, 0.899856, -0.112538, 0.993131, -0.0320738, -0.893022, -0.115243, -0.435007, -28.3748, -2.46547, 2.2588)
+
+[node name="Comet2" parent="." instance=ExtResource("5_mx1sl")]
+transform = Transform3D(-0.435714, -0.0203125, 0.899856, -0.112538, 0.99313, -0.0320737, -0.893022, -0.115243, -0.435007, -24.6598, -6.87856, -5.38809)
+
+[node name="Comet3" parent="." instance=ExtResource("5_mx1sl")]
+transform = Transform3D(-0.435716, -0.0203126, 0.899858, -0.112538, 0.993134, -0.0320738, -0.893024, -0.115243, -0.435009, -50.2067, -10.7811, 10.4715)
+
+[node name="CameraAnimation" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_vqvxl")
+}
+autoplay = "CameraAnimation"
+speed_scale = 0.5
+
+[node name="FakeAtmoshereParticle" type="CPUParticles3D" parent="."]
+transform = Transform3D(-1001.23, 0, 5915.88, 0, 6000.04, 0, -5915.88, 0, -1001.23, 21.3612, -18.8713, 23.9765)
+amount = 2
+lifetime = 1.42
+preprocess = 2.08
+mesh = SubResource("38")
+gravity = Vector3(0, 0, 0)

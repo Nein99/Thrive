@@ -1,18 +1,18 @@
-[gd_scene load_steps=10 format=3 uid="uid://c46w6nmb14i0m"]
+[gd_scene load_steps=10 format=3 uid="uid://so8pm6co30wi"]
 
-[ext_resource type="Texture2D" uid="uid://kloyvken30uu" path="res://assets/textures/menu_backgrounds/SingleClouds.png" id="1_x45yp"]
-[ext_resource type="Texture2D" uid="uid://dhad2rl5f4478" path="res://assets/textures/menu_backgrounds/SingleClouds_Normal.png" id="2_6n6kd"]
+[ext_resource type="Texture2D" uid="uid://kloyvken30uu" path="res://assets/textures/menu_backgrounds/SingleClouds.png" id="1_37ch7"]
+[ext_resource type="Texture2D" uid="uid://dhad2rl5f4478" path="res://assets/textures/menu_backgrounds/SingleClouds_Normal.png" id="2_y2k5o"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_5ixe1"]
 transparency = 4
 vertex_color_use_as_albedo = true
-albedo_texture = ExtResource("1_x45yp")
+albedo_texture = ExtResource("1_37ch7")
 metallic = 0.18
 metallic_specular = 1.0
 roughness = 0.7
 normal_enabled = true
 normal_scale = 6.2
-normal_texture = ExtResource("2_6n6kd")
+normal_texture = ExtResource("2_y2k5o")
 disable_receive_shadows = true
 billboard_mode = 3
 particles_anim_h_frames = 1

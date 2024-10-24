@@ -116,7 +116,7 @@ theme = ExtResource("1")
 script = ExtResource("6")
 ThriveLogoPath = NodePath("MenuContainers/LogoCenterContainer/Logo")
 MenuBackgrounds = [ExtResource("8"), ExtResource("7"), ExtResource("9")]
-Menu3DBackgroundScenes = ["res://assets/models/menu_backgrounds/MainMenuScene1.tscn", "res://assets/models/menu_backgrounds/MainMenuScene2.tscn", "res://assets/models/menu_backgrounds/MainMenuScene3.tscn"]
+Menu3DBackgroundScenes = ["res://assets/models/menu_backgrounds/MainMenuScene4.tscn"]
 FreebuildButtonPath = NodePath("MenuContainers/Menus/VBoxContainer/Tools/FreebuildMicrobeEditor")
 MulticellularFreebuildButtonPath = NodePath("MenuContainers/Menus/VBoxContainer/Tools/FreebuildMulticellularEditor")
 AutoEvoExploringButtonPath = NodePath("MenuContainers/Menus/VBoxContainer/Tools/AutoEvoExploring")
@@ -161,16 +161,17 @@ editor_description = "PLACEHOLDER"
 layout_mode = 1
 anchors_preset = -1
 anchor_right = 1.0
-offset_left = 4.0
+offset_left = 720.0
 offset_top = 4.0
-offset_right = -721.0
+offset_right = -5.0
 offset_bottom = 47.0
-grow_horizontal = 2
+grow_horizontal = 0
 size_flags_horizontal = 3
 size_flags_vertical = 6
 mouse_filter = 1
 text = "Logged in as: name"
 label_settings = ExtResource("7_1nsb2")
+horizontal_alignment = 2
 max_lines_visible = 1
 
 [node name="VersionNumber" type="Label" parent="."]
@@ -200,18 +201,15 @@ layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
+offset_left = -480.0
+offset_right = -480.0
 grow_horizontal = 2
 grow_vertical = 2
 
 [node name="LogoCenterContainer" type="CenterContainer" parent="MenuContainers"]
 layout_mode = 1
-anchors_preset = 5
-anchor_left = 0.5
-anchor_right = 0.5
-offset_left = -640.0
-offset_right = 639.0
+offset_right = 1279.0
 offset_bottom = 221.0
-grow_horizontal = 2
 
 [node name="Logo" type="TextureRect" parent="MenuContainers/LogoCenterContainer"]
 custom_minimum_size = Vector2(200, 200)
@@ -226,9 +224,9 @@ anchors_preset = -1
 anchor_left = 1.0
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = -470.84
+offset_left = 180.0
 offset_top = 195.0
-offset_right = -30.0
+offset_right = 480.0
 offset_bottom = -125.0
 mouse_filter = 2
 
@@ -246,7 +244,6 @@ mouse_filter = 2
 
 [node name="ThriveFeedDisplayer" parent="MenuContainers/FeedPositioner/VBoxContainer/NewsDisabler" instance=ExtResource("57")]
 layout_mode = 2
-size_flags_horizontal = 3
 size_flags_vertical = 3
 
 [node name="PatchNotesDisabler" type="VBoxContainer" parent="MenuContainers/FeedPositioner/VBoxContainer"]
@@ -496,15 +493,6 @@ focus_previous = NodePath(".")
 mouse_filter = 1
 text = "MICROBE_BENCHMARK"
 
-[node name="CloudBenchmark" type="Button" parent="MenuContainers/Menus/VBoxContainer/Benchmarks"]
-custom_minimum_size = Vector2(250, 40)
-layout_mode = 2
-size_flags_vertical = 0
-focus_neighbor_top = NodePath(".")
-focus_previous = NodePath(".")
-mouse_filter = 1
-text = "COMPOUND_CLOUD_BENCHMARK"
-
 [node name="unknown" type="Button" parent="MenuContainers/Menus/VBoxContainer/Benchmarks"]
 editor_description = "PLACEHOLDER"
 custom_minimum_size = Vector2(250, 40)
@@ -641,13 +629,15 @@ SkipOverridingFocusForElements = [NodePath("../../../..")]
 
 [node name="SocialMedia" type="HBoxContainer" parent="MenuContainers"]
 layout_mode = 1
-anchors_preset = 2
+anchors_preset = 7
+anchor_left = 0.5
 anchor_top = 1.0
+anchor_right = 0.5
 anchor_bottom = 1.0
-offset_left = 7.0
-offset_top = -33.0
-offset_right = 397.0
-offset_bottom = -8.0
+offset_left = -640.0
+offset_top = -25.0
+offset_right = -250.0
+grow_horizontal = 2
 grow_vertical = 0
 theme = ExtResource("1")
 theme_override_constants/separation = 10
@@ -921,7 +911,6 @@ ShowCloseButton = false
 [connection signal="pressed" from="MenuContainers/Menus/VBoxContainer/Extras/VisitSuggestionsSite" to="." method="VisitSuggestionsSitePressed"]
 [connection signal="pressed" from="MenuContainers/Menus/VBoxContainer/Extras/Back" to="." method="BackFromToolsPressed"]
 [connection signal="pressed" from="MenuContainers/Menus/VBoxContainer/Benchmarks/MicrobeBenchmark" to="." method="MicrobeBenchmarkPressed"]
-[connection signal="pressed" from="MenuContainers/Menus/VBoxContainer/Benchmarks/CloudBenchmark" to="." method="CloudBenchmarkPressed"]
 [connection signal="pressed" from="MenuContainers/Menus/VBoxContainer/Benchmarks/Back" to="." method="OnReturnFromBenchmarks"]
 [connection signal="pressed" from="MenuContainers/WebsiteButtons/HBoxContainer/MarginContainer/VBoxContainer/OfficialWebsiteButton" to="." method="OnSocialMediaButtonPressed" binds= ["https://revolutionarygamesstudio.com/"]]
 [connection signal="pressed" from="MenuContainers/WebsiteButtons/HBoxContainer/MarginContainer/VBoxContainer/CommunityForumButton" to="." method="OnSocialMediaButtonPressed" binds= ["https://community.revolutionarygamesstudio.com/"]]
