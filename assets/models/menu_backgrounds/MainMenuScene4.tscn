@@ -1,0 +1,283 @@
+[gd_scene load_steps=9 format=3 uid="uid://5nrwc51s7ujr"]
+
+[ext_resource type="PackedScene" uid="uid://417im5ljdrjy" path="res://assets/models/menu_backgrounds/galaxy_scene.tscn" id="1_bxqwq"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_bibmf"]
+sky_curve = 0.0923359
+sky_energy_multiplier = 0.0
+ground_bottom_color = Color(0.156863, 0.184314, 0.211765, 1)
+ground_horizon_color = Color(0.423529, 0.396078, 0.372549, 1)
+ground_energy_multiplier = 0.0
+sun_angle_max = 96.99
+sun_curve = 0.0174943
+
+[sub_resource type="Sky" id="2"]
+sky_material = SubResource("ProceduralSkyMaterial_bibmf")
+
+[sub_resource type="Environment" id="1"]
+background_mode = 2
+sky = SubResource("2")
+sky_rotation = Vector3(-0.452023, 0, -0.269235)
+ambient_light_source = 1
+ambient_light_color = Color(0.690196, 0, 1, 1)
+ambient_light_energy = 16.0
+reflected_light_source = 1
+ssao_enabled = true
+ssao_radius = 3.42
+glow_enabled = true
+glow_levels/1 = 1.0
+glow_levels/2 = 1.0
+glow_levels/4 = 1.0
+glow_levels/6 = 1.0
+glow_levels/7 = 1.0
+glow_normalized = true
+glow_intensity = 3.4
+glow_strength = 0.87
+glow_bloom = 1.0
+glow_blend_mode = 1
+glow_hdr_threshold = 1.29
+glow_hdr_scale = 2.2
+glow_hdr_luminance_cap = 156.51
+
+[sub_resource type="CameraAttributesPractical" id="CameraAttributesPractical_5nfsl"]
+exposure_multiplier = 0.536
+auto_exposure_scale = 0.01
+auto_exposure_speed = 0.01
+dof_blur_far_enabled = true
+dof_blur_far_distance = 12.64
+dof_blur_amount = 0.26
+
+[sub_resource type="Animation" id="22"]
+resource_name = "CameraAnimation"
+length = 12.0
+loop_mode = 1
+tracks/0/type = "bezier"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Camera3D:position:x")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"handle_modes": PackedInt32Array(0, 0, 0),
+"points": PackedFloat32Array(-67.6689, -0.25, 0, 0.25, 0, -67.6689, -0.25, 0, 0.25, 0, -67.6689, -0.25, 0, 0.25, 0),
+"times": PackedFloat32Array(0, 6, 12)
+}
+tracks/1/type = "bezier"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Camera3D:position:y")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"handle_modes": PackedInt32Array(0, 0, 0),
+"points": PackedFloat32Array(-4.91601, -0.25, 0, 0.25, 0, -4.882, -0.25, 0, 0.25, 0, -4.91601, -0.25, 0, 0.25, 0),
+"times": PackedFloat32Array(0, 6, 12)
+}
+tracks/2/type = "bezier"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Camera3D:position:z")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"handle_modes": PackedInt32Array(0, 0, 0),
+"points": PackedFloat32Array(34.013, -0.25, 0, 0.25, 0, 34.013, -0.25, 0, 0.25, 0, 34.013, -0.25, 0, 0.25, 0),
+"times": PackedFloat32Array(0, 6, 12)
+}
+tracks/3/type = "bezier"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("Camera3D:rotation:x")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"handle_modes": PackedInt32Array(0, 0, 0),
+"points": PackedFloat32Array(-0.00326379, -0.25, 0, 0.25, 0, 0.0195804, -0.25, 0, 0.25, 0, -0.00326379, -0.25, 0, 0.25, 0),
+"times": PackedFloat32Array(0, 6, 12)
+}
+tracks/4/type = "bezier"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("Camera3D:rotation:y")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"handle_modes": PackedInt32Array(0, 0, 0),
+"points": PackedFloat32Array(-1.03397, -0.25, 0, 0.25, 0, -1.02316, -0.25, 0, 0.25, 0, -1.03397, -0.25, 0, 0.25, 0),
+"times": PackedFloat32Array(0, 6, 12)
+}
+tracks/5/type = "bezier"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("Camera3D:rotation:z")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"handle_modes": PackedInt32Array(0, 0, 0),
+"points": PackedFloat32Array(-0.0111876, -0.25, 0, 0.25, 0, 0.0027424, -0.25, 0, 0.25, 0, -0.0111876, -0.25, 0, 0.25, 0),
+"times": PackedFloat32Array(0, 6, 12)
+}
+
+[sub_resource type="Animation" id="24"]
+length = 0.001
+tracks/0/type = "bezier"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Camera3D:position:x")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"handle_modes": PackedInt32Array(0),
+"points": PackedFloat32Array(-67.6689, -0.25, 0, 0.25, 0),
+"times": PackedFloat32Array(0)
+}
+tracks/1/type = "bezier"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Camera3D:position:y")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"handle_modes": PackedInt32Array(0),
+"points": PackedFloat32Array(-4.91601, -0.25, 0, 0.25, 0),
+"times": PackedFloat32Array(0)
+}
+tracks/2/type = "bezier"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Camera3D:position:z")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"handle_modes": PackedInt32Array(0),
+"points": PackedFloat32Array(34.013, -0.25, 0, 0.25, 0),
+"times": PackedFloat32Array(0)
+}
+tracks/3/type = "bezier"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("Camera3D:rotation:x")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"handle_modes": PackedInt32Array(0),
+"points": PackedFloat32Array(-0.00326379, -0.25, 0, 0.25, 0),
+"times": PackedFloat32Array(0)
+}
+tracks/4/type = "bezier"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("Camera3D:rotation:y")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"handle_modes": PackedInt32Array(0),
+"points": PackedFloat32Array(-1.03397, -0.25, 0, 0.25, 0),
+"times": PackedFloat32Array(0)
+}
+tracks/5/type = "bezier"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("Camera3D:rotation:z")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"handle_modes": PackedInt32Array(0),
+"points": PackedFloat32Array(-0.0111876, -0.25, 0, 0.25, 0),
+"times": PackedFloat32Array(0)
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_vqvxl"]
+_data = {
+"CameraAnimation": SubResource("22"),
+"RESET": SubResource("24")
+}
+
+[node name="MainMenuScene4" type="Node3D"]
+transform = Transform3D(-0.305019, 0, 0.953396, 0, 1.001, 0, -0.953396, 0, -0.305019, 0, 0, 0)
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("1")
+camera_attributes = SubResource("CameraAttributesPractical_5nfsl")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(0.510837, 0.00851734, -0.858474, -0.0111761, 0.998933, 0.00326053, 0.858442, 0.00793674, 0.510898, -67.6689, -4.91601, 34.013)
+current = true
+fov = 36.8
+far = 15000.0
+
+[node name="CameraAnimation" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_vqvxl")
+}
+autoplay = "CameraAnimation"
+speed_scale = 0.211
+
+[node name="Galaxy" parent="." instance=ExtResource("1_bxqwq")]
+transform = Transform3D(0.0455498, -0.899166, -0.435231, -0.99872, -0.0505929, 2.21273e-09, -0.0220196, 0.434674, -0.900319, -61.0543, -3.503, 28.2082)
+
+[node name="OmniLight3D" type="OmniLight3D" parent="Galaxy"]
+transform = Transform3D(0.999001, 2.79397e-08, 2.79397e-08, -2.79397e-08, 0.999001, 2.08616e-07, -2.79397e-08, -2.08616e-07, 0.999001, 1.41331, 1.54296, -1.69555)
+light_color = Color(0.968206, 0.733596, 0.349484, 1)
+light_energy = 4.348
+light_indirect_energy = 16.0
+light_volumetric_fog_energy = 0.0
+light_specular = 0.0
+distance_fade_begin = 519.21
+distance_fade_length = 4096.0
+
+[node name="OmniLight3D2" type="OmniLight3D" parent="Galaxy"]
+transform = Transform3D(0.999001, 2.79397e-08, 2.79397e-08, -2.79397e-08, 0.999001, 2.08616e-07, -2.79397e-08, -2.08616e-07, 0.999001, 1.41331, 1.54296, -1.69555)
+light_color = Color(0.691334, 0.000206096, 0.64373, 1)
+light_energy = 7.07
+light_indirect_energy = 16.0
+light_volumetric_fog_energy = 0.0
+light_specular = 0.0
+distance_fade_begin = 519.21
+distance_fade_length = 4096.0
+omni_attenuation = 0.718
+
+[node name="OmniLight3D3" type="OmniLight3D" parent="Galaxy"]
+transform = Transform3D(0.999001, 2.79397e-08, 2.79397e-08, -2.79397e-08, 0.999001, 2.08616e-07, -2.79397e-08, -2.08616e-07, 0.999001, 1.41331, 1.54296, -1.69555)
+light_color = Color(0.196078, 0.419608, 1, 1)
+light_energy = 2.657
+light_indirect_energy = 16.0
+light_volumetric_fog_energy = 0.0
+light_specular = 0.0
+distance_fade_begin = 519.21
+distance_fade_length = 4096.0
+omni_attenuation = -2.099
+
+[node name="OmniLight3D4" type="OmniLight3D" parent="Galaxy"]
+transform = Transform3D(0.999001, 1.49012e-08, 2.98023e-08, -1.49012e-08, 0.999001, 1.78814e-07, -2.98023e-08, -1.78814e-07, 0.999001, 1.30113, 3.75736, -1.82023)
+visible = false
+light_color = Color(0.968206, 0.733596, 0.349484, 1)
+light_energy = 11.783
+light_indirect_energy = 16.0
+light_volumetric_fog_energy = 0.0
+light_specular = 0.0
+distance_fade_begin = 519.21
+distance_fade_length = 4096.0
+
+[node name="OmniLight3D5" type="OmniLight3D" parent="Galaxy"]
+transform = Transform3D(0.999001, 1.49012e-08, 2.98023e-08, -1.49012e-08, 0.999001, 1.78814e-07, -2.98023e-08, -1.78814e-07, 0.999001, 1.30113, 3.75736, -1.82023)
+visible = false
+light_color = Color(0.691334, 0.000206096, 0.64373, 1)
+light_energy = 12.565
+light_indirect_energy = 16.0
+light_volumetric_fog_energy = 0.0
+light_specular = 0.0
+distance_fade_begin = 519.21
+distance_fade_length = 4096.0
+omni_attenuation = 0.718
+
+[node name="OmniLight3D6" type="OmniLight3D" parent="Galaxy"]
+transform = Transform3D(0.999001, 1.49012e-08, 2.98023e-08, -1.49012e-08, 0.999001, 1.78814e-07, -2.98023e-08, -1.78814e-07, 0.999001, 1.30113, 3.75736, -1.82023)
+visible = false
+light_energy = 0.071
+light_indirect_energy = 16.0
+light_volumetric_fog_energy = 0.0
+light_specular = 0.0
+distance_fade_begin = 519.21
+distance_fade_length = 4096.0
+omni_attenuation = -2.099

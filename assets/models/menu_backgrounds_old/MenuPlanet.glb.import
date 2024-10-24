@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://ccew8sy46256o"
-path="res://.godot/imported/UnderwaterChimney1.glb-e8e73cc0f2e93b9faa5cb43dbc05f5b1.scn"
+uid="uid://b30fu7q3hmm42"
+path="res://.godot/imported/MenuPlanet.glb-e78c6532bf0347417fe397a3adf8b9db.scn"
 
 [deps]
 
-source_file="res://assets/models/menu_backgrounds/UnderwaterChimney1.glb"
-dest_files=["res://.godot/imported/UnderwaterChimney1.glb-e8e73cc0f2e93b9faa5cb43dbc05f5b1.scn"]
+source_file="res://assets/models/menu_backgrounds_old/MenuPlanet.glb"
+dest_files=["res://.godot/imported/MenuPlanet.glb-e78c6532bf0347417fe397a3adf8b9db.scn"]
 
 [params]
 

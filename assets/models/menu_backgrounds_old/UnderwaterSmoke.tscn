@@ -1,7 +1,7 @@
-[gd_scene load_steps=12 format=3 uid="uid://bbc87m2s4lt5b"]
+[gd_scene load_steps=12 format=3 uid="uid://cuog5omlv5l1n"]
 
-[ext_resource type="Texture2D" uid="uid://kloyvken30uu" path="res://assets/textures/menu_backgrounds/SingleClouds.png" id="1_64woj"]
-[ext_resource type="Texture2D" uid="uid://dhad2rl5f4478" path="res://assets/textures/menu_backgrounds/SingleClouds_Normal.png" id="2_j5pel"]
+[ext_resource type="Texture2D" uid="uid://kloyvken30uu" path="res://assets/textures/menu_backgrounds/SingleClouds.png" id="1_6jym0"]
+[ext_resource type="Texture2D" uid="uid://dhad2rl5f4478" path="res://assets/textures/menu_backgrounds/SingleClouds_Normal.png" id="2_dged3"]
 
 [sub_resource type="Curve" id="Curve_egsrj"]
 _data = [Vector2(0, 1), 0.0, 0.0, 0, 0, Vector2(0.519149, 0.651685), -2.31039, -2.31039, 0, 0, Vector2(1, 0), -1.21867, 0.0, 0, 0]
@@ -46,13 +46,13 @@ transparency = 1
 cull_mode = 2
 vertex_color_use_as_albedo = true
 vertex_color_is_srgb = true
-albedo_texture = ExtResource("1_64woj")
+albedo_texture = ExtResource("1_6jym0")
 metallic = 0.08
 metallic_specular = 0.93
 roughness = 0.75
 normal_enabled = true
 normal_scale = 3.49
-normal_texture = ExtResource("2_j5pel")
+normal_texture = ExtResource("2_dged3")
 billboard_mode = 3
 particles_anim_h_frames = 1
 particles_anim_v_frames = 1
