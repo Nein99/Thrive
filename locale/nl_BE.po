@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-10-23 11:33+0300\n"
+"POT-Creation-Date: 2024-10-24 15:45-0500\n"
 "PO-Revision-Date: 2024-10-17 07:24+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Dutch (Belgium) <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/nl_BE/>\n"
@@ -488,7 +488,44 @@ msgstr "Druk [thrive:input]g_toggle_binding[/thrive:input] om verbindingsmodus t
 msgid "BIND_AXES_SENSITIVITY"
 msgstr "Bind assen bij elkaar"
 
-msgid "BIOLUMINESCENT_VACUOLE"
+#, fuzzy
+msgid "BIOLUMINESCENT_VACUOLE_BLUE"
+msgstr "Bioluminescente Vacuole"
+
+#, fuzzy
+msgid "BIOLUMINESCENT_VACUOLE_BLUE_DESCRIPTION"
+msgstr "Bioluminescente Vacuole"
+
+#, fuzzy
+msgid "BIOLUMINESCENT_VACUOLE_GREEN"
+msgstr "Bioluminescente Vacuole"
+
+#, fuzzy
+msgid "BIOLUMINESCENT_VACUOLE_GREEN_DESCRIPTION"
+msgstr "Bioluminescente Vacuole"
+
+#, fuzzy
+msgid "BIOLUMINESCENT_VACUOLE_RED_DESCRIPTION"
+msgstr "Bioluminescente Vacuole"
+
+#, fuzzy
+msgid "BIOLUMINESCENT_VACUOLE_Red"
+msgstr "Bioluminescente Vacuole"
+
+#, fuzzy
+msgid "BIOLUMINESCENT_VACUOLE_VIOLET"
+msgstr "Bioluminescente Vacuole"
+
+#, fuzzy
+msgid "BIOLUMINESCENT_VACUOLE_VIOLET_DESCRIPTION"
+msgstr "Bioluminescente Vacuole"
+
+#, fuzzy
+msgid "BIOLUMINESCENT_VACUOLE_YELLOW"
+msgstr "Bioluminescente Vacuole"
+
+#, fuzzy
+msgid "BIOLUMINESCENT_VACUOLE_YELLOW_DESCRIPTION"
 msgstr "Bioluminescente Vacuole"
 
 msgid "BIOME_LABEL"
@@ -879,10 +916,6 @@ msgid "COMPOUND_BALANCE_TOOLTIP"
 msgstr "Toon / verstop omgeving en verbindingen"
 
 msgid "COMPOUND_CLOUDS"
-msgstr "Wolken met chemische stoffen"
-
-#, fuzzy
-msgid "COMPOUND_CLOUD_BENCHMARK"
 msgstr "Wolken met chemische stoffen"
 
 #, fuzzy
@@ -3189,6 +3222,41 @@ msgstr "Prestaties"
 #, fuzzy
 msgid "LOW_MENU_PERFORMANCE_DESCRIPTION"
 msgstr "verandert [thrive:compound type=\"atp\"][/thrive:compound] in [thrive:compound type=\"oxytoxy\"][/thrive:compound]. Ratio schaalt met concentratie van [thrive:compound type=\"oxygen\"][/thrive:compound]. Kan gif afvuren door te drukken op [thrive:input]g_fire_toxin[/thrive:input]."
+
+msgid "LUCIFERASE"
+msgstr ""
+
+#, fuzzy
+msgid "LUCIFERASE_DESCRIPTION"
+msgstr "Het kleverige binnenste van een cel. Het cytoplasma is het basismengsel van ionen, proteïnen en andere in water opgeloste stoffen die de binnenkant van de cel vullen. Een van de functies die het vervult is glycolyse, de omzetting van glucose in ATP-energie. Voor cellen zonder organellen die zorgen voor een geavanceerder metabolisme, is dit waar ze op vertrouwen voor energie. Het wordt ook gebruikt om moleculen in de cel op te slaan en om de cel te vergroten."
+
+msgid "LUCIFERASE_GREEN"
+msgstr ""
+
+#, fuzzy
+msgid "LUCIFERASE_GREEN_DESCRIPTION"
+msgstr "Het kleverige binnenste van een cel. Het cytoplasma is het basismengsel van ionen, proteïnen en andere in water opgeloste stoffen die de binnenkant van de cel vullen. Een van de functies die het vervult is glycolyse, de omzetting van glucose in ATP-energie. Voor cellen zonder organellen die zorgen voor een geavanceerder metabolisme, is dit waar ze op vertrouwen voor energie. Het wordt ook gebruikt om moleculen in de cel op te slaan en om de cel te vergroten."
+
+msgid "LUCIFERASE_RED"
+msgstr ""
+
+#, fuzzy
+msgid "LUCIFERASE_RED_DESCRIPTION"
+msgstr "Het kleverige binnenste van een cel. Het cytoplasma is het basismengsel van ionen, proteïnen en andere in water opgeloste stoffen die de binnenkant van de cel vullen. Een van de functies die het vervult is glycolyse, de omzetting van glucose in ATP-energie. Voor cellen zonder organellen die zorgen voor een geavanceerder metabolisme, is dit waar ze op vertrouwen voor energie. Het wordt ook gebruikt om moleculen in de cel op te slaan en om de cel te vergroten."
+
+msgid "LUCIFERASE_VIOLET"
+msgstr ""
+
+#, fuzzy
+msgid "LUCIFERASE_VIOLET_DESCRIPTION"
+msgstr "Het kleverige binnenste van een cel. Het cytoplasma is het basismengsel van ionen, proteïnen en andere in water opgeloste stoffen die de binnenkant van de cel vullen. Een van de functies die het vervult is glycolyse, de omzetting van glucose in ATP-energie. Voor cellen zonder organellen die zorgen voor een geavanceerder metabolisme, is dit waar ze op vertrouwen voor energie. Het wordt ook gebruikt om moleculen in de cel op te slaan en om de cel te vergroten."
+
+msgid "LUCIFERASE_YELLOW"
+msgstr ""
+
+#, fuzzy
+msgid "LUCIFERASE_YELLOW_DESCRIPTION"
+msgstr "Het kleverige binnenste van een cel. Het cytoplasma is het basismengsel van ionen, proteïnen en andere in water opgeloste stoffen die de binnenkant van de cel vullen. Een van de functies die het vervult is glycolyse, de omzetting van glucose in ATP-energie. Voor cellen zonder organellen die zorgen voor een geavanceerder metabolisme, is dit waar ze op vertrouwen voor energie. Het wordt ook gebruikt om moleculen in de cel op te slaan en om de cel te vergroten."
 
 #, fuzzy
 msgid "LYSOSOME"
@@ -5930,9 +5998,6 @@ msgstr "Oxytoxisoom"
 msgid "TOXISOME_DESCRIPTION"
 msgstr "Metabolosomen zijn clusters van proteïnen verpakt in eiwitomhulsels. Ze zijn in staat om veel sneller glucose om te zetten in ATP dan cytoplasma, dit door middel van een proces genaamd aerobe respiratie. Het heeft echter wel zuurstof nodig om te functioneren en lagere zuurstofniveaus in de omgeving vertragen dus de ATP-productie. Omdat de metabolosomen direct in het cytoplasma zijn gesuspendeerd, voert de omringende vloeistof enige glycolyse uit."
 
-msgid "TO_BE_IMPLEMENTED"
-msgstr "Moet nog toegevoegd worden."
-
 msgid "TRANSLATORS"
 msgstr "Vertalers"
 
@@ -8176,6 +8241,13 @@ msgstr "Inzoomen"
 
 msgid "ZOOM_OUT"
 msgstr "Uitzoomen"
+
+#, fuzzy
+#~ msgid "COMPOUND_CLOUD_BENCHMARK"
+#~ msgstr "Wolken met chemische stoffen"
+
+#~ msgid "TO_BE_IMPLEMENTED"
+#~ msgstr "Moet nog toegevoegd worden."
 
 #, fuzzy
 #~ msgid "OXYTOXISOME_DESC"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-10-23 11:33+0300\n"
+"POT-Creation-Date: 2024-10-24 15:45-0500\n"
 "PO-Revision-Date: 2024-10-17 07:24+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Catalan <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/ca/>\n"
@@ -483,7 +483,44 @@ msgstr "Pressiona la tecla [thrive:input]g_toggle_binding[/thrive:input] per ent
 msgid "BIND_AXES_SENSITIVITY"
 msgstr ""
 
-msgid "BIOLUMINESCENT_VACUOLE"
+#, fuzzy
+msgid "BIOLUMINESCENT_VACUOLE_BLUE"
+msgstr "Vacúol Bioluminescent"
+
+#, fuzzy
+msgid "BIOLUMINESCENT_VACUOLE_BLUE_DESCRIPTION"
+msgstr "Vacúol Bioluminescent"
+
+#, fuzzy
+msgid "BIOLUMINESCENT_VACUOLE_GREEN"
+msgstr "Vacúol Bioluminescent"
+
+#, fuzzy
+msgid "BIOLUMINESCENT_VACUOLE_GREEN_DESCRIPTION"
+msgstr "Vacúol Bioluminescent"
+
+#, fuzzy
+msgid "BIOLUMINESCENT_VACUOLE_RED_DESCRIPTION"
+msgstr "Vacúol Bioluminescent"
+
+#, fuzzy
+msgid "BIOLUMINESCENT_VACUOLE_Red"
+msgstr "Vacúol Bioluminescent"
+
+#, fuzzy
+msgid "BIOLUMINESCENT_VACUOLE_VIOLET"
+msgstr "Vacúol Bioluminescent"
+
+#, fuzzy
+msgid "BIOLUMINESCENT_VACUOLE_VIOLET_DESCRIPTION"
+msgstr "Vacúol Bioluminescent"
+
+#, fuzzy
+msgid "BIOLUMINESCENT_VACUOLE_YELLOW"
+msgstr "Vacúol Bioluminescent"
+
+#, fuzzy
+msgid "BIOLUMINESCENT_VACUOLE_YELLOW_DESCRIPTION"
 msgstr "Vacúol Bioluminescent"
 
 msgid "BIOME_LABEL"
@@ -870,10 +907,6 @@ msgstr "Mostrar / amagar l'entorn i els compostos"
 
 msgid "COMPOUND_CLOUDS"
 msgstr "Núvols de Compostos"
-
-#, fuzzy
-msgid "COMPOUND_CLOUD_BENCHMARK"
-msgstr "Densitat de núvols de Compostos"
 
 msgid "COMPOUND_CLOUD_DENSITY"
 msgstr "Densitat de núvols de Compostos"
@@ -3127,6 +3160,41 @@ msgstr "Rendiment"
 #, fuzzy
 msgid "LOW_MENU_PERFORMANCE_DESCRIPTION"
 msgstr "Conté enzims digestius. Es pot modificar per canviar el tipus d'enzim que conté. Només es pot utilitzar un enzim cada vegada."
+
+msgid "LUCIFERASE"
+msgstr ""
+
+#, fuzzy
+msgid "LUCIFERASE_DESCRIPTION"
+msgstr "La lipasa permet a la cèl·lula digerir la major part de membranes. La teva cèl·lula ja produeix una certa quantitat d'aquest enzim sense lisosoma, però seleccionant aquest tipus n'augmentaràs l'efectivitat."
+
+msgid "LUCIFERASE_GREEN"
+msgstr ""
+
+#, fuzzy
+msgid "LUCIFERASE_GREEN_DESCRIPTION"
+msgstr "La lipasa permet a la cèl·lula digerir la major part de membranes. La teva cèl·lula ja produeix una certa quantitat d'aquest enzim sense lisosoma, però seleccionant aquest tipus n'augmentaràs l'efectivitat."
+
+msgid "LUCIFERASE_RED"
+msgstr ""
+
+#, fuzzy
+msgid "LUCIFERASE_RED_DESCRIPTION"
+msgstr "La lipasa permet a la cèl·lula digerir la major part de membranes. La teva cèl·lula ja produeix una certa quantitat d'aquest enzim sense lisosoma, però seleccionant aquest tipus n'augmentaràs l'efectivitat."
+
+msgid "LUCIFERASE_VIOLET"
+msgstr ""
+
+#, fuzzy
+msgid "LUCIFERASE_VIOLET_DESCRIPTION"
+msgstr "La lipasa permet a la cèl·lula digerir la major part de membranes. La teva cèl·lula ja produeix una certa quantitat d'aquest enzim sense lisosoma, però seleccionant aquest tipus n'augmentaràs l'efectivitat."
+
+msgid "LUCIFERASE_YELLOW"
+msgstr ""
+
+#, fuzzy
+msgid "LUCIFERASE_YELLOW_DESCRIPTION"
+msgstr "La lipasa permet a la cèl·lula digerir la major part de membranes. La teva cèl·lula ja produeix una certa quantitat d'aquest enzim sense lisosoma, però seleccionant aquest tipus n'augmentaràs l'efectivitat."
 
 msgid "LYSOSOME"
 msgstr "Lisosoma"
@@ -5896,9 +5964,6 @@ msgstr "Oxytoxysoma"
 msgid "TOXISOME_DESCRIPTION"
 msgstr "El lisosoma és un orgànul adherit a la membrana que conté enzims hidrolítics que poden trencar diverses biomolècules. Els lisosomes permeten a la cèl·lula digerir materials ingerits mitjançant endocitosi i netejar els productes de rebuig de la cèl·lula en un procés anomenat autofàgia."
 
-msgid "TO_BE_IMPLEMENTED"
-msgstr "Encara no s'ha implementat."
-
 msgid "TRANSLATORS"
 msgstr "Traductors"
 
@@ -8115,6 +8180,13 @@ msgstr "Enfocar la visió de la càmera"
 
 msgid "ZOOM_OUT"
 msgstr "Zoom enfora"
+
+#, fuzzy
+#~ msgid "COMPOUND_CLOUD_BENCHMARK"
+#~ msgstr "Densitat de núvols de Compostos"
+
+#~ msgid "TO_BE_IMPLEMENTED"
+#~ msgstr "Encara no s'ha implementat."
 
 #, fuzzy
 #~ msgid "OXYTOXISOME_DESC"

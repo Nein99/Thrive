@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-10-23 11:33+0300\n"
+"POT-Creation-Date: 2024-10-24 15:45-0500\n"
 "PO-Revision-Date: 2024-09-17 07:03+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Croatian <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/hr/>\n"
@@ -460,7 +460,34 @@ msgstr ""
 msgid "BIND_AXES_SENSITIVITY"
 msgstr ""
 
-msgid "BIOLUMINESCENT_VACUOLE"
+msgid "BIOLUMINESCENT_VACUOLE_BLUE"
+msgstr ""
+
+msgid "BIOLUMINESCENT_VACUOLE_BLUE_DESCRIPTION"
+msgstr ""
+
+msgid "BIOLUMINESCENT_VACUOLE_GREEN"
+msgstr ""
+
+msgid "BIOLUMINESCENT_VACUOLE_GREEN_DESCRIPTION"
+msgstr ""
+
+msgid "BIOLUMINESCENT_VACUOLE_RED_DESCRIPTION"
+msgstr ""
+
+msgid "BIOLUMINESCENT_VACUOLE_Red"
+msgstr ""
+
+msgid "BIOLUMINESCENT_VACUOLE_VIOLET"
+msgstr ""
+
+msgid "BIOLUMINESCENT_VACUOLE_VIOLET_DESCRIPTION"
+msgstr ""
+
+msgid "BIOLUMINESCENT_VACUOLE_YELLOW"
+msgstr ""
+
+msgid "BIOLUMINESCENT_VACUOLE_YELLOW_DESCRIPTION"
 msgstr ""
 
 msgid "BIOME_LABEL"
@@ -820,10 +847,6 @@ msgstr "Kreni u fazu buđenja. Moguće kada imaš dovoljno moždane snage (vrsta
 
 msgid "COMPOUND_CLOUDS"
 msgstr ""
-
-#, fuzzy
-msgid "COMPOUND_CLOUD_BENCHMARK"
-msgstr "Uređivač mikroba"
 
 msgid "COMPOUND_CLOUD_DENSITY"
 msgstr ""
@@ -2843,6 +2866,36 @@ msgid "LOW_MENU_PERFORMANCE"
 msgstr ""
 
 msgid "LOW_MENU_PERFORMANCE_DESCRIPTION"
+msgstr ""
+
+msgid "LUCIFERASE"
+msgstr ""
+
+msgid "LUCIFERASE_DESCRIPTION"
+msgstr ""
+
+msgid "LUCIFERASE_GREEN"
+msgstr ""
+
+msgid "LUCIFERASE_GREEN_DESCRIPTION"
+msgstr ""
+
+msgid "LUCIFERASE_RED"
+msgstr ""
+
+msgid "LUCIFERASE_RED_DESCRIPTION"
+msgstr ""
+
+msgid "LUCIFERASE_VIOLET"
+msgstr ""
+
+msgid "LUCIFERASE_VIOLET_DESCRIPTION"
+msgstr ""
+
+msgid "LUCIFERASE_YELLOW"
+msgstr ""
+
+msgid "LUCIFERASE_YELLOW_DESCRIPTION"
 msgstr ""
 
 msgid "LYSOSOME"
@@ -5373,9 +5426,6 @@ msgstr ""
 msgid "TOXISOME_DESCRIPTION"
 msgstr ""
 
-msgid "TO_BE_IMPLEMENTED"
-msgstr ""
-
 msgid "TRANSLATORS"
 msgstr ""
 
@@ -7232,6 +7282,10 @@ msgstr ""
 
 msgid "ZOOM_OUT"
 msgstr "Povećaj"
+
+#, fuzzy
+#~ msgid "COMPOUND_CLOUD_BENCHMARK"
+#~ msgstr "Uređivač mikroba"
 
 #, fuzzy
 #~ msgid "WIKI_AWAKENING_STAGE"

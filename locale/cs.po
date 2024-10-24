@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-10-23 11:33+0300\n"
+"POT-Creation-Date: 2024-10-24 15:45-0500\n"
 "PO-Revision-Date: 2024-10-17 07:24+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Czech <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/cs/>\n"
@@ -476,7 +476,44 @@ msgstr "Stiskněte [thrive:input]g_toggle_binding[/thrive:input] pro zapnutí sp
 msgid "BIND_AXES_SENSITIVITY"
 msgstr "Svázat osy k sobě"
 
-msgid "BIOLUMINESCENT_VACUOLE"
+#, fuzzy
+msgid "BIOLUMINESCENT_VACUOLE_BLUE"
+msgstr "Bioluminiscenční vakuola"
+
+#, fuzzy
+msgid "BIOLUMINESCENT_VACUOLE_BLUE_DESCRIPTION"
+msgstr "Bioluminiscenční vakuola"
+
+#, fuzzy
+msgid "BIOLUMINESCENT_VACUOLE_GREEN"
+msgstr "Bioluminiscenční vakuola"
+
+#, fuzzy
+msgid "BIOLUMINESCENT_VACUOLE_GREEN_DESCRIPTION"
+msgstr "Bioluminiscenční vakuola"
+
+#, fuzzy
+msgid "BIOLUMINESCENT_VACUOLE_RED_DESCRIPTION"
+msgstr "Bioluminiscenční vakuola"
+
+#, fuzzy
+msgid "BIOLUMINESCENT_VACUOLE_Red"
+msgstr "Bioluminiscenční vakuola"
+
+#, fuzzy
+msgid "BIOLUMINESCENT_VACUOLE_VIOLET"
+msgstr "Bioluminiscenční vakuola"
+
+#, fuzzy
+msgid "BIOLUMINESCENT_VACUOLE_VIOLET_DESCRIPTION"
+msgstr "Bioluminiscenční vakuola"
+
+#, fuzzy
+msgid "BIOLUMINESCENT_VACUOLE_YELLOW"
+msgstr "Bioluminiscenční vakuola"
+
+#, fuzzy
+msgid "BIOLUMINESCENT_VACUOLE_YELLOW_DESCRIPTION"
 msgstr "Bioluminiscenční vakuola"
 
 msgid "BIOME_LABEL"
@@ -855,10 +892,6 @@ msgstr "Zobrazit / skrýt sloučeniny"
 
 msgid "COMPOUND_CLOUDS"
 msgstr "Mračna sloučenin"
-
-#, fuzzy
-msgid "COMPOUND_CLOUD_BENCHMARK"
-msgstr "Hustota oblaků sloučenin"
 
 msgid "COMPOUND_CLOUD_DENSITY"
 msgstr "Hustota oblaků sloučenin"
@@ -3177,6 +3210,41 @@ msgstr "Výkon"
 #, fuzzy
 msgid "LOW_MENU_PERFORMANCE_DESCRIPTION"
 msgstr "Obsahuje trávící enzymy. Může být modifikován pro změnu typu enzymu, který obsahuje. Lysozomy jsou schopny obsahovat pouze jeden typ enzymu najednou. Enzymy zrychlují a zvyšují efektivitu trávení."
+
+msgid "LUCIFERASE"
+msgstr ""
+
+#, fuzzy
+msgid "LUCIFERASE_DESCRIPTION"
+msgstr "Lipáza umožňuje buňce rozkládat většinu typů membrán. Vaše buňka již produkuje nějaké množství tohoto enzymu bez lysozomu, ale vybráním tohoto typu zvýšíte efektivitu."
+
+msgid "LUCIFERASE_GREEN"
+msgstr ""
+
+#, fuzzy
+msgid "LUCIFERASE_GREEN_DESCRIPTION"
+msgstr "Lipáza umožňuje buňce rozkládat většinu typů membrán. Vaše buňka již produkuje nějaké množství tohoto enzymu bez lysozomu, ale vybráním tohoto typu zvýšíte efektivitu."
+
+msgid "LUCIFERASE_RED"
+msgstr ""
+
+#, fuzzy
+msgid "LUCIFERASE_RED_DESCRIPTION"
+msgstr "Lipáza umožňuje buňce rozkládat většinu typů membrán. Vaše buňka již produkuje nějaké množství tohoto enzymu bez lysozomu, ale vybráním tohoto typu zvýšíte efektivitu."
+
+msgid "LUCIFERASE_VIOLET"
+msgstr ""
+
+#, fuzzy
+msgid "LUCIFERASE_VIOLET_DESCRIPTION"
+msgstr "Lipáza umožňuje buňce rozkládat většinu typů membrán. Vaše buňka již produkuje nějaké množství tohoto enzymu bez lysozomu, ale vybráním tohoto typu zvýšíte efektivitu."
+
+msgid "LUCIFERASE_YELLOW"
+msgstr ""
+
+#, fuzzy
+msgid "LUCIFERASE_YELLOW_DESCRIPTION"
+msgstr "Lipáza umožňuje buňce rozkládat většinu typů membrán. Vaše buňka již produkuje nějaké množství tohoto enzymu bez lysozomu, ale vybráním tohoto typu zvýšíte efektivitu."
 
 msgid "LYSOSOME"
 msgstr "Lysozom"
@@ -5913,9 +5981,6 @@ msgstr "Oxytoxizom"
 msgid "TOXISOME_DESCRIPTION"
 msgstr "Lysozom je organela připojena na membránu, která obsahuje hydrolytické enzymy, které mohou rozkládat různé biomolekuly. Lysozomy umožnují buňce strávit materiály vstřebány skrze endocytózu a čistit odpadní látky buňky skrze proces zvaný [b]autofagie[/b]."
 
-msgid "TO_BE_IMPLEMENTED"
-msgstr "K implementaci."
-
 msgid "TRANSLATORS"
 msgstr "Překladatelé"
 
@@ -8135,6 +8200,13 @@ msgstr "Přiblížit"
 
 msgid "ZOOM_OUT"
 msgstr "Oddálit"
+
+#, fuzzy
+#~ msgid "COMPOUND_CLOUD_BENCHMARK"
+#~ msgstr "Hustota oblaků sloučenin"
+
+#~ msgid "TO_BE_IMPLEMENTED"
+#~ msgstr "K implementaci."
 
 #, fuzzy
 #~ msgid "OXYTOXISOME_DESC"

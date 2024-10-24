@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-10-23 11:33+0300\n"
+"POT-Creation-Date: 2024-10-24 15:45-0500\n"
 "PO-Revision-Date: 2024-10-17 07:24+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Esperanto <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/eo/>\n"
@@ -502,7 +502,44 @@ msgstr "Nitrogenazo estas proteino kapabla uzi gasan nitrogenon kaj ĉelan energ
 msgid "BIND_AXES_SENSITIVITY"
 msgstr ""
 
-msgid "BIOLUMINESCENT_VACUOLE"
+#, fuzzy
+msgid "BIOLUMINESCENT_VACUOLE_BLUE"
+msgstr "Biolumineska Vakuolo"
+
+#, fuzzy
+msgid "BIOLUMINESCENT_VACUOLE_BLUE_DESCRIPTION"
+msgstr "Biolumineska Vakuolo"
+
+#, fuzzy
+msgid "BIOLUMINESCENT_VACUOLE_GREEN"
+msgstr "Biolumineska Vakuolo"
+
+#, fuzzy
+msgid "BIOLUMINESCENT_VACUOLE_GREEN_DESCRIPTION"
+msgstr "Biolumineska Vakuolo"
+
+#, fuzzy
+msgid "BIOLUMINESCENT_VACUOLE_RED_DESCRIPTION"
+msgstr "Biolumineska Vakuolo"
+
+#, fuzzy
+msgid "BIOLUMINESCENT_VACUOLE_Red"
+msgstr "Biolumineska Vakuolo"
+
+#, fuzzy
+msgid "BIOLUMINESCENT_VACUOLE_VIOLET"
+msgstr "Biolumineska Vakuolo"
+
+#, fuzzy
+msgid "BIOLUMINESCENT_VACUOLE_VIOLET_DESCRIPTION"
+msgstr "Biolumineska Vakuolo"
+
+#, fuzzy
+msgid "BIOLUMINESCENT_VACUOLE_YELLOW"
+msgstr "Biolumineska Vakuolo"
+
+#, fuzzy
+msgid "BIOLUMINESCENT_VACUOLE_YELLOW_DESCRIPTION"
 msgstr "Biolumineska Vakuolo"
 
 msgid "BIOME_LABEL"
@@ -911,10 +948,6 @@ msgid "COMPOUND_BALANCE_TOOLTIP"
 msgstr "Aldonunovan funkcion por klavo"
 
 msgid "COMPOUND_CLOUDS"
-msgstr "Kunmetitaj nuboj"
-
-#, fuzzy
-msgid "COMPOUND_CLOUD_BENCHMARK"
 msgstr "Kunmetitaj nuboj"
 
 #, fuzzy
@@ -3190,6 +3223,41 @@ msgstr "Agado"
 #, fuzzy
 msgid "LOW_MENU_PERFORMANCE_DESCRIPTION"
 msgstr "Metabolosomoj estas aretoj de proteinoj envolvitaj en proteinaj ŝeloj. Ili povas konverti glukozon en ATP kun multe pli alta rapideco ol oni povas esti farita en la citoplasmo en proceso nomita Aeroba Respirado. Tamen ĝi postulas oksigenon por funkcii, kaj pli malaltaj niveloj de oksigeno en la medio malrapidigos la rapidon de ĝia produktado de ATP. Ĉar la metabolosomoj estas suspenditaj rekte en la citoplasmo, la ĉirkaŭa likvaĵo iom fermentas."
+
+msgid "LUCIFERASE"
+msgstr ""
+
+#, fuzzy
+msgid "LUCIFERASE_DESCRIPTION"
+msgstr "La gluiĝemaj internaĵoj de ĉelo. La citoplasmo estas la baza miksaĵo de jonoj, proteinoj kaj aliaj substancoj solvitaj en akvo, kiu plenigas la internon de la ĉelo. Unu el la funkcioj, kiujn ĝi plenumas, estas Fermentado, la konvertiĝo de glukozo en ATP-energion. Por havi pli progresintajn metabolojn, ĉeloj, al kiuj mankas organetoj, uzas energion de ATP. Ĝi ankaŭ estas uzita por stoki molekulojn en la ĉelo kaj kreskigi la grandecon de la ĉelo."
+
+msgid "LUCIFERASE_GREEN"
+msgstr ""
+
+#, fuzzy
+msgid "LUCIFERASE_GREEN_DESCRIPTION"
+msgstr "La gluiĝemaj internaĵoj de ĉelo. La citoplasmo estas la baza miksaĵo de jonoj, proteinoj kaj aliaj substancoj solvitaj en akvo, kiu plenigas la internon de la ĉelo. Unu el la funkcioj, kiujn ĝi plenumas, estas Fermentado, la konvertiĝo de glukozo en ATP-energion. Por havi pli progresintajn metabolojn, ĉeloj, al kiuj mankas organetoj, uzas energion de ATP. Ĝi ankaŭ estas uzita por stoki molekulojn en la ĉelo kaj kreskigi la grandecon de la ĉelo."
+
+msgid "LUCIFERASE_RED"
+msgstr ""
+
+#, fuzzy
+msgid "LUCIFERASE_RED_DESCRIPTION"
+msgstr "La gluiĝemaj internaĵoj de ĉelo. La citoplasmo estas la baza miksaĵo de jonoj, proteinoj kaj aliaj substancoj solvitaj en akvo, kiu plenigas la internon de la ĉelo. Unu el la funkcioj, kiujn ĝi plenumas, estas Fermentado, la konvertiĝo de glukozo en ATP-energion. Por havi pli progresintajn metabolojn, ĉeloj, al kiuj mankas organetoj, uzas energion de ATP. Ĝi ankaŭ estas uzita por stoki molekulojn en la ĉelo kaj kreskigi la grandecon de la ĉelo."
+
+msgid "LUCIFERASE_VIOLET"
+msgstr ""
+
+#, fuzzy
+msgid "LUCIFERASE_VIOLET_DESCRIPTION"
+msgstr "La gluiĝemaj internaĵoj de ĉelo. La citoplasmo estas la baza miksaĵo de jonoj, proteinoj kaj aliaj substancoj solvitaj en akvo, kiu plenigas la internon de la ĉelo. Unu el la funkcioj, kiujn ĝi plenumas, estas Fermentado, la konvertiĝo de glukozo en ATP-energion. Por havi pli progresintajn metabolojn, ĉeloj, al kiuj mankas organetoj, uzas energion de ATP. Ĝi ankaŭ estas uzita por stoki molekulojn en la ĉelo kaj kreskigi la grandecon de la ĉelo."
+
+msgid "LUCIFERASE_YELLOW"
+msgstr ""
+
+#, fuzzy
+msgid "LUCIFERASE_YELLOW_DESCRIPTION"
+msgstr "La gluiĝemaj internaĵoj de ĉelo. La citoplasmo estas la baza miksaĵo de jonoj, proteinoj kaj aliaj substancoj solvitaj en akvo, kiu plenigas la internon de la ĉelo. Unu el la funkcioj, kiujn ĝi plenumas, estas Fermentado, la konvertiĝo de glukozo en ATP-energion. Por havi pli progresintajn metabolojn, ĉeloj, al kiuj mankas organetoj, uzas energion de ATP. Ĝi ankaŭ estas uzita por stoki molekulojn en la ĉelo kaj kreskigi la grandecon de la ĉelo."
 
 #, fuzzy
 msgid "LYSOSOME"
@@ -6010,9 +6078,6 @@ msgstr "Oxytoxisomo"
 msgid "TOXISOME_DESCRIPTION"
 msgstr "Metabolosomoj estas aretoj de proteinoj envolvitaj en proteinaj ŝeloj. Ili povas konverti glukozon en ATP kun multe pli alta rapideco ol oni povas esti farita en la citoplasmo en proceso nomita Aeroba Respirado. Tamen ĝi postulas oksigenon por funkcii, kaj pli malaltaj niveloj de oksigeno en la medio malrapidigos la rapidon de ĝia produktado de ATP. Ĉar la metabolosomoj estas suspenditaj rekte en la citoplasmo, la ĉirkaŭa likvaĵo iom fermentas."
 
-msgid "TO_BE_IMPLEMENTED"
-msgstr "Devos ankoraŭ esti farita."
-
 #, fuzzy
 msgid "TRANSLATORS"
 msgstr "Helpu Traduki La Ludon"
@@ -8366,6 +8431,13 @@ msgstr "Zomu"
 
 msgid "ZOOM_OUT"
 msgstr "Malzomu"
+
+#, fuzzy
+#~ msgid "COMPOUND_CLOUD_BENCHMARK"
+#~ msgstr "Kunmetitaj nuboj"
+
+#~ msgid "TO_BE_IMPLEMENTED"
+#~ msgstr "Devos ankoraŭ esti farita."
 
 #, fuzzy
 #~ msgid "OXYTOXISOME_DESC"

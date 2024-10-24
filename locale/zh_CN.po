@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-10-23 11:33+0300\n"
+"POT-Creation-Date: 2024-10-24 15:45-0500\n"
 "PO-Revision-Date: 2024-10-21 02:55+0000\n"
 "Last-Translator: Guno haozheum <guhaozhe@hsefz.cn>\n"
 "Language-Team: Chinese (Simplified Han script) <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/zh_Hans/>\n"
@@ -470,8 +470,45 @@ msgstr "按[thrive:input]g_toggle_binding[/thrive:input]来切换连接模式。
 msgid "BIND_AXES_SENSITIVITY"
 msgstr "将坐标轴绑定在一起"
 
-msgid "BIOLUMINESCENT_VACUOLE"
+#, fuzzy
+msgid "BIOLUMINESCENT_VACUOLE_BLUE"
 msgstr "生物发光液泡"
+
+#, fuzzy
+msgid "BIOLUMINESCENT_VACUOLE_BLUE_DESCRIPTION"
+msgstr "无效果。等待实现。"
+
+#, fuzzy
+msgid "BIOLUMINESCENT_VACUOLE_GREEN"
+msgstr "生物发光液泡"
+
+#, fuzzy
+msgid "BIOLUMINESCENT_VACUOLE_GREEN_DESCRIPTION"
+msgstr "无升级。等待实现。"
+
+#, fuzzy
+msgid "BIOLUMINESCENT_VACUOLE_RED_DESCRIPTION"
+msgstr "无效果。等待实现。"
+
+#, fuzzy
+msgid "BIOLUMINESCENT_VACUOLE_Red"
+msgstr "生物发光液泡"
+
+#, fuzzy
+msgid "BIOLUMINESCENT_VACUOLE_VIOLET"
+msgstr "生物发光液泡"
+
+#, fuzzy
+msgid "BIOLUMINESCENT_VACUOLE_VIOLET_DESCRIPTION"
+msgstr "无修改。等待实现。"
+
+#, fuzzy
+msgid "BIOLUMINESCENT_VACUOLE_YELLOW"
+msgstr "生物发光液泡"
+
+#, fuzzy
+msgid "BIOLUMINESCENT_VACUOLE_YELLOW_DESCRIPTION"
+msgstr "无效果。等待实现。"
 
 msgid "BIOME_LABEL"
 msgstr "生物群系：{0}"
@@ -841,10 +878,6 @@ msgstr ""
 
 msgid "COMPOUND_CLOUDS"
 msgstr "化合物云"
-
-#, fuzzy
-msgid "COMPOUND_CLOUD_BENCHMARK"
-msgstr "化合物云密度"
 
 msgid "COMPOUND_CLOUD_DENSITY"
 msgstr "化合物云密度"
@@ -2959,6 +2992,41 @@ msgstr ""
 "您的帧率很低。\n"
 "3D菜单背景已被启用，这可能占用了大量性能。禁用3D菜单背景可能会极大地提高性能。\n"
 "你现在希望这么做吗？"
+
+msgid "LUCIFERASE"
+msgstr ""
+
+#, fuzzy
+msgid "LUCIFERASE_DESCRIPTION"
+msgstr "脂肪酶使细胞能够分解大多数类型的膜。就算没有溶酶体你的细胞也能产生一些这种酶，但通过选择这种类型，你将增加其有效性。"
+
+msgid "LUCIFERASE_GREEN"
+msgstr ""
+
+#, fuzzy
+msgid "LUCIFERASE_GREEN_DESCRIPTION"
+msgstr "脂肪酶使细胞能够分解大多数类型的膜。就算没有溶酶体你的细胞也能产生一些这种酶，但通过选择这种类型，你将增加其有效性。"
+
+msgid "LUCIFERASE_RED"
+msgstr ""
+
+#, fuzzy
+msgid "LUCIFERASE_RED_DESCRIPTION"
+msgstr "脂肪酶使细胞能够分解大多数类型的膜。就算没有溶酶体你的细胞也能产生一些这种酶，但通过选择这种类型，你将增加其有效性。"
+
+msgid "LUCIFERASE_VIOLET"
+msgstr ""
+
+#, fuzzy
+msgid "LUCIFERASE_VIOLET_DESCRIPTION"
+msgstr "脂肪酶使细胞能够分解大多数类型的膜。就算没有溶酶体你的细胞也能产生一些这种酶，但通过选择这种类型，你将增加其有效性。"
+
+msgid "LUCIFERASE_YELLOW"
+msgstr ""
+
+#, fuzzy
+msgid "LUCIFERASE_YELLOW_DESCRIPTION"
+msgstr "脂肪酶使细胞能够分解大多数类型的膜。就算没有溶酶体你的细胞也能产生一些这种酶，但通过选择这种类型，你将增加其有效性。"
 
 msgid "LYSOSOME"
 msgstr "溶酶体"
@@ -5540,9 +5608,6 @@ msgstr "毒素体"
 msgid "TOXISOME_DESCRIPTION"
 msgstr "溶酶体是一种具膜细胞器，含有水解酶，可以分解各种生物分子。溶酶体允许细胞消化通过内吞作用吸收的物质，并在一个称为[b]自噬[/b]的过程中清洁细胞的废物。"
 
-msgid "TO_BE_IMPLEMENTED"
-msgstr "仍在开发中。"
-
 msgid "TRANSLATORS"
 msgstr "翻译者"
 
@@ -7934,6 +7999,13 @@ msgstr "放大"
 
 msgid "ZOOM_OUT"
 msgstr "缩小"
+
+#, fuzzy
+#~ msgid "COMPOUND_CLOUD_BENCHMARK"
+#~ msgstr "化合物云密度"
+
+#~ msgid "TO_BE_IMPLEMENTED"
+#~ msgstr "仍在开发中。"
 
 #, fuzzy
 #~ msgid "WIKI_CYTOPLASM_GLYCOLYSIS"
