@@ -506,6 +506,80 @@
     "LAWK": false,
     "EndosymbiosisUnlocks": "thermoplast"
   },
+  "luciferase": {
+	"MPCost": 50,
+	"InitialComposition": {
+	  "ammonia": 1,
+	  "phosphates": 1
+	},
+	"Hexes": [
+	  {
+		"r": 0,
+		"q": 0
+	  }
+	],
+	"Processes": {},
+	"FeatureTags": [
+	  "SignalingAgent"
+	],
+	"Density": 1100,
+	"Graphics": {
+	  "ScenePath": "res://assets/models/organelles/Luciferase.tscn"
+	},
+	"CorpseChunkGraphics": {
+	  "ScenePath": "res://assets/models/organelles/Thermosynthase.tscn"
+	},
+	"Components": {},
+	"Name": "LUCIFERASE",
+  "Description": "LUCIFERASE_DESCRIPTION",
+	"IconPath": "res://assets/textures/gui/bevel/parts/BioluminescentIcon.png",
+	"RequiresNucleus": false,
+	"EditorButtonGroup": "Protein",
+	"EditorButtonOrder": 9,
+  "AvailableUpgrades": {
+      "none": {
+        "IsDefault": true,
+        "Name": "UPGRADE_NAME_NONE",
+        "Description": "UPGRADE_DESCRIPTION_NONE"
+      },
+      "luciferaseGreen": { 
+        "Name": "LUCIFERASE_GREEN",
+        "Description": "LUCIFERASE_GREEN_DESCRIPTION",
+        "MPCost": 5,
+        "IconPath": "res://assets/textures/gui/bevel/parts/BioluminescentIcon.png",
+        "OverrideGraphics": {
+          "ScenePath": "res://assets/models/organelles/LuciferaseGreen.tscn"
+        }
+      },
+      "luciferaseYellow": {
+        "Name": "LUCIFERASE_YELLOW",
+        "Description": "LUCIFERASE_YELLOW_DESCRIPTION",
+        "MPCost": 5,
+        "IconPath": "res://assets/textures/gui/bevel/parts/BioluminescentIcon.png",
+        "OverrideGraphics": {
+          "ScenePath": "res://assets/models/organelles/LuciferaseYellow.tscn"
+        }
+      },
+      "luciferaseRed": {
+        "Name": "LUCIFERASE_RED",
+        "Description": "LUCIFERASE_RED_DESCRIPTION",
+        "MPCost": 5,
+        "IconPath": "res://assets/textures/gui/bevel/parts/BioluminescentIcon.png",
+        "OverrideGraphics": {
+          "ScenePath": "res://assets/models/organelles/LuciferaseRed.tscn"
+        }
+      },
+      "luciferaseViolet": {
+        "Name": "LUCIFERASE_VIOLET",
+        "Description": "LUCIFERASE_VIOLET_DESCRIPTION",
+        "MPCost": 5,
+        "IconPath": "res://assets/textures/gui/bevel/parts/BioluminescentIcon.png",
+        "OverrideGraphics": {
+          "ScenePath": "res://assets/models/organelles/LuciferaseViolet.tscn"
+        }
+      }
+    }
+  },
   "chemoplast": {
     "MPCost": 45,
     "InitialComposition": {
@@ -1082,26 +1156,78 @@
     "EditorButtonOrder": 12
   },
   "bioluminescentVacuole": {
-    "MPCost": 40,
-    "InitialComposition": {
-      "ammonia": 1,
-      "phosphates": 1
-    },
-    "Hexes": [
-      {
-        "r": 0,
-        "q": 0
+	"MPCost": 50,
+	"InitialComposition": {
+	  "ammonia": 1,
+	  "phosphates": 1
+	},
+	"Hexes": [
+	  {
+		"r": 0,
+		"q": 0
+	  }
+	],
+	"Processes": {},
+	"FeatureTags": [
+	  "SignalingAgent"
+	],
+	"Density": 1100,
+	"Graphics": {
+	  "ScenePath": "res://assets/models/organelles/BioluminescentVacuole.tscn"
+	},
+	"CorpseChunkGraphics": {
+	  "ScenePath": "res://assets/models/organelles/Vacuole.tscn"
+	},
+	"Components": {},
+	"Name": "BIOLUMINESCENT_VACUOLE_BLUE",
+  "Description": "BIOLUMINESCENT_VACUOLE_BLUE_DESCRIPTION",
+	"IconPath": "res://assets/textures/gui/bevel/parts/BioluminescentIcon.png",
+	"RequiresNucleus": true,
+	"EditorButtonGroup": "Organelle",
+	"EditorButtonOrder": 13,
+  "AvailableUpgrades": {
+      "none": {
+        "IsDefault": true,
+        "Name": "UPGRADE_NAME_NONE",
+        "Description": "UPGRADE_DESCRIPTION_NONE"
+      },
+      "bioluminescentVacuoleGreen": {
+        "Name": "BIOLUMINESCENT_VACUOLE_GREEN",
+        "Description": "BIOLUMINESCENT_VACUOLE_GREEN_DESCRIPTION",
+        "MPCost": 5,
+        "IconPath": "res://assets/textures/gui/bevel/parts/BioluminescentIcon.png",
+        "OverrideGraphics": {
+          "ScenePath": "res://assets/models/organelles/BioluminescentVacuoleGreen.tscn"
+        }
+      },
+      "bioluminescentVacuoleYellow": {
+        "Name": "BIOLUMINESCENT_VACUOLE_YELLOW",
+        "Description": "BIOLUMINESCENT_VACUOLE_YELLOW_DESCRIPTION",
+        "MPCost": 5,
+        "IconPath": "res://assets/textures/gui/bevel/parts/BioluminescentIcon.png",
+        "OverrideGraphics": {
+          "ScenePath": "res://assets/models/organelles/BioluminescentVacuoleYellow.tscn"
+        }
+      },
+      "bioluminescentVacuoleRed": {
+        "Name": "BIOLUMINESCENT_VACUOLE_Red",
+        "Description": "BIOLUMINESCENT_VACUOLE_RED_DESCRIPTION",
+        "MPCost": 5,
+        "IconPath": "res://assets/textures/gui/bevel/parts/BioluminescentIcon.png",
+        "OverrideGraphics": {
+          "ScenePath": "res://assets/models/organelles/BioluminescentVacuoleRed.tscn"
+        }
+      },
+      "bioluminescentVacuoleViolet": {
+        "Name": "BIOLUMINESCENT_VACUOLE_VIOLET",
+        "Description": "BIOLUMINESCENT_VACUOLE_VIOLET_DESCRIPTION",
+        "MPCost": 5,
+        "IconPath": "res://assets/textures/gui/bevel/parts/BioluminescentIcon.png",
+        "OverrideGraphics": {
+          "ScenePath": "res://assets/models/organelles/BioluminescentVacuoleViolet.tscn"
+        }
       }
-    ],
-    "Processes": {},
-    "Components": {},
-    "Name": "BIOLUMINESCENT_VACUOLE",
-    "Description": "TO_BE_IMPLEMENTED",
-    "IconPath": "res://assets/textures/gui/bevel/parts/BioluminescentIcon.png",
-    "RequiresNucleus": true,
-    "EditorButtonGroup": "Organelle",
-    "EditorButtonOrder": 13,
-    "Unimplemented": true
+    }
   },
   "thermoplast": {
     "MPCost": 55,

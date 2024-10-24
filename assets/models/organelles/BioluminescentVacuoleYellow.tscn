@@ -1,0 +1,33 @@
+[gd_scene load_steps=6 format=3 uid="uid://bmyukaixugd0u"]
+
+[ext_resource type="Shader" path="res://shaders/OrganelleTransparent.gdshader" id="1_jyfru"]
+[ext_resource type="Texture2D" uid="uid://baxuoyeo83r2u" path="res://assets/textures/dissolve_noise.tres" id="2_55b4x"]
+[ext_resource type="Texture2D" uid="uid://2hbye6cfsiaf" path="res://assets/textures/vacuole.png" id="3_gm6gh"]
+[ext_resource type="ArrayMesh" uid="uid://6os6t8new16s" path="res://assets/models/organelles/Vacuole.mesh" id="4_uc4a6"]
+
+[sub_resource type="ShaderMaterial" id="1"]
+resource_local_to_scene = true
+render_priority = 0
+shader = ExtResource("1_jyfru")
+shader_parameter/dissolveValue = 0.0
+shader_parameter/fresnelValue = 1.0
+shader_parameter/fresnelActive = false
+shader_parameter/outlineWidth = 0.05
+shader_parameter/growColor = Color(0.0666667, 0.168627, 0.211765, 1)
+shader_parameter/tint = Color(1, 1, 1, 1)
+shader_parameter/jiggleAmount = 0.0005
+shader_parameter/texture = ExtResource("3_gm6gh")
+shader_parameter/dissolveTexture = ExtResource("2_55b4x")
+
+[node name="Vacuole" type="MeshInstance3D"]
+transform = Transform3D(127.947, 0, 0, 0, -1.79126e-05, 111.947, 0, -109.947, -1.82385e-05, 0, 0, 0)
+material_override = SubResource("1")
+mesh = ExtResource("4_uc4a6")
+
+[node name="OmniLight3D" type="OmniLight3D" parent="."]
+transform = Transform3D(0.00781574, 0, 0, 0, 0.00909529, -4.77396e-15, 0, 0, 0.0089328, 0, -1.53462e-09, 0.00925113)
+light_color = Color(0.85098, 1, 0.521569, 1)
+light_energy = 16.0
+light_indirect_energy = 16.0
+light_volumetric_fog_energy = 0.0
+light_specular = 3.409

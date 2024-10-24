@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-10-23 11:33+0300\n"
+"POT-Creation-Date: 2024-10-24 15:45-0500\n"
 "PO-Revision-Date: 2023-10-12 00:43+0000\n"
 "Last-Translator: Irmantas <irmantas_i@yahoo.com>\n"
 "Language-Team: Lithuanian <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/lt/>\n"
@@ -482,7 +482,44 @@ msgstr "Paspauskite [thrive:input]g_toggle_binding[/thrive:input], kad perjungtu
 msgid "BIND_AXES_SENSITIVITY"
 msgstr "Susieti ašis"
 
-msgid "BIOLUMINESCENT_VACUOLE"
+#, fuzzy
+msgid "BIOLUMINESCENT_VACUOLE_BLUE"
+msgstr "Bioluminescencinė Vakuolė"
+
+#, fuzzy
+msgid "BIOLUMINESCENT_VACUOLE_BLUE_DESCRIPTION"
+msgstr "Bioluminescencinė Vakuolė"
+
+#, fuzzy
+msgid "BIOLUMINESCENT_VACUOLE_GREEN"
+msgstr "Bioluminescencinė Vakuolė"
+
+#, fuzzy
+msgid "BIOLUMINESCENT_VACUOLE_GREEN_DESCRIPTION"
+msgstr "Bioluminescencinė Vakuolė"
+
+#, fuzzy
+msgid "BIOLUMINESCENT_VACUOLE_RED_DESCRIPTION"
+msgstr "Bioluminescencinė Vakuolė"
+
+#, fuzzy
+msgid "BIOLUMINESCENT_VACUOLE_Red"
+msgstr "Bioluminescencinė Vakuolė"
+
+#, fuzzy
+msgid "BIOLUMINESCENT_VACUOLE_VIOLET"
+msgstr "Bioluminescencinė Vakuolė"
+
+#, fuzzy
+msgid "BIOLUMINESCENT_VACUOLE_VIOLET_DESCRIPTION"
+msgstr "Bioluminescencinė Vakuolė"
+
+#, fuzzy
+msgid "BIOLUMINESCENT_VACUOLE_YELLOW"
+msgstr "Bioluminescencinė Vakuolė"
+
+#, fuzzy
+msgid "BIOLUMINESCENT_VACUOLE_YELLOW_DESCRIPTION"
 msgstr "Bioluminescencinė Vakuolė"
 
 msgid "BIOME_LABEL"
@@ -859,10 +896,6 @@ msgstr "Rodyti / slėpti junginius"
 
 msgid "COMPOUND_CLOUDS"
 msgstr "Junginių debesys"
-
-#, fuzzy
-msgid "COMPOUND_CLOUD_BENCHMARK"
-msgstr "Junginių debesies tankis"
 
 msgid "COMPOUND_CLOUD_DENSITY"
 msgstr "Junginių debesies tankis"
@@ -3031,6 +3064,41 @@ msgstr ""
 #, fuzzy
 msgid "LOW_MENU_PERFORMANCE_DESCRIPTION"
 msgstr "Padidina didelių ląstelių sukimosi greitį."
+
+msgid "LUCIFERASE"
+msgstr ""
+
+#, fuzzy
+msgid "LUCIFERASE_DESCRIPTION"
+msgstr "Celiulazė leidžia ląstelei suskaidyti celiuliozės membraną. Kiekvienas papildymas didina veiksmingumą."
+
+msgid "LUCIFERASE_GREEN"
+msgstr ""
+
+#, fuzzy
+msgid "LUCIFERASE_GREEN_DESCRIPTION"
+msgstr "Bioluminescencinė Vakuolė"
+
+msgid "LUCIFERASE_RED"
+msgstr ""
+
+#, fuzzy
+msgid "LUCIFERASE_RED_DESCRIPTION"
+msgstr "Celiulazė leidžia ląstelei suskaidyti celiuliozės membraną. Kiekvienas papildymas didina veiksmingumą."
+
+msgid "LUCIFERASE_VIOLET"
+msgstr ""
+
+#, fuzzy
+msgid "LUCIFERASE_VIOLET_DESCRIPTION"
+msgstr "Elemento aprašymas:"
+
+msgid "LUCIFERASE_YELLOW"
+msgstr ""
+
+#, fuzzy
+msgid "LUCIFERASE_YELLOW_DESCRIPTION"
+msgstr "Celiulazė leidžia ląstelei suskaidyti celiuliozės membraną. Kiekvienas papildymas didina veiksmingumą."
 
 msgid "LYSOSOME"
 msgstr ""
@@ -5476,9 +5544,6 @@ msgstr ""
 msgid "TOXISOME_DESCRIPTION"
 msgstr "Chitinazė leidžia ląstelei suardyti chitino membraną. Kiekvienas papildymas didina veiksmingumą."
 
-msgid "TO_BE_IMPLEMENTED"
-msgstr ""
-
 msgid "TRANSLATORS"
 msgstr ""
 
@@ -7609,6 +7674,10 @@ msgstr ""
 
 msgid "ZOOM_OUT"
 msgstr ""
+
+#, fuzzy
+#~ msgid "COMPOUND_CLOUD_BENCHMARK"
+#~ msgstr "Junginių debesies tankis"
 
 #, fuzzy
 #~ msgid "WIKI_CHEMOSYNTHESIS"

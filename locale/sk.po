@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-10-23 11:33+0300\n"
+"POT-Creation-Date: 2024-10-24 15:45-0500\n"
 "PO-Revision-Date: 2024-10-17 07:24+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Slovak <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/sk/>\n"
@@ -477,7 +477,44 @@ msgstr ""
 msgid "BIND_AXES_SENSITIVITY"
 msgstr ""
 
-msgid "BIOLUMINESCENT_VACUOLE"
+#, fuzzy
+msgid "BIOLUMINESCENT_VACUOLE_BLUE"
+msgstr "Bioluminiscenčná vakuola"
+
+#, fuzzy
+msgid "BIOLUMINESCENT_VACUOLE_BLUE_DESCRIPTION"
+msgstr "Bioluminiscenčná vakuola"
+
+#, fuzzy
+msgid "BIOLUMINESCENT_VACUOLE_GREEN"
+msgstr "Bioluminiscenčná vakuola"
+
+#, fuzzy
+msgid "BIOLUMINESCENT_VACUOLE_GREEN_DESCRIPTION"
+msgstr "Bioluminiscenčná vakuola"
+
+#, fuzzy
+msgid "BIOLUMINESCENT_VACUOLE_RED_DESCRIPTION"
+msgstr "Bioluminiscenčná vakuola"
+
+#, fuzzy
+msgid "BIOLUMINESCENT_VACUOLE_Red"
+msgstr "Bioluminiscenčná vakuola"
+
+#, fuzzy
+msgid "BIOLUMINESCENT_VACUOLE_VIOLET"
+msgstr "Bioluminiscenčná vakuola"
+
+#, fuzzy
+msgid "BIOLUMINESCENT_VACUOLE_VIOLET_DESCRIPTION"
+msgstr "Bioluminiscenčná vakuola"
+
+#, fuzzy
+msgid "BIOLUMINESCENT_VACUOLE_YELLOW"
+msgstr "Bioluminiscenčná vakuola"
+
+#, fuzzy
+msgid "BIOLUMINESCENT_VACUOLE_YELLOW_DESCRIPTION"
 msgstr "Bioluminiscenčná vakuola"
 
 msgid "BIOME_LABEL"
@@ -860,10 +897,6 @@ msgstr "Zobraziť / skryť prostredie a zlúčeniny"
 
 msgid "COMPOUND_CLOUDS"
 msgstr "Oblaky zlúčenín"
-
-#, fuzzy
-msgid "COMPOUND_CLOUD_BENCHMARK"
-msgstr "Hustota oblaku zlúčenín"
 
 msgid "COMPOUND_CLOUD_DENSITY"
 msgstr "Hustota oblaku zlúčenín"
@@ -3047,6 +3080,41 @@ msgstr "Výkon"
 #, fuzzy
 msgid "LOW_MENU_PERFORMANCE_DESCRIPTION"
 msgstr "Používa [thrive:compound type=\"atp\"][/thrive:compound] na zvýšenie rýchlosti pohybu bunky."
+
+msgid "LUCIFERASE"
+msgstr ""
+
+#, fuzzy
+msgid "LUCIFERASE_DESCRIPTION"
+msgstr "Popis módu:"
+
+msgid "LUCIFERASE_GREEN"
+msgstr ""
+
+#, fuzzy
+msgid "LUCIFERASE_GREEN_DESCRIPTION"
+msgstr "Bioluminiscenčná vakuola"
+
+msgid "LUCIFERASE_RED"
+msgstr ""
+
+#, fuzzy
+msgid "LUCIFERASE_RED_DESCRIPTION"
+msgstr "Mnoho organizmov produkuje lepkavé polysacharidy, ako napríklad sliz. Aj keď ho mnoho živočíchov používa pre pohyb, isté typy baktérií tieto látky vystreľujú vo vysokom tlaku. Takéto trysky pracujú ako raketový pohon. Posúvajú bunky neuveriteľnou rýchlosťou. Pre iné živočíchy bez trysiek je pohyb v takýchto látkach obtiažny."
+
+msgid "LUCIFERASE_VIOLET"
+msgstr ""
+
+#, fuzzy
+msgid "LUCIFERASE_VIOLET_DESCRIPTION"
+msgstr "Mnoho organizmov produkuje lepkavé polysacharidy, ako napríklad sliz. Aj keď ho mnoho živočíchov používa pre pohyb, isté typy baktérií tieto látky vystreľujú vo vysokom tlaku. Takéto trysky pracujú ako raketový pohon. Posúvajú bunky neuveriteľnou rýchlosťou. Pre iné živočíchy bez trysiek je pohyb v takýchto látkach obtiažny."
+
+msgid "LUCIFERASE_YELLOW"
+msgstr ""
+
+#, fuzzy
+msgid "LUCIFERASE_YELLOW_DESCRIPTION"
+msgstr "Mnoho organizmov produkuje lepkavé polysacharidy, ako napríklad sliz. Aj keď ho mnoho živočíchov používa pre pohyb, isté typy baktérií tieto látky vystreľujú vo vysokom tlaku. Takéto trysky pracujú ako raketový pohon. Posúvajú bunky neuveriteľnou rýchlosťou. Pre iné živočíchy bez trysiek je pohyb v takýchto látkach obtiažny."
 
 msgid "LYSOSOME"
 msgstr "Lyzozóm"
@@ -5664,9 +5732,6 @@ msgstr "Oxytoxizóm"
 msgid "TOXISOME_DESCRIPTION"
 msgstr "Popis módu:"
 
-msgid "TO_BE_IMPLEMENTED"
-msgstr ""
-
 msgid "TRANSLATORS"
 msgstr "Prekladatelia"
 
@@ -7701,6 +7766,10 @@ msgstr "Priblížiť"
 
 msgid "ZOOM_OUT"
 msgstr "Oddialiť"
+
+#, fuzzy
+#~ msgid "COMPOUND_CLOUD_BENCHMARK"
+#~ msgstr "Hustota oblaku zlúčenín"
 
 #~ msgid "THYLAKOID"
 #~ msgstr "Tylakoid"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-10-23 11:33+0300\n"
+"POT-Creation-Date: 2024-10-24 15:45-0500\n"
 "PO-Revision-Date: 2024-10-16 05:52+0000\n"
 "Last-Translator: fideos con queso <whipstickagostopp@gmail.com>\n"
 "Language-Team: Spanish (Argentina) <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/es_AR/>\n"
@@ -466,8 +466,54 @@ msgid "BIND_AXES_SENSITIVITY"
 msgstr ""
 
 #, fuzzy
-msgid "BIOLUMINESCENT_VACUOLE"
+msgid "BIOLUMINESCENT_VACUOLE_BLUE"
 msgstr "Vacuola Bioluminiscente"
+
+#, fuzzy
+msgid "BIOLUMINESCENT_VACUOLE_BLUE_DESCRIPTION"
+msgstr ""
+"Vacuola de\n"
+"Toxinas"
+
+#, fuzzy
+msgid "BIOLUMINESCENT_VACUOLE_GREEN"
+msgstr "Vacuola Bioluminiscente"
+
+#, fuzzy
+msgid "BIOLUMINESCENT_VACUOLE_GREEN_DESCRIPTION"
+msgstr ""
+"Vacuola de\n"
+"Toxinas"
+
+#, fuzzy
+msgid "BIOLUMINESCENT_VACUOLE_RED_DESCRIPTION"
+msgstr ""
+"Vacuola de\n"
+"Toxinas"
+
+#, fuzzy
+msgid "BIOLUMINESCENT_VACUOLE_Red"
+msgstr "Vacuola Bioluminiscente"
+
+#, fuzzy
+msgid "BIOLUMINESCENT_VACUOLE_VIOLET"
+msgstr "Vacuola Bioluminiscente"
+
+#, fuzzy
+msgid "BIOLUMINESCENT_VACUOLE_VIOLET_DESCRIPTION"
+msgstr ""
+"Hay un conflicto con el control {0}\n"
+"Queres quitarlo de la esa tecla de {1}?"
+
+#, fuzzy
+msgid "BIOLUMINESCENT_VACUOLE_YELLOW"
+msgstr "Vacuola Bioluminiscente"
+
+#, fuzzy
+msgid "BIOLUMINESCENT_VACUOLE_YELLOW_DESCRIPTION"
+msgstr ""
+"Vacuola de\n"
+"Toxinas"
 
 #, fuzzy
 msgid "BIOME_LABEL"
@@ -833,10 +879,6 @@ msgstr "Anda a la etapa del despertar. Solo cuando dejes de ser un boludo ( El t
 
 msgid "COMPOUND_CLOUDS"
 msgstr "Nubes de componentes"
-
-#, fuzzy
-msgid "COMPOUND_CLOUD_BENCHMARK"
-msgstr "Densidad de nubes de compuestos"
 
 msgid "COMPOUND_CLOUD_DENSITY"
 msgstr "Densidad de nubes de compuestos"
@@ -2990,6 +3032,41 @@ msgstr "Rendimiento"
 
 #, fuzzy
 msgid "LOW_MENU_PERFORMANCE_DESCRIPTION"
+msgstr "población:"
+
+msgid "LUCIFERASE"
+msgstr ""
+
+#, fuzzy
+msgid "LUCIFERASE_DESCRIPTION"
+msgstr "población:"
+
+msgid "LUCIFERASE_GREEN"
+msgstr ""
+
+#, fuzzy
+msgid "LUCIFERASE_GREEN_DESCRIPTION"
+msgstr "población:"
+
+msgid "LUCIFERASE_RED"
+msgstr ""
+
+#, fuzzy
+msgid "LUCIFERASE_RED_DESCRIPTION"
+msgstr "población:"
+
+msgid "LUCIFERASE_VIOLET"
+msgstr ""
+
+#, fuzzy
+msgid "LUCIFERASE_VIOLET_DESCRIPTION"
+msgstr "población:"
+
+msgid "LUCIFERASE_YELLOW"
+msgstr ""
+
+#, fuzzy
+msgid "LUCIFERASE_YELLOW_DESCRIPTION"
 msgstr "población:"
 
 #, fuzzy
@@ -5663,9 +5740,6 @@ msgstr "Oxitocina"
 msgid "TOXISOME_DESCRIPTION"
 msgstr "población:"
 
-msgid "TO_BE_IMPLEMENTED"
-msgstr ""
-
 msgid "TRANSLATORS"
 msgstr ""
 
@@ -8008,6 +8082,10 @@ msgstr "Acercar la pantalla"
 
 msgid "ZOOM_OUT"
 msgstr "Alejar la pantalla"
+
+#, fuzzy
+#~ msgid "COMPOUND_CLOUD_BENCHMARK"
+#~ msgstr "Densidad de nubes de compuestos"
 
 #, fuzzy
 #~ msgid "WIKI_CHEMOSYNTHESIS"
