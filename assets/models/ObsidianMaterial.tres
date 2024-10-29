@@ -1,0 +1,7 @@
+[gd_resource type="ShaderMaterial" load_steps=2 format=3 uid="uid://c33ah8rtf3nql"]
+
+[ext_resource type="Shader" uid="uid://85vomev0h6eu" path="res://assets/models/Obsidian.tres" id="1_jb4ob"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_jb4ob")

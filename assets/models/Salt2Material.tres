@@ -1,0 +1,55 @@
+[gd_resource type="VisualShader" load_steps=7 format=3 uid="uid://761g3bs01tr3"]
+
+[ext_resource type="Texture2D" uid="uid://dgfj5o3ra5boy" path="res://assets/textures/minerals/salt2/150k_uv.jpeg" id="1_itksi"]
+[ext_resource type="Texture2D" uid="uid://2oitbqdp2utm" path="res://assets/textures/minerals/salt2/normal.jpeg" id="2_kic3w"]
+[ext_resource type="Texture2D" uid="uid://csa6b3vv0258r" path="res://assets/textures/minerals/salt2/specular.jpeg" id="3_j6wel"]
+
+[sub_resource type="VisualShaderNodeTexture" id="VisualShaderNodeTexture_0e06e"]
+texture = ExtResource("1_itksi")
+texture_type = 1
+
+[sub_resource type="VisualShaderNodeTexture" id="VisualShaderNodeTexture_b51tf"]
+texture = ExtResource("2_kic3w")
+texture_type = 2
+
+[sub_resource type="VisualShaderNodeTexture" id="VisualShaderNodeTexture_upu5l"]
+texture = ExtResource("3_j6wel")
+
+[resource]
+code = "shader_type spatial;
+render_mode blend_mix, depth_draw_opaque, cull_back, diffuse_lambert, specular_schlick_ggx;
+
+uniform sampler2D tex_frg_2 : source_color;
+uniform sampler2D tex_frg_4;
+uniform sampler2D tex_frg_3 : hint_normal;
+
+
+
+void fragment() {
+// Texture2D:2
+	vec4 n_out2p0 = texture(tex_frg_2, UV);
+
+
+// Texture2D:4
+	vec4 n_out4p0 = texture(tex_frg_4, UV);
+
+
+// Texture2D:3
+	vec4 n_out3p0 = texture(tex_frg_3, UV);
+
+
+// Output:0
+	ALBEDO = vec3(n_out2p0.xyz);
+	SPECULAR = n_out4p0.x;
+	NORMAL_MAP = vec3(n_out3p0.xyz);
+
+
+}
+"
+nodes/fragment/2/node = SubResource("VisualShaderNodeTexture_0e06e")
+nodes/fragment/2/position = Vector2(40, 80)
+nodes/fragment/3/node = SubResource("VisualShaderNodeTexture_b51tf")
+nodes/fragment/3/position = Vector2(-220, 260)
+nodes/fragment/4/node = SubResource("VisualShaderNodeTexture_upu5l")
+nodes/fragment/4/position = Vector2(-40, 500)
+nodes/fragment/connections = PackedInt32Array(2, 0, 0, 0, 3, 0, 0, 9, 4, 0, 0, 4)

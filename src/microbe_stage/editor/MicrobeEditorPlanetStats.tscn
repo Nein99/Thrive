@@ -1,0 +1,149 @@
+[gd_scene load_steps=9 format=3 uid="uid://b0gdved24l2wk"]
+
+[ext_resource type="Theme" uid="uid://b4cx0o110g4b6" path="res://src/gui_common/thrive_theme.tres" id="1_y3dm4"]
+[ext_resource type="Script" path="res://src/microbe_stage/editor/MicrobeEditorPlanetStats.cs" id="2_e234u"]
+[ext_resource type="LabelSettings" uid="uid://dvqx73nhtr0y2" path="res://src/gui_common/fonts/Body-Regular-Small.tres" id="6_5k8w4"]
+[ext_resource type="PackedScene" path="res://src/microbe_stage/gui/PlanetDetailsPanel.tscn" id="7_6lbjt"]
+[ext_resource type="PackedScene" path="res://src/gui_common/FocusGrabber.tscn" id="8_mx1vm"]
+
+[sub_resource type="StyleBoxFlat" id="42"]
+content_margin_left = 5.0
+content_margin_top = 5.0
+content_margin_right = 5.0
+content_margin_bottom = 5.0
+draw_center = false
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.666667, 1, 0.941176, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+
+[sub_resource type="StyleBoxFlat" id="26"]
+content_margin_left = 5.0
+content_margin_top = 5.0
+content_margin_right = 5.0
+content_margin_bottom = 5.0
+bg_color = Color(0.0156863, 0.811765, 0.396078, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.0666667, 1, 0.835294, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+
+[sub_resource type="StyleBoxFlat" id="27"]
+content_margin_left = 5.0
+content_margin_top = 5.0
+content_margin_right = 5.0
+content_margin_bottom = 5.0
+bg_color = Color(0, 0.490196, 0.258824, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.0666667, 1, 0.835294, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+
+[node name="MicrobeEditorPlanetStats" type="Control" node_paths=PackedStringArray("planetDetailsPanel", "seedLabel")]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("1_y3dm4")
+script = ExtResource("2_e234u")
+planetDetailsPanel = NodePath("MarginContainer/HSplitContainer/PlanetDetailsPanel")
+seedLabel = NodePath("MarginContainer/HSplitContainer/MapPanel/MarginContainer/VBoxContainer2/SeedLabel")
+FinishOrNextButtonPath = NodePath("MarginContainer2/NextTabButton")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 0
+anchor_right = 1.0
+anchor_bottom = 1.0
+mouse_filter = 2
+theme_override_constants/margin_left = 10
+theme_override_constants/margin_top = 45
+theme_override_constants/margin_right = 10
+theme_override_constants/margin_bottom = 55
+
+[node name="HSplitContainer" type="HSplitContainer" parent="MarginContainer"]
+layout_mode = 2
+collapsed = true
+
+[node name="MapPanel" type="PanelContainer" parent="MarginContainer/HSplitContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="MarginContainer" type="MarginContainer" parent="MarginContainer/HSplitContainer/MapPanel"]
+layout_mode = 2
+theme_override_constants/margin_left = 10
+theme_override_constants/margin_top = 10
+theme_override_constants/margin_right = 10
+theme_override_constants/margin_bottom = 10
+
+[node name="VBoxContainer" type="HBoxContainer" parent="MarginContainer/HSplitContainer/MapPanel/MarginContainer"]
+layout_mode = 2
+size_flags_horizontal = 10
+size_flags_vertical = 2
+
+[node name="Control" type="Control" parent="MarginContainer/HSplitContainer/MapPanel/MarginContainer/VBoxContainer"]
+custom_minimum_size = Vector2(4, 0)
+layout_mode = 2
+
+[node name="VBoxContainer2" type="VBoxContainer" parent="MarginContainer/HSplitContainer/MapPanel/MarginContainer"]
+layout_mode = 2
+size_flags_vertical = 8
+alignment = 2
+
+[node name="SeedLabel" type="Label" parent="MarginContainer/HSplitContainer/MapPanel/MarginContainer/VBoxContainer2"]
+layout_mode = 2
+size_flags_vertical = 8
+text = "SEED_LABEL"
+label_settings = ExtResource("6_5k8w4")
+
+[node name="Control" type="Control" parent="MarginContainer/HSplitContainer/MapPanel/MarginContainer/VBoxContainer2"]
+custom_minimum_size = Vector2(0, 1)
+layout_mode = 2
+
+[node name="PlanetDetailsPanel" parent="MarginContainer/HSplitContainer" instance=ExtResource("7_6lbjt")]
+layout_mode = 2
+
+[node name="MarginContainer2" type="MarginContainer" parent="."]
+custom_minimum_size = Vector2(150, 0)
+layout_mode = 0
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -150.0
+offset_top = -50.0
+grow_horizontal = 0
+theme_override_constants/margin_right = 10
+theme_override_constants/margin_bottom = 10
+
+[node name="FocusGrabber" parent="MarginContainer2" instance=ExtResource("8_mx1vm")]
+layout_mode = 2
+NodeToGiveFocusTo = NodePath("../NextTabButton")
+
+[node name="NextTabButton" type="Button" parent="MarginContainer2"]
+layout_mode = 2
+focus_next = NodePath(".")
+mouse_filter = 1
+theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_styles/focus = SubResource("42")
+theme_override_styles/hover = SubResource("26")
+theme_override_styles/normal = SubResource("27")
+text = "NEXT_CAPITAL"
+
+[connection signal="pressed" from="MarginContainer2/NextTabButton" to="." method="NextOrFinishClicked"]
