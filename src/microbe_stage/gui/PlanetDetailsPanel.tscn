@@ -1,0 +1,250 @@
+[gd_scene load_steps=10 format=3 uid="uid://tfok2yq7dkn"]
+
+[ext_resource type="Theme" uid="uid://b4cx0o110g4b6" path="res://src/gui_common/thrive_theme.tres" id="1_hfj5m"]
+[ext_resource type="Script" path="res://src/microbe_stage/gui/PlanetDetailsPanel.cs" id="2_daayw"]
+[ext_resource type="LabelSettings" uid="uid://dcekwe8j7ep16" path="res://src/gui_common/fonts/Title-SemiBold-AlmostHuge.tres" id="3_msnqh"]
+[ext_resource type="LabelSettings" uid="uid://bnhcbmq3brx0s" path="res://src/gui_common/fonts/Title-SemiBold-Normal.tres" id="4_tw52b"]
+[ext_resource type="Texture2D" uid="uid://bo70v3237p6iv" path="res://assets/textures/gui/bevel/hSeparatorCentered.png" id="23_41h2l"]
+[ext_resource type="LabelSettings" uid="uid://fua052cwp5ap" path="res://src/gui_common/fonts/Body-Regular-AlmostSmaller.tres" id="24_o0yly"]
+[ext_resource type="LabelSettings" uid="uid://dvqx73nhtr0y2" path="res://src/gui_common/fonts/Body-Regular-Small.tres" id="25_ga6hn"]
+[ext_resource type="LabelSettings" uid="uid://bl7dig4lq5ko" path="res://src/gui_common/fonts/Body-Regular-Small-Red.tres" id="26_ek83d"]
+
+[sub_resource type="StyleBoxTexture" id="34"]
+texture = ExtResource("23_41h2l")
+region_rect = Rect2(0, 0, 429, 1)
+
+[node name="PlanetDetailsPanel" type="PanelContainer" node_paths=PackedStringArray("planetName", "patchRegions", "planetMass", "planetRadius", "planetSurfaceArea", "planetGravity", "planetAvgTemp", "planetHumidity")]
+custom_minimum_size = Vector2(340, 0)
+offset_right = 352.0
+offset_bottom = 620.0
+theme = ExtResource("1_hfj5m")
+script = ExtResource("2_daayw")
+planetName = NodePath("NormalContent/MarginContainer/ScrollContainer/VBoxContainer/NothingSelected/PlanetName")
+patchRegions = NodePath("NormalContent/MarginContainer/ScrollContainer/VBoxContainer/NothingSelected/PlanetPatchRegions")
+planetMass = NodePath("NormalContent/MarginContainer/ScrollContainer/VBoxContainer/NothingSelected/PlanetMass")
+planetRadius = NodePath("NormalContent/MarginContainer/ScrollContainer/VBoxContainer/NothingSelected/PlanetRadius")
+planetSurfaceArea = NodePath("NormalContent/MarginContainer/ScrollContainer/VBoxContainer/NothingSelected/PlanetSurfaceArea")
+planetGravity = NodePath("NormalContent/MarginContainer/ScrollContainer/VBoxContainer/NothingSelected/PlanetGravity")
+planetAvgTemp = NodePath("NormalContent/MarginContainer/ScrollContainer/VBoxContainer/NothingSelected/PlanetAvgTemp")
+planetHumidity = NodePath("NormalContent/MarginContainer/ScrollContainer/VBoxContainer/NothingSelected/PlanetHumidity")
+
+[node name="NormalContent" type="VBoxContainer" parent="."]
+layout_mode = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="NormalContent"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_constants/margin_left = 10
+theme_override_constants/margin_top = 10
+theme_override_constants/margin_right = 10
+theme_override_constants/margin_bottom = 10
+
+[node name="ScrollContainer" type="ScrollContainer" parent="NormalContent/MarginContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+follow_focus = true
+
+[node name="VBoxContainer" type="VBoxContainer" parent="NormalContent/MarginContainer/ScrollContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="NothingSelected" type="VBoxContainer" parent="NormalContent/MarginContainer/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="PlanetName" type="Label" parent="NormalContent/MarginContainer/ScrollContainer/VBoxContainer/NothingSelected"]
+editor_description = "PLACEHOLDER"
+layout_mode = 2
+text = "Planet: PLANET NAME
+"
+label_settings = ExtResource("4_tw52b")
+horizontal_alignment = 1
+
+[node name="PlanetPatchRegions" type="Label" parent="NormalContent/MarginContainer/ScrollContainer/VBoxContainer/NothingSelected"]
+editor_description = "PLACEHOLDER"
+layout_mode = 2
+text = "Patch Regions: 9"
+label_settings = ExtResource("4_tw52b")
+horizontal_alignment = 1
+
+[node name="PlanetMass" type="Label" parent="NormalContent/MarginContainer/ScrollContainer/VBoxContainer/NothingSelected"]
+editor_description = "PLACEHOLDER"
+layout_mode = 2
+text = "Mass: 1 Earth"
+label_settings = ExtResource("4_tw52b")
+horizontal_alignment = 1
+
+[node name="PlanetRadius" type="Label" parent="NormalContent/MarginContainer/ScrollContainer/VBoxContainer/NothingSelected"]
+editor_description = "PLACEHOLDER"
+layout_mode = 2
+text = "Radius: 1 Earth"
+label_settings = ExtResource("4_tw52b")
+horizontal_alignment = 1
+
+[node name="PlanetSurfaceArea" type="Label" parent="NormalContent/MarginContainer/ScrollContainer/VBoxContainer/NothingSelected"]
+editor_description = "PLACEHOLDER"
+layout_mode = 2
+text = "Surface Area: 1 Earth"
+label_settings = ExtResource("4_tw52b")
+horizontal_alignment = 1
+
+[node name="PlanetGravity" type="Label" parent="NormalContent/MarginContainer/ScrollContainer/VBoxContainer/NothingSelected"]
+editor_description = "PLACEHOLDER"
+layout_mode = 2
+text = "Gravity: 1 Earth"
+label_settings = ExtResource("4_tw52b")
+horizontal_alignment = 1
+
+[node name="PlanetAvgTemp" type="Label" parent="NormalContent/MarginContainer/ScrollContainer/VBoxContainer/NothingSelected"]
+editor_description = "PLACEHOLDER"
+layout_mode = 2
+text = "Avg. Temp.: 15 °C"
+label_settings = ExtResource("4_tw52b")
+horizontal_alignment = 1
+
+[node name="PlanetHumidity" type="Label" parent="NormalContent/MarginContainer/ScrollContainer/VBoxContainer/NothingSelected"]
+editor_description = "PLACEHOLDER"
+layout_mode = 2
+text = "Humidity: 75%"
+label_settings = ExtResource("4_tw52b")
+horizontal_alignment = 1
+
+[node name="UnknownPatch" type="VBoxContainer" parent="NormalContent/MarginContainer/ScrollContainer/VBoxContainer"]
+visible = false
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Label" type="Label" parent="NormalContent/MarginContainer/ScrollContainer/VBoxContainer/UnknownPatch"]
+custom_minimum_size = Vector2(150, 0)
+layout_mode = 2
+size_flags_horizontal = 3
+text = "UNKNOWN_PATCH"
+label_settings = ExtResource("3_msnqh")
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="PatchDetailsContainer" type="VBoxContainer" parent="NormalContent/MarginContainer/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_constants/separation = 10
+
+[node name="VBoxContainer" type="VBoxContainer" parent="NormalContent/MarginContainer/ScrollContainer/VBoxContainer/PatchDetailsContainer"]
+layout_mode = 2
+
+[node name="HSeparator" type="HSeparator" parent="NormalContent"]
+layout_mode = 2
+theme_override_styles/separator = SubResource("34")
+
+[node name="MarginContainer2" type="MarginContainer" parent="NormalContent"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/margin_left = 10
+theme_override_constants/margin_top = 5
+theme_override_constants/margin_right = 10
+theme_override_constants/margin_bottom = 10
+
+[node name="MarginContainer3" type="MarginContainer" parent="NormalContent"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/margin_left = 10
+theme_override_constants/margin_top = 5
+theme_override_constants/margin_right = 10
+theme_override_constants/margin_bottom = 10
+
+[node name="MigrationMenu" type="VBoxContainer" parent="."]
+visible = false
+layout_mode = 2
+
+[node name="MarginContainer6" type="MarginContainer" parent="MigrationMenu"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/margin_left = 10
+theme_override_constants/margin_top = 5
+theme_override_constants/margin_right = 10
+theme_override_constants/margin_bottom = 10
+
+[node name="MigrationStatusLabel" type="Label" parent="MigrationMenu/MarginContainer6"]
+custom_minimum_size = Vector2(300, 30)
+layout_mode = 2
+text = "MIGRATION_STEP_SOURCE_EXPLANATION"
+label_settings = ExtResource("24_o0yly")
+autowrap_mode = 3
+
+[node name="MarginContainer3" type="MarginContainer" parent="MigrationMenu"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/margin_left = 10
+theme_override_constants/margin_top = 5
+theme_override_constants/margin_right = 10
+theme_override_constants/margin_bottom = 10
+
+[node name="PopulationAmount" type="HSlider" parent="MigrationMenu/MarginContainer3"]
+layout_mode = 2
+rounded = true
+
+[node name="MarginContainer7" type="MarginContainer" parent="MigrationMenu"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/margin_left = 10
+theme_override_constants/margin_top = 5
+theme_override_constants/margin_right = 10
+theme_override_constants/margin_bottom = 10
+
+[node name="MigrationSetupDescription" type="Label" parent="MigrationMenu/MarginContainer7"]
+custom_minimum_size = Vector2(300, 30)
+layout_mode = 2
+label_settings = ExtResource("25_ga6hn")
+autowrap_mode = 3
+
+[node name="MarginContainer8" type="MarginContainer" parent="MigrationMenu"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/margin_left = 10
+theme_override_constants/margin_top = 5
+theme_override_constants/margin_right = 10
+theme_override_constants/margin_bottom = 10
+
+[node name="MigrationError" type="Label" parent="MigrationMenu/MarginContainer8"]
+custom_minimum_size = Vector2(300, 30)
+layout_mode = 2
+label_settings = ExtResource("26_ek83d")
+autowrap_mode = 3
+
+[node name="Spacer" type="Control" parent="MigrationMenu"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="MarginContainer5" type="MarginContainer" parent="MigrationMenu"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/margin_left = 10
+theme_override_constants/margin_top = 5
+theme_override_constants/margin_right = 10
+theme_override_constants/margin_bottom = 10
+
+[node name="Accept" type="Button" parent="MigrationMenu/MarginContainer5"]
+custom_minimum_size = Vector2(0, 35)
+layout_mode = 2
+focus_mode = 0
+text = "ACCEPT"
+
+[node name="MarginContainer2" type="MarginContainer" parent="MigrationMenu"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/margin_left = 10
+theme_override_constants/margin_top = 5
+theme_override_constants/margin_right = 10
+theme_override_constants/margin_bottom = 10
+
+[node name="Cancel" type="Button" parent="MigrationMenu/MarginContainer2"]
+custom_minimum_size = Vector2(0, 35)
+layout_mode = 2
+focus_mode = 0
+text = "CANCEL"
+
+[connection signal="value_changed" from="MigrationMenu/MarginContainer3/PopulationAmount" to="." method="MigrationAmountSliderChanged"]
+[connection signal="pressed" from="MigrationMenu/MarginContainer5/Accept" to="." method="MigrateAcceptPressed"]
+[connection signal="pressed" from="MigrationMenu/MarginContainer2/Cancel" to="." method="MigrateCancelPressed"]

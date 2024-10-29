@@ -1019,27 +1019,27 @@ public static class Constants
 
     // Cell Colors
     public const float MIN_COLOR = 0.0f;
-    public const float MAX_COLOR = 0.9f;
+    public const float MAX_COLOR = 1.0f;
 
     public const float MIN_COLOR_MUTATION = -0.2f;
     public const float MAX_COLOR_MUTATION = 0.2f;
 
-    public const float MIN_OPACITY = 0.5f;
-    public const float MAX_OPACITY = 1.8f;
+    public const float MIN_OPACITY = 0.3f;
+    public const float MAX_OPACITY = 2.5f;
 
-    public const float MIN_OPACITY_CHITIN = 0.4f;
-    public const float MAX_OPACITY_CHITIN = 1.2f;
+    public const float MIN_OPACITY_CHITIN = 0.2f;
+    public const float MAX_OPACITY_CHITIN = 2.0f;
 
-    public const float ORGANELLE_TINT_STRENGTH = 0.1f;
+    public const float ORGANELLE_TINT_STRENGTH = 0.5f;
 
     // Min Opacity Mutation
-    public const float MIN_OPACITY_MUTATION = -0.01f;
-    public const float MAX_OPACITY_MUTATION = 0.01f;
+    public const float MIN_OPACITY_MUTATION = -0.1f;
+    public const float MAX_OPACITY_MUTATION = 0.1f;
 
     // Mutation Variables
     public const int MAX_VARIANTS_PER_MUTATION = 50;
     public const int MAX_VARIANTS_IN_MUTATIONS = 100;
-    public const float MUTATION_BACTERIA_TO_EUKARYOTE = 0.01f;
+    public const float MUTATION_BACTERIA_TO_EUKARYOTE = 0.1f;
     public const float MUTATION_CREATION_RATE = 0.25f;
     public const float MUTATION_NEW_ORGANELLE_CHANCE = 0.25f;
     public const float MUTATION_DELETION_RATE = 0.05f;
@@ -1062,7 +1062,7 @@ public static class Constants
     /// <summary>
     ///   Maximum extra bacteria to spawn
     /// </summary>
-    public const int MAX_BACTERIAL_SWARM_SIZE = 3;
+    public const int MAX_BACTERIAL_SWARM_SIZE = 30;
 
     /// <summary>
     ///   If a species has this many hexes then <see cref="MAX_BACTERIAL_SWARM_SIZE"/> is debuffed by one for this

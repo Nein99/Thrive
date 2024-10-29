@@ -1,4 +1,4 @@
-[gd_scene load_steps=15 format=3 uid="uid://bako5jivv1dji"]
+[gd_scene load_steps=13 format=3 uid="uid://bako5jivv1dji"]
 
 [ext_resource type="Texture2D" uid="uid://d3msr0kfa34w2" path="res://assets/textures/background/Thrive_vent1.png" id="1"]
 [ext_resource type="Texture2D" uid="uid://bddntbgykd7uq" path="res://assets/textures/background/Thrive_vent2.png" id="2"]
@@ -41,37 +41,6 @@ shader_parameter/layer3 = ExtResource("4")
 shader_parameter/noiseTex1 = SubResource("NoiseTexture2D_f6pop")
 shader_parameter/noiseTex2 = SubResource("NoiseTexture2D_tsmw6")
 
-[sub_resource type="Environment" id="Environment_swcg0"]
-sdfgi_use_occlusion = true
-sdfgi_bounce_feedback = 1.99
-sdfgi_cascades = 8
-sdfgi_max_distance = 3276.8
-sdfgi_y_scale = 0
-glow_normalized = true
-glow_intensity = 8.0
-glow_strength = 1.82
-glow_bloom = 1.0
-glow_blend_mode = 4
-volumetric_fog_density = 0.0603
-volumetric_fog_albedo = Color(0, 0.235294, 0.364706, 1)
-volumetric_fog_emission = Color(0, 0.741176, 0.898039, 1)
-volumetric_fog_emission_energy = 0.0
-volumetric_fog_gi_inject = 1.42
-volumetric_fog_anisotropy = 0.47
-volumetric_fog_length = 34.7
-volumetric_fog_detail_spread = 2.63902
-volumetric_fog_ambient_inject = 16.0
-volumetric_fog_temporal_reprojection_amount = 0.895
-adjustment_brightness = 1.09
-adjustment_contrast = 1.09
-adjustment_saturation = 1.09
-
-[sub_resource type="CameraAttributesPhysical" id="CameraAttributesPhysical_m7s8d"]
-auto_exposure_enabled = true
-auto_exposure_scale = 0.02
-auto_exposure_min_exposure_value = -16.0
-auto_exposure_max_exposure_value = -2.12
-
 [node name="MicrobeCamera" type="Camera3D"]
 process_priority = 100
 transform = Transform3D(1, 0, 0, 0, -1.62921e-07, 1, 0, -1, -1.62921e-07, 0, 10, 0)
@@ -89,7 +58,3 @@ material = SubResource("2")
 
 [node name="AudioListener3D" type="AudioListener3D" parent="."]
 current = true
-
-[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
-environment = SubResource("Environment_swcg0")
-camera_attributes = SubResource("CameraAttributesPhysical_m7s8d")

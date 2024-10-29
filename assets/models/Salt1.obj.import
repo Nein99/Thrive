@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bild3po57tpx5"
+path="res://.godot/imported/Salt1.obj-77dba4dff7a4708c5f197c19d374dbaf.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Salt1.obj-77dba4dff7a4708c5f197c19d374dbaf.mesh"]
+
+source_file="res://assets/models/Salt1.obj"
+dest_files=["res://.godot/imported/Salt1.obj-77dba4dff7a4708c5f197c19d374dbaf.mesh", "res://.godot/imported/Salt1.obj-77dba4dff7a4708c5f197c19d374dbaf.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false
