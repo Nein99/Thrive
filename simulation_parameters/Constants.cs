@@ -166,8 +166,8 @@ public static class Constants
 
     public const float CLOUD_CHEAT_DENSITY = 16000.0f;
 
-    public const int MEMBRANE_RESOLUTION = 10;
-    public const int MEMBRANE_VERTICAL_RESOLUTION = 7;
+    public const int MEMBRANE_RESOLUTION = 20;
+    public const int MEMBRANE_VERTICAL_RESOLUTION = 14;
     public const float MEMBRANE_HEIGHT_MULTIPLIER = 1.0f;
 
     public const float MEMBRANE_SMOOTHING_POWER = 3.0f;
@@ -226,14 +226,14 @@ public static class Constants
     /// </summary>
     public const float FLAGELLA_SPEED_BONUS_DISPLAY = 0.7f;
 
-    public const float FLAGELLA_MAX_UPGRADE_LENGHT = 3;
+    public const float FLAGELLA_MAX_UPGRADE_LENGHT = 6;
     public const float FLAGELLA_MIN_UPGRADE_LENGHT = -1;
 
-    public const float FLAGELLA_MAX_UPGRADE_FORCE = 15.0f;
+    public const float FLAGELLA_MAX_UPGRADE_FORCE = 30.0f;
 
-    public const float FLAGELLA_MAX_UPGRADE_ATP_USAGE = 4.0f;
+    public const float FLAGELLA_MAX_UPGRADE_ATP_USAGE = 8.0f;
 
-    public const float FLAGELLA_MAX_UPGRADE_VISUAL_LENGTH = 0.40f;
+    public const float FLAGELLA_MAX_UPGRADE_VISUAL_LENGTH = 0.20f;
     public const float FLAGELLA_MIN_UPGRADE_VISUAL_LENGTH = 0.80f;
 
     /// <summary>
