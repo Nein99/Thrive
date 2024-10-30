@@ -1,0 +1,19 @@
+[gd_scene load_steps=5 format=3 uid="uid://d4nyn62xhcdpv"]
+
+[ext_resource type="Shader" uid="uid://na7t6hjlj0y4" path="res://assets/models/UraniumRock.tres" id="1_c31te"]
+[ext_resource type="ArrayMesh" uid="uid://bh5rs3v5pkb5r" path="res://assets/models/VentRock.OBJ" id="2_jpb7l"]
+[ext_resource type="Shape3D" uid="uid://bop21jjcbg8xc" path="res://assets/models/VentRockShape.shape" id="3_sf7ww"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_rnnol"]
+render_priority = 0
+shader = ExtResource("1_c31te")
+
+[node name="ventRock" type="MeshInstance3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0111332, 0.0693579, -0.0349884)
+material_override = SubResource("ShaderMaterial_rnnol")
+mesh = ExtResource("2_jpb7l")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
+shape = ExtResource("3_sf7ww")

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-10-29 20:00-0500\n"
+"POT-Creation-Date: 2024-10-29 23:00-0500\n"
 "PO-Revision-Date: 2024-10-21 20:20+0000\n"
 "Last-Translator: Pascal Smit <smitpascal@gmail.com>\n"
 "Language-Team: Dutch <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/nl/>\n"
@@ -391,6 +391,9 @@ msgstr "beweeg prijs meegetelt"
 
 msgid "BALANCE_DISPLAY_WHILE_MOVING_TOOLTIP"
 msgstr "Wanneer aangevinkt wordt voor de berekening van de balans en andere getallen in dit paneel aangenomen dat de cel continu beweegt"
+
+msgid "BASALT_ROCK"
+msgstr ""
 
 msgid "BASE_MOBILITY"
 msgstr "Basismobiliteit"
@@ -6239,6 +6242,10 @@ msgstr "Uploaden..."
 
 msgid "UPLOAD_SUCCEEDED"
 msgstr "Upload was Succesvol"
+
+#, fuzzy
+msgid "URANIUM_ROCK"
+msgstr "Simpele Rakket"
 
 msgid "USED_LIBRARIES_LICENSES"
 msgstr "Licenties En Gebruikte Bibliotheken"

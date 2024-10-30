@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-10-29 20:00-0500\n"
+"POT-Creation-Date: 2024-10-29 23:00-0500\n"
 "PO-Revision-Date: 2024-10-17 07:24+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Hebrew <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/he/>\n"
@@ -390,6 +390,9 @@ msgstr ""
 #, fuzzy
 msgid "BALANCE_DISPLAY_WHILE_MOVING_TOOLTIP"
 msgstr "פתח את תצוגת ההגדרה המתקדם"
+
+msgid "BASALT_ROCK"
+msgstr ""
 
 msgid "BASE_MOBILITY"
 msgstr "ניידות בסיסית"
@@ -6351,6 +6354,9 @@ msgstr "מעלה..."
 
 msgid "UPLOAD_SUCCEEDED"
 msgstr "העלאה הצליחה"
+
+msgid "URANIUM_ROCK"
+msgstr ""
 
 msgid "USED_LIBRARIES_LICENSES"
 msgstr "רישיונות וספריות שימוש"
