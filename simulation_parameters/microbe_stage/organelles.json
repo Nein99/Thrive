@@ -1325,6 +1325,42 @@
       }
     }
   },
+  "rhizoid": {
+    "MPCost": 40,
+    "InitialComposition": {
+      "ammonia": 1,
+      "phosphates": 1
+    },
+    "Hexes": [
+      {
+        "r": 0,
+        "q": 0
+      }
+    ],
+    "Processes": {
+      "rhizoid_gathering": 1
+    },
+    "Components": {
+      "Rhizoid": {}
+    },
+    "Density": 1100,
+    "RelativeDensityVolume": 1,
+    "Graphics": {
+      "ScenePath": "res://assets/models/organelles/Rhizoid.tscn",
+      "ModelPath": "Armature/Skeleton3D/Cube_003",
+      "AnimationPlayerPath": "AnimationPlayer"
+    },
+    "PositionedExternally": true,
+    "Name": "RHIZOID",
+    "Description": "RHIZOID_DESCRIPTION",
+    "ProcessesDescription": "RHIZOID_PROCESSES_DESCRIPTION",
+    "ProductionColour": "#ffae21",
+    "ConsumptionColour": "#ffae21",
+    "IconPath": "res://assets/textures/gui/bevel/parts/CiliaIcon.png",
+    "RequiresNucleus": true,
+    "EditorButtonGroup": "External",
+    "EditorButtonOrder": 6
+  },
   "lysosome": {
     "MPCost": 45,
     "InitialComposition": {

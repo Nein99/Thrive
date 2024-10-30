@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-10-24 16:57-0500\n"
+"POT-Creation-Date: 2024-10-29 20:00-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -4209,6 +4209,18 @@ msgid "REVEAL_ALL_PATCHES"
 msgstr ""
 
 msgid "REVOLUTIONARY_GAMES_SOCIAL_TOOLTIP"
+msgstr ""
+
+msgid "RHIZOID"
+msgstr ""
+
+msgid "RHIZOID_DESCRIPTION"
+msgstr ""
+
+msgid "RHIZOID_GATHERING"
+msgstr ""
+
+msgid "RHIZOID_PROCESSES_DESCRIPTION"
 msgstr ""
 
 msgid "RIGHT_ARROW"

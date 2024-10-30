@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-10-24 16:57-0500\n"
-"PO-Revision-Date: 2024-10-29 18:51-0500\n"
+"POT-Creation-Date: 2024-10-29 20:00-0500\n"
+"PO-Revision-Date: 2024-10-29 20:08-0500\n"
 "Last-Translator: Henri Hyyryläinen <hhyyrylainen@revolutionarygamesstudio.com>\n"
 "Language-Team: English <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/en/>\n"
 "Language: en\n"
@@ -4572,6 +4572,18 @@ msgstr "Reveal All Patches"
 
 msgid "REVOLUTIONARY_GAMES_SOCIAL_TOOLTIP"
 msgstr "Visit official Revolutionary Games sites"
+
+msgid "RHIZOID"
+msgstr "Rhizoid"
+
+msgid "RHIZOID_DESCRIPTION"
+msgstr "Rhizoids are small external root-like structures that gather compounds from the surrounding environment."
+
+msgid "RHIZOID_GATHERING"
+msgstr "Rhizoid Gathering"
+
+msgid "RHIZOID_PROCESSES_DESCRIPTION"
+msgstr "Consumes a small amount of [thrive:compound type=\"atp\"][/thrive:compound] to gather extra [thrive:compound type=\"ammonia\"][/thrive:compound] and [thrive:compound type=\"phosphates\"][/thrive:compound] from the environment."
 
 msgid "RIGHT_ARROW"
 msgstr "→"

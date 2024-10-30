@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Thrive VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-10-24 16:57-0500\n"
+"POT-Creation-Date: 2024-10-29 20:00-0500\n"
 "PO-Revision-Date: 2023-09-15 06:55+0000\n"
 "Last-Translator: Kristijan Miracevski <mircevskihristijan30@gmail.com>\n"
 "Language-Team: Macedonian <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/mk/>\n"
@@ -4261,6 +4261,18 @@ msgid "REVEAL_ALL_PATCHES"
 msgstr ""
 
 msgid "REVOLUTIONARY_GAMES_SOCIAL_TOOLTIP"
+msgstr ""
+
+msgid "RHIZOID"
+msgstr ""
+
+msgid "RHIZOID_DESCRIPTION"
+msgstr ""
+
+msgid "RHIZOID_GATHERING"
+msgstr ""
+
+msgid "RHIZOID_PROCESSES_DESCRIPTION"
 msgstr ""
 
 msgid "RIGHT_ARROW"

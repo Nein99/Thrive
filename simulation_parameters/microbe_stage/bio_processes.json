@@ -260,5 +260,15 @@
       "atp": 13
     },
     "IsMetabolismProcess": false
+  },
+  "rhizoid_gathering": {
+    "Name": "RHIZOID_GATHERING",
+    "Inputs": {
+      "atp": 0.01
+    },
+    "Outputs": {
+      "phosphates": 0.04,
+      "ammonia": 0.04
+    }
   }
 }

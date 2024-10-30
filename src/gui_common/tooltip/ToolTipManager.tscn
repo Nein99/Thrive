@@ -685,6 +685,13 @@ DescriptionLabelPath = NodePath("../flagellum/MarginContainer/VBoxContainer/Desc
 DisplayDelay = 0.0
 Positioning = 1
 
+[node name="rhizoid" parent="GroupHolder/processesConsumption" instance=ExtResource("1")]
+visible = false
+layout_mode = 0
+DescriptionLabelPath = NodePath("../flagellum/MarginContainer/VBoxContainer/Description")
+DisplayDelay = 0.0
+Positioning = 1
+
 [node name="nitrogenfixingplastid" parent="GroupHolder/processesConsumption" instance=ExtResource("1")]
 visible = false
 layout_mode = 0

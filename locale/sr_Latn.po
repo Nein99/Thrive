@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-10-24 16:57-0500\n"
+"POT-Creation-Date: 2024-10-29 20:00-0500\n"
 "PO-Revision-Date: 2024-10-17 07:24+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Serbian (Latin script) <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/sr_Latn/>\n"
@@ -4768,6 +4768,20 @@ msgstr "se proširila na zone:"
 #, fuzzy
 msgid "REVOLUTIONARY_GAMES_SOCIAL_TOOLTIP"
 msgstr "Dodajte novo vezivanje tastera"
+
+msgid "RHIZOID"
+msgstr ""
+
+#, fuzzy
+msgid "RHIZOID_DESCRIPTION"
+msgstr "Vakuola je unutrašnja membranska organela koja se koristi za skladištenje u ćeliji. Sastoje se od nekoliko vezikula, manjih opnastih struktura koje se široko koriste u ćelijama za skladištenje, a koje su se stopile. Ispunjen je vodom koja se koristi da sadrži molekule, enzime, čvrste materije i druge supstance. Njihov oblik je tečan i može se razlikovati između ćelija."
+
+msgid "RHIZOID_GATHERING"
+msgstr ""
+
+#, fuzzy
+msgid "RHIZOID_PROCESSES_DESCRIPTION"
+msgstr "Lepljiva unutrašnjost ćelije. Citoplazma je osnovna smeša jona, proteina i drugih supstanci rastvorenih u vodi koja ispunjava unutrašnjost ćelije. Jedna od funkcija koju obavlja je fermentacija, pretvaranje glukoze u ATP energiju. Da bi ćelije kojima nedostaju organeli imali napredniji metabolizam, na to se oslanjaju u energiji. Takođe se koristi za skladištenje molekula u ćeliji i za povećanje veličine ćelije."
 
 #, fuzzy
 msgid "RIGHT_ARROW"

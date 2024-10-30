@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-10-24 16:57-0500\n"
+"POT-Creation-Date: 2024-10-29 20:00-0500\n"
 "PO-Revision-Date: 2024-10-17 07:24+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Luxembourgish <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/lb/>\n"
@@ -4372,6 +4372,20 @@ msgstr ""
 
 msgid "REVOLUTIONARY_GAMES_SOCIAL_TOOLTIP"
 msgstr ""
+
+msgid "RHIZOID"
+msgstr ""
+
+#, fuzzy
+msgid "RHIZOID_DESCRIPTION"
+msgstr "Thylakoiden si Klompen aus Eewäiss an photosensitive Pigmenter. D'Pigmenter kennen d'Energie vun [thrive:compound type=\"sunlight\"][/thrive:compound] vir [thrive:compound type=\"glucose\"][/thrive:compound] aus Waasser an gasfërmegen [thrive:compound type=\"carbondioxide\"][/thrive:compound] ze produzéieren an engem Prozess genannt [b]Photosyntheese[/b]. D'Pigmenter ginn den Thylakoiden och hier distinktif Faarf. Den Ëmsaz vun hierer [thrive:compound type=\"glucose\"][/thrive:compound] Produktioun wiisst mat der Konzentratioun aus [thrive:compound type=\"carbondioxide\"][/thrive:compound] an der Intensitéit vun [thrive:compound type=\"sunlight\"][/thrive:compound]. Well d'Thylakoiden direkt am Zytoplasma schwammen meescht d'Flëssegkeet ronderëm [b]Glycolyse[/b]."
+
+msgid "RHIZOID_GATHERING"
+msgstr ""
+
+#, fuzzy
+msgid "RHIZOID_PROCESSES_DESCRIPTION"
+msgstr "Erhéicht d'Dréigeschwindegkeet vu gréisseren Zellen."
 
 msgid "RIGHT_ARROW"
 msgstr ""

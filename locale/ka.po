@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-10-24 16:57-0500\n"
+"POT-Creation-Date: 2024-10-29 20:00-0500\n"
 "PO-Revision-Date: 2024-10-21 16:34+0000\n"
 "Last-Translator: NorwayFun <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/ka/>\n"
@@ -4340,6 +4340,20 @@ msgstr "ყველა ბიომის გამოჩენა"
 
 msgid "REVOLUTIONARY_GAMES_SOCIAL_TOOLTIP"
 msgstr "ეწვიეთ Revolutionary Games-ის ოფიციალურ საიტებს"
+
+msgid "RHIZOID"
+msgstr ""
+
+#, fuzzy
+msgid "RHIZOID_DESCRIPTION"
+msgstr "მოდის აღწერა:"
+
+msgid "RHIZOID_GATHERING"
+msgstr ""
+
+#, fuzzy
+msgid "RHIZOID_PROCESSES_DESCRIPTION"
+msgstr "ზრდის დიდი უჯრედების მობრუნების სიჩქარეს."
 
 msgid "RIGHT_ARROW"
 msgstr "→"
