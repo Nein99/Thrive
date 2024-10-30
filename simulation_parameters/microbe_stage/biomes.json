@@ -106,6 +106,29 @@
           },
           "DissolverEnzyme": "rusticyanin"
         },
+        "uraniumRock": {
+        "Name": "URANIUM_ROCK",
+        "Meshes": [
+        {
+          "ScenePath": "res://assets/models/UraniumRock.tscn",
+          "ConvexShapePath": "res://assets/models/VentRockShape.shape"
+        }
+        ],
+        "Density": 0.00001,
+        "Dissolves": false,
+        "Radius": 10,
+        "ChunkScale": 1,
+        "PhysicsDensity": 1400,
+        "Size": 100,
+        "VentAmount": 2,
+        "Damages": 1000000,
+        "DeleteOnTouch": false,
+        "Compounds": {
+        "phosphates": {
+          "Amount": 60000
+            }
+          }
+      },
         "googlyEyeCell": {
           "Name": "GOOGLY_EYE_CELL",
           "Meshes": [
@@ -438,7 +461,75 @@
         "Damages": 1000000,
         "DeleteOnTouch": false,
         "Compounds": {
+        "hydrogensulfide": {
+          "Amount": 60000
+            }
+          }
+      },
+      "uraniumRock": {
+        "Name": "URANIUM_ROCK",
+        "Meshes": [
+        {
+          "ScenePath": "res://assets/models/UraniumRock.tscn",
+          "ConvexShapePath": "res://assets/models/VentRockShape.shape"
+        }
+        ],
+        "Density": 0.00002,
+        "Dissolves": false,
+        "Radius": 10,
+        "ChunkScale": 1,
+        "PhysicsDensity": 1400,
+        "Size": 100,
+        "VentAmount": 2,
+        "Damages": 1000000,
+        "DeleteOnTouch": false,
+        "Compounds": {
+        "phosphates": {
+          "Amount": 60000
+            }
+          }
+      },
+      "basaltRock": {
+        "Name": "BASALT_ROCK",
+        "Meshes": [
+        {
+          "ScenePath": "res://assets/models/BasaltRock.tscn",
+          "ConvexShapePath": "res://assets/models/VentRockShape.shape"
+        }
+        ],
+        "Density": 0.00008,
+        "Dissolves": false,
+        "Radius": 10,
+        "ChunkScale": 1,
+        "PhysicsDensity": 1400,
+        "Size": 100,
+        "VentAmount": 2,
+        "DeleteOnTouch": false,
+        "Compounds": {
         "iron": {
+          "Amount": 60000
+            }
+          }
+      },
+      "uraniumRock": {
+        "Name": "URANIUM_ROCK",
+        "Meshes": [
+        {
+          "ScenePath": "res://assets/models/UraniumRock.tscn",
+          "ConvexShapePath": "res://assets/models/VentRockShape.shape"
+        }
+        ],
+        "Density": 0.00001,
+        "Dissolves": false,
+        "Radius": 10,
+        "ChunkScale": 1,
+        "PhysicsDensity": 1400,
+        "Size": 100,
+        "VentAmount": 2,
+        "Damages": 1000000,
+        "DeleteOnTouch": false,
+        "Compounds": {
+        "phosphates": {
           "Amount": 60000
             }
           }
@@ -688,6 +779,29 @@
             }
           }
         },
+        "uraniumRock": {
+        "Name": "URANIUM_ROCK",
+        "Meshes": [
+        {
+          "ScenePath": "res://assets/models/UraniumRock.tscn",
+          "ConvexShapePath": "res://assets/models/VentRockShape.shape"
+        }
+        ],
+        "Density": 0.00001,
+        "Dissolves": false,
+        "Radius": 10,
+        "ChunkScale": 1,
+        "PhysicsDensity": 1400,
+        "Size": 100,
+        "VentAmount": 2,
+        "Damages": 1000000,
+        "DeleteOnTouch": false,
+        "Compounds": {
+        "phosphates": {
+          "Amount": 60000
+            }
+          }
+      },
         "googlyEyeCell": {
           "Name": "GOOGLY_EYE_CELL",
           "Meshes": [
@@ -953,6 +1067,29 @@
             }
           }
         },
+        "uraniumRock": {
+        "Name": "URANIUM_ROCK",
+        "Meshes": [
+        {
+          "ScenePath": "res://assets/models/UraniumRock.tscn",
+          "ConvexShapePath": "res://assets/models/VentRockShape.shape"
+        }
+        ],
+        "Density": 0.00001,
+        "Dissolves": false,
+        "Radius": 10,
+        "ChunkScale": 1,
+        "PhysicsDensity": 1400,
+        "Size": 100,
+        "VentAmount": 2,
+        "Damages": 1000000,
+        "DeleteOnTouch": false,
+        "Compounds": {
+        "phosphates": {
+          "Amount": 60000
+            }
+          }
+      },
         "googlyEyeCell": {
           "Name": "GOOGLY_EYE_CELL",
           "Meshes": [
@@ -1268,6 +1405,29 @@
             }
           }
         },
+        "uraniumRock": {
+        "Name": "URANIUM_ROCK",
+        "Meshes": [
+        {
+          "ScenePath": "res://assets/models/UraniumRock.tscn",
+          "ConvexShapePath": "res://assets/models/VentRockShape.shape"
+        }
+        ],
+        "Density": 0.00001,
+        "Dissolves": false,
+        "Radius": 10,
+        "ChunkScale": 1,
+        "PhysicsDensity": 1400,
+        "Size": 100,
+        "VentAmount": 2,
+        "Damages": 1000000,
+        "DeleteOnTouch": false,
+        "Compounds": {
+        "phosphates": {
+          "Amount": 60000
+            }
+          }
+      },
         "googlyEyeCell": {
           "Name": "GOOGLY_EYE_CELL",
           "Meshes": [
@@ -1591,6 +1751,51 @@
 			}
 		  }
 		},
+    "basaltRock": {
+        "Name": "BASALT_ROCK",
+        "Meshes": [
+        {
+          "ScenePath": "res://assets/models/BasaltRock.tscn",
+          "ConvexShapePath": "res://assets/models/VentRockShape.shape"
+        }
+        ],
+        "Density": 0.00008,
+        "Dissolves": false,
+        "Radius": 10,
+        "ChunkScale": 1,
+        "PhysicsDensity": 1400,
+        "Size": 100,
+        "VentAmount": 2,
+        "DeleteOnTouch": false,
+        "Compounds": {
+        "iron": {
+          "Amount": 60000
+            }
+          }
+      },
+    "uraniumRock": {
+        "Name": "URANIUM_ROCK",
+        "Meshes": [
+        {
+          "ScenePath": "res://assets/models/UraniumRock.tscn",
+          "ConvexShapePath": "res://assets/models/VentRockShape.shape"
+        }
+        ],
+        "Density": 0.00001,
+        "Dissolves": false,
+        "Radius": 10,
+        "ChunkScale": 1,
+        "PhysicsDensity": 1400,
+        "Size": 100,
+        "VentAmount": 2,
+        "Damages": 1000000,
+        "DeleteOnTouch": false,
+        "Compounds": {
+        "phosphates": {
+          "Amount": 60000
+            }
+          }
+      },
 		"googlyEyeCell": {
 		  "Name": "GOOGLY_EYE_CELL",
 		  "Meshes": [
@@ -1852,6 +2057,29 @@
             }
           }
         },
+        "uraniumRock": {
+        "Name": "URANIUM_ROCK",
+        "Meshes": [
+        {
+          "ScenePath": "res://assets/models/UraniumRock.tscn",
+          "ConvexShapePath": "res://assets/models/VentRockShape.shape"
+        }
+        ],
+        "Density": 0.00001,
+        "Dissolves": false,
+        "Radius": 10,
+        "ChunkScale": 1,
+        "PhysicsDensity": 1400,
+        "Size": 100,
+        "VentAmount": 2,
+        "Damages": 1000000,
+        "DeleteOnTouch": false,
+        "Compounds": {
+        "phosphates": {
+          "Amount": 60000
+            }
+          }
+      },
         "googlyEyeCell": {
           "Name": "GOOGLY_EYE_CELL",
           "Meshes": [
@@ -2094,6 +2322,29 @@
             }
           }
         },
+        "uraniumRock": {
+        "Name": "URANIUM_ROCK",
+        "Meshes": [
+        {
+          "ScenePath": "res://assets/models/UraniumRock.tscn",
+          "ConvexShapePath": "res://assets/models/VentRockShape.shape"
+        }
+        ],
+        "Density": 0.00001,
+        "Dissolves": false,
+        "Radius": 10,
+        "ChunkScale": 1,
+        "PhysicsDensity": 1400,
+        "Size": 100,
+        "VentAmount": 2,
+        "Damages": 1000000,
+        "DeleteOnTouch": false,
+        "Compounds": {
+        "phosphates": {
+          "Amount": 60000
+            }
+          }
+      },
         "googlyEyeCell": {
           "Name": "GOOGLY_EYE_CELL",
           "Meshes": [
@@ -2327,6 +2578,51 @@
             }
           }
         },
+        "basaltRock": {
+        "Name": "BASALT_ROCK",
+        "Meshes": [
+        {
+          "ScenePath": "res://assets/models/BasaltRock.tscn",
+          "ConvexShapePath": "res://assets/models/VentRockShape.shape"
+        }
+        ],
+        "Density": 0.00009,
+        "Dissolves": false,
+        "Radius": 10,
+        "ChunkScale": 1,
+        "PhysicsDensity": 1400,
+        "Size": 100,
+        "VentAmount": 2,
+        "DeleteOnTouch": false,
+        "Compounds": {
+        "iron": {
+          "Amount": 60000
+            }
+          }
+      },
+        "uraniumRock": {
+        "Name": "URANIUM_ROCK",
+        "Meshes": [
+        {
+          "ScenePath": "res://assets/models/UraniumRock.tscn",
+          "ConvexShapePath": "res://assets/models/VentRockShape.shape"
+        }
+        ],
+        "Density": 0.00001,
+        "Dissolves": false,
+        "Radius": 10,
+        "ChunkScale": 1,
+        "PhysicsDensity": 1400,
+        "Size": 100,
+        "VentAmount": 2,
+        "Damages": 1000000,
+        "DeleteOnTouch": false,
+        "Compounds": {
+        "phosphates": {
+          "Amount": 60000
+            }
+          }
+      },
         "googlyEyeCell": {
           "Name": "GOOGLY_EYE_CELL",
           "Meshes": [
@@ -2608,6 +2904,29 @@
           },
           "DissolverEnzyme": "rusticyanin"
         },
+        "uraniumRock": {
+        "Name": "URANIUM_ROCK",
+        "Meshes": [
+        {
+          "ScenePath": "res://assets/models/UraniumRock.tscn",
+          "ConvexShapePath": "res://assets/models/VentRockShape.shape"
+        }
+        ],
+        "Density": 0.00001,
+        "Dissolves": false,
+        "Radius": 10,
+        "ChunkScale": 1,
+        "PhysicsDensity": 1400,
+        "Size": 100,
+        "VentAmount": 2,
+        "Damages": 1000000,
+        "DeleteOnTouch": false,
+        "Compounds": {
+        "phosphates": {
+          "Amount": 60000
+            }
+          }
+      },
         "googlyEyeCell": {
           "Name": "GOOGLY_EYE_CELL",
           "Meshes": [
@@ -2854,6 +3173,29 @@
             }
           }
         },
+        "uraniumRock": {
+        "Name": "URANIUM_ROCK",
+        "Meshes": [
+        {
+          "ScenePath": "res://assets/models/UraniumRock.tscn",
+          "ConvexShapePath": "res://assets/models/VentRockShape.shape"
+        }
+        ],
+        "Density": 0.00001,
+        "Dissolves": false,
+        "Radius": 10,
+        "ChunkScale": 1,
+        "PhysicsDensity": 1400,
+        "Size": 100,
+        "VentAmount": 2,
+        "Damages": 1000000,
+        "DeleteOnTouch": false,
+        "Compounds": {
+        "phosphates": {
+          "Amount": 60000
+            }
+          }
+      },
         "googlyEyeCell": {
           "Name": "GOOGLY_EYE_CELL",
           "Meshes": [
@@ -3103,6 +3445,29 @@
 			}
 		  }
 		},
+    "uraniumRock": {
+        "Name": "URANIUM_ROCK",
+        "Meshes": [
+        {
+          "ScenePath": "res://assets/models/UraniumRock.tscn",
+          "ConvexShapePath": "res://assets/models/VentRockShape.shape"
+        }
+        ],
+        "Density": 0.00001,
+        "Dissolves": false,
+        "Radius": 10,
+        "ChunkScale": 1,
+        "PhysicsDensity": 1400,
+        "Size": 100,
+        "VentAmount": 2,
+        "Damages": 1000000,
+        "DeleteOnTouch": false,
+        "Compounds": {
+        "phosphates": {
+          "Amount": 60000
+            }
+          }
+      },
 		"googlyEyeCell": {
 		  "Name": "GOOGLY_EYE_CELL",
 		  "Meshes": [
@@ -3436,6 +3801,51 @@
 			}
 		  }
 		},
+    "basaltRock": {
+        "Name": "BASALT_ROCK",
+        "Meshes": [
+        {
+          "ScenePath": "res://assets/models/BasaltRock.tscn",
+          "ConvexShapePath": "res://assets/models/VentRockShape.shape"
+        }
+        ],
+        "Density": 0.00008,
+        "Dissolves": false,
+        "Radius": 10,
+        "ChunkScale": 1,
+        "PhysicsDensity": 1400,
+        "Size": 100,
+        "VentAmount": 2,
+        "DeleteOnTouch": false,
+        "Compounds": {
+        "iron": {
+          "Amount": 60000
+            }
+          }
+      },
+    "uraniumRock": {
+        "Name": "URANIUM_ROCK",
+        "Meshes": [
+        {
+          "ScenePath": "res://assets/models/UraniumRock.tscn",
+          "ConvexShapePath": "res://assets/models/VentRockShape.shape"
+        }
+        ],
+        "Density": 0.00002,
+        "Dissolves": false,
+        "Radius": 10,
+        "ChunkScale": 1,
+        "PhysicsDensity": 1400,
+        "Size": 100,
+        "VentAmount": 2,
+        "Damages": 1000000,
+        "DeleteOnTouch": false,
+        "Compounds": {
+        "phosphates": {
+          "Amount": 60000
+            }
+          }
+      },
 		"googlyEyeCell": {
 		  "Name": "GOOGLY_EYE_CELL",
 		  "Meshes": [
@@ -3682,6 +4092,51 @@
 			}
 		  }
 		},
+    "basaltRock": {
+        "Name": "BASALT_ROCK",
+        "Meshes": [
+        {
+          "ScenePath": "res://assets/models/BasaltRock.tscn",
+          "ConvexShapePath": "res://assets/models/VentRockShape.shape"
+        }
+        ],
+        "Density": 0.00009,
+        "Dissolves": false,
+        "Radius": 10,
+        "ChunkScale": 1,
+        "PhysicsDensity": 1400,
+        "Size": 100,
+        "VentAmount": 2,
+        "DeleteOnTouch": false,
+        "Compounds": {
+        "iron": {
+          "Amount": 60000
+            }
+          }
+      },
+    "uraniumRock": {
+        "Name": "URANIUM_ROCK",
+        "Meshes": [
+        {
+          "ScenePath": "res://assets/models/UraniumRock.tscn",
+          "ConvexShapePath": "res://assets/models/VentRockShape.shape"
+        }
+        ],
+        "Density": 0.00001,
+        "Dissolves": false,
+        "Radius": 10,
+        "ChunkScale": 1,
+        "PhysicsDensity": 1400,
+        "Size": 100,
+        "VentAmount": 2,
+        "Damages": 1000000,
+        "DeleteOnTouch": false,
+        "Compounds": {
+        "phosphates": {
+          "Amount": 60000
+            }
+          }
+      },
 		"googlyEyeCell": {
 		  "Name": "GOOGLY_EYE_CELL",
 		  "Meshes": [
@@ -4009,6 +4464,51 @@
             }
           }
         },
+        "basaltRock": {
+        "Name": "BASALT_ROCK",
+        "Meshes": [
+        {
+          "ScenePath": "res://assets/models/BasaltRock.tscn",
+          "ConvexShapePath": "res://assets/models/VentRockShape.shape"
+        }
+        ],
+        "Density": 0.00009,
+        "Dissolves": false,
+        "Radius": 10,
+        "ChunkScale": 1,
+        "PhysicsDensity": 1400,
+        "Size": 100,
+        "VentAmount": 2,
+        "DeleteOnTouch": false,
+        "Compounds": {
+        "iron": {
+          "Amount": 60000
+            }
+          }
+      },
+        "uraniumRock": {
+        "Name": "URANIUM_ROCK",
+        "Meshes": [
+        {
+          "ScenePath": "res://assets/models/UraniumRock.tscn",
+          "ConvexShapePath": "res://assets/models/VentRockShape.shape"
+        }
+        ],
+        "Density": 0.00001,
+        "Dissolves": false,
+        "Radius": 10,
+        "ChunkScale": 1,
+        "PhysicsDensity": 1400,
+        "Size": 100,
+        "VentAmount": 2,
+        "Damages": 1000000,
+        "DeleteOnTouch": false,
+        "Compounds": {
+        "phosphates": {
+          "Amount": 60000
+            }
+          }
+      },
         "googlyEyeCell": {
           "Name": "GOOGLY_EYE_CELL",
           "Meshes": [
