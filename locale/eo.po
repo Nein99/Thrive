@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-10-24 16:57-0500\n"
+"POT-Creation-Date: 2024-10-29 20:00-0500\n"
 "PO-Revision-Date: 2024-10-17 07:24+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Esperanto <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/eo/>\n"
@@ -4951,6 +4951,20 @@ msgstr "disvastiĝas al flikĵj:"
 #, fuzzy
 msgid "REVOLUTIONARY_GAMES_SOCIAL_TOOLTIP"
 msgstr "Aldonunovan funkcion por klavo"
+
+msgid "RHIZOID"
+msgstr ""
+
+#, fuzzy
+msgid "RHIZOID_DESCRIPTION"
+msgstr "Priskribo:"
+
+msgid "RHIZOID_GATHERING"
+msgstr ""
+
+#, fuzzy
+msgid "RHIZOID_PROCESSES_DESCRIPTION"
+msgstr "La gluiĝemaj internaĵoj de ĉelo. La citoplasmo estas la baza miksaĵo de jonoj, proteinoj kaj aliaj substancoj solvitaj en akvo, kiu plenigas la internon de la ĉelo. Unu el la funkcioj, kiujn ĝi plenumas, estas Fermentado, la konvertiĝo de glukozo en ATP-energion. Por havi pli progresintajn metabolojn, ĉeloj, al kiuj mankas organetoj, uzas energion de ATP. Ĝi ankaŭ estas uzita por stoki molekulojn en la ĉelo kaj kreskigi la grandecon de la ĉelo."
 
 #, fuzzy
 msgid "RIGHT_ARROW"

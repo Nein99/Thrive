@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-10-24 16:57-0500\n"
+"POT-Creation-Date: 2024-10-29 20:00-0500\n"
 "PO-Revision-Date: 2024-10-17 07:24+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Polish <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/pl/>\n"
@@ -4706,6 +4706,20 @@ msgstr ""
 
 msgid "REVOLUTIONARY_GAMES_SOCIAL_TOOLTIP"
 msgstr "Odwiedź oficjalne strony Revolutionary Games"
+
+msgid "RHIZOID"
+msgstr ""
+
+#, fuzzy
+msgid "RHIZOID_DESCRIPTION"
+msgstr "Opis:"
+
+msgid "RHIZOID_GATHERING"
+msgstr ""
+
+#, fuzzy
+msgid "RHIZOID_PROCESSES_DESCRIPTION"
+msgstr "Zwiększa prędkość obrotu większych komórek."
 
 msgid "RIGHT_ARROW"
 msgstr "→"

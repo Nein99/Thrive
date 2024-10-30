@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Thrive VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-10-24 16:57-0500\n"
+"POT-Creation-Date: 2024-10-29 20:00-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -49,11 +49,12 @@ msgstr ""
 msgid "ABSORBERS_COUNT"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/biomes.json:1007
+#: ../simulation_parameters/microbe_stage/biomes.json:1030
 msgid "ABYSSOPELAGIC"
 msgstr ""
 
 #: ../src/microbe_stage/gui/PatchDetailsPanel.tscn:576
+#: ../src/microbe_stage/gui/PlanetDetailsPanel.tscn:232
 msgid "ACCEPT"
 msgstr ""
 
@@ -109,7 +110,7 @@ msgstr ""
 msgid "ADDITIONAL_VALIDATION_FAILED"
 msgstr ""
 
-#: ../src/gui_common/tooltip/ToolTipManager.tscn:712
+#: ../src/gui_common/tooltip/ToolTipManager.tscn:719
 msgid "ADD_INPUT_BUTTON_TOOLTIP"
 msgstr ""
 
@@ -237,7 +238,7 @@ msgstr ""
 msgid "APRIL"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/biomes.json:3490
+#: ../simulation_parameters/microbe_stage/biomes.json:3513
 msgid "AQUIFER"
 msgstr ""
 
@@ -290,7 +291,7 @@ msgstr ""
 msgid "ASSUME_HYPERTHREADING"
 msgstr ""
 
-#: ../src/gui_common/tooltip/ToolTipManager.tscn:733
+#: ../src/gui_common/tooltip/ToolTipManager.tscn:740
 msgid "ASSUME_HYPERTHREADING_TOOLTIP"
 msgstr ""
 
@@ -518,7 +519,7 @@ msgstr ""
 msgid "BASIC_VIEW_BUTTON_TOOLTIP"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/biomes.json:742
+#: ../simulation_parameters/microbe_stage/biomes.json:765
 msgid "BATHYPELAGIC"
 msgstr ""
 
@@ -590,35 +591,35 @@ msgstr ""
 
 #: ../simulation_parameters/microbe_stage/biomes.json:82
 #: ../simulation_parameters/microbe_stage/biomes.json:264
-#: ../simulation_parameters/microbe_stage/biomes.json:579
-#: ../simulation_parameters/microbe_stage/biomes.json:820
-#: ../simulation_parameters/microbe_stage/biomes.json:1085
-#: ../simulation_parameters/microbe_stage/biomes.json:1400
-#: ../simulation_parameters/microbe_stage/biomes.json:1723
-#: ../simulation_parameters/microbe_stage/biomes.json:1985
-#: ../simulation_parameters/microbe_stage/biomes.json:2226
-#: ../simulation_parameters/microbe_stage/biomes.json:2561
-#: ../simulation_parameters/microbe_stage/biomes.json:2741
-#: ../simulation_parameters/microbe_stage/biomes.json:2990
-#: ../simulation_parameters/microbe_stage/biomes.json:3238
-#: ../simulation_parameters/microbe_stage/biomes.json:3569
-#: ../simulation_parameters/microbe_stage/biomes.json:3814
-#: ../simulation_parameters/microbe_stage/biomes.json:4122
+#: ../simulation_parameters/microbe_stage/biomes.json:602
+#: ../simulation_parameters/microbe_stage/biomes.json:843
+#: ../simulation_parameters/microbe_stage/biomes.json:1108
+#: ../simulation_parameters/microbe_stage/biomes.json:1423
+#: ../simulation_parameters/microbe_stage/biomes.json:1746
+#: ../simulation_parameters/microbe_stage/biomes.json:2008
+#: ../simulation_parameters/microbe_stage/biomes.json:2249
+#: ../simulation_parameters/microbe_stage/biomes.json:2584
+#: ../simulation_parameters/microbe_stage/biomes.json:2764
+#: ../simulation_parameters/microbe_stage/biomes.json:3013
+#: ../simulation_parameters/microbe_stage/biomes.json:3261
+#: ../simulation_parameters/microbe_stage/biomes.json:3592
+#: ../simulation_parameters/microbe_stage/biomes.json:3837
+#: ../simulation_parameters/microbe_stage/biomes.json:4145
 #: ../src/auto-evo/AutoEvoGlobalCache.cs:48
 msgid "BIG_IRON_CHUNK"
 msgstr ""
 
 #: ../simulation_parameters/microbe_stage/biomes.json:315
-#: ../simulation_parameters/microbe_stage/biomes.json:642
-#: ../simulation_parameters/microbe_stage/biomes.json:1140
-#: ../simulation_parameters/microbe_stage/biomes.json:1463
-#: ../simulation_parameters/microbe_stage/biomes.json:2048
-#: ../simulation_parameters/microbe_stage/biomes.json:2285
-#: ../simulation_parameters/microbe_stage/biomes.json:2808
-#: ../simulation_parameters/microbe_stage/biomes.json:3057
-#: ../simulation_parameters/microbe_stage/biomes.json:3312
-#: ../simulation_parameters/microbe_stage/biomes.json:3636
-#: ../simulation_parameters/microbe_stage/biomes.json:3877
+#: ../simulation_parameters/microbe_stage/biomes.json:665
+#: ../simulation_parameters/microbe_stage/biomes.json:1163
+#: ../simulation_parameters/microbe_stage/biomes.json:1486
+#: ../simulation_parameters/microbe_stage/biomes.json:2071
+#: ../simulation_parameters/microbe_stage/biomes.json:2308
+#: ../simulation_parameters/microbe_stage/biomes.json:2831
+#: ../simulation_parameters/microbe_stage/biomes.json:3080
+#: ../simulation_parameters/microbe_stage/biomes.json:3335
+#: ../simulation_parameters/microbe_stage/biomes.json:3659
+#: ../simulation_parameters/microbe_stage/biomes.json:3900
 msgid "BIG_PHOSPHATE_CHUNK"
 msgstr ""
 
@@ -748,6 +749,7 @@ msgstr ""
 #: ../src/gui_common/dialogs/CustomConfirmationDialog.tscn:71
 #: ../src/microbe_stage/editor/EndosymbiosisProgressDisplay.tscn:67
 #: ../src/microbe_stage/gui/PatchDetailsPanel.tscn:590
+#: ../src/microbe_stage/gui/PlanetDetailsPanel.tscn:246
 #: ../src/modding/NewModGUI.tscn:334
 #: ../src/space_stage/gui/SpaceConstructionPopup.tscn:48
 #: ../src/thriveopedia/fossilisation/FossilisationDialog.tscn:127
@@ -1060,7 +1062,7 @@ msgstr ""
 msgid "CLOUD_SIMULATION_MULTIPLIER"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/biomes.json:1906
+#: ../simulation_parameters/microbe_stage/biomes.json:1929
 msgid "COASTAL"
 msgstr ""
 
@@ -2451,7 +2453,7 @@ msgstr ""
 msgid "ESCAPE_ENGULFING"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/biomes.json:2662
+#: ../simulation_parameters/microbe_stage/biomes.json:2685
 msgid "ESTUARY"
 msgstr ""
 
@@ -2614,15 +2616,15 @@ msgstr ""
 msgid "FEED_ITEM_TRUNCATED_NOTICE"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:1409
+#: ../simulation_parameters/microbe_stage/organelles.json:1445
 msgid "FERROPLAST"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:1410
+#: ../simulation_parameters/microbe_stage/organelles.json:1446
 msgid "FERROPLAST_DESCRIPTION"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:1411
+#: ../simulation_parameters/microbe_stage/organelles.json:1447
 msgid "FERROPLAST_PROCESSES_DESCRIPTION"
 msgstr ""
 
@@ -2691,19 +2693,19 @@ msgstr ""
 
 #: ../simulation_parameters/microbe_stage/biomes.json:27
 #: ../simulation_parameters/microbe_stage/biomes.json:209
-#: ../simulation_parameters/microbe_stage/biomes.json:524
-#: ../simulation_parameters/microbe_stage/biomes.json:765
-#: ../simulation_parameters/microbe_stage/biomes.json:1030
-#: ../simulation_parameters/microbe_stage/biomes.json:1345
-#: ../simulation_parameters/microbe_stage/biomes.json:1668
-#: ../simulation_parameters/microbe_stage/biomes.json:1930
-#: ../simulation_parameters/microbe_stage/biomes.json:2171
-#: ../simulation_parameters/microbe_stage/biomes.json:2408
-#: ../simulation_parameters/microbe_stage/biomes.json:2686
-#: ../simulation_parameters/microbe_stage/biomes.json:2935
-#: ../simulation_parameters/microbe_stage/biomes.json:3183
-#: ../simulation_parameters/microbe_stage/biomes.json:3514
-#: ../simulation_parameters/microbe_stage/biomes.json:3759
+#: ../simulation_parameters/microbe_stage/biomes.json:547
+#: ../simulation_parameters/microbe_stage/biomes.json:788
+#: ../simulation_parameters/microbe_stage/biomes.json:1053
+#: ../simulation_parameters/microbe_stage/biomes.json:1368
+#: ../simulation_parameters/microbe_stage/biomes.json:1691
+#: ../simulation_parameters/microbe_stage/biomes.json:1953
+#: ../simulation_parameters/microbe_stage/biomes.json:2194
+#: ../simulation_parameters/microbe_stage/biomes.json:2431
+#: ../simulation_parameters/microbe_stage/biomes.json:2709
+#: ../simulation_parameters/microbe_stage/biomes.json:2958
+#: ../simulation_parameters/microbe_stage/biomes.json:3206
+#: ../simulation_parameters/microbe_stage/biomes.json:3537
+#: ../simulation_parameters/microbe_stage/biomes.json:3782
 msgid "FLOATING_HAZARD"
 msgstr ""
 
@@ -2920,20 +2922,20 @@ msgid "GOD_TOOLS_TITLE"
 msgstr ""
 
 #: ../simulation_parameters/microbe_stage/biomes.json:110
-#: ../simulation_parameters/microbe_stage/biomes.json:424
-#: ../simulation_parameters/microbe_stage/biomes.json:669
-#: ../simulation_parameters/microbe_stage/biomes.json:934
-#: ../simulation_parameters/microbe_stage/biomes.json:1249
-#: ../simulation_parameters/microbe_stage/biomes.json:1572
-#: ../simulation_parameters/microbe_stage/biomes.json:1833
-#: ../simulation_parameters/microbe_stage/biomes.json:2075
-#: ../simulation_parameters/microbe_stage/biomes.json:2308
-#: ../simulation_parameters/microbe_stage/biomes.json:2589
-#: ../simulation_parameters/microbe_stage/biomes.json:2835
-#: ../simulation_parameters/microbe_stage/biomes.json:3084
-#: ../simulation_parameters/microbe_stage/biomes.json:3417
-#: ../simulation_parameters/microbe_stage/biomes.json:3663
-#: ../simulation_parameters/microbe_stage/biomes.json:3990
+#: ../simulation_parameters/microbe_stage/biomes.json:447
+#: ../simulation_parameters/microbe_stage/biomes.json:692
+#: ../simulation_parameters/microbe_stage/biomes.json:957
+#: ../simulation_parameters/microbe_stage/biomes.json:1272
+#: ../simulation_parameters/microbe_stage/biomes.json:1595
+#: ../simulation_parameters/microbe_stage/biomes.json:1856
+#: ../simulation_parameters/microbe_stage/biomes.json:2098
+#: ../simulation_parameters/microbe_stage/biomes.json:2331
+#: ../simulation_parameters/microbe_stage/biomes.json:2612
+#: ../simulation_parameters/microbe_stage/biomes.json:2858
+#: ../simulation_parameters/microbe_stage/biomes.json:3107
+#: ../simulation_parameters/microbe_stage/biomes.json:3440
+#: ../simulation_parameters/microbe_stage/biomes.json:3686
+#: ../simulation_parameters/microbe_stage/biomes.json:4013
 msgid "GOOGLY_EYE_CELL"
 msgstr ""
 
@@ -2962,7 +2964,7 @@ msgstr ""
 msgid "GUI"
 msgstr ""
 
-#: ../src/gui_common/tooltip/ToolTipManager.tscn:726
+#: ../src/gui_common/tooltip/ToolTipManager.tscn:733
 msgid "GUI_LIGHT_EFFECTS_OPTION_DESCRIPTION"
 msgstr ""
 
@@ -2974,7 +2976,7 @@ msgstr ""
 msgid "GUI_VOLUME"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/biomes.json:1322
+#: ../simulation_parameters/microbe_stage/biomes.json:1345
 msgid "HADOPELAGIC"
 msgstr ""
 
@@ -3041,7 +3043,7 @@ msgstr ""
 msgid "HORIZONTAL_WITH_AXIS_NAME_COLON"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/biomes.json:2908
+#: ../simulation_parameters/microbe_stage/biomes.json:2931
 msgid "HOTSPRING"
 msgstr ""
 
@@ -3074,19 +3076,19 @@ msgstr ""
 msgid "HYDROGEN_SULFIDE"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/biomes.json:2427
+#: ../simulation_parameters/microbe_stage/biomes.json:2450
 msgid "ICESHARD"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/biomes.json:2381
+#: ../simulation_parameters/microbe_stage/biomes.json:2404
 msgid "ICESHELF"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/biomes.json:2471
+#: ../simulation_parameters/microbe_stage/biomes.json:2494
 msgid "ICE_CHUNK_BIG"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/biomes.json:2446
+#: ../simulation_parameters/microbe_stage/biomes.json:2469
 msgid "ICE_CHUNK_SMALL"
 msgstr ""
 
@@ -4312,15 +4314,15 @@ msgstr ""
 msgid "LUCIFERASE_YELLOW_DESCRIPTION"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:1356
+#: ../simulation_parameters/microbe_stage/organelles.json:1392
 msgid "LYSOSOME"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:1357
+#: ../simulation_parameters/microbe_stage/organelles.json:1393
 msgid "LYSOSOME_DESCRIPTION"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:1358
+#: ../simulation_parameters/microbe_stage/organelles.json:1394
 msgid "LYSOSOME_PROCESSES_DESCRIPTION"
 msgstr ""
 
@@ -4342,12 +4344,12 @@ msgid "MARCH"
 msgstr ""
 
 #: ../simulation_parameters/microbe_stage/biomes.json:338
-#: ../simulation_parameters/microbe_stage/biomes.json:848
-#: ../simulation_parameters/microbe_stage/biomes.json:1163
-#: ../simulation_parameters/microbe_stage/biomes.json:1490
-#: ../simulation_parameters/microbe_stage/biomes.json:1751
-#: ../simulation_parameters/microbe_stage/biomes.json:3335
-#: ../simulation_parameters/microbe_stage/biomes.json:3904
+#: ../simulation_parameters/microbe_stage/biomes.json:871
+#: ../simulation_parameters/microbe_stage/biomes.json:1186
+#: ../simulation_parameters/microbe_stage/biomes.json:1513
+#: ../simulation_parameters/microbe_stage/biomes.json:1774
+#: ../simulation_parameters/microbe_stage/biomes.json:3358
+#: ../simulation_parameters/microbe_stage/biomes.json:3927
 msgid "MARINE_SNOW"
 msgstr ""
 
@@ -4422,7 +4424,7 @@ msgstr ""
 msgid "MENU"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/biomes.json:1645
+#: ../simulation_parameters/microbe_stage/biomes.json:1668
 msgid "MESOPELAGIC"
 msgstr ""
 
@@ -4715,6 +4717,7 @@ msgstr ""
 
 #: ../src/microbe_stage/gui/PatchDetailsPanel.cs:743
 #: ../src/microbe_stage/gui/PatchDetailsPanel.tscn:516
+#: ../src/microbe_stage/gui/PlanetDetailsPanel.tscn:172
 msgid "MIGRATION_STEP_SOURCE_EXPLANATION"
 msgstr ""
 
@@ -5221,6 +5224,7 @@ msgstr ""
 #: ../src/late_multicellular_stage/editor/MetaballBodyEditorComponent.tscn:674
 #: ../src/microbe_stage/editor/CellEditorComponent.tscn:1230
 #: ../src/microbe_stage/editor/MicrobeEditorPatchMap.tscn:174
+#: ../src/microbe_stage/editor/MicrobeEditorPlanetStats.tscn:147
 #: ../src/microbe_stage/editor/MicrobeEditorReportComponent.tscn:559
 msgid "NEXT_CAPITAL"
 msgstr ""
@@ -5600,11 +5604,11 @@ msgstr ""
 msgid "ORGANELLES_WILL_BE_UNLOCKED_NEXT_GENERATION"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:1450
+#: ../simulation_parameters/microbe_stage/organelles.json:1486
 msgid "ORGANELLE_AXON"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:1451
+#: ../simulation_parameters/microbe_stage/organelles.json:1487
 msgid "ORGANELLE_AXON_DESCRIPTION"
 msgstr ""
 
@@ -5612,11 +5616,11 @@ msgstr ""
 msgid "ORGANELLE_CATEGORY_MULTICELLULAR"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:1493
+#: ../simulation_parameters/microbe_stage/organelles.json:1529
 msgid "ORGANELLE_MYOFIBRIL"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:1494
+#: ../simulation_parameters/microbe_stage/organelles.json:1530
 msgid "ORGANELLE_MYOFIBRIL_DESCRIPTION"
 msgstr ""
 
@@ -5798,7 +5802,7 @@ msgstr ""
 msgid "PATCH_MAP"
 msgstr ""
 
-#: ../src/gui_common/tooltip/ToolTipManager.tscn:768
+#: ../src/gui_common/tooltip/ToolTipManager.tscn:775
 msgid "PATCH_MAP_NAVIGATION_TOOLTIP"
 msgstr ""
 
@@ -6326,6 +6330,22 @@ msgstr ""
 msgid "REVOLUTIONARY_GAMES_SOCIAL_TOOLTIP"
 msgstr ""
 
+#: ../simulation_parameters/microbe_stage/organelles.json:1354
+msgid "RHIZOID"
+msgstr ""
+
+#: ../simulation_parameters/microbe_stage/organelles.json:1355
+msgid "RHIZOID_DESCRIPTION"
+msgstr ""
+
+#: ../simulation_parameters/microbe_stage/bio_processes.json:265
+msgid "RHIZOID_GATHERING"
+msgstr ""
+
+#: ../simulation_parameters/microbe_stage/organelles.json:1356
+msgid "RHIZOID_PROCESSES_DESCRIPTION"
+msgstr ""
+
 #: ../src/modding/ModManager.tscn:150
 msgid "RIGHT_ARROW"
 msgstr ""
@@ -6562,7 +6582,7 @@ msgstr ""
 msgid "SCROLLLOCK"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/biomes.json:3157
+#: ../simulation_parameters/microbe_stage/biomes.json:3180
 msgid "SEAMOUNT"
 msgstr ""
 
@@ -6578,7 +6598,7 @@ msgstr ""
 msgid "SEARCH_RADIUS"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/biomes.json:3736
+#: ../simulation_parameters/microbe_stage/biomes.json:3759
 msgid "SEA_FLOOR"
 msgstr ""
 
@@ -6592,7 +6612,9 @@ msgid "SECRETE_SLIME_TOOLTIP"
 msgstr ""
 
 #: ../src/microbe_stage/editor/MicrobeEditorPatchMap.tscn:136
+#: ../src/microbe_stage/editor/MicrobeEditorPlanetStats.tscn:112
 #: ../src/microbe_stage/editor/PatchMapEditorComponent.cs:321
+#: ../src/microbe_stage/editor/PlanetStatsEditorComponent.cs:41
 #: ../src/thriveopedia/pages/ThriveopediaPatchMapPage.cs:146
 #: ../src/thriveopedia/pages/ThriveopediaPatchMapPage.tscn:82
 msgid "SEED_LABEL"
@@ -6676,7 +6698,7 @@ msgstr ""
 msgid "SESSILE"
 msgstr ""
 
-#: ../src/gui_common/tooltip/ToolTipManager.tscn:719
+#: ../src/gui_common/tooltip/ToolTipManager.tscn:726
 msgid "SETTING_ONLY_APPLIES_TO_NEW_GAMES"
 msgstr ""
 
@@ -6721,7 +6743,7 @@ msgstr ""
 msgid "SHOW_UNSAVED_PROGRESS_WARNING"
 msgstr ""
 
-#: ../src/gui_common/tooltip/ToolTipManager.tscn:738
+#: ../src/gui_common/tooltip/ToolTipManager.tscn:745
 msgid "SHOW_UNSAVED_PROGRESS_WARNING_TOOLTIP"
 msgstr ""
 
@@ -6805,39 +6827,39 @@ msgstr ""
 
 #: ../simulation_parameters/microbe_stage/biomes.json:46
 #: ../simulation_parameters/microbe_stage/biomes.json:228
-#: ../simulation_parameters/microbe_stage/biomes.json:543
-#: ../simulation_parameters/microbe_stage/biomes.json:784
-#: ../simulation_parameters/microbe_stage/biomes.json:1049
-#: ../simulation_parameters/microbe_stage/biomes.json:1364
-#: ../simulation_parameters/microbe_stage/biomes.json:1687
-#: ../simulation_parameters/microbe_stage/biomes.json:1949
-#: ../simulation_parameters/microbe_stage/biomes.json:2190
-#: ../simulation_parameters/microbe_stage/biomes.json:2525
-#: ../simulation_parameters/microbe_stage/biomes.json:2705
-#: ../simulation_parameters/microbe_stage/biomes.json:2954
-#: ../simulation_parameters/microbe_stage/biomes.json:3202
-#: ../simulation_parameters/microbe_stage/biomes.json:3533
-#: ../simulation_parameters/microbe_stage/biomes.json:3778
-#: ../simulation_parameters/microbe_stage/biomes.json:4086
+#: ../simulation_parameters/microbe_stage/biomes.json:566
+#: ../simulation_parameters/microbe_stage/biomes.json:807
+#: ../simulation_parameters/microbe_stage/biomes.json:1072
+#: ../simulation_parameters/microbe_stage/biomes.json:1387
+#: ../simulation_parameters/microbe_stage/biomes.json:1710
+#: ../simulation_parameters/microbe_stage/biomes.json:1972
+#: ../simulation_parameters/microbe_stage/biomes.json:2213
+#: ../simulation_parameters/microbe_stage/biomes.json:2548
+#: ../simulation_parameters/microbe_stage/biomes.json:2728
+#: ../simulation_parameters/microbe_stage/biomes.json:2977
+#: ../simulation_parameters/microbe_stage/biomes.json:3225
+#: ../simulation_parameters/microbe_stage/biomes.json:3556
+#: ../simulation_parameters/microbe_stage/biomes.json:3801
+#: ../simulation_parameters/microbe_stage/biomes.json:4109
 #: ../src/auto-evo/AutoEvoGlobalCache.cs:46
 msgid "SMALL_IRON_CHUNK"
 msgstr ""
 
 #: ../simulation_parameters/microbe_stage/biomes.json:292
-#: ../simulation_parameters/microbe_stage/biomes.json:607
-#: ../simulation_parameters/microbe_stage/biomes.json:1113
-#: ../simulation_parameters/microbe_stage/biomes.json:1428
-#: ../simulation_parameters/microbe_stage/biomes.json:2013
-#: ../simulation_parameters/microbe_stage/biomes.json:2254
-#: ../simulation_parameters/microbe_stage/biomes.json:2769
-#: ../simulation_parameters/microbe_stage/biomes.json:3018
-#: ../simulation_parameters/microbe_stage/biomes.json:3289
-#: ../simulation_parameters/microbe_stage/biomes.json:3597
-#: ../simulation_parameters/microbe_stage/biomes.json:3842
+#: ../simulation_parameters/microbe_stage/biomes.json:630
+#: ../simulation_parameters/microbe_stage/biomes.json:1136
+#: ../simulation_parameters/microbe_stage/biomes.json:1451
+#: ../simulation_parameters/microbe_stage/biomes.json:2036
+#: ../simulation_parameters/microbe_stage/biomes.json:2277
+#: ../simulation_parameters/microbe_stage/biomes.json:2792
+#: ../simulation_parameters/microbe_stage/biomes.json:3041
+#: ../simulation_parameters/microbe_stage/biomes.json:3312
+#: ../simulation_parameters/microbe_stage/biomes.json:3620
+#: ../simulation_parameters/microbe_stage/biomes.json:3865
 msgid "SMALL_PHOSPHATE_CHUNK"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/biomes.json:2501
+#: ../simulation_parameters/microbe_stage/biomes.json:2524
 msgid "SNOWFLAKE"
 msgstr ""
 
@@ -7208,7 +7230,7 @@ msgid "SUICIDE_BUTTON_TOOLTIP"
 msgstr ""
 
 #: ../simulation_parameters/microbe_stage/compounds.json:206
-#: ../src/gui_common/tooltip/ToolTipManager.tscn:757
+#: ../src/gui_common/tooltip/ToolTipManager.tscn:764
 #: ../src/microbe_stage/editor/CellEditorComponent.tscn:453
 #: ../src/microbe_stage/editor/MicrobeEditorReportComponent.tscn:510
 #: ../src/microbe_stage/gui/PatchDetailsPanel.tscn:213
@@ -7325,7 +7347,7 @@ msgid "TECHNOLOGY_UNLOCKED_NOTICE"
 msgstr ""
 
 #: ../simulation_parameters/microbe_stage/compounds.json:225
-#: ../src/gui_common/tooltip/ToolTipManager.tscn:751
+#: ../src/gui_common/tooltip/ToolTipManager.tscn:758
 #: ../src/microbe_stage/editor/MicrobeEditorReportComponent.cs:378
 #: ../src/microbe_stage/editor/MicrobeEditorReportComponent.tscn:503
 #: ../src/microbe_stage/gui/PatchDetailsPanel.tscn:168
@@ -7458,7 +7480,7 @@ msgstr ""
 msgid "THYLAKOIDS_DESCRIPTION"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/biomes.json:497
+#: ../simulation_parameters/microbe_stage/biomes.json:520
 msgid "TIDEPOOL"
 msgstr ""
 
@@ -7872,7 +7894,7 @@ msgstr ""
 msgid "UNCERTAIN_VERSION_WARNING"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/biomes.json:2148
+#: ../simulation_parameters/microbe_stage/biomes.json:2171
 msgid "UNDERWATERCAVE"
 msgstr ""
 
@@ -7927,6 +7949,7 @@ msgid "UNKNOWN_ORGANELLE_SYMBOL"
 msgstr ""
 
 #: ../src/microbe_stage/gui/PatchDetailsPanel.tscn:109
+#: ../src/microbe_stage/gui/PlanetDetailsPanel.tscn:124
 #: ../src/microbe_stage/Patch.cs:21
 msgid "UNKNOWN_PATCH"
 msgstr ""
@@ -8142,7 +8165,8 @@ msgstr ""
 msgid "VALUE_WITH_UNIT"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/biomes.json:3266
+#: ../simulation_parameters/microbe_stage/biomes.json:424
+#: ../simulation_parameters/microbe_stage/biomes.json:3289
 msgid "VENT_ROCK"
 msgstr ""
 
@@ -8221,7 +8245,7 @@ msgid "VISIT_SUGGESTIONS_SITE"
 msgstr ""
 
 #: ../simulation_parameters/microbe_stage/biomes.json:183
-#: ../simulation_parameters/microbe_stage/biomes.json:4063
+#: ../simulation_parameters/microbe_stage/biomes.json:4086
 msgid "VOLCANIC_VENT"
 msgstr ""
 
