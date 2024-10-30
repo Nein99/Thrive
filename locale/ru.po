@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-10-29 20:00-0500\n"
+"POT-Creation-Date: 2024-10-29 23:00-0500\n"
 "PO-Revision-Date: 2024-10-21 16:34+0000\n"
 "Last-Translator: Sentry Primis <sentryprime92@gmail.com>\n"
 "Language-Team: Russian <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/ru/>\n"
@@ -390,6 +390,9 @@ msgstr "Включить стоимость передвижения"
 
 msgid "BALANCE_DISPLAY_WHILE_MOVING_TOOLTIP"
 msgstr "Если флажок установлен, вычисляет баланс и другие числа на этой панели, предполагая, что клетка постоянно движется"
+
+msgid "BASALT_ROCK"
+msgstr ""
 
 msgid "BASE_MOBILITY"
 msgstr "Базовая Мобильность"
@@ -6002,6 +6005,10 @@ msgstr "Загрузка..."
 
 msgid "UPLOAD_SUCCEEDED"
 msgstr "Загрузка выполнена успешно"
+
+#, fuzzy
+msgid "URANIUM_ROCK"
+msgstr "Базовая Ракета"
 
 msgid "USED_LIBRARIES_LICENSES"
 msgstr "Лицензии и использованные библиотеки"

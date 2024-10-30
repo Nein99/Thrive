@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-10-29 20:00-0500\n"
+"POT-Creation-Date: 2024-10-29 23:00-0500\n"
 "PO-Revision-Date: 2024-10-17 07:24+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Indonesian <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/id/>\n"
@@ -415,6 +415,9 @@ msgstr ""
 #, fuzzy
 msgid "BALANCE_DISPLAY_WHILE_MOVING_TOOLTIP"
 msgstr "Tambah keybind baru"
+
+msgid "BASALT_ROCK"
+msgstr ""
 
 #, fuzzy
 msgid "BASE_MOBILITY"
@@ -6462,6 +6465,9 @@ msgstr "Memuat..."
 #, fuzzy
 msgid "UPLOAD_SUCCEEDED"
 msgstr "Sukses menyimpan"
+
+msgid "URANIUM_ROCK"
+msgstr ""
 
 msgid "USED_LIBRARIES_LICENSES"
 msgstr "Lisensi dan Libraries yang Digunakan"

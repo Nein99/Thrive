@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-10-29 20:00-0500\n"
+"POT-Creation-Date: 2024-10-29 23:00-0500\n"
 "PO-Revision-Date: 2024-10-17 07:24+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Spanish <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/es/>\n"
@@ -402,6 +402,9 @@ msgstr "Incluir costo de movimiento"
 #, fuzzy
 msgid "BALANCE_DISPLAY_WHILE_MOVING_TOOLTIP"
 msgstr "Cuando seleccionado, el balance y otros números en este panel se calculan supondiendo que la célula está en constante moviemiento"
+
+msgid "BASALT_ROCK"
+msgstr ""
 
 msgid "BASE_MOBILITY"
 msgstr "Mobilidad"
@@ -6421,6 +6424,10 @@ msgstr "Cargando..."
 
 msgid "UPLOAD_SUCCEEDED"
 msgstr "Guardado con éxito"
+
+#, fuzzy
+msgid "URANIUM_ROCK"
+msgstr "Cohete simple"
 
 msgid "USED_LIBRARIES_LICENSES"
 msgstr "Licencias y Bibliotecas Usadas"

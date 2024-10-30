@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-10-29 20:00-0500\n"
+"POT-Creation-Date: 2024-10-29 23:00-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -351,6 +351,9 @@ msgid "BALANCE_DISPLAY_WHILE_MOVING"
 msgstr ""
 
 msgid "BALANCE_DISPLAY_WHILE_MOVING_TOOLTIP"
+msgstr ""
+
+msgid "BASALT_ROCK"
 msgstr ""
 
 msgid "BASE_MOBILITY"
@@ -5448,6 +5451,9 @@ msgid "UPLOADING_DOT_DOT_DOT"
 msgstr ""
 
 msgid "UPLOAD_SUCCEEDED"
+msgstr ""
+
+msgid "URANIUM_ROCK"
 msgstr ""
 
 msgid "USED_LIBRARIES_LICENSES"

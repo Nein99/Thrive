@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-10-29 20:00-0500\n"
-"PO-Revision-Date: 2024-10-29 20:08-0500\n"
+"POT-Creation-Date: 2024-10-29 23:00-0500\n"
+"PO-Revision-Date: 2024-10-29 23:02-0500\n"
 "Last-Translator: Henri Hyyryläinen <hhyyrylainen@revolutionarygamesstudio.com>\n"
 "Language-Team: English <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/en/>\n"
 "Language: en\n"
@@ -389,6 +389,9 @@ msgstr "Include movement cost"
 
 msgid "BALANCE_DISPLAY_WHILE_MOVING_TOOLTIP"
 msgstr "When checked calculates the balance and other numbers in this panel assuming the cell is constantly moving"
+
+msgid "BASALT_ROCK"
+msgstr "Basalt Chunk"
 
 msgid "BASE_MOBILITY"
 msgstr "Base Mobility"
@@ -5980,6 +5983,9 @@ msgstr "Uploading..."
 
 msgid "UPLOAD_SUCCEEDED"
 msgstr "Upload Succeeded"
+
+msgid "URANIUM_ROCK"
+msgstr "Uranium Chunk"
 
 msgid "USED_LIBRARIES_LICENSES"
 msgstr "Licenses And Used Libraries"

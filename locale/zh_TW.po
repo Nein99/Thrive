@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-10-29 20:00-0500\n"
+"POT-Creation-Date: 2024-10-29 23:00-0500\n"
 "PO-Revision-Date: 2024-10-21 06:36+0000\n"
 "Last-Translator: Xzihnago <xzihnago@gmail.com>\n"
 "Language-Team: Chinese (Traditional Han script) <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/zh_Hant/>\n"
@@ -390,6 +390,9 @@ msgstr "包含移動成本"
 
 msgid "BALANCE_DISPLAY_WHILE_MOVING_TOOLTIP"
 msgstr "選中後，將假設細胞不斷移動並計算此面板中的平衡與其他數值"
+
+msgid "BASALT_ROCK"
+msgstr ""
 
 msgid "BASE_MOBILITY"
 msgstr "基礎移動能力"
@@ -6000,6 +6003,10 @@ msgstr "上傳中…"
 
 msgid "UPLOAD_SUCCEEDED"
 msgstr "上傳成功"
+
+#, fuzzy
+msgid "URANIUM_ROCK"
+msgstr "簡易火箭"
 
 msgid "USED_LIBRARIES_LICENSES"
 msgstr "授權條款與使用的程式庫"

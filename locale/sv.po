@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-10-29 20:00-0500\n"
+"POT-Creation-Date: 2024-10-29 23:00-0500\n"
 "PO-Revision-Date: 2024-10-19 21:07+0000\n"
 "Last-Translator: Paradox Edge <xxzemonxx@hotmail.com>\n"
 "Language-Team: Swedish <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/sv/>\n"
@@ -401,6 +401,9 @@ msgstr ""
 #, fuzzy
 msgid "BALANCE_DISPLAY_WHILE_MOVING_TOOLTIP"
 msgstr "Öppna vyn för avancerade inställningar"
+
+msgid "BASALT_ROCK"
+msgstr ""
 
 #, fuzzy
 msgid "BASE_MOBILITY"
@@ -6394,6 +6397,9 @@ msgid "UPLOADING_DOT_DOT_DOT"
 msgstr "Laddar upp..."
 
 msgid "UPLOAD_SUCCEEDED"
+msgstr ""
+
+msgid "URANIUM_ROCK"
 msgstr ""
 
 msgid "USED_LIBRARIES_LICENSES"

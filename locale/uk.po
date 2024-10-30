@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-10-29 20:00-0500\n"
+"POT-Creation-Date: 2024-10-29 23:00-0500\n"
 "PO-Revision-Date: 2024-10-17 07:24+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Ukrainian <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/uk/>\n"
@@ -394,6 +394,9 @@ msgstr "Увімкнути вартість руху"
 
 msgid "BALANCE_DISPLAY_WHILE_MOVING_TOOLTIP"
 msgstr "Якщо ввімкнено, обчислює баланс та інші значення в цій панелі, начебто клітина постійно рухається"
+
+msgid "BASALT_ROCK"
+msgstr ""
 
 msgid "BASE_MOBILITY"
 msgstr "Базова мобільність"
@@ -6084,6 +6087,10 @@ msgstr "Відвантажити..."
 
 msgid "UPLOAD_SUCCEEDED"
 msgstr "Відвантаження виконано"
+
+#, fuzzy
+msgid "URANIUM_ROCK"
+msgstr "Проста ракета"
 
 msgid "USED_LIBRARIES_LICENSES"
 msgstr "Ліцензії та використана література"
