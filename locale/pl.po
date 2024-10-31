@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-10-29 23:00-0500\n"
+"POT-Creation-Date: 2024-10-30 20:00-0500\n"
 "PO-Revision-Date: 2024-10-17 07:24+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Polish <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/pl/>\n"
@@ -3173,6 +3173,29 @@ msgstr "Zatrzymanie mediów"
 msgid "MEGA_YEARS"
 msgstr "Milionów Lat"
 
+msgid "MELANIN"
+msgstr ""
+
+#, fuzzy
+msgid "MELANIN_DESCRIPTION"
+msgstr "Brak opisu"
+
+#, fuzzy
+msgid "MELANIN_PROCESSES_DESCRIPTION"
+msgstr "Zwiększa prędkość obrotu większych komórek."
+
+#, fuzzy
+msgid "MELANOPLAST"
+msgstr "Chemoplast"
+
+#, fuzzy
+msgid "MELANOPLAST_DESCRIPTION"
+msgstr "Chemoplast to otoczona dwiema błonami struktura zawierająca białka mogące przekształcać [thrive:compound type=\"hydrogensulfide\"][/thrive:compound], wodę i gazowy [thrive:compound type=\"carbondioxide\"][/thrive:compound] w [thrive:compound type=\"glucose\"][/thrive:compound] w procesie zwanym [b]Chemosyntezą Siarkowodorową[/b]. Tempo produkcji [thrive:compound type=\"glucose\"][/thrive:compound] skaluje się ze stężeniem [thrive:compound type=\"carbondioxide\"][/thrive:compound]."
+
+#, fuzzy
+msgid "MELANOPLAST_PROCESSES_DESCRIPTION"
+msgstr "Przekształca [thrive:compound type=\"hydrogensulfide\"][/thrive:compound] w [thrive:compound type=\"glucose\"][/thrive:compound]. Tempo skaluje się ze stężeniem [thrive:compound type=\"carbondioxide\"][/thrive:compound]."
+
 msgid "MEMBRANE"
 msgstr "Membrana"
 
@@ -3987,6 +4010,9 @@ msgstr ""
 msgid "NOTICE_DAMAGED_BY_NO_ATP"
 msgstr ""
 
+msgid "NOTICE_DAMAGED_BY_RADIATION"
+msgstr ""
+
 msgid "NOTICE_ENGULF_DAMAGE_FROM_TOXIN"
 msgstr ""
 
@@ -4563,6 +4589,14 @@ msgid "QUIT_GAME_WARNING"
 msgstr ""
 "Czy na pewno chcesz wyjść z gry?\n"
 "Utracisz cały niezapisany postęp."
+
+#, fuzzy
+msgid "RADIONUCLIDES"
+msgstr "Jądro Komórkowe"
+
+#, fuzzy
+msgid "RADIOSYNTHESIS"
+msgstr "Termosynteza"
 
 msgid "RANDOMIZE_SPECIES_NAME"
 msgstr "Losuj nazwy gatunków"
@@ -5146,6 +5180,10 @@ msgstr "Stwórz glukozę"
 
 msgid "SPAWN_PHOSPHATES"
 msgstr "Stwórz fosforany"
+
+#, fuzzy
+msgid "SPAWN_RADIONUCLIDES"
+msgstr "Jądro Komórkowe"
 
 msgid "SPECIAL_MOUSE_1"
 msgstr "Mysz Specjalny 1"

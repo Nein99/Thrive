@@ -60,6 +60,10 @@ public sealed class DamageSoundSystem : AEntitySetSystem<float>
                 {
                     soundEffectPlayer.PlaySoundEffect("res://assets/sounds/soundeffects/microbe-atp-damage.ogg");
                 }
+                else if (damageSource == "radiationDamage")
+                {
+                    soundEffectPlayer.PlaySoundEffect("res://assets/sounds/soundeffects/microbe-toxin-damage.ogg");
+                }
                 else if (damageSource == "ice")
                 {
                     // TODO: check the volume here as this was before set to play non-positionally

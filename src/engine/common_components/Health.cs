@@ -168,6 +168,10 @@ public static class HealthHelpers
         {
             canApplyDamageReduction = false;
         }
+        else if (damageSource == "radiationDamage")
+        {
+            canApplyDamageReduction = false;
+        }
 
         if (!cellProperties.IsBacteria && canApplyDamageReduction)
         {

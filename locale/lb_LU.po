@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-10-29 23:00-0500\n"
+"POT-Creation-Date: 2024-10-30 20:00-0500\n"
 "PO-Revision-Date: 2024-10-17 07:24+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Luxembourgish <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/lb/>\n"
@@ -3008,6 +3008,29 @@ msgstr ""
 msgid "MEGA_YEARS"
 msgstr ""
 
+msgid "MELANIN"
+msgstr ""
+
+#, fuzzy
+msgid "MELANIN_DESCRIPTION"
+msgstr "Zilien Hoer sinn ähnleg wéi Flagellen, mee am Platz laterale Schub ze ginn, ginn se Dréikraaft vier d'Zell."
+
+#, fuzzy
+msgid "MELANIN_PROCESSES_DESCRIPTION"
+msgstr "Erhéicht d'Dréigeschwindegkeet vu gréisseren Zellen."
+
+#, fuzzy
+msgid "MELANOPLAST"
+msgstr "Chemoplast"
+
+#, fuzzy
+msgid "MELANOPLAST_DESCRIPTION"
+msgstr "De chemoplast ass eng duebel Membran Struktur déi Eewäiss erhält a fäeg ass fir [thrive:compound type=\"hydrogensulfide\"][/thrive:compound], gasfërmegen [thrive:compound type=\"carbondioxide\"][/thrive:compound] a Waasser an [thrive:compound type=\"glucose\"][/thrive:compound] ze verwandelen, an engem Prozess, deen een[b]Schwiefelwaasserstoff-Chemosynthese[/b] nennt."
+
+#, fuzzy
+msgid "MELANOPLAST_PROCESSES_DESCRIPTION"
+msgstr "Wandelt [thrive:compound type=\"hydrogensulfide\"][/thrive:compound] an [thrive:compound type=\"glucose\"][/thrive:compound] ëm. Ëmsaz wiisst mat [thrive:compound type=\"carbondioxide\"][/thrive:compound]."
+
 msgid "MEMBRANE"
 msgstr ""
 
@@ -3696,6 +3719,9 @@ msgstr ""
 msgid "NOTICE_DAMAGED_BY_NO_ATP"
 msgstr ""
 
+msgid "NOTICE_DAMAGED_BY_RADIATION"
+msgstr ""
+
 msgid "NOTICE_ENGULF_DAMAGE_FROM_TOXIN"
 msgstr ""
 
@@ -4237,6 +4263,14 @@ msgstr ""
 
 msgid "QUIT_GAME_WARNING"
 msgstr ""
+
+#, fuzzy
+msgid "RADIONUCLIDES"
+msgstr "Nukleus"
+
+#, fuzzy
+msgid "RADIOSYNTHESIS"
+msgstr "ATP PRODUKTIOUN ZE NIEDREG!"
 
 msgid "RANDOMIZE_SPECIES_NAME"
 msgstr ""
@@ -4794,6 +4828,10 @@ msgstr "Glocose Erstellen"
 
 msgid "SPAWN_PHOSPHATES"
 msgstr "Phosphat Erstellen"
+
+#, fuzzy
+msgid "SPAWN_RADIONUCLIDES"
+msgstr "Nukleus"
 
 msgid "SPECIAL_MOUSE_1"
 msgstr "Maus Zousätzlech 1"

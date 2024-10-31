@@ -421,6 +421,15 @@ public partial class PlayerMicrobeInput : NodeWithInput
         }
     }
 
+    [RunOnKey("g_cheat_radionuclides")]
+    public void CheatRadionuclides(double delta)
+    {
+        if (Settings.Instance.CheatsEnabled)
+        {
+            SpawnCheatCloud(Compound.Radionuclides, delta);
+        }
+    }
+
     private void RemoveCellFromColony(Entity target)
     {
         if (!MicrobeColonyHelpers.UnbindAllOutsideGameUpdate(target, stage.WorldSimulation))

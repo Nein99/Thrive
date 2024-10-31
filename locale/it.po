@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-10-29 23:00-0500\n"
+"POT-Creation-Date: 2024-10-30 20:00-0500\n"
 "PO-Revision-Date: 2024-10-17 07:24+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Italian <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/it/>\n"
@@ -3256,6 +3256,29 @@ msgstr "⏸Ferma (tasto multimediale)"
 msgid "MEGA_YEARS"
 msgstr "Ma"
 
+msgid "MELANIN"
+msgstr ""
+
+#, fuzzy
+msgid "MELANIN_DESCRIPTION"
+msgstr "La descrizione è mancante"
+
+#, fuzzy
+msgid "MELANIN_PROCESSES_DESCRIPTION"
+msgstr "Aumentano la velocità di viraggio. Utili per cellule molto grandi."
+
+#, fuzzy
+msgid "MELANOPLAST"
+msgstr "Chemioplasto"
+
+#, fuzzy
+msgid "MELANOPLAST_DESCRIPTION"
+msgstr "Il chemioplasto è una struttura a doppia membrana. Contiene proteine capaci di convertire l[thrive:compound type=\"hydrogensulfide\"][/thrive:compound], l'acqua e il [thrive:compound type=\"carbondioxide\"][/thrive:compound] gassoso in glucosio. Il tasso aumenta con la concentrazione di diossido di carbonio. Questo processo si chiama [b]chemiosintesi dell'idrogeno solforato[/b]."
+
+#, fuzzy
+msgid "MELANOPLAST_PROCESSES_DESCRIPTION"
+msgstr "Trasforma l'[thrive:compound type=\"hydrogensulfide\"][/thrive:compound] in [thrive:compound type=\"glucose\"][/thrive:compound]. Il tasso aumenta con la concentrazione di [thrive:compound type=\"carbondioxide\"][/thrive:compound]."
+
 msgid "MEMBRANE"
 msgstr "Membrana"
 
@@ -4106,6 +4129,9 @@ msgstr ""
 msgid "NOTICE_DAMAGED_BY_NO_ATP"
 msgstr ""
 
+msgid "NOTICE_DAMAGED_BY_RADIATION"
+msgstr ""
+
 msgid "NOTICE_ENGULF_DAMAGE_FROM_TOXIN"
 msgstr ""
 
@@ -4705,6 +4731,14 @@ msgid "QUIT_GAME_WARNING"
 msgstr ""
 "Sicuro di voler chiudere il gioco?\n"
 "Perderai i progressi non salvati."
+
+#, fuzzy
+msgid "RADIONUCLIDES"
+msgstr "Nucleo"
+
+#, fuzzy
+msgid "RADIOSYNTHESIS"
+msgstr "Termosintesi"
 
 msgid "RANDOMIZE_SPECIES_NAME"
 msgstr "Casualizza il nome della specie"
@@ -5313,6 +5347,10 @@ msgstr "Genera glucosio"
 
 msgid "SPAWN_PHOSPHATES"
 msgstr "Genera fosfato"
+
+#, fuzzy
+msgid "SPAWN_RADIONUCLIDES"
+msgstr "Nucleo"
 
 msgid "SPECIAL_MOUSE_1"
 msgstr "Pulsante speciale del mouse 1"

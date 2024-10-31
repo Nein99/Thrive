@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-10-29 23:00-0500\n"
-"PO-Revision-Date: 2024-10-29 23:02-0500\n"
+"POT-Creation-Date: 2024-10-30 20:00-0500\n"
+"PO-Revision-Date: 2024-10-30 20:02-0500\n"
 "Last-Translator: Henri Hyyryläinen <hhyyrylainen@revolutionarygamesstudio.com>\n"
 "Language-Team: English <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/en/>\n"
 "Language: en\n"
@@ -3082,6 +3082,24 @@ msgstr "Media Stop"
 msgid "MEGA_YEARS"
 msgstr "Myr"
 
+msgid "MELANIN"
+msgstr "Melanin"
+
+msgid "MELANIN_DESCRIPTION"
+msgstr "Melanin is a photosensitive pigment which absorbs harmful radiation. In combination with other molecules, Melanin is able to use the energy of ionizing radiation [thrive:compound type=\"radionuclides\"][/thrive:compound] to produce [thrive:compound type=\"glucose\"][/thrive:compound] from water and gaseous [thrive:compound type=\"carbondioxide\"][/thrive:compound] in a process called [b]radiosynthesis[/b]. These pigments are also what give them a distinctive colour. The rate of their [thrive:compound type=\"glucose\"][/thrive:compound] production scales with the concentration of [thrive:compound type=\"carbondioxide\"][/thrive:compound] and intensity of radiation from [thrive:compound type=\"radionuclides\"][/thrive:compound]. Since the melanin is suspended directly in the cytoplasm, the surrounding fluid performs some [b]glycolysis[/b]."
+
+msgid "MELANIN_PROCESSES_DESCRIPTION"
+msgstr "Produces [thrive:compound type=\"glucose\"][/thrive:compound]. Rate scales with concentration of [thrive:compound type=\"carbondioxide\"][/thrive:compound] and intensity of radiation from [thrive:compound type=\"radionuclides\"][/thrive:compound]."
+
+msgid "MELANOPLAST"
+msgstr "Melanoplast"
+
+msgid "MELANOPLAST_DESCRIPTION"
+msgstr "The melanoplast is a double membrane structure containing photosensitive pigments stacked together in membranous sacs. It is a prokaryote that has been assimilated for use by its eukaryotic host. The pigments in the chloroplast are able to use the energy of ionizing radiation to produce [thrive:compound type=\"glucose\"][/thrive:compound] from gaseous [thrive:compound type=\"carbondioxide\"][/thrive:compound] and water in a process called [b]radiosynthesis[/b]. These pigments are also what give it a distinctive colour. The rate of its [thrive:compound type=\"glucose\"][/thrive:compound] production scales with the concentration of [thrive:compound type=\"carbondioxide\"][/thrive:compound], and intensity of radiation from [thrive:compound type=\"radionuclides\"][/thrive:compound].d]."
+
+msgid "MELANOPLAST_PROCESSES_DESCRIPTION"
+msgstr "Produces [thrive:compound type=\"glucose\"][/thrive:compound]. Rate scales with concentration of [thrive:compound type=\"carbondioxide\"][/thrive:compound] and intensity of radiation from [thrive:compound type=\"radionuclides\"][/thrive:compound]."
+
 msgid "MEMBRANE"
 msgstr "Membrane"
 
@@ -3872,6 +3890,9 @@ msgstr "Nothing to interact with"
 msgid "NOTICE_DAMAGED_BY_NO_ATP"
 msgstr "Damaged due to not having any ATP"
 
+msgid "NOTICE_DAMAGED_BY_RADIATION"
+msgstr "Damaged by ionizing radiation due to radionuclides"
+
 msgid "NOTICE_ENGULF_DAMAGE_FROM_TOXIN"
 msgstr "Damaged by toxins in ingested matter"
 
@@ -4435,6 +4456,12 @@ msgid "QUIT_GAME_WARNING"
 msgstr ""
 "Are you sure you want to quit the game?\n"
 "You will lose any unsaved progress."
+
+msgid "RADIONUCLIDES"
+msgstr "Radionuclides"
+
+msgid "RADIOSYNTHESIS"
+msgstr "Radiosynthesis"
 
 msgid "RANDOMIZE_SPECIES_NAME"
 msgstr "Randomize species name"
@@ -5003,6 +5030,9 @@ msgstr "Spawn glucose"
 
 msgid "SPAWN_PHOSPHATES"
 msgstr "Spawn phosphate"
+
+msgid "SPAWN_RADIONUCLIDES"
+msgstr "Spawn Radionuclides"
 
 msgid "SPECIAL_MOUSE_1"
 msgstr "Mouse Special 1"

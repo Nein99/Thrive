@@ -69,6 +69,20 @@ public class GenerateMiche : IRunStep
             generatedMiche.AddChild(ironMiche);
         }
 
+        var hasUraniumChunk =
+            patch.Biome.Chunks.TryGetValue("uraniumRock", out var uraniumChunk) && uraniumChunk.Density > 0;
+
+        // Radiation
+        if (hasUraniumChunk)
+        {
+            var radiationMiche = new Miche(globalCache.RadiationConversionEfficiencyPressure);
+
+            if (hasUraniumChunk)
+                radiationMiche.AddChild(new Miche(globalCache.UraniumChunkPressure));
+
+            generatedMiche.AddChild(radiationMiche);
+        }
+
         // Hydrogen Sulfide
         if (patch.Biome.TryGetCompound(Compound.Hydrogensulfide, CompoundAmountType.Biome,
                 out var hydrogenSulfideAmount) &&

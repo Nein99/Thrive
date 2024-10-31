@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-10-29 23:00-0500\n"
+"POT-Creation-Date: 2024-10-30 20:00-0500\n"
 "PO-Revision-Date: 2024-10-21 16:34+0000\n"
 "Last-Translator: Sentry Primis <sentryprime92@gmail.com>\n"
 "Language-Team: Russian <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/ru/>\n"
@@ -3100,6 +3100,29 @@ msgstr "MediaStop"
 msgid "MEGA_YEARS"
 msgstr "млн. лет"
 
+msgid "MELANIN"
+msgstr ""
+
+#, fuzzy
+msgid "MELANIN_DESCRIPTION"
+msgstr "Описание отсутствует"
+
+#, fuzzy
+msgid "MELANIN_PROCESSES_DESCRIPTION"
+msgstr "Повышает скорость поворота клеток."
+
+#, fuzzy
+msgid "MELANOPLAST"
+msgstr "Хемопласт"
+
+#, fuzzy
+msgid "MELANOPLAST_DESCRIPTION"
+msgstr "Хемопласт — двумембранная структура, содержащая белки, способные превращать [thrive:compound type=\"hydrogensulfide\"][/thrive:compound], воду и [thrive:compound type=\"carbondioxide\"][/thrive:compound] в [thrive:compound type=\"glucose\"][/thrive:compound] в процессе [b]сероводородного хемосинтеза[/b]. Скорость производства [thrive:compound type=\"glucose\"][/thrive:compound] зависит от концентрации [thrive:compound type=\"carbondioxide\"][/thrive:compound]."
+
+#, fuzzy
+msgid "MELANOPLAST_PROCESSES_DESCRIPTION"
+msgstr "Превращает [thrive:compound type=\"hydrogensulfide\"][/thrive:compound] в [thrive:compound type=\"glucose\"][/thrive:compound]. Скорость увеличивается при повышении концентрации [thrive:compound type=\"carbondioxide\"][/thrive:compound]."
+
 msgid "MEMBRANE"
 msgstr "Мембрана"
 
@@ -3889,6 +3912,10 @@ msgstr "Не с чем взаимодействовать"
 msgid "NOTICE_DAMAGED_BY_NO_ATP"
 msgstr "Вы теряете здоровье из-за отсутствия АТФ"
 
+#, fuzzy
+msgid "NOTICE_DAMAGED_BY_RADIATION"
+msgstr "Вы теряете здоровье из-за отсутствия АТФ"
+
 msgid "NOTICE_ENGULF_DAMAGE_FROM_TOXIN"
 msgstr "Вы теряете здоровье из-за токсинов в поглощенном организме"
 
@@ -4452,6 +4479,14 @@ msgid "QUIT_GAME_WARNING"
 msgstr ""
 "Хочешь бросить игру, как всё по жизни бросаешь?\n"
 "Весь несохраненный прогресс будет утерян."
+
+#, fuzzy
+msgid "RADIONUCLIDES"
+msgstr "Ядро"
+
+#, fuzzy
+msgid "RADIOSYNTHESIS"
+msgstr "Термосинтез"
 
 msgid "RANDOMIZE_SPECIES_NAME"
 msgstr "Случайное название вида"
@@ -5022,6 +5057,10 @@ msgstr "Создать глюкозу"
 
 msgid "SPAWN_PHOSPHATES"
 msgstr "Создать фосфат"
+
+#, fuzzy
+msgid "SPAWN_RADIONUCLIDES"
+msgstr "Ядро"
 
 msgid "SPECIAL_MOUSE_1"
 msgstr "Специальная кнопка мыши 1"

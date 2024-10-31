@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-10-29 23:00-0500\n"
+"POT-Creation-Date: 2024-10-30 20:00-0500\n"
 "PO-Revision-Date: 2024-10-17 07:24+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Hungarian <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/hu/>\n"
@@ -3287,6 +3287,29 @@ msgstr "Média stop"
 msgid "MEGA_YEARS"
 msgstr "Myr"
 
+msgid "MELANIN"
+msgstr ""
+
+#, fuzzy
+msgid "MELANIN_DESCRIPTION"
+msgstr "Nincs leírás"
+
+#, fuzzy
+msgid "MELANIN_PROCESSES_DESCRIPTION"
+msgstr "[thrive:compound type=\"glucose\"][/thrive:compound]-t alakít át [thrive:compound type=\"atp\"][/thrive:compound]-vé."
+
+#, fuzzy
+msgid "MELANOPLAST"
+msgstr "Kemoplasztisz"
+
+#, fuzzy
+msgid "MELANOPLAST_DESCRIPTION"
+msgstr "A ragacsos belseje a sejtnek. A citoplazma (sejtplazma) ionok, proteinek, víz és még más anyagok egyszerű keveréke, ami kitölti egy sejt belsejét. Az egyik funkciója a glikolízis, ami a glükóz ATP-vé alakítását takarja. Azoknak az organizmusoknak, melyeknek nincsenek különböző sejtszervecskéi, hogy fejlettebb anyagcserét tudjanak végezni, nekik ez az egyetlen támaszuk az energia előállítására. A sejtek még használják molekulák raktáraként, és hogy ezzel növelni tudják méretüket."
+
+#, fuzzy
+msgid "MELANOPLAST_PROCESSES_DESCRIPTION"
+msgstr "[thrive:compound type=\"hydrogensulfide\"][/thrive:compound]-ot alakít át [thrive:compound type=\"glucose\"][/thrive:compound]-zá. Hatékonysága függ a [thrive:compound type=\"carbondioxide\"][/thrive:compound] koncentrációjától."
+
 msgid "MEMBRANE"
 msgstr "Membrán"
 
@@ -4129,6 +4152,9 @@ msgstr ""
 msgid "NOTICE_DAMAGED_BY_NO_ATP"
 msgstr ""
 
+msgid "NOTICE_DAMAGED_BY_RADIATION"
+msgstr ""
+
 msgid "NOTICE_ENGULF_DAMAGE_FROM_TOXIN"
 msgstr ""
 
@@ -4731,6 +4757,14 @@ msgid "QUIT_GAME_WARNING"
 msgstr ""
 "Biztos ki akarsz lépni a játékból?\n"
 "A nem mentett játékállásaid el fognak veszni."
+
+#, fuzzy
+msgid "RADIONUCLIDES"
+msgstr "Sejtmag"
+
+#, fuzzy
+msgid "RADIOSYNTHESIS"
+msgstr "Termoszintézis"
 
 msgid "RANDOMIZE_SPECIES_NAME"
 msgstr "Faj nevének randomizálása"
@@ -5352,6 +5386,10 @@ msgstr "Glükóz létrehozása"
 
 msgid "SPAWN_PHOSPHATES"
 msgstr "Foszfát létrehozása"
+
+#, fuzzy
+msgid "SPAWN_RADIONUCLIDES"
+msgstr "Sejtmag"
 
 msgid "SPECIAL_MOUSE_1"
 msgstr "Speciál egér 1"

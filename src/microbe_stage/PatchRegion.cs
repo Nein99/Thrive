@@ -3,7 +3,7 @@ using Godot;
 using Newtonsoft.Json;
 
 /// <summary>
-///   A region is a something like a continent/ocean that contains multiple patches.
+///   A region is something like a continent/ocean that contains multiple patches.
 /// </summary>
 [UseThriveSerializer]
 [JsonObject(IsReference = true)]
@@ -18,11 +18,14 @@ public class PatchRegion
         Width = 0;
         Type = regionType;
         ScreenCoordinates = screenCoordinates;
+
+        // Initialize the HotSpringAquiferPairs list
+        HotSpringAquiferPairs = new List<(Patch HotSpring, Patch Aquifer)>();
     }
 
     [JsonConstructor]
     public PatchRegion(int id, string name, RegionType type, Vector2 screenCoordinates,
-        float height, float width)
+        float height, float width, List<(Patch HotSpring, Patch Aquifer)> hotSpringAquiferPairs)
     {
         ID = id;
         Name = name;
@@ -30,6 +33,9 @@ public class PatchRegion
         ScreenCoordinates = screenCoordinates;
         Height = height;
         Width = width;
+
+        // Initialize the HotSpringAquiferPairs list from the deserialized data
+        HotSpringAquiferPairs = hotSpringAquiferPairs ?? new List<(Patch HotSpring, Patch Aquifer)>();
     }
 
     public enum RegionType
@@ -47,7 +53,7 @@ public class PatchRegion
     public int ID { get; }
 
     /// <summary>
-    ///   Regions this is next to
+    ///   Regions this is adjacent to
     /// </summary>
     [JsonIgnore]
     public ISet<PatchRegion> Adjacent { get; } = new HashSet<PatchRegion>();
@@ -64,7 +70,7 @@ public class PatchRegion
     [JsonIgnore]
     public Vector2 Size
     {
-        get => new(Width, Height);
+        get => new Vector2(Width, Height);
         set
         {
             Width = value.X;
@@ -73,12 +79,12 @@ public class PatchRegion
     }
 
     /// <summary>
-    ///   The name of the region / continent
+    ///   The name of the region/continent
     /// </summary>
     /// <remarks>
     ///   <para>
-    ///     This is not translatable as this is just the output from the name generator, which isn't language specific
-    ///     currently. And even once it is a different approach than <see cref="LocalizedString"/> will be needed to
+    ///     This is not translatable as this is just the output from the name generator, which isn't language-specific
+    ///     currently. And even once it is, a different approach than <see cref="LocalizedString"/> will be needed to
     ///     allow randomly generated names to translate.
     ///   </para>
     /// </remarks>
@@ -86,7 +92,7 @@ public class PatchRegion
     public string Name { get; private set; }
 
     /// <summary>
-    ///   Coordinates this region is to be displayed at in the GUI
+    ///   Coordinates where this region is to be displayed in the GUI
     /// </summary>
     [JsonProperty]
     public Vector2 ScreenCoordinates { get; set; }
@@ -103,9 +109,15 @@ public class PatchRegion
     public MapElementVisibility Visibility { get; set; } = MapElementVisibility.Hidden;
 
     /// <summary>
-    ///   Adds a connection to region
+    ///   List of hot spring and aquifer patch pairs in this region
     /// </summary>
-    /// <returns>True if this was new, false if already added</returns>
+    [JsonProperty]
+    public List<(Patch HotSpring, Patch Aquifer)> HotSpringAquiferPairs { get; }
+
+    /// <summary>
+    ///   Adds a connection to another region
+    /// </summary>
+    /// <returns>True if this was a new connection, false if already connected</returns>
     public bool AddNeighbour(PatchRegion region)
     {
         return Adjacent.Add(region);
@@ -116,7 +128,6 @@ public class PatchRegion
         var id = region.ID;
 
         // Don't do this if the patch is in this region
-        // (This check is done here to minimize repetition)
         if (id == ID)
             return;
 

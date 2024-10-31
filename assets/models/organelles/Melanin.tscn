@@ -1,0 +1,25 @@
+[gd_scene load_steps=6 format=3 uid="uid://m8en3hjg2ukc"]
+
+[ext_resource type="Shader" path="res://shaders/OrganelleTransparent.gdshader" id="1_obnts"]
+[ext_resource type="Texture2D" uid="uid://baxuoyeo83r2u" path="res://assets/textures/dissolve_noise.tres" id="2_5hd5i"]
+[ext_resource type="Texture2D" uid="uid://qyt6dx775c74" path="res://assets/textures/melanin.png" id="3_taf68"]
+[ext_resource type="ArrayMesh" uid="uid://bxthwqwj2em2m" path="res://assets/models/organelles/Chromatophore.mesh" id="4_djog8"]
+
+[sub_resource type="ShaderMaterial" id="1"]
+resource_local_to_scene = true
+render_priority = 0
+shader = ExtResource("1_obnts")
+shader_parameter/dissolveValue = 0.0
+shader_parameter/fresnelValue = 1.0
+shader_parameter/fresnelActive = false
+shader_parameter/outlineWidth = 0.05
+shader_parameter/growColor = Color(0.282353, 0.388235, 0.341176, 1)
+shader_parameter/tint = Color(1, 1, 1, 1)
+shader_parameter/jiggleAmount = 0.0005
+shader_parameter/texture = ExtResource("3_taf68")
+shader_parameter/dissolveTexture = ExtResource("2_5hd5i")
+
+[node name="Melanin" type="MeshInstance3D"]
+transform = Transform3D(100, 0, 0, 0, -1.62921e-05, 100, 0, -100, -1.62921e-05, 0, 0, 0)
+material_override = SubResource("1")
+mesh = ExtResource("4_djog8")

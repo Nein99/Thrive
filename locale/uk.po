@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-10-29 23:00-0500\n"
+"POT-Creation-Date: 2024-10-30 20:00-0500\n"
 "PO-Revision-Date: 2024-10-17 07:24+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Ukrainian <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/uk/>\n"
@@ -3143,6 +3143,29 @@ msgstr "Зупинити медіа"
 msgid "MEGA_YEARS"
 msgstr "Млн. р."
 
+msgid "MELANIN"
+msgstr ""
+
+#, fuzzy
+msgid "MELANIN_DESCRIPTION"
+msgstr "Опис відсутній"
+
+#, fuzzy
+msgid "MELANIN_PROCESSES_DESCRIPTION"
+msgstr "Збільшує швидкість обертання великих клітин."
+
+#, fuzzy
+msgid "MELANOPLAST"
+msgstr "Хемопласт"
+
+#, fuzzy
+msgid "MELANOPLAST_DESCRIPTION"
+msgstr "Хемопласт — це двохмембранна структура, що містить білки, здатні перетворювати [thrive:compound type=\"hydrogensulfide\"][/thrive:compound], воду та газоподібний [thrive:compound type=\"carbondioxide\"][/thrive:compound] на [thrive:compound type=\"glucose\"][/thrive:compound] в процесі, що зветься [b]сірководневим хемосинтезом[/b]. Кількість глюкози залежить від концентрації [thrive:compound type=\"carbondioxide\"][/thrive:compound]."
+
+#, fuzzy
+msgid "MELANOPLAST_PROCESSES_DESCRIPTION"
+msgstr "Перетворює [thrive:compound type=\"hydrogensulfide\"][/thrive:compound] на [thrive:compound type=\"glucose\"][/thrive:compound]. Швидкість залежить від концентрації [thrive:compound type=\"carbondioxide\"][/thrive:compound]."
+
 msgid "MEMBRANE"
 msgstr "Мембрани"
 
@@ -3948,6 +3971,10 @@ msgstr "Немає з чим взаємодіяти"
 msgid "NOTICE_DAMAGED_BY_NO_ATP"
 msgstr "Пошкодження через нестачу АТФ"
 
+#, fuzzy
+msgid "NOTICE_DAMAGED_BY_RADIATION"
+msgstr "Пошкодження через нестачу АТФ"
+
 msgid "NOTICE_ENGULF_DAMAGE_FROM_TOXIN"
 msgstr "Пошкодження через токсини у поглинутій матерії"
 
@@ -4520,6 +4547,14 @@ msgid "QUIT_GAME_WARNING"
 msgstr ""
 "Ви хочете покинути гру?\n"
 "Весь незбережений процес буде втрачено."
+
+#, fuzzy
+msgid "RADIONUCLIDES"
+msgstr "Ядро"
+
+#, fuzzy
+msgid "RADIOSYNTHESIS"
+msgstr "Термосинтез"
 
 msgid "RANDOMIZE_SPECIES_NAME"
 msgstr "Випадкова назва виду"
@@ -5096,6 +5131,10 @@ msgstr "Спавн глюкози"
 
 msgid "SPAWN_PHOSPHATES"
 msgstr "Спавн фосфатів"
+
+#, fuzzy
+msgid "SPAWN_RADIONUCLIDES"
+msgstr "Ядро"
 
 msgid "SPECIAL_MOUSE_1"
 msgstr "Спеціальна миша 1"

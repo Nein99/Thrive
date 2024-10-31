@@ -18,6 +18,9 @@ public class AutoEvoGlobalCache
     public readonly ChunkCompoundPressure SmallIronChunkPressure;
     public readonly ChunkCompoundPressure BigIronChunkPressure;
 
+        public readonly CompoundConversionEfficiencyPressure RadiationConversionEfficiencyPressure;
+    public readonly ChunkCompoundPressure UraniumChunkPressure;
+
     public readonly CompoundConversionEfficiencyPressure HydrogenSulfideConversionEfficiencyPressure;
     public readonly CompoundCloudPressure HydrogenSulfideCloudPressure;
 
@@ -47,6 +50,10 @@ public class AutoEvoGlobalCache
             Compound.Iron, 1.0f);
         BigIronChunkPressure = new ChunkCompoundPressure("ironBigChunk", new LocalizedString("BIG_IRON_CHUNK"),
             Compound.Iron, 1.0f);
+
+        RadiationConversionEfficiencyPressure = new CompoundConversionEfficiencyPressure(Compound.Radionuclides, Compound.Glucose, 1.5f);
+        UraniumChunkPressure = new ChunkCompoundPressure("uraniumRock", new LocalizedString("URANIUM_ROCK"),
+            Compound.Radionuclides, 1.0f);
 
         HydrogenSulfideConversionEfficiencyPressure = new CompoundConversionEfficiencyPressure(Compound.Hydrogensulfide,
             Compound.Glucose, 1.0f);

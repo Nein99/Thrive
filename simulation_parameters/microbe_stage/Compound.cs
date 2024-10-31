@@ -38,11 +38,12 @@ public enum Compound : ushort
     Nitrogen = 11,
     Sunlight = 12,
     Temperature = 13,
+    Radionuclides = 14,
 
     /// <summary>
     ///   Last defined compound. When adding new values this *must be* updated to match the value of the last compound.
     /// </summary>
-    LastInbuiltCompound = 13,
+    LastInbuiltCompound = 14,
 
     // This should be plenty for us to implement anything, and leaves a lot of space for mods to load custom compound
     // types into

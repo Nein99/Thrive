@@ -93,6 +93,7 @@ public partial class PatchDetailsPanel : PanelContainer
     private Label glucoseLabel = null!;
     private Label phosphateLabel = null!;
     private Label ironLabel = null!;
+    private Label radionuclidesLabel = null!;
 
     private Control otherCompoundBase = null!;
 
@@ -101,6 +102,7 @@ public partial class PatchDetailsPanel : PanelContainer
     private TextureRect hydrogenSulfideSituation = null!;
     private TextureRect glucoseSituation = null!;
     private TextureRect ironSituation = null!;
+    private TextureRect radionuclidesSituation = null!;
     private TextureRect ammoniaSituation = null!;
     private TextureRect phosphateSituation = null!;
 
@@ -285,6 +287,11 @@ public partial class PatchDetailsPanel : PanelContainer
         ironLabel = ironBase.GetNode<Label>(labelPath);
         ironSituation = ironBase.GetNode<TextureRect>(situation);
 
+        radionuclidesLabel = null!;
+        var radionuclidesBase = compoundsContainer.GetItem<Control>("Radionuclides");
+        radionuclidesLabel = radionuclidesBase.GetNode<Label>(labelPath);
+        radionuclidesSituation = radionuclidesBase.GetNode<TextureRect>(situation);
+
         // Species list
         speciesInfoDisplay = speciesParentContainer.GetItem<CustomRichTextLabel>("SpeciesList");
 
@@ -400,6 +407,9 @@ public partial class PatchDetailsPanel : PanelContainer
                 Constants.PATCH_CONDITIONS_COMPOUND_DISPLAY_DECIMALS).ToString(CultureInfo.CurrentCulture);
         ironLabel.Text =
             Math.Round(GetCompoundAmount(SelectedPatch, Compound.Iron),
+                Constants.PATCH_CONDITIONS_COMPOUND_DISPLAY_DECIMALS).ToString(CultureInfo.CurrentCulture);
+        radionuclidesLabel.Text =
+            Math.Round(GetCompoundAmount(SelectedPatch, Compound.Radionuclides),
                 Constants.PATCH_CONDITIONS_COMPOUND_DISPLAY_DECIMALS).ToString(CultureInfo.CurrentCulture);
 
         var speciesList = new StringBuilder(100);
@@ -534,6 +544,21 @@ public partial class PatchDetailsPanel : PanelContainer
         else
         {
             ironSituation.Texture = null;
+        }
+
+        nextCompound = GetCompoundAmount(SelectedPatch, Compound.Radionuclides);
+
+        if (nextCompound > GetCompoundAmount(CurrentPatch, Compound.Radionuclides))
+        {
+            radionuclidesSituation.Texture = increaseIcon;
+        }
+        else if (nextCompound < GetCompoundAmount(CurrentPatch, Compound.Radionuclides))
+        {
+            radionuclidesSituation.Texture = decreaseIcon;
+        }
+        else
+        {
+            radionuclidesSituation.Texture = null;
         }
 
         nextCompound = GetCompoundAmount(SelectedPatch, Compound.Ammonia);

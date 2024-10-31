@@ -62,6 +62,34 @@ public class PatchMap : ISaveLoadable
     private List<(int Id1, int Id2)> RegionAdjacencies { get; set; } = new();
 
     /// <summary>
+    ///   Shapes representing continents
+    /// </summary>
+    [JsonProperty]
+    public List<List<Vector2>> ContinentShapes { get; set; } = new();
+
+    /// <summary>
+    ///   Shapes representing oceans
+    /// </summary>
+    [JsonProperty]
+    public List<List<Vector2>> OceanShapes { get; set; } = new();
+
+    /// <summary>
+    ///   Reference to the world generation settings
+    /// </summary>
+    [JsonProperty]
+    public WorldGenerationSettings Settings { get; private set; }
+
+    /// <summary>
+    ///   Initializes a new instance of the PatchMap class with the provided settings.
+    /// </summary>
+    /// <param name="settings">The world generation settings containing AverageTemp and other parameters.</param>
+    [JsonConstructor]
+    public PatchMap(WorldGenerationSettings settings)
+    {
+        Settings = settings ?? throw new ArgumentNullException(nameof(settings), "Settings cannot be null");
+    }
+
+    /// <summary>
     ///   Adds a new patch to the map. Throws if can't add
     /// </summary>
     public void AddPatch(Patch patch)
