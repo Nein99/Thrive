@@ -286,7 +286,7 @@ public class BiomeConditions : IBiomeConditions, ICloneable
 
         foreach (var chunk in Chunks)
         {
-            if (chunk.Value.Density * Constants.CLOUD_SPAWN_DENSITY_SCALE_FACTOR is < 0 or > 1)
+            if (chunk.Value.Density * Constants.CLOUD_SPAWN_DENSITY_SCALE_FACTOR is < 0)
             {
                 throw new InvalidRegistryDataException(name, GetType().Name,
                     $"Density {chunk.Value.Density} invalid for {chunk.Key} " +

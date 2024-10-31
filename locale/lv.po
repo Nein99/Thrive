@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-10-29 23:00-0500\n"
+"POT-Creation-Date: 2024-10-30 18:53-0500\n"
 "PO-Revision-Date: 2024-10-17 07:24+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Latvian <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/lv/>\n"
@@ -3298,6 +3298,29 @@ msgstr ""
 msgid "MEGA_YEARS"
 msgstr ""
 
+msgid "MELANIN"
+msgstr ""
+
+#, fuzzy
+msgid "MELANIN_DESCRIPTION"
+msgstr "Trūkst apraksts"
+
+#, fuzzy
+msgid "MELANIN_PROCESSES_DESCRIPTION"
+msgstr "Pārveido [thrive:compound type=\"glucose\"][/thrive:compound] par [thrive:compound type=\"atp\"][/thrive:compound]."
+
+#, fuzzy
+msgid "MELANOPLAST"
+msgstr "Hemoplasts"
+
+#, fuzzy
+msgid "MELANOPLAST_DESCRIPTION"
+msgstr "Apraksts:"
+
+#, fuzzy
+msgid "MELANOPLAST_PROCESSES_DESCRIPTION"
+msgstr "Pārveido [thrive:compound type=\"glucose\"][/thrive:compound] par [thrive:compound type=\"atp\"][/thrive:compound]."
+
 msgid "MEMBRANE"
 msgstr "Membrāna"
 
@@ -4723,6 +4746,14 @@ msgstr ""
 
 msgid "QUIT_GAME_WARNING"
 msgstr ""
+
+#, fuzzy
+msgid "RADIONUCLIDES"
+msgstr "Kodols"
+
+#, fuzzy
+msgid "RADIOSYNTHESIS"
+msgstr "Hemosintēze"
 
 msgid "RANDOMIZE_SPECIES_NAME"
 msgstr "Randomizēt sugas nosaukumu"

@@ -535,7 +535,7 @@
 	"IconPath": "res://assets/textures/gui/bevel/parts/BioluminescentIcon.png",
 	"RequiresNucleus": false,
 	"EditorButtonGroup": "Protein",
-	"EditorButtonOrder": 9,
+	"EditorButtonOrder": 8,
   "AvailableUpgrades": {
       "none": {
         "IsDefault": true,
@@ -579,6 +579,41 @@
         }
       }
     }
+  },
+  "melanin": {
+    "MPCost": 50,
+    "InitialComposition": {
+      "ammonia": 1,
+      "phosphates": 1
+    },
+    "Hexes": [
+      {
+        "r": 0,
+        "q": 0
+      }
+    ],
+    "Processes": {
+      "glycolysis": 1,
+      "melanin_radiosynthesis": 1
+    },
+    "Components": {
+      "Storage": {
+        "Capacity": 0.5
+      }
+    },
+    "Density": 1200,
+    "Graphics": {
+      "ScenePath": "res://assets/models/organelles/Melanin.tscn"
+    },
+    "Name": "MELANIN",
+    "Description": "MELANIN_DESCRIPTION",
+    "ProcessesDescription": "MELANIN_PROCESSES_DESCRIPTION",
+    "ProductionColour": "#40f0ac",
+    "ConsumptionColour": "#fbae3a",
+    "IconPath": "res://assets/textures/gui/bevel/parts/ChromatophoreIcon.png",
+    "EditorButtonGroup": "Protein",
+    "EditorButtonOrder": 9,
+    "EndosymbiosisUnlocks": "chloroplast"
   },
   "chemoplast": {
     "MPCost": 45,
@@ -940,6 +975,57 @@
     "RequiresNucleus": true,
     "EditorButtonGroup": "Organelle",
     "EditorButtonOrder": 4
+  },
+  "melanoplast": {
+    "MPCost": 50,
+    "InitialComposition": {
+      "ammonia": 2,
+      "phosphates": 2
+    },
+    "Hexes": [
+      {
+        "r": 0,
+        "q": 0
+      },
+      {
+        "r": -1,
+        "q": 0
+      },
+      {
+        "r": -1,
+        "q": 1
+      }
+    ],
+    "Processes": {
+      "radiosynthesis": 1
+    },
+    "Components": {
+      "Storage": {
+        "Capacity": 1.5
+      }
+    },
+    "Density": 1200,
+    "Graphics": {
+      "ScenePath": "res://assets/models/organelles/Melanoplast.tscn"
+    },
+    "Name": "MELANOPLAST",
+    "Description": "MELANOPLAST_DESCRIPTION",
+    "ProcessesDescription": "MELANOPLAST_PROCESSES_DESCRIPTION",
+    "IconPath": "res://assets/textures/gui/bevel/parts/ChloroplastIcon.png",
+    "UnlockConditions": [
+      {
+        "ReproduceWithOrganelle": {
+          "Organelle": "melanin",
+          "Generations": 7,
+          "InARow": true,
+          "MinimumCount": 5
+        }
+      }
+    ],
+    "RequiresNucleus": true,
+    "EditorButtonGroup": "Organelle",
+    "EditorButtonOrder": 13,
+    "LAWK": false
   },
   "cytoplasm": {
     "MPCost": 22,

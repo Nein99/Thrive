@@ -155,6 +155,26 @@
     },
     "IconPath": "res://assets/textures/gui/bevel/Iron.svg"
   },
+  "radionuclides": {
+    "Name": "RADIONUCLIDES",
+    "Volume": 1,
+    "IsCloud": true,
+    "IsAlwaysUseful": false,
+    "IsEnvironmental": false,
+    "CanBeDistributed": true,
+    "Digestible": true,
+    "Colour": {
+      "r": 0.6,
+      "g": 1.0,
+      "b": 0.0
+    },
+    "BarColour": {
+      "r": 0.925,
+      "g": 0.925,
+      "b": 0.376
+    },
+    "IconPath": "res://assets/textures/gui/bevel/Radionuclides.png"
+  },
   "oxygen": {
     "Name": "OXYGEN",
     "Volume": 1,

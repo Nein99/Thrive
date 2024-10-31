@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-10-29 23:00-0500\n"
+"POT-Creation-Date: 2024-10-30 18:53-0500\n"
 "PO-Revision-Date: 2024-06-09 13:22+0000\n"
 "Last-Translator: Magnus Norling Svane <magn665e@icloud.com>\n"
 "Language-Team: Danish <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/da/>\n"
@@ -2922,6 +2922,24 @@ msgstr ""
 msgid "MEGA_YEARS"
 msgstr ""
 
+msgid "MELANIN"
+msgstr ""
+
+msgid "MELANIN_DESCRIPTION"
+msgstr ""
+
+msgid "MELANIN_PROCESSES_DESCRIPTION"
+msgstr ""
+
+msgid "MELANOPLAST"
+msgstr ""
+
+msgid "MELANOPLAST_DESCRIPTION"
+msgstr ""
+
+msgid "MELANOPLAST_PROCESSES_DESCRIPTION"
+msgstr ""
+
 msgid "MEMBRANE"
 msgstr ""
 
@@ -4083,6 +4101,12 @@ msgid "QUIT_BUTTON_TOOLTIP"
 msgstr ""
 
 msgid "QUIT_GAME_WARNING"
+msgstr ""
+
+msgid "RADIONUCLIDES"
+msgstr ""
+
+msgid "RADIOSYNTHESIS"
 msgstr ""
 
 msgid "RANDOMIZE_SPECIES_NAME"

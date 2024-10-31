@@ -538,6 +538,13 @@ DescriptionLabelPath = NodePath("../../processesProduction/chromatophore/MarginC
 DisplayDelay = 0.0
 Positioning = 1
 
+[node name="melanin" parent="GroupHolder/processesProduction" instance=ExtResource("1")]
+visible = false
+layout_mode = 0
+DescriptionLabelPath = NodePath("../chromatophore/MarginContainer/VBoxContainer/Description")
+DisplayDelay = 0.0
+Positioning = 1
+
 [node name="chemoSynthesizingProteins" parent="GroupHolder/processesProduction" instance=ExtResource("1")]
 visible = false
 layout_mode = 0
@@ -640,6 +647,13 @@ Positioning = 1
 visible = false
 layout_mode = 0
 DescriptionLabelPath = NodePath("../../../GroupHolder/processesConsumption/chromatophore/MarginContainer/VBoxContainer/Description")
+DisplayDelay = 0.0
+Positioning = 1
+
+[node name="melanin" parent="GroupHolder/processesConsumption" instance=ExtResource("1")]
+visible = false
+layout_mode = 0
+DescriptionLabelPath = NodePath("../chromatophore/MarginContainer/VBoxContainer/Description")
 DisplayDelay = 0.0
 Positioning = 1
 

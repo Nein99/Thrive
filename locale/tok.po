@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Thrive VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-10-29 23:00-0500\n"
+"POT-Creation-Date: 2024-10-30 18:53-0500\n"
 "PO-Revision-Date: 2023-02-06 07:13+0000\n"
 "Last-Translator: jan-sopi <jansopi303@genocide.fun>\n"
 "Language-Team: Toki Pona <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/tok/>\n"
@@ -3029,6 +3029,28 @@ msgstr ""
 msgid "MEGA_YEARS"
 msgstr ""
 
+msgid "MELANIN"
+msgstr ""
+
+#, fuzzy
+msgid "MELANIN_DESCRIPTION"
+msgstr "pali pi kon ilo kepeken kon ala"
+
+#, fuzzy
+msgid "MELANIN_PROCESSES_DESCRIPTION"
+msgstr "pali pi kon ilo kepeken kon ala"
+
+msgid "MELANOPLAST"
+msgstr ""
+
+#, fuzzy
+msgid "MELANOPLAST_DESCRIPTION"
+msgstr "pali pi kon ilo kepeken kon ala"
+
+#, fuzzy
+msgid "MELANOPLAST_PROCESSES_DESCRIPTION"
+msgstr "pali pi kon ilo kepeken kon ala"
+
 msgid "MEMBRANE"
 msgstr ""
 
@@ -4200,6 +4222,13 @@ msgstr ""
 
 msgid "QUIT_GAME_WARNING"
 msgstr ""
+
+msgid "RADIONUCLIDES"
+msgstr ""
+
+#, fuzzy
+msgid "RADIOSYNTHESIS"
+msgstr "kama ante pi sike ante"
 
 msgid "RANDOMIZE_SPECIES_NAME"
 msgstr ""
