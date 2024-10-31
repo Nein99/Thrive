@@ -127,6 +127,7 @@ public partial class CreatureStageHUDBase<TStage> : HUDWithPausing, ICreatureSta
     protected CompoundProgressBar phosphateBar = null!;
     protected CompoundProgressBar hydrogenSulfideBar = null!;
     protected CompoundProgressBar ironBar = null!;
+    protected CompoundProgressBar radionuclidesBar = null!;
     protected CompoundProgressBar oxytoxyBar = null!;
     protected CompoundProgressBar mucilageBar = null!;
 
@@ -370,6 +371,8 @@ public partial class CreatureStageHUDBase<TStage> : HUDWithPausing, ICreatureSta
         hydrogenSulfideBar = CompoundProgressBar.Create(barScene,
             simulationParameters.GetCompoundDefinition(Compound.Hydrogensulfide), 0, 1);
         ironBar = CompoundProgressBar.Create(barScene, simulationParameters.GetCompoundDefinition(Compound.Iron), 0, 1);
+        radionuclidesBar = CompoundProgressBar.Create(barScene,
+            simulationParameters.GetCompoundDefinition(Compound.Radionuclides), 0, 1);
 
         compoundsPanel.AddPrimaryBar(glucoseBar);
         compoundBars.Add((Compound.Glucose, glucoseBar));
@@ -385,6 +388,9 @@ public partial class CreatureStageHUDBase<TStage> : HUDWithPausing, ICreatureSta
 
         compoundsPanel.AddPrimaryBar(ironBar);
         compoundBars.Add((Compound.Iron, ironBar));
+
+        compoundsPanel.AddPrimaryBar(radionuclidesBar);
+        compoundBars.Add((Compound.Radionuclides, radionuclidesBar));
 
         // Agent bars
         oxytoxyBar = CompoundProgressBar.Create(barScene, simulationParameters.GetCompoundDefinition(Compound.Oxytoxy),

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-10-30 18:53-0500\n"
+"POT-Creation-Date: 2024-10-30 20:00-0500\n"
 "PO-Revision-Date: 2024-10-17 07:24+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: German <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/de/>\n"
@@ -4116,6 +4116,10 @@ msgid "NOTICE_DAMAGED_BY_NO_ATP"
 msgstr ""
 
 #, fuzzy
+msgid "NOTICE_DAMAGED_BY_RADIATION"
+msgstr "Schaden durch Gift in der aufgenommenen Materie"
+
+#, fuzzy
 msgid "NOTICE_ENGULF_DAMAGE_FROM_TOXIN"
 msgstr "Schaden durch Gift in der aufgenommenen Materie"
 
@@ -5327,6 +5331,10 @@ msgstr "Glukose erzeugen"
 
 msgid "SPAWN_PHOSPHATES"
 msgstr "Phosphat erzeugen"
+
+#, fuzzy
+msgid "SPAWN_RADIONUCLIDES"
+msgstr "Nukleus"
 
 msgid "SPECIAL_MOUSE_1"
 msgstr "Spezialmaustaste 1"

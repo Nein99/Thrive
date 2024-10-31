@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-10-30 18:53-0500\n"
-"PO-Revision-Date: 2024-10-30 19:05-0500\n"
+"POT-Creation-Date: 2024-10-30 20:00-0500\n"
+"PO-Revision-Date: 2024-10-30 20:02-0500\n"
 "Last-Translator: Henri Hyyryläinen <hhyyrylainen@revolutionarygamesstudio.com>\n"
 "Language-Team: English <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/en/>\n"
 "Language: en\n"
@@ -3890,6 +3890,9 @@ msgstr "Nothing to interact with"
 msgid "NOTICE_DAMAGED_BY_NO_ATP"
 msgstr "Damaged due to not having any ATP"
 
+msgid "NOTICE_DAMAGED_BY_RADIATION"
+msgstr "Damaged by ionizing radiation due to radionuclides"
+
 msgid "NOTICE_ENGULF_DAMAGE_FROM_TOXIN"
 msgstr "Damaged by toxins in ingested matter"
 
@@ -5027,6 +5030,9 @@ msgstr "Spawn glucose"
 
 msgid "SPAWN_PHOSPHATES"
 msgstr "Spawn phosphate"
+
+msgid "SPAWN_RADIONUCLIDES"
+msgstr "Spawn Radionuclides"
 
 msgid "SPECIAL_MOUSE_1"
 msgstr "Mouse Special 1"

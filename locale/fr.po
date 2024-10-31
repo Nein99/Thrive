@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-10-30 18:53-0500\n"
+"POT-Creation-Date: 2024-10-30 20:00-0500\n"
 "PO-Revision-Date: 2024-10-21 20:20+0000\n"
 "Last-Translator: syl <syl@gresille.org>\n"
 "Language-Team: French <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/fr/>\n"
@@ -4022,6 +4022,10 @@ msgid "NOTICE_DAMAGED_BY_NO_ATP"
 msgstr "Dommages dus à l'absence d'ATP"
 
 #, fuzzy
+msgid "NOTICE_DAMAGED_BY_RADIATION"
+msgstr "Dommages dus à l'absence d'ATP"
+
+#, fuzzy
 msgid "NOTICE_ENGULF_DAMAGE_FROM_TOXIN"
 msgstr "Dommages dus à l'ingestion de toxines"
 
@@ -5186,6 +5190,10 @@ msgstr "Créer du glucose"
 
 msgid "SPAWN_PHOSPHATES"
 msgstr "Créer du phosphate"
+
+#, fuzzy
+msgid "SPAWN_RADIONUCLIDES"
+msgstr "Noyau"
 
 msgid "SPECIAL_MOUSE_1"
 msgstr "Bouton spécial souris 1"

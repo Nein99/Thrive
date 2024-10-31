@@ -326,6 +326,10 @@
         "Name": "SPAWN_PHOSPHATES"
       },
       {
+        "InputName": "g_cheat_radionuclides",
+        "Name": "SPAWN_RADIONUCLIDES"
+      },
+      {
         "InputName": "g_cheat_menu",
         "Name": "CHEAT_MENU"
       }

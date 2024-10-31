@@ -121,7 +121,6 @@
         "PhysicsDensity": 1400,
         "Size": 100,
         "VentAmount": 2,
-        "Damages": 1000000,
         "DeleteOnTouch": false,
         "Compounds": {
         "radionuclides": {
@@ -481,7 +480,6 @@
         "PhysicsDensity": 1400,
         "Size": 100,
         "VentAmount": 2,
-        "Damages": 1000000,
         "DeleteOnTouch": false,
         "Compounds": {
         "radionuclides": {
@@ -526,7 +524,6 @@
         "PhysicsDensity": 1400,
         "Size": 100,
         "VentAmount": 2,
-        "Damages": 1000000,
         "DeleteOnTouch": false,
         "Compounds": {
           "radionuclides": {
@@ -794,7 +791,6 @@
         "PhysicsDensity": 1400,
         "Size": 100,
         "VentAmount": 2,
-        "Damages": 1000000,
         "DeleteOnTouch": false,
         "Compounds": {
           "radionuclides": {
@@ -1082,7 +1078,6 @@
         "PhysicsDensity": 1400,
         "Size": 100,
         "VentAmount": 2,
-        "Damages": 1000000,
         "DeleteOnTouch": false,
         "Compounds": {
           "radionuclides": {
@@ -1420,7 +1415,6 @@
         "PhysicsDensity": 1400,
         "Size": 100,
         "VentAmount": 2,
-        "Damages": 1000000,
         "DeleteOnTouch": false,
         "Compounds": {
           "radionuclides": {
@@ -1788,7 +1782,6 @@
         "PhysicsDensity": 1400,
         "Size": 100,
         "VentAmount": 2,
-        "Damages": 1000000,
         "DeleteOnTouch": false,
         "Compounds": {
           "radionuclides": {
@@ -2072,7 +2065,6 @@
         "PhysicsDensity": 1400,
         "Size": 100,
         "VentAmount": 2,
-        "Damages": 1000000,
         "DeleteOnTouch": false,
         "Compounds": {
           "radionuclides": {
@@ -2337,7 +2329,6 @@
         "PhysicsDensity": 1400,
         "Size": 100,
         "VentAmount": 2,
-        "Damages": 1000000,
         "DeleteOnTouch": false,
         "Compounds": {
           "radionuclides": {
@@ -2615,7 +2606,6 @@
         "PhysicsDensity": 1400,
         "Size": 100,
         "VentAmount": 2,
-        "Damages": 1000000,
         "DeleteOnTouch": false,
         "Compounds": {
           "radionuclides": {
@@ -2919,7 +2909,6 @@
         "PhysicsDensity": 1400,
         "Size": 100,
         "VentAmount": 2,
-        "Damages": 1000000,
         "DeleteOnTouch": false,
         "Compounds": {
           "radionuclides": {
@@ -3188,7 +3177,6 @@
         "PhysicsDensity": 1400,
         "Size": 100,
         "VentAmount": 2,
-        "Damages": 1000000,
         "DeleteOnTouch": false,
         "Compounds": {
           "radionuclides": {
@@ -3460,7 +3448,6 @@
         "PhysicsDensity": 1400,
         "Size": 100,
         "VentAmount": 2,
-        "Damages": 1000000,
         "DeleteOnTouch": false,
         "Compounds": {
           "radionuclides": {
@@ -3838,7 +3825,6 @@
         "PhysicsDensity": 1400,
         "Size": 100,
         "VentAmount": 2,
-        "Damages": 1000000,
         "DeleteOnTouch": false,
         "Compounds": {
           "radionuclides": {
@@ -4100,7 +4086,7 @@
           "ConvexShapePath": "res://assets/models/VentRockShape.shape"
         }
         ],
-        "Density": 0.00099,
+        "Density": 0.00999,
         "Dissolves": false,
         "Radius": 10,
         "ChunkScale": 1,
@@ -4122,14 +4108,13 @@
           "ConvexShapePath": "res://assets/models/VentRockShape.shape"
         }
         ],
-        "Density": 0.00001,
+        "Density": 0.00999,
         "Dissolves": false,
         "Radius": 10,
         "ChunkScale": 1,
         "PhysicsDensity": 1400,
         "Size": 100,
         "VentAmount": 2,
-        "Damages": 1000000,
         "DeleteOnTouch": false,
         "Compounds": {
           "radionuclides": {
@@ -4501,7 +4486,6 @@
         "PhysicsDensity": 1400,
         "Size": 100,
         "VentAmount": 2,
-        "Damages": 1000000,
         "DeleteOnTouch": false,
         "Compounds": {
           "radionuclides": {
