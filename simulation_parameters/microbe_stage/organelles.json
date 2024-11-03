@@ -405,7 +405,7 @@
       }
     ],
     "Processes": {
-      "clostridial_fermentation": 1
+      "protein_clostridial_fermentation": 1
     },
     "Components": {
       "Storage": {
@@ -423,7 +423,59 @@
     "ConsumptionColour": "#ff5649",
     "IconPath": "res://assets/textures/gui/bevel/parts/HydrogenaseIcon.svg",
     "EditorButtonGroup": "Protein",
-    "EditorButtonOrder": 0
+    "EditorButtonOrder": 0,
+    "EndosymbiosisUnlocks": "hydrogenosome"
+  },
+  "hydrogenosome": {
+    "MPCost": 45,
+    "InitialComposition": {
+      "ammonia": 2,
+      "phosphates": 2
+    },
+    "Hexes": [
+      {
+        "r": 0,
+        "q": 0
+      },
+      {
+        "r": -1,
+        "q": 0
+      }
+    ],
+    "Processes": {
+      "clostridial_fermentation": 1
+    },
+    "Components": {
+      "Storage": {
+        "Capacity": 1
+      }
+    },
+    "Density": 1100,
+    "Graphics": {
+      "ScenePath": "res://assets/models/organelles/Hydrogenosome.tscn"
+    },
+    "Name": "HYDROGENOSOME",
+    "Description": "HYDROGENOSOME_DESCRIPTION",
+    "ProcessesDescription": "HYDROGENOSOME_PROCESSES_DESCRIPTION",
+    "ProductionColour": "#aa291f",
+    "ConsumptionColour": "#ff5649",
+    "IconPath": "res://assets/textures/gui/bevel/parts/MitochondrionIcon.png",
+    "UnlockConditions": [
+      {
+        "AtpProductionAbove": {
+          "Atp": 20
+        },
+        "ReproduceWithOrganelle": {
+          "Organelle": "hydrogenase",
+          "Generations": 7,
+          "MinimumCount": 5,
+          "InARow": true
+        }
+      }
+    ],
+    "RequiresNucleus": true,
+    "EditorButtonGroup": "Organelle",
+    "EditorButtonOrder": 14
   },
   "nitrogenfixingplastid": {
     "MPCost": 50,

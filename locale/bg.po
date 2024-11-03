@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-10-30 20:00-0500\n"
+"POT-Creation-Date: 2024-11-02 22:11-0500\n"
 "PO-Revision-Date: 2024-10-17 07:24+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Bulgarian <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/bg/>\n"
@@ -2469,6 +2469,18 @@ msgstr "Нитрогеназата е протеин, който използв�
 
 #, fuzzy
 msgid "HYDROGENASE_PROCESSES_DESCRIPTION"
+msgstr "Превръща [thrive:compound type=\"atp\"]АТФ[/thrive:compound] в [thrive:compound type=\"ammonia\"]амоняк[/thrive:compound]. Количеството зависи от концентрацията на [thrive:compound type=\"nitrogen\"]азот[/thrive:compound] в околната среда."
+
+#, fuzzy
+msgid "HYDROGENOSOME"
+msgstr "Сероводород"
+
+#, fuzzy
+msgid "HYDROGENOSOME_DESCRIPTION"
+msgstr "Нитрогеназата е протеин, който използва газообразен [thrive:compound type=\"nitrogen\"]въглероден диоксид[/thrive:compound] и клетъчна енергия под формата на [thrive:compound type=\"atp\"]АТФ[/thrive:compound] за да произвежда [thrive:compound type=\"ammonia\"]амоняк[/thrive:compound], който е ключов за растежа на клетките. Този процес се нарича [b]анаеробна азотна фиксация[/b]. Понеже нитрогеназата е скачена с цитоплазма, тя извършва известна [b]гликолиза[/b]."
+
+#, fuzzy
+msgid "HYDROGENOSOME_PROCESSES_DESCRIPTION"
 msgstr "Превръща [thrive:compound type=\"atp\"]АТФ[/thrive:compound] в [thrive:compound type=\"ammonia\"]амоняк[/thrive:compound]. Количеството зависи от концентрацията на [thrive:compound type=\"nitrogen\"]азот[/thrive:compound] в околната среда."
 
 msgid "HYDROGEN_SULFIDE"

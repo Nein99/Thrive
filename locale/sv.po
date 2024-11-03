@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-10-30 20:00-0500\n"
+"POT-Creation-Date: 2024-11-02 22:11-0500\n"
 "PO-Revision-Date: 2024-10-19 21:07+0000\n"
 "Last-Translator: Paradox Edge <xxzemonxx@hotmail.com>\n"
 "Language-Team: Swedish <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/sv/>\n"
@@ -2483,6 +2483,18 @@ msgstr "Nitrogenas är ett protein som kan använda gasformigt kväve och cellul
 
 #, fuzzy
 msgid "HYDROGENASE_PROCESSES_DESCRIPTION"
+msgstr "Nitrogenas är ett protein som kan använda gasformigt kväve och cellulär energi i form av ATP för att producera ammoniak, ett viktigt tillväxtnäringsämne för celler. Detta är en process som kallas anaerob kvävefixering. Eftersom kvävgaset är suspenderat direkt i cytoplasman, utför den omgivande vätskan viss jäsning."
+
+#, fuzzy
+msgid "HYDROGENOSOME"
+msgstr "Svavelväte"
+
+#, fuzzy
+msgid "HYDROGENOSOME_DESCRIPTION"
+msgstr "Nitrogenas är ett protein som kan använda gasformigt kväve och cellulär energi i form av ATP för att producera ammoniak, ett viktigt tillväxtnäringsämne för celler. Detta är en process som kallas anaerob kvävefixering. Eftersom kvävgaset är suspenderat direkt i cytoplasman, utför den omgivande vätskan viss jäsning."
+
+#, fuzzy
+msgid "HYDROGENOSOME_PROCESSES_DESCRIPTION"
 msgstr "Nitrogenas är ett protein som kan använda gasformigt kväve och cellulär energi i form av ATP för att producera ammoniak, ett viktigt tillväxtnäringsämne för celler. Detta är en process som kallas anaerob kvävefixering. Eftersom kvävgaset är suspenderat direkt i cytoplasman, utför den omgivande vätskan viss jäsning."
 
 msgid "HYDROGEN_SULFIDE"
