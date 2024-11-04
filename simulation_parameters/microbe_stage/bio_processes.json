@@ -42,6 +42,15 @@
       "oxygen": 0.27
     }
   },
+  "retinoplast_photosynthesis": {
+    "Name": "RETINAL_PHOTOSYNTHESIS",
+    "Inputs": {
+      "sunlight": 1
+    },
+    "Outputs": {
+      "atp": 14
+    }
+  },
   "radiosynthesis": {
     "Name": "RADIOSYNTHESIS",
     "Inputs": {
@@ -240,6 +249,15 @@
     "Outputs": {
       "glucose": 0.036,
       "oxygen": 0.081
+    }
+  },
+  "retinal_photosynthesis": {
+    "Name": "RETINAL_PHOTOSYNTHESIS",
+    "Inputs": {
+      "sunlight": 1
+    },
+    "Outputs": {
+      "atp": 4
     }
   },
   "melanin_radiosynthesis": {

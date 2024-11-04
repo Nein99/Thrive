@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Thrive VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-11-02 22:11-0500\n"
+"POT-Creation-Date: 2024-11-04 00:09-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -110,7 +110,7 @@ msgstr ""
 msgid "ADDITIONAL_VALIDATION_FAILED"
 msgstr ""
 
-#: ../src/gui_common/tooltip/ToolTipManager.tscn:740
+#: ../src/gui_common/tooltip/ToolTipManager.tscn:762
 msgid "ADD_INPUT_BUTTON_TOOLTIP"
 msgstr ""
 
@@ -126,7 +126,7 @@ msgstr ""
 msgid "AEROBIC_NITROGEN_FIXATION"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/bio_processes.json:182
+#: ../simulation_parameters/microbe_stage/bio_processes.json:191
 msgid "AEROBIC_NITROGEN_FIXING"
 msgstr ""
 
@@ -213,12 +213,28 @@ msgstr ""
 msgid "AMOUNT_OF_QUICKSAVE_TO_KEEP"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/bio_processes.json:193
+#: ../simulation_parameters/microbe_stage/bio_processes.json:202
 msgid "ANAEROBIC_NITROGEN_FIXATION"
 msgstr ""
 
 #: ../src/microbe_stage/organelle_unlocks/ConditionSet.cs:32
 msgid "AND_UNLOCK_CONDITION"
+msgstr ""
+
+#: ../simulation_parameters/microbe_stage/organelles.json:357
+msgid "ANTHOCYANIN"
+msgstr ""
+
+#: ../simulation_parameters/microbe_stage/organelles.json:1140
+msgid "ANTHOCYANIN_CHLOROPLAST"
+msgstr ""
+
+#: ../simulation_parameters/microbe_stage/organelles.json:366
+msgid "ANTHOXANTHIN"
+msgstr ""
+
+#: ../simulation_parameters/microbe_stage/organelles.json:1149
+msgid "ANTHOXANTHIN_CHLOROPLAST"
 msgstr ""
 
 #: ../src/late_multicellular_stage/editor/MetaballBodyEditorComponent.tscn:468
@@ -291,7 +307,7 @@ msgstr ""
 msgid "ASSUME_HYPERTHREADING"
 msgstr ""
 
-#: ../src/gui_common/tooltip/ToolTipManager.tscn:761
+#: ../src/gui_common/tooltip/ToolTipManager.tscn:783
 msgid "ASSUME_HYPERTHREADING_TOOLTIP"
 msgstr ""
 
@@ -636,15 +652,15 @@ msgstr ""
 msgid "BILLION_ABBREVIATION"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:961
+#: ../simulation_parameters/microbe_stage/organelles.json:1065
 msgid "BINDING_AGENT"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:962
+#: ../simulation_parameters/microbe_stage/organelles.json:1066
 msgid "BINDING_AGENT_DESCRIPTION"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:963
+#: ../simulation_parameters/microbe_stage/organelles.json:1067
 msgid "BINDING_AGENT_PROCESSES_DESCRIPTION"
 msgstr ""
 
@@ -652,43 +668,43 @@ msgstr ""
 msgid "BIND_AXES_SENSITIVITY"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:1320
+#: ../simulation_parameters/microbe_stage/organelles.json:1535
 msgid "BIOLUMINESCENT_VACUOLE_BLUE"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:1321
+#: ../simulation_parameters/microbe_stage/organelles.json:1536
 msgid "BIOLUMINESCENT_VACUOLE_BLUE_DESCRIPTION"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:1333
+#: ../simulation_parameters/microbe_stage/organelles.json:1548
 msgid "BIOLUMINESCENT_VACUOLE_GREEN"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:1334
+#: ../simulation_parameters/microbe_stage/organelles.json:1549
 msgid "BIOLUMINESCENT_VACUOLE_GREEN_DESCRIPTION"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:1352
+#: ../simulation_parameters/microbe_stage/organelles.json:1567
 msgid "BIOLUMINESCENT_VACUOLE_RED_DESCRIPTION"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:1351
+#: ../simulation_parameters/microbe_stage/organelles.json:1566
 msgid "BIOLUMINESCENT_VACUOLE_Red"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:1360
+#: ../simulation_parameters/microbe_stage/organelles.json:1575
 msgid "BIOLUMINESCENT_VACUOLE_VIOLET"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:1361
+#: ../simulation_parameters/microbe_stage/organelles.json:1576
 msgid "BIOLUMINESCENT_VACUOLE_VIOLET_DESCRIPTION"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:1342
+#: ../simulation_parameters/microbe_stage/organelles.json:1557
 msgid "BIOLUMINESCENT_VACUOLE_YELLOW"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:1343
+#: ../simulation_parameters/microbe_stage/organelles.json:1558
 msgid "BIOLUMINESCENT_VACUOLE_YELLOW_DESCRIPTION"
 msgstr ""
 
@@ -822,6 +838,14 @@ msgstr ""
 msgid "CARBON_DIOXIDE"
 msgstr ""
 
+#: ../simulation_parameters/microbe_stage/organelles.json:375
+msgid "CAROTENOIDS"
+msgstr ""
+
+#: ../simulation_parameters/microbe_stage/organelles.json:1158
+msgid "CAROTENOID_CHLOROPLAST"
+msgstr ""
+
 #: ../src/general/base_stage/CreatureStageHUDBase.cs:888
 msgid "CATEGORY_AN_ABUNDANCE"
 msgstr ""
@@ -888,8 +912,8 @@ msgstr ""
 msgid "CHANGE_THE_SYMMETRY"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/bio_processes.json:113
 #: ../simulation_parameters/microbe_stage/bio_processes.json:122
+#: ../simulation_parameters/microbe_stage/bio_processes.json:131
 msgid "CHANNEL_INHIBITOR_TOXIN_SYNTHESIS"
 msgstr ""
 
@@ -911,27 +935,27 @@ msgstr ""
 msgid "CHEMICAL_BUTTON_MICROBE_TOOLTIP"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:698
+#: ../simulation_parameters/microbe_stage/organelles.json:802
 msgid "CHEMOPLAST"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:699
+#: ../simulation_parameters/microbe_stage/organelles.json:803
 msgid "CHEMOPLAST_DESCRIPTION"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:700
+#: ../simulation_parameters/microbe_stage/organelles.json:804
 msgid "CHEMOPLAST_PROCESSES_DESCRIPTION"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:1207
+#: ../simulation_parameters/microbe_stage/organelles.json:1422
 msgid "CHEMORECEPTOR"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:1208
+#: ../simulation_parameters/microbe_stage/organelles.json:1423
 msgid "CHEMORECEPTOR_DESCRIPTION"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:1209
+#: ../simulation_parameters/microbe_stage/organelles.json:1424
 msgid "CHEMORECEPTOR_PROCESSES_DESCRIPTION"
 msgstr ""
 
@@ -951,8 +975,8 @@ msgstr ""
 msgid "CHEMOSYNTHESIZING_PROTEINS_PROCESSES_DESCRIPTION"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/bio_processes.json:160
-#: ../simulation_parameters/microbe_stage/bio_processes.json:171
+#: ../simulation_parameters/microbe_stage/bio_processes.json:169
+#: ../simulation_parameters/microbe_stage/bio_processes.json:180
 msgid "CHEMO_SYNTHESIS"
 msgstr ""
 
@@ -973,15 +997,21 @@ msgstr ""
 msgid "CHITIN_MEMBRANE_DESCRIPTION"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:1013
+#: ../simulation_parameters/microbe_stage/organelles.json:1117
 msgid "CHLOROPLAST"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:1014
+#: ../simulation_parameters/microbe_stage/organelles.json:1118
+#: ../simulation_parameters/microbe_stage/organelles.json:1141
+#: ../simulation_parameters/microbe_stage/organelles.json:1150
+#: ../simulation_parameters/microbe_stage/organelles.json:1159
+#: ../simulation_parameters/microbe_stage/organelles.json:1168
+#: ../simulation_parameters/microbe_stage/organelles.json:1177
+#: ../simulation_parameters/microbe_stage/organelles.json:1186
 msgid "CHLOROPLAST_DESCRIPTION"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:1015
+#: ../simulation_parameters/microbe_stage/organelles.json:1119
 msgid "CHLOROPLAST_PROCESSES_DESCRIPTION"
 msgstr ""
 
@@ -1006,15 +1036,15 @@ msgstr ""
 msgid "CHUNK_FOOD_SOURCE"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:1443
+#: ../simulation_parameters/microbe_stage/organelles.json:1658
 msgid "CILIA"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:1444
+#: ../simulation_parameters/microbe_stage/organelles.json:1659
 msgid "CILIA_DESCRIPTION"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:1445
+#: ../simulation_parameters/microbe_stage/organelles.json:1660
 msgid "CILIA_PROCESSES_DESCRIPTION"
 msgstr ""
 
@@ -1051,8 +1081,8 @@ msgid "CLOSE_OPTIONS"
 msgstr ""
 
 #: ../simulation_parameters/common/wiki.json:862
-#: ../simulation_parameters/microbe_stage/bio_processes.json:215
-#: ../simulation_parameters/microbe_stage/bio_processes.json:225
+#: ../simulation_parameters/microbe_stage/bio_processes.json:224
+#: ../simulation_parameters/microbe_stage/bio_processes.json:234
 msgid "CLOSTRIDIAL_FERMENTATION"
 msgstr ""
 
@@ -1730,12 +1760,20 @@ msgstr ""
 msgid "CUSTOM_USERNAME"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:1106
+#: ../simulation_parameters/microbe_stage/organelles.json:384
+msgid "CYANIDIN"
+msgstr ""
+
+#: ../simulation_parameters/microbe_stage/organelles.json:1167
+msgid "CYANIDIN_CHLOROPLAST"
+msgstr ""
+
+#: ../simulation_parameters/microbe_stage/organelles.json:1321
 msgid "CYTOPLASM"
 msgstr ""
 
 #: ../simulation_parameters/microbe_stage/organelles.json:167
-#: ../simulation_parameters/microbe_stage/organelles.json:1107
+#: ../simulation_parameters/microbe_stage/organelles.json:1322
 msgid "CYTOPLASM_DESCRIPTION"
 msgstr ""
 
@@ -1745,12 +1783,12 @@ msgid "CYTOPLASM_GLYCOLYSIS"
 msgstr ""
 
 #: ../simulation_parameters/microbe_stage/organelles.json:168
-#: ../simulation_parameters/microbe_stage/organelles.json:1108
+#: ../simulation_parameters/microbe_stage/organelles.json:1323
 msgid "CYTOPLASM_PROCESSES_DESCRIPTION"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/bio_processes.json:57
 #: ../simulation_parameters/microbe_stage/bio_processes.json:66
+#: ../simulation_parameters/microbe_stage/bio_processes.json:75
 msgid "CYTOTOXIN_SYNTHESIS"
 msgstr ""
 
@@ -2626,15 +2664,15 @@ msgstr ""
 msgid "FEED_ITEM_TRUNCATED_NOTICE"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:1583
+#: ../simulation_parameters/microbe_stage/organelles.json:1798
 msgid "FERROPLAST"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:1584
+#: ../simulation_parameters/microbe_stage/organelles.json:1799
 msgid "FERROPLAST_DESCRIPTION"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:1585
+#: ../simulation_parameters/microbe_stage/organelles.json:1800
 msgid "FERROPLAST_PROCESSES_DESCRIPTION"
 msgstr ""
 
@@ -2673,11 +2711,11 @@ msgstr ""
 msgid "FIRE_TOXIN_TOOLTIP"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:735
+#: ../simulation_parameters/microbe_stage/organelles.json:839
 msgid "FLAGELLUM"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:736
+#: ../simulation_parameters/microbe_stage/organelles.json:840
 msgid "FLAGELLUM_DESCRIPTION"
 msgstr ""
 
@@ -2685,7 +2723,7 @@ msgstr ""
 msgid "FLAGELLUM_LENGTH_DESCRIPTION"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:737
+#: ../simulation_parameters/microbe_stage/organelles.json:841
 msgid "FLAGELLUM_PROCESSES_DESCRIPTION"
 msgstr ""
 
@@ -2974,7 +3012,7 @@ msgstr ""
 msgid "GUI"
 msgstr ""
 
-#: ../src/gui_common/tooltip/ToolTipManager.tscn:754
+#: ../src/gui_common/tooltip/ToolTipManager.tscn:776
 msgid "GUI_LIGHT_EFFECTS_OPTION_DESCRIPTION"
 msgstr ""
 
@@ -3069,27 +3107,27 @@ msgstr ""
 msgid "HUD_MESSAGE_MULTIPLE"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:419
+#: ../simulation_parameters/microbe_stage/organelles.json:523
 msgid "HYDROGENASE"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:420
+#: ../simulation_parameters/microbe_stage/organelles.json:524
 msgid "HYDROGENASE_DESCRIPTION"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:421
+#: ../simulation_parameters/microbe_stage/organelles.json:525
 msgid "HYDROGENASE_PROCESSES_DESCRIPTION"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:457
+#: ../simulation_parameters/microbe_stage/organelles.json:561
 msgid "HYDROGENOSOME"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:458
+#: ../simulation_parameters/microbe_stage/organelles.json:562
 msgid "HYDROGENOSOME_DESCRIPTION"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:459
+#: ../simulation_parameters/microbe_stage/organelles.json:563
 msgid "HYDROGENOSOME_PROCESSES_DESCRIPTION"
 msgstr ""
 
@@ -3676,8 +3714,8 @@ msgid "IRON"
 msgstr ""
 
 #: ../simulation_parameters/common/wiki.json:1731
-#: ../simulation_parameters/microbe_stage/bio_processes.json:257
-#: ../simulation_parameters/microbe_stage/bio_processes.json:286
+#: ../simulation_parameters/microbe_stage/bio_processes.json:275
+#: ../simulation_parameters/microbe_stage/bio_processes.json:304
 msgid "IRON_CHEMOLITHOAUTOTROPHY"
 msgstr ""
 
@@ -4297,60 +4335,60 @@ msgstr ""
 msgid "LOW_MENU_PERFORMANCE_DESCRIPTION"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:585
+#: ../simulation_parameters/microbe_stage/organelles.json:689
 msgid "LUCIFERASE"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:586
+#: ../simulation_parameters/microbe_stage/organelles.json:690
 msgid "LUCIFERASE_DESCRIPTION"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:598
+#: ../simulation_parameters/microbe_stage/organelles.json:702
 msgid "LUCIFERASE_GREEN"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:599
+#: ../simulation_parameters/microbe_stage/organelles.json:703
 msgid "LUCIFERASE_GREEN_DESCRIPTION"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:616
+#: ../simulation_parameters/microbe_stage/organelles.json:720
 msgid "LUCIFERASE_RED"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:617
+#: ../simulation_parameters/microbe_stage/organelles.json:721
 msgid "LUCIFERASE_RED_DESCRIPTION"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:625
+#: ../simulation_parameters/microbe_stage/organelles.json:729
 msgid "LUCIFERASE_VIOLET"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:626
+#: ../simulation_parameters/microbe_stage/organelles.json:730
 msgid "LUCIFERASE_VIOLET_DESCRIPTION"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:607
+#: ../simulation_parameters/microbe_stage/organelles.json:711
 msgid "LUCIFERASE_YELLOW"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:608
+#: ../simulation_parameters/microbe_stage/organelles.json:712
 msgid "LUCIFERASE_YELLOW_DESCRIPTION"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:1530
+#: ../simulation_parameters/microbe_stage/organelles.json:1745
 msgid "LYSOSOME"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:1531
+#: ../simulation_parameters/microbe_stage/organelles.json:1746
 msgid "LYSOSOME_DESCRIPTION"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:1532
+#: ../simulation_parameters/microbe_stage/organelles.json:1747
 msgid "LYSOSOME_PROCESSES_DESCRIPTION"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/bio_processes.json:95
 #: ../simulation_parameters/microbe_stage/bio_processes.json:104
+#: ../simulation_parameters/microbe_stage/bio_processes.json:113
 msgid "MACROLIDE_SYNTHESIS"
 msgstr ""
 
@@ -4431,27 +4469,27 @@ msgstr ""
 msgid "MEGA_YEARS"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:660
+#: ../simulation_parameters/microbe_stage/organelles.json:764
 msgid "MELANIN"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:661
+#: ../simulation_parameters/microbe_stage/organelles.json:765
 msgid "MELANIN_DESCRIPTION"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:662
+#: ../simulation_parameters/microbe_stage/organelles.json:766
 msgid "MELANIN_PROCESSES_DESCRIPTION"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:1063
+#: ../simulation_parameters/microbe_stage/organelles.json:1278
 msgid "MELANOPLAST"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:1064
+#: ../simulation_parameters/microbe_stage/organelles.json:1279
 msgid "MELANOPLAST_DESCRIPTION"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:1065
+#: ../simulation_parameters/microbe_stage/organelles.json:1280
 msgid "MELANOPLAST_PROCESSES_DESCRIPTION"
 msgstr ""
 
@@ -4475,15 +4513,15 @@ msgstr ""
 msgid "MESOPELAGIC"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:377
+#: ../simulation_parameters/microbe_stage/organelles.json:481
 msgid "METABOLOSOMES"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:378
+#: ../simulation_parameters/microbe_stage/organelles.json:482
 msgid "METABOLOSOMES_DESCRIPTION"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:379
+#: ../simulation_parameters/microbe_stage/organelles.json:483
 msgid "METABOLOSOMES_PROCESSES_DESCRIPTION"
 msgstr ""
 
@@ -4818,15 +4856,15 @@ msgstr ""
 msgid "MISSING_TITLE"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:817
+#: ../simulation_parameters/microbe_stage/organelles.json:921
 msgid "MITOCHONDRION"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:818
+#: ../simulation_parameters/microbe_stage/organelles.json:922
 msgid "MITOCHONDRION_DESCRIPTION"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:819
+#: ../simulation_parameters/microbe_stage/organelles.json:923
 msgid "MITOCHONDRION_PROCESSES_DESCRIPTION"
 msgstr ""
 
@@ -5117,7 +5155,7 @@ msgid "MUCILAGE"
 msgstr ""
 
 #: ../simulation_parameters/common/wiki.json:1889
-#: ../simulation_parameters/microbe_stage/bio_processes.json:151
+#: ../simulation_parameters/microbe_stage/bio_processes.json:160
 msgid "MUCILAGE_SYNTHESIS"
 msgstr ""
 
@@ -5297,15 +5335,15 @@ msgstr ""
 msgid "NITROGENASE_PROCESSES_DESCRIPTION"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:508
+#: ../simulation_parameters/microbe_stage/organelles.json:612
 msgid "NITROGEN_FIXING_PLASTID"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:509
+#: ../simulation_parameters/microbe_stage/organelles.json:613
 msgid "NITROGEN_FIXING_PLASTID_DESCRIPTION"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:510
+#: ../simulation_parameters/microbe_stage/organelles.json:614
 msgid "NITROGEN_FIXING_PLASTID_PROCESSES_DESCRIPTION"
 msgstr ""
 
@@ -5483,7 +5521,7 @@ msgstr ""
 msgid "NO_SELECTED_MOD"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:1178
+#: ../simulation_parameters/microbe_stage/organelles.json:1393
 msgid "NUCLEUS"
 msgstr ""
 
@@ -5491,11 +5529,11 @@ msgstr ""
 msgid "NUCLEUS_DELETE_OPTION_DISABLED_TOOLTIP"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:1179
+#: ../simulation_parameters/microbe_stage/organelles.json:1394
 msgid "NUCLEUS_DESCRIPTION"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:1180
+#: ../simulation_parameters/microbe_stage/organelles.json:1395
 msgid "NUCLEUS_SMALL_DESCRIPTION"
 msgstr ""
 
@@ -5655,11 +5693,11 @@ msgstr ""
 msgid "ORGANELLES_WILL_BE_UNLOCKED_NEXT_GENERATION"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:1624
+#: ../simulation_parameters/microbe_stage/organelles.json:1839
 msgid "ORGANELLE_AXON"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:1625
+#: ../simulation_parameters/microbe_stage/organelles.json:1840
 msgid "ORGANELLE_AXON_DESCRIPTION"
 msgstr ""
 
@@ -5667,11 +5705,11 @@ msgstr ""
 msgid "ORGANELLE_CATEGORY_MULTICELLULAR"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:1667
+#: ../simulation_parameters/microbe_stage/organelles.json:1882
 msgid "ORGANELLE_MYOFIBRIL"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:1668
+#: ../simulation_parameters/microbe_stage/organelles.json:1883
 msgid "ORGANELLE_MYOFIBRIL_DESCRIPTION"
 msgstr ""
 
@@ -5765,8 +5803,8 @@ msgstr ""
 msgid "OXYGEN"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/bio_processes.json:131
-#: ../simulation_parameters/microbe_stage/bio_processes.json:141
+#: ../simulation_parameters/microbe_stage/bio_processes.json:140
+#: ../simulation_parameters/microbe_stage/bio_processes.json:150
 msgid "OXYGEN_INHIBITOR_SYNTHESIS"
 msgstr ""
 
@@ -5775,13 +5813,13 @@ msgid "OXYTOXISOME_PROCESSES_DESCRIPTION"
 msgstr ""
 
 #: ../simulation_parameters/microbe_stage/organelles.json:267
-#: ../simulation_parameters/microbe_stage/organelles.json:897
+#: ../simulation_parameters/microbe_stage/organelles.json:1001
 msgid "OXYTOXY_NT"
 msgstr ""
 
 #: ../simulation_parameters/common/wiki.json:2205
-#: ../simulation_parameters/microbe_stage/bio_processes.json:75
-#: ../simulation_parameters/microbe_stage/bio_processes.json:85
+#: ../simulation_parameters/microbe_stage/bio_processes.json:84
+#: ../simulation_parameters/microbe_stage/bio_processes.json:94
 msgid "OXYTOXY_SYNTHESIS"
 msgstr ""
 
@@ -5853,7 +5891,7 @@ msgstr ""
 msgid "PATCH_MAP"
 msgstr ""
 
-#: ../src/gui_common/tooltip/ToolTipManager.tscn:796
+#: ../src/gui_common/tooltip/ToolTipManager.tscn:818
 msgid "PATCH_MAP_NAVIGATION_TOOLTIP"
 msgstr ""
 
@@ -5979,8 +6017,16 @@ msgstr ""
 
 #: ../simulation_parameters/common/wiki.json:546
 #: ../simulation_parameters/microbe_stage/bio_processes.json:35
-#: ../simulation_parameters/microbe_stage/bio_processes.json:235
+#: ../simulation_parameters/microbe_stage/bio_processes.json:244
 msgid "PHOTOSYNTHESIS"
+msgstr ""
+
+#: ../simulation_parameters/microbe_stage/organelles.json:393
+msgid "PHYCOERYTHRIN"
+msgstr ""
+
+#: ../simulation_parameters/microbe_stage/organelles.json:1176
+msgid "PHYCOERYTHRIN_CHLOROPLAST"
 msgstr ""
 
 #: ../src/microbe_stage/editor/MicrobeEditorReportComponent.tscn:467
@@ -6185,8 +6231,8 @@ msgstr ""
 msgid "RADIONUCLIDES"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/bio_processes.json:46
-#: ../simulation_parameters/microbe_stage/bio_processes.json:246
+#: ../simulation_parameters/microbe_stage/bio_processes.json:55
+#: ../simulation_parameters/microbe_stage/bio_processes.json:264
 msgid "RADIOSYNTHESIS"
 msgstr ""
 
@@ -6349,7 +6395,7 @@ msgid "RESOURCE_WOOD"
 msgstr ""
 
 #: ../simulation_parameters/microbe_stage/bio_processes.json:3
-#: ../simulation_parameters/microbe_stage/bio_processes.json:203
+#: ../simulation_parameters/microbe_stage/bio_processes.json:212
 msgid "RESPIRATION"
 msgstr ""
 
@@ -6367,6 +6413,35 @@ msgstr ""
 
 #: ../src/microbe_stage/HUDBottomBar.tscn:66
 msgid "RESUME_TOOLTIP"
+msgstr ""
+
+#: ../simulation_parameters/microbe_stage/organelles.json:439
+msgid "RETINAL"
+msgstr ""
+
+#: ../simulation_parameters/microbe_stage/organelles.json:440
+msgid "RETINAL_DESCRIPTION"
+msgstr ""
+
+#: ../simulation_parameters/microbe_stage/bio_processes.json:46
+#: ../simulation_parameters/microbe_stage/bio_processes.json:255
+msgid "RETINAL_PHOTOSYNTHESIS"
+msgstr ""
+
+#: ../simulation_parameters/microbe_stage/organelles.json:441
+msgid "RETINAL_PROCESSES_DESCRIPTION"
+msgstr ""
+
+#: ../simulation_parameters/microbe_stage/organelles.json:1228
+msgid "RETINOPLAST"
+msgstr ""
+
+#: ../simulation_parameters/microbe_stage/organelles.json:1229
+msgid "RETINOPLAST_DESCRIPTION"
+msgstr ""
+
+#: ../simulation_parameters/microbe_stage/organelles.json:1230
+msgid "RETINOPLAST_PROCESSES_DESCRIPTION"
 msgstr ""
 
 #: ../src/general/PauseMenu.tscn:261
@@ -6390,19 +6465,19 @@ msgstr ""
 msgid "REVOLUTIONARY_GAMES_SOCIAL_TOOLTIP"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:1492
+#: ../simulation_parameters/microbe_stage/organelles.json:1707
 msgid "RHIZOID"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:1493
+#: ../simulation_parameters/microbe_stage/organelles.json:1708
 msgid "RHIZOID_DESCRIPTION"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/bio_processes.json:297
+#: ../simulation_parameters/microbe_stage/bio_processes.json:315
 msgid "RHIZOID_GATHERING"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:1494
+#: ../simulation_parameters/microbe_stage/organelles.json:1709
 msgid "RHIZOID_PROCESSES_DESCRIPTION"
 msgstr ""
 
@@ -6758,7 +6833,7 @@ msgstr ""
 msgid "SESSILE"
 msgstr ""
 
-#: ../src/gui_common/tooltip/ToolTipManager.tscn:747
+#: ../src/gui_common/tooltip/ToolTipManager.tscn:769
 msgid "SETTING_ONLY_APPLIES_TO_NEW_GAMES"
 msgstr ""
 
@@ -6803,7 +6878,7 @@ msgstr ""
 msgid "SHOW_UNSAVED_PROGRESS_WARNING"
 msgstr ""
 
-#: ../src/gui_common/tooltip/ToolTipManager.tscn:766
+#: ../src/gui_common/tooltip/ToolTipManager.tscn:788
 msgid "SHOW_UNSAVED_PROGRESS_WARNING_TOOLTIP"
 msgstr ""
 
@@ -6815,7 +6890,7 @@ msgstr ""
 msgid "SIDEROPHORE_ACTION_TOOLTIP"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:1287
+#: ../simulation_parameters/microbe_stage/organelles.json:1502
 msgid "SIGNALING_AGENT"
 msgstr ""
 
@@ -6823,11 +6898,11 @@ msgstr ""
 msgid "SIGNALING_AGENTS_ACTION_TOOLTIP"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:1288
+#: ../simulation_parameters/microbe_stage/organelles.json:1503
 msgid "SIGNALING_AGENT_DESCRIPTION"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:1289
+#: ../simulation_parameters/microbe_stage/organelles.json:1504
 msgid "SIGNALING_AGENT_PROCESSES_DESCRIPTION"
 msgstr ""
 
@@ -6873,15 +6948,15 @@ msgstr ""
 msgid "SLIDESHOW"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:1243
+#: ../simulation_parameters/microbe_stage/organelles.json:1458
 msgid "SLIME_JET"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:1244
+#: ../simulation_parameters/microbe_stage/organelles.json:1459
 msgid "SLIME_JET_DESCRIPTION"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:1245
+#: ../simulation_parameters/microbe_stage/organelles.json:1460
 msgid "SLIME_JET_PROCESSES_DESCRIPTION"
 msgstr ""
 
@@ -7294,7 +7369,7 @@ msgid "SUICIDE_BUTTON_TOOLTIP"
 msgstr ""
 
 #: ../simulation_parameters/microbe_stage/compounds.json:226
-#: ../src/gui_common/tooltip/ToolTipManager.tscn:785
+#: ../src/gui_common/tooltip/ToolTipManager.tscn:807
 #: ../src/microbe_stage/editor/CellEditorComponent.tscn:453
 #: ../src/microbe_stage/editor/MicrobeEditorReportComponent.tscn:510
 #: ../src/microbe_stage/gui/PatchDetailsPanel.tscn:214
@@ -7411,7 +7486,7 @@ msgid "TECHNOLOGY_UNLOCKED_NOTICE"
 msgstr ""
 
 #: ../simulation_parameters/microbe_stage/compounds.json:245
-#: ../src/gui_common/tooltip/ToolTipManager.tscn:779
+#: ../src/gui_common/tooltip/ToolTipManager.tscn:801
 #: ../src/microbe_stage/editor/MicrobeEditorReportComponent.cs:378
 #: ../src/microbe_stage/editor/MicrobeEditorReportComponent.tscn:503
 #: ../src/microbe_stage/gui/PatchDetailsPanel.tscn:169
@@ -7442,33 +7517,33 @@ msgstr ""
 msgid "THEORY_TEAM"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:1398
+#: ../simulation_parameters/microbe_stage/organelles.json:1613
 msgid "THERMOPLAST"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:1399
+#: ../simulation_parameters/microbe_stage/organelles.json:1614
 msgid "THERMOPLAST_DESCRIPTION"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:1400
+#: ../simulation_parameters/microbe_stage/organelles.json:1615
 msgid "THERMOPLAST_PROCESSES_DESCRIPTION"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:542
+#: ../simulation_parameters/microbe_stage/organelles.json:646
 msgid "THERMOSYNTHASE"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:543
+#: ../simulation_parameters/microbe_stage/organelles.json:647
 msgid "THERMOSYNTHASE_DESCRIPTION"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:544
+#: ../simulation_parameters/microbe_stage/organelles.json:648
 msgid "THERMOSYNTHASE_PROCESSES_DESCRIPTION"
 msgstr ""
 
 #: ../simulation_parameters/common/wiki.json:1968
-#: ../simulation_parameters/microbe_stage/bio_processes.json:268
-#: ../simulation_parameters/microbe_stage/bio_processes.json:277
+#: ../simulation_parameters/microbe_stage/bio_processes.json:286
+#: ../simulation_parameters/microbe_stage/bio_processes.json:295
 msgid "THERMOSYNTHESIS"
 msgstr ""
 
@@ -7541,6 +7616,12 @@ msgid "THYLAKOIDS"
 msgstr ""
 
 #: ../simulation_parameters/microbe_stage/organelles.json:336
+#: ../simulation_parameters/microbe_stage/organelles.json:358
+#: ../simulation_parameters/microbe_stage/organelles.json:367
+#: ../simulation_parameters/microbe_stage/organelles.json:376
+#: ../simulation_parameters/microbe_stage/organelles.json:385
+#: ../simulation_parameters/microbe_stage/organelles.json:394
+#: ../simulation_parameters/microbe_stage/organelles.json:403
 msgid "THYLAKOIDS_DESCRIPTION"
 msgstr ""
 
@@ -7688,12 +7769,12 @@ msgid "TOTAL_SAVES"
 msgstr ""
 
 #: ../simulation_parameters/microbe_stage/organelles.json:287
-#: ../simulation_parameters/microbe_stage/organelles.json:915
+#: ../simulation_parameters/microbe_stage/organelles.json:1019
 msgid "TOXIN_CHANNEL_INHIBITOR"
 msgstr ""
 
 #: ../simulation_parameters/microbe_stage/organelles.json:288
-#: ../simulation_parameters/microbe_stage/organelles.json:916
+#: ../simulation_parameters/microbe_stage/organelles.json:1020
 #: ../src/microbe_stage/ToxinType.cs:34
 msgid "TOXIN_CHANNEL_INHIBITOR_DESCRIPTION"
 msgstr ""
@@ -7703,12 +7784,12 @@ msgid "TOXIN_COMPOUND"
 msgstr ""
 
 #: ../simulation_parameters/microbe_stage/organelles.json:263
-#: ../simulation_parameters/microbe_stage/organelles.json:892
+#: ../simulation_parameters/microbe_stage/organelles.json:996
 msgid "TOXIN_CYTOTOXIN"
 msgstr ""
 
 #: ../simulation_parameters/microbe_stage/organelles.json:264
-#: ../simulation_parameters/microbe_stage/organelles.json:893
+#: ../simulation_parameters/microbe_stage/organelles.json:997
 #: ../src/microbe_stage/ToxinType.cs:22
 msgid "TOXIN_CYTOTOXIN_DESCRIPTION"
 msgstr ""
@@ -7718,29 +7799,29 @@ msgid "TOXIN_FIRE_RATE_TOXICITY_COLON"
 msgstr ""
 
 #: ../simulation_parameters/microbe_stage/organelles.json:277
-#: ../simulation_parameters/microbe_stage/organelles.json:906
+#: ../simulation_parameters/microbe_stage/organelles.json:1010
 msgid "TOXIN_MACROLIDE"
 msgstr ""
 
 #: ../simulation_parameters/microbe_stage/organelles.json:278
-#: ../simulation_parameters/microbe_stage/organelles.json:907
+#: ../simulation_parameters/microbe_stage/organelles.json:1011
 #: ../src/microbe_stage/ToxinType.cs:28
 msgid "TOXIN_MACROLIDE_DESCRIPTION"
 msgstr ""
 
 #: ../simulation_parameters/microbe_stage/organelles.json:297
-#: ../simulation_parameters/microbe_stage/organelles.json:924
+#: ../simulation_parameters/microbe_stage/organelles.json:1028
 msgid "TOXIN_OXYGEN_METABOLISM_INHIBITOR"
 msgstr ""
 
 #: ../simulation_parameters/microbe_stage/organelles.json:298
-#: ../simulation_parameters/microbe_stage/organelles.json:925
+#: ../simulation_parameters/microbe_stage/organelles.json:1029
 #: ../src/microbe_stage/ToxinType.cs:40
 msgid "TOXIN_OXYGEN_METABOLISM_INHIBITOR_DESCRIPTION"
 msgstr ""
 
 #: ../simulation_parameters/microbe_stage/organelles.json:268
-#: ../simulation_parameters/microbe_stage/organelles.json:898
+#: ../simulation_parameters/microbe_stage/organelles.json:1002
 #: ../src/microbe_stage/ToxinType.cs:16
 msgid "TOXIN_OXYTOXY_DESCRIPTION"
 msgstr ""
@@ -7778,15 +7859,15 @@ msgstr ""
 msgid "TOXIN_TYPE_CUSTOMIZATION_EXPLANATION"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:868
+#: ../simulation_parameters/microbe_stage/organelles.json:972
 msgid "TOXIN_VACUOLE"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:869
+#: ../simulation_parameters/microbe_stage/organelles.json:973
 msgid "TOXIN_VACUOLE_DESCRIPTION"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:870
+#: ../simulation_parameters/microbe_stage/organelles.json:974
 msgid "TOXIN_VACUOLE_PROCESSES_DESCRIPTION"
 msgstr ""
 
@@ -8102,11 +8183,11 @@ msgstr ""
 msgid "UNTITLED"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:1459
+#: ../simulation_parameters/microbe_stage/organelles.json:1674
 msgid "UPGRADE_CILIA_PULL"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:1460
+#: ../simulation_parameters/microbe_stage/organelles.json:1675
 msgid "UPGRADE_CILIA_PULL_DESCRIPTION"
 msgstr ""
 
@@ -8115,18 +8196,22 @@ msgid "UPGRADE_COST"
 msgstr ""
 
 #: ../simulation_parameters/microbe_stage/organelles.json:47
-#: ../simulation_parameters/microbe_stage/organelles.json:595
-#: ../simulation_parameters/microbe_stage/organelles.json:1254
-#: ../simulation_parameters/microbe_stage/organelles.json:1330
-#: ../simulation_parameters/microbe_stage/organelles.json:1456
+#: ../simulation_parameters/microbe_stage/organelles.json:354
+#: ../simulation_parameters/microbe_stage/organelles.json:699
+#: ../simulation_parameters/microbe_stage/organelles.json:1137
+#: ../simulation_parameters/microbe_stage/organelles.json:1469
+#: ../simulation_parameters/microbe_stage/organelles.json:1545
+#: ../simulation_parameters/microbe_stage/organelles.json:1671
 msgid "UPGRADE_DESCRIPTION_NONE"
 msgstr ""
 
 #: ../simulation_parameters/microbe_stage/organelles.json:46
-#: ../simulation_parameters/microbe_stage/organelles.json:594
-#: ../simulation_parameters/microbe_stage/organelles.json:1253
-#: ../simulation_parameters/microbe_stage/organelles.json:1329
-#: ../simulation_parameters/microbe_stage/organelles.json:1455
+#: ../simulation_parameters/microbe_stage/organelles.json:353
+#: ../simulation_parameters/microbe_stage/organelles.json:698
+#: ../simulation_parameters/microbe_stage/organelles.json:1136
+#: ../simulation_parameters/microbe_stage/organelles.json:1468
+#: ../simulation_parameters/microbe_stage/organelles.json:1544
+#: ../simulation_parameters/microbe_stage/organelles.json:1670
 msgid "UPGRADE_NAME_NONE"
 msgstr ""
 
@@ -8138,11 +8223,11 @@ msgstr ""
 msgid "UPGRADE_PILUS_INJECTISOME_DESCRIPTION"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:1257
+#: ../simulation_parameters/microbe_stage/organelles.json:1472
 msgid "UPGRADE_SLIME_JET_MUCOCYST"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:1258
+#: ../simulation_parameters/microbe_stage/organelles.json:1473
 msgid "UPGRADE_SLIME_JET_MUCOCYST_DESCRIPTION"
 msgstr ""
 
@@ -8213,11 +8298,11 @@ msgstr ""
 msgid "USE_VIRTUAL_WINDOW_SIZE"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:780
+#: ../simulation_parameters/microbe_stage/organelles.json:884
 msgid "VACUOLE"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:781
+#: ../simulation_parameters/microbe_stage/organelles.json:885
 msgid "VACUOLE_DESCRIPTION"
 msgstr ""
 
@@ -8229,7 +8314,7 @@ msgstr ""
 msgid "VACUOLE_NOT_SPECIALIZED_DESCRIPTION"
 msgstr ""
 
-#: ../simulation_parameters/microbe_stage/organelles.json:782
+#: ../simulation_parameters/microbe_stage/organelles.json:886
 msgid "VACUOLE_PROCESSES_DESCRIPTION"
 msgstr ""
 
@@ -10387,6 +10472,14 @@ msgstr ""
 
 #: ../src/microbe_stage/editor/CellEditorComponent.tscn:1162
 msgid "WORST_PATCH_COLON"
+msgstr ""
+
+#: ../simulation_parameters/microbe_stage/organelles.json:402
+msgid "XANTHOPHYLL"
+msgstr ""
+
+#: ../simulation_parameters/microbe_stage/organelles.json:1185
+msgid "XANTHOPHYLL_CHLOROPLAST"
 msgstr ""
 
 #: ../src/general/OptionsMenu.tscn:523

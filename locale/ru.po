@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-11-02 22:11-0500\n"
+"POT-Creation-Date: 2024-11-04 00:09-0600\n"
 "PO-Revision-Date: 2024-10-21 16:34+0000\n"
 "Last-Translator: Sentry Primis <sentryprime92@gmail.com>\n"
 "Language-Team: Russian <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/ru/>\n"
@@ -184,6 +184,21 @@ msgstr "Анаэробная азотфиксация"
 
 msgid "AND_UNLOCK_CONDITION"
 msgstr "И"
+
+#, fuzzy
+msgid "ANTHOCYANIN"
+msgstr "Рустицианин"
+
+#, fuzzy
+msgid "ANTHOCYANIN_CHLOROPLAST"
+msgstr "Хлоропласт"
+
+msgid "ANTHOXANTHIN"
+msgstr ""
+
+#, fuzzy
+msgid "ANTHOXANTHIN_CHLOROPLAST"
+msgstr "Хлоропласт"
 
 msgid "APPEARANCE"
 msgstr "Внешний вид"
@@ -595,6 +610,14 @@ msgstr "Caps Lock"
 
 msgid "CARBON_DIOXIDE"
 msgstr "Углекислый газ"
+
+#, fuzzy
+msgid "CAROTENOIDS"
+msgstr "Белки"
+
+#, fuzzy
+msgid "CAROTENOID_CHLOROPLAST"
+msgstr "Хлоропласт"
 
 msgid "CATEGORY_AN_ABUNDANCE"
 msgstr "изобилие"
@@ -1297,6 +1320,14 @@ msgstr ""
 
 msgid "CUSTOM_USERNAME"
 msgstr "Псевдоним пользователя:"
+
+#, fuzzy
+msgid "CYANIDIN"
+msgstr "Рустицианин"
+
+#, fuzzy
+msgid "CYANIDIN_CHLOROPLAST"
+msgstr "Хлоропласт"
 
 msgid "CYTOPLASM"
 msgstr "Цитоплазма"
@@ -4342,6 +4373,13 @@ msgstr "Фосфат"
 msgid "PHOTOSYNTHESIS"
 msgstr "Фотосинтез"
 
+msgid "PHYCOERYTHRIN"
+msgstr ""
+
+#, fuzzy
+msgid "PHYCOERYTHRIN_CHLOROPLAST"
+msgstr "Хлоропласт"
+
 msgid "PHYSICAL_CONDITIONS"
 msgstr "Физические Условия"
 
@@ -4622,6 +4660,33 @@ msgstr "Продолжить"
 
 msgid "RESUME_TOOLTIP"
 msgstr "Продолжить игру"
+
+msgid "RETINAL"
+msgstr ""
+
+#, fuzzy
+msgid "RETINAL_DESCRIPTION"
+msgstr "Хитиназа позволяет клетке разрушать хитиновую мембрану. С количеством повышается эффективность."
+
+#, fuzzy
+msgid "RETINAL_PHOTOSYNTHESIS"
+msgstr "Фотосинтез"
+
+#, fuzzy
+msgid "RETINAL_PROCESSES_DESCRIPTION"
+msgstr "Повышает скорость поворота клеток."
+
+#, fuzzy
+msgid "RETINOPLAST"
+msgstr "Хемопласт"
+
+#, fuzzy
+msgid "RETINOPLAST_DESCRIPTION"
+msgstr "Хемопласт — двумембранная структура, содержащая белки, способные превращать [thrive:compound type=\"hydrogensulfide\"][/thrive:compound], воду и [thrive:compound type=\"carbondioxide\"][/thrive:compound] в [thrive:compound type=\"glucose\"][/thrive:compound] в процессе [b]сероводородного хемосинтеза[/b]. Скорость производства [thrive:compound type=\"glucose\"][/thrive:compound] зависит от концентрации [thrive:compound type=\"carbondioxide\"][/thrive:compound]."
+
+#, fuzzy
+msgid "RETINOPLAST_PROCESSES_DESCRIPTION"
+msgstr "Превращает [thrive:compound type=\"hydrogensulfide\"][/thrive:compound] в [thrive:compound type=\"glucose\"][/thrive:compound]. Скорость увеличивается при повышении концентрации [thrive:compound type=\"carbondioxide\"][/thrive:compound]."
 
 msgid "RETURN_TO_MENU"
 msgstr "Вернуться в меню"
@@ -7840,6 +7905,13 @@ msgstr "Относительно мира"
 msgid "WORST_PATCH_COLON"
 msgstr "Худший биом:"
 
+msgid "XANTHOPHYLL"
+msgstr ""
+
+#, fuzzy
+msgid "XANTHOPHYLL_CHLOROPLAST"
+msgstr "Хлоропласт"
+
 msgid "XBOX360"
 msgstr "Xbox 360"
 
@@ -7938,10 +8010,6 @@ msgstr "Уменьшить масштаб"
 #, fuzzy
 #~ msgid "WIKI_OXYTOXY_SYNTHESIS"
 #~ msgstr "Синтез ОксиТоксина"
-
-#, fuzzy
-#~ msgid "WIKI_PHOTOSYNTHESIS"
-#~ msgstr "Фотосинтез"
 
 #, fuzzy
 #~ msgid "WIKI_RUSTICYANIN"

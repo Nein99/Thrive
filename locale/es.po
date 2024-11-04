@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-11-02 22:11-0500\n"
+"POT-Creation-Date: 2024-11-04 00:09-0600\n"
 "PO-Revision-Date: 2024-10-17 07:24+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Spanish <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/es/>\n"
@@ -190,6 +190,21 @@ msgstr "Fijación de Nitrógeno Anaeróbica"
 
 msgid "AND_UNLOCK_CONDITION"
 msgstr "y"
+
+#, fuzzy
+msgid "ANTHOCYANIN"
+msgstr "Rusticianina"
+
+#, fuzzy
+msgid "ANTHOCYANIN_CHLOROPLAST"
+msgstr "Cloroplasto"
+
+msgid "ANTHOXANTHIN"
+msgstr ""
+
+#, fuzzy
+msgid "ANTHOXANTHIN_CHLOROPLAST"
+msgstr "Cloroplasto"
 
 msgid "APPEARANCE"
 msgstr "Apariencia"
@@ -609,6 +624,14 @@ msgstr "Bloq Mayús"
 
 msgid "CARBON_DIOXIDE"
 msgstr "Dióxido de Carbono"
+
+#, fuzzy
+msgid "CAROTENOIDS"
+msgstr "Proteínas"
+
+#, fuzzy
+msgid "CAROTENOID_CHLOROPLAST"
+msgstr "Cloroplasto"
 
 msgid "CATEGORY_AN_ABUNDANCE"
 msgstr "En abundancia"
@@ -1360,6 +1383,14 @@ msgstr "Estadísticas del Organismo"
 
 msgid "CUSTOM_USERNAME"
 msgstr "Nombre personalizado:"
+
+#, fuzzy
+msgid "CYANIDIN"
+msgstr "Rusticianina"
+
+#, fuzzy
+msgid "CYANIDIN_CHLOROPLAST"
+msgstr "Cloroplasto"
 
 msgid "CYTOPLASM"
 msgstr "Citoplasma"
@@ -4633,6 +4664,13 @@ msgstr "Fosfato"
 msgid "PHOTOSYNTHESIS"
 msgstr "Fotosíntesis"
 
+msgid "PHYCOERYTHRIN"
+msgstr ""
+
+#, fuzzy
+msgid "PHYCOERYTHRIN_CHLOROPLAST"
+msgstr "Cloroplasto"
+
 msgid "PHYSICAL_CONDITIONS"
 msgstr "Condiciones Físicas"
 
@@ -4924,6 +4962,33 @@ msgstr "Reanudar"
 
 msgid "RESUME_TOOLTIP"
 msgstr "Reanudar juego"
+
+msgid "RETINAL"
+msgstr ""
+
+#, fuzzy
+msgid "RETINAL_DESCRIPTION"
+msgstr "Quitinasa permite que células destruyan membranas de quitina. Agregar mas aumenta su efectividad."
+
+#, fuzzy
+msgid "RETINAL_PHOTOSYNTHESIS"
+msgstr "Fotosíntesis"
+
+#, fuzzy
+msgid "RETINAL_PROCESSES_DESCRIPTION"
+msgstr "Aumenta la velocidad de rotación de células grandes."
+
+#, fuzzy
+msgid "RETINOPLAST"
+msgstr "Quimioplasto"
+
+#, fuzzy
+msgid "RETINOPLAST_DESCRIPTION"
+msgstr "Los Quimioplastos son estructuras de membrana doble que contienen proteínas capaces de convertir Ácido Sulfhídrico, agua y dióxido de carbono gaseoso en glucosa en un proceso llamado Quimiosíntesis de Ácido Sulfhídrico. Su eficiencia escala con la concentración de dióxido de carbono atmosférico."
+
+#, fuzzy
+msgid "RETINOPLAST_PROCESSES_DESCRIPTION"
+msgstr "Convierte [thrive:compound type=\"hydrogensulfide\"][/thrive:compound] en [thrive:compound type=\"glucose\"][/thrive:compound]. La tasa de conversión depende de la concentración de [thrive:compound type=\"carbondioxide\"][/thrive:compound]."
 
 msgid "RETURN_TO_MENU"
 msgstr "Volver al Menú"
@@ -8280,6 +8345,13 @@ msgstr "para incrementar la velocidad de movimiento"
 msgid "WORST_PATCH_COLON"
 msgstr "Peor bioma:"
 
+msgid "XANTHOPHYLL"
+msgstr ""
+
+#, fuzzy
+msgid "XANTHOPHYLL_CHLOROPLAST"
+msgstr "Cloroplasto"
+
 #, fuzzy
 msgid "XBOX360"
 msgstr "Xbox 360"
@@ -8389,10 +8461,6 @@ msgstr "Alejar el zoom"
 #, fuzzy
 #~ msgid "WIKI_OXYTOXY_SYNTHESIS"
 #~ msgstr "Síntesis de OxiToxi"
-
-#, fuzzy
-#~ msgid "WIKI_PHOTOSYNTHESIS"
-#~ msgstr "Fotosíntesis"
 
 #, fuzzy
 #~ msgid "WIKI_RUSTICYANIN"

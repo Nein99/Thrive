@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-11-02 22:11-0500\n"
+"POT-Creation-Date: 2024-11-04 00:09-0600\n"
 "PO-Revision-Date: 2024-10-17 07:24+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Serbian (Latin script) <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/sr_Latn/>\n"
@@ -190,6 +190,21 @@ msgstr "Anaerobna Fiksacija Azota"
 
 msgid "AND_UNLOCK_CONDITION"
 msgstr ""
+
+#, fuzzy
+msgid "ANTHOCYANIN"
+msgstr "Rusticijanin"
+
+#, fuzzy
+msgid "ANTHOCYANIN_CHLOROPLAST"
+msgstr "Hloroplast"
+
+msgid "ANTHOXANTHIN"
+msgstr ""
+
+#, fuzzy
+msgid "ANTHOXANTHIN_CHLOROPLAST"
+msgstr "Hloroplast"
 
 #, fuzzy
 msgid "APPEARANCE"
@@ -620,6 +635,14 @@ msgstr ""
 
 msgid "CARBON_DIOXIDE"
 msgstr "Ugljen Dioksid"
+
+#, fuzzy
+msgid "CAROTENOIDS"
+msgstr "Proteini"
+
+#, fuzzy
+msgid "CAROTENOID_CHLOROPLAST"
+msgstr "Hloroplast"
 
 msgid "CATEGORY_AN_ABUNDANCE"
 msgstr ""
@@ -1348,6 +1371,14 @@ msgstr "Statistika Organizma"
 
 msgid "CUSTOM_USERNAME"
 msgstr "Korisničko ime:"
+
+#, fuzzy
+msgid "CYANIDIN"
+msgstr "Rusticijanin"
+
+#, fuzzy
+msgid "CYANIDIN_CHLOROPLAST"
+msgstr "Hloroplast"
 
 msgid "CYTOPLASM"
 msgstr "Citoplazma"
@@ -4493,6 +4524,13 @@ msgstr "Fosfat"
 msgid "PHOTOSYNTHESIS"
 msgstr "Fotosinteza"
 
+msgid "PHYCOERYTHRIN"
+msgstr ""
+
+#, fuzzy
+msgid "PHYCOERYTHRIN_CHLOROPLAST"
+msgstr "Hloroplast"
+
 msgid "PHYSICAL_CONDITIONS"
 msgstr ""
 
@@ -4798,6 +4836,33 @@ msgstr "Nastaviti"
 #, fuzzy
 msgid "RESUME_TOOLTIP"
 msgstr "Nastaviti"
+
+msgid "RETINAL"
+msgstr ""
+
+#, fuzzy
+msgid "RETINAL_DESCRIPTION"
+msgstr "Lepljiva unutrašnjost ćelije. Citoplazma je osnovna smeša jona, proteina i drugih supstanci rastvorenih u vodi koja ispunjava unutrašnjost ćelije. Jedna od funkcija koju obavlja je fermentacija, pretvaranje glukoze u ATP energiju. Da bi ćelije kojima nedostaju organeli imali napredniji metabolizam, na to se oslanjaju u energiji. Takođe se koristi za skladištenje molekula u ćeliji i za povećanje veličine ćelije."
+
+#, fuzzy
+msgid "RETINAL_PHOTOSYNTHESIS"
+msgstr "Fotosinteza"
+
+#, fuzzy
+msgid "RETINAL_PROCESSES_DESCRIPTION"
+msgstr "Lepljiva unutrašnjost ćelije. Citoplazma je osnovna smeša jona, proteina i drugih supstanci rastvorenih u vodi koja ispunjava unutrašnjost ćelije. Jedna od funkcija koju obavlja je fermentacija, pretvaranje glukoze u ATP energiju. Da bi ćelije kojima nedostaju organeli imali napredniji metabolizam, na to se oslanjaju u energiji. Takođe se koristi za skladištenje molekula u ćeliji i za povećanje veličine ćelije."
+
+#, fuzzy
+msgid "RETINOPLAST"
+msgstr "Hemoplast"
+
+#, fuzzy
+msgid "RETINOPLAST_DESCRIPTION"
+msgstr "Hemoplast je dvostruka membranska struktura koja sadrži proteine koji su sposobni da pretvore vodonik-sulfid, vodu i gasoviti ugljen-dioksid u glukozu u procesu koji se naziva Hemosinteza vodonik-sulfida. Stopa njegove proizvodnje glukoze skalira se sa koncentracijom vode i ugljen-dioksida."
+
+#, fuzzy
+msgid "RETINOPLAST_PROCESSES_DESCRIPTION"
+msgstr "Hemoplast je dvostruka membranska struktura koja sadrži proteine koji su sposobni da pretvore vodonik-sulfid, vodu i gasoviti ugljen-dioksid u glukozu u procesu koji se naziva Hemosinteza vodonik-sulfida. Stopa njegove proizvodnje glukoze skalira se sa koncentracijom vode i ugljen-dioksida."
 
 msgid "RETURN_TO_MENU"
 msgstr "Vratite se u Meni"
@@ -8031,6 +8096,13 @@ msgstr "za povećanje kretanja"
 msgid "WORST_PATCH_COLON"
 msgstr "Vrste:"
 
+msgid "XANTHOPHYLL"
+msgstr ""
+
+#, fuzzy
+msgid "XANTHOPHYLL_CHLOROPLAST"
+msgstr "Hloroplast"
+
 msgid "XBOX360"
 msgstr ""
 
@@ -8140,10 +8212,6 @@ msgstr "Odzumirati"
 #, fuzzy
 #~ msgid "WIKI_OXYTOXY_SYNTHESIS"
 #~ msgstr "Sinteza OksiToksi"
-
-#, fuzzy
-#~ msgid "WIKI_PHOTOSYNTHESIS"
-#~ msgstr "Fotosinteza"
 
 #, fuzzy
 #~ msgid "WIKI_RUSTICYANIN"

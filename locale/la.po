@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-11-02 22:11-0500\n"
+"POT-Creation-Date: 2024-11-04 00:09-0600\n"
 "PO-Revision-Date: 2023-04-25 19:02+0000\n"
 "Last-Translator: AliquisDeNusquam <culhaneb9@gmail.com>\n"
 "Language-Team: Latin <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/la/>\n"
@@ -194,6 +194,18 @@ msgid "ANAEROBIC_NITROGEN_FIXATION"
 msgstr "Anaerobicum Nitrogenii Fingentem"
 
 msgid "AND_UNLOCK_CONDITION"
+msgstr ""
+
+msgid "ANTHOCYANIN"
+msgstr ""
+
+msgid "ANTHOCYANIN_CHLOROPLAST"
+msgstr ""
+
+msgid "ANTHOXANTHIN"
+msgstr ""
+
+msgid "ANTHOXANTHIN_CHLOROPLAST"
 msgstr ""
 
 msgid "APPEARANCE"
@@ -598,6 +610,13 @@ msgstr ""
 
 msgid "CARBON_DIOXIDE"
 msgstr ""
+
+msgid "CAROTENOIDS"
+msgstr ""
+
+#, fuzzy
+msgid "CAROTENOID_CHLOROPLAST"
+msgstr "W,A,S,D et mus computatrum ut mŏvĕor. E ut iacio telum OxyToxy NT si vos have toxicum vacuole. G ut devorare habilito."
 
 msgid "CATEGORY_AN_ABUNDANCE"
 msgstr ""
@@ -1271,6 +1290,13 @@ msgstr ""
 
 msgid "CUSTOM_USERNAME"
 msgstr ""
+
+msgid "CYANIDIN"
+msgstr ""
+
+#, fuzzy
+msgid "CYANIDIN_CHLOROPLAST"
+msgstr "W,A,S,D et mus computatrum ut mŏvĕor. E ut iacio telum OxyToxy NT si vos have toxicum vacuole. G ut devorare habilito."
 
 msgid "CYTOPLASM"
 msgstr ""
@@ -4146,6 +4172,13 @@ msgstr ""
 msgid "PHOTOSYNTHESIS"
 msgstr ""
 
+msgid "PHYCOERYTHRIN"
+msgstr ""
+
+#, fuzzy
+msgid "PHYCOERYTHRIN_CHLOROPLAST"
+msgstr "W,A,S,D et mus computatrum ut mŏvĕor. E ut iacio telum OxyToxy NT si vos have toxicum vacuole. G ut devorare habilito."
+
 msgid "PHYSICAL_CONDITIONS"
 msgstr ""
 
@@ -4417,6 +4450,32 @@ msgstr ""
 
 msgid "RESUME_TOOLTIP"
 msgstr ""
+
+msgid "RETINAL"
+msgstr ""
+
+#, fuzzy
+msgid "RETINAL_DESCRIPTION"
+msgstr "Anaerobicum Nitrogenii Fingentem"
+
+#, fuzzy
+msgid "RETINAL_PHOTOSYNTHESIS"
+msgstr "W,A,S,D et mus computatrum ut mŏvĕor. E ut iacio telum OxyToxy NT si vos have toxicum vacuole. G ut devorare habilito."
+
+#, fuzzy
+msgid "RETINAL_PROCESSES_DESCRIPTION"
+msgstr "Anaerobicum Nitrogenii Fingentem"
+
+msgid "RETINOPLAST"
+msgstr ""
+
+#, fuzzy
+msgid "RETINOPLAST_DESCRIPTION"
+msgstr "Anaerobicum Nitrogenii Fingentem"
+
+#, fuzzy
+msgid "RETINOPLAST_PROCESSES_DESCRIPTION"
+msgstr "Anaerobicum Nitrogenii Fingentem"
 
 msgid "RETURN_TO_MENU"
 msgstr ""
@@ -7393,6 +7452,12 @@ msgid "WORLD_RELATIVE_MOVEMENT"
 msgstr ""
 
 msgid "WORST_PATCH_COLON"
+msgstr ""
+
+msgid "XANTHOPHYLL"
+msgstr ""
+
+msgid "XANTHOPHYLL_CHLOROPLAST"
 msgstr ""
 
 msgid "XBOX360"

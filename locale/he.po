@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-11-02 22:11-0500\n"
+"POT-Creation-Date: 2024-11-04 00:09-0600\n"
 "PO-Revision-Date: 2024-10-17 07:24+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Hebrew <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/he/>\n"
@@ -186,6 +186,21 @@ msgstr "קיבוע חנקן אנאירובי"
 #, fuzzy
 msgid "AND_UNLOCK_CONDITION"
 msgstr "מצב פיזי"
+
+#, fuzzy
+msgid "ANTHOCYANIN"
+msgstr "רוסטיצינין"
+
+#, fuzzy
+msgid "ANTHOCYANIN_CHLOROPLAST"
+msgstr "כלורופלסט"
+
+msgid "ANTHOXANTHIN"
+msgstr ""
+
+#, fuzzy
+msgid "ANTHOXANTHIN_CHLOROPLAST"
+msgstr "כלורופלסט"
 
 msgid "APPEARANCE"
 msgstr "הופעה"
@@ -601,6 +616,14 @@ msgstr "מקש Caps Lock"
 
 msgid "CARBON_DIOXIDE"
 msgstr "פחמן דו חמצני"
+
+#, fuzzy
+msgid "CAROTENOIDS"
+msgstr "חלבונים"
+
+#, fuzzy
+msgid "CAROTENOID_CHLOROPLAST"
+msgstr "כלורופלסט"
 
 msgid "CATEGORY_AN_ABUNDANCE"
 msgstr "שפע"
@@ -1344,6 +1367,14 @@ msgstr "סטטיסטיקת האורגניזם"
 
 msgid "CUSTOM_USERNAME"
 msgstr "שם משתמש מותאם אישית:"
+
+#, fuzzy
+msgid "CYANIDIN"
+msgstr "רוסטיצינין"
+
+#, fuzzy
+msgid "CYANIDIN_CHLOROPLAST"
+msgstr "כלורופלסט"
 
 msgid "CYTOPLASM"
 msgstr "ציטופלזמה"
@@ -4600,6 +4631,13 @@ msgstr "פוספט"
 msgid "PHOTOSYNTHESIS"
 msgstr "פוטוסינתזה"
 
+msgid "PHYCOERYTHRIN"
+msgstr ""
+
+#, fuzzy
+msgid "PHYCOERYTHRIN_CHLOROPLAST"
+msgstr "כלורופלסט"
+
 msgid "PHYSICAL_CONDITIONS"
 msgstr "מצב פיזי"
 
@@ -4886,6 +4924,33 @@ msgstr "להמשיך"
 
 msgid "RESUME_TOOLTIP"
 msgstr "המשך את המשחק"
+
+msgid "RETINAL"
+msgstr ""
+
+#, fuzzy
+msgid "RETINAL_DESCRIPTION"
+msgstr "כיטינאז מאפשרים לתא לפרק ממברנות העשויות מכיטין. כל תוספת מגבירה את יעילותו."
+
+#, fuzzy
+msgid "RETINAL_PHOTOSYNTHESIS"
+msgstr "פוטוסינתזה"
+
+#, fuzzy
+msgid "RETINAL_PROCESSES_DESCRIPTION"
+msgstr "מגדיל את מהירות הסיבוב של תאים גדולים."
+
+#, fuzzy
+msgid "RETINOPLAST"
+msgstr "כימופלסט"
+
+#, fuzzy
+msgid "RETINOPLAST_DESCRIPTION"
+msgstr "הכימופלסט הוא אברון בעל קרום כפול המכיל חלבונים המסוגלים להמיר [thrive:compound type=\"hydrogensulfide\"][/thrive:compound],[thrive:compound type=\"carbondioxide\"][/thrive:compound] ומים ל[thrive:compound type=\"glucose\"][/thrive:compound] בתהליך הנקרא [b]כימוסינתזה מימן גופרי[/b]. קצב ייצור ה[thrive:compound type=\"glucose\"][/thrive:compound] שלו משתנה עם ריכוז [thrive:compound type=\"carbondioxide\"][/thrive:compound]."
+
+#, fuzzy
+msgid "RETINOPLAST_PROCESSES_DESCRIPTION"
+msgstr "הופך [thrive:compound type=\"hydrogensulfide\"][/thrive:compound] ל[thrive:compound type=\"glucose\"][/thrive:compound]. בהתאם לריכוזו של [thrive:compoundtype=\"carbondioxide\"][/thrive:compound]."
 
 msgid "RETURN_TO_MENU"
 msgstr "חזור לתפריט"
@@ -8195,6 +8260,13 @@ msgstr "להגדלת התנועה"
 msgid "WORST_PATCH_COLON"
 msgstr "האזור הגרוע ביותר:"
 
+msgid "XANTHOPHYLL"
+msgstr ""
+
+#, fuzzy
+msgid "XANTHOPHYLL_CHLOROPLAST"
+msgstr "כלורופלסט"
+
 msgid "XBOX360"
 msgstr ""
 
@@ -8301,10 +8373,6 @@ msgstr "זום החוצה"
 #, fuzzy
 #~ msgid "WIKI_OXYTOXY_SYNTHESIS"
 #~ msgstr "סינתזת \"אוקסיטוקסי\""
-
-#, fuzzy
-#~ msgid "WIKI_PHOTOSYNTHESIS"
-#~ msgstr "פוטוסינתזה"
 
 #, fuzzy
 #~ msgid "WIKI_RUSTICYANIN"

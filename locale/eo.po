@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-11-02 22:11-0500\n"
+"POT-Creation-Date: 2024-11-04 00:09-0600\n"
 "PO-Revision-Date: 2024-10-17 07:24+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Esperanto <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/eo/>\n"
@@ -193,6 +193,21 @@ msgstr "Malaerobia Nitrogena Riparado"
 #, fuzzy
 msgid "AND_UNLOCK_CONDITION"
 msgstr "Fizikaj Kondiĉoj"
+
+#, fuzzy
+msgid "ANTHOCYANIN"
+msgstr "Rusticianino"
+
+#, fuzzy
+msgid "ANTHOCYANIN_CHLOROPLAST"
+msgstr "Kloroplasto"
+
+msgid "ANTHOXANTHIN"
+msgstr ""
+
+#, fuzzy
+msgid "ANTHOXANTHIN_CHLOROPLAST"
+msgstr "Kloroplasto"
 
 msgid "APPEARANCE"
 msgstr "Aspekto"
@@ -633,6 +648,14 @@ msgstr ""
 
 msgid "CARBON_DIOXIDE"
 msgstr "Karbona duoksido"
+
+#, fuzzy
+msgid "CAROTENOIDS"
+msgstr "Proteinoj"
+
+#, fuzzy
+msgid "CAROTENOID_CHLOROPLAST"
+msgstr "Kloroplasto"
 
 msgid "CATEGORY_AN_ABUNDANCE"
 msgstr ""
@@ -1369,6 +1392,14 @@ msgstr "Organisma Statistiko"
 
 msgid "CUSTOM_USERNAME"
 msgstr "Via Salutnomo:"
+
+#, fuzzy
+msgid "CYANIDIN"
+msgstr "Rusticianino"
+
+#, fuzzy
+msgid "CYANIDIN_CHLOROPLAST"
+msgstr "Kloroplasto"
 
 msgid "CYTOPLASM"
 msgstr "Citoplasmo"
@@ -4676,6 +4707,13 @@ msgstr "Fosfato"
 msgid "PHOTOSYNTHESIS"
 msgstr "Fotosintezo"
 
+msgid "PHYCOERYTHRIN"
+msgstr ""
+
+#, fuzzy
+msgid "PHYCOERYTHRIN_CHLOROPLAST"
+msgstr "Kloroplasto"
+
 msgid "PHYSICAL_CONDITIONS"
 msgstr "Fizikaj Kondiĉoj"
 
@@ -4981,6 +5019,33 @@ msgstr "Rekomenci"
 #, fuzzy
 msgid "RESUME_TOOLTIP"
 msgstr "Rekomenci"
+
+msgid "RETINAL"
+msgstr ""
+
+#, fuzzy
+msgid "RETINAL_DESCRIPTION"
+msgstr "La gluiĝemaj internaĵoj de ĉelo. La citoplasmo estas la baza miksaĵo de jonoj, proteinoj kaj aliaj substancoj solvitaj en akvo, kiu plenigas la internon de la ĉelo. Unu el la funkcioj, kiujn ĝi plenumas, estas Fermentado, la konvertiĝo de glukozo en ATP-energion. Por havi pli progresintajn metabolojn, ĉeloj, al kiuj mankas organetoj, uzas energion de ATP. Ĝi ankaŭ estas uzita por stoki molekulojn en la ĉelo kaj kreskigi la grandecon de la ĉelo."
+
+#, fuzzy
+msgid "RETINAL_PHOTOSYNTHESIS"
+msgstr "Fotosintezo"
+
+#, fuzzy
+msgid "RETINAL_PROCESSES_DESCRIPTION"
+msgstr "La gluiĝemaj internaĵoj de ĉelo. La citoplasmo estas la baza miksaĵo de jonoj, proteinoj kaj aliaj substancoj solvitaj en akvo, kiu plenigas la internon de la ĉelo. Unu el la funkcioj, kiujn ĝi plenumas, estas Fermentado, la konvertiĝo de glukozo en ATP-energion. Por havi pli progresintajn metabolojn, ĉeloj, al kiuj mankas organetoj, uzas energion de ATP. Ĝi ankaŭ estas uzita por stoki molekulojn en la ĉelo kaj kreskigi la grandecon de la ĉelo."
+
+#, fuzzy
+msgid "RETINOPLAST"
+msgstr "Kemoplasto"
+
+#, fuzzy
+msgid "RETINOPLAST_DESCRIPTION"
+msgstr "La chememioplasto estas duoblomembrana strukturo, kiu havas proteinojn kapablajn transformi hidrogenan sulfidon, akvon kaj gasan karbondioksidon en glukozon dum proceso nomata Kemosintezo de Hidrogena Sulfido. La rapideco de ĝia glukoza produktado pliigas kun la koncentriĝo de karbona dioksido."
+
+#, fuzzy
+msgid "RETINOPLAST_PROCESSES_DESCRIPTION"
+msgstr "La chememioplasto estas duoblomembrana strukturo, kiu havas proteinojn kapablajn transformi hidrogenan sulfidon, akvon kaj gasan karbondioksidon en glukozon dum proceso nomata Kemosintezo de Hidrogena Sulfido. La rapideco de ĝia glukoza produktado pliigas kun la koncentriĝo de karbona dioksido."
 
 msgid "RETURN_TO_MENU"
 msgstr "Revenu al Menuo"
@@ -8486,6 +8551,13 @@ msgstr "popliigi la movadon"
 msgid "WORST_PATCH_COLON"
 msgstr "Specioj:"
 
+msgid "XANTHOPHYLL"
+msgstr ""
+
+#, fuzzy
+msgid "XANTHOPHYLL_CHLOROPLAST"
+msgstr "Kloroplasto"
+
 msgid "XBOX360"
 msgstr ""
 
@@ -8609,10 +8681,6 @@ msgstr "Malzomu"
 #, fuzzy
 #~ msgid "WIKI_OXYTOXY_SYNTHESIS"
 #~ msgstr "OxyToxy Sintezo"
-
-#, fuzzy
-#~ msgid "WIKI_PHOTOSYNTHESIS"
-#~ msgstr "Fotosintezo"
 
 #, fuzzy
 #~ msgid "WIKI_RUSTICYANIN"

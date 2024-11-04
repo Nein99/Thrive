@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-11-02 22:11-0500\n"
+"POT-Creation-Date: 2024-11-04 00:09-0600\n"
 "PO-Revision-Date: 2024-10-17 07:24+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Thai <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/th/>\n"
@@ -187,6 +187,21 @@ msgstr "การตรึงไนโตรเจนแบบไม่ใช้
 
 msgid "AND_UNLOCK_CONDITION"
 msgstr ""
+
+#, fuzzy
+msgid "ANTHOCYANIN"
+msgstr "รัสติไซยานิน"
+
+#, fuzzy
+msgid "ANTHOCYANIN_CHLOROPLAST"
+msgstr "คลอโรพลาสต์"
+
+msgid "ANTHOXANTHIN"
+msgstr ""
+
+#, fuzzy
+msgid "ANTHOXANTHIN_CHLOROPLAST"
+msgstr "คลอโรพลาสต์"
 
 #, fuzzy
 msgid "APPEARANCE"
@@ -605,6 +620,13 @@ msgstr "ล็อคมุมมอง"
 
 msgid "CARBON_DIOXIDE"
 msgstr "คาร์บอนไดออกไซด์"
+
+msgid "CAROTENOIDS"
+msgstr ""
+
+#, fuzzy
+msgid "CAROTENOID_CHLOROPLAST"
+msgstr "คลอโรพลาสต์"
 
 msgid "CATEGORY_AN_ABUNDANCE"
 msgstr ""
@@ -1315,6 +1337,14 @@ msgstr ""
 
 msgid "CUSTOM_USERNAME"
 msgstr "ชื่อผู้ใช้ที่กำหนดเอง:"
+
+#, fuzzy
+msgid "CYANIDIN"
+msgstr "รัสติไซยานิน"
+
+#, fuzzy
+msgid "CYANIDIN_CHLOROPLAST"
+msgstr "คลอโรพลาสต์"
 
 msgid "CYTOPLASM"
 msgstr "ไซโทพลาซึม"
@@ -4500,6 +4530,13 @@ msgstr "ฟอสเฟต"
 msgid "PHOTOSYNTHESIS"
 msgstr "การสังเคราะห์ด้วยแสง"
 
+msgid "PHYCOERYTHRIN"
+msgstr ""
+
+#, fuzzy
+msgid "PHYCOERYTHRIN_CHLOROPLAST"
+msgstr "คลอโรพลาสต์"
+
 msgid "PHYSICAL_CONDITIONS"
 msgstr ""
 
@@ -4796,6 +4833,33 @@ msgstr "ดำเนินการต่อ"
 #, fuzzy
 msgid "RESUME_TOOLTIP"
 msgstr "ดำเนินการต่อ"
+
+msgid "RETINAL"
+msgstr ""
+
+#, fuzzy
+msgid "RETINAL_DESCRIPTION"
+msgstr "ภายในที่เหนอะหนะของเซลล์ ไซโทพลาสซึมเป็นส่วนผสมพื้นฐานของไอออนโปรตีนและสารอื่น ๆ ที่ละลายในน้ำที่เติมภายในเซลล์ หนึ่งในฟังก์ชั่นที่ทำคือไกลโคไลซิสการเปลี่ยนกลูโคสเป็นพลังงาน ATP สำหรับเซลล์ที่ขาดออร์แกเนลล์เพื่อให้มีการเผาผลาญขั้นสูงมากขึ้นนี่คือสิ่งที่พวกเขาต้องพึ่งพาเพื่อเป็นพลังงาน นอกจากนี้ยังใช้เพื่อเก็บโมเลกุลในเซลล์และเพื่อขยายขนาดของเซลล์"
+
+#, fuzzy
+msgid "RETINAL_PHOTOSYNTHESIS"
+msgstr "การสังเคราะห์ด้วยแสง"
+
+#, fuzzy
+msgid "RETINAL_PROCESSES_DESCRIPTION"
+msgstr "เปลี่ยน [thrive:compound]glucose[/thrive:compound] เป็น [thrive:compound]atp[/thrive:compound]"
+
+#, fuzzy
+msgid "RETINOPLAST"
+msgstr "เคโมพลาสต์"
+
+#, fuzzy
+msgid "RETINOPLAST_DESCRIPTION"
+msgstr "chemoplast เป็นโครงสร้างเมมเบรนสองชั้นที่มีโปรตีนที่สามารถเปลี่ยนไฮโดรเจนซัลไฟด์น้ำและก๊าซคาร์บอนไดออกไซด์เป็นน้ำตาลกลูโคสในกระบวนการที่เรียกว่า Hydrogen Sulfide Chemosynthesis อัตราการผลิตน้ำตาลกลูโคสที่มีความเข้มข้นของคาร์บอนไดออกไซด์"
+
+#, fuzzy
+msgid "RETINOPLAST_PROCESSES_DESCRIPTION"
+msgstr "chemoplast เป็นโครงสร้างเมมเบรนสองชั้นที่มีโปรตีนที่สามารถเปลี่ยนไฮโดรเจนซัลไฟด์น้ำและก๊าซคาร์บอนไดออกไซด์เป็นน้ำตาลกลูโคสในกระบวนการที่เรียกว่า Hydrogen Sulfide Chemosynthesis อัตราการผลิตน้ำตาลกลูโคสที่มีความเข้มข้นของคาร์บอนไดออกไซด์"
 
 msgid "RETURN_TO_MENU"
 msgstr "กลับไปที่เมนู"
@@ -8075,6 +8139,13 @@ msgstr "เพื่อเพิ่มการเคลื่อนไหว"
 msgid "WORST_PATCH_COLON"
 msgstr ""
 
+msgid "XANTHOPHYLL"
+msgstr ""
+
+#, fuzzy
+msgid "XANTHOPHYLL_CHLOROPLAST"
+msgstr "คลอโรพลาสต์"
+
 msgid "XBOX360"
 msgstr ""
 
@@ -8184,10 +8255,6 @@ msgstr "ซูมออก"
 #, fuzzy
 #~ msgid "WIKI_OXYTOXY_SYNTHESIS"
 #~ msgstr "การสังเคราะห์ออกซิโทซิน"
-
-#, fuzzy
-#~ msgid "WIKI_PHOTOSYNTHESIS"
-#~ msgstr "การสังเคราะห์ด้วยแสง"
 
 #, fuzzy
 #~ msgid "WIKI_RUSTICYANIN"

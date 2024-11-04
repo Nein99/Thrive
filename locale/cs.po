@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-11-02 22:11-0500\n"
+"POT-Creation-Date: 2024-11-04 00:09-0600\n"
 "PO-Revision-Date: 2024-10-17 07:24+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Czech <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/cs/>\n"
@@ -184,6 +184,21 @@ msgstr "Anaerobní fixace dusíku"
 #, fuzzy
 msgid "AND_UNLOCK_CONDITION"
 msgstr "Fyzické podmínky"
+
+#, fuzzy
+msgid "ANTHOCYANIN"
+msgstr "Rusticyanin (protein mědi)"
+
+#, fuzzy
+msgid "ANTHOCYANIN_CHLOROPLAST"
+msgstr "Chloroplasty"
+
+msgid "ANTHOXANTHIN"
+msgstr ""
+
+#, fuzzy
+msgid "ANTHOXANTHIN_CHLOROPLAST"
+msgstr "Chloroplasty"
 
 msgid "APPEARANCE"
 msgstr "Vzhled"
@@ -604,6 +619,14 @@ msgstr "Caps Lock"
 
 msgid "CARBON_DIOXIDE"
 msgstr "Oxid uhličitý"
+
+#, fuzzy
+msgid "CAROTENOIDS"
+msgstr "Bílkoviny"
+
+#, fuzzy
+msgid "CAROTENOID_CHLOROPLAST"
+msgstr "Chloroplasty"
 
 msgid "CATEGORY_AN_ABUNDANCE"
 msgstr "hojnost"
@@ -1368,6 +1391,14 @@ msgstr ""
 
 msgid "CUSTOM_USERNAME"
 msgstr "Vlastní uživatelské jméno:"
+
+#, fuzzy
+msgid "CYANIDIN"
+msgstr "Rusticyanin (protein mědi)"
+
+#, fuzzy
+msgid "CYANIDIN_CHLOROPLAST"
+msgstr "Chloroplasty"
 
 msgid "CYTOPLASM"
 msgstr "Cytoplazma"
@@ -4651,6 +4682,13 @@ msgstr "Fosfát"
 msgid "PHOTOSYNTHESIS"
 msgstr "Fotosyntéza"
 
+msgid "PHYCOERYTHRIN"
+msgstr ""
+
+#, fuzzy
+msgid "PHYCOERYTHRIN_CHLOROPLAST"
+msgstr "Chloroplasty"
+
 msgid "PHYSICAL_CONDITIONS"
 msgstr "Fyzické podmínky"
 
@@ -4938,6 +4976,33 @@ msgstr "Pokračovat"
 
 msgid "RESUME_TOOLTIP"
 msgstr "Pokračovat"
+
+msgid "RETINAL"
+msgstr ""
+
+#, fuzzy
+msgid "RETINAL_DESCRIPTION"
+msgstr "Chitináza umožnuje buňce rozkládat chitinovou membránu. Každá extra chitináza zvyšuje její efektivitu."
+
+#, fuzzy
+msgid "RETINAL_PHOTOSYNTHESIS"
+msgstr "Fotosyntéza"
+
+#, fuzzy
+msgid "RETINAL_PROCESSES_DESCRIPTION"
+msgstr "Zvyšuje rychlost otáčení velkých buněk."
+
+#, fuzzy
+msgid "RETINOPLAST"
+msgstr "Chemoplasty"
+
+#, fuzzy
+msgid "RETINOPLAST_DESCRIPTION"
+msgstr "Chemoplast je struktura dvou membrán obsahující proteiny, které jsou schopné konvertovat [thrive:compound type=\"hydrogensulfide\"][/thrive:compound], plynný [thrive:compound type=\"carbondioxide\"][/thrive:compound] a vodu na [thrive:compound type=\"glucose\"][/thrive:compound], v procesu známém jako [b]chemosyntéza sirovodíku[/b]. Rychlost produkce [thrive:compound type=\"glucose\"][/thrive:compound] je úměrná koncentrace [thrive:compound type=\"carbondioxide\"][/thrive:compound]."
+
+#, fuzzy
+msgid "RETINOPLAST_PROCESSES_DESCRIPTION"
+msgstr "Přeměňuje [thrive:compound type=\"hydrogensulfide\"][/thrive:compound] na [thrive:compound type=\"glucose\"][/thrive:compound]. Rychlost je úměrná koncentraci [thrive:compound type=\"carbondioxide\"][/thrive:compound]."
 
 msgid "RETURN_TO_MENU"
 msgstr "Návrat do menu"
@@ -8255,6 +8320,13 @@ msgstr "ke zvýšení pohyblivosti"
 msgid "WORST_PATCH_COLON"
 msgstr "Nejhorší oblast:"
 
+msgid "XANTHOPHYLL"
+msgstr ""
+
+#, fuzzy
+msgid "XANTHOPHYLL_CHLOROPLAST"
+msgstr "Chloroplasty"
+
 msgid "XBOX360"
 msgstr ""
 
@@ -8361,10 +8433,6 @@ msgstr "Oddálit"
 #, fuzzy
 #~ msgid "WIKI_OXYTOXY_SYNTHESIS"
 #~ msgstr "Syntéza OxyToxynů"
-
-#, fuzzy
-#~ msgid "WIKI_PHOTOSYNTHESIS"
-#~ msgstr "Fotosyntéza"
 
 #, fuzzy
 #~ msgid "WIKI_RUSTICYANIN"

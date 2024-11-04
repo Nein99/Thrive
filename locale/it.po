@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-11-02 22:11-0500\n"
+"POT-Creation-Date: 2024-11-04 00:09-0600\n"
 "PO-Revision-Date: 2024-10-17 07:24+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Italian <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/it/>\n"
@@ -195,6 +195,21 @@ msgstr "Azotofissazione anaerobica"
 #, fuzzy
 msgid "AND_UNLOCK_CONDITION"
 msgstr "Condizioni fisiche"
+
+#, fuzzy
+msgid "ANTHOCYANIN"
+msgstr "Rusticianina"
+
+#, fuzzy
+msgid "ANTHOCYANIN_CHLOROPLAST"
+msgstr "Cloroplasto"
+
+msgid "ANTHOXANTHIN"
+msgstr ""
+
+#, fuzzy
+msgid "ANTHOXANTHIN_CHLOROPLAST"
+msgstr "Cloroplasto"
 
 msgid "APPEARANCE"
 msgstr "Aspetto"
@@ -608,6 +623,14 @@ msgstr "Bloc Maiusc [Caps Lock]"
 
 msgid "CARBON_DIOXIDE"
 msgstr "Diossido di carbonio"
+
+#, fuzzy
+msgid "CAROTENOIDS"
+msgstr "Proteine"
+
+#, fuzzy
+msgid "CAROTENOID_CHLOROPLAST"
+msgstr "Cloroplasto"
 
 msgid "CATEGORY_AN_ABUNDANCE"
 msgstr "un sacco"
@@ -1306,6 +1329,14 @@ msgstr "Statistiche dell'organismo"
 
 msgid "CUSTOM_USERNAME"
 msgstr "Nome utente personalizzato:"
+
+#, fuzzy
+msgid "CYANIDIN"
+msgstr "Rusticianina"
+
+#, fuzzy
+msgid "CYANIDIN_CHLOROPLAST"
+msgstr "Cloroplasto"
 
 msgid "CYTOPLASM"
 msgstr "Citoplasma"
@@ -4596,6 +4627,13 @@ msgstr "Fosfato"
 msgid "PHOTOSYNTHESIS"
 msgstr "Fotosintesi"
 
+msgid "PHYCOERYTHRIN"
+msgstr ""
+
+#, fuzzy
+msgid "PHYCOERYTHRIN_CHLOROPLAST"
+msgstr "Cloroplasto"
+
 msgid "PHYSICAL_CONDITIONS"
 msgstr "Condizioni fisiche"
 
@@ -4886,6 +4924,33 @@ msgstr "Riprendi"
 
 msgid "RESUME_TOOLTIP"
 msgstr "Riprendi il gioco"
+
+msgid "RETINAL"
+msgstr ""
+
+#, fuzzy
+msgid "RETINAL_DESCRIPTION"
+msgstr "La chitinasi permette alla cellula di rompere le membrane in chitina. Ogni aggiunta ne aumenta l'efficacia."
+
+#, fuzzy
+msgid "RETINAL_PHOTOSYNTHESIS"
+msgstr "Fotosintesi"
+
+#, fuzzy
+msgid "RETINAL_PROCESSES_DESCRIPTION"
+msgstr "Aumentano la velocità di viraggio. Utili per cellule molto grandi."
+
+#, fuzzy
+msgid "RETINOPLAST"
+msgstr "Chemioplasto"
+
+#, fuzzy
+msgid "RETINOPLAST_DESCRIPTION"
+msgstr "Il chemioplasto è una struttura a doppia membrana. Contiene proteine capaci di convertire l[thrive:compound type=\"hydrogensulfide\"][/thrive:compound], l'acqua e il [thrive:compound type=\"carbondioxide\"][/thrive:compound] gassoso in glucosio. Il tasso aumenta con la concentrazione di diossido di carbonio. Questo processo si chiama [b]chemiosintesi dell'idrogeno solforato[/b]."
+
+#, fuzzy
+msgid "RETINOPLAST_PROCESSES_DESCRIPTION"
+msgstr "Trasforma l'[thrive:compound type=\"hydrogensulfide\"][/thrive:compound] in [thrive:compound type=\"glucose\"][/thrive:compound]. Il tasso aumenta con la concentrazione di [thrive:compound type=\"carbondioxide\"][/thrive:compound]."
 
 msgid "RETURN_TO_MENU"
 msgstr "Torna al menù"
@@ -8193,6 +8258,13 @@ msgstr "per aumentare la"
 msgid "WORST_PATCH_COLON"
 msgstr "Peggior zona:"
 
+msgid "XANTHOPHYLL"
+msgstr ""
+
+#, fuzzy
+msgid "XANTHOPHYLL_CHLOROPLAST"
+msgstr "Cloroplasto"
+
 msgid "XBOX360"
 msgstr ""
 
@@ -8299,10 +8371,6 @@ msgstr "Zoom indietro"
 #, fuzzy
 #~ msgid "WIKI_OXYTOXY_SYNTHESIS"
 #~ msgstr "Sintesi dell'OssiTossi"
-
-#, fuzzy
-#~ msgid "WIKI_PHOTOSYNTHESIS"
-#~ msgstr "Fotosintesi"
 
 #, fuzzy
 #~ msgid "WIKI_RUSTICYANIN"

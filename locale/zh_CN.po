@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-11-02 22:11-0500\n"
+"POT-Creation-Date: 2024-11-04 00:09-0600\n"
 "PO-Revision-Date: 2024-10-21 02:55+0000\n"
 "Last-Translator: Guno haozheum <guhaozhe@hsefz.cn>\n"
 "Language-Team: Chinese (Simplified Han script) <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/zh_Hans/>\n"
@@ -185,6 +185,21 @@ msgstr "无氧固氨"
 
 msgid "AND_UNLOCK_CONDITION"
 msgstr "和"
+
+#, fuzzy
+msgid "ANTHOCYANIN"
+msgstr "铁硫菌蓝蛋白"
+
+#, fuzzy
+msgid "ANTHOCYANIN_CHLOROPLAST"
+msgstr "叶绿体"
+
+msgid "ANTHOXANTHIN"
+msgstr ""
+
+#, fuzzy
+msgid "ANTHOXANTHIN_CHLOROPLAST"
+msgstr "叶绿体"
 
 msgid "APPEARANCE"
 msgstr "外观"
@@ -597,6 +612,14 @@ msgstr "大写锁定"
 
 msgid "CARBON_DIOXIDE"
 msgstr "二氧化碳"
+
+#, fuzzy
+msgid "CAROTENOIDS"
+msgstr "蛋白质"
+
+#, fuzzy
+msgid "CAROTENOID_CHLOROPLAST"
+msgstr "叶绿体"
 
 msgid "CATEGORY_AN_ABUNDANCE"
 msgstr "很多"
@@ -1300,6 +1323,14 @@ msgstr ""
 
 msgid "CUSTOM_USERNAME"
 msgstr "自定义用户名："
+
+#, fuzzy
+msgid "CYANIDIN"
+msgstr "铁硫菌蓝蛋白"
+
+#, fuzzy
+msgid "CYANIDIN_CHLOROPLAST"
+msgstr "叶绿体"
 
 msgid "CYTOPLASM"
 msgstr "细胞质"
@@ -4351,6 +4382,13 @@ msgstr "磷酸盐"
 msgid "PHOTOSYNTHESIS"
 msgstr "光合作用"
 
+msgid "PHYCOERYTHRIN"
+msgstr ""
+
+#, fuzzy
+msgid "PHYCOERYTHRIN_CHLOROPLAST"
+msgstr "叶绿体"
+
 msgid "PHYSICAL_CONDITIONS"
 msgstr "物理条件"
 
@@ -4631,6 +4669,33 @@ msgstr "返回"
 
 msgid "RESUME_TOOLTIP"
 msgstr "返回游戏"
+
+msgid "RETINAL"
+msgstr ""
+
+#, fuzzy
+msgid "RETINAL_DESCRIPTION"
+msgstr "几丁质酶使细胞能够分解几丁质膜。每次添加都会增加其有效性。"
+
+#, fuzzy
+msgid "RETINAL_PHOTOSYNTHESIS"
+msgstr "光合作用"
+
+#, fuzzy
+msgid "RETINAL_PROCESSES_DESCRIPTION"
+msgstr "增加大体型细胞的转向速度。"
+
+#, fuzzy
+msgid "RETINOPLAST"
+msgstr "化学质体"
+
+#, fuzzy
+msgid "RETINOPLAST_DESCRIPTION"
+msgstr "化学质体是一种双层膜结构，其中包含的蛋白质可以通过[b]硫化氢化合[/b]合成将[thrive:compound type=\"hydrogensulfide\"][/thrive:compound]，水和气态[thrive:compound type=\"carbondioxide\"][/thrive:compound]转换成[thrive:compound type=\"glucose\"][/thrive:compound]。[thrive:compound type=\"glucose\"][/thrive:compound]的产出速率跟[thrive:compound type=\"carbondioxide\"][/thrive:compound]的浓度成正比。"
+
+#, fuzzy
+msgid "RETINOPLAST_PROCESSES_DESCRIPTION"
+msgstr "将[thrive:compound type=\"hydrogensulfide\"][/thrive:compound]转换成[thrive:compound type=\"glucose\"][/thrive:compound]。速率跟[thrive:compound type=\"carbondioxide\"][/thrive:compound]浓度成正比。"
 
 msgid "RETURN_TO_MENU"
 msgstr "返回主菜单"
@@ -8057,6 +8122,13 @@ msgstr "相对世界移动"
 msgid "WORST_PATCH_COLON"
 msgstr "表现最糟的地区："
 
+msgid "XANTHOPHYLL"
+msgstr ""
+
+#, fuzzy
+msgid "XANTHOPHYLL_CHLOROPLAST"
+msgstr "叶绿体"
+
 msgid "XBOX360"
 msgstr "Xbox 360"
 
@@ -8155,10 +8227,6 @@ msgstr "缩小"
 #, fuzzy
 #~ msgid "WIKI_OXYTOXY_SYNTHESIS"
 #~ msgstr "氧化毒素合成"
-
-#, fuzzy
-#~ msgid "WIKI_PHOTOSYNTHESIS"
-#~ msgstr "光合作用"
 
 #, fuzzy
 #~ msgid "WIKI_RUSTICYANIN"

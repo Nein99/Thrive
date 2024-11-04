@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-11-02 22:11-0500\n"
+"POT-Creation-Date: 2024-11-04 00:09-0600\n"
 "PO-Revision-Date: 2024-10-23 11:01+0000\n"
 "Last-Translator: punctdan <yunusemredilek@hotmail.com>\n"
 "Language-Team: Turkish <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/tr/>\n"
@@ -184,6 +184,21 @@ msgstr "Oksijensiz Azot Fiksasyonu"
 
 msgid "AND_UNLOCK_CONDITION"
 msgstr "ve"
+
+#, fuzzy
+msgid "ANTHOCYANIN"
+msgstr "Rustisiyanin"
+
+#, fuzzy
+msgid "ANTHOCYANIN_CHLOROPLAST"
+msgstr "Kloroplast"
+
+msgid "ANTHOXANTHIN"
+msgstr ""
+
+#, fuzzy
+msgid "ANTHOXANTHIN_CHLOROPLAST"
+msgstr "Kloroplast"
 
 msgid "APPEARANCE"
 msgstr "Görünüm"
@@ -595,6 +610,14 @@ msgstr "Caps Lock"
 
 msgid "CARBON_DIOXIDE"
 msgstr "Karbondioksit"
+
+#, fuzzy
+msgid "CAROTENOIDS"
+msgstr "Proteinler"
+
+#, fuzzy
+msgid "CAROTENOID_CHLOROPLAST"
+msgstr "Kloroplast"
 
 msgid "CATEGORY_AN_ABUNDANCE"
 msgstr "bol miktarda"
@@ -1297,6 +1320,14 @@ msgstr ""
 
 msgid "CUSTOM_USERNAME"
 msgstr "Özel kullanıcı adı:"
+
+#, fuzzy
+msgid "CYANIDIN"
+msgstr "Rustisiyanin"
+
+#, fuzzy
+msgid "CYANIDIN_CHLOROPLAST"
+msgstr "Kloroplast"
 
 msgid "CYTOPLASM"
 msgstr "Sitoplazma"
@@ -4343,6 +4374,13 @@ msgstr "Fosfat"
 msgid "PHOTOSYNTHESIS"
 msgstr "Fotosentez"
 
+msgid "PHYCOERYTHRIN"
+msgstr ""
+
+#, fuzzy
+msgid "PHYCOERYTHRIN_CHLOROPLAST"
+msgstr "Kloroplast"
+
 msgid "PHYSICAL_CONDITIONS"
 msgstr "Fiziksel Koşullar"
 
@@ -4623,6 +4661,33 @@ msgstr "Devam Et"
 
 msgid "RESUME_TOOLTIP"
 msgstr "Oyuna devam et"
+
+msgid "RETINAL"
+msgstr ""
+
+#, fuzzy
+msgid "RETINAL_DESCRIPTION"
+msgstr "Kitinaz, hücrenin kitin hücre zarını parçalamasını sağlar. Her eklemede etkisi artar."
+
+#, fuzzy
+msgid "RETINAL_PHOTOSYNTHESIS"
+msgstr "Fotosentez"
+
+#, fuzzy
+msgid "RETINAL_PROCESSES_DESCRIPTION"
+msgstr "Büyük hücrelerin dönme hızını arttırır."
+
+#, fuzzy
+msgid "RETINOPLAST"
+msgstr "Kemoplast"
+
+#, fuzzy
+msgid "RETINOPLAST_DESCRIPTION"
+msgstr "Kemoplast, [b]hidrojen sülfür kemosentezi[/b] adı verilen bir işlemde, [thrive:compound type=\"hydrogensulfide\"]hidrojen sülfür[/thrive:compound], [thrive:compound type=\"carbondioxide\"]karbondioksit[/thrive:compound] gazı ve suyu [thrive:compound type=\"glucose\"]glukoza[/thrive:compound] çeviren proteinler içeren çift zarlı bir yapıdır. Üretilen [thrive:compound type=\"glucose\"]glukoz[/thrive:compound] oranı, [thrive:compound type=\"carbondioxide\"]karbondioksit[/thrive:compound] konsantrasyonu ile doğru orantılıdır."
+
+#, fuzzy
+msgid "RETINOPLAST_PROCESSES_DESCRIPTION"
+msgstr "[thrive:compound type=\"hydrogensulfide\"]Hidrojen Sülfürü[/thrive:compound], [thrive:compound type=\"glucose\"]glukoza[/thrive:compound] dönüştürür. Bu oran, [thrive:compound type=\"carbondioxide\"]karbondioksit[/thrive:compound] konsantrasyonu ile doğru orantılıdır."
 
 msgid "RETURN_TO_MENU"
 msgstr "Menüye Dön"
@@ -8217,6 +8282,13 @@ msgstr "Dünyaya bağlı"
 msgid "WORST_PATCH_COLON"
 msgstr "En Kötü Arazi:"
 
+msgid "XANTHOPHYLL"
+msgstr ""
+
+#, fuzzy
+msgid "XANTHOPHYLL_CHLOROPLAST"
+msgstr "Kloroplast"
+
 msgid "XBOX360"
 msgstr "Xbox 360"
 
@@ -8314,10 +8386,6 @@ msgstr "Uzaklaştır"
 #, fuzzy
 #~ msgid "WIKI_OXYTOXY_SYNTHESIS"
 #~ msgstr "OksiToksi Sentezi"
-
-#, fuzzy
-#~ msgid "WIKI_PHOTOSYNTHESIS"
-#~ msgstr "Fotosentez"
 
 #, fuzzy
 #~ msgid "WIKI_RUSTICYANIN"

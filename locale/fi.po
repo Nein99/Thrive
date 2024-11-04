@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-11-02 22:11-0500\n"
+"POT-Creation-Date: 2024-11-04 00:09-0600\n"
 "PO-Revision-Date: 2024-10-17 07:24+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Finnish <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/fi/>\n"
@@ -201,6 +201,21 @@ msgstr "Anaerobinen typensidonta"
 #, fuzzy
 msgid "AND_UNLOCK_CONDITION"
 msgstr "Olosuhteet"
+
+#, fuzzy
+msgid "ANTHOCYANIN"
+msgstr "Ruostesyaniini"
+
+#, fuzzy
+msgid "ANTHOCYANIN_CHLOROPLAST"
+msgstr "Viherhiukkanen"
+
+msgid "ANTHOXANTHIN"
+msgstr ""
+
+#, fuzzy
+msgid "ANTHOXANTHIN_CHLOROPLAST"
+msgstr "Viherhiukkanen"
 
 msgid "APPEARANCE"
 msgstr "Ulkonäkö"
@@ -635,6 +650,14 @@ msgstr "Caps Lock"
 
 msgid "CARBON_DIOXIDE"
 msgstr "Hiilidioksidi"
+
+#, fuzzy
+msgid "CAROTENOIDS"
+msgstr "Proteiini"
+
+#, fuzzy
+msgid "CAROTENOID_CHLOROPLAST"
+msgstr "Viherhiukkanen"
 
 #, fuzzy
 msgid "CATEGORY_AN_ABUNDANCE"
@@ -1384,6 +1407,14 @@ msgstr "Statistiikkaa organismista"
 
 msgid "CUSTOM_USERNAME"
 msgstr "Valittu käyttäjänimi:"
+
+#, fuzzy
+msgid "CYANIDIN"
+msgstr "Ruostesyaniini"
+
+#, fuzzy
+msgid "CYANIDIN_CHLOROPLAST"
+msgstr "Viherhiukkanen"
 
 msgid "CYTOPLASM"
 msgstr "Solulima"
@@ -4740,6 +4771,13 @@ msgstr "Fosfaatti"
 msgid "PHOTOSYNTHESIS"
 msgstr "Fotosynteesi"
 
+msgid "PHYCOERYTHRIN"
+msgstr ""
+
+#, fuzzy
+msgid "PHYCOERYTHRIN_CHLOROPLAST"
+msgstr "Viherhiukkanen"
+
 msgid "PHYSICAL_CONDITIONS"
 msgstr "Olosuhteet"
 
@@ -5038,6 +5076,33 @@ msgstr "Jatka"
 #, fuzzy
 msgid "RESUME_TOOLTIP"
 msgstr "Jatka"
+
+msgid "RETINAL"
+msgstr ""
+
+#, fuzzy
+msgid "RETINAL_DESCRIPTION"
+msgstr "Solun täyttävä limainen aines. Solulima on sekoite ioneita, proteiineja ja muita ainesosia veteen liuotettuna ja täyttää solun sisäpuolen. Yksi sen tarkoituksista on suorittaa glykolyysi, eli glukoosin muuntaminen ATP-energianlähteeksi. Alkeelliset soluilla, joilla ei ole kehittyneempiä aineenvaihduntaan keskittyneitä soluelimiä, solulima on keskeinen energian tuotannon lähde. Solulima myös varastoi molekyylejä, eli esimerkiksi kerättäviä yhdisteitä ja kasvattaa solun kokoa."
+
+#, fuzzy
+msgid "RETINAL_PHOTOSYNTHESIS"
+msgstr "Fotosynteesi"
+
+#, fuzzy
+msgid "RETINAL_PROCESSES_DESCRIPTION"
+msgstr "Muuntaa [thrive:compound type=\"glucose\"]a [/thrive:compound] [thrive:compound type=\"atp\"][/thrive:compound]:ksi."
+
+#, fuzzy
+msgid "RETINOPLAST"
+msgstr "Kemoplasti"
+
+#, fuzzy
+msgid "RETINOPLAST_DESCRIPTION"
+msgstr "Solun täyttävä limainen aines. Solulima on sekoite ioneita, proteiineja ja muita ainesosia veteen liuotettuna ja täyttää solun sisäpuolen. Yksi sen tarkoituksista on suorittaa glykolyysi, eli glukoosin muuntaminen ATP-energianlähteeksi. Alkeelliset soluilla, joilla ei ole kehittyneempiä aineenvaihduntaan keskittyneitä soluelimiä, solulima on keskeinen energian tuotannon lähde. Solulima myös varastoi molekyylejä, eli esimerkiksi kerättäviä yhdisteitä ja kasvattaa solun kokoa."
+
+#, fuzzy
+msgid "RETINOPLAST_PROCESSES_DESCRIPTION"
+msgstr "Muuntaa [thrive:compound type=\"hydrogensulfide\"][/thrive:compound]n [thrive:compound type=\"glucose\"]glukoosiksi[/thrive:compound]. Muunnosnopeus riippuu ympäristön [thrive:compound type=\"carbondioxide\"]hiilidioksidipitoisuudesta[/thrive:compound]."
 
 msgid "RETURN_TO_MENU"
 msgstr "Palaa Päävalikkoon"
@@ -8474,6 +8539,13 @@ msgstr "Suhteellinen maailmaan"
 msgid "WORST_PATCH_COLON"
 msgstr "Lajit:"
 
+msgid "XANTHOPHYLL"
+msgstr ""
+
+#, fuzzy
+msgid "XANTHOPHYLL_CHLOROPLAST"
+msgstr "Viherhiukkanen"
+
 msgid "XBOX360"
 msgstr "Xbox 360"
 
@@ -8591,10 +8663,6 @@ msgstr "Zoomaa ulospäin"
 #, fuzzy
 #~ msgid "WIKI_OXYTOXY_SYNTHESIS"
 #~ msgstr "Happimyrkkysynteesi"
-
-#, fuzzy
-#~ msgid "WIKI_PHOTOSYNTHESIS"
-#~ msgstr "Fotosynteesi"
 
 #, fuzzy
 #~ msgid "WIKI_RUSTICYANIN"

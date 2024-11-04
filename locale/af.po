@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-11-02 22:11-0500\n"
+"POT-Creation-Date: 2024-11-04 00:09-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -168,6 +168,18 @@ msgid "ANAEROBIC_NITROGEN_FIXATION"
 msgstr ""
 
 msgid "AND_UNLOCK_CONDITION"
+msgstr ""
+
+msgid "ANTHOCYANIN"
+msgstr ""
+
+msgid "ANTHOCYANIN_CHLOROPLAST"
+msgstr ""
+
+msgid "ANTHOXANTHIN"
+msgstr ""
+
+msgid "ANTHOXANTHIN_CHLOROPLAST"
 msgstr ""
 
 msgid "APPEARANCE"
@@ -555,6 +567,12 @@ msgid "CAPSLOCK"
 msgstr ""
 
 msgid "CARBON_DIOXIDE"
+msgstr ""
+
+msgid "CAROTENOIDS"
+msgstr ""
+
+msgid "CAROTENOID_CHLOROPLAST"
 msgstr ""
 
 msgid "CATEGORY_AN_ABUNDANCE"
@@ -1207,6 +1225,12 @@ msgid "CURRENT_WORLD_STATISTICS"
 msgstr ""
 
 msgid "CUSTOM_USERNAME"
+msgstr ""
+
+msgid "CYANIDIN"
+msgstr ""
+
+msgid "CYANIDIN_CHLOROPLAST"
 msgstr ""
 
 msgid "CYTOPLASM"
@@ -3991,6 +4015,12 @@ msgstr ""
 msgid "PHOTOSYNTHESIS"
 msgstr ""
 
+msgid "PHYCOERYTHRIN"
+msgstr ""
+
+msgid "PHYCOERYTHRIN_CHLOROPLAST"
+msgstr ""
+
 msgid "PHYSICAL_CONDITIONS"
 msgstr ""
 
@@ -4262,6 +4292,32 @@ msgstr ""
 
 msgid "RESUME_TOOLTIP"
 msgstr ""
+
+msgid "RETINAL"
+msgstr ""
+
+#, fuzzy
+msgid "RETINAL_DESCRIPTION"
+msgstr "3D redakteurder"
+
+#, fuzzy
+msgid "RETINAL_PHOTOSYNTHESIS"
+msgstr "3D redakteurder"
+
+#, fuzzy
+msgid "RETINAL_PROCESSES_DESCRIPTION"
+msgstr "3D redakteurder"
+
+msgid "RETINOPLAST"
+msgstr ""
+
+#, fuzzy
+msgid "RETINOPLAST_DESCRIPTION"
+msgstr "3D redakteurder"
+
+#, fuzzy
+msgid "RETINOPLAST_PROCESSES_DESCRIPTION"
+msgstr "3D redakteurder"
 
 msgid "RETURN_TO_MENU"
 msgstr ""
@@ -7023,6 +7079,12 @@ msgid "WORLD_RELATIVE_MOVEMENT"
 msgstr ""
 
 msgid "WORST_PATCH_COLON"
+msgstr ""
+
+msgid "XANTHOPHYLL"
+msgstr ""
+
+msgid "XANTHOPHYLL_CHLOROPLAST"
 msgstr ""
 
 msgid "XBOX360"
