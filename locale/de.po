@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-11-02 22:11-0500\n"
+"POT-Creation-Date: 2024-11-04 00:09-0600\n"
 "PO-Revision-Date: 2024-10-17 07:24+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: German <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/de/>\n"
@@ -191,6 +191,21 @@ msgstr "Anaerobe Stickstofffixierung"
 #, fuzzy
 msgid "AND_UNLOCK_CONDITION"
 msgstr "Physikalische Bedingungen"
+
+#, fuzzy
+msgid "ANTHOCYANIN"
+msgstr "Rusticyanin"
+
+#, fuzzy
+msgid "ANTHOCYANIN_CHLOROPLAST"
+msgstr "Chloroplast"
+
+msgid "ANTHOXANTHIN"
+msgstr ""
+
+#, fuzzy
+msgid "ANTHOXANTHIN_CHLOROPLAST"
+msgstr "Chloroplast"
 
 msgid "APPEARANCE"
 msgstr "Erscheinungsbild"
@@ -604,6 +619,14 @@ msgstr "Feststelltaste"
 
 msgid "CARBON_DIOXIDE"
 msgstr "Kohlendioxid"
+
+#, fuzzy
+msgid "CAROTENOIDS"
+msgstr "Proteine"
+
+#, fuzzy
+msgid "CAROTENOID_CHLOROPLAST"
+msgstr "Chloroplast"
 
 msgid "CATEGORY_AN_ABUNDANCE"
 msgstr "eine Fülle"
@@ -1346,6 +1369,14 @@ msgstr "Organismus-Statistik"
 
 msgid "CUSTOM_USERNAME"
 msgstr "Eigener Nutzername:"
+
+#, fuzzy
+msgid "CYANIDIN"
+msgstr "Rusticyanin"
+
+#, fuzzy
+msgid "CYANIDIN_CHLOROPLAST"
+msgstr "Chloroplast"
 
 msgid "CYTOPLASM"
 msgstr "Zytoplasma"
@@ -4580,6 +4611,13 @@ msgstr "Phosphat"
 msgid "PHOTOSYNTHESIS"
 msgstr "Photosynthese"
 
+msgid "PHYCOERYTHRIN"
+msgstr ""
+
+#, fuzzy
+msgid "PHYCOERYTHRIN_CHLOROPLAST"
+msgstr "Chloroplast"
+
 msgid "PHYSICAL_CONDITIONS"
 msgstr "Physikalische Bedingungen"
 
@@ -4870,6 +4908,33 @@ msgstr "Fortsetzen"
 
 msgid "RESUME_TOOLTIP"
 msgstr "Spiel fortsetzen"
+
+msgid "RETINAL"
+msgstr ""
+
+#, fuzzy
+msgid "RETINAL_DESCRIPTION"
+msgstr "Chitinase ermöglicht es der Zelle Chitin Membranen zu zersetzen. Dies erhöht die Effektivität des Prozesses."
+
+#, fuzzy
+msgid "RETINAL_PHOTOSYNTHESIS"
+msgstr "Photosynthese"
+
+#, fuzzy
+msgid "RETINAL_PROCESSES_DESCRIPTION"
+msgstr "Erhöht die Wendigkeit von großen Zellen."
+
+#, fuzzy
+msgid "RETINOPLAST"
+msgstr "Chemoplast"
+
+#, fuzzy
+msgid "RETINOPLAST_DESCRIPTION"
+msgstr "Der Chemoplast ist eine doppelte Membranstruktur, die Proteine enthält, die in der Lage sind, Schwefelwasserstoff, Wasser und gasförmiges Kohlendioxid in einem Prozess namens Schwefelwasserstoff-Chemosynthese in Glukose umzuwandeln. Die Rate seiner Glukoseproduktion skaliert mit der Konzentration von Wasser und Kohlendioxid."
+
+#, fuzzy
+msgid "RETINOPLAST_PROCESSES_DESCRIPTION"
+msgstr "Verwandelt [thrive:compound type=\"hydrogensulfide\"][/thrive:compound] in [thrive:compound type=\"glucose\"][/thrive:compound]. Die Rate hängt von der Konzentration von [thrive:compound type=\"carbondioxide\"][/thrive:compound] ab."
 
 msgid "RETURN_TO_MENU"
 msgstr "Zurück zum Hauptmenü"
@@ -8192,6 +8257,13 @@ msgstr "um die Mobilität zu erhöhen"
 msgid "WORST_PATCH_COLON"
 msgstr "Schlechtestes Gebiet:"
 
+msgid "XANTHOPHYLL"
+msgstr ""
+
+#, fuzzy
+msgid "XANTHOPHYLL_CHLOROPLAST"
+msgstr "Chloroplast"
+
 msgid "XBOX360"
 msgstr ""
 
@@ -8298,10 +8370,6 @@ msgstr "Herauszoomen"
 #, fuzzy
 #~ msgid "WIKI_OXYTOXY_SYNTHESIS"
 #~ msgstr "OxyToxid-Synthese"
-
-#, fuzzy
-#~ msgid "WIKI_PHOTOSYNTHESIS"
-#~ msgstr "Photosynthese"
 
 #, fuzzy
 #~ msgid "WIKI_RUSTICYANIN"

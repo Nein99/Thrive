@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-11-02 22:11-0500\n"
+"POT-Creation-Date: 2024-11-04 00:09-0600\n"
 "PO-Revision-Date: 2024-10-17 07:24+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Indonesian <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/id/>\n"
@@ -201,6 +201,21 @@ msgstr "Fiksasi Anaerob Nitrogen"
 #, fuzzy
 msgid "AND_UNLOCK_CONDITION"
 msgstr "Kondisi Fisik"
+
+#, fuzzy
+msgid "ANTHOCYANIN"
+msgstr "Rustisianin"
+
+#, fuzzy
+msgid "ANTHOCYANIN_CHLOROPLAST"
+msgstr "Kloroplas"
+
+msgid "ANTHOXANTHIN"
+msgstr ""
+
+#, fuzzy
+msgid "ANTHOXANTHIN_CHLOROPLAST"
+msgstr "Kloroplas"
 
 msgid "APPEARANCE"
 msgstr "Penampilan"
@@ -635,6 +650,14 @@ msgstr "Caps Lock"
 
 msgid "CARBON_DIOXIDE"
 msgstr "Karbon Dioksida"
+
+#, fuzzy
+msgid "CAROTENOIDS"
+msgstr "Protein"
+
+#, fuzzy
+msgid "CAROTENOID_CHLOROPLAST"
+msgstr "Kloroplas"
 
 msgid "CATEGORY_AN_ABUNDANCE"
 msgstr ""
@@ -1354,6 +1377,14 @@ msgstr "Statistika Organisme"
 
 msgid "CUSTOM_USERNAME"
 msgstr "Nama Pengguna Kustom:"
+
+#, fuzzy
+msgid "CYANIDIN"
+msgstr "Rustisianin"
+
+#, fuzzy
+msgid "CYANIDIN_CHLOROPLAST"
+msgstr "Kloroplas"
 
 msgid "CYTOPLASM"
 msgstr "Sitoplasma"
@@ -4646,6 +4677,13 @@ msgstr "Fosfat"
 msgid "PHOTOSYNTHESIS"
 msgstr "Fotosintesis"
 
+msgid "PHYCOERYTHRIN"
+msgstr ""
+
+#, fuzzy
+msgid "PHYCOERYTHRIN_CHLOROPLAST"
+msgstr "Kloroplas"
+
 msgid "PHYSICAL_CONDITIONS"
 msgstr "Kondisi Fisik"
 
@@ -4944,6 +4982,33 @@ msgstr "Lanjutkan"
 #, fuzzy
 msgid "RESUME_TOOLTIP"
 msgstr "Lanjutkan"
+
+msgid "RETINAL"
+msgstr ""
+
+#, fuzzy
+msgid "RETINAL_DESCRIPTION"
+msgstr "Dalaman lengket sebuah sel. Sitoplasma adalah gabungan dasar dari ion, protein dan zat lain terlarut dalam air yang mengisi bagian dalam sel. Salah satu fungsi yang di lakukannya adalah glikolisis, perubahan glukosa menjadi energi ATP. Bagi sel yang kekurangan organel untuk memiliki tingkatan metabolisme yang lebih tinggi, ini yang mereka andalkan untuk energi. Sitoplasma juga digunakan untuk menyimpan molekul di dalam sel dan menumbuhkan ukuran sel."
+
+#, fuzzy
+msgid "RETINAL_PHOTOSYNTHESIS"
+msgstr "Fotosintesis"
+
+#, fuzzy
+msgid "RETINAL_PROCESSES_DESCRIPTION"
+msgstr "Mengubah [thrive:compound type=\"glucose\"][/thrive:compound] menjadi [thrive:compound type=\"atp\"][/thrive:compound]"
+
+#, fuzzy
+msgid "RETINOPLAST"
+msgstr "Kemoplas"
+
+#, fuzzy
+msgid "RETINOPLAST_DESCRIPTION"
+msgstr "Kemoplas adalah struktur membran ganda mengandung protein yang dapat mengkonversi hidrogen sulfida, air dan gas karbon dioksida menjadi glukosa dalam proses yang disebut Kemosintesis Hidrogen Sulfida. Laju produksi glukosa tersebut berbanding lurus dengan konsentrasi karbon dioksida."
+
+#, fuzzy
+msgid "RETINOPLAST_PROCESSES_DESCRIPTION"
+msgstr "Mengubah [thrive:compound type=\"hydrogensulfide\"][/thrive:compound] menjadi [thrive:compound type=\"glucose\"][/thrive:compound]. Laju berbanding lurus dengan konsentrasi [thrive:compound type=\"carbondioxide\"][/thrive:compound]"
 
 msgid "RETURN_TO_MENU"
 msgstr "Kembali ke Menu"
@@ -8296,6 +8361,13 @@ msgstr "Pergerakan Dasar"
 msgid "WORST_PATCH_COLON"
 msgstr "Spesies:"
 
+msgid "XANTHOPHYLL"
+msgstr ""
+
+#, fuzzy
+msgid "XANTHOPHYLL_CHLOROPLAST"
+msgstr "Kloroplas"
+
 msgid "XBOX360"
 msgstr ""
 
@@ -8403,10 +8475,6 @@ msgstr "Perkecil"
 #, fuzzy
 #~ msgid "WIKI_OXYTOXY_SYNTHESIS"
 #~ msgstr "Sintesis OksiToksi"
-
-#, fuzzy
-#~ msgid "WIKI_PHOTOSYNTHESIS"
-#~ msgstr "Fotosintesis"
 
 #, fuzzy
 #~ msgid "WIKI_RUSTICYANIN"

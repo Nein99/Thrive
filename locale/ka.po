@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-11-02 22:11-0500\n"
+"POT-Creation-Date: 2024-11-04 00:09-0600\n"
 "PO-Revision-Date: 2024-10-21 16:34+0000\n"
 "Last-Translator: NorwayFun <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/ka/>\n"
@@ -184,6 +184,21 @@ msgstr "ანაერობული აზოტის ფიქსაცი�
 
 msgid "AND_UNLOCK_CONDITION"
 msgstr "და"
+
+#, fuzzy
+msgid "ANTHOCYANIN"
+msgstr "რუსტიციანინი"
+
+#, fuzzy
+msgid "ANTHOCYANIN_CHLOROPLAST"
+msgstr "ქლოროპლასტი"
+
+msgid "ANTHOXANTHIN"
+msgstr ""
+
+#, fuzzy
+msgid "ANTHOXANTHIN_CHLOROPLAST"
+msgstr "ქლოროპლასტი"
 
 msgid "APPEARANCE"
 msgstr "გარეგნობა"
@@ -593,6 +608,14 @@ msgstr "Caps Lock"
 
 msgid "CARBON_DIOXIDE"
 msgstr "ნახშირბადის დიოქსიდი"
+
+#, fuzzy
+msgid "CAROTENOIDS"
+msgstr "ცილები"
+
+#, fuzzy
+msgid "CAROTENOID_CHLOROPLAST"
+msgstr "ქლოროპლასტი"
 
 msgid "CATEGORY_AN_ABUNDANCE"
 msgstr "სიუხვე"
@@ -1246,6 +1269,14 @@ msgstr ""
 
 msgid "CUSTOM_USERNAME"
 msgstr "მორგებული მომხმარებლის სახელი:"
+
+#, fuzzy
+msgid "CYANIDIN"
+msgstr "რუსტიციანინი"
+
+#, fuzzy
+msgid "CYANIDIN_CHLOROPLAST"
+msgstr "ქლოროპლასტი"
 
 msgid "CYTOPLASM"
 msgstr "ციტოპლაზმა"
@@ -4093,6 +4124,13 @@ msgstr "ფოსფატი"
 msgid "PHOTOSYNTHESIS"
 msgstr "ფოტოსინთეზი"
 
+msgid "PHYCOERYTHRIN"
+msgstr ""
+
+#, fuzzy
+msgid "PHYCOERYTHRIN_CHLOROPLAST"
+msgstr "ქლოროპლასტი"
+
 msgid "PHYSICAL_CONDITIONS"
 msgstr "ფიზიკური პირობები"
 
@@ -4373,6 +4411,33 @@ msgstr "გაგრძელება"
 
 msgid "RESUME_TOOLTIP"
 msgstr "თამაშის გაგრძელება"
+
+msgid "RETINAL"
+msgstr ""
+
+#, fuzzy
+msgid "RETINAL_DESCRIPTION"
+msgstr "ხიტინაზა უჯრედს ხიტინის მემბრანის დაშლის საშუალებას გაძლევს. თითოეული დამატება ზრდის მის ეფექტურობას."
+
+#, fuzzy
+msgid "RETINAL_PHOTOSYNTHESIS"
+msgstr "ფოტოსინთეზი"
+
+#, fuzzy
+msgid "RETINAL_PROCESSES_DESCRIPTION"
+msgstr "ზრდის დიდი უჯრედების მობრუნების სიჩქარეს."
+
+#, fuzzy
+msgid "RETINOPLAST"
+msgstr "ქემოპლასტი"
+
+#, fuzzy
+msgid "RETINOPLAST_DESCRIPTION"
+msgstr "ცელულაზა უჯრედს ცელულოზისგან შემდგარი მემბრანების დაშლის საშუალებას აძლევს. თითოეული დამატება ეფექტურობას ზრდის."
+
+#, fuzzy
+msgid "RETINOPLAST_PROCESSES_DESCRIPTION"
+msgstr "გადაჰყავს [thrive:compound type=\"hydrogensulfide\"][/thrive:compound] [thrive:compound type=\"glucose\"][/thrive:compound]-ში. სიჩქარე იზრდება [thrive:compound type=\"carbondioxide\"][/thrive:compound]-ის კონცენტრაციასთან ერთად."
 
 msgid "RETURN_TO_MENU"
 msgstr "მენიუში დაბრუნება"
@@ -7131,6 +7196,13 @@ msgstr "სამყაროსთან შეფარდებით"
 msgid "WORST_PATCH_COLON"
 msgstr "ყველაზე ცუდი ბიომა:"
 
+msgid "XANTHOPHYLL"
+msgstr ""
+
+#, fuzzy
+msgid "XANTHOPHYLL_CHLOROPLAST"
+msgstr "ქლოროპლასტი"
+
 msgid "XBOX360"
 msgstr "Xbox 360"
 
@@ -7231,10 +7303,6 @@ msgstr "დაპატარავება"
 #, fuzzy
 #~ msgid "WIKI_OXYTOXY_SYNTHESIS"
 #~ msgstr "ოქსიტოქსინის სინთეზი"
-
-#, fuzzy
-#~ msgid "WIKI_PHOTOSYNTHESIS"
-#~ msgstr "ფოტოსინთეზი"
 
 #, fuzzy
 #~ msgid "WIKI_RUSTICYANIN"

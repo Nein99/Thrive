@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-11-02 22:11-0500\n"
+"POT-Creation-Date: 2024-11-04 00:09-0600\n"
 "PO-Revision-Date: 2023-10-12 00:43+0000\n"
 "Last-Translator: Irmantas <irmantas_i@yahoo.com>\n"
 "Language-Team: Lithuanian <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/lt/>\n"
@@ -195,6 +195,20 @@ msgstr "Anaerobinė Azoto Fiksacija"
 
 msgid "AND_UNLOCK_CONDITION"
 msgstr ""
+
+msgid "ANTHOCYANIN"
+msgstr ""
+
+#, fuzzy
+msgid "ANTHOCYANIN_CHLOROPLAST"
+msgstr "Chloroplastas"
+
+msgid "ANTHOXANTHIN"
+msgstr ""
+
+#, fuzzy
+msgid "ANTHOXANTHIN_CHLOROPLAST"
+msgstr "Chloroplastas"
 
 msgid "APPEARANCE"
 msgstr "Išvaizda"
@@ -609,6 +623,13 @@ msgstr "Caps Lock"
 
 msgid "CARBON_DIOXIDE"
 msgstr "Anglies Dioksidas"
+
+msgid "CAROTENOIDS"
+msgstr ""
+
+#, fuzzy
+msgid "CAROTENOID_CHLOROPLAST"
+msgstr "Chloroplastas"
 
 msgid "CATEGORY_AN_ABUNDANCE"
 msgstr "gausybė"
@@ -1352,6 +1373,13 @@ msgstr ""
 
 msgid "CUSTOM_USERNAME"
 msgstr ""
+
+msgid "CYANIDIN"
+msgstr ""
+
+#, fuzzy
+msgid "CYANIDIN_CHLOROPLAST"
+msgstr "Chloroplastas"
 
 msgid "CYTOPLASM"
 msgstr ""
@@ -4290,6 +4318,13 @@ msgstr ""
 msgid "PHOTOSYNTHESIS"
 msgstr ""
 
+msgid "PHYCOERYTHRIN"
+msgstr ""
+
+#, fuzzy
+msgid "PHYCOERYTHRIN_CHLOROPLAST"
+msgstr "Chloroplastas"
+
 msgid "PHYSICAL_CONDITIONS"
 msgstr ""
 
@@ -4569,6 +4604,33 @@ msgstr ""
 
 msgid "RESUME_TOOLTIP"
 msgstr ""
+
+msgid "RETINAL"
+msgstr ""
+
+#, fuzzy
+msgid "RETINAL_DESCRIPTION"
+msgstr "Chitinazė leidžia ląstelei suardyti chitino membraną. Kiekvienas papildymas didina veiksmingumą."
+
+#, fuzzy
+msgid "RETINAL_PHOTOSYNTHESIS"
+msgstr "Chemosintezė"
+
+#, fuzzy
+msgid "RETINAL_PROCESSES_DESCRIPTION"
+msgstr "Padidina didelių ląstelių sukimosi greitį."
+
+#, fuzzy
+msgid "RETINOPLAST"
+msgstr "Chemoplastas"
+
+#, fuzzy
+msgid "RETINOPLAST_DESCRIPTION"
+msgstr "Chemoplastas yra dvigubos membranos struktūra, kurioje yra baltymų, galinčių paversti [thrive:compound type=\"hydrogensulfide\"][/thrive:compound], dujinį [thrive:compound type=\"carbondioxide\"][/thrive:compound] ir vandenį į [thrive:compound type=\"glucose\"][/thrive:compound], vykstant procesui, vadinamam [b]vandenilio sulfido chemosinteze[/b]. Jo [thrive:compound type=\"glucose\"][/thrive:compound] gamybos greitis priklauso nuo [thrive:compound type=\"carbondioxide\"][/thrive:compound] koncentracijos."
+
+#, fuzzy
+msgid "RETINOPLAST_PROCESSES_DESCRIPTION"
+msgstr "Paverčia [thrive:compound type=\"hydrogensulfide\"][/thrive:compound] į [thrive:compound type=\"glucose\"][/thrive:compound]. Greitis priklauso nuo [thrive:compound type=\"carbondioxide\"][/thrive:compound] koncentracijos."
 
 msgid "RETURN_TO_MENU"
 msgstr ""
@@ -7727,6 +7789,13 @@ msgstr ""
 msgid "WORST_PATCH_COLON"
 msgstr ""
 
+msgid "XANTHOPHYLL"
+msgstr ""
+
+#, fuzzy
+msgid "XANTHOPHYLL_CHLOROPLAST"
+msgstr "Chloroplastas"
+
 msgid "XBOX360"
 msgstr ""
 
@@ -7805,10 +7874,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "WIKI_MULTICELLULAR_STAGE"
 #~ msgstr "Daugialąstis"
-
-#, fuzzy
-#~ msgid "WIKI_PHOTOSYNTHESIS"
-#~ msgstr "Chemosintezė"
 
 #, fuzzy
 #~ msgid "WIKI_SOCIETY_STAGE"

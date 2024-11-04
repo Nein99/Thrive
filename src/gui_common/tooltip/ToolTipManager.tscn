@@ -538,6 +538,13 @@ DescriptionLabelPath = NodePath("../../processesProduction/chromatophore/MarginC
 DisplayDelay = 0.0
 Positioning = 1
 
+[node name="retinal" parent="GroupHolder/processesProduction" instance=ExtResource("1")]
+visible = false
+layout_mode = 0
+DescriptionLabelPath = NodePath("../chromatophore/MarginContainer/VBoxContainer/Description")
+DisplayDelay = 0.0
+Positioning = 1
+
 [node name="melanin" parent="GroupHolder/processesProduction" instance=ExtResource("1")]
 visible = false
 layout_mode = 0
@@ -602,6 +609,14 @@ DescriptionLabelPath = NodePath("../mitochondrion/MarginContainer/VBoxContainer/
 DisplayDelay = 0.0
 Positioning = 1
 
+[node name="retinoplast" parent="GroupHolder/processesProduction" instance=ExtResource("1")]
+visible = false
+layout_mode = 0
+offset_bottom = 34.0
+DescriptionLabelPath = NodePath("../mitochondrion/MarginContainer/VBoxContainer/Description")
+DisplayDelay = 0.0
+Positioning = 1
+
 [node name="thermoplast" parent="GroupHolder/processesProduction" instance=ExtResource("1")]
 visible = false
 layout_mode = 0
@@ -654,6 +669,13 @@ Positioning = 1
 visible = false
 layout_mode = 0
 DescriptionLabelPath = NodePath("../../../GroupHolder/processesConsumption/chromatophore/MarginContainer/VBoxContainer/Description")
+DisplayDelay = 0.0
+Positioning = 1
+
+[node name="retinal" parent="GroupHolder/processesConsumption" instance=ExtResource("1")]
+visible = false
+layout_mode = 0
+DescriptionLabelPath = NodePath("../chromatophore/MarginContainer/VBoxContainer/Description")
 DisplayDelay = 0.0
 Positioning = 1
 

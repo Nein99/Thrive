@@ -347,8 +347,112 @@
       }
     ],
     "EditorButtonGroup": "Protein",
+    "AvailableUpgrades": {
+      "none": {
+        "IsDefault": true,
+        "Name": "UPGRADE_NAME_NONE",
+        "Description": "UPGRADE_DESCRIPTION_NONE"
+      },
+      "anthocyanin": { 
+        "Name": "ANTHOCYANIN",
+        "Description": "THYLAKOIDS_DESCRIPTION",
+        "MPCost": 5,
+        "IconPath": "res://assets/textures/gui/bevel/parts/ChromatophoreIcon.png",
+        "OverrideGraphics": {
+          "ScenePath": "res://assets/models/organelles/Anthocyanin.tscn"
+        }
+      },
+      "anthoxanthin": { 
+        "Name": "ANTHOXANTHIN",
+        "Description": "THYLAKOIDS_DESCRIPTION",
+        "MPCost": 5,
+        "IconPath": "res://assets/textures/gui/bevel/parts/ChromatophoreIcon.png",
+        "OverrideGraphics": {
+          "ScenePath": "res://assets/models/organelles/Anthoxanthin.tscn"
+        }
+      },
+      "carotenoids": { 
+        "Name": "CAROTENOIDS",
+        "Description": "THYLAKOIDS_DESCRIPTION",
+        "MPCost": 5,
+        "IconPath": "res://assets/textures/gui/bevel/parts/ChromatophoreIcon.png",
+        "OverrideGraphics": {
+          "ScenePath": "res://assets/models/organelles/Carotenoids.tscn"
+        }
+      },
+      "cyanidin": { 
+        "Name": "CYANIDIN",
+        "Description": "THYLAKOIDS_DESCRIPTION",
+        "MPCost": 5,
+        "IconPath": "res://assets/textures/gui/bevel/parts/ChromatophoreIcon.png",
+        "OverrideGraphics": {
+          "ScenePath": "res://assets/models/organelles/Cyanidin.tscn"
+        }
+      },
+      "phycoerythrin": { 
+        "Name": "PHYCOERYTHRIN",
+        "Description": "THYLAKOIDS_DESCRIPTION",
+        "MPCost": 5,
+        "IconPath": "res://assets/textures/gui/bevel/parts/ChromatophoreIcon.png",
+        "OverrideGraphics": {
+          "ScenePath": "res://assets/models/organelles/Phycoerythrin.tscn"
+        }
+      },
+      "xanthophyll": { 
+        "Name": "XANTHOPHYLL",
+        "Description": "THYLAKOIDS_DESCRIPTION",
+        "MPCost": 5,
+        "IconPath": "res://assets/textures/gui/bevel/parts/ChromatophoreIcon.png",
+        "OverrideGraphics": {
+          "ScenePath": "res://assets/models/organelles/Xanthophyll.tscn"
+        }
+      }
+    },
     "EditorButtonOrder": 2,
     "EndosymbiosisUnlocks": "chloroplast"
+  },
+  "retinal": {
+    "MPCost": 50,
+    "InitialComposition": {
+      "ammonia": 1,
+      "phosphates": 1
+    },
+    "Hexes": [
+      {
+        "r": 0,
+        "q": 0
+      }
+    ],
+    "Processes": {
+      "glycolysis": 1,
+      "retinal_photosynthesis": 1
+    },
+    "Components": {
+      "Storage": {
+        "Capacity": 0.5
+      }
+    },
+    "Density": 1200,
+    "Graphics": {
+      "ScenePath": "res://assets/models/organelles/Retinal.tscn"
+    },
+    "Name": "RETINAL",
+    "Description": "RETINAL_DESCRIPTION",
+    "ProcessesDescription": "RETINAL_PROCESSES_DESCRIPTION",
+    "ProductionColour": "#A83DCC",
+    "ConsumptionColour": "#8630A2",
+    "IconPath": "res://assets/textures/gui/bevel/parts/ChromatophoreIcon.png",
+    "UnlockConditions": [
+      {
+        "PatchCompound": {
+          "Compound": "sunlight",
+          "Min": 20
+        }
+      }
+    ],
+    "EditorButtonGroup": "Protein",
+    "EditorButtonOrder": 1,
+    "EndosymbiosisUnlocks": "retinoplast"
   },
   "metabolosome": {
     "MPCost": 45,
@@ -665,7 +769,7 @@
     "IconPath": "res://assets/textures/gui/bevel/parts/ChromatophoreIcon.png",
     "EditorButtonGroup": "Protein",
     "EditorButtonOrder": 9,
-    "EndosymbiosisUnlocks": "chloroplast"
+    "EndosymbiosisUnlocks": "melanoplast"
   },
   "chemoplast": {
     "MPCost": 45,
@@ -1021,6 +1125,117 @@
           "Generations": 7,
           "InARow": true,
           "MinimumCount": 5
+        }
+      }
+    ],
+    "RequiresNucleus": true,
+    "EditorButtonGroup": "Organelle",
+    "AvailableUpgrades": {
+      "none": {
+        "IsDefault": true,
+        "Name": "UPGRADE_NAME_NONE",
+        "Description": "UPGRADE_DESCRIPTION_NONE"
+      },
+      "anthocyaninChloroplast": { 
+        "Name": "ANTHOCYANIN_CHLOROPLAST",
+        "Description": "CHLOROPLAST_DESCRIPTION",
+        "MPCost": 5,
+        "IconPath": "res://assets/textures/gui/bevel/parts/ChloroplastIcon.png",
+        "OverrideGraphics": {
+          "ScenePath": "res://assets/models/organelles/AnthocyaninChloroplast.tscn"
+        }
+      },
+      "anthoxanthinChloroplast": { 
+        "Name": "ANTHOXANTHIN_CHLOROPLAST",
+        "Description": "CHLOROPLAST_DESCRIPTION",
+        "MPCost": 5,
+        "IconPath": "res://assets/textures/gui/bevel/parts/ChloroplastIcon.png",
+        "OverrideGraphics": {
+          "ScenePath": "res://assets/models/organelles/AnthoxanthinChloroplast.tscn"
+        }
+      },
+      "carotenoidChloroplast": { 
+        "Name": "CAROTENOID_CHLOROPLAST",
+        "Description": "CHLOROPLAST_DESCRIPTION",
+        "MPCost": 5,
+        "IconPath": "res://assets/textures/gui/bevel/parts/ChloroplastIcon.png",
+        "OverrideGraphics": {
+          "ScenePath": "res://assets/models/organelles/CarotenoidChloroplast.tscn"
+        }
+      },
+      "cyanidinChloroplast": { 
+        "Name": "CYANIDIN_CHLOROPLAST",
+        "Description": "CHLOROPLAST_DESCRIPTION",
+        "MPCost": 5,
+        "IconPath": "res://assets/textures/gui/bevel/parts/ChloroplastIcon.png",
+        "OverrideGraphics": {
+          "ScenePath": "res://assets/models/organelles/CyanidinChloroplast.tscn"
+        }
+      },
+      "phycoerythrinChloroplast": { 
+        "Name": "PHYCOERYTHRIN_CHLOROPLAST",
+        "Description": "CHLOROPLAST_DESCRIPTION",
+        "MPCost": 5,
+        "IconPath": "res://assets/textures/gui/bevel/parts/ChloroplastIcon.png",
+        "OverrideGraphics": {
+          "ScenePath": "res://assets/models/organelles/PhycoerythrinChloroplast.tscn"
+        }
+      },
+      "xanthophyllChloroplast": { 
+        "Name": "XANTHOPHYLL_CHLOROPLAST",
+        "Description": "CHLOROPLAST_DESCRIPTION",
+        "MPCost": 5,
+        "IconPath": "res://assets/textures/gui/bevel/parts/ChloroplastIcon.png",
+        "OverrideGraphics": {
+          "ScenePath": "res://assets/models/organelles/XanthophyllChloroplast.tscn"
+        }
+      }
+    },
+    "EditorButtonOrder": 4
+  },
+  "retinoplast": {
+    "MPCost": 50,
+    "InitialComposition": {
+      "ammonia": 2,
+      "phosphates": 2
+    },
+    "Hexes": [
+      {
+        "r": 0,
+        "q": 0
+      },
+      {
+        "r": -1,
+        "q": 0
+      },
+      {
+        "r": -1,
+        "q": 1
+      }
+    ],
+    "Processes": {
+      "retinoplast_photosynthesis": 1
+    },
+    "Components": {
+      "Storage": {
+        "Capacity": 1.5
+      }
+    },
+    "Density": 1200,
+    "Graphics": {
+      "ScenePath": "res://assets/models/organelles/Retinoplast.tscn"
+    },
+    "Name": "RETINOPLAST",
+    "Description": "RETINOPLAST_DESCRIPTION",
+    "ProcessesDescription": "RETINOPLAST_PROCESSES_DESCRIPTION",
+    "IconPath": "res://assets/textures/gui/bevel/parts/ChloroplastIcon.png",
+    "UnlockConditions": [
+      {
+        "ReproduceWithOrganelle": {
+          "Organelle": "retinal",
+          "Generations": 7,
+          "InARow": true,
+          "MinimumCount": 4
         }
       }
     ],

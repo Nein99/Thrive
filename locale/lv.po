@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-11-02 22:11-0500\n"
+"POT-Creation-Date: 2024-11-04 00:09-0600\n"
 "PO-Revision-Date: 2024-10-17 07:24+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Latvian <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/lv/>\n"
@@ -195,6 +195,21 @@ msgstr "Anaerobiskā slāpekļa fiksācija"
 #, fuzzy
 msgid "AND_UNLOCK_CONDITION"
 msgstr "Fiziskie apstākļi"
+
+#, fuzzy
+msgid "ANTHOCYANIN"
+msgstr "Rusticianīns"
+
+#, fuzzy
+msgid "ANTHOCYANIN_CHLOROPLAST"
+msgstr "Hloroplasts"
+
+msgid "ANTHOXANTHIN"
+msgstr ""
+
+#, fuzzy
+msgid "ANTHOXANTHIN_CHLOROPLAST"
+msgstr "Hloroplasts"
 
 msgid "APPEARANCE"
 msgstr ""
@@ -636,6 +651,14 @@ msgstr "Caps Lock (taustiņš)"
 
 msgid "CARBON_DIOXIDE"
 msgstr "Ogļskābā gāze"
+
+#, fuzzy
+msgid "CAROTENOIDS"
+msgstr "Olbaltumvielas"
+
+#, fuzzy
+msgid "CAROTENOID_CHLOROPLAST"
+msgstr "Hloroplasts"
 
 msgid "CATEGORY_AN_ABUNDANCE"
 msgstr ""
@@ -1351,6 +1374,14 @@ msgstr "Organisma statistika"
 
 msgid "CUSTOM_USERNAME"
 msgstr "Pielāgots lietotājvards:"
+
+#, fuzzy
+msgid "CYANIDIN"
+msgstr "Rusticianīns"
+
+#, fuzzy
+msgid "CYANIDIN_CHLOROPLAST"
+msgstr "Hloroplasts"
 
 msgid "CYTOPLASM"
 msgstr "Citoplazma"
@@ -4613,6 +4644,13 @@ msgstr "Fosfāti"
 msgid "PHOTOSYNTHESIS"
 msgstr "Fotosintēze"
 
+msgid "PHYCOERYTHRIN"
+msgstr ""
+
+#, fuzzy
+msgid "PHYCOERYTHRIN_CHLOROPLAST"
+msgstr "Hloroplasts"
+
 msgid "PHYSICAL_CONDITIONS"
 msgstr "Fiziskie apstākļi"
 
@@ -4906,6 +4944,33 @@ msgstr "Turpināt"
 
 msgid "RESUME_TOOLTIP"
 msgstr "Atsākt spēli"
+
+msgid "RETINAL"
+msgstr ""
+
+#, fuzzy
+msgid "RETINAL_DESCRIPTION"
+msgstr "Apraksts:"
+
+#, fuzzy
+msgid "RETINAL_PHOTOSYNTHESIS"
+msgstr "Fotosintēze"
+
+#, fuzzy
+msgid "RETINAL_PROCESSES_DESCRIPTION"
+msgstr "Pārveido [thrive:compound type=\"glucose\"][/thrive:compound] par [thrive:compound type=\"atp\"][/thrive:compound]."
+
+#, fuzzy
+msgid "RETINOPLAST"
+msgstr "Hemoplasts"
+
+#, fuzzy
+msgid "RETINOPLAST_DESCRIPTION"
+msgstr "Apraksts:"
+
+#, fuzzy
+msgid "RETINOPLAST_PROCESSES_DESCRIPTION"
+msgstr "Pārveido [thrive:compound type=\"glucose\"][/thrive:compound] par [thrive:compound type=\"atp\"][/thrive:compound]."
 
 msgid "RETURN_TO_MENU"
 msgstr "Atgriezties izvēlnē"
@@ -8173,6 +8238,13 @@ msgstr ""
 msgid "WORST_PATCH_COLON"
 msgstr "Sliktākais Plankums:"
 
+msgid "XANTHOPHYLL"
+msgstr ""
+
+#, fuzzy
+msgid "XANTHOPHYLL_CHLOROPLAST"
+msgstr "Hloroplasts"
+
 msgid "XBOX360"
 msgstr ""
 
@@ -8270,10 +8342,6 @@ msgstr "Attālināt"
 #, fuzzy
 #~ msgid "WIKI_OXYTOXY_SYNTHESIS"
 #~ msgstr "OxyToxy sintēze"
-
-#, fuzzy
-#~ msgid "WIKI_PHOTOSYNTHESIS"
-#~ msgstr "Fotosintēze"
 
 #, fuzzy
 #~ msgid "WIKI_RUSTICYANIN"

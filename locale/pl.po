@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-11-02 22:11-0500\n"
+"POT-Creation-Date: 2024-11-04 00:09-0600\n"
 "PO-Revision-Date: 2024-10-17 07:24+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Polish <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/pl/>\n"
@@ -190,6 +190,21 @@ msgstr "Beztlenowe Wiązanie Azotu"
 
 msgid "AND_UNLOCK_CONDITION"
 msgstr "i"
+
+#, fuzzy
+msgid "ANTHOCYANIN"
+msgstr "Rusticyjanina"
+
+#, fuzzy
+msgid "ANTHOCYANIN_CHLOROPLAST"
+msgstr "Chloroplast"
+
+msgid "ANTHOXANTHIN"
+msgstr ""
+
+#, fuzzy
+msgid "ANTHOXANTHIN_CHLOROPLAST"
+msgstr "Chloroplast"
 
 msgid "APPEARANCE"
 msgstr "Wygląd"
@@ -598,6 +613,14 @@ msgstr "Caps Lock"
 
 msgid "CARBON_DIOXIDE"
 msgstr "Dwutlenek Węgla"
+
+#, fuzzy
+msgid "CAROTENOIDS"
+msgstr "Białka"
+
+#, fuzzy
+msgid "CAROTENOID_CHLOROPLAST"
+msgstr "Chloroplast"
 
 msgid "CATEGORY_AN_ABUNDANCE"
 msgstr "Mnóstwo"
@@ -1315,6 +1338,14 @@ msgstr ""
 
 msgid "CUSTOM_USERNAME"
 msgstr "Własna nazwa użytkownika:"
+
+#, fuzzy
+msgid "CYANIDIN"
+msgstr "Rusticyjanina"
+
+#, fuzzy
+msgid "CYANIDIN_CHLOROPLAST"
+msgstr "Chloroplast"
 
 msgid "CYTOPLASM"
 msgstr "Cytozol"
@@ -4457,6 +4488,13 @@ msgstr "Fosforany (PO₄³⁻)"
 msgid "PHOTOSYNTHESIS"
 msgstr "Fotosynteza"
 
+msgid "PHYCOERYTHRIN"
+msgstr ""
+
+#, fuzzy
+msgid "PHYCOERYTHRIN_CHLOROPLAST"
+msgstr "Chloroplast"
+
 msgid "PHYSICAL_CONDITIONS"
 msgstr "Warunki Fizyczne"
 
@@ -4738,6 +4776,33 @@ msgstr "Wznów"
 
 msgid "RESUME_TOOLTIP"
 msgstr "Wznów"
+
+msgid "RETINAL"
+msgstr ""
+
+#, fuzzy
+msgid "RETINAL_DESCRIPTION"
+msgstr "Chitynaza umożliwia komórce trawienie błon chitynowych. Każde dodanie zwiększa wydajność."
+
+#, fuzzy
+msgid "RETINAL_PHOTOSYNTHESIS"
+msgstr "Fotosynteza"
+
+#, fuzzy
+msgid "RETINAL_PROCESSES_DESCRIPTION"
+msgstr "Zwiększa prędkość obrotu większych komórek."
+
+#, fuzzy
+msgid "RETINOPLAST"
+msgstr "Chemoplast"
+
+#, fuzzy
+msgid "RETINOPLAST_DESCRIPTION"
+msgstr "Chemoplast to otoczona dwiema błonami struktura zawierająca białka mogące przekształcać [thrive:compound type=\"hydrogensulfide\"][/thrive:compound], wodę i gazowy [thrive:compound type=\"carbondioxide\"][/thrive:compound] w [thrive:compound type=\"glucose\"][/thrive:compound] w procesie zwanym [b]Chemosyntezą Siarkowodorową[/b]. Tempo produkcji [thrive:compound type=\"glucose\"][/thrive:compound] skaluje się ze stężeniem [thrive:compound type=\"carbondioxide\"][/thrive:compound]."
+
+#, fuzzy
+msgid "RETINOPLAST_PROCESSES_DESCRIPTION"
+msgstr "Przekształca [thrive:compound type=\"hydrogensulfide\"][/thrive:compound] w [thrive:compound type=\"glucose\"][/thrive:compound]. Tempo skaluje się ze stężeniem [thrive:compound type=\"carbondioxide\"][/thrive:compound]."
 
 msgid "RETURN_TO_MENU"
 msgstr "Wróć do Menu"
@@ -7922,6 +7987,13 @@ msgstr "żeby zwiększyć ruch"
 msgid "WORST_PATCH_COLON"
 msgstr "Najgorzej radzi sobie w:"
 
+msgid "XANTHOPHYLL"
+msgstr ""
+
+#, fuzzy
+msgid "XANTHOPHYLL_CHLOROPLAST"
+msgstr "Chloroplast"
+
 msgid "XBOX360"
 msgstr "Xbox 360"
 
@@ -8028,10 +8100,6 @@ msgstr "Oddal"
 #, fuzzy
 #~ msgid "WIKI_OXYTOXY_SYNTHESIS"
 #~ msgstr "Synteza OxyToxy"
-
-#, fuzzy
-#~ msgid "WIKI_PHOTOSYNTHESIS"
-#~ msgstr "Fotosynteza"
 
 #, fuzzy
 #~ msgid "WIKI_RUSTICYANIN"
