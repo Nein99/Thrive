@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-11-08 23:26-0600\n"
+"POT-Creation-Date: 2024-11-09 13:57-0600\n"
 "PO-Revision-Date: 2024-10-17 07:24+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Serbian (Latin script) <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/sr_Latn/>\n"
@@ -56,6 +56,37 @@ msgstr ""
 
 msgid "ACETIC_ACID"
 msgstr ""
+
+msgid "ACETOCLASTIC_METHANOGENESIS"
+msgstr ""
+
+#, fuzzy
+msgid "ACETOCLASTIC_PROTEINS"
+msgstr "Hemosintetski Proteini"
+
+#, fuzzy
+msgid "ACETOCLASTIC_PROTEINS_DESCRIPTION"
+msgstr "Hemoplast je dvostruka membranska struktura koja sadrži proteine koji su sposobni da pretvore vodonik-sulfid, vodu i gasoviti ugljen-dioksid u glukozu u procesu koji se naziva Hemosinteza vodonik-sulfida. Stopa njegove proizvodnje glukoze skalira se sa koncentracijom vode i ugljen-dioksida."
+
+#, fuzzy
+msgid "ACETOCLASTIC_PROTEINS_PROCESSES_DESCRIPTION"
+msgstr "Hemosintetizujući proteini su male grupe proteina u citoplazmi koje su u stanju da pretvore vodonik-sulfid, vodu i gasoviti ugljen-dioksid u glukozu u procesu koji se naziva Hemosinteza vodonik-sulfida. Stopa njegove proizvodnje glukoze skalira se sa koncentracijom ugljen-dioksida. Pošto su proteini hemosinteze suspendovani direktno u citoplazmi, okolna tečnost vrši fermentaciju."
+
+#, fuzzy
+msgid "ACETOGENESIS"
+msgstr "Hemosinteza"
+
+#, fuzzy
+msgid "ACETOGENIC_PROTEINS"
+msgstr "Hemosintetski Proteini"
+
+#, fuzzy
+msgid "ACETOGENIC_PROTEINS_DESCRIPTION"
+msgstr "Hemosintetizujući proteini su male grupe proteina u citoplazmi koje su u stanju da pretvore vodonik-sulfid, vodu i gasoviti ugljen-dioksid u glukozu u procesu koji se naziva Hemosinteza vodonik-sulfida. Stopa njegove proizvodnje glukoze skalira se sa koncentracijom ugljen-dioksida. Pošto su proteini hemosinteze suspendovani direktno u citoplazmi, okolna tečnost vrši fermentaciju."
+
+#, fuzzy
+msgid "ACETOGENIC_PROTEINS_PROCESSES_DESCRIPTION"
+msgstr "Hemosintetizujući proteini su male grupe proteina u citoplazmi koje su u stanju da pretvore vodonik-sulfid, vodu i gasoviti ugljen-dioksid u glukozu u procesu koji se naziva Hemosinteza vodonik-sulfida. Stopa njegove proizvodnje glukoze skalira se sa koncentracijom ugljen-dioksida. Pošto su proteini hemosinteze suspendovani direktno u citoplazmi, okolna tečnost vrši fermentaciju."
 
 msgid "ACTION_AWAKEN"
 msgstr ""
@@ -110,6 +141,18 @@ msgstr ""
 #, fuzzy
 msgid "ADVANCED_VIEW_BUTTON_TOOLTIP"
 msgstr "Dodajte novo vezivanje tastera"
+
+#, fuzzy
+msgid "AEROBIC_METHYLOTROPHIC_PROTEINS"
+msgstr "Disanje"
+
+#, fuzzy
+msgid "AEROBIC_METHYLOTROPHIC_PROTEINS_DESCRIPTION"
+msgstr "Hemosintetizujući proteini su male grupe proteina u citoplazmi koje su u stanju da pretvore vodonik-sulfid, vodu i gasoviti ugljen-dioksid u glukozu u procesu koji se naziva Hemosinteza vodonik-sulfida. Stopa njegove proizvodnje glukoze skalira se sa koncentracijom ugljen-dioksida. Pošto su proteini hemosinteze suspendovani direktno u citoplazmi, okolna tečnost vrši fermentaciju."
+
+#, fuzzy
+msgid "AEROBIC_METHYLOTROPHIC_PROTEINS_PROCESSES_DESCRIPTION"
+msgstr "Hemosintetizujući proteini su male grupe proteina u citoplazmi koje su u stanju da pretvore vodonik-sulfid, vodu i gasoviti ugljen-dioksid u glukozu u procesu koji se naziva Hemosinteza vodonik-sulfida. Stopa njegove proizvodnje glukoze skalira se sa koncentracijom ugljen-dioksida. Pošto su proteini hemosinteze suspendovani direktno u citoplazmi, okolna tečnost vrši fermentaciju."
 
 #, fuzzy
 msgid "AEROBIC_NITROGEN_FIXATION"
@@ -651,12 +694,43 @@ msgid "CARBON_MONOXIDE"
 msgstr "Ugljen Dioksid"
 
 #, fuzzy
+msgid "CARBON_MONOXIDE_DEHYDROGENASE"
+msgstr "Ugljen Dioksid"
+
+#, fuzzy
+msgid "CARBON_MONOXIDE_DEHYDROGENASE_DESCRIPTION"
+msgstr "Nitrogenaza je protein u stanju da koristi gasoviti azot i ćelijsku energiju u obliku ATP za proizvodnju amonijaka, ključnog hranljivog sastojka za rast ćelija. Ovo je proces koji se naziva anaerobna fiksacija azota. Pošto je nitrogenaza suspendovana direktno u citoplazmi, okolna tečnost vrši fermentaciju."
+
+#, fuzzy
+msgid "CARBON_MONOXIDE_DEHYDROGENASE_PROCESSES_DESCRIPTION"
+msgstr "Nitrogenaza je protein u stanju da koristi gasoviti azot i ćelijsku energiju u obliku ATP za proizvodnju amonijaka, ključnog hranljivog sastojka za rast ćelija. Ovo je proces koji se naziva anaerobna fiksacija azota. Pošto je nitrogenaza suspendovana direktno u citoplazmi, okolna tečnost vrši fermentaciju."
+
+#, fuzzy
+msgid "CARBON_MONOXIDE_OXIDATION"
+msgstr "Ugljen Dioksid"
+
+#, fuzzy
 msgid "CAROTENOIDS"
 msgstr "Proteini"
 
 #, fuzzy
 msgid "CAROTENOID_CHLOROPLAST"
 msgstr "Hloroplast"
+
+msgid "CAS9"
+msgstr ""
+
+#, fuzzy
+msgid "CAS9_DESCRIPTION"
+msgstr "Lepljiva unutrašnjost ćelije. Citoplazma je osnovna smeša jona, proteina i drugih supstanci rastvorenih u vodi koja ispunjava unutrašnjost ćelije. Jedna od funkcija koju obavlja je fermentacija, pretvaranje glukoze u ATP energiju. Da bi ćelije kojima nedostaju organeli imali napredniji metabolizam, na to se oslanjaju u energiji. Takođe se koristi za skladištenje molekula u ćeliji i za povećanje veličine ćelije."
+
+#, fuzzy
+msgid "CAS9_PROCESSES_DESCRIPTION"
+msgstr "Lepljiva unutrašnjost ćelije. Citoplazma je osnovna smeša jona, proteina i drugih supstanci rastvorenih u vodi koja ispunjava unutrašnjost ćelije. Jedna od funkcija koju obavlja je fermentacija, pretvaranje glukoze u ATP energiju. Da bi ćelije kojima nedostaju organeli imali napredniji metabolizam, na to se oslanjaju u energiji. Takođe se koristi za skladištenje molekula u ćeliji i za povećanje veličine ćelije."
+
+#, fuzzy
+msgid "CAS9_REACTION"
+msgstr "igrač je umro"
 
 msgid "CATEGORY_AN_ABUNDANCE"
 msgstr ""
@@ -2499,6 +2573,21 @@ msgstr "Nitrogenaza je protein u stanju da koristi gasoviti azot i ćelijsku ene
 msgid "HYDROGENOSOME_PROCESSES_DESCRIPTION"
 msgstr "Nitrogenaza je protein u stanju da koristi gasoviti azot i ćelijsku energiju u obliku ATP za proizvodnju amonijaka, ključnog hranljivog sastojka za rast ćelija. Ovo je proces koji se naziva anaerobna fiksacija azota. Pošto je nitrogenaza suspendovana direktno u citoplazmi, okolna tečnost vrši fermentaciju."
 
+msgid "HYDROGENOTROPHIC_METHANOGENESIS"
+msgstr ""
+
+#, fuzzy
+msgid "HYDROGENOTROPHIC_PROTEINS"
+msgstr "Nitrogenaza je protein u stanju da koristi gasoviti azot i ćelijsku energiju u obliku ATP za proizvodnju amonijaka, ključnog hranljivog sastojka za rast ćelija. Ovo je proces koji se naziva anaerobna fiksacija azota. Pošto je nitrogenaza suspendovana direktno u citoplazmi, okolna tečnost vrši fermentaciju."
+
+#, fuzzy
+msgid "HYDROGENOTROPHIC_PROTEINS_DESCRIPTION"
+msgstr "Nitrogenaza je protein u stanju da koristi gasoviti azot i ćelijsku energiju u obliku ATP za proizvodnju amonijaka, ključnog hranljivog sastojka za rast ćelija. Ovo je proces koji se naziva anaerobna fiksacija azota. Pošto je nitrogenaza suspendovana direktno u citoplazmi, okolna tečnost vrši fermentaciju."
+
+#, fuzzy
+msgid "HYDROGENOTROPHIC_PROTEINS_PROCESSES_DESCRIPTION"
+msgstr "Nitrogenaza je protein u stanju da koristi gasoviti azot i ćelijsku energiju u obliku ATP za proizvodnju amonijaka, ključnog hranljivog sastojka za rast ćelija. Ovo je proces koji se naziva anaerobna fiksacija azota. Pošto je nitrogenaza suspendovana direktno u citoplazmi, okolna tečnost vrši fermentaciju."
+
 msgid "HYDROGEN_SULFIDE"
 msgstr "Vodonik Sulfid"
 
@@ -3277,6 +3366,33 @@ msgstr "Hemosinteza"
 msgid "MANGANESE"
 msgstr ""
 
+#, fuzzy
+msgid "MANGANESE_CHEMOLITHOAUTOTROPHY"
+msgstr "Hemolitoautotrofija gvožđa"
+
+msgid "MANGANESE_OXIDASE"
+msgstr ""
+
+#, fuzzy
+msgid "MANGANESE_OXIDASE_DESCRIPTION"
+msgstr "Izbodite druge ćelije sa ovo."
+
+#, fuzzy
+msgid "MANGANESE_OXIDASE_PROCESSES_DESCRIPTION"
+msgstr "Izbodite druge ćelije sa ovo."
+
+#, fuzzy
+msgid "MANGANOPLAST"
+msgstr "Hemoplast"
+
+#, fuzzy
+msgid "MANGANOPLAST_DESCRIPTION"
+msgstr "Hemoplast je dvostruka membranska struktura koja sadrži proteine koji su sposobni da pretvore vodonik-sulfid, vodu i gasoviti ugljen-dioksid u glukozu u procesu koji se naziva Hemosinteza vodonik-sulfida. Stopa njegove proizvodnje glukoze skalira se sa koncentracijom vode i ugljen-dioksida."
+
+#, fuzzy
+msgid "MANGANOPLAST_PROCESSES_DESCRIPTION"
+msgstr "Hemoplast je dvostruka membranska struktura koja sadrži proteine koji su sposobni da pretvore vodonik-sulfid, vodu i gasoviti ugljen-dioksid u glukozu u procesu koji se naziva Hemosinteza vodonik-sulfida. Stopa njegove proizvodnje glukoze skalira se sa koncentracijom vode i ugljen-dioksida."
+
 msgid "MANUALLY_SET_TIME"
 msgstr ""
 
@@ -3308,6 +3424,18 @@ msgstr ""
 
 msgid "MAY"
 msgstr ""
+
+#, fuzzy
+msgid "MCR"
+msgstr "Zona: {0}"
+
+#, fuzzy
+msgid "MCR_DESCRIPTION"
+msgstr "Vakuola je unutrašnja membranska organela koja se koristi za skladištenje u ćeliji. Sastoje se od nekoliko vezikula, manjih opnastih struktura koje se široko koriste u ćelijama za skladištenje, a koje su se stopile. Ispunjen je vodom koja se koristi da sadrži molekule, enzime, čvrste materije i druge supstance. Njihov oblik je tečan i može se razlikovati između ćelija."
+
+#, fuzzy
+msgid "MCR_PROCESSES_DESCRIPTION"
+msgstr "Lepljiva unutrašnjost ćelije. Citoplazma je osnovna smeša jona, proteina i drugih supstanci rastvorenih u vodi koja ispunjava unutrašnjost ćelije. Jedna od funkcija koju obavlja je fermentacija, pretvaranje glukoze u ATP energiju. Da bi ćelije kojima nedostaju organeli imali napredniji metabolizam, na to se oslanjaju u energiji. Takođe se koristi za skladištenje molekula u ćeliji i za povećanje veličine ćelije."
 
 #, fuzzy
 msgid "MECHANICS_BUTTON"
@@ -3383,7 +3511,38 @@ msgstr "Metabolosomi su grozdi proteina umotani u proteinske ljuske. Oni su u st
 msgid "METHANE"
 msgstr ""
 
+msgid "METHANE_MONOOXYGENASE"
+msgstr ""
+
+#, fuzzy
+msgid "METHANE_MONOOXYGENASE_DESCRIPTION"
+msgstr "Termoplast je dvostruka membranska struktura koja sadrži termosenzibilne pigmente složene zajedno u membranske vrećice. To je prokariot koji je asimilirao za upotrebu od svog eukariotskog domaćina. Pigmenti u termoplastu mogu da koriste energiju toplotnih razlika u okolini za proizvodnju glukoze iz vode i gasovitog ugljen-dioksida u procesu koji se naziva termosinteza. Stopa njegove proizvodnje glukoze skalira se sa koncentracijom ugljen-dioksida i temperaturom."
+
+#, fuzzy
+msgid "METHANE_MONOOXYGENASE_PROCESSES_DESCRIPTION"
+msgstr "Termoplast je dvostruka membranska struktura koja sadrži termosenzibilne pigmente složene zajedno u membranske vrećice. To je prokariot koji je asimilirao za upotrebu od svog eukariotskog domaćina. Pigmenti u termoplastu mogu da koriste energiju toplotnih razlika u okolini za proizvodnju glukoze iz vode i gasovitog ugljen-dioksida u procesu koji se naziva termosinteza. Stopa njegove proizvodnje glukoze skalira se sa koncentracijom ugljen-dioksida i temperaturom."
+
 msgid "METHANOL "
+msgstr ""
+
+msgid "METHANOTROPHY"
+msgstr ""
+
+msgid "METHYLOTROPHIC_METHANOGENESIS"
+msgstr ""
+
+msgid "METHYLOTROPHIC_PROTEINS"
+msgstr ""
+
+#, fuzzy
+msgid "METHYLOTROPHIC_PROTEINS_DESCRIPTION"
+msgstr "Hemosintetizujući proteini su male grupe proteina u citoplazmi koje su u stanju da pretvore vodonik-sulfid, vodu i gasoviti ugljen-dioksid u glukozu u procesu koji se naziva Hemosinteza vodonik-sulfida. Stopa njegove proizvodnje glukoze skalira se sa koncentracijom ugljen-dioksida. Pošto su proteini hemosinteze suspendovani direktno u citoplazmi, okolna tečnost vrši fermentaciju."
+
+#, fuzzy
+msgid "METHYLOTROPHIC_PROTEINS_PROCESSES_DESCRIPTION"
+msgstr "Hemosintetizujući proteini su male grupe proteina u citoplazmi koje su u stanju da pretvore vodonik-sulfid, vodu i gasoviti ugljen-dioksid u glukozu u procesu koji se naziva Hemosinteza vodonik-sulfida. Stopa njegove proizvodnje glukoze skalira se sa koncentracijom ugljen-dioksida. Pošto su proteini hemosinteze suspendovani direktno u citoplazmi, okolna tečnost vrši fermentaciju."
+
+msgid "METHYLOTROPHY"
 msgstr ""
 
 #, fuzzy
@@ -4909,6 +5068,9 @@ msgstr "Vratite se u Meni"
 #, fuzzy
 msgid "REVEAL_ALL_PATCHES"
 msgstr "se proširila na zone:"
+
+msgid "REVERSE_METHANOGENESIS"
+msgstr ""
 
 #, fuzzy
 msgid "REVOLUTIONARY_GAMES_SOCIAL_TOOLTIP"
@@ -8394,10 +8556,6 @@ msgstr "Odzumirati"
 #, fuzzy
 #~ msgid "TOTAL_EXTINCTION"
 #~ msgstr "Broj populacije od {0} promenio se za {1} zbog: {2}"
-
-#, fuzzy
-#~ msgid "LOCAL_EXTINCTION"
-#~ msgstr "igrač je umro"
 
 #, fuzzy
 #~ msgid "MARINE_SNOW_FOOD_SOURCE"

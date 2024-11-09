@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-11-08 23:26-0600\n"
+"POT-Creation-Date: 2024-11-09 13:57-0600\n"
 "PO-Revision-Date: 2024-10-17 07:24+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Ukrainian <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/uk/>\n"
@@ -52,6 +52,37 @@ msgstr "Прийняти"
 
 msgid "ACETIC_ACID"
 msgstr ""
+
+msgid "ACETOCLASTIC_METHANOGENESIS"
+msgstr ""
+
+#, fuzzy
+msgid "ACETOCLASTIC_PROTEINS"
+msgstr "Хемосинтезувальні білки"
+
+#, fuzzy
+msgid "ACETOCLASTIC_PROTEINS_DESCRIPTION"
+msgstr "Перетворює [thrive:compound type=\"hydrogensulfide\"][/thrive:compound] на [thrive:compound type=\"glucose\"][/thrive:compound]. Швидкість залежить від концентрації [thrive:compound type=\"carbondioxide\"][/thrive:compound]."
+
+#, fuzzy
+msgid "ACETOCLASTIC_PROTEINS_PROCESSES_DESCRIPTION"
+msgstr "Перетворює [thrive:compound type=\"hydrogensulfide\"][/thrive:compound] на [thrive:compound type=\"glucose\"][/thrive:compound]. Кількість залежить від [thrive:compound type=\"carbondioxide\"][/thrive:compound]. Також перетворює [thrive:compound type=\"glucose\"][/thrive:compound] на [thrive:compound type=\"atp\"][/thrive:compound]."
+
+#, fuzzy
+msgid "ACETOGENESIS"
+msgstr "Хемосинтез"
+
+#, fuzzy
+msgid "ACETOGENIC_PROTEINS"
+msgstr "Хемосинтезувальні білки"
+
+#, fuzzy
+msgid "ACETOGENIC_PROTEINS_DESCRIPTION"
+msgstr "Хемосинтезувальні білки є маленькими кластерами білків у цитоплазмі, які перетворюють [thrive:compound type=\"hydrogensulfide\"][/thrive:compound], воду та [thrive:compound type=\"carbondioxide\"][/thrive:compound] на [thrive:compound type=\"glucose\"][/thrive:compound] під час процесу, що зветься [b]Сірководневим Хемосинтезом [/b]. Їхня кількість виробленої [thrive:compound type=\"glucose\"][/thrive:compound] залежить від концентрації [thrive:compound type=\"carbondioxide\"][/thrive:compound]. Оскільки хемосинтезувальні білки розміщуються одразу в цитоплазмі, навколишня рідина одразу здійснює певний [b]гліколіз [/b]."
+
+#, fuzzy
+msgid "ACETOGENIC_PROTEINS_PROCESSES_DESCRIPTION"
+msgstr "Перетворює [thrive:compound type=\"hydrogensulfide\"][/thrive:compound] на [thrive:compound type=\"glucose\"][/thrive:compound]. Кількість залежить від [thrive:compound type=\"carbondioxide\"][/thrive:compound]. Також перетворює [thrive:compound type=\"glucose\"][/thrive:compound] на [thrive:compound type=\"atp\"][/thrive:compound]."
 
 msgid "ACTION_AWAKEN"
 msgstr "Пробудити ({0:F1} / {1:F1})"
@@ -99,6 +130,18 @@ msgstr "Детальніше"
 
 msgid "ADVANCED_VIEW_BUTTON_TOOLTIP"
 msgstr "Відкрити вікно розширених налаштувань"
+
+#, fuzzy
+msgid "AEROBIC_METHYLOTROPHIC_PROTEINS"
+msgstr "Аеробне Дихання"
+
+#, fuzzy
+msgid "AEROBIC_METHYLOTROPHIC_PROTEINS_DESCRIPTION"
+msgstr "Хемосинтезувальні білки є маленькими кластерами білків у цитоплазмі, які перетворюють [thrive:compound type=\"hydrogensulfide\"][/thrive:compound], воду та [thrive:compound type=\"carbondioxide\"][/thrive:compound] на [thrive:compound type=\"glucose\"][/thrive:compound] під час процесу, що зветься [b]Сірководневим Хемосинтезом [/b]. Їхня кількість виробленої [thrive:compound type=\"glucose\"][/thrive:compound] залежить від концентрації [thrive:compound type=\"carbondioxide\"][/thrive:compound]. Оскільки хемосинтезувальні білки розміщуються одразу в цитоплазмі, навколишня рідина одразу здійснює певний [b]гліколіз [/b]."
+
+#, fuzzy
+msgid "AEROBIC_METHYLOTROPHIC_PROTEINS_PROCESSES_DESCRIPTION"
+msgstr "Перетворює [thrive:compound type=\"hydrogensulfide\"][/thrive:compound] на [thrive:compound type=\"glucose\"][/thrive:compound]. Кількість залежить від [thrive:compound type=\"carbondioxide\"][/thrive:compound]. Також перетворює [thrive:compound type=\"glucose\"][/thrive:compound] на [thrive:compound type=\"atp\"][/thrive:compound]."
 
 #, fuzzy
 msgid "AEROBIC_NITROGEN_FIXATION"
@@ -631,12 +674,43 @@ msgid "CARBON_MONOXIDE"
 msgstr "Вуглекислий газ"
 
 #, fuzzy
+msgid "CARBON_MONOXIDE_DEHYDROGENASE"
+msgstr "Вуглекислий газ"
+
+#, fuzzy
+msgid "CARBON_MONOXIDE_DEHYDROGENASE_DESCRIPTION"
+msgstr "Нітрогеназа– це білок, що використовує газоподібний [thrive:compound type=\"nitrogen\"][/thrive:compound] та клітинну енергію, у вигляді [thrive:compound type=\"atp\"][/thrive:compound], щоб перетворити останнє на виробленний [thrive:compound type=\"ammonia\"][/thrive:compound], головна поживна речовина для росту клітин. Цей процес зветься [b]анаеробна азотофіксація [/b]. Оскільки нітрогеназа розміщена в цитоплазмі, то оточуюча рідина одразу здійснює [b]гліколіз [/b]."
+
+#, fuzzy
+msgid "CARBON_MONOXIDE_DEHYDROGENASE_PROCESSES_DESCRIPTION"
+msgstr "Перетворює [thrive:compound type=\"atp\"][/thrive:compound] на [thrive:compound type=\"ammonia\"][/thrive:compound]. Кількість залежить від [thrive:compound type=\"nitrogen\"][/thrive:compound]."
+
+#, fuzzy
+msgid "CARBON_MONOXIDE_OXIDATION"
+msgstr "Вуглекислий газ"
+
+#, fuzzy
 msgid "CAROTENOIDS"
 msgstr "Білки"
 
 #, fuzzy
 msgid "CAROTENOID_CHLOROPLAST"
 msgstr "Хлоропласт"
+
+msgid "CAS9"
+msgstr ""
+
+#, fuzzy
+msgid "CAS9_DESCRIPTION"
+msgstr "Волоски війок скидаються на джгутики, але замість забезпечення спрямування сили тяги вони надають обертову силу, що допомагає повертатися клітині."
+
+#, fuzzy
+msgid "CAS9_PROCESSES_DESCRIPTION"
+msgstr "Збільшує швидкість обертання великих клітин."
+
+#, fuzzy
+msgid "CAS9_REACTION"
+msgstr "Скасувати поточну дію"
 
 msgid "CATEGORY_AN_ABUNDANCE"
 msgstr "в достатку"
@@ -2415,6 +2489,21 @@ msgstr "Нітрогеназа– це білок, що використовує
 msgid "HYDROGENOSOME_PROCESSES_DESCRIPTION"
 msgstr "Перетворює [thrive:compound type=\"atp\"][/thrive:compound] на [thrive:compound type=\"ammonia\"][/thrive:compound]. Кількість залежить від [thrive:compound type=\"nitrogen\"][/thrive:compound]."
 
+msgid "HYDROGENOTROPHIC_METHANOGENESIS"
+msgstr ""
+
+#, fuzzy
+msgid "HYDROGENOTROPHIC_PROTEINS"
+msgstr "Нітрогеназа– це білок, що використовує газоподібний [thrive:compound type=\"nitrogen\"][/thrive:compound] та клітинну енергію, у вигляді [thrive:compound type=\"atp\"][/thrive:compound], щоб перетворити останнє на виробленний [thrive:compound type=\"ammonia\"][/thrive:compound], головна поживна речовина для росту клітин. Цей процес зветься [b]анаеробна азотофіксація [/b]. Оскільки нітрогеназа розміщена в цитоплазмі, то оточуюча рідина одразу здійснює [b]гліколіз [/b]."
+
+#, fuzzy
+msgid "HYDROGENOTROPHIC_PROTEINS_DESCRIPTION"
+msgstr "Перетворює [thrive:compound type=\"atp\"][/thrive:compound] на [thrive:compound type=\"ammonia\"][/thrive:compound]. Кількість залежить від [thrive:compound type=\"nitrogen\"][/thrive:compound]."
+
+#, fuzzy
+msgid "HYDROGENOTROPHIC_PROTEINS_PROCESSES_DESCRIPTION"
+msgstr "Перетворює [thrive:compound type=\"atp\"][/thrive:compound] на [thrive:compound type=\"ammonia\"][/thrive:compound]. Кількість залежить від [thrive:compound type=\"nitrogen\"][/thrive:compound]."
+
 msgid "HYDROGEN_SULFIDE"
 msgstr "Сірководень"
 
@@ -3159,6 +3248,33 @@ msgstr "Синтез слизу"
 msgid "MANGANESE"
 msgstr ""
 
+#, fuzzy
+msgid "MANGANESE_CHEMOLITHOAUTOTROPHY"
+msgstr "Хемолітоавтотрофія заліза"
+
+msgid "MANGANESE_OXIDASE"
+msgstr ""
+
+#, fuzzy
+msgid "MANGANESE_OXIDASE_DESCRIPTION"
+msgstr "Ворсинки (однина: ворсинка) знаходяться на поверхні багатьох мікроорганізмів і нагадують тонкі волоски. Від десятків до сотень ворсинок можуть бути на поверхні мікроорганізму та виконувати кілька функцій, включаючи роль в хижацтві. Патогенні мікроорганізми використовують їх для ураження або прикріплення й зв'язування з тканинами господаря; або для проникнення крізь зовнішню мембрану, щоб отримати доступ до цитоплазми. Багато існує схожих ворсинок, але еволюційно ті не пов'язані, а є результатом конвергентної еволюції. Одному організму можуть бути притаманні різні ворсинки, а ті, які присутні на поверхні завжди змінюються й міняються."
+
+#, fuzzy
+msgid "MANGANESE_OXIDASE_PROCESSES_DESCRIPTION"
+msgstr "Проштрихніть нею інші клітини."
+
+#, fuzzy
+msgid "MANGANOPLAST"
+msgstr "Хемопласт"
+
+#, fuzzy
+msgid "MANGANOPLAST_DESCRIPTION"
+msgstr "Хемопласт — це двохмембранна структура, що містить білки, здатні перетворювати [thrive:compound type=\"hydrogensulfide\"][/thrive:compound], воду та газоподібний [thrive:compound type=\"carbondioxide\"][/thrive:compound] на [thrive:compound type=\"glucose\"][/thrive:compound] в процесі, що зветься [b]сірководневим хемосинтезом[/b]. Кількість глюкози залежить від концентрації [thrive:compound type=\"carbondioxide\"][/thrive:compound]."
+
+#, fuzzy
+msgid "MANGANOPLAST_PROCESSES_DESCRIPTION"
+msgstr "Перетворює [thrive:compound type=\"hydrogensulfide\"][/thrive:compound] на [thrive:compound type=\"glucose\"][/thrive:compound]. Швидкість залежить від концентрації [thrive:compound type=\"carbondioxide\"][/thrive:compound]."
+
 msgid "MANUALLY_SET_TIME"
 msgstr "Установити час доби вручну"
 
@@ -3188,6 +3304,18 @@ msgstr "Не дозволено показувати більше ніж {0} д�
 
 msgid "MAY"
 msgstr "Травень"
+
+#, fuzzy
+msgid "MCR"
+msgstr "Мікроб"
+
+#, fuzzy
+msgid "MCR_DESCRIPTION"
+msgstr "Опис моду:"
+
+#, fuzzy
+msgid "MCR_PROCESSES_DESCRIPTION"
+msgstr "Збільшує швидкість обертання великих клітин."
 
 #, fuzzy
 msgid "MECHANICS_BUTTON"
@@ -3261,7 +3389,38 @@ msgstr "Перетворює [thrive:compound type=\"glucose\"][/thrive:compound
 msgid "METHANE"
 msgstr ""
 
+msgid "METHANE_MONOOXYGENASE"
+msgstr ""
+
+#, fuzzy
+msgid "METHANE_MONOOXYGENASE_DESCRIPTION"
+msgstr "Термосинтаза– білок, що використовував теплову конвекцію для зміни своєї форми, даючи змогу згортатися та зв'язуватися з АДФ під дією тепла, а потім розгортатися перероблюючи [thrive:compound type=\"atp\"][/thrive:compound], під дією нижчих температур у процесі, що зветься [b]термосинтезом [/b]. Швидкість виробництва [thrive:compound type=\"atp\"][/thrive:compound] змінюється залежно від [thrive:compound type=\"temperature\"][/thrive:compound]."
+
+#, fuzzy
+msgid "METHANE_MONOOXYGENASE_PROCESSES_DESCRIPTION"
+msgstr "Продукує [thrive:compound type=\"atp\"][/thrive:compound] використовує температурний градієнт. Кількість залежить від [thrive:compound type=\"temperature\"][/thrive:compound]."
+
 msgid "METHANOL "
+msgstr ""
+
+msgid "METHANOTROPHY"
+msgstr ""
+
+msgid "METHYLOTROPHIC_METHANOGENESIS"
+msgstr ""
+
+msgid "METHYLOTROPHIC_PROTEINS"
+msgstr ""
+
+#, fuzzy
+msgid "METHYLOTROPHIC_PROTEINS_DESCRIPTION"
+msgstr "Хемосинтезувальні білки є маленькими кластерами білків у цитоплазмі, які перетворюють [thrive:compound type=\"hydrogensulfide\"][/thrive:compound], воду та [thrive:compound type=\"carbondioxide\"][/thrive:compound] на [thrive:compound type=\"glucose\"][/thrive:compound] під час процесу, що зветься [b]Сірководневим Хемосинтезом [/b]. Їхня кількість виробленої [thrive:compound type=\"glucose\"][/thrive:compound] залежить від концентрації [thrive:compound type=\"carbondioxide\"][/thrive:compound]. Оскільки хемосинтезувальні білки розміщуються одразу в цитоплазмі, навколишня рідина одразу здійснює певний [b]гліколіз [/b]."
+
+#, fuzzy
+msgid "METHYLOTROPHIC_PROTEINS_PROCESSES_DESCRIPTION"
+msgstr "Перетворює [thrive:compound type=\"hydrogensulfide\"][/thrive:compound] на [thrive:compound type=\"glucose\"][/thrive:compound]. Кількість залежить від [thrive:compound type=\"carbondioxide\"][/thrive:compound]. Також перетворює [thrive:compound type=\"glucose\"][/thrive:compound] на [thrive:compound type=\"atp\"][/thrive:compound]."
+
+msgid "METHYLOTROPHY"
 msgstr ""
 
 msgid "METRICS"
@@ -4801,6 +4960,9 @@ msgstr ""
 
 msgid "REVEAL_ALL_PATCHES"
 msgstr "Відкрити всі ділянки"
+
+msgid "REVERSE_METHANOGENESIS"
+msgstr ""
 
 msgid "REVOLUTIONARY_GAMES_SOCIAL_TOOLTIP"
 msgstr "Відвідайте офіційний сайт Revolutionary Games"

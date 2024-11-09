@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-11-08 23:26-0600\n"
+"POT-Creation-Date: 2024-11-09 13:57-0600\n"
 "PO-Revision-Date: 2024-10-17 07:24+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Portuguese (Portugal) <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/pt_PT/>\n"
@@ -52,6 +52,37 @@ msgstr ""
 
 msgid "ACETIC_ACID"
 msgstr ""
+
+msgid "ACETOCLASTIC_METHANOGENESIS"
+msgstr ""
+
+#, fuzzy
+msgid "ACETOCLASTIC_PROTEINS"
+msgstr "Proteínas Quimiossintetizantes"
+
+#, fuzzy
+msgid "ACETOCLASTIC_PROTEINS_DESCRIPTION"
+msgstr "Transforma [thrive:compound type=\"hydrogensulfide\"][/thrive:compound] em [thrive:compound type=\"glucose\"][/thrive:compound]. A taxa aumenta com a concentração de [thrive:compound type=\"carbondioxide\"][/thrive:compound]."
+
+#, fuzzy
+msgid "ACETOCLASTIC_PROTEINS_PROCESSES_DESCRIPTION"
+msgstr "Transforma [thrive:compound type=\"hydrogensulfide\"][/thrive:compound] em [thrive:compound type=\"glucose\"][/thrive:compound]. A taxa aumenta com a concentração de [thrive:compound type=\"carbondioxide\"][/thrive:compound]. Também converte [thrive:compound type=\"glucose\"][/thrive:compound] em [thrive:compound type=\"atp\"][/thrive:compound]."
+
+#, fuzzy
+msgid "ACETOGENESIS"
+msgstr "Quimiossíntese"
+
+#, fuzzy
+msgid "ACETOGENIC_PROTEINS"
+msgstr "Proteínas Quimiossintetizantes"
+
+#, fuzzy
+msgid "ACETOGENIC_PROTEINS_DESCRIPTION"
+msgstr "Proteínas quimiossintetizantes são pequenos conjuntos de proteínas no citoplasma capazes de converter [thrive:compound type=\"hydrogensulfide\"], [thrive:compound type=\"carbondioxide\"][/thrive:compound] gasoso e água em [thrive:compound type=\"glucose\"][/thrive:compound] num processo chamado [b]quimiossíntese de sulfeto de hidrogénio[/b]. A taxa de produção de [thrive:compound type=\"glucose\"][/thrive:compound] aumenta com a concentração de [thrive:compound type=\"carbondioxide\"][/thrive:compound]. Uma vez que as proteínas quimiossintetizantes estão suspensas diretamente no citoplasma, o fluído envolvente efetua alguma [b]glicólise[/b]."
+
+#, fuzzy
+msgid "ACETOGENIC_PROTEINS_PROCESSES_DESCRIPTION"
+msgstr "Transforma [thrive:compound type=\"hydrogensulfide\"][/thrive:compound] em [thrive:compound type=\"glucose\"][/thrive:compound]. A taxa aumenta com a concentração de [thrive:compound type=\"carbondioxide\"][/thrive:compound]. Também converte [thrive:compound type=\"glucose\"][/thrive:compound] em [thrive:compound type=\"atp\"][/thrive:compound]."
 
 msgid "ACTION_AWAKEN"
 msgstr "Despertar ({0:F1} / {1:F1})"
@@ -100,6 +131,18 @@ msgstr "Avançadas"
 
 msgid "ADVANCED_VIEW_BUTTON_TOOLTIP"
 msgstr "Abrir a janela de configuração avançada"
+
+#, fuzzy
+msgid "AEROBIC_METHYLOTROPHIC_PROTEINS"
+msgstr "Respiração Aeróbica"
+
+#, fuzzy
+msgid "AEROBIC_METHYLOTROPHIC_PROTEINS_DESCRIPTION"
+msgstr "Proteínas quimiossintetizantes são pequenos conjuntos de proteínas no citoplasma capazes de converter [thrive:compound type=\"hydrogensulfide\"], [thrive:compound type=\"carbondioxide\"][/thrive:compound] gasoso e água em [thrive:compound type=\"glucose\"][/thrive:compound] num processo chamado [b]quimiossíntese de sulfeto de hidrogénio[/b]. A taxa de produção de [thrive:compound type=\"glucose\"][/thrive:compound] aumenta com a concentração de [thrive:compound type=\"carbondioxide\"][/thrive:compound]. Uma vez que as proteínas quimiossintetizantes estão suspensas diretamente no citoplasma, o fluído envolvente efetua alguma [b]glicólise[/b]."
+
+#, fuzzy
+msgid "AEROBIC_METHYLOTROPHIC_PROTEINS_PROCESSES_DESCRIPTION"
+msgstr "Transforma [thrive:compound type=\"hydrogensulfide\"][/thrive:compound] em [thrive:compound type=\"glucose\"][/thrive:compound]. A taxa aumenta com a concentração de [thrive:compound type=\"carbondioxide\"][/thrive:compound]. Também converte [thrive:compound type=\"glucose\"][/thrive:compound] em [thrive:compound type=\"atp\"][/thrive:compound]."
 
 #, fuzzy
 msgid "AEROBIC_NITROGEN_FIXATION"
@@ -637,12 +680,43 @@ msgid "CARBON_MONOXIDE"
 msgstr "Dióxido de Carbono"
 
 #, fuzzy
+msgid "CARBON_MONOXIDE_DEHYDROGENASE"
+msgstr "Dióxido de Carbono"
+
+#, fuzzy
+msgid "CARBON_MONOXIDE_DEHYDROGENASE_DESCRIPTION"
+msgstr "Nitrogenase é uma proteína capaz de utilizar o [thrive:compound type=\"nitrogen\"][/thrive:compound] gasoso e a energia celular na forma de [thrive:compound type=\"atp\"][/thrive:compound] para produzir [thrive:compound type=\"ammonia\"][/thrive:compound], um nutriente chave para o crescimento das células. Isto é um processo referido como [b]Fixação Anaeróbica de Nitrogénio[/b]. Uma vez que a Nitrogenase está suspensa diretamente no citoplasma, o fluído envolvente efetua alguma [b]glicólise[/b]."
+
+#, fuzzy
+msgid "CARBON_MONOXIDE_DEHYDROGENASE_PROCESSES_DESCRIPTION"
+msgstr "Transforma [thrive:compound type=\"atp\"][/thrive:compound] em [thrive:compound type=\"ammonia\"][/thrive:compound]. A taxa aumenta com a concentração de [thrive:compound type=\"nitrogen\"][/thrive:compound]."
+
+#, fuzzy
+msgid "CARBON_MONOXIDE_OXIDATION"
+msgstr "Dióxido de Carbono"
+
+#, fuzzy
 msgid "CAROTENOIDS"
 msgstr "Proteínas"
 
 #, fuzzy
 msgid "CAROTENOID_CHLOROPLAST"
 msgstr "Cloroplasto"
+
+msgid "CAS9"
+msgstr ""
+
+#, fuzzy
+msgid "CAS9_DESCRIPTION"
+msgstr "Os cílios são semelhantes aos flagelos mas, em vez de fornecerem força de impulso direcional, fornecem força de rotação para ajudar as células a rodar."
+
+#, fuzzy
+msgid "CAS9_PROCESSES_DESCRIPTION"
+msgstr "Aumenta a velocidade de rotação de células grandes."
+
+#, fuzzy
+msgid "CAS9_REACTION"
+msgstr "Cancelar ação em curso"
 
 msgid "CATEGORY_AN_ABUNDANCE"
 msgstr "uma abundância"
@@ -2442,6 +2516,21 @@ msgstr "Nitrogenase é uma proteína capaz de utilizar o [thrive:compound type=\
 msgid "HYDROGENOSOME_PROCESSES_DESCRIPTION"
 msgstr "Transforma [thrive:compound type=\"atp\"][/thrive:compound] em [thrive:compound type=\"ammonia\"][/thrive:compound]. A taxa aumenta com a concentração de [thrive:compound type=\"nitrogen\"][/thrive:compound]."
 
+msgid "HYDROGENOTROPHIC_METHANOGENESIS"
+msgstr ""
+
+#, fuzzy
+msgid "HYDROGENOTROPHIC_PROTEINS"
+msgstr "Nitrogenase é uma proteína capaz de utilizar o [thrive:compound type=\"nitrogen\"][/thrive:compound] gasoso e a energia celular na forma de [thrive:compound type=\"atp\"][/thrive:compound] para produzir [thrive:compound type=\"ammonia\"][/thrive:compound], um nutriente chave para o crescimento das células. Isto é um processo referido como [b]Fixação Anaeróbica de Nitrogénio[/b]. Uma vez que a Nitrogenase está suspensa diretamente no citoplasma, o fluído envolvente efetua alguma [b]glicólise[/b]."
+
+#, fuzzy
+msgid "HYDROGENOTROPHIC_PROTEINS_DESCRIPTION"
+msgstr "Transforma [thrive:compound type=\"atp\"][/thrive:compound] em [thrive:compound type=\"ammonia\"][/thrive:compound]. A taxa aumenta com a concentração de [thrive:compound type=\"nitrogen\"][/thrive:compound]."
+
+#, fuzzy
+msgid "HYDROGENOTROPHIC_PROTEINS_PROCESSES_DESCRIPTION"
+msgstr "Transforma [thrive:compound type=\"atp\"][/thrive:compound] em [thrive:compound type=\"ammonia\"][/thrive:compound]. A taxa aumenta com a concentração de [thrive:compound type=\"nitrogen\"][/thrive:compound]."
+
 msgid "HYDROGEN_SULFIDE"
 msgstr "Sulfureto de Hidrogénio"
 
@@ -3197,6 +3286,33 @@ msgstr "Quimiossíntese"
 msgid "MANGANESE"
 msgstr ""
 
+#, fuzzy
+msgid "MANGANESE_CHEMOLITHOAUTOTROPHY"
+msgstr "Quimiolitoautotrofia Férrica"
+
+msgid "MANGANESE_OXIDASE"
+msgstr ""
+
+#, fuzzy
+msgid "MANGANESE_OXIDASE_DESCRIPTION"
+msgstr "Ataca as outras células com isto."
+
+#, fuzzy
+msgid "MANGANESE_OXIDASE_PROCESSES_DESCRIPTION"
+msgstr "Esfaqueie outras células com isso."
+
+#, fuzzy
+msgid "MANGANOPLAST"
+msgstr "Quimioplasto"
+
+#, fuzzy
+msgid "MANGANOPLAST_DESCRIPTION"
+msgstr "O quimioplasto é uma estrutura de membrana dupla que contém proteínas capazes de converter [thrive:compound type=\"hydrogensulfide\"][/thrive:compound],[thrive:compound type=\"carbondioxide\"][/thrive:compound] gasoso e água em [thrive:compound type=\"glucose\"][/thrive:compound] num processo chamado [b]Quimiossíntese de Sulfeto de Hidrogénio[/b]. A sua taxa de produção de [thrive:compound type=\"glucose\"][/thrive:compound] aumenta com a concentração de [thrive:compound type=\"carbondioxide\"][/thrive:compound]."
+
+#, fuzzy
+msgid "MANGANOPLAST_PROCESSES_DESCRIPTION"
+msgstr "Transforma [thrive:compound type=\"hydrogensulfide\"][/thrive:compound] em [thrive:compound type=\"glucose\"][/thrive:compound]. A taxa aumenta com a concentração de [thrive:compound type=\"carbondioxide\"][/thrive:compound]."
+
 msgid "MANUALLY_SET_TIME"
 msgstr "Definir manualmente a hora do dia"
 
@@ -3226,6 +3342,18 @@ msgstr "Não é permitido mostrar mais de {0} conjuntos de dados!"
 
 msgid "MAY"
 msgstr "Maio"
+
+#, fuzzy
+msgid "MCR"
+msgstr "Micróbio"
+
+#, fuzzy
+msgid "MCR_DESCRIPTION"
+msgstr "Descrição do Mod:"
+
+#, fuzzy
+msgid "MCR_PROCESSES_DESCRIPTION"
+msgstr "Aumenta a velocidade de rotação de células grandes."
 
 #, fuzzy
 msgid "MECHANICS_BUTTON"
@@ -3299,7 +3427,38 @@ msgstr "Transforma [thrive:compound type=\"glucose\"][/thrive:compound] em[thriv
 msgid "METHANE"
 msgstr ""
 
+msgid "METHANE_MONOOXYGENASE"
+msgstr ""
+
+#, fuzzy
+msgid "METHANE_MONOOXYGENASE_DESCRIPTION"
+msgstr "O termoplasto é uma estrutura de membrana dupla que contém pigmentos termossensíveis. É um procariota que foi reconhecido para uso do seu hospedeiro eucariótico. Os pigmentos nos termoplastos conseguem utilizar a energia das diferenças de calor no ambiente para produzir glicose da água e gás carbónico num processo chamado Termossíntese. A taxa da sua produção de glicose aumenta com a concentração de dióxido de carbono e temperatura."
+
+#, fuzzy
+msgid "METHANE_MONOOXYGENASE_PROCESSES_DESCRIPTION"
+msgstr "Produz [thrive:compound type=\"atp\"][/thrive:compound] usando gradientes de temperatura. A taxa aumenta com a concentração de [thrive:compound type=\"temperature\"][/thrive:compound]."
+
 msgid "METHANOL "
+msgstr ""
+
+msgid "METHANOTROPHY"
+msgstr ""
+
+msgid "METHYLOTROPHIC_METHANOGENESIS"
+msgstr ""
+
+msgid "METHYLOTROPHIC_PROTEINS"
+msgstr ""
+
+#, fuzzy
+msgid "METHYLOTROPHIC_PROTEINS_DESCRIPTION"
+msgstr "Proteínas quimiossintetizantes são pequenos conjuntos de proteínas no citoplasma capazes de converter [thrive:compound type=\"hydrogensulfide\"], [thrive:compound type=\"carbondioxide\"][/thrive:compound] gasoso e água em [thrive:compound type=\"glucose\"][/thrive:compound] num processo chamado [b]quimiossíntese de sulfeto de hidrogénio[/b]. A taxa de produção de [thrive:compound type=\"glucose\"][/thrive:compound] aumenta com a concentração de [thrive:compound type=\"carbondioxide\"][/thrive:compound]. Uma vez que as proteínas quimiossintetizantes estão suspensas diretamente no citoplasma, o fluído envolvente efetua alguma [b]glicólise[/b]."
+
+#, fuzzy
+msgid "METHYLOTROPHIC_PROTEINS_PROCESSES_DESCRIPTION"
+msgstr "Transforma [thrive:compound type=\"hydrogensulfide\"][/thrive:compound] em [thrive:compound type=\"glucose\"][/thrive:compound]. A taxa aumenta com a concentração de [thrive:compound type=\"carbondioxide\"][/thrive:compound]. Também converte [thrive:compound type=\"glucose\"][/thrive:compound] em [thrive:compound type=\"atp\"][/thrive:compound]."
+
+msgid "METHYLOTROPHY"
 msgstr ""
 
 msgid "METRICS"
@@ -4837,6 +4996,9 @@ msgstr ""
 
 msgid "REVEAL_ALL_PATCHES"
 msgstr "Revelar todas as regiões"
+
+msgid "REVERSE_METHANOGENESIS"
+msgstr ""
 
 msgid "REVOLUTIONARY_GAMES_SOCIAL_TOOLTIP"
 msgstr "Visite os sites oficiais da Revolutionary Games"

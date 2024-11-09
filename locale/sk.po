@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-11-08 23:26-0600\n"
+"POT-Creation-Date: 2024-11-09 13:57-0600\n"
 "PO-Revision-Date: 2024-10-17 07:24+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Slovak <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/sk/>\n"
@@ -53,6 +53,37 @@ msgstr ""
 
 msgid "ACETIC_ACID"
 msgstr ""
+
+msgid "ACETOCLASTIC_METHANOGENESIS"
+msgstr ""
+
+#, fuzzy
+msgid "ACETOCLASTIC_PROTEINS"
+msgstr "Chemosyntetizujúce bielkoviny"
+
+#, fuzzy
+msgid "ACETOCLASTIC_PROTEINS_DESCRIPTION"
+msgstr "Premieňa [thrive:compound type=\"glucose\"]glukózu[/thrive:compound] na [thrive:compound type=\"atp\"][/thrive:compound]."
+
+#, fuzzy
+msgid "ACETOCLASTIC_PROTEINS_PROCESSES_DESCRIPTION"
+msgstr "Premieňa [thrive:compound type=\"hydrogensulfide\"]sírovodík[/thrive:compound] na [thrive:compound type=\"glucose\"]glukózu[/thrive:compound]. Množstvo závisí od koncentrácie [thrive:compound type=\"carbondioxide\"]oxidu uhličitého [/thrive:compound]. Taktiežpremieňa [thrive:compound type=\"glucose\"]glukózu[/thrive:compound] na [thrive:compound type=\"atp\"][/thrive:compound]."
+
+#, fuzzy
+msgid "ACETOGENESIS"
+msgstr "Chemosyntéza"
+
+#, fuzzy
+msgid "ACETOGENIC_PROTEINS"
+msgstr "Chemosyntetizujúce bielkoviny"
+
+#, fuzzy
+msgid "ACETOGENIC_PROTEINS_DESCRIPTION"
+msgstr "Zväčšuje úložný priestor bunky."
+
+#, fuzzy
+msgid "ACETOGENIC_PROTEINS_PROCESSES_DESCRIPTION"
+msgstr "Premieňa [thrive:compound type=\"hydrogensulfide\"]sírovodík[/thrive:compound] na [thrive:compound type=\"glucose\"]glukózu[/thrive:compound]. Množstvo závisí od koncentrácie [thrive:compound type=\"carbondioxide\"]oxidu uhličitého [/thrive:compound]. Taktiežpremieňa [thrive:compound type=\"glucose\"]glukózu[/thrive:compound] na [thrive:compound type=\"atp\"][/thrive:compound]."
 
 #, fuzzy
 msgid "ACTION_AWAKEN"
@@ -105,6 +136,18 @@ msgstr "Rozšírené"
 
 msgid "ADVANCED_VIEW_BUTTON_TOOLTIP"
 msgstr "Otvoriť zobrazenie rozšírených nastavení"
+
+#, fuzzy
+msgid "AEROBIC_METHYLOTROPHIC_PROTEINS"
+msgstr "Aeróbne Dýchanie"
+
+#, fuzzy
+msgid "AEROBIC_METHYLOTROPHIC_PROTEINS_DESCRIPTION"
+msgstr "Chemoreceptor umožňuje detegovať zlúčeniny z väčšej vzdialenosti. Po umiestnení je možné upraviť typ zlúčeniny a farbu vodiacej čiary."
+
+#, fuzzy
+msgid "AEROBIC_METHYLOTROPHIC_PROTEINS_PROCESSES_DESCRIPTION"
+msgstr "Premieňa [thrive:compound type=\"hydrogensulfide\"]sírovodík[/thrive:compound] na [thrive:compound type=\"glucose\"]glukózu[/thrive:compound]. Množstvo závisí od koncentrácie [thrive:compound type=\"carbondioxide\"]oxidu uhličitého [/thrive:compound]. Taktiežpremieňa [thrive:compound type=\"glucose\"]glukózu[/thrive:compound] na [thrive:compound type=\"atp\"][/thrive:compound]."
 
 #, fuzzy
 msgid "AEROBIC_NITROGEN_FIXATION"
@@ -638,12 +681,43 @@ msgid "CARBON_MONOXIDE"
 msgstr "Oxid uhličitý"
 
 #, fuzzy
+msgid "CARBON_MONOXIDE_DEHYDROGENASE"
+msgstr "Oxid uhličitý"
+
+#, fuzzy
+msgid "CARBON_MONOXIDE_DEHYDROGENASE_DESCRIPTION"
+msgstr "Premieňa [thrive:compound type=\"atp\"][/thrive:compound] na [thrive:compound type=\"ammonia\"][/thrive:compound]. Množstvo závisí od koncentrácie[thrive:compound type=\"nitrogen\"]dusíka[/thrive:compound]."
+
+#, fuzzy
+msgid "CARBON_MONOXIDE_DEHYDROGENASE_PROCESSES_DESCRIPTION"
+msgstr "Premieňa [thrive:compound type=\"atp\"][/thrive:compound] na [thrive:compound type=\"ammonia\"][/thrive:compound]. Množstvo závisí od koncentrácie[thrive:compound type=\"nitrogen\"]dusíka[/thrive:compound]."
+
+#, fuzzy
+msgid "CARBON_MONOXIDE_OXIDATION"
+msgstr "Oxid uhličitý"
+
+#, fuzzy
 msgid "CAROTENOIDS"
 msgstr "Bielkoviny"
 
 #, fuzzy
 msgid "CAROTENOID_CHLOROPLAST"
 msgstr "Chloroplast"
+
+msgid "CAS9"
+msgstr ""
+
+#, fuzzy
+msgid "CAS9_DESCRIPTION"
+msgstr "Popis:"
+
+#, fuzzy
+msgid "CAS9_PROCESSES_DESCRIPTION"
+msgstr "Zvyšuje rýchlosť otáčania veľkých buniek."
+
+#, fuzzy
+msgid "CAS9_REACTION"
+msgstr "Zrušiť akciu"
 
 msgid "CATEGORY_AN_ABUNDANCE"
 msgstr "veľké množstvo"
@@ -2447,6 +2521,21 @@ msgstr "Premieňa [thrive:compound type=\"atp\"][/thrive:compound] na [thrive:co
 msgid "HYDROGENOSOME_PROCESSES_DESCRIPTION"
 msgstr "Premieňa [thrive:compound type=\"atp\"][/thrive:compound] na [thrive:compound type=\"ammonia\"][/thrive:compound]. Množstvo závisí od koncentrácie[thrive:compound type=\"nitrogen\"]dusíka[/thrive:compound]."
 
+msgid "HYDROGENOTROPHIC_METHANOGENESIS"
+msgstr ""
+
+#, fuzzy
+msgid "HYDROGENOTROPHIC_PROTEINS"
+msgstr "Premieňa [thrive:compound type=\"atp\"][/thrive:compound] na [thrive:compound type=\"ammonia\"][/thrive:compound]. Množstvo závisí od koncentrácie[thrive:compound type=\"nitrogen\"]dusíka[/thrive:compound]."
+
+#, fuzzy
+msgid "HYDROGENOTROPHIC_PROTEINS_DESCRIPTION"
+msgstr "Premieňa [thrive:compound type=\"atp\"][/thrive:compound] na [thrive:compound type=\"ammonia\"][/thrive:compound]. Množstvo závisí od koncentrácie[thrive:compound type=\"nitrogen\"]dusíka[/thrive:compound]."
+
+#, fuzzy
+msgid "HYDROGENOTROPHIC_PROTEINS_PROCESSES_DESCRIPTION"
+msgstr "Premieňa [thrive:compound type=\"atp\"][/thrive:compound] na [thrive:compound type=\"ammonia\"][/thrive:compound]. Množstvo závisí od koncentrácie[thrive:compound type=\"nitrogen\"]dusíka[/thrive:compound]."
+
 msgid "HYDROGEN_SULFIDE"
 msgstr "Sírovodík"
 
@@ -3211,6 +3300,33 @@ msgstr "Chemosyntéza"
 msgid "MANGANESE"
 msgstr ""
 
+#, fuzzy
+msgid "MANGANESE_CHEMOLITHOAUTOTROPHY"
+msgstr "Chemolitoautotrofia železa"
+
+msgid "MANGANESE_OXIDASE"
+msgstr ""
+
+#, fuzzy
+msgid "MANGANESE_OXIDASE_DESCRIPTION"
+msgstr "Popis módu:"
+
+#, fuzzy
+msgid "MANGANESE_OXIDASE_PROCESSES_DESCRIPTION"
+msgstr "Môže sa použiť na bodnutie iných buniek alebo na obranu proti ich toxínom."
+
+#, fuzzy
+msgid "MANGANOPLAST"
+msgstr "Chemoplast"
+
+#, fuzzy
+msgid "MANGANOPLAST_DESCRIPTION"
+msgstr "Popis módu:"
+
+#, fuzzy
+msgid "MANGANOPLAST_PROCESSES_DESCRIPTION"
+msgstr "Premieňa [thrive:compound type=\"glucose\"]glukózu[/thrive:compound] na [thrive:compound type=\"atp\"][/thrive:compound]."
+
 msgid "MANUALLY_SET_TIME"
 msgstr ""
 
@@ -3241,6 +3357,18 @@ msgstr "Nie je povolené zobraziť viac ako {0} dátových súborov!"
 
 msgid "MAY"
 msgstr "Máj"
+
+#, fuzzy
+msgid "MCR"
+msgstr "Fáza Mikróbov"
+
+#, fuzzy
+msgid "MCR_DESCRIPTION"
+msgstr "Popis módu:"
+
+#, fuzzy
+msgid "MCR_PROCESSES_DESCRIPTION"
+msgstr "Zvyšuje rýchlosť otáčania veľkých buniek."
 
 #, fuzzy
 msgid "MECHANICS_BUTTON"
@@ -3314,7 +3442,38 @@ msgstr "Premieňa [thrive:compound type=\"glucose\"]glukózu[/thrive:compound] n
 msgid "METHANE"
 msgstr ""
 
+msgid "METHANE_MONOOXYGENASE"
+msgstr ""
+
+#, fuzzy
+msgid "METHANE_MONOOXYGENASE_DESCRIPTION"
+msgstr "Premieňa [thrive:compound type=\"atp\"][/thrive:compound] na [thrive:compound type=\"ammonia\"][/thrive:compound]. Množstvo závisí od koncentrácie[thrive:compound type=\"nitrogen\"]dusíka[/thrive:compound]."
+
+#, fuzzy
+msgid "METHANE_MONOOXYGENASE_PROCESSES_DESCRIPTION"
+msgstr "Produkuje [thrive:compound type=\"atp\"][/thrive:compound] pomocou teplotných gradientov. Množstvo závisí od [thrive:compound type=\"temperature\"] teploty [/thrive:compound]."
+
 msgid "METHANOL "
+msgstr ""
+
+msgid "METHANOTROPHY"
+msgstr ""
+
+msgid "METHYLOTROPHIC_METHANOGENESIS"
+msgstr ""
+
+msgid "METHYLOTROPHIC_PROTEINS"
+msgstr ""
+
+#, fuzzy
+msgid "METHYLOTROPHIC_PROTEINS_DESCRIPTION"
+msgstr "Zvyšuje rýchlosť otáčania veľkých buniek."
+
+#, fuzzy
+msgid "METHYLOTROPHIC_PROTEINS_PROCESSES_DESCRIPTION"
+msgstr "Premieňa [thrive:compound type=\"hydrogensulfide\"]sírovodík[/thrive:compound] na [thrive:compound type=\"glucose\"]glukózu[/thrive:compound]. Množstvo závisí od koncentrácie [thrive:compound type=\"carbondioxide\"]oxidu uhličitého [/thrive:compound]. Taktiežpremieňa [thrive:compound type=\"glucose\"]glukózu[/thrive:compound] na [thrive:compound type=\"atp\"][/thrive:compound]."
+
+msgid "METHYLOTROPHY"
 msgstr ""
 
 msgid "METRICS"
@@ -4826,6 +4985,9 @@ msgstr ""
 #, fuzzy
 msgid "REVEAL_ALL_PATCHES"
 msgstr "rozšírenie do oblastí:"
+
+msgid "REVERSE_METHANOGENESIS"
+msgstr ""
 
 #, fuzzy
 msgid "REVOLUTIONARY_GAMES_SOCIAL_TOOLTIP"

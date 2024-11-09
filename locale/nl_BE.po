@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-11-08 23:26-0600\n"
+"POT-Creation-Date: 2024-11-09 13:57-0600\n"
 "PO-Revision-Date: 2024-10-17 07:24+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Dutch (Belgium) <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/nl_BE/>\n"
@@ -52,6 +52,37 @@ msgstr ""
 
 msgid "ACETIC_ACID"
 msgstr ""
+
+msgid "ACETOCLASTIC_METHANOGENESIS"
+msgstr ""
+
+#, fuzzy
+msgid "ACETOCLASTIC_PROTEINS"
+msgstr "Chemosynthetiserende Eiwitten"
+
+#, fuzzy
+msgid "ACETOCLASTIC_PROTEINS_DESCRIPTION"
+msgstr "Verandert [thrive:compound type=\"hydrogensulfide\"][/thrive:compound] in [thrive:compound type=\"glucose\"][/thrive:compound]. Snelheid schaalt met de concentratie van [thrive:compound type=\"carbondioxide\"][/thrive:compound]."
+
+#, fuzzy
+msgid "ACETOCLASTIC_PROTEINS_PROCESSES_DESCRIPTION"
+msgstr "Verandert [thrive:compound type=\"hydrogensulfide\"][/thrive:compound] in [thrive:compound type=\"glucose\"][/thrive:compound]. Ratio schaalt met concentratie van [thrive:compound type=\"carbondioxide\"][/thrive:compound]. Verandert ook [thrive:compound type=\"glucose\"][/thrive:compound] in [thrive:compound type=\"atp\"][/thrive:compound]."
+
+#, fuzzy
+msgid "ACETOGENESIS"
+msgstr "Chemosynthese"
+
+#, fuzzy
+msgid "ACETOGENIC_PROTEINS"
+msgstr "Chemosynthetiserende Eiwitten"
+
+#, fuzzy
+msgid "ACETOGENIC_PROTEINS_DESCRIPTION"
+msgstr "Chemosynthetiserende eiwitten zijn kleine clusters van eiwitten in het cytoplasma die [thrive:compound type=\"hydrogensulfide\"][/thrive:compound], gasvormig [thrive:compound type=\"carbondioxide\"][/thrive:compound] en water kunnen omzetten in [thrive:compound type=\"glucose\"][/thrive:compound] via een proces dat men [b]waterstofsulfide chemosynthese[/b] noemt. De snelheid van de [thrive:compound type=\"glucose\"][/thrive:compound] productie schaalt in verband met de concentratie van [thrive:compound type=\"carbondioxide\"][/thrive:compound]. Doordat chemosynthetiserende eiwitten als een suspensie zitten in het cytoplasma, voert de omliggende vloeistof [b]glycolyse[/b] uit."
+
+#, fuzzy
+msgid "ACETOGENIC_PROTEINS_PROCESSES_DESCRIPTION"
+msgstr "Verandert [thrive:compound type=\"hydrogensulfide\"][/thrive:compound] in [thrive:compound type=\"glucose\"][/thrive:compound]. Ratio schaalt met concentratie van [thrive:compound type=\"carbondioxide\"][/thrive:compound]. Verandert ook [thrive:compound type=\"glucose\"][/thrive:compound] in [thrive:compound type=\"atp\"][/thrive:compound]."
 
 msgid "ACTION_AWAKEN"
 msgstr "Ontwaak ({0:F1} / {1:F1})"
@@ -99,6 +130,18 @@ msgstr "Uitgebreid"
 
 msgid "ADVANCED_VIEW_BUTTON_TOOLTIP"
 msgstr "Open de weergave voor uitgebreide instellingen"
+
+#, fuzzy
+msgid "AEROBIC_METHYLOTROPHIC_PROTEINS"
+msgstr "Aërobe Ademhaling"
+
+#, fuzzy
+msgid "AEROBIC_METHYLOTROPHIC_PROTEINS_DESCRIPTION"
+msgstr "Chemosynthetiserende eiwitten zijn kleine clusters van eiwitten in het cytoplasma die [thrive:compound type=\"hydrogensulfide\"][/thrive:compound], gasvormig [thrive:compound type=\"carbondioxide\"][/thrive:compound] en water kunnen omzetten in [thrive:compound type=\"glucose\"][/thrive:compound] via een proces dat men [b]waterstofsulfide chemosynthese[/b] noemt. De snelheid van de [thrive:compound type=\"glucose\"][/thrive:compound] productie schaalt in verband met de concentratie van [thrive:compound type=\"carbondioxide\"][/thrive:compound]. Doordat chemosynthetiserende eiwitten als een suspensie zitten in het cytoplasma, voert de omliggende vloeistof [b]glycolyse[/b] uit."
+
+#, fuzzy
+msgid "AEROBIC_METHYLOTROPHIC_PROTEINS_PROCESSES_DESCRIPTION"
+msgstr "Verandert [thrive:compound type=\"hydrogensulfide\"][/thrive:compound] in [thrive:compound type=\"glucose\"][/thrive:compound]. Ratio schaalt met concentratie van [thrive:compound type=\"carbondioxide\"][/thrive:compound]. Verandert ook [thrive:compound type=\"glucose\"][/thrive:compound] in [thrive:compound type=\"atp\"][/thrive:compound]."
 
 #, fuzzy
 msgid "AEROBIC_NITROGEN_FIXATION"
@@ -647,12 +690,43 @@ msgid "CARBON_MONOXIDE"
 msgstr "Koolstofdioxide"
 
 #, fuzzy
+msgid "CARBON_MONOXIDE_DEHYDROGENASE"
+msgstr "Koolstofdioxide"
+
+#, fuzzy
+msgid "CARBON_MONOXIDE_DEHYDROGENASE_DESCRIPTION"
+msgstr "Nitrogenase is een eiwit dat [thrive:compound type=\"nitrogen\"][/thrive:compound] en celenergie in de vorm van [thrive:compound type=\"atp\"][/thrive:compound] kan gebruiken om [thrive:compound type=\"ammonia\"][/thrive:compound] aan te maken, een belangrijke voedingsstof voor de groei van cellen. Dit proces noemt men [b]anaerobe waterstoffixatie[/b]. Omdat nitrogenase een suspensie in de cytoplasma is, voert de omliggende vloeistof [b]glycolyse[/b] uit."
+
+#, fuzzy
+msgid "CARBON_MONOXIDE_DEHYDROGENASE_PROCESSES_DESCRIPTION"
+msgstr "Verandert [thrive:compound type=\"atp\"][/thrive:compound] in [thrive:compound type=\"ammonia\"][/thrive:compound]. Ratio schaalt met concentratie van [thrive:compound type=\"nitrogen\"][/thrive:compound]."
+
+#, fuzzy
+msgid "CARBON_MONOXIDE_OXIDATION"
+msgstr "Koolstofdioxide"
+
+#, fuzzy
 msgid "CAROTENOIDS"
 msgstr "Proteïnen"
 
 #, fuzzy
 msgid "CAROTENOID_CHLOROPLAST"
 msgstr "Chloroplast"
+
+msgid "CAS9"
+msgstr ""
+
+#, fuzzy
+msgid "CAS9_DESCRIPTION"
+msgstr "Het kleverige binnenste van een cel. Het cytoplasma is het basismengsel van ionen, proteïnen en andere in water opgeloste stoffen die de binnenkant van de cel vullen. Een van de functies die het vervult is glycolyse, de omzetting van glucose in ATP-energie. Voor cellen zonder organellen die zorgen voor een geavanceerder metabolisme, is dit waar ze op vertrouwen voor energie. Het wordt ook gebruikt om moleculen in de cel op te slaan en om de cel te vergroten."
+
+#, fuzzy
+msgid "CAS9_PROCESSES_DESCRIPTION"
+msgstr "Verandert [thrive:compound type=\"glucose\"][/thrive:compound] in [thrive:compound type=\"atp\"][/thrive:compound]."
+
+#, fuzzy
+msgid "CAS9_REACTION"
+msgstr "Omschrijving:"
 
 msgid "CATEGORY_AN_ABUNDANCE"
 msgstr "een overvloed"
@@ -2560,6 +2634,21 @@ msgstr "Nitrogenase is een eiwit dat [thrive:compound type=\"nitrogen\"][/thrive
 msgid "HYDROGENOSOME_PROCESSES_DESCRIPTION"
 msgstr "Verandert [thrive:compound type=\"atp\"][/thrive:compound] in [thrive:compound type=\"ammonia\"][/thrive:compound]. Ratio schaalt met concentratie van [thrive:compound type=\"nitrogen\"][/thrive:compound]."
 
+msgid "HYDROGENOTROPHIC_METHANOGENESIS"
+msgstr ""
+
+#, fuzzy
+msgid "HYDROGENOTROPHIC_PROTEINS"
+msgstr "Nitrogenase is een eiwit dat [thrive:compound type=\"nitrogen\"][/thrive:compound] en celenergie in de vorm van [thrive:compound type=\"atp\"][/thrive:compound] kan gebruiken om [thrive:compound type=\"ammonia\"][/thrive:compound] aan te maken, een belangrijke voedingsstof voor de groei van cellen. Dit proces noemt men [b]anaerobe waterstoffixatie[/b]. Omdat nitrogenase een suspensie in de cytoplasma is, voert de omliggende vloeistof [b]glycolyse[/b] uit."
+
+#, fuzzy
+msgid "HYDROGENOTROPHIC_PROTEINS_DESCRIPTION"
+msgstr "Verandert [thrive:compound type=\"atp\"][/thrive:compound] in [thrive:compound type=\"ammonia\"][/thrive:compound]. Ratio schaalt met concentratie van [thrive:compound type=\"nitrogen\"][/thrive:compound]."
+
+#, fuzzy
+msgid "HYDROGENOTROPHIC_PROTEINS_PROCESSES_DESCRIPTION"
+msgstr "Verandert [thrive:compound type=\"atp\"][/thrive:compound] in [thrive:compound type=\"ammonia\"][/thrive:compound]. Ratio schaalt met concentratie van [thrive:compound type=\"nitrogen\"][/thrive:compound]."
+
 msgid "HYDROGEN_SULFIDE"
 msgstr "Waterstofsulfide"
 
@@ -3356,6 +3445,33 @@ msgstr "Chemosynthese"
 msgid "MANGANESE"
 msgstr ""
 
+#, fuzzy
+msgid "MANGANESE_CHEMOLITHOAUTOTROPHY"
+msgstr "Ijzer Chemolithoautotrofie"
+
+msgid "MANGANESE_OXIDASE"
+msgstr ""
+
+#, fuzzy
+msgid "MANGANESE_OXIDASE_DESCRIPTION"
+msgstr "Steek hiermee andere cellen."
+
+#, fuzzy
+msgid "MANGANESE_OXIDASE_PROCESSES_DESCRIPTION"
+msgstr "Steek hiermee andere cellen."
+
+#, fuzzy
+msgid "MANGANOPLAST"
+msgstr "Chemoplast"
+
+#, fuzzy
+msgid "MANGANOPLAST_DESCRIPTION"
+msgstr "De chemoplast is een door twee membranen omsloten structuur die eiwitten die in staat zijn om [thrive:compound type=\"hydrogensulfide\"][/thrive:compound], water en gasvormig [thrive:compound type=\"carbondioxide\"][/thrive:compound] in [thrive:compound type=\"glucose\"][/thrive:compound] om te zetten bevat. Dit proces heet [b]waterstofsulfide chemosynthese[/b]. De snelheid van de [thrive:compound type=\"glucose\"][/thrive:compound] productie hangt af van de [thrive:compound type=\"carbondioxide\"][/thrive:compound] concentratie."
+
+#, fuzzy
+msgid "MANGANOPLAST_PROCESSES_DESCRIPTION"
+msgstr "Verandert [thrive:compound type=\"hydrogensulfide\"][/thrive:compound] in [thrive:compound type=\"glucose\"][/thrive:compound]. Snelheid schaalt met de concentratie van [thrive:compound type=\"carbondioxide\"][/thrive:compound]."
+
 msgid "MANUALLY_SET_TIME"
 msgstr ""
 
@@ -3387,6 +3503,18 @@ msgstr "Niet toegestaan om meer dan {0} datasets te tonen!"
 
 msgid "MAY"
 msgstr "Mei"
+
+#, fuzzy
+msgid "MCR"
+msgstr "Microbestadium"
+
+#, fuzzy
+msgid "MCR_DESCRIPTION"
+msgstr "Mod Omschrijving:"
+
+#, fuzzy
+msgid "MCR_PROCESSES_DESCRIPTION"
+msgstr "Verandert [thrive:compound type=\"glucose\"][/thrive:compound] in [thrive:compound type=\"atp\"][/thrive:compound]."
 
 #, fuzzy
 msgid "MECHANICS_BUTTON"
@@ -3460,7 +3588,38 @@ msgstr "Verandert [thrive:compound type=\"glucose\"][/thrive:compound] in [thriv
 msgid "METHANE"
 msgstr ""
 
+msgid "METHANE_MONOOXYGENASE"
+msgstr ""
+
+#, fuzzy
+msgid "METHANE_MONOOXYGENASE_DESCRIPTION"
+msgstr "De thermoplast is een door twee membranen omsloten celorganel dat warmtegevoelige pigmenten bevat, op elkaar gestapeld in een membraanzak. Het is een prokaryoot die door zijn eukaryotische gastheer geabsorbeerd is voor diens gebruik. De pigmenten in de thermoplast zijn in staat om de energie van hitteverschillen in de omgeving te gebruiken om glucose uit water en gasvormige koolstofdioxide te produceren in een proces dat thermosyntese heet. De snelheid van de glucoseproductie hangt af van de koolstofdioxideconcentratie en de temperatuur."
+
+#, fuzzy
+msgid "METHANE_MONOOXYGENASE_PROCESSES_DESCRIPTION"
+msgstr "Produceert [thrive:compound type=\"glucose\"][/thrive:compound]. Ratio schaalt met concentratie van [thrive:compound type=\"carbondioxide\"][/thrive:compound] en temperatuur."
+
 msgid "METHANOL "
+msgstr ""
+
+msgid "METHANOTROPHY"
+msgstr ""
+
+msgid "METHYLOTROPHIC_METHANOGENESIS"
+msgstr ""
+
+msgid "METHYLOTROPHIC_PROTEINS"
+msgstr ""
+
+#, fuzzy
+msgid "METHYLOTROPHIC_PROTEINS_DESCRIPTION"
+msgstr "Chemosynthetiserende eiwitten zijn kleine clusters van eiwitten in het cytoplasma die [thrive:compound type=\"hydrogensulfide\"][/thrive:compound], gasvormig [thrive:compound type=\"carbondioxide\"][/thrive:compound] en water kunnen omzetten in [thrive:compound type=\"glucose\"][/thrive:compound] via een proces dat men [b]waterstofsulfide chemosynthese[/b] noemt. De snelheid van de [thrive:compound type=\"glucose\"][/thrive:compound] productie schaalt in verband met de concentratie van [thrive:compound type=\"carbondioxide\"][/thrive:compound]. Doordat chemosynthetiserende eiwitten als een suspensie zitten in het cytoplasma, voert de omliggende vloeistof [b]glycolyse[/b] uit."
+
+#, fuzzy
+msgid "METHYLOTROPHIC_PROTEINS_PROCESSES_DESCRIPTION"
+msgstr "Verandert [thrive:compound type=\"hydrogensulfide\"][/thrive:compound] in [thrive:compound type=\"glucose\"][/thrive:compound]. Ratio schaalt met concentratie van [thrive:compound type=\"carbondioxide\"][/thrive:compound]. Verandert ook [thrive:compound type=\"glucose\"][/thrive:compound] in [thrive:compound type=\"atp\"][/thrive:compound]."
+
+msgid "METHYLOTROPHY"
 msgstr ""
 
 #, fuzzy
@@ -5042,6 +5201,9 @@ msgstr ""
 #, fuzzy
 msgid "REVEAL_ALL_PATCHES"
 msgstr "verspreid naar gebieden:"
+
+msgid "REVERSE_METHANOGENESIS"
+msgstr ""
 
 #, fuzzy
 msgid "REVOLUTIONARY_GAMES_SOCIAL_TOOLTIP"
@@ -8908,10 +9070,6 @@ msgstr "Uitzoomen"
 #, fuzzy
 #~ msgid "YEN"
 #~ msgstr "Zuurstof"
-
-#, fuzzy
-#~ msgid "SECTION"
-#~ msgstr "Omschrijving:"
 
 #, fuzzy
 #~ msgid "COPYRIGHT"

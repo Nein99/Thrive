@@ -524,6 +524,62 @@ DescriptionLabelPath = NodePath("../../processesProduction/metabolosome/MarginCo
 DisplayDelay = 0.0
 Positioning = 1
 
+[node name="mcr" parent="GroupHolder/processesProduction" instance=ExtResource("1")]
+visible = false
+layout_mode = 0
+DescriptionLabelPath = NodePath("../metabolosome/MarginContainer/VBoxContainer/Description")
+DisplayDelay = 0.0
+Positioning = 1
+
+[node name="aerobicMethylotrophicProteins" parent="GroupHolder/processesProduction" instance=ExtResource("1")]
+visible = false
+layout_mode = 0
+DescriptionLabelPath = NodePath("../metabolosome/MarginContainer/VBoxContainer/Description")
+DisplayDelay = 0.0
+Positioning = 1
+
+[node name="hydrogenotrophicProteins" parent="GroupHolder/processesProduction" instance=ExtResource("1")]
+visible = false
+layout_mode = 0
+DescriptionLabelPath = NodePath("../metabolosome/MarginContainer/VBoxContainer/Description")
+DisplayDelay = 0.0
+Positioning = 1
+
+[node name="acetoclasticProteins" parent="GroupHolder/processesProduction" instance=ExtResource("1")]
+visible = false
+layout_mode = 0
+DescriptionLabelPath = NodePath("../metabolosome/MarginContainer/VBoxContainer/Description")
+DisplayDelay = 0.0
+Positioning = 1
+
+[node name="methylotrophicProteins" parent="GroupHolder/processesProduction" instance=ExtResource("1")]
+visible = false
+layout_mode = 0
+DescriptionLabelPath = NodePath("../metabolosome/MarginContainer/VBoxContainer/Description")
+DisplayDelay = 0.0
+Positioning = 1
+
+[node name="methaneMonooxygenase" parent="GroupHolder/processesProduction" instance=ExtResource("1")]
+visible = false
+layout_mode = 0
+DescriptionLabelPath = NodePath("../metabolosome/MarginContainer/VBoxContainer/Description")
+DisplayDelay = 0.0
+Positioning = 1
+
+[node name="carbonMonoxideDehydrogenase" parent="GroupHolder/processesProduction" instance=ExtResource("1")]
+visible = false
+layout_mode = 0
+DescriptionLabelPath = NodePath("../metabolosome/MarginContainer/VBoxContainer/Description")
+DisplayDelay = 0.0
+Positioning = 1
+
+[node name="acetogenicProteins" parent="GroupHolder/processesProduction" instance=ExtResource("1")]
+visible = false
+layout_mode = 0
+DescriptionLabelPath = NodePath("../metabolosome/MarginContainer/VBoxContainer/Description")
+DisplayDelay = 0.0
+Positioning = 1
+
 [node name="hydrogenase" parent="GroupHolder/processesProduction" instance=ExtResource("1")]
 visible = false
 layout_mode = 0
@@ -566,10 +622,24 @@ DescriptionLabelPath = NodePath("../../processesProduction/rusticyanin/MarginCon
 DisplayDelay = 0.0
 Positioning = 1
 
+[node name="manganeseOxidase" parent="GroupHolder/processesProduction" instance=ExtResource("1")]
+visible = false
+layout_mode = 0
+DescriptionLabelPath = NodePath("../rusticyanin/MarginContainer/VBoxContainer/Description")
+DisplayDelay = 0.0
+Positioning = 1
+
 [node name="nitrogenase" parent="GroupHolder/processesProduction" instance=ExtResource("1")]
 visible = false
 layout_mode = 0
 DescriptionLabelPath = NodePath("../../processesProduction/nitrogenase/MarginContainer/VBoxContainer/Description")
+DisplayDelay = 0.0
+Positioning = 1
+
+[node name="cas9" parent="GroupHolder/processesProduction" instance=ExtResource("1")]
+visible = false
+layout_mode = 0
+DescriptionLabelPath = NodePath("../nitrogenase/MarginContainer/VBoxContainer/Description")
 DisplayDelay = 0.0
 Positioning = 1
 
@@ -700,10 +770,24 @@ DescriptionLabelPath = NodePath("../../../GroupHolder/processesConsumption/rusti
 DisplayDelay = 0.0
 Positioning = 1
 
+[node name="manganeseOxidase" parent="GroupHolder/processesConsumption" instance=ExtResource("1")]
+visible = false
+layout_mode = 0
+DescriptionLabelPath = NodePath("../rusticyanin/MarginContainer/VBoxContainer/Description")
+DisplayDelay = 0.0
+Positioning = 1
+
 [node name="nitrogenase" parent="GroupHolder/processesConsumption" instance=ExtResource("1")]
 visible = false
 layout_mode = 0
 DescriptionLabelPath = NodePath("../../../GroupHolder/processesConsumption/nitrogenase/MarginContainer/VBoxContainer/Description")
+DisplayDelay = 0.0
+Positioning = 1
+
+[node name="cas9" parent="GroupHolder/processesConsumption" instance=ExtResource("1")]
+visible = false
+layout_mode = 0
+DescriptionLabelPath = NodePath("../nitrogenase/MarginContainer/VBoxContainer/Description")
 DisplayDelay = 0.0
 Positioning = 1
 

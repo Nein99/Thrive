@@ -396,10 +396,10 @@ public partial class CreatureStageHUDBase<TStage> : HUDWithPausing, ICreatureSta
         environmentPanel.AddPrimaryBar(nitrogenBar);
         environmentPanel.AddPrimaryBar(methaneBar);
         environmentPanel.AddPrimaryBar(hydrogenBar);
-        environmentPanel.AddPrimaryBar(carbonMonoxideBar);
-        environmentPanel.AddPrimaryBar(calciumBar);
-        environmentPanel.AddPrimaryBar(carbonatesBar);
-        environmentPanel.AddPrimaryBar(saltBar);
+        // environmentPanel.AddPrimaryBar(carbonMonoxideBar);
+        // environmentPanel.AddPrimaryBar(calciumBar);
+        // environmentPanel.AddPrimaryBar(carbonatesBar);
+        // environmentPanel.AddPrimaryBar(saltBar);
         environmentPanel.AddPrimaryBar(temperatureBar);
         environmentPanel.AddPrimaryBar(sunlightBar);
         environmentPanel.AddPrimaryBar(pressureBar);

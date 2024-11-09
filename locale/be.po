@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Thrive VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-11-08 23:26-0600\n"
+"POT-Creation-Date: 2024-11-09 13:57-0600\n"
 "PO-Revision-Date: 2023-09-21 09:24+0000\n"
 "Last-Translator: Henri Hyyryläinen <hhyyrylainen@revolutionarygamesstudio.com>\n"
 "Language-Team: Belarusian <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/be/>\n"
@@ -51,6 +51,35 @@ msgstr ""
 
 msgid "ACETIC_ACID"
 msgstr ""
+
+msgid "ACETOCLASTIC_METHANOGENESIS"
+msgstr ""
+
+msgid "ACETOCLASTIC_PROTEINS"
+msgstr ""
+
+#, fuzzy
+msgid "ACETOCLASTIC_PROTEINS_DESCRIPTION"
+msgstr "3D Рэдактар"
+
+#, fuzzy
+msgid "ACETOCLASTIC_PROTEINS_PROCESSES_DESCRIPTION"
+msgstr "3D Рэдактар"
+
+#, fuzzy
+msgid "ACETOGENESIS"
+msgstr "3D Рэдактар"
+
+msgid "ACETOGENIC_PROTEINS"
+msgstr ""
+
+#, fuzzy
+msgid "ACETOGENIC_PROTEINS_DESCRIPTION"
+msgstr "3D Рэдактар"
+
+#, fuzzy
+msgid "ACETOGENIC_PROTEINS_PROCESSES_DESCRIPTION"
+msgstr "3D Рэдактар"
 
 #, fuzzy
 msgid "ACTION_AWAKEN"
@@ -97,6 +126,18 @@ msgstr ""
 
 msgid "ADVANCED_VIEW_BUTTON_TOOLTIP"
 msgstr ""
+
+#, fuzzy
+msgid "AEROBIC_METHYLOTROPHIC_PROTEINS"
+msgstr "3D Рэдактар"
+
+#, fuzzy
+msgid "AEROBIC_METHYLOTROPHIC_PROTEINS_DESCRIPTION"
+msgstr "3D Рэдактар"
+
+#, fuzzy
+msgid "AEROBIC_METHYLOTROPHIC_PROTEINS_PROCESSES_DESCRIPTION"
+msgstr "3D Рэдактар"
 
 #, fuzzy
 msgid "AEROBIC_NITROGEN_FIXATION"
@@ -580,10 +621,38 @@ msgstr ""
 msgid "CARBON_MONOXIDE"
 msgstr ""
 
+msgid "CARBON_MONOXIDE_DEHYDROGENASE"
+msgstr ""
+
+#, fuzzy
+msgid "CARBON_MONOXIDE_DEHYDROGENASE_DESCRIPTION"
+msgstr "3D Рэдактар"
+
+#, fuzzy
+msgid "CARBON_MONOXIDE_DEHYDROGENASE_PROCESSES_DESCRIPTION"
+msgstr "3D Рэдактар"
+
+msgid "CARBON_MONOXIDE_OXIDATION"
+msgstr ""
+
 msgid "CAROTENOIDS"
 msgstr ""
 
 msgid "CAROTENOID_CHLOROPLAST"
+msgstr ""
+
+msgid "CAS9"
+msgstr ""
+
+#, fuzzy
+msgid "CAS9_DESCRIPTION"
+msgstr "3D Рэдактар"
+
+#, fuzzy
+msgid "CAS9_PROCESSES_DESCRIPTION"
+msgstr "3D Рэдактар"
+
+msgid "CAS9_REACTION"
 msgstr ""
 
 msgid "CATEGORY_AN_ABUNDANCE"
@@ -2230,6 +2299,21 @@ msgstr "3D Рэдактар"
 msgid "HYDROGENOSOME_PROCESSES_DESCRIPTION"
 msgstr "3D Рэдактар"
 
+msgid "HYDROGENOTROPHIC_METHANOGENESIS"
+msgstr ""
+
+#, fuzzy
+msgid "HYDROGENOTROPHIC_PROTEINS"
+msgstr "3D Рэдактар"
+
+#, fuzzy
+msgid "HYDROGENOTROPHIC_PROTEINS_DESCRIPTION"
+msgstr "3D Рэдактар"
+
+#, fuzzy
+msgid "HYDROGENOTROPHIC_PROTEINS_PROCESSES_DESCRIPTION"
+msgstr "3D Рэдактар"
+
 msgid "HYDROGEN_SULFIDE"
 msgstr ""
 
@@ -2939,6 +3023,31 @@ msgstr "3D Рэдактар"
 msgid "MANGANESE"
 msgstr ""
 
+msgid "MANGANESE_CHEMOLITHOAUTOTROPHY"
+msgstr ""
+
+msgid "MANGANESE_OXIDASE"
+msgstr ""
+
+#, fuzzy
+msgid "MANGANESE_OXIDASE_DESCRIPTION"
+msgstr "3D Рэдактар"
+
+#, fuzzy
+msgid "MANGANESE_OXIDASE_PROCESSES_DESCRIPTION"
+msgstr "3D Рэдактар"
+
+msgid "MANGANOPLAST"
+msgstr ""
+
+#, fuzzy
+msgid "MANGANOPLAST_DESCRIPTION"
+msgstr "3D Рэдактар"
+
+#, fuzzy
+msgid "MANGANOPLAST_PROCESSES_DESCRIPTION"
+msgstr "3D Рэдактар"
+
 msgid "MANUALLY_SET_TIME"
 msgstr ""
 
@@ -2968,6 +3077,17 @@ msgstr ""
 
 msgid "MAY"
 msgstr ""
+
+msgid "MCR"
+msgstr ""
+
+#, fuzzy
+msgid "MCR_DESCRIPTION"
+msgstr "3D Рэдактар"
+
+#, fuzzy
+msgid "MCR_PROCESSES_DESCRIPTION"
+msgstr "3D Рэдактар"
 
 msgid "MECHANICS_BUTTON"
 msgstr ""
@@ -3035,7 +3155,38 @@ msgstr ""
 msgid "METHANE"
 msgstr ""
 
+msgid "METHANE_MONOOXYGENASE"
+msgstr ""
+
+#, fuzzy
+msgid "METHANE_MONOOXYGENASE_DESCRIPTION"
+msgstr "3D Рэдактар"
+
+#, fuzzy
+msgid "METHANE_MONOOXYGENASE_PROCESSES_DESCRIPTION"
+msgstr "3D Рэдактар"
+
 msgid "METHANOL "
+msgstr ""
+
+msgid "METHANOTROPHY"
+msgstr ""
+
+msgid "METHYLOTROPHIC_METHANOGENESIS"
+msgstr ""
+
+msgid "METHYLOTROPHIC_PROTEINS"
+msgstr ""
+
+#, fuzzy
+msgid "METHYLOTROPHIC_PROTEINS_DESCRIPTION"
+msgstr "3D Рэдактар"
+
+#, fuzzy
+msgid "METHYLOTROPHIC_PROTEINS_PROCESSES_DESCRIPTION"
+msgstr "3D Рэдактар"
+
+msgid "METHYLOTROPHY"
 msgstr ""
 
 msgid "METRICS"
@@ -4354,6 +4505,9 @@ msgid "RETURN_TO_MENU_WARNING"
 msgstr ""
 
 msgid "REVEAL_ALL_PATCHES"
+msgstr ""
+
+msgid "REVERSE_METHANOGENESIS"
 msgstr ""
 
 msgid "REVOLUTIONARY_GAMES_SOCIAL_TOOLTIP"

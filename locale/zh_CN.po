@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-11-08 23:26-0600\n"
+"POT-Creation-Date: 2024-11-09 13:57-0600\n"
 "PO-Revision-Date: 2024-10-21 02:55+0000\n"
 "Last-Translator: Guno haozheum <guhaozhe@hsefz.cn>\n"
 "Language-Team: Chinese (Simplified Han script) <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/zh_Hans/>\n"
@@ -52,6 +52,37 @@ msgstr "接受"
 
 msgid "ACETIC_ACID"
 msgstr ""
+
+msgid "ACETOCLASTIC_METHANOGENESIS"
+msgstr ""
+
+#, fuzzy
+msgid "ACETOCLASTIC_PROTEINS"
+msgstr "化学合成蛋白"
+
+#, fuzzy
+msgid "ACETOCLASTIC_PROTEINS_DESCRIPTION"
+msgstr "将[thrive:compound type=\"hydrogensulfide\"][/thrive:compound]转换成[thrive:compound type=\"glucose\"][/thrive:compound]。速率跟[thrive:compound type=\"carbondioxide\"][/thrive:compound]浓度成正比。"
+
+#, fuzzy
+msgid "ACETOCLASTIC_PROTEINS_PROCESSES_DESCRIPTION"
+msgstr "将[thrive:compound type=\"hydrogensulfide\"][/thrive:compound]转换成[thrive:compound type=\"glucose\"][/thrive:compound]。速率跟[thrive:compound type=\"carbondioxide\"][/thrive:compound]的浓度成正比。同时也会将[thrive:compound type=\"glucose\"][/thrive:compound]转换成[thrive:compound type=\"atp\"][/thrive:compound]。"
+
+#, fuzzy
+msgid "ACETOGENESIS"
+msgstr "化能合成"
+
+#, fuzzy
+msgid "ACETOGENIC_PROTEINS"
+msgstr "化学合成蛋白"
+
+#, fuzzy
+msgid "ACETOGENIC_PROTEINS_DESCRIPTION"
+msgstr "化合蛋白是细胞质中的小型蛋白质簇，能够将硫化氢，水和二氧化碳通过[b]硫化氢化能[/b]合成转换成葡萄糖。葡萄糖产出速率与二氧化碳的浓度成正比。由于化学合成蛋白是直接悬浮在细胞质中的，所以它周围的细胞质也能进行一些[b]糖酵解[/b]。"
+
+#, fuzzy
+msgid "ACETOGENIC_PROTEINS_PROCESSES_DESCRIPTION"
+msgstr "将[thrive:compound type=\"hydrogensulfide\"][/thrive:compound]转换成[thrive:compound type=\"glucose\"][/thrive:compound]。速率跟[thrive:compound type=\"carbondioxide\"][/thrive:compound]的浓度成正比。同时也会将[thrive:compound type=\"glucose\"][/thrive:compound]转换成[thrive:compound type=\"atp\"][/thrive:compound]。"
 
 msgid "ACTION_AWAKEN"
 msgstr "觉醒 ({0:F1} / {1:F1})"
@@ -99,6 +130,18 @@ msgstr "高级"
 
 msgid "ADVANCED_VIEW_BUTTON_TOOLTIP"
 msgstr "打开高级菜单"
+
+#, fuzzy
+msgid "AEROBIC_METHYLOTROPHIC_PROTEINS"
+msgstr "有氧呼吸作用"
+
+#, fuzzy
+msgid "AEROBIC_METHYLOTROPHIC_PROTEINS_DESCRIPTION"
+msgstr "化合蛋白是细胞质中的小型蛋白质簇，能够将硫化氢，水和二氧化碳通过[b]硫化氢化能[/b]合成转换成葡萄糖。葡萄糖产出速率与二氧化碳的浓度成正比。由于化学合成蛋白是直接悬浮在细胞质中的，所以它周围的细胞质也能进行一些[b]糖酵解[/b]。"
+
+#, fuzzy
+msgid "AEROBIC_METHYLOTROPHIC_PROTEINS_PROCESSES_DESCRIPTION"
+msgstr "将[thrive:compound type=\"hydrogensulfide\"][/thrive:compound]转换成[thrive:compound type=\"glucose\"][/thrive:compound]。速率跟[thrive:compound type=\"carbondioxide\"][/thrive:compound]的浓度成正比。同时也会将[thrive:compound type=\"glucose\"][/thrive:compound]转换成[thrive:compound type=\"atp\"][/thrive:compound]。"
 
 msgid "AEROBIC_NITROGEN_FIXATION"
 msgstr "好氧固氨"
@@ -628,12 +671,43 @@ msgid "CARBON_MONOXIDE"
 msgstr "二氧化碳"
 
 #, fuzzy
+msgid "CARBON_MONOXIDE_DEHYDROGENASE"
+msgstr "二氧化碳"
+
+#, fuzzy
+msgid "CARBON_MONOXIDE_DEHYDROGENASE_DESCRIPTION"
+msgstr "氢化酶使用氢气来分解[thrive:compound type=\\\"glucose\\\"][/thrive:compound]获取能量。相比代谢体，它们在[thrive:compound type=\\\"oxygen\\\"][/thrive:compound]浓度较低时更加高效。许多生活在缺少氧气的环境中的生物都以此为主要的能量来源。"
+
+#, fuzzy
+msgid "CARBON_MONOXIDE_DEHYDROGENASE_PROCESSES_DESCRIPTION"
+msgstr "将[thrive:compound type=\\\"glucose\\\"][/thrive:compound]转换成[thrive:compound type=\\\"atp\\\"][/thrive:compound]。"
+
+#, fuzzy
+msgid "CARBON_MONOXIDE_OXIDATION"
+msgstr "二氧化碳"
+
+#, fuzzy
 msgid "CAROTENOIDS"
 msgstr "蛋白质"
 
 #, fuzzy
 msgid "CAROTENOID_CHLOROPLAST"
 msgstr "叶绿体"
+
+msgid "CAS9"
+msgstr ""
+
+#, fuzzy
+msgid "CAS9_DESCRIPTION"
+msgstr "纤毛与鞭毛相似，但它们不提供方向性推力，而是提供旋转力，帮助细胞转动。"
+
+#, fuzzy
+msgid "CAS9_PROCESSES_DESCRIPTION"
+msgstr "增加大体型细胞的转向速度。"
+
+#, fuzzy
+msgid "CAS9_REACTION"
+msgstr "介绍："
 
 msgid "CATEGORY_AN_ABUNDANCE"
 msgstr "很多"
@@ -2390,6 +2464,21 @@ msgstr "氢化酶使用氢气来分解[thrive:compound type=\\\"glucose\\\"][/th
 msgid "HYDROGENOSOME_PROCESSES_DESCRIPTION"
 msgstr "将[thrive:compound type=\\\"glucose\\\"][/thrive:compound]转换成[thrive:compound type=\\\"atp\\\"][/thrive:compound]。"
 
+msgid "HYDROGENOTROPHIC_METHANOGENESIS"
+msgstr ""
+
+#, fuzzy
+msgid "HYDROGENOTROPHIC_PROTEINS"
+msgstr "氢化酶使用氢气来分解[thrive:compound type=\\\"glucose\\\"][/thrive:compound]获取能量。相比代谢体，它们在[thrive:compound type=\\\"oxygen\\\"][/thrive:compound]浓度较低时更加高效。许多生活在缺少氧气的环境中的生物都以此为主要的能量来源。"
+
+#, fuzzy
+msgid "HYDROGENOTROPHIC_PROTEINS_DESCRIPTION"
+msgstr "将[thrive:compound type=\\\"glucose\\\"][/thrive:compound]转换成[thrive:compound type=\\\"atp\\\"][/thrive:compound]。"
+
+#, fuzzy
+msgid "HYDROGENOTROPHIC_PROTEINS_PROCESSES_DESCRIPTION"
+msgstr "将[thrive:compound type=\\\"glucose\\\"][/thrive:compound]转换成[thrive:compound type=\\\"atp\\\"][/thrive:compound]。"
+
 msgid "HYDROGEN_SULFIDE"
 msgstr "硫化氢"
 
@@ -3122,6 +3211,33 @@ msgstr "大环内酯物合成"
 msgid "MANGANESE"
 msgstr ""
 
+#, fuzzy
+msgid "MANGANESE_CHEMOLITHOAUTOTROPHY"
+msgstr "铁化能无机自养"
+
+msgid "MANGANESE_OXIDASE"
+msgstr ""
+
+#, fuzzy
+msgid "MANGANESE_OXIDASE_DESCRIPTION"
+msgstr "纤毛存在于许多微生物的表面，类似于细毛。一个微生物的表面可能有几十到几百个纤毛，其有多种用途，包括捕食。致病性微生物利用纤毛来提高毒性，或者附着并结合在宿主组织上，或者穿过外膜侵入细胞质。纤毛有很多相似的变种，但在进化上没有关系，是趋同进化的结果。一个生物体可能有能力表达几种类型的纤毛，那些存在于表面的纤毛通常会不断的改变和替换。"
+
+#, fuzzy
+msgid "MANGANESE_OXIDASE_PROCESSES_DESCRIPTION"
+msgstr "可以被用来捅其它细胞或抵挡它们的毒素。"
+
+#, fuzzy
+msgid "MANGANOPLAST"
+msgstr "化学质体"
+
+#, fuzzy
+msgid "MANGANOPLAST_DESCRIPTION"
+msgstr "化学质体是一种双层膜结构，其中包含的蛋白质可以通过[b]硫化氢化合[/b]合成将[thrive:compound type=\"hydrogensulfide\"][/thrive:compound]，水和气态[thrive:compound type=\"carbondioxide\"][/thrive:compound]转换成[thrive:compound type=\"glucose\"][/thrive:compound]。[thrive:compound type=\"glucose\"][/thrive:compound]的产出速率跟[thrive:compound type=\"carbondioxide\"][/thrive:compound]的浓度成正比。"
+
+#, fuzzy
+msgid "MANGANOPLAST_PROCESSES_DESCRIPTION"
+msgstr "将[thrive:compound type=\"hydrogensulfide\"][/thrive:compound]转换成[thrive:compound type=\"glucose\"][/thrive:compound]。速率跟[thrive:compound type=\"carbondioxide\"][/thrive:compound]浓度成正比。"
+
 msgid "MANUALLY_SET_TIME"
 msgstr "手动设置时间"
 
@@ -3151,6 +3267,18 @@ msgstr "不允许显示超过{0}个数据集！"
 
 msgid "MAY"
 msgstr "五月"
+
+#, fuzzy
+msgid "MCR"
+msgstr "微生物"
+
+#, fuzzy
+msgid "MCR_DESCRIPTION"
+msgstr "Mod介绍："
+
+#, fuzzy
+msgid "MCR_PROCESSES_DESCRIPTION"
+msgstr "增加大体型细胞的转向速度。"
 
 #, fuzzy
 msgid "MECHANICS_BUTTON"
@@ -3224,7 +3352,38 @@ msgstr "将[thrive:compound type=\"glucose\"][/thrive:compound]转换成[thrive:
 msgid "METHANE"
 msgstr ""
 
+msgid "METHANE_MONOOXYGENASE"
+msgstr ""
+
+#, fuzzy
+msgid "METHANE_MONOOXYGENASE_DESCRIPTION"
+msgstr "热合酶是一种利用热对流改变自身形态的蛋白质，它可以在受热时折叠并结合ADP，然后在降温时展开并生成ATP。这一过程被称为[b]热合成[/b]。其ATP生成速率与温度有关。"
+
+#, fuzzy
+msgid "METHANE_MONOOXYGENASE_PROCESSES_DESCRIPTION"
+msgstr "利用温度梯度生产[thrive:compound type=\"atp\"][/thrive:compound]。速度与[thrive:compound type=\"temperature\"][/thrive:compound]有关。"
+
 msgid "METHANOL "
+msgstr ""
+
+msgid "METHANOTROPHY"
+msgstr ""
+
+msgid "METHYLOTROPHIC_METHANOGENESIS"
+msgstr ""
+
+msgid "METHYLOTROPHIC_PROTEINS"
+msgstr ""
+
+#, fuzzy
+msgid "METHYLOTROPHIC_PROTEINS_DESCRIPTION"
+msgstr "化合蛋白是细胞质中的小型蛋白质簇，能够将硫化氢，水和二氧化碳通过[b]硫化氢化能[/b]合成转换成葡萄糖。葡萄糖产出速率与二氧化碳的浓度成正比。由于化学合成蛋白是直接悬浮在细胞质中的，所以它周围的细胞质也能进行一些[b]糖酵解[/b]。"
+
+#, fuzzy
+msgid "METHYLOTROPHIC_PROTEINS_PROCESSES_DESCRIPTION"
+msgstr "将[thrive:compound type=\"hydrogensulfide\"][/thrive:compound]转换成[thrive:compound type=\"glucose\"][/thrive:compound]。速率跟[thrive:compound type=\"carbondioxide\"][/thrive:compound]的浓度成正比。同时也会将[thrive:compound type=\"glucose\"][/thrive:compound]转换成[thrive:compound type=\"atp\"][/thrive:compound]。"
+
+msgid "METHYLOTROPHY"
 msgstr ""
 
 msgid "METRICS"
@@ -4741,6 +4900,9 @@ msgstr ""
 
 msgid "REVEAL_ALL_PATCHES"
 msgstr "揭示所有地区"
+
+msgid "REVERSE_METHANOGENESIS"
+msgstr ""
 
 msgid "REVOLUTIONARY_GAMES_SOCIAL_TOOLTIP"
 msgstr "访问Revolutionary Games Studio网站"
@@ -8662,10 +8824,6 @@ msgstr "缩小"
 #, fuzzy
 #~ msgid "YEN"
 #~ msgstr "氧"
-
-#, fuzzy
-#~ msgid "SECTION"
-#~ msgstr "介绍："
 
 #, fuzzy
 #~ msgid "COPYRIGHT"

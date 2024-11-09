@@ -288,7 +288,7 @@
       "g": 0.227,
       "b": 0.227
     },
-    "IconPath": "res://assets/textures/gui/bevel/Iron.svg"
+    "IconPath": "res://assets/textures/gui/bevel/manganese.png"
   },
   "radionuclides": {
     "Name": "RADIONUCLIDES",

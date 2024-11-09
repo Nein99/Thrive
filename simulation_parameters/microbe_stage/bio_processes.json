@@ -208,6 +208,16 @@
       "ammonia": 0.08
     }
   },
+  "cas9Reaction": {
+    "Name": "CAS9_REACTION",
+    "Inputs": {
+      "virus": 1,
+      "atp": 2.5
+    },
+    "Outputs": {
+      "phosphates": 0.08
+    }
+  },
   "protein_respiration": {
     "Name": "RESPIRATION",
     "Inputs": {
@@ -219,6 +229,89 @@
       "carbondioxide": 1
     },
     "IsMetabolismProcess": true
+  },
+  "reverse_methanogenesis": {
+    "Name": "REVERSE_METHANOGENESIS",
+    "Inputs": {
+      "methane": 0.09
+    },
+    "Outputs": {
+      "atp": 5.5,
+      "carbondioxide": 1,
+      "hydrogensulfide": 1
+    },
+    "IsMetabolismProcess": true
+  },
+  "acetogenesis": {
+    "Name": "ACETOGENESIS",
+    "Inputs": {
+      "glucose": 0.09
+    },
+    "Outputs": {
+      "carbondioxide": 1,
+      "hydrogen": 1,
+      "aceticacid": 0.036
+    }
+  },
+  "carbonmonoxide_oxidation": {
+    "Name": "CARBON_MONOXIDE_OXIDATION",
+    "Inputs": {
+      "carbonmonoxide": 0.09
+    },
+    "Outputs": {
+      "glucose": 0.036
+    }
+  },
+  "methanotrophy": {
+    "Name": "METHANOTROPHY",
+    "Inputs": {
+      "methane": 0.09
+    },
+    "Outputs": {
+      "glucose": 0.036,
+      "methanol": 0.036
+    }
+  },
+  "methylotrophy": {
+    "Name": "METHYLOTROPHY",
+    "Inputs": {
+      "methanol": 0.09
+    },
+    "Outputs": {
+      "carbonmonoxide": 1,
+      "aceticacid": 0.036
+    }
+  },
+  "acetoclastic_methanogenesis": {
+    "Name": "ACETOCLASTIC_METHANOGENESIS",
+    "Inputs": {
+      "aceticacid": 0.09
+    },
+    "Outputs": {
+      "carbondioxide": 1,
+      "methane": 0.036
+    }
+  },
+  "hydrogenotrophic_methanogenesis": {
+    "Name": "HYDROGENOTROPHIC_METHANOGENESIS",
+    "Inputs": {
+      "carbondioxide": 0.09,
+      "hydrogen": 0.09
+    },
+    "Outputs": {
+      "methane": 0.036
+    }
+  },
+  "methylotrophic_methanogenesis": {
+    "Name": "METHYLOTROPHIC_METHANOGENESIS",
+    "Inputs": {
+      "methane": 0.09
+    },
+    "Outputs": {
+      "carbondioxide": 1,
+      "hydrogensulfide": 0.036,
+      "atp": 5.5
+    }
   },
   "protein_clostridial_fermentation": {
     "Name": "CLOSTRIDIAL_FERMENTATION",
@@ -282,6 +375,17 @@
     },
     "IsMetabolismProcess": false
   },
+  "manganese_chemolithoautotrophy": {
+    "Name": "MANGANESE_CHEMOLITHOAUTOTROPHY",
+    "Inputs": {
+      "manganese": 0.02,
+      "carbondioxide": 0.09
+    },
+    "Outputs": {
+      "atp": 5
+    },
+    "IsMetabolismProcess": false
+  },
   "thermosynthesis": {
     "Name": "THERMOSYNTHESIS",
     "Inputs": {
@@ -304,6 +408,17 @@
     "Name": "IRON_CHEMOLITHOAUTOTROPHY",
     "Inputs": {
       "iron": 0.033,
+      "carbondioxide": 0.09
+    },
+    "Outputs": {
+      "atp": 13
+    },
+    "IsMetabolismProcess": false
+  },
+  "manganosynthesis": {
+    "Name": "MANGANESE_CHEMOLITHOAUTOTROPHY",
+    "Inputs": {
+      "manganese": 0.033,
       "carbondioxide": 0.09
     },
     "Outputs": {
