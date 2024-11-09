@@ -673,6 +673,18 @@ public partial class MicrobeEditorReportComponent : EditorComponentBase<IEditorR
                 return atmosphericGassesChart;
             case Compound.Nitrogen:
                 return atmosphericGassesChart;
+            case Compound.Methane:
+                return atmosphericGassesChart;
+            case Compound.Hydrogen:
+                return atmosphericGassesChart;
+            case Compound.Carbonmonoxide:
+                return atmosphericGassesChart;
+            case Compound.Calcium:
+                return atmosphericGassesChart;
+            case Compound.Carbonates:
+                return atmosphericGassesChart;
+            case Compound.Salt:
+                return atmosphericGassesChart;
             default:
                 return compoundsChart;
         }

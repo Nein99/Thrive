@@ -86,6 +86,12 @@ public partial class PatchDetailsPanel : PanelContainer
     private Label lightMax = null!;
     private Label oxygenLabel = null!;
     private Label nitrogenLabel = null!;
+    private Label methaneLabel = null!;
+    private Label hydrogenLabel = null!;
+    private Label carbonMonoxideLabel = null!;
+    private Label calciumLabel = null!;
+    private Label carbonatesLabel = null!;
+    private Label saltLabel = null!;
     private Label co2Label = null!;
     private Label otherCompoundLabel = null!;
     private Label hydrogenSulfideLabel = null!;
@@ -94,6 +100,9 @@ public partial class PatchDetailsPanel : PanelContainer
     private Label phosphateLabel = null!;
     private Label ironLabel = null!;
     private Label radionuclidesLabel = null!;
+    private Label aceticAcidLabel = null!;
+    private Label methanolLabel = null!;
+    private Label manganeseLabel = null!;
 
     private Control otherCompoundBase = null!;
 
@@ -103,6 +112,9 @@ public partial class PatchDetailsPanel : PanelContainer
     private TextureRect glucoseSituation = null!;
     private TextureRect ironSituation = null!;
     private TextureRect radionuclidesSituation = null!;
+    private TextureRect aceticAcidSituation = null!;
+    private TextureRect methanolSituation = null!;
+    private TextureRect manganeseSituation = null!;
     private TextureRect ammoniaSituation = null!;
     private TextureRect phosphateSituation = null!;
 
@@ -252,11 +264,35 @@ public partial class PatchDetailsPanel : PanelContainer
 
         // nitrogenSituation = nitrogenBase.GetNode<TextureRect>(situation);
 
+        methaneLabel = null!;
+        var methaneBase = atmosphereContainer.GetItem<Control>("Methane");
+        methaneLabel = methaneBase.GetNode<Label>(labelPath);
+
+        hydrogenLabel = null!;
+        var hydrogenBase = atmosphereContainer.GetItem<Control>("Hydrogen");
+        hydrogenLabel = hydrogenBase.GetNode<Label>(labelPath);
+
         co2Label = null!;
         var co2Base = atmosphereContainer.GetItem<Control>("CO2");
         co2Label = co2Base.GetNode<Label>(labelPath);
 
         // co2Situation = co2Base.GetNode<TextureRect>(situation);
+
+        carbonMonoxideLabel = null!;
+        var carbonMonoxideBase = atmosphereContainer.GetItem<Control>("CarbonMonoxide");
+        carbonMonoxideLabel = carbonMonoxideBase.GetNode<Label>(labelPath);
+
+        calciumLabel = null!;
+        var calciumBase = atmosphereContainer.GetItem<Control>("Calcium");
+        calciumLabel = calciumBase.GetNode<Label>(labelPath);
+
+        carbonatesLabel = null!;
+        var carbonatesBase = atmosphereContainer.GetItem<Control>("Carbonates");
+        carbonatesLabel = carbonatesBase.GetNode<Label>(labelPath);
+
+        saltLabel = null!;
+        var saltBase = atmosphereContainer.GetItem<Control>("Salt");
+        saltLabel = saltBase.GetNode<Label>(labelPath);
 
         otherCompoundBase = atmosphereContainer.GetItem<Control>("Other");
         otherCompoundLabel = otherCompoundBase.GetNode<Label>(labelPath);
@@ -291,6 +327,21 @@ public partial class PatchDetailsPanel : PanelContainer
         var radionuclidesBase = compoundsContainer.GetItem<Control>("Radionuclides");
         radionuclidesLabel = radionuclidesBase.GetNode<Label>(labelPath);
         radionuclidesSituation = radionuclidesBase.GetNode<TextureRect>(situation);
+
+        aceticAcidLabel = null!;
+        var aceticAcidBase = compoundsContainer.GetItem<Control>("AceticAcid");
+        aceticAcidLabel = aceticAcidBase.GetNode<Label>(labelPath);
+        aceticAcidSituation = aceticAcidBase.GetNode<TextureRect>(situation);
+
+        methanolLabel = null!;
+        var methanolBase = compoundsContainer.GetItem<Control>("Methanol");
+        methanolLabel = methanolBase.GetNode<Label>(labelPath);
+        methanolSituation = methanolBase.GetNode<TextureRect>(situation);
+
+        manganeseLabel = null!;
+        var manganeseBase = compoundsContainer.GetItem<Control>("Manganese");
+        manganeseLabel = manganeseBase.GetNode<Label>(labelPath);
+        manganeseSituation = manganeseBase.GetNode<TextureRect>(situation);
 
         // Species list
         speciesInfoDisplay = speciesParentContainer.GetItem<CustomRichTextLabel>("SpeciesList");
@@ -373,8 +424,26 @@ public partial class PatchDetailsPanel : PanelContainer
         nitrogenLabel.Text =
             percentageFormat.FormatSafe(Math.Round(GetCompoundAmount(SelectedPatch, Compound.Nitrogen),
                 Constants.ATMOSPHERIC_COMPOUND_DISPLAY_DECIMALS));
+        methaneLabel.Text =
+            percentageFormat.FormatSafe(Math.Round(GetCompoundAmount(SelectedPatch, Compound.Methane),
+                Constants.ATMOSPHERIC_COMPOUND_DISPLAY_DECIMALS));
+        hydrogenLabel.Text =
+            percentageFormat.FormatSafe(Math.Round(GetCompoundAmount(SelectedPatch, Compound.Hydrogen),
+                Constants.ATMOSPHERIC_COMPOUND_DISPLAY_DECIMALS));
         co2Label.Text =
             percentageFormat.FormatSafe(Math.Round(GetCompoundAmount(SelectedPatch, Compound.Carbondioxide),
+                Constants.ATMOSPHERIC_COMPOUND_DISPLAY_DECIMALS));
+        carbonMonoxideLabel.Text =
+            percentageFormat.FormatSafe(Math.Round(GetCompoundAmount(SelectedPatch, Compound.Carbonmonoxide),
+                Constants.ATMOSPHERIC_COMPOUND_DISPLAY_DECIMALS));
+        calciumLabel.Text =
+            percentageFormat.FormatSafe(Math.Round(GetCompoundAmount(SelectedPatch, Compound.Calcium),
+                Constants.ATMOSPHERIC_COMPOUND_DISPLAY_DECIMALS));
+        carbonatesLabel.Text =
+            percentageFormat.FormatSafe(Math.Round(GetCompoundAmount(SelectedPatch, Compound.Carbonates),
+                Constants.ATMOSPHERIC_COMPOUND_DISPLAY_DECIMALS));
+        saltLabel.Text =
+            percentageFormat.FormatSafe(Math.Round(GetCompoundAmount(SelectedPatch, Compound.Salt),
                 Constants.ATMOSPHERIC_COMPOUND_DISPLAY_DECIMALS));
 
         var otherAmount = CalculateUnaccountedForCompoundPercentage();
@@ -410,6 +479,15 @@ public partial class PatchDetailsPanel : PanelContainer
                 Constants.PATCH_CONDITIONS_COMPOUND_DISPLAY_DECIMALS).ToString(CultureInfo.CurrentCulture);
         radionuclidesLabel.Text =
             Math.Round(GetCompoundAmount(SelectedPatch, Compound.Radionuclides),
+                Constants.PATCH_CONDITIONS_COMPOUND_DISPLAY_DECIMALS).ToString(CultureInfo.CurrentCulture);
+        aceticAcidLabel.Text =
+            Math.Round(GetCompoundAmount(SelectedPatch, Compound.Aceticacid),
+                Constants.PATCH_CONDITIONS_COMPOUND_DISPLAY_DECIMALS).ToString(CultureInfo.CurrentCulture);
+        methanolLabel.Text =
+            Math.Round(GetCompoundAmount(SelectedPatch, Compound.Methanol),
+                Constants.PATCH_CONDITIONS_COMPOUND_DISPLAY_DECIMALS).ToString(CultureInfo.CurrentCulture);
+        manganeseLabel.Text =
+            Math.Round(GetCompoundAmount(SelectedPatch, Compound.Manganese),
                 Constants.PATCH_CONDITIONS_COMPOUND_DISPLAY_DECIMALS).ToString(CultureInfo.CurrentCulture);
 
         var speciesList = new StringBuilder(100);
@@ -544,6 +622,51 @@ public partial class PatchDetailsPanel : PanelContainer
         else
         {
             ironSituation.Texture = null;
+        }
+
+        nextCompound = GetCompoundAmount(SelectedPatch, Compound.Aceticacid);
+
+        if (nextCompound > GetCompoundAmount(CurrentPatch, Compound.Aceticacid))
+        {
+            aceticAcidSituation.Texture = increaseIcon;
+        }
+        else if (nextCompound < GetCompoundAmount(CurrentPatch, Compound.Aceticacid))
+        {
+            aceticAcidSituation.Texture = decreaseIcon;
+        }
+        else
+        {
+            aceticAcidSituation.Texture = null;
+        }
+
+        nextCompound = GetCompoundAmount(SelectedPatch, Compound.Methanol);
+
+        if (nextCompound > GetCompoundAmount(CurrentPatch, Compound.Methanol))
+        {
+            methanolSituation.Texture = increaseIcon;
+        }
+        else if (nextCompound < GetCompoundAmount(CurrentPatch, Compound.Methanol))
+        {
+            methanolSituation.Texture = decreaseIcon;
+        }
+        else
+        {
+            methanolSituation.Texture = null;
+        }
+
+        nextCompound = GetCompoundAmount(SelectedPatch, Compound.Manganese);
+
+        if (nextCompound > GetCompoundAmount(CurrentPatch, Compound.Manganese))
+        {
+            manganeseSituation.Texture = increaseIcon;
+        }
+        else if (nextCompound < GetCompoundAmount(CurrentPatch, Compound.Manganese))
+        {
+            manganeseSituation.Texture = decreaseIcon;
+        }
+        else
+        {
+            manganeseSituation.Texture = null;
         }
 
         nextCompound = GetCompoundAmount(SelectedPatch, Compound.Radionuclides);

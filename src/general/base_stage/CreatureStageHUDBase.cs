@@ -115,6 +115,12 @@ public partial class CreatureStageHUDBase<TStage> : HUDWithPausing, ICreatureSta
     protected CompoundProgressBar oxygenBar = null!;
     protected CompoundProgressBar co2Bar = null!;
     protected CompoundProgressBar nitrogenBar = null!;
+    protected CompoundProgressBar methaneBar = null!;
+    protected CompoundProgressBar hydrogenBar = null!;
+    protected CompoundProgressBar carbonMonoxideBar = null!;
+    protected CompoundProgressBar calciumBar = null!;
+    protected CompoundProgressBar carbonatesBar = null!;
+    protected CompoundProgressBar saltBar = null!;
     protected CompoundProgressBar temperatureBar = null!;
     protected CompoundProgressBar sunlightBar = null!;
 
@@ -123,13 +129,20 @@ public partial class CreatureStageHUDBase<TStage> : HUDWithPausing, ICreatureSta
 
     // TODO: switch to dynamically creating the following bars to allow better extensibility in terms of compound types
     protected CompoundProgressBar glucoseBar = null!;
+    protected CompoundProgressBar starchBar = null!;
+    protected CompoundProgressBar glycogenBar = null!;
     protected CompoundProgressBar ammoniaBar = null!;
     protected CompoundProgressBar phosphateBar = null!;
     protected CompoundProgressBar hydrogenSulfideBar = null!;
+
+    protected CompoundProgressBar aceticAcidBar = null!;
+    protected CompoundProgressBar methanolBar = null!;
     protected CompoundProgressBar ironBar = null!;
+    protected CompoundProgressBar manganeseBar = null!;
     protected CompoundProgressBar radionuclidesBar = null!;
     protected CompoundProgressBar oxytoxyBar = null!;
     protected CompoundProgressBar mucilageBar = null!;
+    protected CompoundProgressBar virusBar = null!;
 
     protected TextureProgressBar atpBar = null!;
     protected TextureProgressBar healthBar = null!;
@@ -327,6 +340,18 @@ public partial class CreatureStageHUDBase<TStage> : HUDWithPausing, ICreatureSta
             simulationParameters.GetCompoundDefinition(Compound.Carbondioxide), 0, true);
         nitrogenBar = CompoundProgressBar.CreatePercentageDisplay(barScene,
             simulationParameters.GetCompoundDefinition(Compound.Nitrogen), 0, true);
+        methaneBar = CompoundProgressBar.CreatePercentageDisplay(barScene,
+            simulationParameters.GetCompoundDefinition(Compound.Methane), 0, true);
+        hydrogenBar = CompoundProgressBar.CreatePercentageDisplay(barScene,
+            simulationParameters.GetCompoundDefinition(Compound.Hydrogen), 0, true);
+        carbonMonoxideBar = CompoundProgressBar.CreatePercentageDisplay(barScene,
+            simulationParameters.GetCompoundDefinition(Compound.Carbonmonoxide), 0, true);
+        calciumBar = CompoundProgressBar.CreatePercentageDisplay(barScene,
+            simulationParameters.GetCompoundDefinition(Compound.Calcium), 0, true);
+        carbonatesBar = CompoundProgressBar.CreatePercentageDisplay(barScene,
+            simulationParameters.GetCompoundDefinition(Compound.Carbonates), 0, true);
+        saltBar = CompoundProgressBar.CreatePercentageDisplay(barScene,
+            simulationParameters.GetCompoundDefinition(Compound.Salt), 0, true);
 
         // Is it a good idea to show the chemical formulas like this (with subscripts)?
 
@@ -334,10 +359,22 @@ public partial class CreatureStageHUDBase<TStage> : HUDWithPausing, ICreatureSta
         var oxygenNotTranslated = "O\u2082";
         var co2NotTranslated = "CO\u2082";
         var nitrogenNotTranslated = "N\u2082";
+        var methaneNotTranslated = "CH4";
+        var hydrogenNotTranslated = "H\u2082";
+        var carbonMonoxideNotTranslated = "CO";
+        var calciumNotTranslated = "Ca2+";
+        var carbonatesNotTranslated = "HCO3-";
+        var saltNotTranslated = "NaCl";
 
         oxygenBar.DisplayedName = new LocalizedString(oxygenNotTranslated);
         co2Bar.DisplayedName = new LocalizedString(co2NotTranslated);
         nitrogenBar.DisplayedName = new LocalizedString(nitrogenNotTranslated);
+        methaneBar.DisplayedName = new LocalizedString(methaneNotTranslated);
+        hydrogenBar.DisplayedName = new LocalizedString(hydrogenNotTranslated);
+        carbonMonoxideBar.DisplayedName = new LocalizedString(carbonMonoxideNotTranslated);
+        calciumBar.DisplayedName = new LocalizedString(calciumNotTranslated);
+        carbonatesBar.DisplayedName = new LocalizedString(carbonatesNotTranslated);
+        saltBar.DisplayedName = new LocalizedString(saltNotTranslated);
 
         temperatureBar = CompoundProgressBar.CreateSimpleWithUnit(barScene,
             simulationParameters.GetCompoundDefinition(Compound.Temperature), 0,
@@ -357,6 +394,12 @@ public partial class CreatureStageHUDBase<TStage> : HUDWithPausing, ICreatureSta
         environmentPanel.AddPrimaryBar(oxygenBar);
         environmentPanel.AddPrimaryBar(co2Bar);
         environmentPanel.AddPrimaryBar(nitrogenBar);
+        environmentPanel.AddPrimaryBar(methaneBar);
+        environmentPanel.AddPrimaryBar(hydrogenBar);
+        environmentPanel.AddPrimaryBar(carbonMonoxideBar);
+        environmentPanel.AddPrimaryBar(calciumBar);
+        environmentPanel.AddPrimaryBar(carbonatesBar);
+        environmentPanel.AddPrimaryBar(saltBar);
         environmentPanel.AddPrimaryBar(temperatureBar);
         environmentPanel.AddPrimaryBar(sunlightBar);
         environmentPanel.AddPrimaryBar(pressureBar);
@@ -364,18 +407,35 @@ public partial class CreatureStageHUDBase<TStage> : HUDWithPausing, ICreatureSta
         // Compound bars
         glucoseBar = CompoundProgressBar.Create(barScene, simulationParameters.GetCompoundDefinition(Compound.Glucose),
             0, 1);
+        starchBar = CompoundProgressBar.Create(barScene, simulationParameters.GetCompoundDefinition(Compound.Starch),
+            0, 1);
+        glycogenBar = CompoundProgressBar.Create(barScene, simulationParameters.GetCompoundDefinition(Compound.Glycogen),
+            0, 1);
         ammoniaBar = CompoundProgressBar.Create(barScene, simulationParameters.GetCompoundDefinition(Compound.Ammonia),
             0, 1);
         phosphateBar = CompoundProgressBar.Create(barScene,
             simulationParameters.GetCompoundDefinition(Compound.Phosphates), 0, 1);
         hydrogenSulfideBar = CompoundProgressBar.Create(barScene,
             simulationParameters.GetCompoundDefinition(Compound.Hydrogensulfide), 0, 1);
+        aceticAcidBar = CompoundProgressBar.Create(barScene, simulationParameters.GetCompoundDefinition(Compound.Aceticacid), 0, 1);
+        methanolBar = CompoundProgressBar.Create(barScene, simulationParameters.GetCompoundDefinition(Compound.Methanol), 0, 1);
+        radionuclidesBar = CompoundProgressBar.Create(barScene,
+            simulationParameters.GetCompoundDefinition(Compound.Radionuclides), 0, 1);
         ironBar = CompoundProgressBar.Create(barScene, simulationParameters.GetCompoundDefinition(Compound.Iron), 0, 1);
+        manganeseBar = CompoundProgressBar.Create(barScene, simulationParameters.GetCompoundDefinition(Compound.Manganese), 0, 1);
+        radionuclidesBar = CompoundProgressBar.Create(barScene,
+            simulationParameters.GetCompoundDefinition(Compound.Radionuclides), 0, 1);
         radionuclidesBar = CompoundProgressBar.Create(barScene,
             simulationParameters.GetCompoundDefinition(Compound.Radionuclides), 0, 1);
 
         compoundsPanel.AddPrimaryBar(glucoseBar);
         compoundBars.Add((Compound.Glucose, glucoseBar));
+
+        compoundsPanel.AddPrimaryBar(starchBar);
+        compoundBars.Add((Compound.Starch, starchBar));
+
+        compoundsPanel.AddPrimaryBar(glycogenBar);
+        compoundBars.Add((Compound.Glycogen, glycogenBar));
 
         compoundsPanel.AddPrimaryBar(ammoniaBar);
         compoundBars.Add((Compound.Ammonia, ammoniaBar));
@@ -386,17 +446,31 @@ public partial class CreatureStageHUDBase<TStage> : HUDWithPausing, ICreatureSta
         compoundsPanel.AddPrimaryBar(hydrogenSulfideBar);
         compoundBars.Add((Compound.Hydrogensulfide, hydrogenSulfideBar));
 
+        compoundsPanel.AddPrimaryBar(aceticAcidBar);
+        compoundBars.Add((Compound.Aceticacid, aceticAcidBar));
+
+        compoundsPanel.AddPrimaryBar(methanolBar);
+        compoundBars.Add((Compound.Methanol, methanolBar));
+
         compoundsPanel.AddPrimaryBar(ironBar);
         compoundBars.Add((Compound.Iron, ironBar));
+
+        compoundsPanel.AddPrimaryBar(manganeseBar);
+        compoundBars.Add((Compound.Manganese, manganeseBar));
 
         compoundsPanel.AddPrimaryBar(radionuclidesBar);
         compoundBars.Add((Compound.Radionuclides, radionuclidesBar));
 
         // Agent bars
+        virusBar = CompoundProgressBar.Create(barScene, simulationParameters.GetCompoundDefinition(Compound.Virus),
+            0, 1);
         oxytoxyBar = CompoundProgressBar.Create(barScene, simulationParameters.GetCompoundDefinition(Compound.Oxytoxy),
             0, 1);
         mucilageBar = CompoundProgressBar.Create(barScene,
             simulationParameters.GetCompoundDefinition(Compound.Mucilage), 0, 1);
+
+        compoundsPanel.AddAgentBar(virusBar);
+        compoundBars.Add((Compound.Virus, virusBar));
 
         compoundsPanel.AddAgentBar(oxytoxyBar);
         compoundBars.Add((Compound.Oxytoxy, oxytoxyBar));
@@ -412,6 +486,7 @@ public partial class CreatureStageHUDBase<TStage> : HUDWithPausing, ICreatureSta
         fossilisationButtonLayer.Visible = false;
 
         // TODO: move these to be gotten as a method in SimulationParameters (similarly to `GetCloudCompounds()`)
+        allAgents.Add(Compound.Virus);
         allAgents.Add(Compound.Oxytoxy);
         allAgents.Add(Compound.Mucilage);
     }
@@ -611,6 +686,8 @@ public partial class CreatureStageHUDBase<TStage> : HUDWithPausing, ICreatureSta
         oxygenBar.SetValueAsPercentageFromFraction(biome.CurrentCompoundAmounts[Compound.Oxygen].Ambient);
         co2Bar.SetValueAsPercentageFromFraction(biome.CurrentCompoundAmounts[Compound.Carbondioxide].Ambient);
         nitrogenBar.SetValueAsPercentageFromFraction(biome.CurrentCompoundAmounts[Compound.Nitrogen].Ambient);
+        methaneBar.SetValueAsPercentageFromFraction(biome.CurrentCompoundAmounts[Compound.Methane].Ambient);
+        hydrogenBar.SetValueAsPercentageFromFraction(biome.CurrentCompoundAmounts[Compound.Hydrogen].Ambient);
 
         sunlightBar.SetValueAsPercentageFromFraction(biome.CurrentCompoundAmounts[Compound.Sunlight].Ambient);
 

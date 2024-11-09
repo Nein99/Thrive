@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-11-04 00:09-0600\n"
+"POT-Creation-Date: 2024-11-08 23:26-0600\n"
 "PO-Revision-Date: 2024-10-17 07:24+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Thai <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/th/>\n"
@@ -52,6 +52,9 @@ msgid "ABYSSOPELAGIC"
 msgstr "เขตเหวนรก"
 
 msgid "ACCEPT"
+msgstr ""
+
+msgid "ACETIC_ACID"
 msgstr ""
 
 msgid "ACTION_AWAKEN"
@@ -572,6 +575,9 @@ msgstr ""
 msgid "BY_REVOLUTIONARY_GAMES"
 msgstr ""
 
+msgid "CALCIUM"
+msgstr ""
+
 msgid "CALCIUM_CARBONATE"
 msgstr "แคลเซียมคาร์บอเนต"
 
@@ -618,7 +624,15 @@ msgstr ""
 msgid "CAPSLOCK"
 msgstr "ล็อคมุมมอง"
 
+#, fuzzy
+msgid "CARBONATES"
+msgstr "แคลเซียมคาร์บอเนต"
+
 msgid "CARBON_DIOXIDE"
+msgstr "คาร์บอนไดออกไซด์"
+
+#, fuzzy
+msgid "CARBON_MONOXIDE"
 msgstr "คาร์บอนไดออกไซด์"
 
 msgid "CAROTENOIDS"
@@ -2300,6 +2314,10 @@ msgstr "กลูโคส"
 msgid "GLUCOSE_CONCENTRATIONS_DRASTICALLY_DROPPED"
 msgstr ""
 
+#, fuzzy
+msgid "GLYCOGEN"
+msgstr "ไฮโดรเจนซัลไฟด์"
+
 msgid "GLYCOLYSIS"
 msgstr "ไกลโคไลซิส"
 
@@ -2404,6 +2422,10 @@ msgstr ""
 
 msgid "HUD_MESSAGE_MULTIPLE"
 msgstr ""
+
+#, fuzzy
+msgid "HYDROGEN"
+msgstr "ไฮโดรเจนซัลไฟด์"
 
 #, fuzzy
 msgid "HYDROGENASE"
@@ -3196,6 +3218,9 @@ msgstr "เมตาโบโลโซมเป็นกลุ่มของโ
 msgid "MACROLIDE_SYNTHESIS"
 msgstr "การสังเคราะห์ด้วยเคมี"
 
+msgid "MANGANESE"
+msgstr ""
+
 msgid "MANUALLY_SET_TIME"
 msgstr ""
 
@@ -3297,6 +3322,12 @@ msgstr "เมตาโบโลโซมเป็นกลุ่มของโ
 
 msgid "METABOLOSOMES_PROCESSES_DESCRIPTION"
 msgstr "เปลี่ยน [thrive:compound]glucose[/thrive:compound] เป็น [thrive:compound]atp[/thrive:compound] อัตรามาตราส่วนด้วยความเข้มข้นของ [thrive:compound]oxygen[/thrive:compound]"
+
+msgid "METHANE"
+msgstr ""
+
+msgid "METHANOL "
+msgstr ""
 
 #, fuzzy
 msgid "METRICS"
@@ -4969,6 +5000,9 @@ msgstr "{0} ประชากรเปลี่ยนแปลงโดย {1} 
 msgid "SAFE_MODE_TITLE"
 msgstr ""
 
+msgid "SALT"
+msgstr ""
+
 msgid "SAVE"
 msgstr "เซฟ"
 
@@ -5430,6 +5464,10 @@ msgstr "ดำเนินการต่อ"
 
 msgid "STAGE_MENU_BUTTON_TOOLTIP"
 msgstr ""
+
+#, fuzzy
+msgid "STARCH"
+msgstr "เริ่มต้น"
 
 #, fuzzy
 msgid "START"
@@ -6469,6 +6507,10 @@ msgstr "ดูซอร์สโค้ด"
 
 msgid "VIP_PATRONS"
 msgstr ""
+
+#, fuzzy
+msgid "VIRUS_COMPOUND"
+msgstr "สารประกอบของเมฆ"
 
 msgid "VISIBLE"
 msgstr ""

@@ -375,9 +375,27 @@ public class Patch
             case Compound.Carbondioxide:
             case Compound.Nitrogen:
                 return GetAmbientCompoundInSnapshot(snapshot, compound, CompoundAmountType.Biome) * 100;
+            case Compound.Methane:
+                return GetAmbientCompoundInSnapshot(snapshot, compound, CompoundAmountType.Biome) * 100;
+            case Compound.Hydrogen:
+                return GetAmbientCompoundInSnapshot(snapshot, compound, CompoundAmountType.Biome) * 100;
+            case Compound.Carbonmonoxide:
+                return GetAmbientCompoundInSnapshot(snapshot, compound, CompoundAmountType.Biome) * 100;
+            case Compound.Calcium:
+                return GetAmbientCompoundInSnapshot(snapshot, compound, CompoundAmountType.Biome) * 100;
+            case Compound.Carbonates:
+                return GetAmbientCompoundInSnapshot(snapshot, compound, CompoundAmountType.Biome) * 100;
+            case Compound.Salt:
+                return GetAmbientCompoundInSnapshot(snapshot, compound, CompoundAmountType.Biome) * 100;
             case Compound.Iron:
                 return GetTotalChunkCompoundAmountInSnapshot(snapshot, compound);
             case Compound.Radionuclides:
+                return GetTotalChunkCompoundAmountInSnapshot(snapshot, compound);
+            case Compound.Aceticacid:
+                return GetTotalChunkCompoundAmountInSnapshot(snapshot, compound);
+            case Compound.Methanol:
+                return GetTotalChunkCompoundAmountInSnapshot(snapshot, compound);
+            case Compound.Manganese:
                 return GetTotalChunkCompoundAmountInSnapshot(snapshot, compound);
             default:
             {

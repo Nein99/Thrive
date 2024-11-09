@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-11-04 00:09-0600\n"
+"POT-Creation-Date: 2024-11-08 23:26-0600\n"
 "PO-Revision-Date: 2024-10-17 07:24+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Indonesian <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/id/>\n"
@@ -48,6 +48,9 @@ msgid "ABYSSOPELAGIC"
 msgstr "Abisopelagik"
 
 msgid "ACCEPT"
+msgstr ""
+
+msgid "ACETIC_ACID"
 msgstr ""
 
 msgid "ACTION_AWAKEN"
@@ -602,6 +605,9 @@ msgstr "Oleh:"
 msgid "BY_REVOLUTIONARY_GAMES"
 msgstr "Oleh Revolutionary Games Studio"
 
+msgid "CALCIUM"
+msgstr ""
+
 msgid "CALCIUM_CARBONATE"
 msgstr "Kalsium Karbonat"
 
@@ -648,7 +654,15 @@ msgstr ""
 msgid "CAPSLOCK"
 msgstr "Caps Lock"
 
+#, fuzzy
+msgid "CARBONATES"
+msgstr "Kalsium Karbonat"
+
 msgid "CARBON_DIOXIDE"
+msgstr "Karbon Dioksida"
+
+#, fuzzy
+msgid "CARBON_MONOXIDE"
 msgstr "Karbon Dioksida"
 
 #, fuzzy
@@ -2405,6 +2419,10 @@ msgstr "Glukosa"
 msgid "GLUCOSE_CONCENTRATIONS_DRASTICALLY_DROPPED"
 msgstr "Konsentrasi glukosa telah turun drastis!"
 
+#, fuzzy
+msgid "GLYCOGEN"
+msgstr "Hidrogen Sulfida"
+
 msgid "GLYCOLYSIS"
 msgstr "Glikolisis"
 
@@ -2514,6 +2532,10 @@ msgstr "HSV"
 
 msgid "HUD_MESSAGE_MULTIPLE"
 msgstr ""
+
+#, fuzzy
+msgid "HYDROGEN"
+msgstr "Hidrogen Sulfida"
 
 #, fuzzy
 msgid "HYDROGENASE"
@@ -3325,6 +3347,9 @@ msgstr "Mengubah [thrive:compound type=\"atp\"][/thrive:compound] menjadi [thriv
 msgid "MACROLIDE_SYNTHESIS"
 msgstr "Kemosintesis"
 
+msgid "MANGANESE"
+msgstr ""
+
 msgid "MANUALLY_SET_TIME"
 msgstr ""
 
@@ -3425,6 +3450,12 @@ msgstr "Metabolosom adalah gugusan protein terbungkus dalam kulit protein. Merek
 
 msgid "METABOLOSOMES_PROCESSES_DESCRIPTION"
 msgstr "Mengubah [thrive:compound type=\"glucose\"][/thrive:compound] menjadi [thrive:compound type=\"atp\"][/thrive:compound]. Laju berbanding lurus dengan konsentrasi [thrive:compound type=\"oxygen\"][/thrive:compound]"
+
+msgid "METHANE"
+msgstr ""
+
+msgid "METHANOL "
+msgstr ""
 
 msgid "METRICS"
 msgstr "Metrik Performa"
@@ -5115,6 +5146,9 @@ msgstr "{0} populasi berubah {1} karena: {2}"
 msgid "SAFE_MODE_TITLE"
 msgstr ""
 
+msgid "SALT"
+msgstr ""
+
 msgid "SAVE"
 msgstr "Simpan"
 
@@ -5584,6 +5618,10 @@ msgstr "Tambah keybind baru"
 #, fuzzy
 msgid "STAGE_MENU_BUTTON_TOOLTIP"
 msgstr "Tambah keybind baru"
+
+#, fuzzy
+msgid "STARCH"
+msgstr "Memulai"
 
 #, fuzzy
 msgid "START"
@@ -6688,6 +6726,10 @@ msgstr "Lihat Kode Sumber"
 
 msgid "VIP_PATRONS"
 msgstr "Pendukung VIP"
+
+#, fuzzy
+msgid "VIRUS_COMPOUND"
+msgstr "Senyawa"
 
 msgid "VISIBLE"
 msgstr ""

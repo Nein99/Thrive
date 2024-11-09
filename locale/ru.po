@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-11-04 00:09-0600\n"
+"POT-Creation-Date: 2024-11-08 23:26-0600\n"
 "PO-Revision-Date: 2024-10-21 16:34+0000\n"
 "Last-Translator: Sentry Primis <sentryprime92@gmail.com>\n"
 "Language-Team: Russian <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/ru/>\n"
@@ -48,6 +48,9 @@ msgstr "Абиссопелагический"
 
 msgid "ACCEPT"
 msgstr "Принять"
+
+msgid "ACETIC_ACID"
+msgstr ""
 
 msgid "ACTION_AWAKEN"
 msgstr "Пробужден на {0:F1}/{1:F1}"
@@ -563,6 +566,9 @@ msgstr "Создано:"
 msgid "BY_REVOLUTIONARY_GAMES"
 msgstr "Автор: Revolutionary Games Studio"
 
+msgid "CALCIUM"
+msgstr ""
+
 msgid "CALCIUM_CARBONATE"
 msgstr "Карбонат кальция"
 
@@ -608,7 +614,15 @@ msgstr "Не удается загрузить информацию о моде 
 msgid "CAPSLOCK"
 msgstr "Caps Lock"
 
+#, fuzzy
+msgid "CARBONATES"
+msgstr "Углерод"
+
 msgid "CARBON_DIOXIDE"
+msgstr "Углекислый газ"
+
+#, fuzzy
+msgid "CARBON_MONOXIDE"
 msgstr "Углекислый газ"
 
 #, fuzzy
@@ -2241,6 +2255,10 @@ msgstr "Глюкоза"
 msgid "GLUCOSE_CONCENTRATIONS_DRASTICALLY_DROPPED"
 msgstr "Концентрация глюкозы резко упала!"
 
+#, fuzzy
+msgid "GLYCOGEN"
+msgstr "Гидрогеназа"
+
 msgid "GLYCOLYSIS"
 msgstr "Гликолиз"
 
@@ -2342,6 +2360,10 @@ msgstr "HSV"
 
 msgid "HUD_MESSAGE_MULTIPLE"
 msgstr "{0} (x{1})"
+
+#, fuzzy
+msgid "HYDROGEN"
+msgstr "Гидрогеназа"
 
 msgid "HYDROGENASE"
 msgstr "Гидрогеназа"
@@ -3092,6 +3114,9 @@ msgstr "Содержит пищеварительные ферменты. Тип
 msgid "MACROLIDE_SYNTHESIS"
 msgstr "Синтез Макролида"
 
+msgid "MANGANESE"
+msgstr ""
+
 msgid "MANUALLY_SET_TIME"
 msgstr "Вручную установить время"
 
@@ -3189,6 +3214,12 @@ msgstr "Метаболосомы - это кластеры белков, зав�
 
 msgid "METABOLOSOMES_PROCESSES_DESCRIPTION"
 msgstr "Превращает [thrive:compound type=\"glucose\"][/thrive:compound] в [thrive:compound type=\"atp\"][/thrive:compound]. Скорость увеличивается при повышении концентрации [thrive:compound type=\"oxygen\"][/thrive:compound]."
+
+msgid "METHANE"
+msgstr ""
+
+msgid "METHANOL "
+msgstr ""
 
 msgid "METRICS"
 msgstr "Включить показ производительности"
@@ -4793,6 +4824,9 @@ msgstr ""
 msgid "SAFE_MODE_TITLE"
 msgstr "Thrive запущен в безопасном режиме"
 
+msgid "SALT"
+msgstr ""
+
 msgid "SAVE"
 msgstr "Сохранить"
 
@@ -5205,6 +5239,10 @@ msgstr "Переключает режим спринтинга. Во время 
 
 msgid "STAGE_MENU_BUTTON_TOOLTIP"
 msgstr "Меню паузы"
+
+#, fuzzy
+msgid "STARCH"
+msgstr "Март"
 
 msgid "START"
 msgstr "Начать"
@@ -6218,6 +6256,10 @@ msgstr "Открыть исходный код"
 
 msgid "VIP_PATRONS"
 msgstr "VIP-Спонсоры"
+
+#, fuzzy
+msgid "VIRUS_COMPOUND"
+msgstr "Токсин"
 
 msgid "VISIBLE"
 msgstr "Видимый"
@@ -8475,9 +8517,6 @@ msgstr "Уменьшить масштаб"
 #, fuzzy
 #~ msgid "BACKTAB"
 #~ msgstr "Назад"
-
-#~ msgid "CARBON"
-#~ msgstr "Углерод"
 
 #~ msgid "DIOXIDE"
 #~ msgstr "Диоксид"
