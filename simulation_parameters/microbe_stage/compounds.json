@@ -217,14 +217,14 @@
     "CanBeDistributed": true,
     "Digestible": true,
     "Colour": {
-      "r": 0.765,
-      "g": 0.569,
-      "b": 0.529
+      "r": 0.431,
+      "g": 0.341,
+      "b": 0.204
     },
     "BarColour": {
-      "r": 0.765,
-      "g": 0.569,
-      "b": 0.529
+      "r": 0.431,
+      "g": 0.341,
+      "b": 0.204
     },
     "IconPath": "res://assets/textures/gui/bevel/calcium_carbonate.png"
   },
