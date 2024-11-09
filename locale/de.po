@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-11-04 00:09-0600\n"
+"POT-Creation-Date: 2024-11-08 23:26-0600\n"
 "PO-Revision-Date: 2024-10-17 07:24+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: German <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/de/>\n"
@@ -48,6 +48,9 @@ msgid "ABYSSOPELAGIC"
 msgstr "Abyssal"
 
 msgid "ACCEPT"
+msgstr ""
+
+msgid "ACETIC_ACID"
 msgstr ""
 
 msgid "ACTION_AWAKEN"
@@ -572,6 +575,9 @@ msgstr "Von:"
 msgid "BY_REVOLUTIONARY_GAMES"
 msgstr "Von Revolutionary Games Studio"
 
+msgid "CALCIUM"
+msgstr ""
+
 msgid "CALCIUM_CARBONATE"
 msgstr "Kalziumkarbonat"
 
@@ -617,7 +623,15 @@ msgstr "Informationen zum Mod {0} konnten nicht geladen werden"
 msgid "CAPSLOCK"
 msgstr "Feststelltaste"
 
+#, fuzzy
+msgid "CARBONATES"
+msgstr "Kohlenstoff"
+
 msgid "CARBON_DIOXIDE"
+msgstr "Kohlendioxid"
+
+#, fuzzy
+msgid "CARBON_MONOXIDE"
 msgstr "Kohlendioxid"
 
 #, fuzzy
@@ -2372,6 +2386,10 @@ msgstr "Glukose"
 msgid "GLUCOSE_CONCENTRATIONS_DRASTICALLY_DROPPED"
 msgstr "Die Glukosekonzentration ist drastisch gesunken!"
 
+#, fuzzy
+msgid "GLYCOGEN"
+msgstr "Schwefelwasserstoff"
+
 msgid "GLYCOLYSIS"
 msgstr "Glykolyse"
 
@@ -2478,6 +2496,10 @@ msgstr "HSV"
 
 msgid "HUD_MESSAGE_MULTIPLE"
 msgstr ""
+
+#, fuzzy
+msgid "HYDROGEN"
+msgstr "Schwefelwasserstoff"
 
 #, fuzzy
 msgid "HYDROGENASE"
@@ -3272,6 +3294,9 @@ msgstr "Enthält Verdauungsenzyme, welche die Geschwidigkeit und die Effizienz d
 msgid "MACROLIDE_SYNTHESIS"
 msgstr "Synthese von Schleimstoffen"
 
+msgid "MANGANESE"
+msgstr ""
+
 msgid "MANUALLY_SET_TIME"
 msgstr "Uhrzeit manuell einstellen"
 
@@ -3370,6 +3395,12 @@ msgstr "Metabolosomen sind Cluster von Proteinen, die in Proteinhüllen verpackt
 
 msgid "METABOLOSOMES_PROCESSES_DESCRIPTION"
 msgstr "Wandelt [thrive:compound type=\"glucose\"][/thrive:compound] in [thrive:compound type=\"atp\"][/thrive:compound] um. Rate skaliert mit der Konzentration an [thrive:compound type=\"oxygen\"][/thrive:compound]."
+
+msgid "METHANE"
+msgstr ""
+
+msgid "METHANOL "
+msgstr ""
 
 msgid "METRICS"
 msgstr "Leistungs Daten"
@@ -5045,6 +5076,9 @@ msgstr ""
 msgid "SAFE_MODE_TITLE"
 msgstr "Thrive im abgesicherten Modus gestartet"
 
+msgid "SALT"
+msgstr ""
+
 msgid "SAVE"
 msgstr "Speichern"
 
@@ -5481,6 +5515,10 @@ msgstr "Besuche unsere Patreon Seite"
 
 msgid "STAGE_MENU_BUTTON_TOOLTIP"
 msgstr "Pause-Menü"
+
+#, fuzzy
+msgid "STARCH"
+msgstr "März"
 
 #, fuzzy
 msgid "START"
@@ -6567,6 +6605,10 @@ msgstr "Quellcode anschauen"
 
 msgid "VIP_PATRONS"
 msgstr "VIP Unterstützer"
+
+#, fuzzy
+msgid "VIRUS_COMPOUND"
+msgstr "Substanzen"
 
 msgid "VISIBLE"
 msgstr "Sichtbar"
@@ -8824,9 +8866,6 @@ msgstr "Herauszoomen"
 #, fuzzy
 #~ msgid "BACKTAB"
 #~ msgstr "Zurück"
-
-#~ msgid "CARBON"
-#~ msgstr "Kohlenstoff"
 
 #~ msgid "DIOXIDE"
 #~ msgstr "Dioxid"

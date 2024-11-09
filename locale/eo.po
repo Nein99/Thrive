@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-11-04 00:09-0600\n"
+"POT-Creation-Date: 2024-11-08 23:26-0600\n"
 "PO-Revision-Date: 2024-10-17 07:24+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Esperanto <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/eo/>\n"
@@ -55,6 +55,9 @@ msgid "ABYSSOPELAGIC"
 msgstr "Abisma zono"
 
 msgid "ACCEPT"
+msgstr ""
+
+msgid "ACETIC_ACID"
 msgstr ""
 
 msgid "ACTION_AWAKEN"
@@ -600,6 +603,9 @@ msgstr "Per:"
 msgid "BY_REVOLUTIONARY_GAMES"
 msgstr ""
 
+msgid "CALCIUM"
+msgstr ""
+
 msgid "CALCIUM_CARBONATE"
 msgstr "Kalcia Karbonato"
 
@@ -646,7 +652,15 @@ msgstr ""
 msgid "CAPSLOCK"
 msgstr ""
 
+#, fuzzy
+msgid "CARBONATES"
+msgstr "Kalcia Karbonato"
+
 msgid "CARBON_DIOXIDE"
+msgstr "Karbona duoksido"
+
+#, fuzzy
+msgid "CARBON_MONOXIDE"
 msgstr "Karbona duoksido"
 
 #, fuzzy
@@ -2405,6 +2419,10 @@ msgstr "Glukozo"
 msgid "GLUCOSE_CONCENTRATIONS_DRASTICALLY_DROPPED"
 msgstr ""
 
+#, fuzzy
+msgid "GLYCOGEN"
+msgstr "Hidrogena Sulfido"
+
 msgid "GLYCOLYSIS"
 msgstr "Glikolizo"
 
@@ -2509,6 +2527,10 @@ msgstr ""
 
 msgid "HUD_MESSAGE_MULTIPLE"
 msgstr ""
+
+#, fuzzy
+msgid "HYDROGEN"
+msgstr "Hidrogena Sulfido"
 
 #, fuzzy
 msgid "HYDROGENASE"
@@ -3331,6 +3353,9 @@ msgstr "Metabolosomoj estas aretoj de proteinoj envolvitaj en proteinaj ŝeloj. 
 msgid "MACROLIDE_SYNTHESIS"
 msgstr "Kemisintezo"
 
+msgid "MANGANESE"
+msgstr ""
+
 msgid "MANUALLY_SET_TIME"
 msgstr ""
 
@@ -3432,6 +3457,12 @@ msgstr "Metabolosomoj estas aretoj de proteinoj envolvitaj en proteinaj ŝeloj. 
 
 msgid "METABOLOSOMES_PROCESSES_DESCRIPTION"
 msgstr "Transformas [thrive:compound type=\"glucose\"][/thrive:compound] en [thrive:compound type=\"atp\"][/thrive:compound]. Kurzo skalas kun la koncentro de [thrive:compound type=\"oxygen\"][/thrive:compound]."
+
+msgid "METHANE"
+msgstr ""
+
+msgid "METHANOL "
+msgstr ""
 
 #, fuzzy
 msgid "METRICS"
@@ -5156,6 +5187,9 @@ msgstr "{0} loĝantaro ŝanĝiĝis per {1} pro: {2}"
 msgid "SAFE_MODE_TITLE"
 msgstr ""
 
+msgid "SALT"
+msgstr ""
+
 msgid "SAVE"
 msgstr "Konservu"
 
@@ -5636,6 +5670,10 @@ msgstr "Aldonunovan funkcion por klavo"
 #, fuzzy
 msgid "STAGE_MENU_BUTTON_TOOLTIP"
 msgstr "Aldonunovan funkcion por klavo"
+
+#, fuzzy
+msgid "STARCH"
+msgstr "Komenco"
 
 #, fuzzy
 msgid "START"
@@ -6754,6 +6792,10 @@ msgstr "Rigardi Fontkodon"
 
 msgid "VIP_PATRONS"
 msgstr ""
+
+#, fuzzy
+msgid "VIRUS_COMPOUND"
+msgstr "Kunmetaĵoj"
 
 msgid "VISIBLE"
 msgstr ""

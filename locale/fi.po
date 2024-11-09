@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-11-04 00:09-0600\n"
+"POT-Creation-Date: 2024-11-08 23:26-0600\n"
 "PO-Revision-Date: 2024-10-17 07:24+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Finnish <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/fi/>\n"
@@ -55,6 +55,9 @@ msgid "ABYSSOPELAGIC"
 msgstr "Abyssaalivyöhyke"
 
 msgid "ACCEPT"
+msgstr ""
+
+msgid "ACETIC_ACID"
 msgstr ""
 
 #, fuzzy
@@ -602,6 +605,9 @@ msgstr "Tekijä:"
 msgid "BY_REVOLUTIONARY_GAMES"
 msgstr "Tehnyt Revolutionary Games Studio"
 
+msgid "CALCIUM"
+msgstr ""
+
 msgid "CALCIUM_CARBONATE"
 msgstr "Kalsiumkarbonaatti"
 
@@ -648,7 +654,15 @@ msgstr "Tietoja ei voida ladata modista {0}"
 msgid "CAPSLOCK"
 msgstr "Caps Lock"
 
+#, fuzzy
+msgid "CARBONATES"
+msgstr "Hiili"
+
 msgid "CARBON_DIOXIDE"
+msgstr "Hiilidioksidi"
+
+#, fuzzy
+msgid "CARBON_MONOXIDE"
 msgstr "Hiilidioksidi"
 
 #, fuzzy
@@ -2471,6 +2485,10 @@ msgstr "Glukoosi"
 msgid "GLUCOSE_CONCENTRATIONS_DRASTICALLY_DROPPED"
 msgstr "Glukoosin pitoisuudet ovat tippuneet rajusti!"
 
+#, fuzzy
+msgid "GLYCOGEN"
+msgstr "Rikkivety"
+
 msgid "GLYCOLYSIS"
 msgstr "Glykolyysi"
 
@@ -2573,6 +2591,10 @@ msgstr "HSV"
 
 msgid "HUD_MESSAGE_MULTIPLE"
 msgstr ""
+
+#, fuzzy
+msgid "HYDROGEN"
+msgstr "Rikkivety"
 
 #, fuzzy
 msgid "HYDROGENASE"
@@ -3385,6 +3407,9 @@ msgstr "Muuntaa [thrive:compound type=\"atp\"][/thrive:compound]:n [thrive:compo
 msgid "MACROLIDE_SYNTHESIS"
 msgstr "Kemosynteesi"
 
+msgid "MANGANESE"
+msgstr ""
+
 msgid "MANUALLY_SET_TIME"
 msgstr ""
 
@@ -3484,6 +3509,12 @@ msgstr "Metabolosomit, eli aineenvaihduntaelimet ovat proteiinikuorien koteloimi
 
 msgid "METABOLOSOMES_PROCESSES_DESCRIPTION"
 msgstr "Muuntaa [thrive:compound type=\"glucose\"]glukoosia[/thrive:compound] [thrive:compound type=\"atp\"]ATP:ksi[/thrive:compound]. Nopeus skaalautuu [thrive:compound type=\"oxygen\"]hapen[/thrive:compound] pitoisuuden mukaan."
+
+msgid "METHANE"
+msgstr ""
+
+msgid "METHANOL "
+msgstr ""
 
 #, fuzzy
 msgid "METRICS"
@@ -5214,6 +5245,9 @@ msgstr ""
 msgid "SAFE_MODE_TITLE"
 msgstr "Poista Paikallinen Data"
 
+msgid "SALT"
+msgstr ""
+
 msgid "SAVE"
 msgstr "Tallenna"
 
@@ -5675,6 +5709,10 @@ msgstr "Laita peli tauolle"
 
 msgid "STAGE_MENU_BUTTON_TOOLTIP"
 msgstr "Pysäytysmenu"
+
+#, fuzzy
+msgid "STARCH"
+msgstr "Maaliskuu"
 
 #, fuzzy
 msgid "START"
@@ -6779,6 +6817,10 @@ msgstr "Katsele lähdekoodia"
 
 msgid "VIP_PATRONS"
 msgstr "VIP-tukijat"
+
+#, fuzzy
+msgid "VIRUS_COMPOUND"
+msgstr "Yhdisteet"
 
 msgid "VISIBLE"
 msgstr "Näkyvä"
@@ -9037,9 +9079,6 @@ msgstr "Zoomaa ulospäin"
 #, fuzzy
 #~ msgid "BACKTAB"
 #~ msgstr "Takaisin"
-
-#~ msgid "CARBON"
-#~ msgstr "Hiili"
 
 #~ msgid "DIOXIDE"
 #~ msgstr "Dioksidi"

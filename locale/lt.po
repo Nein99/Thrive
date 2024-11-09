@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-11-04 00:09-0600\n"
+"POT-Creation-Date: 2024-11-08 23:26-0600\n"
 "PO-Revision-Date: 2023-10-12 00:43+0000\n"
 "Last-Translator: Irmantas <irmantas_i@yahoo.com>\n"
 "Language-Team: Lithuanian <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/lt/>\n"
@@ -48,6 +48,9 @@ msgid "ABYSSOPELAGIC"
 msgstr "Bedugnė"
 
 msgid "ACCEPT"
+msgstr ""
+
+msgid "ACETIC_ACID"
 msgstr ""
 
 msgid "ACTION_AWAKEN"
@@ -576,6 +579,9 @@ msgstr "Pagal:"
 msgid "BY_REVOLUTIONARY_GAMES"
 msgstr "Pagal Revolutionary Games Studio"
 
+msgid "CALCIUM"
+msgstr ""
+
 msgid "CALCIUM_CARBONATE"
 msgstr "Kalcio Karbonatas"
 
@@ -621,7 +627,15 @@ msgstr "Negalima įkelti modifikacijos informacijos apie {0}"
 msgid "CAPSLOCK"
 msgstr "Caps Lock"
 
+#, fuzzy
+msgid "CARBONATES"
+msgstr "Kalcio Karbonatas"
+
 msgid "CARBON_DIOXIDE"
+msgstr "Anglies Dioksidas"
+
+#, fuzzy
+msgid "CARBON_MONOXIDE"
 msgstr "Anglies Dioksidas"
 
 msgid "CAROTENOIDS"
@@ -2305,6 +2319,9 @@ msgstr ""
 msgid "GLUCOSE_CONCENTRATIONS_DRASTICALLY_DROPPED"
 msgstr "Gliukozės koncentracija smarkiai sumažėjo!"
 
+msgid "GLYCOGEN"
+msgstr ""
+
 msgid "GLYCOLYSIS"
 msgstr ""
 
@@ -2403,6 +2420,9 @@ msgid "HSV"
 msgstr "HSV"
 
 msgid "HUD_MESSAGE_MULTIPLE"
+msgstr ""
+
+msgid "HYDROGEN"
 msgstr ""
 
 msgid "HYDROGENASE"
@@ -3165,6 +3185,9 @@ msgstr ""
 msgid "MACROLIDE_SYNTHESIS"
 msgstr "Chemosintezė"
 
+msgid "MANGANESE"
+msgstr ""
+
 msgid "MANUALLY_SET_TIME"
 msgstr ""
 
@@ -3262,6 +3285,12 @@ msgid "METABOLOSOMES_DESCRIPTION"
 msgstr ""
 
 msgid "METABOLOSOMES_PROCESSES_DESCRIPTION"
+msgstr ""
+
+msgid "METHANE"
+msgstr ""
+
+msgid "METHANOL "
 msgstr ""
 
 msgid "METRICS"
@@ -4730,6 +4759,9 @@ msgstr "(pradžios vieta)"
 msgid "SAFE_MODE_TITLE"
 msgstr ""
 
+msgid "SALT"
+msgstr ""
+
 msgid "SAVE"
 msgstr ""
 
@@ -5135,6 +5167,10 @@ msgstr "Baigti žaidimą"
 
 msgid "STAGE_MENU_BUTTON_TOOLTIP"
 msgstr ""
+
+#, fuzzy
+msgid "STARCH"
+msgstr "Meno galerija"
 
 #, fuzzy
 msgid "START"
@@ -6050,6 +6086,10 @@ msgstr "Peržiūrėti išeities kodą"
 
 msgid "VIP_PATRONS"
 msgstr ""
+
+#, fuzzy
+msgid "VIRUS_COMPOUND"
+msgstr "Junginiai"
 
 msgid "VISIBLE"
 msgstr "Matomas"

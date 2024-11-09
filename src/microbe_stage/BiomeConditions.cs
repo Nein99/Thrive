@@ -278,11 +278,11 @@ public class BiomeConditions : IBiomeConditions, ICloneable
             }
         }
 
-        if (sumOfGasses > 1)
-        {
-            throw new InvalidRegistryDataException(name, GetType().Name,
-                "Gas compounds shouldn't together be over 100%");
-        }
+        // if (sumOfGasses > 1)
+        // {
+        //     throw new InvalidRegistryDataException(name, GetType().Name,
+        //         "Gas compounds shouldn't together be over 100%");
+        // }
 
         foreach (var chunk in Chunks)
         {

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-11-04 00:09-0600\n"
+"POT-Creation-Date: 2024-11-08 23:26-0600\n"
 "PO-Revision-Date: 2024-10-23 11:01+0000\n"
 "Last-Translator: punctdan <yunusemredilek@hotmail.com>\n"
 "Language-Team: Turkish <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/tr/>\n"
@@ -48,6 +48,9 @@ msgstr "Abissopelajik"
 
 msgid "ACCEPT"
 msgstr "Kabul et"
+
+msgid "ACETIC_ACID"
+msgstr ""
 
 msgid "ACTION_AWAKEN"
 msgstr "Uyandır ({0:F1} / {1:F1})"
@@ -563,6 +566,9 @@ msgstr "Oluşturan:"
 msgid "BY_REVOLUTIONARY_GAMES"
 msgstr "Revolutionary Games Studio Tarafından"
 
+msgid "CALCIUM"
+msgstr ""
+
 msgid "CALCIUM_CARBONATE"
 msgstr "Kalsiyum Karbonat"
 
@@ -608,7 +614,15 @@ msgstr "{0} için mod bilgisi yüklenemedi"
 msgid "CAPSLOCK"
 msgstr "Caps Lock"
 
+#, fuzzy
+msgid "CARBONATES"
+msgstr "Karbon"
+
 msgid "CARBON_DIOXIDE"
+msgstr "Karbondioksit"
+
+#, fuzzy
+msgid "CARBON_MONOXIDE"
 msgstr "Karbondioksit"
 
 #, fuzzy
@@ -2241,6 +2255,10 @@ msgstr "Glukoz"
 msgid "GLUCOSE_CONCENTRATIONS_DRASTICALLY_DROPPED"
 msgstr "Glukoz konsantrasyonu sert bir şekilde düştü!"
 
+#, fuzzy
+msgid "GLYCOGEN"
+msgstr "Hidrojenaz"
+
 msgid "GLYCOLYSIS"
 msgstr "Glikoliz"
 
@@ -2342,6 +2360,10 @@ msgstr "HSV"
 
 msgid "HUD_MESSAGE_MULTIPLE"
 msgstr "{0} (x{1})"
+
+#, fuzzy
+msgid "HYDROGEN"
+msgstr "Hidrojenaz"
 
 msgid "HYDROGENASE"
 msgstr "Hidrojenaz"
@@ -3092,6 +3114,9 @@ msgstr "Sindirim enzimleri içerir. İçerdiği enzim türünü değiştirmek i�
 msgid "MACROLIDE_SYNTHESIS"
 msgstr "Makrolid Sentezi"
 
+msgid "MANGANESE"
+msgstr ""
+
 msgid "MANUALLY_SET_TIME"
 msgstr "Günün Saatini Manuel Olarak Ayarla"
 
@@ -3189,6 +3214,12 @@ msgstr "Metabolozomlar, protein kabuklarının içine sarılmış proteinler kü
 
 msgid "METABOLOSOMES_PROCESSES_DESCRIPTION"
 msgstr "[thrive:compound type=\"glucose\"]Glukozu[/thrive:compound], [thrive:compound type=\"atp\"]ATP'ye[/thrive:compound] dönüştürür. Bu oran, [thrive:compound type=\"oxygen\"]oksijen[/thrive:compound] konsantrasyonu ile doğru orantılıdır."
+
+msgid "METHANE"
+msgstr ""
+
+msgid "METHANOL "
+msgstr ""
 
 msgid "METRICS"
 msgstr "Performans Ölçümleri"
@@ -4794,6 +4825,9 @@ msgstr ""
 msgid "SAFE_MODE_TITLE"
 msgstr "Thrive, Güvenli Modda Başlatıldı"
 
+msgid "SALT"
+msgstr ""
+
 msgid "SAVE"
 msgstr "Kaydet"
 
@@ -5206,6 +5240,10 @@ msgstr "Hızlanma modunu aç. Hızlanırken, hücreler daha hızlı hareket eder
 
 msgid "STAGE_MENU_BUTTON_TOOLTIP"
 msgstr "Ara menü"
+
+#, fuzzy
+msgid "STARCH"
+msgstr "Mart"
 
 msgid "START"
 msgstr "Başla"
@@ -6216,6 +6254,10 @@ msgstr "Kaynak Kodunu İncele"
 
 msgid "VIP_PATRONS"
 msgstr "VIP Destekçiler"
+
+#, fuzzy
+msgid "VIRUS_COMPOUND"
+msgstr "Toksin"
 
 msgid "VISIBLE"
 msgstr "Görünür"
@@ -8873,10 +8915,6 @@ msgstr "Uzaklaştır"
 #, fuzzy
 #~ msgid "BACKTAB"
 #~ msgstr "Geri"
-
-#, fuzzy
-#~ msgid "CARBON"
-#~ msgstr "Karbon"
 
 #, fuzzy
 #~ msgid "DIOXIDE"

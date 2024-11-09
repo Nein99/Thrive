@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-11-04 00:09-0600\n"
+"POT-Creation-Date: 2024-11-08 23:26-0600\n"
 "PO-Revision-Date: 2024-10-17 07:24+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Slovak <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/sk/>\n"
@@ -49,6 +49,9 @@ msgid "ABYSSOPELAGIC"
 msgstr "Abysopelagiál"
 
 msgid "ACCEPT"
+msgstr ""
+
+msgid "ACETIC_ACID"
 msgstr ""
 
 #, fuzzy
@@ -574,6 +577,9 @@ msgstr ""
 msgid "BY_REVOLUTIONARY_GAMES"
 msgstr "Od Revolutionary Games Studio"
 
+msgid "CALCIUM"
+msgstr ""
+
 msgid "CALCIUM_CARBONATE"
 msgstr "Uhličitan vápenatý"
 
@@ -620,7 +626,15 @@ msgstr "Nie je možné načítať informácie o móde pre {0}"
 msgid "CAPSLOCK"
 msgstr "Caps Lock"
 
+#, fuzzy
+msgid "CARBONATES"
+msgstr "Uhličitan vápenatý"
+
 msgid "CARBON_DIOXIDE"
+msgstr "Oxid uhličitý"
+
+#, fuzzy
+msgid "CARBON_MONOXIDE"
 msgstr "Oxid uhličitý"
 
 #, fuzzy
@@ -2299,6 +2313,10 @@ msgstr "Glukóza"
 msgid "GLUCOSE_CONCENTRATIONS_DRASTICALLY_DROPPED"
 msgstr "Koncentrácia glukózy drasticky klesla!"
 
+#, fuzzy
+msgid "GLYCOGEN"
+msgstr "Sírovodík"
+
 msgid "GLYCOLYSIS"
 msgstr "Glykolýza"
 
@@ -2400,6 +2418,10 @@ msgstr "OSJ"
 
 msgid "HUD_MESSAGE_MULTIPLE"
 msgstr ""
+
+#, fuzzy
+msgid "HYDROGEN"
+msgstr "Sírovodík"
 
 #, fuzzy
 msgid "HYDROGENASE"
@@ -3186,6 +3208,9 @@ msgstr ""
 msgid "MACROLIDE_SYNTHESIS"
 msgstr "Chemosyntéza"
 
+msgid "MANGANESE"
+msgstr ""
+
 msgid "MANUALLY_SET_TIME"
 msgstr ""
 
@@ -3285,6 +3310,12 @@ msgstr ""
 
 msgid "METABOLOSOMES_PROCESSES_DESCRIPTION"
 msgstr "Premieňa [thrive:compound type=\"glucose\"]glukózu[/thrive:compound] na [thrive:compound type=\"atp\"][/thrive:compound]. Množstvo závisí od koncentrácie [thrive:compound type=\"oxygen\"]kyslíka[/thrive:compound]."
+
+msgid "METHANE"
+msgstr ""
+
+msgid "METHANOL "
+msgstr ""
 
 msgid "METRICS"
 msgstr "Výkonnostné metriky"
@@ -4886,6 +4917,9 @@ msgstr "(začiatočná poloha)"
 msgid "SAFE_MODE_TITLE"
 msgstr "Odstrániť lokálne údaje"
 
+msgid "SALT"
+msgstr ""
+
 msgid "SAVE"
 msgstr "Uložiť"
 
@@ -5314,6 +5348,10 @@ msgstr "Pozastaviť hru"
 
 msgid "STAGE_MENU_BUTTON_TOOLTIP"
 msgstr ""
+
+#, fuzzy
+msgid "STARCH"
+msgstr "Marec"
 
 #, fuzzy
 msgid "START"
@@ -6269,6 +6307,10 @@ msgstr "Zobraziť zdrojový kód"
 
 msgid "VIP_PATRONS"
 msgstr "VIP podporovatelia"
+
+#, fuzzy
+msgid "VIRUS_COMPOUND"
+msgstr "Zlúčeniny"
 
 msgid "VISIBLE"
 msgstr "Viditeľné"

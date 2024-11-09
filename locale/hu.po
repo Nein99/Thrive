@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-11-04 00:09-0600\n"
+"POT-Creation-Date: 2024-11-08 23:26-0600\n"
 "PO-Revision-Date: 2024-10-17 07:24+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Hungarian <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/hu/>\n"
@@ -48,6 +48,9 @@ msgid "ABYSSOPELAGIC"
 msgstr "Abisszopelágikus"
 
 msgid "ACCEPT"
+msgstr ""
+
+msgid "ACETIC_ACID"
 msgstr ""
 
 msgid "ACTION_AWAKEN"
@@ -578,6 +581,9 @@ msgstr "Származás:"
 msgid "BY_REVOLUTIONARY_GAMES"
 msgstr "A Revolutionary Games Studio-tól"
 
+msgid "CALCIUM"
+msgstr ""
+
 msgid "CALCIUM_CARBONATE"
 msgstr "Kálcium-karbonát"
 
@@ -624,7 +630,15 @@ msgstr ""
 msgid "CAPSLOCK"
 msgstr "Caps Lock"
 
+#, fuzzy
+msgid "CARBONATES"
+msgstr "Kálcium-karbonát"
+
 msgid "CARBON_DIOXIDE"
+msgstr "Szén-dioxid"
+
+#, fuzzy
+msgid "CARBON_MONOXIDE"
 msgstr "Szén-dioxid"
 
 #, fuzzy
@@ -2372,6 +2386,10 @@ msgstr "Glükóz"
 msgid "GLUCOSE_CONCENTRATIONS_DRASTICALLY_DROPPED"
 msgstr "A glükóz koncentrációk drasztikusan csökkentek!"
 
+#, fuzzy
+msgid "GLYCOGEN"
+msgstr "Hidrogén-szulfid"
+
 msgid "GLYCOLYSIS"
 msgstr "Glikolízis"
 
@@ -2475,6 +2493,10 @@ msgstr "HSV"
 
 msgid "HUD_MESSAGE_MULTIPLE"
 msgstr ""
+
+#, fuzzy
+msgid "HYDROGEN"
+msgstr "Hidrogén-szulfid"
 
 #, fuzzy
 msgid "HYDROGENASE"
@@ -3278,6 +3300,9 @@ msgstr "[thrive:compound type=\"atp\"][/thrive:compound]-t alakít át [thrive:c
 msgid "MACROLIDE_SYNTHESIS"
 msgstr "Nyálka szintézis"
 
+msgid "MANGANESE"
+msgstr ""
+
 msgid "MANUALLY_SET_TIME"
 msgstr ""
 
@@ -3376,6 +3401,12 @@ msgstr "A metaboloszómák fehérjecsoportosulások fehérjeburokba csomagolva. 
 
 msgid "METABOLOSOMES_PROCESSES_DESCRIPTION"
 msgstr "[thrive:compound type=\"glucose\"][/thrive:compound]-t alakít át [thrive:compound type=\"atp\"][/thrive:compound]-vé. Hatékonysága függ az [thrive:compound type=\"oxygen\"][/thrive:compound] koncentrációjától."
+
+msgid "METHANE"
+msgstr ""
+
+msgid "METHANOL "
+msgstr ""
 
 msgid "METRICS"
 msgstr "Teljesítmény metrikák"
@@ -5089,6 +5120,9 @@ msgstr ""
 msgid "SAFE_MODE_TITLE"
 msgstr "Helyi adatok törlése"
 
+msgid "SALT"
+msgstr ""
+
 msgid "SAVE"
 msgstr "Mentés"
 
@@ -5539,6 +5573,10 @@ msgstr "Játék szüneteltetése"
 
 msgid "STAGE_MENU_BUTTON_TOOLTIP"
 msgstr "Menü"
+
+#, fuzzy
+msgid "STARCH"
+msgstr "Március"
 
 #, fuzzy
 msgid "START"
@@ -6612,6 +6650,10 @@ msgstr "A forráskód megtekintése"
 
 msgid "VIP_PATRONS"
 msgstr "VIP támogatók"
+
+#, fuzzy
+msgid "VIRUS_COMPOUND"
+msgstr "Vegyületek"
 
 msgid "VISIBLE"
 msgstr "Látható"

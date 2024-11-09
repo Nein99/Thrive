@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-11-04 00:09-0600\n"
+"POT-Creation-Date: 2024-11-08 23:26-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -45,6 +45,9 @@ msgid "ABYSSOPELAGIC"
 msgstr ""
 
 msgid "ACCEPT"
+msgstr ""
+
+msgid "ACETIC_ACID"
 msgstr ""
 
 msgid "ACTION_AWAKEN"
@@ -512,6 +515,9 @@ msgstr ""
 msgid "BY_REVOLUTIONARY_GAMES"
 msgstr ""
 
+msgid "CALCIUM"
+msgstr ""
+
 msgid "CALCIUM_CARBONATE"
 msgstr ""
 
@@ -557,7 +563,13 @@ msgstr ""
 msgid "CAPSLOCK"
 msgstr ""
 
+msgid "CARBONATES"
+msgstr ""
+
 msgid "CARBON_DIOXIDE"
+msgstr ""
+
+msgid "CARBON_MONOXIDE"
 msgstr ""
 
 msgid "CAROTENOIDS"
@@ -2078,6 +2090,9 @@ msgstr ""
 msgid "GLUCOSE_CONCENTRATIONS_DRASTICALLY_DROPPED"
 msgstr ""
 
+msgid "GLYCOGEN"
+msgstr ""
+
 msgid "GLYCOLYSIS"
 msgstr ""
 
@@ -2172,6 +2187,9 @@ msgid "HSV"
 msgstr ""
 
 msgid "HUD_MESSAGE_MULTIPLE"
+msgstr ""
+
+msgid "HYDROGEN"
 msgstr ""
 
 msgid "HYDROGENASE"
@@ -2897,6 +2915,9 @@ msgstr ""
 msgid "MACROLIDE_SYNTHESIS"
 msgstr ""
 
+msgid "MANGANESE"
+msgstr ""
+
 msgid "MANUALLY_SET_TIME"
 msgstr ""
 
@@ -2988,6 +3009,12 @@ msgid "METABOLOSOMES_DESCRIPTION"
 msgstr ""
 
 msgid "METABOLOSOMES_PROCESSES_DESCRIPTION"
+msgstr ""
+
+msgid "METHANE"
+msgstr ""
+
+msgid "METHANOL "
 msgstr ""
 
 msgid "METRICS"
@@ -4379,6 +4406,9 @@ msgstr ""
 msgid "SAFE_MODE_TITLE"
 msgstr ""
 
+msgid "SALT"
+msgstr ""
+
 msgid "SAVE"
 msgstr ""
 
@@ -4773,6 +4803,9 @@ msgid "SPRINT_ACTION_TOOLTIP"
 msgstr ""
 
 msgid "STAGE_MENU_BUTTON_TOOLTIP"
+msgstr ""
+
+msgid "STARCH"
 msgstr ""
 
 msgid "START"
@@ -5637,6 +5670,9 @@ msgid "VIEW_SOURCE_CODE"
 msgstr ""
 
 msgid "VIP_PATRONS"
+msgstr ""
+
+msgid "VIRUS_COMPOUND"
 msgstr ""
 
 msgid "VISIBLE"

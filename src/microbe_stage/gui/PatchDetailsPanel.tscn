@@ -1,4 +1,4 @@
-[gd_scene load_steps=29 format=3 uid="uid://bjl5o7oy7yr15"]
+[gd_scene load_steps=38 format=3 uid="uid://bjl5o7oy7yr15"]
 
 [ext_resource type="PackedScene" path="res://src/gui_common/CustomRichTextLabel.tscn" id="1"]
 [ext_resource type="LabelSettings" uid="uid://dcekwe8j7ep16" path="res://src/gui_common/fonts/Title-SemiBold-AlmostHuge.tres" id="3_lpicf"]
@@ -15,18 +15,27 @@
 [ext_resource type="Texture2D" uid="uid://d0qdyfeacbf31" path="res://assets/textures/gui/bevel/Nitrogen.svg" id="14_20t6o"]
 [ext_resource type="Texture2D" uid="uid://bylql42xmffwq" path="res://assets/textures/gui/bevel/CarbonDioxide.svg" id="15_iepc5"]
 [ext_resource type="LabelSettings" uid="uid://bx7mw3uvqpo42" path="res://src/gui_common/fonts/Body-Regular-Smaller.tres" id="15_ng6rp"]
+[ext_resource type="Texture2D" uid="uid://bm5ingclg5v4w" path="res://assets/textures/gui/bevel/hydrogen_gas2.png" id="15_vv543"]
 [ext_resource type="Texture2D" uid="uid://c2nk78uls8vui" path="res://assets/textures/gui/bevel/OtherCompounds.svg" id="16_ggwv7"]
+[ext_resource type="Texture2D" uid="uid://divrjoena7b4c" path="res://assets/textures/gui/bevel/methane_gas2.png" id="17_dxoe5"]
 [ext_resource type="Texture2D" uid="uid://dui1qqyh4jn7t" path="res://assets/textures/gui/bevel/HydrogenSulfide.svg" id="17_nrwlw"]
+[ext_resource type="Texture2D" uid="uid://b2v1w37vr0e0r" path="res://assets/textures/gui/bevel/carbon_monoxide.png" id="18_58cd7"]
 [ext_resource type="Texture2D" uid="uid://d4bj3835y827e" path="res://assets/textures/gui/bevel/Ammonia.svg" id="18_h7r2b"]
 [ext_resource type="LabelSettings" uid="uid://c07qrffjvqfw" path="res://src/gui_common/fonts/Body-Regular-Tiny.tres" id="19_6m1o4"]
+[ext_resource type="Texture2D" uid="uid://dppa35lttm3na" path="res://assets/textures/gui/bevel/calcium4.png" id="19_nqeev"]
 [ext_resource type="Texture2D" uid="uid://drlnrba2dvitm" path="res://assets/textures/gui/bevel/Glucose.svg" id="19_xgafm"]
+[ext_resource type="Texture2D" uid="uid://jsrga35suvc4" path="res://assets/textures/gui/bevel/carbonates2.png" id="20_iaf38"]
 [ext_resource type="Texture2D" uid="uid://nckpuxkhcb0u" path="res://assets/textures/gui/bevel/Phosphate.svg" id="20_nvinp"]
 [ext_resource type="Texture2D" uid="uid://d0lhje01k1lij" path="res://assets/textures/gui/bevel/Iron.svg" id="21_dqoqo"]
+[ext_resource type="Texture2D" uid="uid://bd73y20b2haqi" path="res://assets/textures/gui/bevel/salt.png" id="21_px71a"]
 [ext_resource type="Texture2D" uid="uid://bs1a6isrkkwf1" path="res://assets/textures/gui/bevel/radionuclides.png" id="22_3diqk"]
 [ext_resource type="LabelSettings" uid="uid://fua052cwp5ap" path="res://src/gui_common/fonts/Body-Regular-AlmostSmaller.tres" id="23_8qra5"]
+[ext_resource type="Texture2D" uid="uid://c6lhdqgqq5fe0" path="res://assets/textures/gui/bevel/acetic_acid.png" id="23_nmyor"]
 [ext_resource type="LabelSettings" uid="uid://dvqx73nhtr0y2" path="res://src/gui_common/fonts/Body-Regular-Small.tres" id="24_21yun"]
 [ext_resource type="LabelSettings" uid="uid://bl7dig4lq5ko" path="res://src/gui_common/fonts/Body-Regular-Small-Red.tres" id="25_dd3af"]
+[ext_resource type="Texture2D" uid="uid://djgcq7oa66sbp" path="res://assets/textures/gui/bevel/manganese.png" id="25_xj5p8"]
 [ext_resource type="Theme" uid="uid://b4cx0o110g4b6" path="res://src/gui_common/thrive_theme.tres" id="28"]
+[ext_resource type="Texture2D" uid="uid://dbihyvda74hfe" path="res://assets/textures/gui/bevel/methanol.png" id="28_l2ebq"]
 
 [sub_resource type="StyleBoxTexture" id="34"]
 texture = ExtResource("9")
@@ -247,6 +256,25 @@ layout_mode = 2
 DisplayName = "ATMOSPHERIC_GASSES"
 Columns = 2
 
+[node name="CO2" type="HBoxContainer" parent="NormalContent/MarginContainer/ScrollContainer/VBoxContainer/PatchDetailsContainer/AtmosphericGasses"]
+layout_mode = 2
+size_flags_horizontal = 3
+mouse_filter = 2
+
+[node name="TextureRect" type="TextureRect" parent="NormalContent/MarginContainer/ScrollContainer/VBoxContainer/PatchDetailsContainer/AtmosphericGasses/CO2"]
+custom_minimum_size = Vector2(25, 25)
+layout_mode = 2
+size_flags_vertical = 4
+tooltip_text = "CARBON_DIOXIDE"
+texture = ExtResource("15_iepc5")
+expand_mode = 1
+
+[node name="Label" type="Label" parent="NormalContent/MarginContainer/ScrollContainer/VBoxContainer/PatchDetailsContainer/AtmosphericGasses/CO2"]
+editor_description = "PLACEHOLDER"
+layout_mode = 2
+text = "CO₂"
+label_settings = ExtResource("15_ng6rp")
+
 [node name="Oxygen" type="HBoxContainer" parent="NormalContent/MarginContainer/ScrollContainer/VBoxContainer/PatchDetailsContainer/AtmosphericGasses"]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -264,6 +292,25 @@ expand_mode = 1
 editor_description = "PLACEHOLDER"
 layout_mode = 2
 text = "Oxygen"
+label_settings = ExtResource("15_ng6rp")
+
+[node name="Hydrogen" type="HBoxContainer" parent="NormalContent/MarginContainer/ScrollContainer/VBoxContainer/PatchDetailsContainer/AtmosphericGasses"]
+layout_mode = 2
+size_flags_horizontal = 3
+mouse_filter = 2
+
+[node name="TextureRect" type="TextureRect" parent="NormalContent/MarginContainer/ScrollContainer/VBoxContainer/PatchDetailsContainer/AtmosphericGasses/Hydrogen"]
+custom_minimum_size = Vector2(25, 25)
+layout_mode = 2
+size_flags_vertical = 4
+tooltip_text = "CARBON_DIOXIDE"
+texture = ExtResource("15_vv543")
+expand_mode = 1
+
+[node name="Label" type="Label" parent="NormalContent/MarginContainer/ScrollContainer/VBoxContainer/PatchDetailsContainer/AtmosphericGasses/Hydrogen"]
+editor_description = "PLACEHOLDER"
+layout_mode = 2
+text = "Hydrogen"
 label_settings = ExtResource("15_ng6rp")
 
 [node name="Nitrogen" type="HBoxContainer" parent="NormalContent/MarginContainer/ScrollContainer/VBoxContainer/PatchDetailsContainer/AtmosphericGasses"]
@@ -285,23 +332,99 @@ layout_mode = 2
 text = "Nitrogen"
 label_settings = ExtResource("15_ng6rp")
 
-[node name="CO2" type="HBoxContainer" parent="NormalContent/MarginContainer/ScrollContainer/VBoxContainer/PatchDetailsContainer/AtmosphericGasses"]
+[node name="Methane" type="HBoxContainer" parent="NormalContent/MarginContainer/ScrollContainer/VBoxContainer/PatchDetailsContainer/AtmosphericGasses"]
 layout_mode = 2
 size_flags_horizontal = 3
 mouse_filter = 2
 
-[node name="TextureRect" type="TextureRect" parent="NormalContent/MarginContainer/ScrollContainer/VBoxContainer/PatchDetailsContainer/AtmosphericGasses/CO2"]
+[node name="TextureRect" type="TextureRect" parent="NormalContent/MarginContainer/ScrollContainer/VBoxContainer/PatchDetailsContainer/AtmosphericGasses/Methane"]
 custom_minimum_size = Vector2(25, 25)
 layout_mode = 2
 size_flags_vertical = 4
 tooltip_text = "CARBON_DIOXIDE"
-texture = ExtResource("15_iepc5")
+texture = ExtResource("17_dxoe5")
 expand_mode = 1
 
-[node name="Label" type="Label" parent="NormalContent/MarginContainer/ScrollContainer/VBoxContainer/PatchDetailsContainer/AtmosphericGasses/CO2"]
+[node name="Label" type="Label" parent="NormalContent/MarginContainer/ScrollContainer/VBoxContainer/PatchDetailsContainer/AtmosphericGasses/Methane"]
 editor_description = "PLACEHOLDER"
 layout_mode = 2
-text = "CO₂"
+text = "Methane"
+label_settings = ExtResource("15_ng6rp")
+
+[node name="CarbonMonoxide" type="HBoxContainer" parent="NormalContent/MarginContainer/ScrollContainer/VBoxContainer/PatchDetailsContainer/AtmosphericGasses"]
+layout_mode = 2
+size_flags_horizontal = 3
+mouse_filter = 2
+
+[node name="TextureRect" type="TextureRect" parent="NormalContent/MarginContainer/ScrollContainer/VBoxContainer/PatchDetailsContainer/AtmosphericGasses/CarbonMonoxide"]
+custom_minimum_size = Vector2(25, 25)
+layout_mode = 2
+size_flags_vertical = 4
+tooltip_text = "CARBON_DIOXIDE"
+texture = ExtResource("18_58cd7")
+expand_mode = 1
+
+[node name="Label" type="Label" parent="NormalContent/MarginContainer/ScrollContainer/VBoxContainer/PatchDetailsContainer/AtmosphericGasses/CarbonMonoxide"]
+editor_description = "PLACEHOLDER"
+layout_mode = 2
+text = "Carbon Monoxide"
+label_settings = ExtResource("15_ng6rp")
+
+[node name="Calcium" type="HBoxContainer" parent="NormalContent/MarginContainer/ScrollContainer/VBoxContainer/PatchDetailsContainer/AtmosphericGasses"]
+layout_mode = 2
+size_flags_horizontal = 3
+mouse_filter = 2
+
+[node name="TextureRect" type="TextureRect" parent="NormalContent/MarginContainer/ScrollContainer/VBoxContainer/PatchDetailsContainer/AtmosphericGasses/Calcium"]
+custom_minimum_size = Vector2(25, 25)
+layout_mode = 2
+size_flags_vertical = 4
+tooltip_text = "CARBON_DIOXIDE"
+texture = ExtResource("19_nqeev")
+expand_mode = 1
+
+[node name="Label" type="Label" parent="NormalContent/MarginContainer/ScrollContainer/VBoxContainer/PatchDetailsContainer/AtmosphericGasses/Calcium"]
+editor_description = "PLACEHOLDER"
+layout_mode = 2
+text = "Calcium"
+label_settings = ExtResource("15_ng6rp")
+
+[node name="Carbonates" type="HBoxContainer" parent="NormalContent/MarginContainer/ScrollContainer/VBoxContainer/PatchDetailsContainer/AtmosphericGasses"]
+layout_mode = 2
+size_flags_horizontal = 3
+mouse_filter = 2
+
+[node name="TextureRect" type="TextureRect" parent="NormalContent/MarginContainer/ScrollContainer/VBoxContainer/PatchDetailsContainer/AtmosphericGasses/Carbonates"]
+custom_minimum_size = Vector2(25, 25)
+layout_mode = 2
+size_flags_vertical = 4
+tooltip_text = "CARBON_DIOXIDE"
+texture = ExtResource("20_iaf38")
+expand_mode = 1
+
+[node name="Label" type="Label" parent="NormalContent/MarginContainer/ScrollContainer/VBoxContainer/PatchDetailsContainer/AtmosphericGasses/Carbonates"]
+editor_description = "PLACEHOLDER"
+layout_mode = 2
+text = "Carbonates"
+label_settings = ExtResource("15_ng6rp")
+
+[node name="Salt" type="HBoxContainer" parent="NormalContent/MarginContainer/ScrollContainer/VBoxContainer/PatchDetailsContainer/AtmosphericGasses"]
+layout_mode = 2
+size_flags_horizontal = 3
+mouse_filter = 2
+
+[node name="TextureRect" type="TextureRect" parent="NormalContent/MarginContainer/ScrollContainer/VBoxContainer/PatchDetailsContainer/AtmosphericGasses/Salt"]
+custom_minimum_size = Vector2(25, 25)
+layout_mode = 2
+size_flags_vertical = 4
+tooltip_text = "CARBON_DIOXIDE"
+texture = ExtResource("21_px71a")
+expand_mode = 1
+
+[node name="Label" type="Label" parent="NormalContent/MarginContainer/ScrollContainer/VBoxContainer/PatchDetailsContainer/AtmosphericGasses/Salt"]
+editor_description = "PLACEHOLDER"
+layout_mode = 2
+text = "Salt"
 label_settings = ExtResource("15_ng6rp")
 
 [node name="Other" type="HBoxContainer" parent="NormalContent/MarginContainer/ScrollContainer/VBoxContainer/PatchDetailsContainer/AtmosphericGasses"]
@@ -430,6 +553,56 @@ size_flags_vertical = 4
 mouse_filter = 2
 expand_mode = 1
 
+[node name="AceticAcid" type="HBoxContainer" parent="NormalContent/MarginContainer/ScrollContainer/VBoxContainer/PatchDetailsContainer/Compounds"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="TextureRect" type="TextureRect" parent="NormalContent/MarginContainer/ScrollContainer/VBoxContainer/PatchDetailsContainer/Compounds/AceticAcid"]
+custom_minimum_size = Vector2(25, 25)
+layout_mode = 2
+size_flags_vertical = 4
+tooltip_text = "IRON"
+texture = ExtResource("23_nmyor")
+expand_mode = 1
+
+[node name="Label" type="Label" parent="NormalContent/MarginContainer/ScrollContainer/VBoxContainer/PatchDetailsContainer/Compounds/AceticAcid"]
+editor_description = "PLACEHOLDER"
+layout_mode = 2
+text = "5%"
+label_settings = ExtResource("15_ng6rp")
+
+[node name="Situation" type="TextureRect" parent="NormalContent/MarginContainer/ScrollContainer/VBoxContainer/PatchDetailsContainer/Compounds/AceticAcid"]
+custom_minimum_size = Vector2(12, 12)
+layout_mode = 2
+size_flags_vertical = 4
+mouse_filter = 2
+expand_mode = 1
+
+[node name="Methanol" type="HBoxContainer" parent="NormalContent/MarginContainer/ScrollContainer/VBoxContainer/PatchDetailsContainer/Compounds"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="TextureRect" type="TextureRect" parent="NormalContent/MarginContainer/ScrollContainer/VBoxContainer/PatchDetailsContainer/Compounds/Methanol"]
+custom_minimum_size = Vector2(25, 25)
+layout_mode = 2
+size_flags_vertical = 4
+tooltip_text = "IRON"
+texture = ExtResource("28_l2ebq")
+expand_mode = 1
+
+[node name="Label" type="Label" parent="NormalContent/MarginContainer/ScrollContainer/VBoxContainer/PatchDetailsContainer/Compounds/Methanol"]
+editor_description = "PLACEHOLDER"
+layout_mode = 2
+text = "5%"
+label_settings = ExtResource("15_ng6rp")
+
+[node name="Situation" type="TextureRect" parent="NormalContent/MarginContainer/ScrollContainer/VBoxContainer/PatchDetailsContainer/Compounds/Methanol"]
+custom_minimum_size = Vector2(12, 12)
+layout_mode = 2
+size_flags_vertical = 4
+mouse_filter = 2
+expand_mode = 1
+
 [node name="Iron" type="HBoxContainer" parent="NormalContent/MarginContainer/ScrollContainer/VBoxContainer/PatchDetailsContainer/Compounds"]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -449,6 +622,31 @@ text = "5%"
 label_settings = ExtResource("15_ng6rp")
 
 [node name="Situation" type="TextureRect" parent="NormalContent/MarginContainer/ScrollContainer/VBoxContainer/PatchDetailsContainer/Compounds/Iron"]
+custom_minimum_size = Vector2(12, 12)
+layout_mode = 2
+size_flags_vertical = 4
+mouse_filter = 2
+expand_mode = 1
+
+[node name="Manganese" type="HBoxContainer" parent="NormalContent/MarginContainer/ScrollContainer/VBoxContainer/PatchDetailsContainer/Compounds"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="TextureRect" type="TextureRect" parent="NormalContent/MarginContainer/ScrollContainer/VBoxContainer/PatchDetailsContainer/Compounds/Manganese"]
+custom_minimum_size = Vector2(25, 25)
+layout_mode = 2
+size_flags_vertical = 4
+tooltip_text = "IRON"
+texture = ExtResource("25_xj5p8")
+expand_mode = 1
+
+[node name="Label" type="Label" parent="NormalContent/MarginContainer/ScrollContainer/VBoxContainer/PatchDetailsContainer/Compounds/Manganese"]
+editor_description = "PLACEHOLDER"
+layout_mode = 2
+text = "5%"
+label_settings = ExtResource("15_ng6rp")
+
+[node name="Situation" type="TextureRect" parent="NormalContent/MarginContainer/ScrollContainer/VBoxContainer/PatchDetailsContainer/Compounds/Manganese"]
 custom_minimum_size = Vector2(12, 12)
 layout_mode = 2
 size_flags_vertical = 4

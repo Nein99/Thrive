@@ -173,10 +173,30 @@
           "Density": 0,
           "Ambient": 0
         },
+        "aceticacid": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0
+        },
+        "methanol": {
+          "Amount": 0,
+          "Density": 0.0,
+          "Ambient": 0
+        },
         "oxygen": {
           "Amount": 0,
           "Density": 0,
           "Ambient": 0
+        },
+        "methane": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0.1
+        },
+        "hydrogen": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0.1
         },
         "carbondioxide": {
           "Amount": 0,
@@ -187,6 +207,26 @@
           "Amount": 0,
           "Density": 0,
           "Ambient": 0.6
+        },
+        "carbonmonoxide": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0.00001
+        },
+        "salt": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0.035
+        },
+        "calcium": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0.0004
+        },
+        "carbonates": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0.00014
         },
         "sunlight": {
           "Amount": 0,
@@ -504,29 +544,7 @@
         "VentAmount": 2,
         "DeleteOnTouch": false,
         "Compounds": {
-        "iron": {
-          "Amount": 60000
-            }
-          }
-      },
-      "uraniumRock": {
-        "Name": "URANIUM_ROCK",
-        "Meshes": [
-        {
-          "ScenePath": "res://assets/models/UraniumRock.tscn",
-          "ConvexShapePath": "res://assets/models/VentRockShape.shape"
-        }
-        ],
-        "Density": 0.00001,
-        "Dissolves": false,
-        "Radius": 10,
-        "ChunkScale": 1,
-        "PhysicsDensity": 1400,
-        "Size": 100,
-        "VentAmount": 2,
-        "DeleteOnTouch": false,
-        "Compounds": {
-          "radionuclides": {
+        "manganese": {
           "Amount": 60000
             }
           }
@@ -576,10 +594,30 @@
           "Density": 0.00008,
           "Ambient": 0
         },
+        "aceticacid": {
+          "Amount": 250000,
+          "Density": 0.00008,
+          "Ambient": 0
+        },
+        "methanol": {
+          "Amount": 0,
+          "Density": 0.0,
+          "Ambient": 0
+        },
         "oxygen": {
           "Amount": 0,
           "Density": 0,
           "Ambient": 0
+        },
+        "methane": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0.05
+        },
+        "hydrogen": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0.05
         },
         "carbondioxide": {
           "Amount": 0,
@@ -590,6 +628,26 @@
           "Amount": 0,
           "Density": 0,
           "Ambient": 0.6
+        },
+        "carbonmonoxide": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0.00001
+        },
+        "salt": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0.035
+        },
+        "calcium": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0.0004
+        },
+        "carbonates": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0.00014
         },
         "sunlight": {
           "Amount": 0,
@@ -843,10 +901,30 @@
           "Density": 0,
           "Ambient": 0
         },
+        "aceticacid": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0
+        },
+        "methanol": {
+          "Amount": 0,
+          "Density": 0.0,
+          "Ambient": 0
+        },
         "oxygen": {
           "Amount": 0,
           "Density": 0,
           "Ambient": 0
+        },
+        "methane": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0.1
+        },
+        "hydrogen": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0.1
         },
         "carbondioxide": {
           "Amount": 0,
@@ -857,6 +935,26 @@
           "Amount": 0,
           "Density": 0,
           "Ambient": 0.6
+        },
+        "carbonmonoxide": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0.00001
+        },
+        "salt": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0.035
+        },
+        "calcium": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0.0004
+        },
+        "carbonates": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0.00014
         },
         "sunlight": {
           "Amount": 0,
@@ -1130,10 +1228,30 @@
           "Density": 0,
           "Ambient": 0
         },
+        "aceticacid": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0
+        },
+        "methanol": {
+          "Amount": 0,
+          "Density": 0.0,
+          "Ambient": 0
+        },
         "oxygen": {
           "Amount": 0,
           "Density": 0,
           "Ambient": 0
+        },
+        "methane": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0.1
+        },
+        "hydrogen": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0.1
         },
         "carbondioxide": {
           "Amount": 0,
@@ -1144,6 +1262,26 @@
           "Amount": 0,
           "Density": 0,
           "Ambient": 0.6
+        },
+        "carbonmonoxide": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0.00001
+        },
+        "salt": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0.035
+        },
+        "calcium": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0.0004
+        },
+        "carbonates": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0.00014
         },
         "sunlight": {
           "Amount": 0,
@@ -1467,10 +1605,30 @@
           "Density": 0,
           "Ambient": 0
         },
+        "aceticacid": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0
+        },
+        "methanol": {
+          "Amount": 0,
+          "Density": 0.0,
+          "Ambient": 0
+        },
         "oxygen": {
           "Amount": 0,
           "Density": 0,
           "Ambient": 0
+        },
+        "methane": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0.1
+        },
+        "hydrogen": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0.1
         },
         "carbondioxide": {
           "Amount": 0,
@@ -1481,6 +1639,26 @@
           "Amount": 0,
           "Density": 0,
           "Ambient": 0.6
+        },
+        "carbonmonoxide": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0.00001
+        },
+        "salt": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0.035
+        },
+        "calcium": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0.0004
+        },
+        "carbonates": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0.00014
         },
         "sunlight": {
           "Amount": 0,
@@ -1762,7 +1940,7 @@
         "VentAmount": 2,
         "DeleteOnTouch": false,
         "Compounds": {
-        "iron": {
+        "manganese": {
           "Amount": 60000
             }
           }
@@ -1834,11 +2012,31 @@
 		  "Density": 0,
 		  "Ambient": 0
 		},
+    "aceticacid": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0
+        },
+        "methanol": {
+          "Amount": 0,
+          "Density": 0.0,
+          "Ambient": 0
+        },
 		"oxygen": {
 		  "Amount": 0,
 		  "Density": 0,
 		  "Ambient": 0
 		},
+    "methane": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0.1
+        },
+        "hydrogen": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0.1
+        },
 		"carbondioxide": {
 		  "Amount": 0,
 		  "Density": 0,
@@ -1847,8 +2045,28 @@
 		"nitrogen": {
 		  "Amount": 0,
 		  "Density": 0,
-		  "Ambient": 0.7
+		  "Ambient": 0.6
 		},
+    "carbonmonoxide": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0.00001
+        },
+        "salt": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0.035
+        },
+        "calcium": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0.0004
+        },
+        "carbonates": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0.00014
+        },
 		"sunlight": {
 		  "Amount": 0,
 		  "Density": 0,
@@ -2117,10 +2335,30 @@
           "Density": 0,
           "Ambient": 0
         },
+        "aceticacid": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0
+        },
+        "methanol": {
+          "Amount": 0,
+          "Density": 0.0,
+          "Ambient": 0
+        },
         "oxygen": {
           "Amount": 0,
           "Density": 0,
           "Ambient": 0
+        },
+        "methane": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0.1
+        },
+        "hydrogen": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0.1
         },
         "carbondioxide": {
           "Amount": 0,
@@ -2131,6 +2369,26 @@
           "Amount": 0,
           "Density": 0,
           "Ambient": 0.6
+        },
+        "carbonmonoxide": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0.00001
+        },
+        "salt": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0.035
+        },
+        "calcium": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0.0004
+        },
+        "carbonates": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0.00014
         },
         "sunlight": {
           "Amount": 0,
@@ -2381,10 +2639,30 @@
           "Density": 0,
           "Ambient": 0
         },
+        "aceticacid": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0
+        },
+        "methanol": {
+          "Amount": 0,
+          "Density": 0.0,
+          "Ambient": 0
+        },
         "oxygen": {
           "Amount": 0,
           "Density": 0,
           "Ambient": 0
+        },
+        "methane": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0.1
+        },
+        "hydrogen": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0.1
         },
         "carbondioxide": {
           "Amount": 0,
@@ -2395,6 +2673,26 @@
           "Amount": 0,
           "Density": 0,
           "Ambient": 0.6
+        },
+        "carbonmonoxide": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0.00001
+        },
+        "salt": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0.035
+        },
+        "calcium": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0.0004
+        },
+        "carbonates": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0.00014
         },
         "sunlight": {
           "Amount": 0,
@@ -2586,7 +2884,7 @@
         "VentAmount": 2,
         "DeleteOnTouch": false,
         "Compounds": {
-        "iron": {
+        "manganese": {
           "Amount": 60000
             }
           }
@@ -2658,10 +2956,30 @@
           "Density": 0.00004,
           "Ambient": 0
         },
+        "aceticacid": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0
+        },
+        "methanol": {
+          "Amount": 0,
+          "Density": 0.0,
+          "Ambient": 0
+        },
         "oxygen": {
           "Amount": 0,
           "Density": 0,
           "Ambient": 0
+        },
+        "methane": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0.1
+        },
+        "hydrogen": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0.1
         },
         "carbondioxide": {
           "Amount": 0,
@@ -2672,6 +2990,26 @@
           "Amount": 0,
           "Density": 0,
           "Ambient": 0.6
+        },
+        "carbonmonoxide": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0.00001
+        },
+        "salt": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0.035
+        },
+        "calcium": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0.0004
+        },
+        "carbonates": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0.00014
         },
         "sunlight": {
           "Amount": 0,
@@ -2961,10 +3299,30 @@
           "Density": 0,
           "Ambient": 0
         },
+        "aceticacid": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0
+        },
+        "methanol": {
+          "Amount": 0,
+          "Density": 0.0,
+          "Ambient": 0
+        },
         "oxygen": {
           "Amount": 0,
           "Density": 0,
           "Ambient": 0
+        },
+        "methane": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0.1
+        },
+        "hydrogen": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0.1
         },
         "carbondioxide": {
           "Amount": 0,
@@ -2975,6 +3333,26 @@
           "Amount": 0,
           "Density": 0,
           "Ambient": 0.6
+        },
+        "carbonmonoxide": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0.00001
+        },
+        "salt": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0.035
+        },
+        "calcium": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0.0004
+        },
+        "carbonates": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0.00014
         },
         "sunlight": {
           "Amount": 0,
@@ -3229,10 +3607,30 @@
           "Density": 0,
           "Ambient": 0
         },
+        "aceticacid": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0
+        },
+        "methanol": {
+          "Amount": 0,
+          "Density": 0.0,
+          "Ambient": 0
+        },
         "oxygen": {
           "Amount": 0,
           "Density": 0,
           "Ambient": 0
+        },
+        "methane": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0.1
+        },
+        "hydrogen": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0.1
         },
         "carbondioxide": {
           "Amount": 0,
@@ -3243,6 +3641,26 @@
           "Amount": 0,
           "Density": 0,
           "Ambient": 0.6
+        },
+        "carbonmonoxide": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0.00001
+        },
+        "salt": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0.035
+        },
+        "calcium": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0.0004
+        },
+        "carbonates": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0.00014
         },
         "sunlight": {
           "Amount": 0,
@@ -3500,11 +3918,31 @@
 		  "Density": 0.00008,
 		  "Ambient": 0
 		},
+    "aceticacid": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0
+        },
+        "methanol": {
+          "Amount": 0,
+          "Density": 0.0,
+          "Ambient": 0
+        },
 		"oxygen": {
 		  "Amount": 0,
 		  "Density": 0,
 		  "Ambient": 0
 		},
+    "methane": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0.05
+        },
+        "hydrogen": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0.05
+        },
 		"carbondioxide": {
 		  "Amount": 0,
 		  "Density": 0,
@@ -3515,6 +3953,26 @@
 		  "Density": 0,
 		  "Ambient": 0.46
 		},
+    "carbonmonoxide": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0.00001
+        },
+        "salt": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0.035
+        },
+        "calcium": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0.0004
+        },
+        "carbonates": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0.00014
+        },
 		"sunlight": {
 		  "Amount": 0,
 		  "Density": 0,
@@ -3805,7 +4263,7 @@
         "VentAmount": 2,
         "DeleteOnTouch": false,
         "Compounds": {
-        "iron": {
+        "manganese": {
           "Amount": 60000
             }
           }
@@ -3877,11 +4335,31 @@
 		  "Density": 0.00008,
 		  "Ambient": 0
 		},
+    "aceticacid": {
+          "Amount": 250000,
+          "Density": 0.00008,
+          "Ambient": 0
+        },
+        "methanol": {
+          "Amount": 0,
+          "Density": 0.0,
+          "Ambient": 0
+        },
 		"oxygen": {
 		  "Amount": 0,
 		  "Density": 0,
 		  "Ambient": 0
 		},
+    "methane": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0.05
+        },
+        "hydrogen": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0.05
+        },
 		"carbondioxide": {
 		  "Amount": 0,
 		  "Density": 0,
@@ -3892,6 +4370,26 @@
 		  "Density": 0,
 		  "Ambient": 0.6
 		},
+    "carbonmonoxide": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0.00001
+        },
+        "salt": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0.035
+        },
+        "calcium": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0.0004
+        },
+        "carbonates": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0.00014
+        },
 		"sunlight": {
 		  "Amount": 0,
 		  "Density": 0,
@@ -4095,7 +4593,7 @@
         "VentAmount": 2,
         "DeleteOnTouch": false,
         "Compounds": {
-        "iron": {
+        "manganese": {
           "Amount": 60000
             }
           }
@@ -4167,11 +4665,31 @@
 		  "Density": 0.00004,
 		  "Ambient": 0
 		},
+    "aceticacid": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0
+        },
+        "methanol": {
+          "Amount": 0,
+          "Density": 0.0,
+          "Ambient": 0
+        },
 		"oxygen": {
 		  "Amount": 0,
 		  "Density": 0,
-		  "Ambient": 0.15
+		  "Ambient": 0
 		},
+    "methane": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0.1
+        },
+        "hydrogen": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0.1
+        },
 		"carbondioxide": {
 		  "Amount": 0,
 		  "Density": 0,
@@ -4180,8 +4698,28 @@
 		"nitrogen": {
 		  "Amount": 0,
 		  "Density": 0,
-		  "Ambient": 0.7
+		  "Ambient": 0.6
 		},
+    "carbonmonoxide": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0.00001
+        },
+        "salt": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0.035
+        },
+        "calcium": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0.0004
+        },
+        "carbonates": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0.00014
+        },
 		"sunlight": {
 		  "Amount": 0,
 		  "Density": 0,
@@ -4466,7 +5004,7 @@
         "VentAmount": 2,
         "DeleteOnTouch": false,
         "Compounds": {
-        "iron": {
+        "manganese": {
           "Amount": 60000
             }
           }
@@ -4538,10 +5076,30 @@
           "Density": 0,
           "Ambient": 0
         },
+        "aceticacid": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0
+        },
+        "methanol": {
+          "Amount": 0,
+          "Density": 0.0,
+          "Ambient": 0
+        },
         "oxygen": {
           "Amount": 0,
           "Density": 0,
           "Ambient": 0
+        },
+        "methane": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0.1
+        },
+        "hydrogen": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0.1
         },
         "carbondioxide": {
           "Amount": 0,
@@ -4552,6 +5110,26 @@
           "Amount": 0,
           "Density": 0,
           "Ambient": 0.6
+        },
+        "carbonmonoxide": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0.00001
+        },
+        "salt": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0.035
+        },
+        "calcium": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0.0004
+        },
+        "carbonates": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0.00014
         },
         "sunlight": {
           "Amount": 0,
@@ -4675,10 +5253,30 @@
           "Density": 0.00008,
           "Ambient": 0
         },
+        "aceticacid": {
+          "Amount": 250000,
+          "Density": 0.00008,
+          "Ambient": 0
+        },
+        "methanol": {
+          "Amount": 0,
+          "Density": 0.0,
+          "Ambient": 0
+        },
         "oxygen": {
           "Amount": 0,
           "Density": 0,
-          "Ambient": 0.2
+          "Ambient": 0
+        },
+        "methane": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0.1
+        },
+        "hydrogen": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0.1
         },
         "carbondioxide": {
           "Amount": 0,
@@ -4689,6 +5287,26 @@
           "Amount": 0,
           "Density": 0,
           "Ambient": 0.5
+        },
+        "carbonmonoxide": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0.00001
+        },
+        "salt": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0.035
+        },
+        "calcium": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0.0004
+        },
+        "carbonates": {
+          "Amount": 0,
+          "Density": 0,
+          "Ambient": 0.00014
         },
         "sunlight": {
           "Amount": 0,

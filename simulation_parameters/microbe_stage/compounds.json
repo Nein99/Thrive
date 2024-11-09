@@ -73,6 +73,41 @@
     },
     "IconPath": "res://assets/textures/gui/bevel/HydrogenSulfide.svg"
   },
+  "aceticacid": {
+    "Name": "ACETIC_ACID",
+    "Volume": 1,
+    "IsCloud": true,
+    "IsAlwaysUseful": false,
+    "IsEnvironmental": false,
+    "CanBeDistributed": true,
+    "Digestible": true,
+    "Colour": {
+      "r": 0,
+      "g": 0.035,
+      "b": 0.380
+    },
+    "BarColour": {
+      "r": 0,
+      "g": 0.035,
+      "b": 0.380
+    },
+    "IconPath": "res://assets/textures/gui/bevel/acetic_acid.png"
+  },
+  "methanol": {
+    "Name": "METHANOL ",
+    "Volume": 1,
+    "IsCloud": true,
+    "IsAlwaysUseful": false,
+    "IsEnvironmental": false,
+    "CanBeDistributed": true,
+    "Digestible": true,
+    "Colour": {
+      "r": 0.467,
+      "g": 0.169,
+      "b": 0.110
+    },
+    "IconPath": "res://assets/textures/gui/bevel/methanol.png"
+  },
   "glucose": {
     "Name": "GLUCOSE",
     "Volume": 1,
@@ -93,6 +128,46 @@
     },
     "IconPath": "res://assets/textures/gui/bevel/Glucose.svg"
   },
+  "starch": {
+    "Name": "STARCH",
+    "Volume": 1,
+    "IsCloud": true,
+    "IsAlwaysUseful": false,
+    "IsEnvironmental": false,
+    "CanBeDistributed": true,
+    "Digestible": true,
+    "Colour": {
+      "r": 0.745,
+      "g": 0.596,
+      "b": 0.439
+    },
+    "BarColour": {
+      "r": 0.745,
+      "g": 0.596,
+      "b": 0.439
+    },
+    "IconPath": "res://assets/textures/gui/bevel/starch.png"
+  },
+  "glycogen": {
+    "Name": "GLYCOGEN",
+    "Volume": 1,
+    "IsCloud": true,
+    "IsAlwaysUseful": false,
+    "IsEnvironmental": false,
+    "CanBeDistributed": true,
+    "Digestible": true,
+    "Colour": {
+      "r": 0.820,
+      "g": 0.404,
+      "b": 0.365
+    },
+    "BarColour": {
+      "r": 0.820,
+      "g": 0.404,
+      "b": 0.365
+    },
+    "IconPath": "res://assets/textures/gui/bevel/glycogen.png"
+  },
   "oxytoxy": {
     "Name": "TOXIN_COMPOUND",
     "Volume": 1,
@@ -112,6 +187,46 @@
       "b": 0.37
     },
     "IconPath": "res://assets/textures/gui/bevel/Oxytoxy.svg"
+  },
+  "virus": {
+    "Name": "VIRUS_COMPOUND",
+    "Volume": 1,
+    "IsCloud": true,
+    "IsAgent": true,
+    "IsEnvironmental": false,
+    "CanBeDistributed": true,
+    "Digestible": true,
+    "Colour": {
+      "r": 0.863,
+      "g": 0.290,
+      "b": 0.376
+    },
+    "BarColour": {
+      "r": 0.863,
+      "g": 0.290,
+      "b": 0.376
+    },
+    "IconPath": "res://assets/textures/gui/bevel/virus2.png"
+  },
+  "calciumcarbonate": {
+    "Name": "CALCIUM_CARBONATE",
+    "Volume": 1,
+    "IsCloud": true,
+    "IsAgent": true,
+    "IsEnvironmental": false,
+    "CanBeDistributed": true,
+    "Digestible": true,
+    "Colour": {
+      "r": 0.765,
+      "g": 0.569,
+      "b": 0.529
+    },
+    "BarColour": {
+      "r": 0.765,
+      "g": 0.569,
+      "b": 0.529
+    },
+    "IconPath": "res://assets/textures/gui/bevel/calcium_carbonate.png"
   },
   "mucilage": {
     "Name": "MUCILAGE",
@@ -155,6 +270,26 @@
     },
     "IconPath": "res://assets/textures/gui/bevel/Iron.svg"
   },
+  "manganese": {
+    "Name": "MANGANESE",
+    "Volume": 1,
+    "IsCloud": true,
+    "IsAlwaysUseful": false,
+    "IsEnvironmental": false,
+    "CanBeDistributed": true,
+    "Digestible": true,
+    "Colour": {
+      "r": 0.227,
+      "g": 0.227,
+      "b": 0.227
+    },
+    "BarColour": {
+      "r": 0.227,
+      "g": 0.227,
+      "b": 0.227
+    },
+    "IconPath": "res://assets/textures/gui/bevel/Iron.svg"
+  },
   "radionuclides": {
     "Name": "RADIONUCLIDES",
     "Volume": 1,
@@ -170,8 +305,8 @@
     },
     "BarColour": {
       "r": 0.925,
-      "g": 0.925,
-      "b": 0.376
+      "g": 1.0,
+      "b": 0.380
     },
     "IconPath": "res://assets/textures/gui/bevel/Radionuclides.png"
   },
@@ -221,6 +356,101 @@
       "b": 0.43
     },
     "IconPath": "res://assets/textures/gui/bevel/Nitrogen.svg"
+  },
+  "methane": {
+    "Name": "METHANE",
+    "Volume": 1,
+    "IsCloud": false,
+    "IsGas": true,
+    "IsAlwaysUseful": true,
+    "IsEnvironmental": true,
+    "CanBeDistributed": true,
+    "Colour": {
+      "r": 0,
+      "g": 0.388,
+      "b": 0
+    },
+    "IconPath": "res://assets/textures/gui/bevel/methane_gas2.png"
+  },
+  "hydrogen": {
+    "Name": "HYDROGEN",
+    "Volume": 1,
+    "IsCloud": false,
+    "IsGas": true,
+    "IsAlwaysUseful": true,
+    "IsEnvironmental": true,
+    "CanBeDistributed": true,
+    "Colour": {
+      "r": 0.541,
+      "g": 0.949,
+      "b": 0.835
+    },
+    "BarColour": {
+      "r": 0.192,
+      "g": 0.596,
+      "b": 0.616
+    },
+    "IconPath": "res://assets/textures/gui/bevel/hydrogen_gas2.png"
+  },
+  "carbonmonoxide": {
+    "Name": "CARBON_MONOXIDE",
+    "Volume": 1,
+    "IsCloud": false,
+    "IsGas": true,
+    "IsAlwaysUseful": true,
+    "IsEnvironmental": true,
+    "CanBeDistributed": true,
+    "Colour": {
+      "r": 0.933,
+      "g": 0.420,
+      "b": 0.392
+    },
+    "IconPath": "res://assets/textures/gui/bevel/carbon_monoxide.png"
+  },
+  "calcium": {
+    "Name": "CALCIUM",
+    "Volume": 1,
+    "IsCloud": false,
+    "IsGas": true,
+    "IsAlwaysUseful": true,
+    "IsEnvironmental": true,
+    "CanBeDistributed": true,
+    "Colour": {
+      "r": 0.729,
+      "g": 0.671,
+      "b": 0.612
+    },
+    "IconPath": "res://assets/textures/gui/bevel/calcium4.png"
+  },
+  "salt": {
+    "Name": "SALT",
+    "Volume": 1,
+    "IsCloud": false,
+    "IsGas": true,
+    "IsAlwaysUseful": true,
+    "IsEnvironmental": true,
+    "CanBeDistributed": true,
+    "Colour": {
+      "r": 0.553,
+      "g": 0.553,
+      "b": 0.553
+    },
+    "IconPath": "res://assets/textures/gui/bevel/salt.png"
+  },
+  "carbonates": {
+    "Name": "CARBONATES",
+    "Volume": 1,
+    "IsCloud": false,
+    "IsGas": true,
+    "IsAlwaysUseful": true,
+    "IsEnvironmental": true,
+    "CanBeDistributed": true,
+    "Colour": {
+      "r": 0.616,
+      "g": 0.420,
+      "b": 0.380
+    },
+    "IconPath": "res://assets/textures/gui/bevel/carbonates2.png"
   },
   "sunlight": {
     "Name": "SUNLIGHT",

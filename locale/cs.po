@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-11-04 00:09-0600\n"
+"POT-Creation-Date: 2024-11-08 23:26-0600\n"
 "PO-Revision-Date: 2024-10-17 07:24+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Czech <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/cs/>\n"
@@ -48,6 +48,9 @@ msgid "ABYSSOPELAGIC"
 msgstr "Abysopelagiál (hloubka oceánu do 6000m)"
 
 msgid "ACCEPT"
+msgstr ""
+
+msgid "ACETIC_ACID"
 msgstr ""
 
 msgid "ACTION_AWAKEN"
@@ -572,6 +575,9 @@ msgstr "Podle:"
 msgid "BY_REVOLUTIONARY_GAMES"
 msgstr "Vytvořeno týmem Revolutionary Games Studio"
 
+msgid "CALCIUM"
+msgstr ""
+
 msgid "CALCIUM_CARBONATE"
 msgstr "Uhličitan vápenatý"
 
@@ -617,7 +623,15 @@ msgstr "Nelze načíst informace o módu pro {0}"
 msgid "CAPSLOCK"
 msgstr "Caps Lock"
 
+#, fuzzy
+msgid "CARBONATES"
+msgstr "Uhličitan vápenatý"
+
 msgid "CARBON_DIOXIDE"
+msgstr "Oxid uhličitý"
+
+#, fuzzy
+msgid "CARBON_MONOXIDE"
 msgstr "Oxid uhličitý"
 
 #, fuzzy
@@ -2410,6 +2424,10 @@ msgstr "Glukóza"
 msgid "GLUCOSE_CONCENTRATIONS_DRASTICALLY_DROPPED"
 msgstr "Koncentrace glukózy drasticky klesla!"
 
+#, fuzzy
+msgid "GLYCOGEN"
+msgstr "Sirovodík"
+
 msgid "GLYCOLYSIS"
 msgstr "Glykolýza"
 
@@ -2518,6 +2536,10 @@ msgstr "Barva - Saturace - Hodnota"
 
 msgid "HUD_MESSAGE_MULTIPLE"
 msgstr ""
+
+#, fuzzy
+msgid "HYDROGEN"
+msgstr "Sirovodík"
 
 #, fuzzy
 msgid "HYDROGENASE"
@@ -3316,6 +3338,9 @@ msgstr "Obsahuje trávící enzymy. Může být modifikován pro změnu typu enz
 msgid "MACROLIDE_SYNTHESIS"
 msgstr "Syntéza slizů"
 
+msgid "MANGANESE"
+msgstr ""
+
 msgid "MANUALLY_SET_TIME"
 msgstr ""
 
@@ -3414,6 +3439,12 @@ msgstr "Metabolosomy jsou shluky proteinů zabalené v proteinovém plášti. Ma
 
 msgid "METABOLOSOMES_PROCESSES_DESCRIPTION"
 msgstr "Přeměňuje [thrive:compound type=\"glucose\"]glukózu[/thrive:compound] na [thrive:compound type=\"atp\"]ATP[/thrive:compound]. Rychlost je úměrná koncentraci [thrive:compound type=\"oxygen\"]kyslíku[/thrive:compound]."
+
+msgid "METHANE"
+msgstr ""
+
+msgid "METHANOL "
+msgstr ""
 
 msgid "METRICS"
 msgstr "Metriky výkonu"
@@ -5112,6 +5143,9 @@ msgstr ""
 msgid "SAFE_MODE_TITLE"
 msgstr "Odstranit místní data"
 
+msgid "SALT"
+msgstr ""
+
 msgid "SAVE"
 msgstr "Uložit"
 
@@ -5551,6 +5585,10 @@ msgstr "Navštivte náš Patreon"
 
 msgid "STAGE_MENU_BUTTON_TOOLTIP"
 msgstr "Menu pozastavení"
+
+#, fuzzy
+msgid "STARCH"
+msgstr "Březen"
 
 #, fuzzy
 msgid "START"
@@ -6632,6 +6670,10 @@ msgstr "Zdrojový kód"
 
 msgid "VIP_PATRONS"
 msgstr "VIP Podporovatelé"
+
+#, fuzzy
+msgid "VIRUS_COMPOUND"
+msgstr "Sloučeniny"
 
 msgid "VISIBLE"
 msgstr "Viditelné"

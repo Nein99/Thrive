@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-11-04 00:09-0600\n"
+"POT-Creation-Date: 2024-11-08 23:26-0600\n"
 "PO-Revision-Date: 2024-10-21 06:36+0000\n"
 "Last-Translator: Xzihnago <xzihnago@gmail.com>\n"
 "Language-Team: Chinese (Traditional Han script) <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/zh_Hant/>\n"
@@ -48,6 +48,9 @@ msgstr "深海帶"
 
 msgid "ACCEPT"
 msgstr "接受"
+
+msgid "ACETIC_ACID"
+msgstr ""
 
 msgid "ACTION_AWAKEN"
 msgstr "覺醒（{0:F1}／{1:F1}）"
@@ -563,6 +566,9 @@ msgstr "創建者："
 msgid "BY_REVOLUTIONARY_GAMES"
 msgstr "由 Revolutionary Games Studio 製作"
 
+msgid "CALCIUM"
+msgstr ""
+
 msgid "CALCIUM_CARBONATE"
 msgstr "碳酸鈣"
 
@@ -608,7 +614,15 @@ msgstr "無法載入 {0} 的模組資訊"
 msgid "CAPSLOCK"
 msgstr "Caps Lock"
 
+#, fuzzy
+msgid "CARBONATES"
+msgstr "碳"
+
 msgid "CARBON_DIOXIDE"
+msgstr "二氧化碳"
+
+#, fuzzy
+msgid "CARBON_MONOXIDE"
 msgstr "二氧化碳"
 
 #, fuzzy
@@ -2241,6 +2255,10 @@ msgstr "葡萄糖"
 msgid "GLUCOSE_CONCENTRATIONS_DRASTICALLY_DROPPED"
 msgstr "葡萄糖濃度急劇下降！"
 
+#, fuzzy
+msgid "GLYCOGEN"
+msgstr "氫化酶"
+
 msgid "GLYCOLYSIS"
 msgstr "糖解"
 
@@ -2342,6 +2360,10 @@ msgstr "HSV"
 
 msgid "HUD_MESSAGE_MULTIPLE"
 msgstr "{0}（x{1}）"
+
+#, fuzzy
+msgid "HYDROGEN"
+msgstr "氫化酶"
 
 msgid "HYDROGENASE"
 msgstr "氫化酶"
@@ -3092,6 +3114,9 @@ msgstr "含有消化酶。可以進行修改以改變其所含酶的類型。每
 msgid "MACROLIDE_SYNTHESIS"
 msgstr "巨環內酯合成"
 
+msgid "MANGANESE"
+msgstr ""
+
 msgid "MANUALLY_SET_TIME"
 msgstr "手動設定時間"
 
@@ -3189,6 +3214,12 @@ msgstr "代謝體是包裹在蛋白質殼中的蛋白質叢。它們能夠將[th
 
 msgid "METABOLOSOMES_PROCESSES_DESCRIPTION"
 msgstr "將[thrive:compound type=\"glucose\"][/thrive:compound] 轉化為[thrive:compound type=\"atp\"][/thrive:compound]。速率與[thrive:compound type=\"oxygen\"][/thrive:compound] 的濃度成正比。"
+
+msgid "METHANE"
+msgstr ""
+
+msgid "METHANOL "
+msgstr ""
 
 msgid "METRICS"
 msgstr "性能指標"
@@ -4794,6 +4825,9 @@ msgstr ""
 msgid "SAFE_MODE_TITLE"
 msgstr "Thrive 以安全模式啟動"
 
+msgid "SALT"
+msgstr ""
+
 msgid "SAVE"
 msgstr "儲存"
 
@@ -5206,6 +5240,10 @@ msgstr "切換衝刺模式。衝刺時細胞移動得更快，但會消耗更多
 
 msgid "STAGE_MENU_BUTTON_TOOLTIP"
 msgstr "暫停選單"
+
+#, fuzzy
+msgid "STARCH"
+msgstr "三月"
 
 msgid "START"
 msgstr "開始"
@@ -6216,6 +6254,10 @@ msgstr "查看原始碼"
 
 msgid "VIP_PATRONS"
 msgstr "VIP 支持者"
+
+#, fuzzy
+msgid "VIRUS_COMPOUND"
+msgstr "毒素"
 
 msgid "VISIBLE"
 msgstr "可見"
@@ -8785,9 +8827,6 @@ msgstr "縮小"
 #, fuzzy
 #~ msgid "BACKTAB"
 #~ msgstr "返回"
-
-#~ msgid "CARBON"
-#~ msgstr "碳"
 
 #, fuzzy
 #~ msgid "DIOXIDE"

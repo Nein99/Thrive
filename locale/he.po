@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-11-04 00:09-0600\n"
+"POT-Creation-Date: 2024-11-08 23:26-0600\n"
 "PO-Revision-Date: 2024-10-17 07:24+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Hebrew <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/he/>\n"
@@ -48,6 +48,9 @@ msgid "ABYSSOPELAGIC"
 msgstr "אביסלפלגיים"
 
 msgid "ACCEPT"
+msgstr ""
+
+msgid "ACETIC_ACID"
 msgstr ""
 
 msgid "ACTION_AWAKEN"
@@ -569,6 +572,9 @@ msgstr "על ידי:"
 msgid "BY_REVOLUTIONARY_GAMES"
 msgstr "עלי ידי Revolutionary Games Studio"
 
+msgid "CALCIUM"
+msgstr ""
+
 msgid "CALCIUM_CARBONATE"
 msgstr "סידן פחמתי"
 
@@ -614,7 +620,15 @@ msgstr "לא יכול לטעון מידע על המוד מ{0}"
 msgid "CAPSLOCK"
 msgstr "מקש Caps Lock"
 
+#, fuzzy
+msgid "CARBONATES"
+msgstr "פחמן"
+
 msgid "CARBON_DIOXIDE"
+msgstr "פחמן דו חמצני"
+
+#, fuzzy
+msgid "CARBON_MONOXIDE"
 msgstr "פחמן דו חמצני"
 
 #, fuzzy
@@ -2370,6 +2384,10 @@ msgstr "גלוקוז"
 msgid "GLUCOSE_CONCENTRATIONS_DRASTICALLY_DROPPED"
 msgstr "ריכוזי הגלוקוז ירדו בצורה דרסטית!"
 
+#, fuzzy
+msgid "GLYCOGEN"
+msgstr "מימן גופרתי"
+
 msgid "GLYCOLYSIS"
 msgstr "גליקוליזה"
 
@@ -2476,6 +2494,10 @@ msgstr "HSV"
 
 msgid "HUD_MESSAGE_MULTIPLE"
 msgstr ""
+
+#, fuzzy
+msgid "HYDROGEN"
+msgstr "מימן גופרתי"
 
 #, fuzzy
 msgid "HYDROGENASE"
@@ -3272,6 +3294,9 @@ msgstr "מכיל אנזימי עיכול. ניתן לשנותם לסוגים ש�
 msgid "MACROLIDE_SYNTHESIS"
 msgstr "ייצור ריר"
 
+msgid "MANGANESE"
+msgstr ""
+
 msgid "MANUALLY_SET_TIME"
 msgstr ""
 
@@ -3370,6 +3395,12 @@ msgstr "מטבולוזומים הם מקבצי חלבונים העטופים ב�
 
 msgid "METABOLOSOMES_PROCESSES_DESCRIPTION"
 msgstr "הופך [thrive:compound type=\"glucose\"][/thrive:compound] ל[thrive:compound type=\"atp\"][/thrive:compound]. בהתאם לריכוז של [thrive:compound type=\"oxygen\"][/thrive:compound]."
+
+msgid "METHANE"
+msgstr ""
+
+msgid "METHANOL "
+msgstr ""
 
 msgid "METRICS"
 msgstr "מדדי ביצועיים"
@@ -5058,6 +5089,9 @@ msgstr ""
 msgid "SAFE_MODE_TITLE"
 msgstr "Thrive הופעל במצב בטוח"
 
+msgid "SALT"
+msgstr ""
+
 msgid "SAVE"
 msgstr "שמור"
 
@@ -5493,6 +5527,10 @@ msgstr "ראו את דף הפטריון שלנו"
 
 msgid "STAGE_MENU_BUTTON_TOOLTIP"
 msgstr "תפריט השהה"
+
+#, fuzzy
+msgid "STARCH"
+msgstr "מרץ"
 
 #, fuzzy
 msgid "START"
@@ -6573,6 +6611,10 @@ msgstr "צפה בקוד מקור"
 
 msgid "VIP_PATRONS"
 msgstr "תומכי VIP"
+
+#, fuzzy
+msgid "VIRUS_COMPOUND"
+msgstr "תרכובות"
 
 msgid "VISIBLE"
 msgstr "גלוי"
@@ -8844,9 +8886,6 @@ msgstr "זום החוצה"
 #, fuzzy
 #~ msgid "BACKTAB"
 #~ msgstr "חזור"
-
-#~ msgid "CARBON"
-#~ msgstr "פחמן"
 
 #~ msgid "DIOXIDE"
 #~ msgstr "דו תחמוצת"

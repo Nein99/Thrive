@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-11-04 00:09-0600\n"
+"POT-Creation-Date: 2024-11-08 23:26-0600\n"
 "PO-Revision-Date: 2024-10-17 07:24+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Polish <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/pl/>\n"
@@ -48,6 +48,9 @@ msgid "ABYSSOPELAGIC"
 msgstr "Strefa głębinowa"
 
 msgid "ACCEPT"
+msgstr ""
+
+msgid "ACETIC_ACID"
 msgstr ""
 
 msgid "ACTION_AWAKEN"
@@ -566,6 +569,9 @@ msgstr "Przez:"
 msgid "BY_REVOLUTIONARY_GAMES"
 msgstr "Wykonane Przez Revolutionary Games Studio"
 
+msgid "CALCIUM"
+msgstr ""
+
 msgid "CALCIUM_CARBONATE"
 msgstr "Węglanowo-Wapienna"
 
@@ -611,7 +617,15 @@ msgstr "Nie można wczytać informacji o modzie {0}"
 msgid "CAPSLOCK"
 msgstr "Caps Lock"
 
+#, fuzzy
+msgid "CARBONATES"
+msgstr "Węgiel"
+
 msgid "CARBON_DIOXIDE"
+msgstr "Dwutlenek Węgla"
+
+#, fuzzy
+msgid "CARBON_MONOXIDE"
 msgstr "Dwutlenek Węgla"
 
 #, fuzzy
@@ -2282,6 +2296,10 @@ msgstr "Glukoza (C₆H₁₂O₆)"
 msgid "GLUCOSE_CONCENTRATIONS_DRASTICALLY_DROPPED"
 msgstr "Stężenie glukozy drastycznie spadło!"
 
+#, fuzzy
+msgid "GLYCOGEN"
+msgstr "Siarkowodór (H₂S)"
+
 msgid "GLYCOLYSIS"
 msgstr "Glikoliza"
 
@@ -2387,6 +2405,10 @@ msgstr "HSV"
 
 msgid "HUD_MESSAGE_MULTIPLE"
 msgstr "{0} (x{1})"
+
+#, fuzzy
+msgid "HYDROGEN"
+msgstr "Siarkowodór (H₂S)"
 
 #, fuzzy
 msgid "HYDROGENASE"
@@ -3164,6 +3186,9 @@ msgstr "Zawiera enzymy trawienne. Może być modyfikowany by zmienić typ enzymu
 msgid "MACROLIDE_SYNTHESIS"
 msgstr "Synteza śluzu"
 
+msgid "MANGANESE"
+msgstr ""
+
 msgid "MANUALLY_SET_TIME"
 msgstr ""
 
@@ -3262,6 +3287,12 @@ msgstr "Metabolosomy to grupy białek zamknięte w proteinowych powłokach. Potr
 
 msgid "METABOLOSOMES_PROCESSES_DESCRIPTION"
 msgstr "Utlenia [thrive:compound type=\"glucose\"][/thrive:compound] wydzielając [thrive:compound type=\"atp\"][/thrive:compound]. Tempo skaluje się ze stężeniem [thrive:compound type=\"oxygen\"][/thrive:compound]."
+
+msgid "METHANE"
+msgstr ""
+
+msgid "METHANOL "
+msgstr ""
 
 msgid "METRICS"
 msgstr "Wskaźniki Wydajności"
@@ -4903,6 +4934,9 @@ msgstr ""
 msgid "SAFE_MODE_TITLE"
 msgstr "Thrive Uruchomiło Się W Trybie Bezpiecznym"
 
+msgid "SALT"
+msgstr ""
+
 msgid "SAVE"
 msgstr "Zapisz"
 
@@ -5331,6 +5365,10 @@ msgstr "Odwiedź naszego Patreona"
 
 msgid "STAGE_MENU_BUTTON_TOOLTIP"
 msgstr "Menu pauzy"
+
+#, fuzzy
+msgid "STARCH"
+msgstr "Marzec"
 
 #, fuzzy
 msgid "START"
@@ -6359,6 +6397,10 @@ msgstr "Zobacz Kod Źródłowy"
 
 msgid "VIP_PATRONS"
 msgstr "VIP Wspierający"
+
+#, fuzzy
+msgid "VIRUS_COMPOUND"
+msgstr "Związki"
 
 msgid "VISIBLE"
 msgstr "Widoczne"
@@ -8565,9 +8607,6 @@ msgstr "Oddal"
 #, fuzzy
 #~ msgid "BACKTAB"
 #~ msgstr "Cofnij"
-
-#~ msgid "CARBON"
-#~ msgstr "Węgiel"
 
 #~ msgid "DIOXIDE"
 #~ msgstr "Dwutlenek"
