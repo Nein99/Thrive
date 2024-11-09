@@ -2198,6 +2198,7 @@
       }
     ],
     "RequiresNucleus": true,
+    "LAWK": false,
     "EditorButtonGroup": "Organelle",
     "EditorButtonOrder": 5
   },
