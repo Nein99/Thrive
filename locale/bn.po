@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Thrive VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-11-08 23:26-0600\n"
+"POT-Creation-Date: 2024-11-09 13:57-0600\n"
 "PO-Revision-Date: 2023-09-10 12:18+0000\n"
 "Last-Translator: Mahbeer Alam Sarker <mahbeeralamsarker@gmail.com>\n"
 "Language-Team: Bengali <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/bn/>\n"
@@ -51,6 +51,35 @@ msgstr "গ্রহণ"
 
 msgid "ACETIC_ACID"
 msgstr ""
+
+msgid "ACETOCLASTIC_METHANOGENESIS"
+msgstr ""
+
+msgid "ACETOCLASTIC_PROTEINS"
+msgstr ""
+
+#, fuzzy
+msgid "ACETOCLASTIC_PROTEINS_DESCRIPTION"
+msgstr "সবাত নাইট্রোজেন ফিক্সেশন"
+
+#, fuzzy
+msgid "ACETOCLASTIC_PROTEINS_PROCESSES_DESCRIPTION"
+msgstr "সবাত নাইট্রোজেন ফিক্সেশন"
+
+#, fuzzy
+msgid "ACETOGENESIS"
+msgstr "সবাত নাইট্রোজেন ফিক্সেশন"
+
+msgid "ACETOGENIC_PROTEINS"
+msgstr ""
+
+#, fuzzy
+msgid "ACETOGENIC_PROTEINS_DESCRIPTION"
+msgstr "সবাত নাইট্রোজেন ফিক্সেশন"
+
+#, fuzzy
+msgid "ACETOGENIC_PROTEINS_PROCESSES_DESCRIPTION"
+msgstr "সবাত নাইট্রোজেন ফিক্সেশন"
 
 msgid "ACTION_AWAKEN"
 msgstr ""
@@ -98,6 +127,18 @@ msgstr "উন্নত"
 
 msgid "ADVANCED_VIEW_BUTTON_TOOLTIP"
 msgstr "উন্নত সেটআপ ভিউ খুলুন"
+
+#, fuzzy
+msgid "AEROBIC_METHYLOTROPHIC_PROTEINS"
+msgstr "সবাত নাইট্রোজেন ফিক্সেশন"
+
+#, fuzzy
+msgid "AEROBIC_METHYLOTROPHIC_PROTEINS_DESCRIPTION"
+msgstr "সবাত নাইট্রোজেন ফিক্সেশন"
+
+#, fuzzy
+msgid "AEROBIC_METHYLOTROPHIC_PROTEINS_PROCESSES_DESCRIPTION"
+msgstr "সবাত নাইট্রোজেন ফিক্সেশন"
 
 #, fuzzy
 msgid "AEROBIC_NITROGEN_FIXATION"
@@ -598,12 +639,40 @@ msgstr ""
 msgid "CARBON_MONOXIDE"
 msgstr ""
 
+msgid "CARBON_MONOXIDE_DEHYDROGENASE"
+msgstr ""
+
+#, fuzzy
+msgid "CARBON_MONOXIDE_DEHYDROGENASE_DESCRIPTION"
+msgstr "সবাত নাইট্রোজেন ফিক্সেশন"
+
+#, fuzzy
+msgid "CARBON_MONOXIDE_DEHYDROGENASE_PROCESSES_DESCRIPTION"
+msgstr "সবাত নাইট্রোজেন ফিক্সেশন"
+
+msgid "CARBON_MONOXIDE_OXIDATION"
+msgstr ""
+
 msgid "CAROTENOIDS"
 msgstr ""
 
 #, fuzzy
 msgid "CAROTENOID_CHLOROPLAST"
 msgstr "সবাত নাইট্রোজেন ফিক্সেশন"
+
+msgid "CAS9"
+msgstr ""
+
+#, fuzzy
+msgid "CAS9_DESCRIPTION"
+msgstr "সবাত নাইট্রোজেন ফিক্সেশন"
+
+#, fuzzy
+msgid "CAS9_PROCESSES_DESCRIPTION"
+msgstr "সবাত নাইট্রোজেন ফিক্সেশন"
+
+msgid "CAS9_REACTION"
+msgstr ""
 
 msgid "CATEGORY_AN_ABUNDANCE"
 msgstr ""
@@ -2261,6 +2330,21 @@ msgstr "সবাত নাইট্রোজেন ফিক্সেশন"
 msgid "HYDROGENOSOME_PROCESSES_DESCRIPTION"
 msgstr "সবাত নাইট্রোজেন ফিক্সেশন"
 
+msgid "HYDROGENOTROPHIC_METHANOGENESIS"
+msgstr ""
+
+#, fuzzy
+msgid "HYDROGENOTROPHIC_PROTEINS"
+msgstr "সবাত নাইট্রোজেন ফিক্সেশন"
+
+#, fuzzy
+msgid "HYDROGENOTROPHIC_PROTEINS_DESCRIPTION"
+msgstr "সবাত নাইট্রোজেন ফিক্সেশন"
+
+#, fuzzy
+msgid "HYDROGENOTROPHIC_PROTEINS_PROCESSES_DESCRIPTION"
+msgstr "সবাত নাইট্রোজেন ফিক্সেশন"
+
 msgid "HYDROGEN_SULFIDE"
 msgstr ""
 
@@ -2976,6 +3060,31 @@ msgstr "সবাত নাইট্রোজেন ফিক্সেশন"
 msgid "MANGANESE"
 msgstr ""
 
+msgid "MANGANESE_CHEMOLITHOAUTOTROPHY"
+msgstr ""
+
+msgid "MANGANESE_OXIDASE"
+msgstr ""
+
+#, fuzzy
+msgid "MANGANESE_OXIDASE_DESCRIPTION"
+msgstr "সবাত নাইট্রোজেন ফিক্সেশন"
+
+#, fuzzy
+msgid "MANGANESE_OXIDASE_PROCESSES_DESCRIPTION"
+msgstr "সবাত নাইট্রোজেন ফিক্সেশন"
+
+msgid "MANGANOPLAST"
+msgstr ""
+
+#, fuzzy
+msgid "MANGANOPLAST_DESCRIPTION"
+msgstr "সবাত নাইট্রোজেন ফিক্সেশন"
+
+#, fuzzy
+msgid "MANGANOPLAST_PROCESSES_DESCRIPTION"
+msgstr "সবাত নাইট্রোজেন ফিক্সেশন"
+
 msgid "MANUALLY_SET_TIME"
 msgstr ""
 
@@ -3005,6 +3114,17 @@ msgstr ""
 
 msgid "MAY"
 msgstr ""
+
+msgid "MCR"
+msgstr ""
+
+#, fuzzy
+msgid "MCR_DESCRIPTION"
+msgstr "সবাত নাইট্রোজেন ফিক্সেশন"
+
+#, fuzzy
+msgid "MCR_PROCESSES_DESCRIPTION"
+msgstr "সবাত নাইট্রোজেন ফিক্সেশন"
 
 msgid "MECHANICS_BUTTON"
 msgstr ""
@@ -3076,7 +3196,38 @@ msgstr ""
 msgid "METHANE"
 msgstr ""
 
+msgid "METHANE_MONOOXYGENASE"
+msgstr ""
+
+#, fuzzy
+msgid "METHANE_MONOOXYGENASE_DESCRIPTION"
+msgstr "সবাত নাইট্রোজেন ফিক্সেশন"
+
+#, fuzzy
+msgid "METHANE_MONOOXYGENASE_PROCESSES_DESCRIPTION"
+msgstr "সবাত নাইট্রোজেন ফিক্সেশন"
+
 msgid "METHANOL "
+msgstr ""
+
+msgid "METHANOTROPHY"
+msgstr ""
+
+msgid "METHYLOTROPHIC_METHANOGENESIS"
+msgstr ""
+
+msgid "METHYLOTROPHIC_PROTEINS"
+msgstr ""
+
+#, fuzzy
+msgid "METHYLOTROPHIC_PROTEINS_DESCRIPTION"
+msgstr "সবাত নাইট্রোজেন ফিক্সেশন"
+
+#, fuzzy
+msgid "METHYLOTROPHIC_PROTEINS_PROCESSES_DESCRIPTION"
+msgstr "সবাত নাইট্রোজেন ফিক্সেশন"
+
+msgid "METHYLOTROPHY"
 msgstr ""
 
 msgid "METRICS"
@@ -4411,6 +4562,9 @@ msgid "RETURN_TO_MENU_WARNING"
 msgstr ""
 
 msgid "REVEAL_ALL_PATCHES"
+msgstr ""
+
+msgid "REVERSE_METHANOGENESIS"
 msgstr ""
 
 msgid "REVOLUTIONARY_GAMES_SOCIAL_TOOLTIP"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-11-08 23:26-0600\n"
+"POT-Creation-Date: 2024-11-09 13:57-0600\n"
 "PO-Revision-Date: 2024-10-17 07:24+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Latvian <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/lv/>\n"
@@ -52,6 +52,37 @@ msgstr ""
 
 msgid "ACETIC_ACID"
 msgstr ""
+
+msgid "ACETOCLASTIC_METHANOGENESIS"
+msgstr ""
+
+#, fuzzy
+msgid "ACETOCLASTIC_PROTEINS"
+msgstr "Hemosintezējošas olbaltumvielas"
+
+#, fuzzy
+msgid "ACETOCLASTIC_PROTEINS_DESCRIPTION"
+msgstr "Pārveido [thrive:compound type=\"glucose\"][/thrive:compound] par [thrive:compound type=\"atp\"][/thrive:compound]."
+
+#, fuzzy
+msgid "ACETOCLASTIC_PROTEINS_PROCESSES_DESCRIPTION"
+msgstr "Pārveido [thrive:compound type=\"hydrogensulfide\"][/thrive:compound] par [thrive:compound type=\"hydrogensulfide\"][/thrive:compound]. Ātrums ir atkarīgs no [thrive:compound type=\"carbondioxide\"][/thrive:compound] koncentrācijas. Arī pārveido [thrive:compound type=\"glucose\"][/thrive:compound] par [thrive:compound type=\"atp\"][/thrive:compound]."
+
+#, fuzzy
+msgid "ACETOGENESIS"
+msgstr "Hemosintēze"
+
+#, fuzzy
+msgid "ACETOGENIC_PROTEINS"
+msgstr "Hemosintezējošas olbaltumvielas"
+
+#, fuzzy
+msgid "ACETOGENIC_PROTEINS_DESCRIPTION"
+msgstr "Pārveido [thrive:compound type=\"glucose\"][/thrive:compound] par [thrive:compound type=\"atp\"][/thrive:compound]."
+
+#, fuzzy
+msgid "ACETOGENIC_PROTEINS_PROCESSES_DESCRIPTION"
+msgstr "Pārveido [thrive:compound type=\"hydrogensulfide\"][/thrive:compound] par [thrive:compound type=\"hydrogensulfide\"][/thrive:compound]. Ātrums ir atkarīgs no [thrive:compound type=\"carbondioxide\"][/thrive:compound] koncentrācijas. Arī pārveido [thrive:compound type=\"glucose\"][/thrive:compound] par [thrive:compound type=\"atp\"][/thrive:compound]."
 
 msgid "ACTION_AWAKEN"
 msgstr ""
@@ -104,6 +135,18 @@ msgstr ""
 #, fuzzy
 msgid "ADVANCED_VIEW_BUTTON_TOOLTIP"
 msgstr "Apskatiet detalizētu informāciju aiz pareģošanas"
+
+#, fuzzy
+msgid "AEROBIC_METHYLOTROPHIC_PROTEINS"
+msgstr "Aerobiskā elpošana"
+
+#, fuzzy
+msgid "AEROBIC_METHYLOTROPHIC_PROTEINS_DESCRIPTION"
+msgstr "Pārveido [thrive:compound type=\"glucose\"][/thrive:compound] par [thrive:compound type=\"atp\"][/thrive:compound]."
+
+#, fuzzy
+msgid "AEROBIC_METHYLOTROPHIC_PROTEINS_PROCESSES_DESCRIPTION"
+msgstr "Pārveido [thrive:compound type=\"hydrogensulfide\"][/thrive:compound] par [thrive:compound type=\"hydrogensulfide\"][/thrive:compound]. Ātrums ir atkarīgs no [thrive:compound type=\"carbondioxide\"][/thrive:compound] koncentrācijas. Arī pārveido [thrive:compound type=\"glucose\"][/thrive:compound] par [thrive:compound type=\"atp\"][/thrive:compound]."
 
 #, fuzzy
 msgid "AEROBIC_NITROGEN_FIXATION"
@@ -667,12 +710,43 @@ msgid "CARBON_MONOXIDE"
 msgstr "Ogļskābā gāze"
 
 #, fuzzy
+msgid "CARBON_MONOXIDE_DEHYDROGENASE"
+msgstr "Ogļskābā gāze"
+
+#, fuzzy
+msgid "CARBON_MONOXIDE_DEHYDROGENASE_DESCRIPTION"
+msgstr "Apraksts:"
+
+#, fuzzy
+msgid "CARBON_MONOXIDE_DEHYDROGENASE_PROCESSES_DESCRIPTION"
+msgstr "Pārveido [thrive:compound type=\"hydrogensulfide\"][/thrive:compound] par [thrive:compound type=\"hydrogensulfide\"][/thrive:compound]. Ātrums ir atkarīgs no [thrive:compound type=\"carbondioxide\"][/thrive:compound] koncentrācijas. Arī pārveido [thrive:compound type=\"glucose\"][/thrive:compound] par [thrive:compound type=\"atp\"][/thrive:compound]."
+
+#, fuzzy
+msgid "CARBON_MONOXIDE_OXIDATION"
+msgstr "Ogļskābā gāze"
+
+#, fuzzy
 msgid "CAROTENOIDS"
 msgstr "Olbaltumvielas"
 
 #, fuzzy
 msgid "CAROTENOID_CHLOROPLAST"
 msgstr "Hloroplasts"
+
+msgid "CAS9"
+msgstr ""
+
+#, fuzzy
+msgid "CAS9_DESCRIPTION"
+msgstr "Apraksts:"
+
+#, fuzzy
+msgid "CAS9_PROCESSES_DESCRIPTION"
+msgstr "Pārveido [thrive:compound type=\"glucose\"][/thrive:compound] par [thrive:compound type=\"atp\"][/thrive:compound]."
+
+#, fuzzy
+msgid "CAS9_REACTION"
+msgstr "Apraksts:"
 
 msgid "CATEGORY_AN_ABUNDANCE"
 msgstr ""
@@ -2525,6 +2599,21 @@ msgstr "Apraksts:"
 msgid "HYDROGENOSOME_PROCESSES_DESCRIPTION"
 msgstr "Pārveido [thrive:compound type=\"hydrogensulfide\"][/thrive:compound] par [thrive:compound type=\"hydrogensulfide\"][/thrive:compound]. Ātrums ir atkarīgs no [thrive:compound type=\"carbondioxide\"][/thrive:compound] koncentrācijas. Arī pārveido [thrive:compound type=\"glucose\"][/thrive:compound] par [thrive:compound type=\"atp\"][/thrive:compound]."
 
+msgid "HYDROGENOTROPHIC_METHANOGENESIS"
+msgstr ""
+
+#, fuzzy
+msgid "HYDROGENOTROPHIC_PROTEINS"
+msgstr "Apraksts:"
+
+#, fuzzy
+msgid "HYDROGENOTROPHIC_PROTEINS_DESCRIPTION"
+msgstr "Pārveido [thrive:compound type=\"hydrogensulfide\"][/thrive:compound] par [thrive:compound type=\"hydrogensulfide\"][/thrive:compound]. Ātrums ir atkarīgs no [thrive:compound type=\"carbondioxide\"][/thrive:compound] koncentrācijas. Arī pārveido [thrive:compound type=\"glucose\"][/thrive:compound] par [thrive:compound type=\"atp\"][/thrive:compound]."
+
+#, fuzzy
+msgid "HYDROGENOTROPHIC_PROTEINS_PROCESSES_DESCRIPTION"
+msgstr "Pārveido [thrive:compound type=\"hydrogensulfide\"][/thrive:compound] par [thrive:compound type=\"hydrogensulfide\"][/thrive:compound]. Ātrums ir atkarīgs no [thrive:compound type=\"carbondioxide\"][/thrive:compound] koncentrācijas. Arī pārveido [thrive:compound type=\"glucose\"][/thrive:compound] par [thrive:compound type=\"atp\"][/thrive:compound]."
+
 msgid "HYDROGEN_SULFIDE"
 msgstr "Sērūdeņradis"
 
@@ -3313,6 +3402,33 @@ msgstr "Hemosintēze"
 msgid "MANGANESE"
 msgstr ""
 
+#, fuzzy
+msgid "MANGANESE_CHEMOLITHOAUTOTROPHY"
+msgstr "Dzelža Ķīmolitoautotrofija"
+
+msgid "MANGANESE_OXIDASE"
+msgstr ""
+
+#, fuzzy
+msgid "MANGANESE_OXIDASE_DESCRIPTION"
+msgstr "Modifikācijas Apraksts:"
+
+#, fuzzy
+msgid "MANGANESE_OXIDASE_PROCESSES_DESCRIPTION"
+msgstr "Pārveido [thrive:compound type=\"glucose\"][/thrive:compound] par [thrive:compound type=\"atp\"][/thrive:compound]."
+
+#, fuzzy
+msgid "MANGANOPLAST"
+msgstr "Hemoplasts"
+
+#, fuzzy
+msgid "MANGANOPLAST_DESCRIPTION"
+msgstr "Apraksts:"
+
+#, fuzzy
+msgid "MANGANOPLAST_PROCESSES_DESCRIPTION"
+msgstr "Pārveido [thrive:compound type=\"glucose\"][/thrive:compound] par [thrive:compound type=\"atp\"][/thrive:compound]."
+
 msgid "MANUALLY_SET_TIME"
 msgstr ""
 
@@ -3343,6 +3459,18 @@ msgstr "Nav atļauts rādīt vairāk nekā {0} datu kopas!"
 
 msgid "MAY"
 msgstr ""
+
+#, fuzzy
+msgid "MCR"
+msgstr "[thrive:input]g_move_forward[/thrive:input],[thrive:input]g_move_left[/thrive:input],[thrive:input]g_move_backwards[/thrive:input],[thrive:input]g_move_right[/thrive:input] un peli, lai kustētos. [thrive:input]g_fire_toxin[/thrive:input], lai šautu [thrive:compound type=\"oxytoxy\"][/thrive:compound], ja jums ir toksīnu vakuola. [thrive:input]g_toggle_engulf[/thrive:input], lai pārslēgtu aprīšanas režīmu. Jūs varat attālinātas un pietuvināties ar peles riteni."
+
+#, fuzzy
+msgid "MCR_DESCRIPTION"
+msgstr "Modifikācijas Apraksts:"
+
+#, fuzzy
+msgid "MCR_PROCESSES_DESCRIPTION"
+msgstr "Pārveido [thrive:compound type=\"glucose\"][/thrive:compound] par [thrive:compound type=\"atp\"][/thrive:compound]."
 
 #, fuzzy
 msgid "MECHANICS_BUTTON"
@@ -3417,7 +3545,38 @@ msgstr "Pārveido [thrive:compound type=\"glucose\"][/thrive:compound] par [thri
 msgid "METHANE"
 msgstr ""
 
+msgid "METHANE_MONOOXYGENASE"
+msgstr ""
+
+#, fuzzy
+msgid "METHANE_MONOOXYGENASE_DESCRIPTION"
+msgstr "Apraksts:"
+
+#, fuzzy
+msgid "METHANE_MONOOXYGENASE_PROCESSES_DESCRIPTION"
+msgstr "Pārveido [thrive:compound type=\"hydrogensulfide\"][/thrive:compound] par [thrive:compound type=\"hydrogensulfide\"][/thrive:compound]. Ātrums ir atkarīgs no [thrive:compound type=\"carbondioxide\"][/thrive:compound] koncentrācijas. Arī pārveido [thrive:compound type=\"glucose\"][/thrive:compound] par [thrive:compound type=\"atp\"][/thrive:compound]."
+
 msgid "METHANOL "
+msgstr ""
+
+msgid "METHANOTROPHY"
+msgstr ""
+
+msgid "METHYLOTROPHIC_METHANOGENESIS"
+msgstr ""
+
+msgid "METHYLOTROPHIC_PROTEINS"
+msgstr ""
+
+#, fuzzy
+msgid "METHYLOTROPHIC_PROTEINS_DESCRIPTION"
+msgstr "Pārveido [thrive:compound type=\"glucose\"][/thrive:compound] par [thrive:compound type=\"atp\"][/thrive:compound]."
+
+#, fuzzy
+msgid "METHYLOTROPHIC_PROTEINS_PROCESSES_DESCRIPTION"
+msgstr "Pārveido [thrive:compound type=\"hydrogensulfide\"][/thrive:compound] par [thrive:compound type=\"hydrogensulfide\"][/thrive:compound]. Ātrums ir atkarīgs no [thrive:compound type=\"carbondioxide\"][/thrive:compound] koncentrācijas. Arī pārveido [thrive:compound type=\"glucose\"][/thrive:compound] par [thrive:compound type=\"atp\"][/thrive:compound]."
+
+msgid "METHYLOTROPHY"
 msgstr ""
 
 #, fuzzy
@@ -5018,6 +5177,9 @@ msgstr ""
 #, fuzzy
 msgid "REVEAL_ALL_PATCHES"
 msgstr "Izplatījās uz plankumiem:"
+
+msgid "REVERSE_METHANOGENESIS"
+msgstr ""
 
 msgid "REVOLUTIONARY_GAMES_SOCIAL_TOOLTIP"
 msgstr ""
@@ -8612,10 +8774,6 @@ msgstr "Attālināt"
 #, fuzzy
 #~ msgid "EXCLAMDOWN"
 #~ msgstr "Rullīte uz leju"
-
-#, fuzzy
-#~ msgid "SECTION"
-#~ msgstr "Apraksts:"
 
 #, fuzzy
 #~ msgid "COPYRIGHT"

@@ -51,12 +51,13 @@ shader_parameter/jiggleAmount = 0.01
 shader_parameter/texture = ExtResource("7")
 shader_parameter/dissolveTexture = ExtResource("2")
 
-[node name="Ferroplast" type="MeshInstance3D"]
+[node name="Ferroplast" type="MeshInstance3D" node_paths=PackedStringArray("meshChildren")]
 transform = Transform3D(0.85, 0, 0, 0, 0.85, 0, 0, 0, 0.85, 0, -0.164064, 0)
 material_override = SubResource("ShaderMaterial_iy62y")
 cast_shadow = 0
 mesh = ExtResource("4_rf41b")
 script = ExtResource("5_bxw2d")
+meshChildren = []
 
 [node name="Cores" type="MeshInstance3D" parent="."]
 material_override = SubResource("ShaderMaterial_ssysu")

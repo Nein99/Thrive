@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-11-08 23:26-0600\n"
+"POT-Creation-Date: 2024-11-09 13:57-0600\n"
 "PO-Revision-Date: 2024-10-17 07:24+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Bulgarian <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/bg/>\n"
@@ -52,6 +52,37 @@ msgstr ""
 
 msgid "ACETIC_ACID"
 msgstr ""
+
+msgid "ACETOCLASTIC_METHANOGENESIS"
+msgstr ""
+
+#, fuzzy
+msgid "ACETOCLASTIC_PROTEINS"
+msgstr "Хемосинтезиращи протеини"
+
+#, fuzzy
+msgid "ACETOCLASTIC_PROTEINS_DESCRIPTION"
+msgstr "Превръща [thrive:compound type=\"hydrogensulfide\"]сероводорода[/thrive:compound] в [thrive:compound type=\"glucose\"]глюкоза[/thrive:compound]. Количеството зависи от концентрацията на [thrive:compound type=\"carbondioxide\"]въглероден диоксид[/thrive:compound] в околната среда."
+
+#, fuzzy
+msgid "ACETOCLASTIC_PROTEINS_PROCESSES_DESCRIPTION"
+msgstr "Превръщат [thrive:compound type=\"hydrogensulfide\"]сероводорода[/thrive:compound] в [thrive:compound type=\"glucose\"]глюкоза[/thrive:compound]. Количеството зависи от концентрацията на [thrive:compound type=\"carbondioxide\"]въглероден диоксид[/thrive:compound] в околната среда. Също така, превръщат [thrive:compound type=\"glucose\"]глюкозата[/thrive:compound] в [thrive:compound type=\"atp\"]АТФ[/thrive:compound]."
+
+#, fuzzy
+msgid "ACETOGENESIS"
+msgstr "Хемосинтеза"
+
+#, fuzzy
+msgid "ACETOGENIC_PROTEINS"
+msgstr "Хемосинтезиращи протеини"
+
+#, fuzzy
+msgid "ACETOGENIC_PROTEINS_DESCRIPTION"
+msgstr "Хемосинтезиращите протеини са малки струпвания в цитоплазмата, които превръщат [thrive:compound type=\"hydrogensulfide\"]сероводорода[/thrive:compound], газообразния [thrive:compound type=\"carbondioxide\"]въглероден диоксид[/thrive:compound] и водата в [thrive:compound type=\"glucose\"]глюкоза[/thrive:compound] в процес, който се нарича [b]сероводородна хемосинтеза[/b]. Количеството на произведената [thrive:compound type=\"glucose\"]глюкоза[/thrive:compound] зависи от концентрацията на [thrive:compound type=\"carbondioxide\"]въглероден диоксид[/thrive:compound]. Понеже хемосинтезиращите протеини са скачени с цитоплазма, тя извършва известна [b]гликолиза[/b]."
+
+#, fuzzy
+msgid "ACETOGENIC_PROTEINS_PROCESSES_DESCRIPTION"
+msgstr "Превръщат [thrive:compound type=\"hydrogensulfide\"]сероводорода[/thrive:compound] в [thrive:compound type=\"glucose\"]глюкоза[/thrive:compound]. Количеството зависи от концентрацията на [thrive:compound type=\"carbondioxide\"]въглероден диоксид[/thrive:compound] в околната среда. Също така, превръщат [thrive:compound type=\"glucose\"]глюкозата[/thrive:compound] в [thrive:compound type=\"atp\"]АТФ[/thrive:compound]."
 
 #, fuzzy
 msgid "ACTION_AWAKEN"
@@ -104,6 +135,18 @@ msgstr "Разширени"
 
 msgid "ADVANCED_VIEW_BUTTON_TOOLTIP"
 msgstr "Отваряне на разширените настройки"
+
+#, fuzzy
+msgid "AEROBIC_METHYLOTROPHIC_PROTEINS"
+msgstr "Аеробно дишане"
+
+#, fuzzy
+msgid "AEROBIC_METHYLOTROPHIC_PROTEINS_DESCRIPTION"
+msgstr "Хемосинтезиращите протеини са малки струпвания в цитоплазмата, които превръщат [thrive:compound type=\"hydrogensulfide\"]сероводорода[/thrive:compound], газообразния [thrive:compound type=\"carbondioxide\"]въглероден диоксид[/thrive:compound] и водата в [thrive:compound type=\"glucose\"]глюкоза[/thrive:compound] в процес, който се нарича [b]сероводородна хемосинтеза[/b]. Количеството на произведената [thrive:compound type=\"glucose\"]глюкоза[/thrive:compound] зависи от концентрацията на [thrive:compound type=\"carbondioxide\"]въглероден диоксид[/thrive:compound]. Понеже хемосинтезиращите протеини са скачени с цитоплазма, тя извършва известна [b]гликолиза[/b]."
+
+#, fuzzy
+msgid "AEROBIC_METHYLOTROPHIC_PROTEINS_PROCESSES_DESCRIPTION"
+msgstr "Превръщат [thrive:compound type=\"hydrogensulfide\"]сероводорода[/thrive:compound] в [thrive:compound type=\"glucose\"]глюкоза[/thrive:compound]. Количеството зависи от концентрацията на [thrive:compound type=\"carbondioxide\"]въглероден диоксид[/thrive:compound] в околната среда. Също така, превръщат [thrive:compound type=\"glucose\"]глюкозата[/thrive:compound] в [thrive:compound type=\"atp\"]АТФ[/thrive:compound]."
 
 #, fuzzy
 msgid "AEROBIC_NITROGEN_FIXATION"
@@ -639,12 +682,43 @@ msgid "CARBON_MONOXIDE"
 msgstr "Въглероден диоксид"
 
 #, fuzzy
+msgid "CARBON_MONOXIDE_DEHYDROGENASE"
+msgstr "Въглероден диоксид"
+
+#, fuzzy
+msgid "CARBON_MONOXIDE_DEHYDROGENASE_DESCRIPTION"
+msgstr "Нитрогеназата е протеин, който използва газообразен [thrive:compound type=\"nitrogen\"]въглероден диоксид[/thrive:compound] и клетъчна енергия под формата на [thrive:compound type=\"atp\"]АТФ[/thrive:compound] за да произвежда [thrive:compound type=\"ammonia\"]амоняк[/thrive:compound], който е ключов за растежа на клетките. Този процес се нарича [b]анаеробна азотна фиксация[/b]. Понеже нитрогеназата е скачена с цитоплазма, тя извършва известна [b]гликолиза[/b]."
+
+#, fuzzy
+msgid "CARBON_MONOXIDE_DEHYDROGENASE_PROCESSES_DESCRIPTION"
+msgstr "Превръща [thrive:compound type=\"atp\"]АТФ[/thrive:compound] в [thrive:compound type=\"ammonia\"]амоняк[/thrive:compound]. Количеството зависи от концентрацията на [thrive:compound type=\"nitrogen\"]азот[/thrive:compound] в околната среда."
+
+#, fuzzy
+msgid "CARBON_MONOXIDE_OXIDATION"
+msgstr "Въглероден диоксид"
+
+#, fuzzy
 msgid "CAROTENOIDS"
 msgstr "Протеини"
 
 #, fuzzy
 msgid "CAROTENOID_CHLOROPLAST"
 msgstr "Хлоропласт"
+
+msgid "CAS9"
+msgstr ""
+
+#, fuzzy
+msgid "CAS9_DESCRIPTION"
+msgstr "Ресничките са подобни на камшичетата, но те увеличават само скоростта на завъртане на клетките."
+
+#, fuzzy
+msgid "CAS9_PROCESSES_DESCRIPTION"
+msgstr "Увеличават скоростта на завъртане на клетките."
+
+#, fuzzy
+msgid "CAS9_REACTION"
+msgstr "§"
 
 msgid "CATEGORY_AN_ABUNDANCE"
 msgstr "в изобилно количество"
@@ -2536,6 +2610,21 @@ msgstr "Нитрогеназата е протеин, който използв�
 msgid "HYDROGENOSOME_PROCESSES_DESCRIPTION"
 msgstr "Превръща [thrive:compound type=\"atp\"]АТФ[/thrive:compound] в [thrive:compound type=\"ammonia\"]амоняк[/thrive:compound]. Количеството зависи от концентрацията на [thrive:compound type=\"nitrogen\"]азот[/thrive:compound] в околната среда."
 
+msgid "HYDROGENOTROPHIC_METHANOGENESIS"
+msgstr ""
+
+#, fuzzy
+msgid "HYDROGENOTROPHIC_PROTEINS"
+msgstr "Нитрогеназата е протеин, който използва газообразен [thrive:compound type=\"nitrogen\"]въглероден диоксид[/thrive:compound] и клетъчна енергия под формата на [thrive:compound type=\"atp\"]АТФ[/thrive:compound] за да произвежда [thrive:compound type=\"ammonia\"]амоняк[/thrive:compound], който е ключов за растежа на клетките. Този процес се нарича [b]анаеробна азотна фиксация[/b]. Понеже нитрогеназата е скачена с цитоплазма, тя извършва известна [b]гликолиза[/b]."
+
+#, fuzzy
+msgid "HYDROGENOTROPHIC_PROTEINS_DESCRIPTION"
+msgstr "Превръща [thrive:compound type=\"atp\"]АТФ[/thrive:compound] в [thrive:compound type=\"ammonia\"]амоняк[/thrive:compound]. Количеството зависи от концентрацията на [thrive:compound type=\"nitrogen\"]азот[/thrive:compound] в околната среда."
+
+#, fuzzy
+msgid "HYDROGENOTROPHIC_PROTEINS_PROCESSES_DESCRIPTION"
+msgstr "Превръща [thrive:compound type=\"atp\"]АТФ[/thrive:compound] в [thrive:compound type=\"ammonia\"]амоняк[/thrive:compound]. Количеството зависи от концентрацията на [thrive:compound type=\"nitrogen\"]азот[/thrive:compound] в околната среда."
+
 msgid "HYDROGEN_SULFIDE"
 msgstr "Сероводород"
 
@@ -3303,6 +3392,33 @@ msgstr "Секреция"
 msgid "MANGANESE"
 msgstr ""
 
+#, fuzzy
+msgid "MANGANESE_CHEMOLITHOAUTOTROPHY"
+msgstr "Желязна хемолитоавтотрофия"
+
+msgid "MANGANESE_OXIDASE"
+msgstr ""
+
+#, fuzzy
+msgid "MANGANESE_OXIDASE_DESCRIPTION"
+msgstr "Това са фини косъмчета върху клетъчната мембрана. Една клетка може да притежава от десетки до стотици пили, които имат различно предназначение, включително роля в хищничеството. Патогенните микроорганизми използват своите пили за вирулентност или за прикрепване и свързване към тъканите на гостоприемника си, или за нахлуване през клетъчната мембрана, за да достигнат до цитоплазмата. Съществуват различни видове пили, които не са еволюционно свързани помежду си и са резултат от конвергентна еволюция. Един организъм може да притежава няколка вида пили и постоянно да ги променя или заменя."
+
+#, fuzzy
+msgid "MANGANESE_OXIDASE_PROCESSES_DESCRIPTION"
+msgstr "Пробожда другите клетки и предпазва от техните токсини."
+
+#, fuzzy
+msgid "MANGANOPLAST"
+msgstr "Хемопласт"
+
+#, fuzzy
+msgid "MANGANOPLAST_DESCRIPTION"
+msgstr "Хемопластът е структура с двойна мембрана, съдържаща протеини, които превръщат [thrive:compound type=\"hydrogensulfide\"]сероводорода[/thrive:compound], газообразния [thrive:compound type=\"carbondioxide\"]въглероден диоксид[/thrive:compound] и водата в [thrive:compound type=\"glucose\"]глюкоза[/thrive:compound], в процес, който се нарича [b]сероводородна хемосинтеза[/b]. Количеството на произведената [thrive:compound type=\"glucose\"]глюкоза[/thrive:compound] зависи от концентрацията на [thrive:compound type=\"carbondioxide\"]въглероден диоксид[/thrive:compound]."
+
+#, fuzzy
+msgid "MANGANOPLAST_PROCESSES_DESCRIPTION"
+msgstr "Превръща [thrive:compound type=\"hydrogensulfide\"]сероводорода[/thrive:compound] в [thrive:compound type=\"glucose\"]глюкоза[/thrive:compound]. Количеството зависи от концентрацията на [thrive:compound type=\"carbondioxide\"]въглероден диоксид[/thrive:compound] в околната среда."
+
 msgid "MANUALLY_SET_TIME"
 msgstr ""
 
@@ -3332,6 +3448,18 @@ msgstr "Не е възможно показването на повече от {
 
 msgid "MAY"
 msgstr "Май"
+
+#, fuzzy
+msgid "MCR"
+msgstr "Микроб"
+
+#, fuzzy
+msgid "MCR_DESCRIPTION"
+msgstr "Описание:"
+
+#, fuzzy
+msgid "MCR_PROCESSES_DESCRIPTION"
+msgstr "Увеличават скоростта на завъртане на клетките."
 
 #, fuzzy
 msgid "MECHANICS_BUTTON"
@@ -3405,7 +3533,39 @@ msgstr "Превръщат [thrive:compound type=\"glucose\"]глюкозата[
 msgid "METHANE"
 msgstr ""
 
+msgid "METHANE_MONOOXYGENASE"
+msgstr ""
+
+#, fuzzy
+msgid "METHANE_MONOOXYGENASE_DESCRIPTION"
+msgstr "Термосинтазата е протеин, който се сгъва и свързва с АДП при загряване или се разгъва и го превръща в [thrive:compound type=\"atp\"]АТФ[/thrive:compound] при охлаждане, благодарение на топлинната конвекция в процес, който се нарича [b]термосинтеза[/b]. Количеството на произведения [thrive:compound type=\"atp\"]АТФ[/thrive:compound] зависи от [thrive:compound type=\"temperature\"]температурата[/thrive:compound]."
+
+#, fuzzy
+msgid "METHANE_MONOOXYGENASE_PROCESSES_DESCRIPTION"
+msgstr "Произвежда [thrive:compound type=\"atp\"]АТФ[/thrive:compound], чрез температурните градиенти. Количеството зависи от [thrive:compound type=\"temperature\"]температурата[/thrive:compound] в околната среда."
+
 msgid "METHANOL "
+msgstr ""
+
+#, fuzzy
+msgid "METHANOTROPHY"
+msgstr "'"
+
+msgid "METHYLOTROPHIC_METHANOGENESIS"
+msgstr ""
+
+msgid "METHYLOTROPHIC_PROTEINS"
+msgstr ""
+
+#, fuzzy
+msgid "METHYLOTROPHIC_PROTEINS_DESCRIPTION"
+msgstr "Хемосинтезиращите протеини са малки струпвания в цитоплазмата, които превръщат [thrive:compound type=\"hydrogensulfide\"]сероводорода[/thrive:compound], газообразния [thrive:compound type=\"carbondioxide\"]въглероден диоксид[/thrive:compound] и водата в [thrive:compound type=\"glucose\"]глюкоза[/thrive:compound] в процес, който се нарича [b]сероводородна хемосинтеза[/b]. Количеството на произведената [thrive:compound type=\"glucose\"]глюкоза[/thrive:compound] зависи от концентрацията на [thrive:compound type=\"carbondioxide\"]въглероден диоксид[/thrive:compound]. Понеже хемосинтезиращите протеини са скачени с цитоплазма, тя извършва известна [b]гликолиза[/b]."
+
+#, fuzzy
+msgid "METHYLOTROPHIC_PROTEINS_PROCESSES_DESCRIPTION"
+msgstr "Превръщат [thrive:compound type=\"hydrogensulfide\"]сероводорода[/thrive:compound] в [thrive:compound type=\"glucose\"]глюкоза[/thrive:compound]. Количеството зависи от концентрацията на [thrive:compound type=\"carbondioxide\"]въглероден диоксид[/thrive:compound] в околната среда. Също така, превръщат [thrive:compound type=\"glucose\"]глюкозата[/thrive:compound] в [thrive:compound type=\"atp\"]АТФ[/thrive:compound]."
+
+msgid "METHYLOTROPHY"
 msgstr ""
 
 msgid "METRICS"
@@ -4990,6 +5150,9 @@ msgstr ""
 #, fuzzy
 msgid "REVEAL_ALL_PATCHES"
 msgstr "текущо разпространение в зоните:"
+
+msgid "REVERSE_METHANOGENESIS"
+msgstr ""
 
 msgid "REVOLUTIONARY_GAMES_SOCIAL_TOOLTIP"
 msgstr "Отваряне на официалните сайтове на „Revolutionary Games“"
@@ -8844,9 +9007,6 @@ msgstr "Отдалечаване"
 #~ msgid "AMPERSAND"
 #~ msgstr "&"
 
-#~ msgid "APOSTROPHE"
-#~ msgstr "'"
-
 #~ msgid "PARENLEFT"
 #~ msgstr "("
 
@@ -8936,9 +9096,6 @@ msgstr "Отдалечаване"
 #, fuzzy
 #~ msgid "YEN"
 #~ msgstr "Кислород"
-
-#~ msgid "SECTION"
-#~ msgstr "§"
 
 #, fuzzy
 #~ msgid "COPYRIGHT"

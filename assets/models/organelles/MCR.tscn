@@ -1,0 +1,25 @@
+[gd_scene load_steps=6 format=3 uid="uid://cr14e3w20y6q7"]
+
+[ext_resource type="Shader" path="res://shaders/OrganelleTransparent.gdshader" id="1_gqk6s"]
+[ext_resource type="Texture2D" uid="uid://baxuoyeo83r2u" path="res://assets/textures/dissolve_noise.tres" id="2_w78ah"]
+[ext_resource type="Texture2D" uid="uid://syda5iruiyx2" path="res://assets/textures/MCR.png" id="3_y2r12"]
+[ext_resource type="ArrayMesh" uid="uid://dsgy1rgf6ouoi" path="res://assets/models/organelles/MCR.obj" id="4_at6e6"]
+
+[sub_resource type="ShaderMaterial" id="1"]
+resource_local_to_scene = true
+render_priority = 0
+shader = ExtResource("1_gqk6s")
+shader_parameter/dissolveValue = 0.0
+shader_parameter/fresnelValue = 1.0
+shader_parameter/fresnelActive = false
+shader_parameter/outlineWidth = 0.05
+shader_parameter/growColor = Color(0.380392, 0.258824, 0, 1)
+shader_parameter/tint = Color(1, 1, 1, 1)
+shader_parameter/jiggleAmount = 0.0005
+shader_parameter/texture = ExtResource("3_y2r12")
+shader_parameter/dissolveTexture = ExtResource("2_w78ah")
+
+[node name="MCR" type="MeshInstance3D"]
+transform = Transform3D(1.35, 0, 0, 0, 1.35, 0, 0, 0, 1.35, 0.120827, 0, 0)
+material_override = SubResource("1")
+mesh = ExtResource("4_at6e6")

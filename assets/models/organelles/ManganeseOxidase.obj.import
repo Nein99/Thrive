@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://gqikylcpr6ny"
+path="res://.godot/imported/ManganeseOxidase.obj-4dad5858ab1b63ff18214010cf3f763b.mesh"
+
+[deps]
+
+files=["res://.godot/imported/ManganeseOxidase.obj-4dad5858ab1b63ff18214010cf3f763b.mesh"]
+
+source_file="res://assets/models/organelles/ManganeseOxidase.obj"
+dest_files=["res://.godot/imported/ManganeseOxidase.obj-4dad5858ab1b63ff18214010cf3f763b.mesh", "res://.godot/imported/ManganeseOxidase.obj-4dad5858ab1b63ff18214010cf3f763b.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

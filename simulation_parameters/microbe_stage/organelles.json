@@ -95,6 +95,40 @@
     "EditorButtonOrder": 4,
     "EndosymbiosisUnlocks": "ferroplast"
   },
+  "manganeseOxidase": {
+    "MPCost": 45,
+    "InitialComposition": {
+      "ammonia": 1,
+      "phosphates": 1
+    },
+    "Hexes": [
+      {
+        "r": 0,
+        "q": 0
+      }
+    ],
+    "Processes": {
+      "manganese_chemolithoautotrophy": 1
+    },
+    "Components": {
+      "Storage": {
+        "Capacity": 0.5
+      }
+    },
+    "Density": 1100,
+    "Graphics": {
+      "ScenePath": "res://assets/models/organelles/ManganeseOxidase.tscn"
+    },
+    "Name": "MANGANESE_OXIDASE",
+    "Description": "MANGANESE_OXIDASE_DESCRIPTION",
+    "ProcessesDescription": "MANGANESE_OXIDASE_PROCESSES_DESCRIPTION",
+    "ProductionColour": "#9E9E9E",
+    "ConsumptionColour": "#3A3A3A",
+    "IconPath": "res://assets/textures/gui/bevel/parts/RusticyaninIcon.png",
+    "EditorButtonGroup": "Protein",
+    "EditorButtonOrder": 4,
+    "EndosymbiosisUnlocks": "manganoplast"
+  },
   "nitrogenase": {
     "MPCost": 55,
     "InitialComposition": {
@@ -137,6 +171,40 @@
     "EditorButtonGroup": "Protein",
     "EditorButtonOrder": 5,
     "EndosymbiosisUnlocks": "nitrogenfixingplastid"
+  },
+  "cas9": {
+    "MPCost": 55,
+    "InitialComposition": {
+      "ammonia": 1,
+      "phosphates": 1
+    },
+    "Hexes": [
+      {
+        "r": 0,
+        "q": 0
+      }
+    ],
+    "Processes": {
+      "glycolysis": 1,
+      "cas9Reaction": 1
+    },
+    "Components": {
+      "Storage": {
+        "Capacity": 0.5
+      }
+    },
+    "Density": 1100,
+    "Graphics": {
+      "ScenePath": "res://assets/models/organelles/Cas9.tscn"
+    },
+    "Name": "CAS9",
+    "Description": "CAS9_DESCRIPTION",
+    "ProcessesDescription": "CAS9_PROCESSES_DESCRIPTION",
+    "ProductionColour": "#3feb67",
+    "ConsumptionColour": "#ff8425",
+    "IconPath": "res://assets/textures/gui/bevel/parts/NitrogenaseIcon.png",
+    "EditorButtonGroup": "Protein",
+    "EditorButtonOrder": 5
   },
   "protoplasm": {
     "MPCost": 55,
@@ -206,6 +274,278 @@
     "EditorButtonGroup": "Protein",
     "EditorButtonOrder": 3,
     "EndosymbiosisUnlocks": "chemoplast"
+  },
+  "mcr": {
+    "MPCost": 45,
+    "InitialComposition": {
+      "ammonia": 1,
+      "phosphates": 1
+    },
+    "Hexes": [
+      {
+        "r": 0,
+        "q": 0
+      }
+    ],
+    "Processes": {
+      "glycolysis": 1,
+      "reverse_methanogenesis": 1
+    },
+    "Components": {
+      "Storage": {
+        "Capacity": 0.5
+      }
+    },
+    "Density": 1100,
+    "Graphics": {
+      "ScenePath": "res://assets/models/organelles/MCR.tscn"
+    },
+    "Name": "MCR",
+    "Description": "MCR_DESCRIPTION",
+    "ProcessesDescription": "MCR_PROCESSES_DESCRIPTION",
+    "ProductionColour": "#64f995",
+    "ConsumptionColour": "#ff7248",
+    "IconPath": "res://assets/textures/gui/bevel/parts/ChemoproteinsIcon.png",
+    "EditorButtonGroup": "Protein",
+    "EditorButtonOrder": 3
+  },
+  "acetogenicProteins": {
+    "MPCost": 45,
+    "InitialComposition": {
+      "ammonia": 1,
+      "phosphates": 1
+    },
+    "Hexes": [
+      {
+        "r": 0,
+        "q": 0
+      }
+    ],
+    "Processes": {
+      "glycolysis": 1,
+      "acetogenesis": 1
+    },
+    "Components": {
+      "Storage": {
+        "Capacity": 0.5
+      }
+    },
+    "Density": 1100,
+    "Graphics": {
+      "ScenePath": "res://assets/models/organelles/AcetogenicProteins.tscn"
+    },
+    "Name": "ACETOGENIC_PROTEINS",
+    "Description": "ACETOGENIC_PROTEINS_DESCRIPTION",
+    "ProcessesDescription": "ACETOGENIC_PROTEINS_PROCESSES_DESCRIPTION",
+    "ProductionColour": "#64f995",
+    "ConsumptionColour": "#ff7248",
+    "IconPath": "res://assets/textures/gui/bevel/parts/ChemoproteinsIcon.png",
+    "EditorButtonGroup": "Protein",
+    "EditorButtonOrder": 3
+  },
+  "carbonMonoxideDehydrogenase": {
+    "MPCost": 45,
+    "InitialComposition": {
+      "ammonia": 1,
+      "phosphates": 1
+    },
+    "Hexes": [
+      {
+        "r": 0,
+        "q": 0
+      }
+    ],
+    "Processes": {
+      "glycolysis": 1,
+      "carbonmonoxide_oxidation": 1
+    },
+    "Components": {
+      "Storage": {
+        "Capacity": 0.5
+      }
+    },
+    "Density": 1100,
+    "Graphics": {
+      "ScenePath": "res://assets/models/organelles/CarbonMonoxideDehydrogenase.tscn"
+    },
+    "Name": "CARBON_MONOXIDE_DEHYDROGENASE",
+    "Description": "CARBON_MONOXIDE_DEHYDROGENASE_DESCRIPTION",
+    "ProcessesDescription": "CARBON_MONOXIDE_DEHYDROGENASE_PROCESSES_DESCRIPTION",
+    "ProductionColour": "#64f995",
+    "ConsumptionColour": "#ff7248",
+    "IconPath": "res://assets/textures/gui/bevel/parts/ChemoproteinsIcon.png",
+    "EditorButtonGroup": "Protein",
+    "EditorButtonOrder": 3
+  },
+  "methaneMonooxygenase": {
+    "MPCost": 45,
+    "InitialComposition": {
+      "ammonia": 1,
+      "phosphates": 1
+    },
+    "Hexes": [
+      {
+        "r": 0,
+        "q": 0
+      }
+    ],
+    "Processes": {
+      "glycolysis": 1,
+      "methanotrophy": 1
+    },
+    "Components": {
+      "Storage": {
+        "Capacity": 0.5
+      }
+    },
+    "Density": 1100,
+    "Graphics": {
+      "ScenePath": "res://assets/models/organelles/MethaneMonooxygenase.tscn"
+    },
+    "Name": "METHANE_MONOOXYGENASE",
+    "Description": "METHANE_MONOOXYGENASE_DESCRIPTION",
+    "ProcessesDescription": "METHANE_MONOOXYGENASE_PROCESSES_DESCRIPTION",
+    "ProductionColour": "#64f995",
+    "ConsumptionColour": "#ff7248",
+    "IconPath": "res://assets/textures/gui/bevel/parts/ChemoproteinsIcon.png",
+    "EditorButtonGroup": "Protein",
+    "EditorButtonOrder": 3
+  },
+  "methylotrophicProteins": {
+    "MPCost": 45,
+    "InitialComposition": {
+      "ammonia": 1,
+      "phosphates": 1
+    },
+    "Hexes": [
+      {
+        "r": 0,
+        "q": 0
+      }
+    ],
+    "Processes": {
+      "glycolysis": 1,
+      "methylotrophy": 1
+    },
+    "Components": {
+      "Storage": {
+        "Capacity": 0.5
+      }
+    },
+    "Density": 1100,
+    "Graphics": {
+      "ScenePath": "res://assets/models/organelles/MethylotrophicProteins.tscn"
+    },
+    "Name": "METHYLOTROPHIC_PROTEINS",
+    "Description": "METHYLOTROPHIC_PROTEINS_DESCRIPTION",
+    "ProcessesDescription": "METHYLOTROPHIC_PROTEINS_PROCESSES_DESCRIPTION",
+    "ProductionColour": "#64f995",
+    "ConsumptionColour": "#ff7248",
+    "IconPath": "res://assets/textures/gui/bevel/parts/ChemoproteinsIcon.png",
+    "EditorButtonGroup": "Protein",
+    "EditorButtonOrder": 3
+  },
+  "acetoclasticProteins": {
+    "MPCost": 45,
+    "InitialComposition": {
+      "ammonia": 1,
+      "phosphates": 1
+    },
+    "Hexes": [
+      {
+        "r": 0,
+        "q": 0
+      }
+    ],
+    "Processes": {
+      "glycolysis": 1,
+      "acetoclastic_methanogenesis": 1
+    },
+    "Components": {
+      "Storage": {
+        "Capacity": 0.5
+      }
+    },
+    "Density": 1100,
+    "Graphics": {
+      "ScenePath": "res://assets/models/organelles/AcetoclasticProteins.tscn"
+    },
+    "Name": "ACETOCLASTIC_PROTEINS",
+    "Description": "ACETOCLASTIC_PROTEINS_DESCRIPTION",
+    "ProcessesDescription": "ACETOCLASTIC_PROTEINS_PROCESSES_DESCRIPTION",
+    "ProductionColour": "#64f995",
+    "ConsumptionColour": "#ff7248",
+    "IconPath": "res://assets/textures/gui/bevel/parts/ChemoproteinsIcon.png",
+    "EditorButtonGroup": "Protein",
+    "EditorButtonOrder": 3
+  },
+  "hydrogenotrophicProteins": {
+    "MPCost": 45,
+    "InitialComposition": {
+      "ammonia": 1,
+      "phosphates": 1
+    },
+    "Hexes": [
+      {
+        "r": 0,
+        "q": 0
+      }
+    ],
+    "Processes": {
+      "glycolysis": 1,
+      "hydrogenotrophic_methanogenesis": 1
+    },
+    "Components": {
+      "Storage": {
+        "Capacity": 0.5
+      }
+    },
+    "Density": 1100,
+    "Graphics": {
+      "ScenePath": "res://assets/models/organelles/HydrogenotrophicProteins.tscn"
+    },
+    "Name": "HYDROGENOTROPHIC_PROTEINS",
+    "Description": "HYDROGENOTROPHIC_PROTEINS_DESCRIPTION",
+    "ProcessesDescription": "HYDROGENOTROPHIC_PROTEINS_PROCESSES_DESCRIPTION",
+    "ProductionColour": "#64f995",
+    "ConsumptionColour": "#ff7248",
+    "IconPath": "res://assets/textures/gui/bevel/parts/ChemoproteinsIcon.png",
+    "EditorButtonGroup": "Protein",
+    "EditorButtonOrder": 3
+  },
+  "aerobicMethylotrophicProteins": {
+    "MPCost": 45,
+    "InitialComposition": {
+      "ammonia": 1,
+      "phosphates": 1
+    },
+    "Hexes": [
+      {
+        "r": 0,
+        "q": 0
+      }
+    ],
+    "Processes": {
+      "glycolysis": 1,
+      "methylotrophic_methanogenesis": 1
+    },
+    "Components": {
+      "Storage": {
+        "Capacity": 0.5
+      }
+    },
+    "Density": 1100,
+    "Graphics": {
+      "ScenePath": "res://assets/models/organelles/AerobicMethylotrophicProteins.tscn"
+    },
+    "Name": "AEROBIC_METHYLOTROPHIC_PROTEINS",
+    "Description": "AEROBIC_METHYLOTROPHIC_PROTEINS_DESCRIPTION",
+    "ProcessesDescription": "AEROBIC_METHYLOTROPHIC_PROTEINS_PROCESSES_DESCRIPTION",
+    "ProductionColour": "#64f995",
+    "ConsumptionColour": "#ff7248",
+    "IconPath": "res://assets/textures/gui/bevel/parts/ChemoproteinsIcon.png",
+    "EditorButtonGroup": "Protein",
+    "EditorButtonOrder": 3
   },
   "oxytoxyProteins": {
     "MPCost": 55,
@@ -1805,6 +2145,53 @@
       {
         "ReproduceWithOrganelle": {
           "Organelle": "rusticyanin",
+          "Generations": 7,
+          "InARow": true
+        }
+      }
+    ],
+    "RequiresNucleus": true,
+    "EditorButtonGroup": "Organelle",
+    "EditorButtonOrder": 5
+  },
+  "manganoplast": {
+    "MPCost": 45,
+    "InitialComposition": {
+      "ammonia": 2,
+      "phosphates": 2
+    },
+    "Hexes": [
+      {
+        "r": 0,
+        "q": 0
+      },
+      {
+        "r": -1,
+        "q": 0
+      }
+    ],
+    "Processes": {
+      "manganosynthesis": 1
+    },
+    "Components": {
+      "Storage": {
+        "Capacity": 1
+      }
+    },
+    "Density": 1100,
+    "Graphics": {
+      "ScenePath": "res://assets/models/organelles/Manganoplast.tscn"
+    },
+    "Name": "MANGANOPLAST",
+    "Description": "MANGANOPLAST_DESCRIPTION",
+    "ProcessesDescription": "MANGANOPLAST_PROCESSES_DESCRIPTION",
+    "ProductionColour": "#3d9eff",
+    "ConsumptionColour": "#f04681",
+    "IconPath": "res://assets/textures/gui/bevel/parts/FerroplastIcon.png",
+    "UnlockConditions": [
+      {
+        "ReproduceWithOrganelle": {
+          "Organelle": "manganeseOxidase",
           "Generations": 7,
           "InARow": true
         }

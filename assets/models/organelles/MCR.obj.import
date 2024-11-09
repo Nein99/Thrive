@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dsgy1rgf6ouoi"
+path="res://.godot/imported/MCR.obj-46b4cd81e598b8b0f662f104fa78c9ab.mesh"
+
+[deps]
+
+files=["res://.godot/imported/MCR.obj-46b4cd81e598b8b0f662f104fa78c9ab.mesh"]
+
+source_file="res://assets/models/organelles/MCR.obj"
+dest_files=["res://.godot/imported/MCR.obj-46b4cd81e598b8b0f662f104fa78c9ab.mesh", "res://.godot/imported/MCR.obj-46b4cd81e598b8b0f662f104fa78c9ab.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

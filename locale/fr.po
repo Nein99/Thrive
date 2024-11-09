@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-11-08 23:26-0600\n"
+"POT-Creation-Date: 2024-11-09 13:57-0600\n"
 "PO-Revision-Date: 2024-10-21 20:20+0000\n"
 "Last-Translator: syl <syl@gresille.org>\n"
 "Language-Team: French <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/fr/>\n"
@@ -52,6 +52,37 @@ msgstr ""
 
 msgid "ACETIC_ACID"
 msgstr ""
+
+msgid "ACETOCLASTIC_METHANOGENESIS"
+msgstr ""
+
+#, fuzzy
+msgid "ACETOCLASTIC_PROTEINS"
+msgstr "Protéines chimiosynthétiques"
+
+#, fuzzy
+msgid "ACETOCLASTIC_PROTEINS_DESCRIPTION"
+msgstr "Transforme l'[thrive:compound type=\"hydrogensulfide\"][/thrive:compound] en [thrive:compound type=\"glucose\"][/thrive:compound]. Taux proportionnels à la concentration de [thrive:compound type=\"carbondioxide\"][/thrive:compound]."
+
+#, fuzzy
+msgid "ACETOCLASTIC_PROTEINS_PROCESSES_DESCRIPTION"
+msgstr "Transforme le [thrive:compound type=\"hydrogensulfide\"][/thrive:compound] en [thrive:compound type=\"glucose\"][/thrive:compound]. Effet proportionnel avec la concentration en [thrive:compound type=\"carbondioxide\"][/thrive:compound]. Transforme aussi le [thrive:compound type=\"glucose\"][/thrive:compound] en [thrive:compound type=\"atp\"][/thrive:compound]."
+
+#, fuzzy
+msgid "ACETOGENESIS"
+msgstr "Chimiosynthèse"
+
+#, fuzzy
+msgid "ACETOGENIC_PROTEINS"
+msgstr "Protéines chimiosynthétiques"
+
+#, fuzzy
+msgid "ACETOGENIC_PROTEINS_DESCRIPTION"
+msgstr "Les protéines chimiosynthétiques sont de petits groupes de protéines dans le cytoplasme qui sont capables de convertir le [thrive:compound type=\"hydrogensulfide\"][/thrive:compound], le [thrive:compound type=\"carbondioxide\"][/thrive:compound] gazeux et l'eau en [thrive:compound type=\"glucose\"][/thrive:compound] dans un processus appelé [b]chimiosynthèse du sulfure d'hydrogène[/b]. Le taux de production de ce [thrive:compound type=\"glucose\"][/thrive:compound] dépend de la concentration de [thrive:compound type=\"carbondioxide\"][/thrive:compound]. Comme les protéines chimiosynthétiques sont suspendues directement dans le cytoplasme, le fluide environnant effectue une partie de la [b]glycolyse[/b]."
+
+#, fuzzy
+msgid "ACETOGENIC_PROTEINS_PROCESSES_DESCRIPTION"
+msgstr "Transforme le [thrive:compound type=\"hydrogensulfide\"][/thrive:compound] en [thrive:compound type=\"glucose\"][/thrive:compound]. Effet proportionnel avec la concentration en [thrive:compound type=\"carbondioxide\"][/thrive:compound]. Transforme aussi le [thrive:compound type=\"glucose\"][/thrive:compound] en [thrive:compound type=\"atp\"][/thrive:compound]."
 
 msgid "ACTION_AWAKEN"
 msgstr "S'éveiller ({0:F1} / {1:F1})"
@@ -99,6 +130,18 @@ msgstr "Avancée"
 
 msgid "ADVANCED_VIEW_BUTTON_TOOLTIP"
 msgstr "Ouvrir la vue de configuration avancée"
+
+#, fuzzy
+msgid "AEROBIC_METHYLOTROPHIC_PROTEINS"
+msgstr "Respiration aérobie"
+
+#, fuzzy
+msgid "AEROBIC_METHYLOTROPHIC_PROTEINS_DESCRIPTION"
+msgstr "Les protéines chimiosynthétiques sont de petits groupes de protéines dans le cytoplasme qui sont capables de convertir le [thrive:compound type=\"hydrogensulfide\"][/thrive:compound], le [thrive:compound type=\"carbondioxide\"][/thrive:compound] gazeux et l'eau en [thrive:compound type=\"glucose\"][/thrive:compound] dans un processus appelé [b]chimiosynthèse du sulfure d'hydrogène[/b]. Le taux de production de ce [thrive:compound type=\"glucose\"][/thrive:compound] dépend de la concentration de [thrive:compound type=\"carbondioxide\"][/thrive:compound]. Comme les protéines chimiosynthétiques sont suspendues directement dans le cytoplasme, le fluide environnant effectue une partie de la [b]glycolyse[/b]."
+
+#, fuzzy
+msgid "AEROBIC_METHYLOTROPHIC_PROTEINS_PROCESSES_DESCRIPTION"
+msgstr "Transforme le [thrive:compound type=\"hydrogensulfide\"][/thrive:compound] en [thrive:compound type=\"glucose\"][/thrive:compound]. Effet proportionnel avec la concentration en [thrive:compound type=\"carbondioxide\"][/thrive:compound]. Transforme aussi le [thrive:compound type=\"glucose\"][/thrive:compound] en [thrive:compound type=\"atp\"][/thrive:compound]."
 
 msgid "AEROBIC_NITROGEN_FIXATION"
 msgstr "Fixation aérobique d'azote"
@@ -632,12 +675,43 @@ msgid "CARBON_MONOXIDE"
 msgstr "Gaz carbonique"
 
 #, fuzzy
+msgid "CARBON_MONOXIDE_DEHYDROGENASE"
+msgstr "Gaz carbonique"
+
+#, fuzzy
+msgid "CARBON_MONOXIDE_DEHYDROGENASE_DESCRIPTION"
+msgstr "La nitrogénase est une protéine capable d'utiliser l'[thrive:compound type=\"nitrogen\"][/thrive:compound] gazeux et l'énergie cellulaire sous forme d'[thrive:compound type=\"atp\"][/thrive:compound] pour produire de l'[thrive:compound type=\"ammonia\"][/thrive:compound], un nutriment essentiel à la croissance des cellules. Il s'agit d'un processus appelé [b]fixation anaérobie de l'azote[/b]. Comme la nitrogénase est suspendue directement dans le cytoplasme, le liquide environnant effectue une partie de la [b]glycolyse[/b]."
+
+#, fuzzy
+msgid "CARBON_MONOXIDE_DEHYDROGENASE_PROCESSES_DESCRIPTION"
+msgstr "Transforme l'[thrive:compound type=\"atp\"][/thrive:compound] en [thrive:compound type=\"ammonia\"][/thrive:compound]. Taux proportionnels à la concentration de [thrive:compound type=\"nitrogen\"][/thrive:compound]."
+
+#, fuzzy
+msgid "CARBON_MONOXIDE_OXIDATION"
+msgstr "Gaz carbonique"
+
+#, fuzzy
 msgid "CAROTENOIDS"
 msgstr "Protéines"
 
 #, fuzzy
 msgid "CAROTENOID_CHLOROPLAST"
 msgstr "Chloroplaste"
+
+msgid "CAS9"
+msgstr ""
+
+#, fuzzy
+msgid "CAS9_DESCRIPTION"
+msgstr "Les cils sont similaires aux flagelles mais au lieu de fournir une force de poussée directionnelle, ils fournissent une force de rotation pour aider les cellules à tourner."
+
+#, fuzzy
+msgid "CAS9_PROCESSES_DESCRIPTION"
+msgstr "Augmente la vitesse de rotation des grandes cellules."
+
+#, fuzzy
+msgid "CAS9_REACTION"
+msgstr "Description :"
 
 msgid "CATEGORY_AN_ABUNDANCE"
 msgstr "en abondance"
@@ -2439,6 +2513,21 @@ msgstr "La nitrogénase est une protéine capable d'utiliser l'[thrive:compound 
 msgid "HYDROGENOSOME_PROCESSES_DESCRIPTION"
 msgstr "Transforme l'[thrive:compound type=\"atp\"][/thrive:compound] en [thrive:compound type=\"ammonia\"][/thrive:compound]. Taux proportionnels à la concentration de [thrive:compound type=\"nitrogen\"][/thrive:compound]."
 
+msgid "HYDROGENOTROPHIC_METHANOGENESIS"
+msgstr ""
+
+#, fuzzy
+msgid "HYDROGENOTROPHIC_PROTEINS"
+msgstr "La nitrogénase est une protéine capable d'utiliser l'[thrive:compound type=\"nitrogen\"][/thrive:compound] gazeux et l'énergie cellulaire sous forme d'[thrive:compound type=\"atp\"][/thrive:compound] pour produire de l'[thrive:compound type=\"ammonia\"][/thrive:compound], un nutriment essentiel à la croissance des cellules. Il s'agit d'un processus appelé [b]fixation anaérobie de l'azote[/b]. Comme la nitrogénase est suspendue directement dans le cytoplasme, le liquide environnant effectue une partie de la [b]glycolyse[/b]."
+
+#, fuzzy
+msgid "HYDROGENOTROPHIC_PROTEINS_DESCRIPTION"
+msgstr "Transforme l'[thrive:compound type=\"atp\"][/thrive:compound] en [thrive:compound type=\"ammonia\"][/thrive:compound]. Taux proportionnels à la concentration de [thrive:compound type=\"nitrogen\"][/thrive:compound]."
+
+#, fuzzy
+msgid "HYDROGENOTROPHIC_PROTEINS_PROCESSES_DESCRIPTION"
+msgstr "Transforme l'[thrive:compound type=\"atp\"][/thrive:compound] en [thrive:compound type=\"ammonia\"][/thrive:compound]. Taux proportionnels à la concentration de [thrive:compound type=\"nitrogen\"][/thrive:compound]."
+
 msgid "HYDROGEN_SULFIDE"
 msgstr "Sulfure d'hydrogène"
 
@@ -3180,6 +3269,33 @@ msgstr "Synthèse de mucilage"
 msgid "MANGANESE"
 msgstr ""
 
+#, fuzzy
+msgid "MANGANESE_CHEMOLITHOAUTOTROPHY"
+msgstr "Chimiolithoautotrophe ferrique"
+
+msgid "MANGANESE_OXIDASE"
+msgstr ""
+
+#, fuzzy
+msgid "MANGANESE_OXIDASE_DESCRIPTION"
+msgstr "Les pili (singulier : pilus) se trouvent à la surface de nombreux micro-organismes et ressemblent à de fins poils. Des dizaines, voire des centaines de pili peuvent être présents à la surface d'un micro-organisme et remplir plusieurs fonctions, notamment dans la prédation. Les micro-organismes pathogènes utilisent les pili de façon agressive, soit pour s'attacher et se lier aux tissus de l'hôte, soit pour franchir la membrane externe et accéder au cytoplasme. Il existe de nombreux pili similaires, mais ils ne sont pas liés par l'évolution et résultent d'une évolution convergente. Un même organisme peut développer plusieurs types de pili, et les pili présents à la surface des cellules sont constamment modifiés et remplacés."
+
+#, fuzzy
+msgid "MANGANESE_OXIDASE_PROCESSES_DESCRIPTION"
+msgstr "Peut être utilisé pour attaquer les autres cellules ou pour se défendre contre leurs toxines."
+
+#, fuzzy
+msgid "MANGANOPLAST"
+msgstr "Chimioplaste"
+
+#, fuzzy
+msgid "MANGANOPLAST_DESCRIPTION"
+msgstr "Le chimioplaste est une structure à double membrane contenant des protéines capables de transformer le [thrive:compound type=\"hydrogensulfide\"][/thrive:compound], le [thrive:compound type=\"carbondioxide\"][/thrive:compound] gazeux et l'eau en [thrive:compound type=\"glucose\"][/thrive:compound] dans un processus appelé [b]chimiosynthèse du sulfure d'hydrogène[/b]. Le taux de production de [thrive:compound type=\"glucose\"][/thrive:compound] dépend de la concentration de [thrive:compound type=\"carbondioxide\"][/thrive:compound]."
+
+#, fuzzy
+msgid "MANGANOPLAST_PROCESSES_DESCRIPTION"
+msgstr "Transforme l'[thrive:compound type=\"hydrogensulfide\"][/thrive:compound] en [thrive:compound type=\"glucose\"][/thrive:compound]. Taux proportionnels à la concentration de [thrive:compound type=\"carbondioxide\"][/thrive:compound]."
+
 msgid "MANUALLY_SET_TIME"
 msgstr ""
 
@@ -3209,6 +3325,18 @@ msgstr "Il n'est pas permis d'afficher plus de {0} datasets !"
 
 msgid "MAY"
 msgstr "Mai"
+
+#, fuzzy
+msgid "MCR"
+msgstr "Microbe"
+
+#, fuzzy
+msgid "MCR_DESCRIPTION"
+msgstr "Description du mod :"
+
+#, fuzzy
+msgid "MCR_PROCESSES_DESCRIPTION"
+msgstr "Augmente la vitesse de rotation des grandes cellules."
 
 #, fuzzy
 msgid "MECHANICS_BUTTON"
@@ -3282,7 +3410,38 @@ msgstr "Transforme le [thrive:compound type=\"glucose\"][/thrive:compound] en [t
 msgid "METHANE"
 msgstr ""
 
+msgid "METHANE_MONOOXYGENASE"
+msgstr ""
+
+#, fuzzy
+msgid "METHANE_MONOOXYGENASE_DESCRIPTION"
+msgstr "La thermosynthase est une protéine qui utilise la convection thermique pour changer de forme, ce qui lui permet de se replier et de se lier à l'ADP lorsqu'elle est exposée à la chaleur, puis de se déplier et de le recycler en [thrive:compound type=\"atp\"][/thrive:compound] lorsqu'elle est exposée au froid, dans un processus appelé [b]thermosynthèse[/b]. Le taux de production d'[thrive:compound type=\"atp\"][/thrive:compound] varie avec la [thrive:compound type=\"temperature\"][/thrive:compound]."
+
+#, fuzzy
+msgid "METHANE_MONOOXYGENASE_PROCESSES_DESCRIPTION"
+msgstr "Produit l'[thrive:compound type=\"atp\"][/thrive:compound] en utilisant les gradients de température. Le taux varie en fonction de la [thrive:compound type=\"temperature\"][/thrive:compound]."
+
 msgid "METHANOL "
+msgstr ""
+
+msgid "METHANOTROPHY"
+msgstr ""
+
+msgid "METHYLOTROPHIC_METHANOGENESIS"
+msgstr ""
+
+msgid "METHYLOTROPHIC_PROTEINS"
+msgstr ""
+
+#, fuzzy
+msgid "METHYLOTROPHIC_PROTEINS_DESCRIPTION"
+msgstr "Les protéines chimiosynthétiques sont de petits groupes de protéines dans le cytoplasme qui sont capables de convertir le [thrive:compound type=\"hydrogensulfide\"][/thrive:compound], le [thrive:compound type=\"carbondioxide\"][/thrive:compound] gazeux et l'eau en [thrive:compound type=\"glucose\"][/thrive:compound] dans un processus appelé [b]chimiosynthèse du sulfure d'hydrogène[/b]. Le taux de production de ce [thrive:compound type=\"glucose\"][/thrive:compound] dépend de la concentration de [thrive:compound type=\"carbondioxide\"][/thrive:compound]. Comme les protéines chimiosynthétiques sont suspendues directement dans le cytoplasme, le fluide environnant effectue une partie de la [b]glycolyse[/b]."
+
+#, fuzzy
+msgid "METHYLOTROPHIC_PROTEINS_PROCESSES_DESCRIPTION"
+msgstr "Transforme le [thrive:compound type=\"hydrogensulfide\"][/thrive:compound] en [thrive:compound type=\"glucose\"][/thrive:compound]. Effet proportionnel avec la concentration en [thrive:compound type=\"carbondioxide\"][/thrive:compound]. Transforme aussi le [thrive:compound type=\"glucose\"][/thrive:compound] en [thrive:compound type=\"atp\"][/thrive:compound]."
+
+msgid "METHYLOTROPHY"
 msgstr ""
 
 msgid "METRICS"
@@ -4858,6 +5017,9 @@ msgstr ""
 
 msgid "REVEAL_ALL_PATCHES"
 msgstr "Révéler tous les secteurs"
+
+msgid "REVERSE_METHANOGENESIS"
+msgstr ""
 
 msgid "REVOLUTIONARY_GAMES_SOCIAL_TOOLTIP"
 msgstr "Visitez les sites officiels de Revolutionary Games"
@@ -8744,10 +8906,6 @@ msgstr "Dézoomer"
 #, fuzzy
 #~ msgid "YEN"
 #~ msgstr "Oxygène"
-
-#, fuzzy
-#~ msgid "SECTION"
-#~ msgstr "Description :"
 
 #, fuzzy
 #~ msgid "COPYRIGHT"
