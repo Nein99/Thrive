@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-11-09 13:57-0600\n"
+"POT-Creation-Date: 2024-11-10 17:32-0600\n"
 "PO-Revision-Date: 2024-10-17 07:24+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Polish <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/pl/>\n"
@@ -2032,6 +2032,10 @@ msgstr "Uniknij fagocytozy"
 msgid "ESTUARY"
 msgstr "Eustarium"
 
+#, fuzzy
+msgid "EVENT_ERUPTION_TOOLTIP"
+msgstr "To jest dokładne zatwierdzenie kodu, z którego została złożona ta wersja Thrive"
+
 msgid "EVOLUTIONARY_TREE"
 msgstr "Drzewo Filogenetyczne"
 
@@ -2069,6 +2073,10 @@ msgstr ""
 
 #, fuzzy
 msgid "EXPERIMENTAL_FEATURES_EXPLANATION"
+msgstr "(prędkość z którą gatunki SI mutują)"
+
+#, fuzzy
+msgid "EXPERIMENTAL_FEATURES_WARNING"
 msgstr "(prędkość z którą gatunki SI mutują)"
 
 msgid "EXPORT_ALL_WORLDS"
@@ -4243,9 +4251,6 @@ msgstr ""
 msgid "NOTICE_DAMAGED_BY_NO_ATP"
 msgstr ""
 
-msgid "NOTICE_DAMAGED_BY_RADIATION"
-msgstr ""
-
 msgid "NOTICE_ENGULF_DAMAGE_FROM_TOXIN"
 msgstr ""
 
@@ -5838,9 +5843,6 @@ msgstr "Produkuje [thrive:compound type=\"atp\"][/thrive:compound] używając gr
 msgid "THERMOSYNTHESIS"
 msgstr "Termosynteza"
 
-msgid "THE_AMOUNT_OF_GLUCOSE_HAS_BEEN_REDUCED"
-msgstr "Ilość glukozy została zredukowana do {0} poprzedniej ilości."
-
 msgid "THE_DISTURBANCE"
 msgstr "Disturbaniec"
 
@@ -6309,6 +6311,14 @@ msgstr "To jest wersja debugowania gdzie informacje poniżej są prawdopodobnie 
 
 msgid "UNDERWATERCAVE"
 msgstr "Podwodna Jaskinia"
+
+#, fuzzy
+msgid "UNDERWATER_VENT_ERUPTION"
+msgstr "Lipaza umożliwia komórce trawienie większości typów błon. Twoja komórka już produkuje trochę tego enzymu bez lizosomu, lecz poprzez wybranie tego typu zwiększysz wydajność."
+
+#, fuzzy
+msgid "UNDERWATER_VENT_ERUPTION_IN"
+msgstr "Lipaza umożliwia komórce trawienie większości typów błon. Twoja komórka już produkuje trochę tego enzymu bez lizosomu, lecz poprzez wybranie tego typu zwiększysz wydajność."
 
 #, fuzzy
 msgid "UNDISCOVERED_ORGANELLES"
@@ -8230,6 +8240,9 @@ msgstr "Przybliż"
 
 msgid "ZOOM_OUT"
 msgstr "Oddal"
+
+#~ msgid "THE_AMOUNT_OF_GLUCOSE_HAS_BEEN_REDUCED"
+#~ msgstr "Ilość glukozy została zredukowana do {0} poprzedniej ilości."
 
 #, fuzzy
 #~ msgid "COMPOUND_CLOUD_BENCHMARK"

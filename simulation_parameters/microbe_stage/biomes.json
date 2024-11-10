@@ -21,6 +21,7 @@
       }
     },
     "CompoundCloudBrightness": 1.3,
+    "GasVolume": 1,
     "Conditions": {
       "Chunks": {
         "floatingToxin": {
@@ -206,7 +207,7 @@
         "nitrogen": {
           "Amount": 0,
           "Density": 0,
-          "Ambient": 0.7
+          "Ambient": 0.65
         },
         "carbonmonoxide": {
           "Amount": 0,
@@ -265,6 +266,7 @@
     "ActiveMusicContexts": [
       "PatchVents"
     ],
+    "GasVolume": 1,
     "Conditions": {
       "Chunks": {
         "floatingToxin": {
@@ -627,7 +629,7 @@
           "nitrogen": {
             "Amount": 0,
             "Density": 0,
-            "Ambient": 0.6
+            "Ambient": 0.50
           },
           "carbonmonoxide": {
             "Amount": 0,
@@ -687,6 +689,7 @@
       "PatchTidepool"
     ],
     "CompoundCloudBrightness": 2,
+    "GasVolume": 1,
     "Conditions": {
       "Chunks": {
         "floatingToxin": {
@@ -934,7 +937,7 @@
         "nitrogen": {
           "Amount": 0,
           "Density": 0,
-          "Ambient": 0.65
+          "Ambient": 0.60
         },
         "carbonmonoxide": {
           "Amount": 0,
@@ -990,6 +993,7 @@
         "z": 0.75
       }
     },
+    "GasVolume": 1,
     "Conditions": {
       "Chunks": {
         "floatingToxin": {
@@ -1261,7 +1265,7 @@
         "nitrogen": {
           "Amount": 0,
           "Density": 0,
-          "Ambient": 0.7
+          "Ambient": 0.65
         },
         "carbonmonoxide": {
           "Amount": 0,
@@ -1317,6 +1321,7 @@
         "z": 0.75
       }
     },
+    "GasVolume": 1,
     "Conditions": {
       "Chunks": {
         "floatingToxin": {
@@ -1638,7 +1643,7 @@
         "nitrogen": {
           "Amount": 0,
           "Density": 0,
-          "Ambient": 0.6
+          "Ambient": 0.5
         },
         "carbonmonoxide": {
           "Amount": 0,
@@ -1694,6 +1699,7 @@
 		"z": 0.75
 	  }
 	},
+  "GasVolume": 1,
 	"Conditions": {
 	  "Chunks": {
 		"floatingToxin": {
@@ -2045,7 +2051,7 @@
       "nitrogen": {
         "Amount": 0,
         "Density": 0,
-        "Ambient": 0.6
+        "Ambient": 0.5
       },
       "carbonmonoxide": {
         "Amount": 0,
@@ -2101,6 +2107,7 @@
         "z": 0.75
       }
     },
+    "GasVolume": 1,
     "Conditions": {
       "Chunks": {
         "floatingToxin": {
@@ -2368,7 +2375,7 @@
         "nitrogen": {
           "Amount": 0,
           "Density": 0,
-          "Ambient": 0.7
+          "Ambient": 0.65
         },
         "carbonmonoxide": {
           "Amount": 0,
@@ -2425,6 +2432,7 @@
       }
     },
     "CompoundCloudBrightness": 2.5,
+    "GasVolume": 1,
     "Conditions": {
       "Chunks": {
         "floatingToxin": {
@@ -2672,7 +2680,7 @@
         "nitrogen": {
           "Amount": 0,
           "Density": 0,
-          "Ambient": 0.7
+          "Ambient": 0.65
         },
         "carbonmonoxide": {
           "Amount": 0,
@@ -2728,6 +2736,7 @@
         "z": 0.75
       }
     },
+    "GasVolume": 1,
     "Conditions": {
       "Chunks": {
         "floatingToxin": {
@@ -2989,7 +2998,7 @@
         "nitrogen": {
           "Amount": 0,
           "Density": 0,
-          "Ambient": 0.6
+          "Ambient": 0.55
         },
         "carbonmonoxide": {
           "Amount": 0,
@@ -3049,6 +3058,7 @@
     "ActiveMusicContexts": [
       "PatchIceShelf"
     ],
+    "GasVolume": 1,
     "Conditions": {
       "Chunks": {
         "floatingToxin": {
@@ -3332,7 +3342,7 @@
         "nitrogen": {
           "Amount": 0,
           "Density": 0,
-          "Ambient": 0.7
+          "Ambient": 0.65
         },
         "carbonmonoxide": {
           "Amount": 0,
@@ -3389,6 +3399,7 @@
       }
     },
     "CompoundCloudBrightness": 2.5,
+    "GasVolume": 1,
     "Conditions": {
       "Chunks": {
         "floatingToxin": {
@@ -3640,7 +3651,7 @@
         "nitrogen": {
           "Amount": 0,
           "Density": 0,
-          "Ambient": 0.6
+          "Ambient": 0.55
         },
         "carbonmonoxide": {
           "Amount": 0,
@@ -3700,6 +3711,7 @@
 	  "PatchVents"
 	],
 	"CompoundCloudBrightness": 2.5,
+  "GasVolume": 1,
 	"Conditions": {
 	  "Chunks": {
 		"floatingToxin": {
@@ -3951,7 +3963,7 @@
         "nitrogen": {
           "Amount": 0,
           "Density": 0,
-          "Ambient": 0.45
+          "Ambient": 0.40
         },
         "carbonmonoxide": {
           "Amount": 0,
@@ -4010,6 +4022,7 @@
 	"ActiveMusicContexts": [
 	  "PatchVents"
 	],
+  "GasVolume": 1,
 	"Conditions": {
 	  "Chunks": {
 		"floatingToxin": {
@@ -4368,7 +4381,7 @@
       "nitrogen": {
         "Amount": 0,
         "Density": 0,
-        "Ambient": 0.6
+        "Ambient": 0.55
       },
       "carbonmonoxide": {
         "Amount": 0,
@@ -4425,6 +4438,7 @@
 	  }
 	},
 	"CompoundCloudBrightness": 0.5,
+  "GasVolume": 1,
 	"Conditions": {
 	  "Chunks": {
 		"floatingToxin": {
@@ -4698,7 +4712,7 @@
       "nitrogen": {
         "Amount": 0,
         "Density": 0,
-        "Ambient": 0.5
+        "Ambient": 0.4
       },
       "carbonmonoxide": {
         "Amount": 0,
@@ -4754,6 +4768,7 @@
         "z": 0.75
       }
     },
+    "GasVolume": 1,
     "Conditions": {
       "Chunks": {
         "floatingToxin": {
@@ -5109,7 +5124,7 @@
         "nitrogen": {
           "Amount": 0,
           "Density": 0,
-          "Ambient": 0.6
+          "Ambient": 0.55
         },
         "carbonmonoxide": {
           "Amount": 0,
@@ -5165,6 +5180,7 @@
         "z": 0.75
       }
     },
+    "GasVolume": 1,
     "Conditions": {
       "Chunks": {
         "ironSmallChunk": {

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-11-09 13:57-0600\n"
+"POT-Creation-Date: 2024-11-10 17:32-0600\n"
 "PO-Revision-Date: 2024-10-17 07:24+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Dutch (Belgium) <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/nl_BE/>\n"
@@ -2110,6 +2110,10 @@ msgid "ESTUARY"
 msgstr "Estuarium"
 
 #, fuzzy
+msgid "EVENT_ERUPTION_TOOLTIP"
+msgstr "Zelfmoord"
+
+#, fuzzy
 msgid "EVOLUTIONARY_TREE"
 msgstr "Door Revolutionary Games Studio"
 
@@ -2153,6 +2157,10 @@ msgstr ""
 
 #, fuzzy
 msgid "EXPERIMENTAL_FEATURES_EXPLANATION"
+msgstr "(snelheid dat AI soorten muteren)"
+
+#, fuzzy
+msgid "EXPERIMENTAL_FEATURES_WARNING"
 msgstr "(snelheid dat AI soorten muteren)"
 
 msgid "EXPORT_ALL_WORLDS"
@@ -4376,10 +4384,6 @@ msgstr "Niets om te interageren"
 msgid "NOTICE_DAMAGED_BY_NO_ATP"
 msgstr "Beschadigd door een gebrek aan ATP"
 
-#, fuzzy
-msgid "NOTICE_DAMAGED_BY_RADIATION"
-msgstr "Beschadigd door een gebrek aan ATP"
-
 msgid "NOTICE_ENGULF_DAMAGE_FROM_TOXIN"
 msgstr "Beschadigd door gifstoffen in opgeslokte materie"
 
@@ -6072,9 +6076,6 @@ msgstr "Produceert [thrive:compound type=\"glucose\"][/thrive:compound]. Ratio s
 msgid "THERMOSYNTHESIS"
 msgstr "Chemosynthese"
 
-msgid "THE_AMOUNT_OF_GLUCOSE_HAS_BEEN_REDUCED"
-msgstr "De hoeveelheid glucose is teruggebracht tot {0} van de vorige hoeveelheid."
-
 msgid "THE_DISTURBANCE"
 msgstr ""
 
@@ -6596,6 +6597,14 @@ msgstr ""
 
 msgid "UNDERWATERCAVE"
 msgstr "Onderwatergrot"
+
+#, fuzzy
+msgid "UNDERWATER_VENT_ERUPTION"
+msgstr "Het kleverige binnenste van een cel. Het cytoplasma is het basismengsel van ionen, proteïnen en andere in water opgeloste stoffen die de binnenkant van de cel vullen. Een van de functies die het vervult is glycolyse, de omzetting van glucose in ATP-energie. Voor cellen zonder organellen die zorgen voor een geavanceerder metabolisme, is dit waar ze op vertrouwen voor energie. Het wordt ook gebruikt om moleculen in de cel op te slaan en om de cel te vergroten."
+
+#, fuzzy
+msgid "UNDERWATER_VENT_ERUPTION_IN"
+msgstr "Het kleverige binnenste van een cel. Het cytoplasma is het basismengsel van ionen, proteïnen en andere in water opgeloste stoffen die de binnenkant van de cel vullen. Een van de functies die het vervult is glycolyse, de omzetting van glucose in ATP-energie. Voor cellen zonder organellen die zorgen voor een geavanceerder metabolisme, is dit waar ze op vertrouwen voor energie. Het wordt ook gebruikt om moleculen in de cel op te slaan en om de cel te vergroten."
 
 #, fuzzy
 msgid "UNDISCOVERED_ORGANELLES"
@@ -8605,6 +8614,13 @@ msgstr "Inzoomen"
 
 msgid "ZOOM_OUT"
 msgstr "Uitzoomen"
+
+#, fuzzy
+#~ msgid "NOTICE_DAMAGED_BY_RADIATION"
+#~ msgstr "Beschadigd door een gebrek aan ATP"
+
+#~ msgid "THE_AMOUNT_OF_GLUCOSE_HAS_BEEN_REDUCED"
+#~ msgstr "De hoeveelheid glucose is teruggebracht tot {0} van de vorige hoeveelheid."
 
 #, fuzzy
 #~ msgid "COMPOUND_CLOUD_BENCHMARK"

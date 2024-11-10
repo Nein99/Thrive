@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-11-09 13:57-0600\n"
+"POT-Creation-Date: 2024-11-10 17:32-0600\n"
 "PO-Revision-Date: 2024-10-17 07:24+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Czech <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/cs/>\n"
@@ -2114,6 +2114,10 @@ msgstr "uniknout pohlcení"
 msgid "ESTUARY"
 msgstr "Ústí"
 
+#, fuzzy
+msgid "EVENT_ERUPTION_TOOLTIP"
+msgstr "Automaticky načítat Harmony patche ze sestavy (nepotřebuje specifikování třídy modu)"
+
 msgid "EVOLUTIONARY_TREE"
 msgstr "Evoluční strom"
 
@@ -2155,6 +2159,10 @@ msgstr ""
 
 #, fuzzy
 msgid "EXPERIMENTAL_FEATURES_EXPLANATION"
+msgstr "(rychlost mutací AI druhů)"
+
+#, fuzzy
+msgid "EXPERIMENTAL_FEATURES_WARNING"
 msgstr "(rychlost mutací AI druhů)"
 
 msgid "EXPORT_ALL_WORLDS"
@@ -4419,9 +4427,6 @@ msgstr ""
 msgid "NOTICE_DAMAGED_BY_NO_ATP"
 msgstr ""
 
-msgid "NOTICE_DAMAGED_BY_RADIATION"
-msgstr ""
-
 msgid "NOTICE_ENGULF_DAMAGE_FROM_TOXIN"
 msgstr ""
 
@@ -6058,9 +6063,6 @@ msgstr "Produkuje [thrive:compound type=\"atp\"][/thrive:compound] skrze teplotn
 msgid "THERMOSYNTHESIS"
 msgstr "Termosyntéza"
 
-msgid "THE_AMOUNT_OF_GLUCOSE_HAS_BEEN_REDUCED"
-msgstr "Množství glukózy bylo sníženo na {0} z předchozího množství."
-
 msgid "THE_DISTURBANCE"
 msgstr ""
 
@@ -6568,6 +6570,14 @@ msgstr ""
 
 msgid "UNDERWATERCAVE"
 msgstr "Podvodní jeskyně"
+
+#, fuzzy
+msgid "UNDERWATER_VENT_ERUPTION"
+msgstr "Lipáza umožňuje buňce rozkládat většinu typů membrán. Vaše buňka již produkuje nějaké množství tohoto enzymu bez lysozomu, ale vybráním tohoto typu zvýšíte efektivitu."
+
+#, fuzzy
+msgid "UNDERWATER_VENT_ERUPTION_IN"
+msgstr "Lipáza umožňuje buňce rozkládat většinu typů membrán. Vaše buňka již produkuje nějaké množství tohoto enzymu bez lysozomu, ale vybráním tohoto typu zvýšíte efektivitu."
 
 #, fuzzy
 msgid "UNDISCOVERED_ORGANELLES"
@@ -8563,6 +8573,9 @@ msgstr "Přiblížit"
 
 msgid "ZOOM_OUT"
 msgstr "Oddálit"
+
+#~ msgid "THE_AMOUNT_OF_GLUCOSE_HAS_BEEN_REDUCED"
+#~ msgstr "Množství glukózy bylo sníženo na {0} z předchozího množství."
 
 #, fuzzy
 #~ msgid "COMPOUND_CLOUD_BENCHMARK"

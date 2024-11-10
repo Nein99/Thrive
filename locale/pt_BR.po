@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-11-09 13:57-0600\n"
+"POT-Creation-Date: 2024-11-10 17:32-0600\n"
 "PO-Revision-Date: 2024-10-17 07:24+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/pt_BR/>\n"
@@ -2042,6 +2042,10 @@ msgstr "escapou da fagocitose"
 msgid "ESTUARY"
 msgstr "Estuário"
 
+#, fuzzy
+msgid "EVENT_ERUPTION_TOOLTIP"
+msgstr "Esta é a commit na qual essa versão de Thrive foi compilada"
+
 msgid "EVOLUTIONARY_TREE"
 msgstr "Árvore evolucionária"
 
@@ -2080,6 +2084,10 @@ msgstr "Recursos experimentais"
 
 msgid "EXPERIMENTAL_FEATURES_EXPLANATION"
 msgstr "(ativa recursos adicionais que não estão maduros o suficiente para serem incluídos no jogo padrão. Se você jogar com eles, diga-nos o que achou)"
+
+#, fuzzy
+msgid "EXPERIMENTAL_FEATURES_WARNING"
+msgstr "Recursos experimentais"
 
 msgid "EXPORT_ALL_WORLDS"
 msgstr "Exportar Todos os Mundos"
@@ -4248,10 +4256,6 @@ msgstr "Não há nada para interagir"
 msgid "NOTICE_DAMAGED_BY_NO_ATP"
 msgstr "Ferido devido à falta de ATP"
 
-#, fuzzy
-msgid "NOTICE_DAMAGED_BY_RADIATION"
-msgstr "Ferido devido à falta de ATP"
-
 msgid "NOTICE_ENGULF_DAMAGE_FROM_TOXIN"
 msgstr "Ferido por toxinas devido à ingestão de matéria"
 
@@ -5827,9 +5831,6 @@ msgstr "Produz [thrive:compound type=\"atp\"][/thrive:compound]. Quantidade aume
 msgid "THERMOSYNTHESIS"
 msgstr "Termossíntese"
 
-msgid "THE_AMOUNT_OF_GLUCOSE_HAS_BEEN_REDUCED"
-msgstr "A quantidade de glicose foi reduzida para {0} da quantidade anterior."
-
 msgid "THE_DISTURBANCE"
 msgstr "O Disturbance"
 
@@ -6341,6 +6342,14 @@ msgstr "Esta é uma build de depuração e a informação abaixo pode estar desa
 
 msgid "UNDERWATERCAVE"
 msgstr "Caverna Subaquática"
+
+#, fuzzy
+msgid "UNDERWATER_VENT_ERUPTION"
+msgstr "A lipase permite que a célula quebre a maioria das membranas. Sua célula já produz um pouco dessa enzima sem o lisossomo, mas ao selecionar essa opção você aumentará sua eficácia."
+
+#, fuzzy
+msgid "UNDERWATER_VENT_ERUPTION_IN"
+msgstr "A lipase permite que a célula quebre a maioria das membranas. Sua célula já produz um pouco dessa enzima sem o lisossomo, mas ao selecionar essa opção você aumentará sua eficácia."
 
 #, fuzzy
 msgid "UNDISCOVERED_ORGANELLES"
@@ -8355,6 +8364,13 @@ msgstr "Aumentar o zoom"
 
 msgid "ZOOM_OUT"
 msgstr "Diminuir o zoom"
+
+#, fuzzy
+#~ msgid "NOTICE_DAMAGED_BY_RADIATION"
+#~ msgstr "Ferido devido à falta de ATP"
+
+#~ msgid "THE_AMOUNT_OF_GLUCOSE_HAS_BEEN_REDUCED"
+#~ msgstr "A quantidade de glicose foi reduzida para {0} da quantidade anterior."
 
 #, fuzzy
 #~ msgid "COMPOUND_CLOUD_BENCHMARK"

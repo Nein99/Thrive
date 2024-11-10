@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-11-09 13:57-0600\n"
+"POT-Creation-Date: 2024-11-10 17:32-0600\n"
 "PO-Revision-Date: 2024-10-17 07:24+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Catalan <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/ca/>\n"
@@ -2061,6 +2061,10 @@ msgid "ESTUARY"
 msgstr "Estuari"
 
 #, fuzzy
+msgid "EVENT_ERUPTION_TOOLTIP"
+msgstr "Automàticament carregar els ecosistemes Harmony de l'Ensamblatge (no requereix especificar una classe de mod)"
+
+#, fuzzy
 msgid "EVOLUTIONARY_TREE"
 msgstr "Per Revolutionary Games Studio"
 
@@ -2102,6 +2106,10 @@ msgstr ""
 
 #, fuzzy
 msgid "EXPERIMENTAL_FEATURES_EXPLANATION"
+msgstr "(velocitat a la qual les espècies de la IA muten)"
+
+#, fuzzy
+msgid "EXPERIMENTAL_FEATURES_WARNING"
 msgstr "(velocitat a la qual les espècies de la IA muten)"
 
 msgid "EXPORT_ALL_WORLDS"
@@ -4388,9 +4396,6 @@ msgstr ""
 msgid "NOTICE_DAMAGED_BY_NO_ATP"
 msgstr ""
 
-msgid "NOTICE_DAMAGED_BY_RADIATION"
-msgstr ""
-
 msgid "NOTICE_ENGULF_DAMAGE_FROM_TOXIN"
 msgstr ""
 
@@ -6041,9 +6046,6 @@ msgstr "Produeix [thrive:compound type=\"atp\"][/thrive:compound] fent servir gr
 msgid "THERMOSYNTHESIS"
 msgstr "Termosíntesi"
 
-msgid "THE_AMOUNT_OF_GLUCOSE_HAS_BEEN_REDUCED"
-msgstr "La quantitat de Glucosa s'ha reduït un percentatge de {0} respecte a la Generació anterior."
-
 msgid "THE_DISTURBANCE"
 msgstr ""
 
@@ -6548,6 +6550,14 @@ msgstr ""
 
 msgid "UNDERWATERCAVE"
 msgstr "Cova submarina"
+
+#, fuzzy
+msgid "UNDERWATER_VENT_ERUPTION"
+msgstr "La lipasa permet a la cèl·lula digerir la major part de membranes. La teva cèl·lula ja produeix una certa quantitat d'aquest enzim sense lisosoma, però seleccionant aquest tipus n'augmentaràs l'efectivitat."
+
+#, fuzzy
+msgid "UNDERWATER_VENT_ERUPTION_IN"
+msgstr "La lipasa permet a la cèl·lula digerir la major part de membranes. La teva cèl·lula ja produeix una certa quantitat d'aquest enzim sense lisosoma, però seleccionant aquest tipus n'augmentaràs l'efectivitat."
 
 #, fuzzy
 msgid "UNDISCOVERED_ORGANELLES"
@@ -8543,6 +8553,9 @@ msgstr "Enfocar la visió de la càmera"
 
 msgid "ZOOM_OUT"
 msgstr "Zoom enfora"
+
+#~ msgid "THE_AMOUNT_OF_GLUCOSE_HAS_BEEN_REDUCED"
+#~ msgstr "La quantitat de Glucosa s'ha reduït un percentatge de {0} respecte a la Generació anterior."
 
 #, fuzzy
 #~ msgid "COMPOUND_CLOUD_BENCHMARK"

@@ -93,7 +93,6 @@ public sealed class OsmoregulationAndHealingSystem : AEntitySetSystem<float>
                 return;
 
             ApplyATPDamage(compounds, ref health, ref cellProperties);
-            ApplyRadiationDamage(compounds, ref health, ref cellProperties);
         }
     }
 
@@ -141,18 +140,6 @@ public sealed class OsmoregulationAndHealingSystem : AEntitySetSystem<float>
 
         health.DealMicrobeDamage(ref cellProperties, health.MaxHealth * Constants.NO_ATP_DAMAGE_FRACTION,
             "atpDamage");
-    }
-
-    /// <summary>
-    ///   Damage the microbe if it is irradiated.
-    /// </summary>
-    private void ApplyRadiationDamage(CompoundBag compounds, ref Health health, ref CellProperties cellProperties)
-    {
-        if (compounds.GetCompoundAmount(Compound.Radionuclides) < Constants.ATP_DAMAGE_THRESHOLD)
-            return;
-
-        health.DealMicrobeDamage(ref cellProperties, health.MaxHealth * Constants.NO_ATP_DAMAGE_FRACTION,
-            "radiationDamage");
     }
 
     /// <summary>

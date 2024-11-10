@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-11-09 13:57-0600\n"
+"POT-Creation-Date: 2024-11-10 17:32-0600\n"
 "PO-Revision-Date: 2024-10-17 07:24+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Korean <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/ko/>\n"
@@ -2108,6 +2108,10 @@ msgstr "삼키기 탈출"
 msgid "ESTUARY"
 msgstr "어귀"
 
+#, fuzzy
+msgid "EVENT_ERUPTION_TOOLTIP"
+msgstr "새로운 키 배치 추가"
+
 msgid "EVOLUTIONARY_TREE"
 msgstr "진화 계보"
 
@@ -2150,6 +2154,10 @@ msgstr ""
 
 #, fuzzy
 msgid "EXPERIMENTAL_FEATURES_EXPLANATION"
+msgstr "(AI 종이 변이하는 속도)"
+
+#, fuzzy
+msgid "EXPERIMENTAL_FEATURES_WARNING"
 msgstr "(AI 종이 변이하는 속도)"
 
 msgid "EXPORT_ALL_WORLDS"
@@ -4379,9 +4387,6 @@ msgstr ""
 msgid "NOTICE_DAMAGED_BY_NO_ATP"
 msgstr ""
 
-msgid "NOTICE_DAMAGED_BY_RADIATION"
-msgstr ""
-
 msgid "NOTICE_ENGULF_DAMAGE_FROM_TOXIN"
 msgstr ""
 
@@ -6079,9 +6084,6 @@ msgstr "열 세포는 감 열성 안료가 막질 주머니에 함께 쌓여있�
 msgid "THERMOSYNTHESIS"
 msgstr "열합성"
 
-msgid "THE_AMOUNT_OF_GLUCOSE_HAS_BEEN_REDUCED"
-msgstr "포도당의 양이 이전 양보다 {0} 만큼 감소되었습니다."
-
 msgid "THE_DISTURBANCE"
 msgstr ""
 
@@ -6596,6 +6598,14 @@ msgstr ""
 
 msgid "UNDERWATERCAVE"
 msgstr "수중 동굴"
+
+#, fuzzy
+msgid "UNDERWATER_VENT_ERUPTION"
+msgstr "끈적끈적한 세포 내부. 세포질은 이온, 단백질 및 세포 내부를 채우는 물에 용해된 기타 물질의 기본 혼합물입니다. 이것의 기능 중 하나는 발효를 통해 포도당을 ATP 에너지로 전환시키는 것 입니다. 세포 소 기관이 부족하고 세포가 더 발전된 신진 대사를 하는 경우, 에너지에 더욱 의존하게 됩니다. 또한 분자를 세포에 저장하고 세포의 크기를 성장시키는 데 사용됩니다."
+
+#, fuzzy
+msgid "UNDERWATER_VENT_ERUPTION_IN"
+msgstr "끈적끈적한 세포 내부. 세포질은 이온, 단백질 및 세포 내부를 채우는 물에 용해된 기타 물질의 기본 혼합물입니다. 이것의 기능 중 하나는 발효를 통해 포도당을 ATP 에너지로 전환시키는 것 입니다. 세포 소 기관이 부족하고 세포가 더 발전된 신진 대사를 하는 경우, 에너지에 더욱 의존하게 됩니다. 또한 분자를 세포에 저장하고 세포의 크기를 성장시키는 데 사용됩니다."
 
 #, fuzzy
 msgid "UNDISCOVERED_ORGANELLES"
@@ -8587,6 +8597,9 @@ msgstr "확대"
 
 msgid "ZOOM_OUT"
 msgstr "축소"
+
+#~ msgid "THE_AMOUNT_OF_GLUCOSE_HAS_BEEN_REDUCED"
+#~ msgstr "포도당의 양이 이전 양보다 {0} 만큼 감소되었습니다."
 
 #, fuzzy
 #~ msgid "COMPOUND_CLOUD_BENCHMARK"
