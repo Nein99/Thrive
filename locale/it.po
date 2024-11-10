@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-11-09 13:57-0600\n"
+"POT-Creation-Date: 2024-11-10 17:32-0600\n"
 "PO-Revision-Date: 2024-10-17 07:24+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Italian <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/it/>\n"
@@ -2044,6 +2044,10 @@ msgstr "fuga dalla fagocitosi"
 msgid "ESTUARY"
 msgstr "Estuario"
 
+#, fuzzy
+msgid "EVENT_ERUPTION_TOOLTIP"
+msgstr "Carica automaticamente patch Harmony dall'Assembly (non richiede di specificare la classe della mod)"
+
 msgid "EVOLUTIONARY_TREE"
 msgstr "Albero evolutivo"
 
@@ -2085,6 +2089,10 @@ msgstr ""
 
 #, fuzzy
 msgid "EXPERIMENTAL_FEATURES_EXPLANATION"
+msgstr "(velocità di mutazione delle specie controllate dall'intelligenza artificiale)"
+
+#, fuzzy
+msgid "EXPERIMENTAL_FEATURES_WARNING"
 msgstr "(velocità di mutazione delle specie controllate dall'intelligenza artificiale)"
 
 msgid "EXPORT_ALL_WORLDS"
@@ -4362,9 +4370,6 @@ msgstr ""
 msgid "NOTICE_DAMAGED_BY_NO_ATP"
 msgstr ""
 
-msgid "NOTICE_DAMAGED_BY_RADIATION"
-msgstr ""
-
 msgid "NOTICE_ENGULF_DAMAGE_FROM_TOXIN"
 msgstr ""
 
@@ -6005,9 +6010,6 @@ msgstr "Produce [thrive:compound type=\"atp\"][/thrive:compound]. Il tasso aumen
 msgid "THERMOSYNTHESIS"
 msgstr "Termosintesi"
 
-msgid "THE_AMOUNT_OF_GLUCOSE_HAS_BEEN_REDUCED"
-msgstr "Quantità di glucosio in calo. Attuale: {0} della precedente."
-
 msgid "THE_DISTURBANCE"
 msgstr ""
 
@@ -6514,6 +6516,14 @@ msgstr ""
 
 msgid "UNDERWATERCAVE"
 msgstr "Caverna sottomarina"
+
+#, fuzzy
+msgid "UNDERWATER_VENT_ERUPTION"
+msgstr "La lipasi permette alla cellula di rompere la maggior parte di tipi di membrana. La tua cellula produce un po' di lipasi anche senza bisogno di un lisosoma; ma selezionando quest'opzione ne aumenterai l'efficacia."
+
+#, fuzzy
+msgid "UNDERWATER_VENT_ERUPTION_IN"
+msgstr "La lipasi permette alla cellula di rompere la maggior parte di tipi di membrana. La tua cellula produce un po' di lipasi anche senza bisogno di un lisosoma; ma selezionando quest'opzione ne aumenterai l'efficacia."
 
 #, fuzzy
 msgid "UNDISCOVERED_ORGANELLES"
@@ -8501,6 +8511,9 @@ msgstr "Zoom avanti"
 
 msgid "ZOOM_OUT"
 msgstr "Zoom indietro"
+
+#~ msgid "THE_AMOUNT_OF_GLUCOSE_HAS_BEEN_REDUCED"
+#~ msgstr "Quantità di glucosio in calo. Attuale: {0} della precedente."
 
 #, fuzzy
 #~ msgid "COMPOUND_CLOUD_BENCHMARK"

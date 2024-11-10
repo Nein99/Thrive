@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-11-09 13:57-0600\n"
+"POT-Creation-Date: 2024-11-10 17:32-0600\n"
 "PO-Revision-Date: 2024-10-17 07:24+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Slovak <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/sk/>\n"
@@ -2014,6 +2014,10 @@ msgid "ESTUARY"
 msgstr "Ústie"
 
 #, fuzzy
+msgid "EVENT_ERUPTION_TOOLTIP"
+msgstr "Vrátiť sa k základnému zobrazeniu nastavení"
+
+#, fuzzy
 msgid "EVOLUTIONARY_TREE"
 msgstr "Od Revolutionary Games Studio"
 
@@ -2055,6 +2059,10 @@ msgstr ""
 
 #, fuzzy
 msgid "EXPERIMENTAL_FEATURES_EXPLANATION"
+msgstr "(rýchlosť, akou druhy AI mutujú)"
+
+#, fuzzy
+msgid "EXPERIMENTAL_FEATURES_WARNING"
 msgstr "(rýchlosť, akou druhy AI mutujú)"
 
 msgid "EXPORT_ALL_WORLDS"
@@ -4194,9 +4202,6 @@ msgstr ""
 msgid "NOTICE_DAMAGED_BY_NO_ATP"
 msgstr ""
 
-msgid "NOTICE_DAMAGED_BY_RADIATION"
-msgstr ""
-
 msgid "NOTICE_ENGULF_DAMAGE_FROM_TOXIN"
 msgstr ""
 
@@ -5823,9 +5828,6 @@ msgstr "Produkuje [thrive:compound type=\"atp\"][/thrive:compound] pomocou teplo
 msgid "THERMOSYNTHESIS"
 msgstr "Termosyntéza"
 
-msgid "THE_AMOUNT_OF_GLUCOSE_HAS_BEEN_REDUCED"
-msgstr ""
-
 msgid "THE_DISTURBANCE"
 msgstr ""
 
@@ -6205,6 +6207,14 @@ msgstr ""
 
 msgid "UNDERWATERCAVE"
 msgstr "Podvodná jaskyňa"
+
+#, fuzzy
+msgid "UNDERWATER_VENT_ERUPTION"
+msgstr "Mnoho organizmov produkuje lepkavé polysacharidy, ako napríklad sliz. Aj keď ho mnoho živočíchov používa pre pohyb, isté typy baktérií tieto látky vystreľujú vo vysokom tlaku. Takéto trysky pracujú ako raketový pohon. Posúvajú bunky neuveriteľnou rýchlosťou. Pre iné živočíchy bez trysiek je pohyb v takýchto látkach obtiažny."
+
+#, fuzzy
+msgid "UNDERWATER_VENT_ERUPTION_IN"
+msgstr "Mnoho organizmov produkuje lepkavé polysacharidy, ako napríklad sliz. Aj keď ho mnoho živočíchov používa pre pohyb, isté typy baktérií tieto látky vystreľujú vo vysokom tlaku. Takéto trysky pracujú ako raketový pohon. Posúvajú bunky neuveriteľnou rýchlosťou. Pre iné živočíchy bez trysiek je pohyb v takýchto látkach obtiažny."
 
 #, fuzzy
 msgid "UNDISCOVERED_ORGANELLES"

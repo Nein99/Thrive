@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-11-09 13:57-0600\n"
+"POT-Creation-Date: 2024-11-10 17:32-0600\n"
 "PO-Revision-Date: 2024-10-21 02:55+0000\n"
 "Last-Translator: Guno haozheum <guhaozhe@hsefz.cn>\n"
 "Language-Team: Chinese (Simplified Han script) <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/zh_Hans/>\n"
@@ -2002,6 +2002,10 @@ msgstr "逃脱被吞噬的命运"
 msgid "ESTUARY"
 msgstr "河口"
 
+#, fuzzy
+msgid "EVENT_ERUPTION_TOOLTIP"
+msgstr "这是编译此版本 Thrive 的确切 Commit"
+
 msgid "EVOLUTIONARY_TREE"
 msgstr "进化树"
 
@@ -2040,6 +2044,10 @@ msgstr "实验性功能"
 
 msgid "EXPERIMENTAL_FEATURES_EXPLANATION"
 msgstr "（启用游戏中尚未完善的额外功能，如果您使用这些功能，请与我们分享您对这些功能的任何反馈）"
+
+#, fuzzy
+msgid "EXPERIMENTAL_FEATURES_WARNING"
+msgstr "实验性功能"
 
 msgid "EXPORT_ALL_WORLDS"
 msgstr "导出所有世界"
@@ -4153,10 +4161,6 @@ msgstr "没有可以交互的物体"
 msgid "NOTICE_DAMAGED_BY_NO_ATP"
 msgstr "因ATP耗尽而受伤"
 
-#, fuzzy
-msgid "NOTICE_DAMAGED_BY_RADIATION"
-msgstr "因ATP耗尽而受伤"
-
 msgid "NOTICE_ENGULF_DAMAGE_FROM_TOXIN"
 msgstr "由于摄入物体中的毒素而受伤"
 
@@ -5710,9 +5714,6 @@ msgstr "利用温度梯度生产[thrive:compound type=\"atp\"][/thrive:compound]
 msgid "THERMOSYNTHESIS"
 msgstr "热合成"
 
-msgid "THE_AMOUNT_OF_GLUCOSE_HAS_BEEN_REDUCED"
-msgstr "环境中的葡萄糖已减少到原先量的{0}。"
-
 msgid "THE_DISTURBANCE"
 msgstr "干扰"
 
@@ -6188,6 +6189,14 @@ msgstr "这是一个调试版本，下面的信息可能不是最新的"
 
 msgid "UNDERWATERCAVE"
 msgstr "水下洞穴"
+
+#, fuzzy
+msgid "UNDERWATER_VENT_ERUPTION"
+msgstr "脂肪酶使细胞能够分解大多数类型的膜。就算没有溶酶体你的细胞也能产生一些这种酶，但通过选择这种类型，你将增加其有效性。"
+
+#, fuzzy
+msgid "UNDERWATER_VENT_ERUPTION_IN"
+msgstr "脂肪酶使细胞能够分解大多数类型的膜。就算没有溶酶体你的细胞也能产生一些这种酶，但通过选择这种类型，你将增加其有效性。"
 
 msgid "UNDISCOVERED_ORGANELLES"
 msgstr "未发现"
@@ -8364,6 +8373,13 @@ msgstr "放大"
 
 msgid "ZOOM_OUT"
 msgstr "缩小"
+
+#, fuzzy
+#~ msgid "NOTICE_DAMAGED_BY_RADIATION"
+#~ msgstr "因ATP耗尽而受伤"
+
+#~ msgid "THE_AMOUNT_OF_GLUCOSE_HAS_BEEN_REDUCED"
+#~ msgstr "环境中的葡萄糖已减少到原先量的{0}。"
 
 #, fuzzy
 #~ msgid "COMPOUND_CLOUD_BENCHMARK"

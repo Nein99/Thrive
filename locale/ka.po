@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-11-09 13:57-0600\n"
+"POT-Creation-Date: 2024-11-10 17:32-0600\n"
 "PO-Revision-Date: 2024-10-21 16:34+0000\n"
 "Last-Translator: NorwayFun <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/ka/>\n"
@@ -1920,6 +1920,10 @@ msgstr "შთანთქმისგან გაქცევა"
 msgid "ESTUARY"
 msgstr "შესართავი"
 
+#, fuzzy
+msgid "EVENT_ERUPTION_TOOLTIP"
+msgstr "ეს ზუსტ კოდის კომიტია, რომლიდანაც Thrive-ის ეს ვერსია იქნა დაკომპილებული"
+
 msgid "EVOLUTIONARY_TREE"
 msgstr "ევოლუციის ხე"
 
@@ -1958,6 +1962,10 @@ msgstr "ექსპერიმენტული ფუნქციები"
 
 msgid "EXPERIMENTAL_FEATURES_EXPLANATION"
 msgstr "(ჩართავს დამატების ფუნქციებს, რომლებიც ბოლომდე დამუშავებული არაა, რომ ნაგულისხმევად იყოს ჩართული. ასე რომ, თუ ამათით თამაშობთ, გაგვიზიარეთ თქვენი აზრი ამათ შესახებ)"
+
+#, fuzzy
+msgid "EXPERIMENTAL_FEATURES_WARNING"
+msgstr "ექსპერიმენტული ფუნქციები"
 
 msgid "EXPORT_ALL_WORLDS"
 msgstr "ყველა სამყაროს გატანა"
@@ -3903,10 +3911,6 @@ msgstr "ურთიერთქმედება ვერაფერთა�
 msgid "NOTICE_DAMAGED_BY_NO_ATP"
 msgstr "დაზიანებულია ატფ-ის უქონლობის გამო"
 
-#, fuzzy
-msgid "NOTICE_DAMAGED_BY_RADIATION"
-msgstr "დაზიანებულია ატფ-ის უქონლობის გამო"
-
 msgid "NOTICE_ENGULF_DAMAGE_FROM_TOXIN"
 msgstr "დაზიანებულია შთანთქმულ მასაში არსებული ტოქსინებით"
 
@@ -5433,9 +5437,6 @@ msgstr "წარმოქმნის [thrive:compound type=\"atp\"][/thrive:co
 msgid "THERMOSYNTHESIS"
 msgstr "თერმოსინთეზი"
 
-msgid "THE_AMOUNT_OF_GLUCOSE_HAS_BEEN_REDUCED"
-msgstr "გლუკოზის რაოდენობა წინა რაოდენობასთან შედარებით {0}-მდე შემცირდა."
-
 msgid "THE_DISTURBANCE"
 msgstr "უწესრიგობა"
 
@@ -5800,6 +5801,14 @@ msgstr "ეს გამართვის აგებაა, სადაც �
 
 msgid "UNDERWATERCAVE"
 msgstr "წყალქვეშა გამოქვაბული"
+
+#, fuzzy
+msgid "UNDERWATER_VENT_ERUPTION"
+msgstr "ცვლილებების გარეშე. განხორციელებული არაა."
+
+#, fuzzy
+msgid "UNDERWATER_VENT_ERUPTION_IN"
+msgstr "ცვლილებების გარეშე. განხორციელებული არაა."
 
 msgid "UNDISCOVERED_ORGANELLES"
 msgstr "აღმოუჩენელია"
@@ -7438,6 +7447,13 @@ msgstr "გადიდება"
 
 msgid "ZOOM_OUT"
 msgstr "დაპატარავება"
+
+#, fuzzy
+#~ msgid "NOTICE_DAMAGED_BY_RADIATION"
+#~ msgstr "დაზიანებულია ატფ-ის უქონლობის გამო"
+
+#~ msgid "THE_AMOUNT_OF_GLUCOSE_HAS_BEEN_REDUCED"
+#~ msgstr "გლუკოზის რაოდენობა წინა რაოდენობასთან შედარებით {0}-მდე შემცირდა."
 
 #~ msgid "COMPOUND_CLOUD_BENCHMARK"
 #~ msgstr "ნაერთის ღრუბლის წარმადობის გამოცდა"

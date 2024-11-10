@@ -319,7 +319,7 @@
       "glucose": 0.013
     },
     "Outputs": {
-      "atp": 5.5
+      "atp": 5
     },
     "IsMetabolismProcess": true
   },
@@ -329,7 +329,7 @@
       "glucose": 0.013
     },
     "Outputs": {
-      "atp": 13.5
+      "atp": 13
     },
     "IsMetabolismProcess": true
   },
