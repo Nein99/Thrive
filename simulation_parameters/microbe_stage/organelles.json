@@ -124,7 +124,7 @@
     "ProcessesDescription": "MANGANESE_OXIDASE_PROCESSES_DESCRIPTION",
     "ProductionColour": "#9E9E9E",
     "ConsumptionColour": "#3A3A3A",
-    "IconPath": "res://assets/textures/gui/bevel/parts/RusticyaninIcon.png",
+    "IconPath": "res://assets/textures/gui/bevel/parts/ManganeseOxidaseIcon.png",
     "EditorButtonGroup": "Protein",
     "EditorButtonOrder": 4,
     "EndosymbiosisUnlocks": "manganoplast"
