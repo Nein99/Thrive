@@ -1,9 +1,8 @@
-[gd_scene load_steps=6 format=3 uid="uid://cdeyf204betvv"]
+[gd_scene load_steps=6 format=4 uid="uid://cdeyf204betvv"]
 
 [ext_resource type="Shader" path="res://shaders/OrganelleTransparent.gdshader" id="1_r2bjb"]
 [ext_resource type="Texture2D" uid="uid://baxuoyeo83r2u" path="res://assets/textures/dissolve_noise.tres" id="2_fgxcb"]
 [ext_resource type="Texture2D" uid="uid://d3dtt3adkbuho" path="res://assets/textures/carbon_monoxide_dehydrogenase.png" id="3_ewq6a"]
-[ext_resource type="ArrayMesh" uid="uid://gqikylcpr6ny" path="res://assets/models/organelles/ManganeseOxidase.obj" id="4_kx1o2"]
 
 [sub_resource type="ShaderMaterial" id="1"]
 resource_local_to_scene = true
@@ -19,7 +18,22 @@ shader_parameter/jiggleAmount = 0.0005
 shader_parameter/texture = ExtResource("3_ewq6a")
 shader_parameter/dissolveTexture = ExtResource("2_fgxcb")
 
+[sub_resource type="ArrayMesh" id="ArrayMesh_psacb"]
+_surfaces = [{
+"aabb": AABB(-1.98707, -1.33182, -1.93128, 4.39839, 2.63763, 4.12914),
+"attribute_data": PackedByteArray("AAAgPwAAgD8AAMA+AACAPwAAID8AAEA/AADAPgAAQD8AACA/AAAAPwAAwD4AAAA/AAAgPwAAgD4AAMA+AACAPgAAID8AAAAAAADAPgAAAAAAAAA+AAAAPwAAAD4AAIA+AABgPwAAAD8AAGA/AACAPgAAID8AAIA/AADAPgAAgD8AACA/AABAPwAAwD4AAEA/AAAgPwAAAD8AAMA+AAAAPwAAID8AAIA+AADAPgAAgD4AACA/AAAAAAAAwD4AAAAAAAAAPgAAAD8AAAA+AACAPgAAYD8AAAA/AABgPwAAgD4AACA/AACAPwAAwD4AAIA/AAAgPwAAQD8AAMA+AABAPwAAID8AAAA/AADAPgAAAD8AACA/AACAPgAAwD4AAIA+AAAgPwAAAAAAAMA+AAAAAAAAAD4AAAA/AAAAPgAAgD4AAGA/AAAAPwAAYD8AAIA+AAAgPwAAgD8AAMA+AACAPwAAID8AAEA/AADAPgAAQD8AACA/AAAAPwAAwD4AAAA/AAAgPwAAgD4AAMA+AACAPgAAID8AAAAAAADAPgAAAAAAAAA+AAAAPwAAAD4AAIA+AABgPwAAAD8AAGA/AACAPgAAID8AAIA/AADAPgAAgD8AACA/AABAPwAAwD4AAEA/AAAgPwAAAD8AAMA+AAAAPwAAID8AAIA+AADAPgAAgD4AACA/AAAAAAAAwD4AAAAAAAAAPgAAAD8AAAA+AACAPgAAYD8AAAA/AABgPwAAgD4="),
+"format": 34359742487,
+"index_count": 180,
+"index_data": PackedByteArray("AAABAAIAAgABAAMAAgADAAQABAADAAUABAAFAAYABgAFAAcABgAHAAgACAAHAAkABQAKAAcABwAKAAsADAAEAA0ADQAEAAYADgAPABAAEAAPABEAEAARABIAEgARABMAEgATABQAFAATABUAFAAVABYAFgAVABcAEwAYABUAFQAYABkAGgASABsAGwASABQAHAAdAB4AHgAdAB8AHgAfACAAIAAfACEAIAAhACIAIgAhACMAIgAjACQAJAAjACUAIQAmACMAIwAmACcAKAAgACkAKQAgACIAKgArACwALAArAC0ALAAtAC4ALgAtAC8ALgAvADAAMAAvADEAMAAxADIAMgAxADMALwA0ADEAMQA0ADUANgAuADcANwAuADAAOAA5ADoAOgA5ADsAOgA7ADwAPAA7AD0APAA9AD4APgA9AD8APgA/AEAAQAA/AEEAPQBCAD8APwBCAEMARAA8AEUARQA8AD4A"),
+"name": "Material",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 70,
+"vertex_data": PackedByteArray("1hzMv9Ekpz9lOUm/eVj+vy15xD7rdMA+j+R6vwOWlD4B29u/Ogf1vxUZQb/rV5a/ey7jvmXFED/us46/k3LvvkfoL79JMCG/1uV4vy1Alz+IDuG+Nxg6v5dSFzsqqh4/1hzMv9Ekpz9lOUm/eVj+vy15xD7rdMA+Ogf1vxUZQb/rV5a/eVj+vy15xD7rdMA+j+R6vwOWlD4B29u/1hzMv9Ekpz9lOUm/sOWhP3B7aj8AdHg+OPPtP8fxg71UVxY/dxMYP6vrQD5p5BM/vM2fP40OeL6F6Ws/bk+eP1WJMj3bFO++1NTmPxpNBr8Oo2C9hsvkP51IND9gVye/BVMaQCi5Qz3ZQUW+sOWhP3B7aj8AdHg+OPPtP8fxg71UVxY/vM2fP40OeL6F6Ws/OPPtP8fxg71UVxY/dxMYP6vrQD5p5BM/sOWhP3B7aj8AdHg+Awv4Pm02Fr7jqee/JVwcP+Manz2DwnC/kL+AP/vmJr9tHYi/bhmIP8cOar1zEGC/eQfSP4I3BL58X/K/qirYP/T4AT++UKK/QN18PzEKAj03NPe/OQv7PqAzZT+Hiru/Awv4Pm02Fr7jqee/JVwcP+Manz2DwnC/bhmIP8cOar1zEGC/JVwcP+Manz2DwnC/kL+AP/vmJr9tHYi/Awv4Pm02Fr7jqee/mfEWv+8cJj8UsJ8/B3mtPnJs9b4qNh4/rMc9P3JQZj9Y5cY/aYqEP4f7KL78Nak/UiqBvXycwb6sqQxArz72Ps45kL8vw7c/Mv9Uv559db4Tfus/BP4Ivwx5qr98uX8/mfEWv+8cJj8UsJ8/B3mtPnJs9b4qNh4/aYqEP4f7KL78Nak/B3mtPnJs9b4qNh4/rMc9P3JQZj9Y5cY/mfEWv+8cJj8UsJ8/ct86vmGktz7n4wK/GXTqPsv0q71mob09euD7vm8QbT1JZiU+fJ5/vU56v75+/qs+/kRFvqotEb9sQQO/eQbFPugSNr9KDY29v0nTu1DgTb5w7Fm/V19JP0Qx0b5E+wy/ct86vmGktz7n4wK/GXTqPsv0q71mob09fJ5/vU56v75+/qs+GXTqPsv0q71mob09euD7vm8QbT1JZiU+ct86vmGktz7n4wK/ukto3v34TeVXQE+JNmYH/hkKWf+IuAnhoTWgLELajfvz5527eDQB7e25kj++zRXjCKnexNkknux2owZzgM1Y4rpLat4b/6HoV0BPiWtFI/WgNaIsS8FVo1hAUYmTryS1GQpZ/xsvoaa7S2reuSGemsZuhNueBDrl0LutfkBrfOulJ7+DMTrK9slwzld5InLRbxitKiVIjtsrpqEQLRB88wXPZOtoNwfWyfVyYK82ufvGboTbFwRt5NC7rX78cM/wx3DPVyzFKJfQu61+MvbA4KUnv4OloWvGxG6C2zZZObVKJvs8FPtX7TdCl4rXKhqWK4BLHtMaH4cVjtpwTWt5ggrq/TsIR7iTrsDurLbjrpKQC2wSzXLCjUhOwtYR/QXzSib7PPvcW5Y3QpeKIBEImxeO2nAystPkN0KXir1H6PUsgEkePEdYyEom+zwdYpC4KEHY1ahlyMX98/QNZUvC7LytQsVdPITUJv/7b7yEuu5JgYVxqGuS75eqmj4hTSG5PitqgjqLqfFEQJomHUJKySdB2dWgd1zM+vP0DYM/7OYm//lvC4KDi/3z9A2dQnGevK1CxeLvHP0oQdjVDd9E3+tMKeTiH9yX07XNpL9HoO9pQ3yYBCh88rByFWcmMHnXpzXWLc44neKimIkyzB9Xi+IG1+/eORbWZ+97TJcFOe3rTCnkeiBTntO1zaQDRojzsHIVZyK6vpbTtc2koeonmmpDfpjkq8zZ60wp5OdzxMs=")
+}]
+blend_shape_mode = 0
+
 [node name="CarbonMonoxideDehydrogenase" type="MeshInstance3D"]
 transform = Transform3D(0.35, 0, 0, 0, 0.35, 0, 0, 0, 0.35, 0, 0, 0)
 material_override = SubResource("1")
-mesh = ExtResource("4_kx1o2")
+mesh = SubResource("ArrayMesh_psacb")

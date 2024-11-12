@@ -36,7 +36,7 @@ public static class PatchMapGenerator
 
         // Initialize the graph's random parameters
         var regionCoordinates = new List<Vector2>();
-        int vertexCount = 9;
+        int vertexCount = 4;
         int currentPatchId = 0;
 
         // Calculate grid size based on vertex count

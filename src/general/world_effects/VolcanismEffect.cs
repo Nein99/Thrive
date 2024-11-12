@@ -9,6 +9,9 @@ using Newtonsoft.Json;
 public class VolcanismEffect : IWorldEffect
 {
     private readonly Dictionary<Compound, float> addedCo2 = new();
+    private readonly Dictionary<Compound, float> addedMethane = new();
+    private readonly Dictionary<Compound, float> addedCo = new();
+    private readonly Dictionary<Compound, float> addedHydrogen = new();
     private readonly Dictionary<Compound, float> cloudSizesDummy = new();
 
     [JsonProperty]
@@ -38,6 +41,12 @@ public class VolcanismEffect : IWorldEffect
                 // Vents get a bunch of CO2 to then spread into the ocean
                 ProduceCO2(patchKeyValue.Value, Constants.VOLCANISM_VENTS_CO2_STRENGTH,
                     Constants.VOLCANISM_VENTS_CO2_THRESHOLD);
+                ProduceMethane(patchKeyValue.Value, Constants.VOLCANISM_VENTS_METHANE_STRENGTH,
+                    Constants.VOLCANISM_VENTS_METHANE_THRESHOLD);
+                ProduceCO(patchKeyValue.Value, Constants.VOLCANISM_VENTS_CO_STRENGTH,
+                    Constants.VOLCANISM_VENTS_CO_THRESHOLD);
+                ProduceHydrogen(patchKeyValue.Value, Constants.VOLCANISM_VENTS_HYDROGEN_STRENGTH,
+                    Constants.VOLCANISM_VENTS_HYDROGEN_THRESHOLD);
             }
             else if (patchKeyValue.Value.BiomeType is BiomeType.Epipelagic or BiomeType.Coastal or BiomeType.Estuary
                      or BiomeType.Tidepool or BiomeType.IceShelf)
@@ -47,12 +56,24 @@ public class VolcanismEffect : IWorldEffect
                 // Surface patches are given some CO2 from assumed volcanic activity on land
                 ProduceCO2(patchKeyValue.Value, Constants.VOLCANISM_SURFACE_CO2_STRENGTH,
                     Constants.VOLCANISM_SURFACE_CO2_THRESHOLD);
+                ProduceMethane(patchKeyValue.Value, Constants.VOLCANISM_SURFACE_METHANE_STRENGTH,
+                    Constants.VOLCANISM_SURFACE_METHANE_THRESHOLD);
+                ProduceCO(patchKeyValue.Value, Constants.VOLCANISM_SURFACE_CO_STRENGTH,
+                    Constants.VOLCANISM_SURFACE_CO_THRESHOLD);
+                ProduceHydrogen(patchKeyValue.Value, Constants.VOLCANISM_SURFACE_HYDROGEN_STRENGTH,
+                    Constants.VOLCANISM_SURFACE_HYDROGEN_THRESHOLD);
             }
             else if (patchKeyValue.Value.BiomeType is BiomeType.Seafloor)
             {
                 // And to be fair lets give a bit of CO2 also to ocean floor from underwater volcanoes
                 ProduceCO2(patchKeyValue.Value, Constants.VOLCANISM_FLOOR_CO2_STRENGTH,
                     Constants.VOLCANISM_FLOOR_CO2_THRESHOLD);
+                ProduceMethane(patchKeyValue.Value, Constants.VOLCANISM_FLOOR_METHANE_STRENGTH,
+                    Constants.VOLCANISM_FLOOR_METHANE_THRESHOLD);
+                ProduceCO(patchKeyValue.Value, Constants.VOLCANISM_FLOOR_CO_STRENGTH,
+                    Constants.VOLCANISM_FLOOR_CO_THRESHOLD);
+                ProduceHydrogen(patchKeyValue.Value, Constants.VOLCANISM_FLOOR_HYDROGEN_STRENGTH,
+                    Constants.VOLCANISM_FLOOR_HYDROGEN_THRESHOLD);
             }
         }
     }
@@ -75,5 +96,65 @@ public class VolcanismEffect : IWorldEffect
         addedCo2[Compound.Carbondioxide] = Math.Clamp(amount.Ambient + co2Strength, 0, threshold);
 
         patch.Biome.ApplyLongTermCompoundChanges(patch.BiomeTemplate, addedCo2, cloudSizesDummy);
+    }
+
+    private void ProduceHydrogen(Patch patch, float hydrogenStrength, float threshold)
+    {
+        if (!patch.Biome.TryGetCompound(Compound.Hydrogen, CompoundAmountType.Biome, out var amount))
+        {
+            addedHydrogen[Compound.Hydrogen] = hydrogenStrength;
+
+            patch.Biome.ApplyLongTermCompoundChanges(patch.BiomeTemplate, addedHydrogen, cloudSizesDummy);
+            return;
+        }
+
+        // Add to existing if threshold is low enough
+        if (amount.Ambient >= threshold)
+            return;
+
+        // TODO: should this clamp or not?
+        addedHydrogen[Compound.Hydrogen] = Math.Clamp(amount.Ambient + hydrogenStrength, 0, threshold);
+
+        patch.Biome.ApplyLongTermCompoundChanges(patch.BiomeTemplate, addedHydrogen, cloudSizesDummy);
+    }
+
+    private void ProduceMethane(Patch patch, float methaneStrength, float threshold)
+    {
+        if (!patch.Biome.TryGetCompound(Compound.Methane, CompoundAmountType.Biome, out var amount))
+        {
+            addedMethane[Compound.Methane] = methaneStrength;
+
+            patch.Biome.ApplyLongTermCompoundChanges(patch.BiomeTemplate, addedMethane, cloudSizesDummy);
+            return;
+        }
+
+        // Add to existing if threshold is low enough
+        if (amount.Ambient >= threshold)
+            return;
+
+        // TODO: should this clamp or not?
+        addedCo2[Compound.Methane] = Math.Clamp(amount.Ambient + methaneStrength, 0, threshold);
+
+        patch.Biome.ApplyLongTermCompoundChanges(patch.BiomeTemplate, addedCo2, cloudSizesDummy);
+    }
+
+    private void ProduceCO(Patch patch, float coStrength, float threshold)
+    {
+        if (!patch.Biome.TryGetCompound(Compound.Carbonmonoxide, CompoundAmountType.Biome, out var amount))
+        {
+            addedCo[Compound.Carbonmonoxide] = coStrength;
+
+            patch.Biome.ApplyLongTermCompoundChanges(patch.BiomeTemplate, addedCo, cloudSizesDummy);
+            return;
+        }
+
+        // Add to existing if threshold is low enough
+        if (amount.Ambient >= threshold)
+            return;
+
+        // TODO: should this clamp or not?
+        addedCo2[Compound.Carbonmonoxide] = Math.Clamp(amount.Ambient + coStrength, 0, threshold);
+
+        patch.Biome.ApplyLongTermCompoundChanges(patch.BiomeTemplate, addedCo, cloudSizesDummy);
     }
 }

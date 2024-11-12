@@ -91,8 +91,18 @@ public class GameWorld : ISaveLoadable
             // A limited photosynthesis-only compound production effects that were added as these are much simpler than
             // the full effect to get balanced well enough
             TimedEffects.RegisterEffect("photosynthesis_production", new PhotosynthesisProductionEffect(this));
+            TimedEffects.RegisterEffect("co2_consumption", new Co2ConsumptionEffect(this));
+            TimedEffects.RegisterEffect("reverse_methanogenesis_production", new ReverseMethanogenesisProductionEffect(this));
+            TimedEffects.RegisterEffect("acetogenesis_production", new AcetogenesisProductionEffect(this));
+            TimedEffects.RegisterEffect("carbon_monoxide_oxidation_production", new CarbonMonoxideOxidationProductionEffect(this));
+            TimedEffects.RegisterEffect("methanotrophy_production", new MethanotrophyProductionEffect(this));
+            TimedEffects.RegisterEffect("methylotrophy_production", new MethylotrophyProductionEffect(this));
+            TimedEffects.RegisterEffect("acetoclastic_methanogenesis_production", new AcetoclasticMethanogenesisProductionEffect(this));
+            TimedEffects.RegisterEffect("hydrogenotrophic_methanogenesis_production", new HydrogenotrophicMethanogenesisProductionEffect(this));
+            TimedEffects.RegisterEffect("methylotrophic_methanogenesis_production", new MethylotrophicMethanogenesisProductionEffect(this));
             TimedEffects.RegisterEffect("volcanism", new VolcanismEffect(this));
             TimedEffects.RegisterEffect("nitrogen_control", new NitrogenControlEffect(this));
+            TimedEffects.RegisterEffect("nitrogen_control", new NitrogenFixationEffect(this));
             TimedEffects.RegisterEffect("underwater_vent_eruption",
                 new UnderwaterVentEruptionEffect(this, random.Next64()));
             TimedEffects.RegisterEffect("compound_diffusion", new CompoundDiffusionEffect(this));

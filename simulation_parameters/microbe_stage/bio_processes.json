@@ -48,7 +48,7 @@
       "sunlight": 1
     },
     "Outputs": {
-      "atp": 14
+      "atp": 3.9
     }
   },
   "radiosynthesis": {
@@ -237,8 +237,8 @@
     },
     "Outputs": {
       "atp": 5.5,
-      "carbondioxide": 1,
-      "hydrogensulfide": 1
+      "carbondioxide": 0.036,
+      "hydrogensulfide": 0.036
     },
     "IsMetabolismProcess": true
   },
@@ -259,7 +259,8 @@
       "carbonmonoxide": 0.09
     },
     "Outputs": {
-      "glucose": 0.036
+      "atp": 5,
+      "carbondioxide": 1
     }
   },
   "methanotrophy": {
@@ -305,7 +306,8 @@
   "methylotrophic_methanogenesis": {
     "Name": "METHYLOTROPHIC_METHANOGENESIS",
     "Inputs": {
-      "methane": 0.09
+      "methane": 0.09,
+      "oxygen": 0.09
     },
     "Outputs": {
       "carbondioxide": 1,
@@ -350,7 +352,7 @@
       "sunlight": 1
     },
     "Outputs": {
-      "atp": 4
+      "atp": 0.9
     }
   },
   "melanin_radiosynthesis": {
