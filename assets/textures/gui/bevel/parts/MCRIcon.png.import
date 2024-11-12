@@ -2,21 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cmjgeiy6t5v20"
-path.s3tc="res://.godot/imported/ManganeseOxidase.png-b64a86980d37e3d7f10b45a283583307.s3tc.ctex"
+uid="uid://dssrbv1uqgv48"
+path="res://.godot/imported/MCRIcon.png-0ef8ab357fb3693937ea18085b256e0b.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
-"vram_texture": true
+"vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/textures/ManganeseOxidase.png"
-dest_files=["res://.godot/imported/ManganeseOxidase.png-b64a86980d37e3d7f10b45a283583307.s3tc.ctex"]
+source_file="res://assets/textures/gui/bevel/parts/MCRIcon.png"
+dest_files=["res://.godot/imported/MCRIcon.png-0ef8ab357fb3693937ea18085b256e0b.ctex"]
 
 [params]
 
-compress/mode=2
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1
@@ -32,4 +31,4 @@ process/normal_map_invert_y=false
 process/hdr_as_srgb=false
 process/hdr_clamp_exposure=false
 process/size_limit=0
-detect_3d/compress_to=0
+detect_3d/compress_to=1

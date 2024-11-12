@@ -202,7 +202,7 @@
     "ProcessesDescription": "CAS9_PROCESSES_DESCRIPTION",
     "ProductionColour": "#3feb67",
     "ConsumptionColour": "#ff8425",
-    "IconPath": "res://assets/textures/gui/bevel/parts/NitrogenaseIcon.png",
+    "IconPath": "res://assets/textures/gui/bevel/parts/Cas9Icon.png",
     "EditorButtonGroup": "Protein",
     "EditorButtonOrder": 5
   },
@@ -305,7 +305,7 @@
     "ProcessesDescription": "MCR_PROCESSES_DESCRIPTION",
     "ProductionColour": "#64f995",
     "ConsumptionColour": "#ff7248",
-    "IconPath": "res://assets/textures/gui/bevel/parts/ChemoproteinsIcon.png",
+    "IconPath": "res://assets/textures/gui/bevel/parts/MCRIcon.png",
     "EditorButtonGroup": "Protein",
     "EditorButtonOrder": 3
   },
@@ -339,7 +339,7 @@
     "ProcessesDescription": "ACETOGENIC_PROTEINS_PROCESSES_DESCRIPTION",
     "ProductionColour": "#64f995",
     "ConsumptionColour": "#ff7248",
-    "IconPath": "res://assets/textures/gui/bevel/parts/ChemoproteinsIcon.png",
+    "IconPath": "res://assets/textures/gui/bevel/parts/AcetogenicProteinsIcon.svg",
     "EditorButtonGroup": "Protein",
     "EditorButtonOrder": 3
   },
@@ -373,7 +373,7 @@
     "ProcessesDescription": "CARBON_MONOXIDE_DEHYDROGENASE_PROCESSES_DESCRIPTION",
     "ProductionColour": "#64f995",
     "ConsumptionColour": "#ff7248",
-    "IconPath": "res://assets/textures/gui/bevel/parts/ChemoproteinsIcon.png",
+    "IconPath": "res://assets/textures/gui/bevel/parts/GenericProteinIcon.png",
     "EditorButtonGroup": "Protein",
     "EditorButtonOrder": 3
   },
@@ -441,7 +441,7 @@
     "ProcessesDescription": "METHYLOTROPHIC_PROTEINS_PROCESSES_DESCRIPTION",
     "ProductionColour": "#64f995",
     "ConsumptionColour": "#ff7248",
-    "IconPath": "res://assets/textures/gui/bevel/parts/ChemoproteinsIcon.png",
+    "IconPath": "res://assets/textures/gui/bevel/parts/MethylotrophicProteinsIcon.svg",
     "EditorButtonGroup": "Protein",
     "EditorButtonOrder": 3
   },
@@ -475,7 +475,7 @@
     "ProcessesDescription": "ACETOCLASTIC_PROTEINS_PROCESSES_DESCRIPTION",
     "ProductionColour": "#64f995",
     "ConsumptionColour": "#ff7248",
-    "IconPath": "res://assets/textures/gui/bevel/parts/ChemoproteinsIcon.png",
+    "IconPath": "res://assets/textures/gui/bevel/parts/GenericProteinIcon.png",
     "EditorButtonGroup": "Protein",
     "EditorButtonOrder": 3
   },
@@ -543,7 +543,7 @@
     "ProcessesDescription": "AEROBIC_METHYLOTROPHIC_PROTEINS_PROCESSES_DESCRIPTION",
     "ProductionColour": "#64f995",
     "ConsumptionColour": "#ff7248",
-    "IconPath": "res://assets/textures/gui/bevel/parts/ChemoproteinsIcon.png",
+    "IconPath": "res://assets/textures/gui/bevel/parts/MetabolosomeIcon.png",
     "EditorButtonGroup": "Protein",
     "EditorButtonOrder": 3
   },
@@ -752,7 +752,7 @@
     "EndosymbiosisUnlocks": "chloroplast"
   },
   "retinal": {
-    "MPCost": 50,
+    "MPCost": 40,
     "InitialComposition": {
       "ammonia": 1,
       "phosphates": 1
@@ -1534,7 +1534,7 @@
     "EditorButtonOrder": 4
   },
   "retinoplast": {
-    "MPCost": 50,
+    "MPCost": 40,
     "InitialComposition": {
       "ammonia": 2,
       "phosphates": 2

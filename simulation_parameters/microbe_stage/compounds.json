@@ -366,6 +366,7 @@
     "IsAlwaysUseful": true,
     "IsEnvironmental": true,
     "CanBeDistributed": true,
+    "Diffusible": true,
     "Colour": {
       "r": 0,
       "g": 0.388,
@@ -381,6 +382,7 @@
     "IsAlwaysUseful": true,
     "IsEnvironmental": true,
     "CanBeDistributed": true,
+    "Diffusible": true,
     "Colour": {
       "r": 0.541,
       "g": 0.949,
@@ -401,6 +403,7 @@
     "IsAlwaysUseful": true,
     "IsEnvironmental": true,
     "CanBeDistributed": true,
+    "Diffusible": true,
     "Colour": {
       "r": 0.933,
       "g": 0.420,
@@ -416,6 +419,7 @@
     "IsAlwaysUseful": true,
     "IsEnvironmental": true,
     "CanBeDistributed": true,
+    "Diffusible": true,
     "Colour": {
       "r": 0.729,
       "g": 0.671,
@@ -431,6 +435,7 @@
     "IsAlwaysUseful": true,
     "IsEnvironmental": true,
     "CanBeDistributed": true,
+    "Diffusible": true,
     "Colour": {
       "r": 0.553,
       "g": 0.553,
@@ -446,6 +451,7 @@
     "IsAlwaysUseful": true,
     "IsEnvironmental": true,
     "CanBeDistributed": true,
+    "Diffusible": true,
     "Colour": {
       "r": 0.616,
       "g": 0.420,

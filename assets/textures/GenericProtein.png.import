@@ -2,8 +2,8 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cmjgeiy6t5v20"
-path.s3tc="res://.godot/imported/ManganeseOxidase.png-b64a86980d37e3d7f10b45a283583307.s3tc.ctex"
+uid="uid://br63gjwk0vnbo"
+path.s3tc="res://.godot/imported/GenericProtein.png-93f8b7b751d848a2a4243a798ddcf717.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://assets/textures/ManganeseOxidase.png"
-dest_files=["res://.godot/imported/ManganeseOxidase.png-b64a86980d37e3d7f10b45a283583307.s3tc.ctex"]
+source_file="res://assets/textures/GenericProtein.png"
+dest_files=["res://.godot/imported/GenericProtein.png-93f8b7b751d848a2a4243a798ddcf717.s3tc.ctex"]
 
 [params]
 

@@ -1177,6 +1177,36 @@ public static class Constants
     public const float VOLCANISM_FLOOR_CO2_STRENGTH = 0.005f;
     public const float VOLCANISM_FLOOR_CO2_THRESHOLD = 0.1f;
 
+    // Volcanism methane production configuration
+    public const float VOLCANISM_VENTS_METHANE_STRENGTH = 0.015f;
+    public const float VOLCANISM_VENTS_METHANE_THRESHOLD = 0.03f;
+
+    public const float VOLCANISM_SURFACE_METHANE_STRENGTH = 0.0025f;
+    public const float VOLCANISM_SURFACE_METHANE_THRESHOLD = 0.015f;
+
+    public const float VOLCANISM_FLOOR_METHANE_STRENGTH = 0.0005f;
+    public const float VOLCANISM_FLOOR_METHANE_THRESHOLD = 0.01f;
+
+    // Volcanism co production configuration
+    public const float VOLCANISM_VENTS_CO_STRENGTH = 0.015f;
+    public const float VOLCANISM_VENTS_CO_THRESHOLD = 0.03f;
+
+    public const float VOLCANISM_SURFACE_CO_STRENGTH = 0.0025f;
+    public const float VOLCANISM_SURFACE_CO_THRESHOLD = 0.015f;
+
+    public const float VOLCANISM_FLOOR_CO_STRENGTH = 0.0005f;
+    public const float VOLCANISM_FLOOR_CO_THRESHOLD = 0.01f;
+
+    // Volcanism hydrogen production configuration
+    public const float VOLCANISM_VENTS_HYDROGEN_STRENGTH = 0.015f;
+    public const float VOLCANISM_VENTS_HYDROGEN_THRESHOLD = 0.03f;
+
+    public const float VOLCANISM_SURFACE_HYDROGEN_STRENGTH = 0.0025f;
+    public const float VOLCANISM_SURFACE_HYDROGEN_THRESHOLD = 0.015f;
+
+    public const float VOLCANISM_FLOOR_HYDROGEN_STRENGTH = 0.0005f;
+    public const float VOLCANISM_FLOOR_HYDROGEN_THRESHOLD = 0.01f;
+
     // These control the safe levels of nitrogen in a patch (due to other effects the max is also not really an
     // absolute)
     public const float MAX_NITROGEN_LEVEL = 0.75f;
@@ -1187,12 +1217,13 @@ public static class Constants
     /// </summary>
     public const float OTHER_GASES_DECAY_SPEED = 0.08f;
 
-
-
     // Patch event variables
     public const int VENT_ERUPTION_CHANCE = 15;
     public const float VENT_ERUPTION_HYDROGEN_SULFIDE_INCREASE = 0.00008f;
     public const float VENT_ERUPTION_CARBON_DIOXIDE_INCREASE = 0.3f;
+    public const float VENT_ERUPTION_METHANE_INCREASE = 0.03f;
+    public const float VENT_ERUPTION_CARBON_MONOXIDE_INCREASE = 0.03f;
+    public const float VENT_ERUPTION_HYDROGEN_INCREASE = 0.03f;
 
     // These control how many game entities can exist at once
     public const int TINY_MAX_SPAWNED_ENTITIES = 80;
