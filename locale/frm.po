@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-11-10 17:32-0600\n"
+"POT-Creation-Date: 2024-11-16 11:01-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -192,6 +192,24 @@ msgid "AMOUNT_OF_AUTOSAVE_TO_KEEP"
 msgstr ""
 
 msgid "AMOUNT_OF_QUICKSAVE_TO_KEEP"
+msgstr ""
+
+msgid "AMYLASE"
+msgstr ""
+
+msgid "AMYLASE_DESCRIPTION"
+msgstr ""
+
+msgid "AMYLASE_PROCESSES_DESCRIPTION"
+msgstr ""
+
+msgid "AMYLOPLAST"
+msgstr ""
+
+msgid "AMYLOPLAST_DESCRIPTION"
+msgstr ""
+
+msgid "AMYLOPLAST_PROCESSES_DESCRIPTION"
 msgstr ""
 
 msgid "ANAEROBIC_NITROGEN_FIXATION"
@@ -1301,6 +1319,12 @@ msgstr ""
 msgid "CYTOPLASM_PROCESSES_DESCRIPTION"
 msgstr ""
 
+msgid "CYTOPLASM_RADIONUCLIDES_REACTION"
+msgstr ""
+
+msgid "CYTOPLASM_VIRUS_REACTION"
+msgstr ""
+
 msgid "CYTOTOXIN_SYNTHESIS"
 msgstr ""
 
@@ -2156,7 +2180,40 @@ msgstr ""
 msgid "GLYCOGEN"
 msgstr ""
 
+msgid "GLYCOGENESIS"
+msgstr ""
+
+msgid "GLYCOGENOLYSIS"
+msgstr ""
+
+msgid "GLYCOGEN_PHOSPHORYLASE"
+msgstr ""
+
+msgid "GLYCOGEN_PHOSPHORYLASE_DESCRIPTION"
+msgstr ""
+
+msgid "GLYCOGEN_PHOSPHORYLASE_PROCESSES_DESCRIPTION"
+msgstr ""
+
+msgid "GLYCOGEN_SYNTHASE"
+msgstr ""
+
+msgid "GLYCOGEN_SYNTHASE_DESCRIPTION"
+msgstr ""
+
+msgid "GLYCOGEN_SYNTHASE_PROCESSES_DESCRIPTION"
+msgstr ""
+
 msgid "GLYCOLYSIS"
+msgstr ""
+
+msgid "GLYCOPLAST"
+msgstr ""
+
+msgid "GLYCOPLAST_DESCRIPTION"
+msgstr ""
+
+msgid "GLYCOPLAST_PROCESSES_DESCRIPTION"
 msgstr ""
 
 msgid "GODMODE"
@@ -2325,6 +2382,9 @@ msgid "INDICATOR_SPECIES_MUTATED"
 msgstr ""
 
 msgid "INDUSTRIAL_STAGE"
+msgstr ""
+
+msgid "INFECTED_MARINE_SNOW"
 msgstr ""
 
 msgid "INFINITE_COMPOUNDS"
@@ -3746,6 +3806,12 @@ msgstr ""
 msgid "NOTICE_DAMAGED_BY_NO_ATP"
 msgstr ""
 
+msgid "NOTICE_DAMAGED_BY_RADIATION"
+msgstr ""
+
+msgid "NOTICE_DAMAGED_BY_VIRUS"
+msgstr ""
+
 msgid "NOTICE_ENGULF_DAMAGE_FROM_TOXIN"
 msgstr ""
 
@@ -4938,6 +5004,21 @@ msgid "STAGE_MENU_BUTTON_TOOLTIP"
 msgstr ""
 
 msgid "STARCH"
+msgstr ""
+
+msgid "STARCH_DIGESTION"
+msgstr ""
+
+msgid "STARCH_SYNTHASE"
+msgstr ""
+
+msgid "STARCH_SYNTHASE_DESCRIPTION"
+msgstr ""
+
+msgid "STARCH_SYNTHASE_PROCESSES_DESCRIPTION"
+msgstr ""
+
+msgid "STARCH_SYNTHESIS"
 msgstr ""
 
 msgid "START"

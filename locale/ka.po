@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-11-10 17:32-0600\n"
+"POT-Creation-Date: 2024-11-16 11:01-0600\n"
 "PO-Revision-Date: 2024-10-21 16:34+0000\n"
 "Last-Translator: NorwayFun <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/ka/>\n"
@@ -224,6 +224,29 @@ msgstr "შენარჩუნებული ავტოშენახვ�
 
 msgid "AMOUNT_OF_QUICKSAVE_TO_KEEP"
 msgstr "შენარჩუნებული სწრაფი შენახვების რაოდენობა:"
+
+msgid "AMYLASE"
+msgstr ""
+
+#, fuzzy
+msgid "AMYLASE_DESCRIPTION"
+msgstr "ცელულაზა უჯრედს ცელულოზისგან შემდგარი მემბრანების დაშლის საშუალებას აძლევს. თითოეული დამატება ეფექტურობას ზრდის."
+
+#, fuzzy
+msgid "AMYLASE_PROCESSES_DESCRIPTION"
+msgstr "ზრდის დიდი უჯრედების მობრუნების სიჩქარეს."
+
+#, fuzzy
+msgid "AMYLOPLAST"
+msgstr "ქემოპლასტი"
+
+#, fuzzy
+msgid "AMYLOPLAST_DESCRIPTION"
+msgstr "ცელულაზა უჯრედს ცელულოზისგან შემდგარი მემბრანების დაშლის საშუალებას აძლევს. თითოეული დამატება ეფექტურობას ზრდის."
+
+#, fuzzy
+msgid "AMYLOPLAST_PROCESSES_DESCRIPTION"
+msgstr "გადაჰყავს [thrive:compound type=\"hydrogensulfide\"][/thrive:compound] [thrive:compound type=\"glucose\"][/thrive:compound]-ში. სიჩქარე იზრდება [thrive:compound type=\"carbondioxide\"][/thrive:compound]-ის კონცენტრაციასთან ერთად."
 
 msgid "ANAEROBIC_NITROGEN_FIXATION"
 msgstr "ანაერობული აზოტის ფიქსაცია"
@@ -1378,6 +1401,14 @@ msgstr "ციტოპლაზმური გლიკოლიზი"
 msgid "CYTOPLASM_PROCESSES_DESCRIPTION"
 msgstr "გადაიყვანს [thrive:compound type=\"glucose\"][/thrive:compound]ს [thrive:compound type=\"atp\"][/thrive:compound]-ში."
 
+#, fuzzy
+msgid "CYTOPLASM_RADIONUCLIDES_REACTION"
+msgstr "გადაიყვანს [thrive:compound type=\"glucose\"][/thrive:compound]ს [thrive:compound type=\"atp\"][/thrive:compound]-ში."
+
+#, fuzzy
+msgid "CYTOPLASM_VIRUS_REACTION"
+msgstr "გადაიყვანს [thrive:compound type=\"glucose\"][/thrive:compound]ს [thrive:compound type=\"atp\"][/thrive:compound]-ში."
+
 msgid "CYTOTOXIN_SYNTHESIS"
 msgstr "ციტოტოქსინის სინთეზი"
 
@@ -2255,8 +2286,51 @@ msgstr "გლუკოზის კონცენტრაციები მ�
 msgid "GLYCOGEN"
 msgstr "ჰიდროგენაზა"
 
+#, fuzzy
+msgid "GLYCOGENESIS"
+msgstr "ჰიდროგენაზა"
+
+#, fuzzy
+msgid "GLYCOGENOLYSIS"
+msgstr "გლიკოლიზი"
+
+msgid "GLYCOGEN_PHOSPHORYLASE"
+msgstr ""
+
+#, fuzzy
+msgid "GLYCOGEN_PHOSPHORYLASE_DESCRIPTION"
+msgstr "იყენებს წყალბადს [thrive:compound type=\\\"glucose\\\"][/thrive:compound]-დან ენერგიის მისაღებად. უფრო ეფექტურია დაბალი [thrive:compound type=\\\"oxygen\\\"][/thrive:compound]-ის დონეებზე, ვიდრე მეტაბოლოსომები. უჟანგბადო გარემოში ბევრი ორგანიზმი იყენებს მას, როგორც ენერგიის მისაღებ ძირითად წყაროს."
+
+#, fuzzy
+msgid "GLYCOGEN_PHOSPHORYLASE_PROCESSES_DESCRIPTION"
+msgstr "გადაჰყავს [thrive:compound type=\\\"glucose\\\"][/thrive:compound] [thrive:compound type=\\\"atp\\\"][/thrive:compound]-ში."
+
+#, fuzzy
+msgid "GLYCOGEN_SYNTHASE"
+msgstr "ჰიდროგენაზა"
+
+#, fuzzy
+msgid "GLYCOGEN_SYNTHASE_DESCRIPTION"
+msgstr "იყენებს წყალბადს [thrive:compound type=\\\"glucose\\\"][/thrive:compound]-დან ენერგიის მისაღებად. უფრო ეფექტურია დაბალი [thrive:compound type=\\\"oxygen\\\"][/thrive:compound]-ის დონეებზე, ვიდრე მეტაბოლოსომები. უჟანგბადო გარემოში ბევრი ორგანიზმი იყენებს მას, როგორც ენერგიის მისაღებ ძირითად წყაროს."
+
+#, fuzzy
+msgid "GLYCOGEN_SYNTHASE_PROCESSES_DESCRIPTION"
+msgstr "გადაჰყავს [thrive:compound type=\\\"glucose\\\"][/thrive:compound] [thrive:compound type=\\\"atp\\\"][/thrive:compound]-ში."
+
 msgid "GLYCOLYSIS"
 msgstr "გლიკოლიზი"
+
+#, fuzzy
+msgid "GLYCOPLAST"
+msgstr "ქემოპლასტი"
+
+#, fuzzy
+msgid "GLYCOPLAST_DESCRIPTION"
+msgstr "ცელულაზა უჯრედს ცელულოზისგან შემდგარი მემბრანების დაშლის საშუალებას აძლევს. თითოეული დამატება ეფექტურობას ზრდის."
+
+#, fuzzy
+msgid "GLYCOPLAST_PROCESSES_DESCRIPTION"
+msgstr "გადაჰყავს [thrive:compound type=\"hydrogensulfide\"][/thrive:compound] [thrive:compound type=\"glucose\"][/thrive:compound]-ში. სიჩქარე იზრდება [thrive:compound type=\"carbondioxide\"][/thrive:compound]-ის კონცენტრაციასთან ერთად."
 
 msgid "GODMODE"
 msgstr "უკვდავობა"
@@ -2434,6 +2508,10 @@ msgstr "მიუთითებს, რომ ამ სახეობებ�
 
 msgid "INDUSTRIAL_STAGE"
 msgstr "ინდუსტრიული ფაზა"
+
+#, fuzzy
+msgid "INFECTED_MARINE_SNOW"
+msgstr "ზღვის თოვლი"
 
 msgid "INFINITE_COMPOUNDS"
 msgstr "უსასრულო ნაერთები"
@@ -3911,6 +3989,14 @@ msgstr "ურთიერთქმედება ვერაფერთა�
 msgid "NOTICE_DAMAGED_BY_NO_ATP"
 msgstr "დაზიანებულია ატფ-ის უქონლობის გამო"
 
+#, fuzzy
+msgid "NOTICE_DAMAGED_BY_RADIATION"
+msgstr "დაზიანებულია ატფ-ის უქონლობის გამო"
+
+#, fuzzy
+msgid "NOTICE_DAMAGED_BY_VIRUS"
+msgstr "დაზიანებულია ატფ-ის უქონლობის გამო"
+
 msgid "NOTICE_ENGULF_DAMAGE_FROM_TOXIN"
 msgstr "დაზიანებულია შთანთქმულ მასაში არსებული ტოქსინებით"
 
@@ -5148,6 +5234,26 @@ msgstr "პაუზის მენიუ"
 #, fuzzy
 msgid "STARCH"
 msgstr "მარტი"
+
+#, fuzzy
+msgid "STARCH_DIGESTION"
+msgstr "ძებნის რადიუსი:"
+
+#, fuzzy
+msgid "STARCH_SYNTHASE"
+msgstr "თერმოსინთაზა"
+
+#, fuzzy
+msgid "STARCH_SYNTHASE_DESCRIPTION"
+msgstr "ხიტინაზა უჯრედს ხიტინის მემბრანის დაშლის საშუალებას გაძლევს. თითოეული დამატება ზრდის მის ეფექტურობას."
+
+#, fuzzy
+msgid "STARCH_SYNTHASE_PROCESSES_DESCRIPTION"
+msgstr "წარმოქმნის [thrive:compound type=\"atp\"][/thrive:compound]-ს ტემპერატურის გრადიენტის გამოყენებით. სიჩქარე [thrive:compound type=\"temperature\"][/thrive:compound]-სთან ერთად იზრდება."
+
+#, fuzzy
+msgid "STARCH_SYNTHESIS"
+msgstr "ქემოსინთეზი"
 
 msgid "START"
 msgstr "დაწყება"
@@ -7447,10 +7553,6 @@ msgstr "გადიდება"
 
 msgid "ZOOM_OUT"
 msgstr "დაპატარავება"
-
-#, fuzzy
-#~ msgid "NOTICE_DAMAGED_BY_RADIATION"
-#~ msgstr "დაზიანებულია ატფ-ის უქონლობის გამო"
 
 #~ msgid "THE_AMOUNT_OF_GLUCOSE_HAS_BEEN_REDUCED"
 #~ msgstr "გლუკოზის რაოდენობა წინა რაოდენობასთან შედარებით {0}-მდე შემცირდა."

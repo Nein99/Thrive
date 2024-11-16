@@ -66,6 +66,14 @@ public sealed class DamageSoundSystem : AEntitySetSystem<float>
                     soundEffectPlayer.PlaySoundEffect("res://assets/sounds/soundeffects/microbe-ice-damage.ogg",
                         0.5f);
                 }
+                else if (damageSource == "radiationDamage")
+                {
+                    soundEffectPlayer.PlaySoundEffect("res://assets/sounds/soundeffects/microbe-toxin-damage.ogg");
+                }
+                else if (damageSource == "virusDamage")
+                {
+                    soundEffectPlayer.PlaySoundEffect("res://assets/sounds/soundeffects/microbe-toxin-damage.ogg");
+                }
             }
 
             receivedDamage.Clear();

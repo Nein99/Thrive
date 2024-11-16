@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-11-10 17:32-0600\n"
+"POT-Creation-Date: 2024-11-16 11:01-0600\n"
 "PO-Revision-Date: 2024-10-17 07:24+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Luxembourgish <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/lb/>\n"
@@ -231,6 +231,29 @@ msgstr "Unzuel un automatesche Späicherungen:"
 
 msgid "AMOUNT_OF_QUICKSAVE_TO_KEEP"
 msgstr "Unzuel u Schnell-Späicherungen:"
+
+msgid "AMYLASE"
+msgstr ""
+
+#, fuzzy
+msgid "AMYLASE_DESCRIPTION"
+msgstr "Cellulase erlabt der Zell fir d'Cellulose Membran ofzebauen. All Additioun steigert Effizienz."
+
+#, fuzzy
+msgid "AMYLASE_PROCESSES_DESCRIPTION"
+msgstr "Erhéicht d'Dréigeschwindegkeet vu gréisseren Zellen."
+
+#, fuzzy
+msgid "AMYLOPLAST"
+msgstr "Chemoplast"
+
+#, fuzzy
+msgid "AMYLOPLAST_DESCRIPTION"
+msgstr "De chemoplast ass eng duebel Membran Struktur déi Eewäiss erhält a fäeg ass fir [thrive:compound type=\"hydrogensulfide\"][/thrive:compound], gasfërmegen [thrive:compound type=\"carbondioxide\"][/thrive:compound] a Waasser an [thrive:compound type=\"glucose\"][/thrive:compound] ze verwandelen, an engem Prozess, deen een[b]Schwiefelwaasserstoff-Chemosynthese[/b] nennt."
+
+#, fuzzy
+msgid "AMYLOPLAST_PROCESSES_DESCRIPTION"
+msgstr "Wandelt [thrive:compound type=\"hydrogensulfide\"][/thrive:compound] an [thrive:compound type=\"glucose\"][/thrive:compound] ëm. Ëmsaz wiisst mat [thrive:compound type=\"carbondioxide\"][/thrive:compound]."
 
 msgid "ANAEROBIC_NITROGEN_FIXATION"
 msgstr "Anaerobe Stéckstofffixeirung"
@@ -1402,6 +1425,14 @@ msgid "CYTOPLASM_PROCESSES_DESCRIPTION"
 msgstr ""
 
 #, fuzzy
+msgid "CYTOPLASM_RADIONUCLIDES_REACTION"
+msgstr "D'Schwabbeleg Innereien vun enger Zell. Den Zytoplasma ass de basis Gemësch vun Ionen, Eewäiss an aneren a Waasser geschleisten Substanzen déi d'Banneliewen vun der Zell fëllen. Eng vun de Funktiounen déi et erfëllt ass [b] Glycolyse [/b], d'Ëmwandlung vun [thrive:compound type=\"glucose\"][/thrive:compound] an [thrive:compound type=\"atp\"][/thrive:compound]. Fir Zellen di keng Organellen fir méi fortgeschratten Metabolismen hunn ass dat op wat se fir Energie ugewise sinn. Et ass och genotzt fir Moleküllen an der Zell ze späicheren an fir Zell an der Gréisst wuessen ze doen."
+
+#, fuzzy
+msgid "CYTOPLASM_VIRUS_REACTION"
+msgstr "D'Schwabbeleg Innereien vun enger Zell. Den Zytoplasma ass de basis Gemësch vun Ionen, Eewäiss an aneren a Waasser geschleisten Substanzen déi d'Banneliewen vun der Zell fëllen. Eng vun de Funktiounen déi et erfëllt ass [b] Glycolyse [/b], d'Ëmwandlung vun [thrive:compound type=\"glucose\"][/thrive:compound] an [thrive:compound type=\"atp\"][/thrive:compound]. Fir Zellen di keng Organellen fir méi fortgeschratten Metabolismen hunn ass dat op wat se fir Energie ugewise sinn. Et ass och genotzt fir Moleküllen an der Zell ze späicheren an fir Zell an der Gréisst wuessen ze doen."
+
+#, fuzzy
 msgid "CYTOTOXIN_SYNTHESIS"
 msgstr "OxyToxy Syntheese"
 
@@ -2264,8 +2295,51 @@ msgstr ""
 msgid "GLYCOGEN"
 msgstr "Schwiefel-Waasserstoff"
 
+#, fuzzy
+msgid "GLYCOGENESIS"
+msgstr "Schwiefel-Waasserstoff"
+
+#, fuzzy
+msgid "GLYCOGENOLYSIS"
+msgstr "Glycolyse"
+
+msgid "GLYCOGEN_PHOSPHORYLASE"
+msgstr ""
+
+#, fuzzy
+msgid "GLYCOGEN_PHOSPHORYLASE_DESCRIPTION"
+msgstr "Nitrogenase ass een Eewäiss dat fäeg ass gasfërmeg [thrive:compound type=\"nitrogen\"][/thrive:compound] an zellular Energie a Form vun [thrive:compound type=\"atp\"][/thrive:compound] ze notzen fier [thrive:compound type=\"ammonia\"][/thrive:compound] ze produzéieren, w wichtegen Wuesstums-Nierstoff fir Zellen. Dëse Prozess gëtt [b]anaerobeg Stéckstoff Fixation[/b] genannt .Well d'Nitrogenasen direkt am Zytoplasma schwammen meescht d'Flëssegkeet ronderëm [b]Glycolyse[/b]."
+
+#, fuzzy
+msgid "GLYCOGEN_PHOSPHORYLASE_PROCESSES_DESCRIPTION"
+msgstr "Produzéiert [thrive:compound type=\"glucose\"][/thrive:compound]. Ëmsaz wiisst mat Konzentratioun vun [thrive:compound type=\"carbondioxide\"][/thrive:compound] an Intensitéit u [thrive:compound type=\"sunlight\"][/thrive:compound]."
+
+#, fuzzy
+msgid "GLYCOGEN_SYNTHASE"
+msgstr "Schwiefel-Waasserstoff"
+
+#, fuzzy
+msgid "GLYCOGEN_SYNTHASE_DESCRIPTION"
+msgstr "Nitrogenase ass een Eewäiss dat fäeg ass gasfërmeg [thrive:compound type=\"nitrogen\"][/thrive:compound] an zellular Energie a Form vun [thrive:compound type=\"atp\"][/thrive:compound] ze notzen fier [thrive:compound type=\"ammonia\"][/thrive:compound] ze produzéieren, w wichtegen Wuesstums-Nierstoff fir Zellen. Dëse Prozess gëtt [b]anaerobeg Stéckstoff Fixation[/b] genannt .Well d'Nitrogenasen direkt am Zytoplasma schwammen meescht d'Flëssegkeet ronderëm [b]Glycolyse[/b]."
+
+#, fuzzy
+msgid "GLYCOGEN_SYNTHASE_PROCESSES_DESCRIPTION"
+msgstr "Produzéiert [thrive:compound type=\"glucose\"][/thrive:compound]. Ëmsaz wiisst mat Konzentratioun vun [thrive:compound type=\"carbondioxide\"][/thrive:compound] an Intensitéit u [thrive:compound type=\"sunlight\"][/thrive:compound]."
+
 msgid "GLYCOLYSIS"
 msgstr "Glycolyse"
+
+#, fuzzy
+msgid "GLYCOPLAST"
+msgstr "Chemoplast"
+
+#, fuzzy
+msgid "GLYCOPLAST_DESCRIPTION"
+msgstr "De chemoplast ass eng duebel Membran Struktur déi Eewäiss erhält a fäeg ass fir [thrive:compound type=\"hydrogensulfide\"][/thrive:compound], gasfërmegen [thrive:compound type=\"carbondioxide\"][/thrive:compound] a Waasser an [thrive:compound type=\"glucose\"][/thrive:compound] ze verwandelen, an engem Prozess, deen een[b]Schwiefelwaasserstoff-Chemosynthese[/b] nennt."
+
+#, fuzzy
+msgid "GLYCOPLAST_PROCESSES_DESCRIPTION"
+msgstr "Wandelt [thrive:compound type=\"hydrogensulfide\"][/thrive:compound] an [thrive:compound type=\"glucose\"][/thrive:compound] ëm. Ëmsaz wiisst mat [thrive:compound type=\"carbondioxide\"][/thrive:compound]."
 
 msgid "GODMODE"
 msgstr ""
@@ -2446,6 +2520,10 @@ msgstr "Erlaabt der Spezies net ze muteiren (wann keng gut Mutatioun fonnt get)"
 
 msgid "INDUSTRIAL_STAGE"
 msgstr ""
+
+#, fuzzy
+msgid "INFECTED_MARINE_SNOW"
+msgstr "Mieresschnéi"
 
 msgid "INFINITE_COMPOUNDS"
 msgstr ""
@@ -3958,6 +4036,12 @@ msgstr ""
 msgid "NOTICE_DAMAGED_BY_NO_ATP"
 msgstr ""
 
+msgid "NOTICE_DAMAGED_BY_RADIATION"
+msgstr ""
+
+msgid "NOTICE_DAMAGED_BY_VIRUS"
+msgstr ""
+
 msgid "NOTICE_ENGULF_DAMAGE_FROM_TOXIN"
 msgstr ""
 
@@ -5168,6 +5252,25 @@ msgstr ""
 
 msgid "STARCH"
 msgstr ""
+
+msgid "STARCH_DIGESTION"
+msgstr ""
+
+#, fuzzy
+msgid "STARCH_SYNTHASE"
+msgstr "Chemosythese"
+
+#, fuzzy
+msgid "STARCH_SYNTHASE_DESCRIPTION"
+msgstr "D'Chitinase erlaabt der Zell d'Chitin Membran ze zersetzen. All addition erageheit d'Effizienz."
+
+#, fuzzy
+msgid "STARCH_SYNTHASE_PROCESSES_DESCRIPTION"
+msgstr "Produzéiert [thrive:compound type=\"glucose\"][/thrive:compound]. Ëmsaz wiisst mat Konzentratioun vun [thrive:compound type=\"carbondioxide\"][/thrive:compound] an Intensitéit u [thrive:compound type=\"sunlight\"][/thrive:compound]."
+
+#, fuzzy
+msgid "STARCH_SYNTHESIS"
+msgstr "Chemosythese"
 
 msgid "START"
 msgstr ""

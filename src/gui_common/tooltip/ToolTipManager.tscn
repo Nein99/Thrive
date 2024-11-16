@@ -615,6 +615,20 @@ DescriptionLabelPath = NodePath("../../processesProduction/chemoSynthesizingProt
 DisplayDelay = 0.0
 Positioning = 1
 
+[node name="glycogenPhosphorylase" parent="GroupHolder/processesProduction" instance=ExtResource("1")]
+visible = false
+layout_mode = 0
+DescriptionLabelPath = NodePath("../chemoSynthesizingProteins/MarginContainer/VBoxContainer/Description")
+DisplayDelay = 0.0
+Positioning = 1
+
+[node name="amylase" parent="GroupHolder/processesProduction" instance=ExtResource("1")]
+visible = false
+layout_mode = 0
+DescriptionLabelPath = NodePath("../chemoSynthesizingProteins/MarginContainer/VBoxContainer/Description")
+DisplayDelay = 0.0
+Positioning = 1
+
 [node name="rusticyanin" parent="GroupHolder/processesProduction" instance=ExtResource("1")]
 visible = false
 layout_mode = 0
@@ -657,6 +671,20 @@ DescriptionLabelPath = NodePath("../thermosynthase/MarginContainer/VBoxContainer
 DisplayDelay = 0.0
 Positioning = 1
 
+[node name="glycogenSynthase" parent="GroupHolder/processesProduction" instance=ExtResource("1")]
+visible = false
+layout_mode = 0
+DescriptionLabelPath = NodePath("../thermosynthase/MarginContainer/VBoxContainer/Description")
+DisplayDelay = 0.0
+Positioning = 1
+
+[node name="starchSynthase" parent="GroupHolder/processesProduction" instance=ExtResource("1")]
+visible = false
+layout_mode = 0
+DescriptionLabelPath = NodePath("../thermosynthase/MarginContainer/VBoxContainer/Description")
+DisplayDelay = 0.0
+Positioning = 1
+
 [node name="mitochondrion" parent="GroupHolder/processesProduction" instance=ExtResource("1")]
 visible = false
 layout_mode = 0
@@ -672,6 +700,22 @@ DisplayDelay = 0.0
 Positioning = 1
 
 [node name="ferroplast" parent="GroupHolder/processesProduction" instance=ExtResource("1")]
+visible = false
+layout_mode = 0
+offset_bottom = 34.0
+DescriptionLabelPath = NodePath("../mitochondrion/MarginContainer/VBoxContainer/Description")
+DisplayDelay = 0.0
+Positioning = 1
+
+[node name="amyloplast" parent="GroupHolder/processesProduction" instance=ExtResource("1")]
+visible = false
+layout_mode = 0
+offset_bottom = 34.0
+DescriptionLabelPath = NodePath("../mitochondrion/MarginContainer/VBoxContainer/Description")
+DisplayDelay = 0.0
+Positioning = 1
+
+[node name="glycoplast" parent="GroupHolder/processesProduction" instance=ExtResource("1")]
 visible = false
 layout_mode = 0
 offset_bottom = 34.0
@@ -830,6 +874,50 @@ Positioning = 1
 visible = false
 layout_mode = 0
 DescriptionLabelPath = NodePath("../../../GroupHolder/processesConsumption/oxytoxy/MarginContainer/VBoxContainer/Description")
+DisplayDelay = 0.0
+Positioning = 1
+
+[node name="glycogenPhosphorylase" parent="GroupHolder/processesConsumption" instance=ExtResource("1")]
+visible = false
+layout_mode = 0
+DescriptionLabelPath = NodePath("../chemoSynthesizingProteins/MarginContainer/VBoxContainer/Description")
+DisplayDelay = 0.0
+Positioning = 1
+
+[node name="glycogenSynthase" parent="GroupHolder/processesConsumption" instance=ExtResource("1")]
+visible = false
+layout_mode = 0
+DescriptionLabelPath = NodePath("../thermosynthase/MarginContainer/VBoxContainer/Description")
+DisplayDelay = 0.0
+Positioning = 1
+
+[node name="glycoplast" parent="GroupHolder/processesConsumption" instance=ExtResource("1")]
+visible = false
+layout_mode = 0
+offset_bottom = 34.0
+DescriptionLabelPath = NodePath("../mitochondrion/MarginContainer/VBoxContainer/Description")
+DisplayDelay = 0.0
+Positioning = 1
+
+[node name="starchSynthase" parent="GroupHolder/processesConsumption" instance=ExtResource("1")]
+visible = false
+layout_mode = 0
+DescriptionLabelPath = NodePath("../thermosynthase/MarginContainer/VBoxContainer/Description")
+DisplayDelay = 0.0
+Positioning = 1
+
+[node name="amylase" parent="GroupHolder/processesConsumption" instance=ExtResource("1")]
+visible = false
+layout_mode = 0
+DescriptionLabelPath = NodePath("../chemoSynthesizingProteins/MarginContainer/VBoxContainer/Description")
+DisplayDelay = 0.0
+Positioning = 1
+
+[node name="amyloplast" parent="GroupHolder/processesConsumption" instance=ExtResource("1")]
+visible = false
+layout_mode = 0
+offset_bottom = 34.0
+DescriptionLabelPath = NodePath("../mitochondrion/MarginContainer/VBoxContainer/Description")
 DisplayDelay = 0.0
 Positioning = 1
 

@@ -403,6 +403,8 @@ public class Patch
                 return GetTotalChunkCompoundAmountInSnapshot(snapshot, compound);
             case Compound.Manganese:
                 return GetTotalChunkCompoundAmountInSnapshot(snapshot, compound);
+            case Compound.Virus:
+                return GetTotalChunkCompoundAmountInSnapshot(snapshot, compound);
             default:
             {
                 BiomeCompoundProperties amount;

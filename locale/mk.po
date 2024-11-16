@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Thrive VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-11-10 17:32-0600\n"
+"POT-Creation-Date: 2024-11-16 11:01-0600\n"
 "PO-Revision-Date: 2023-09-15 06:55+0000\n"
 "Last-Translator: Kristijan Miracevski <mircevskihristijan30@gmail.com>\n"
 "Language-Team: Macedonian <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/mk/>\n"
@@ -233,6 +233,28 @@ msgstr ""
 
 msgid "AMOUNT_OF_QUICKSAVE_TO_KEEP"
 msgstr ""
+
+msgid "AMYLASE"
+msgstr ""
+
+#, fuzzy
+msgid "AMYLASE_DESCRIPTION"
+msgstr "Аеробна фиксација на азот"
+
+#, fuzzy
+msgid "AMYLASE_PROCESSES_DESCRIPTION"
+msgstr "3Д Едитор"
+
+msgid "AMYLOPLAST"
+msgstr ""
+
+#, fuzzy
+msgid "AMYLOPLAST_DESCRIPTION"
+msgstr "Аеробна фиксација на азот"
+
+#, fuzzy
+msgid "AMYLOPLAST_PROCESSES_DESCRIPTION"
+msgstr "3Д Едитор"
 
 msgid "ANAEROBIC_NITROGEN_FIXATION"
 msgstr ""
@@ -1352,6 +1374,12 @@ msgstr ""
 msgid "CYTOPLASM_PROCESSES_DESCRIPTION"
 msgstr ""
 
+msgid "CYTOPLASM_RADIONUCLIDES_REACTION"
+msgstr ""
+
+msgid "CYTOPLASM_VIRUS_REACTION"
+msgstr ""
+
 #, fuzzy
 msgid "CYTOTOXIN_SYNTHESIS"
 msgstr "Аеробна фиксација на азот"
@@ -2215,8 +2243,49 @@ msgstr ""
 msgid "GLYCOGEN"
 msgstr ""
 
+#, fuzzy
+msgid "GLYCOGENESIS"
+msgstr "Аеробна фиксација на азот"
+
+#, fuzzy
+msgid "GLYCOGENOLYSIS"
+msgstr "Аеробна фиксација на азот"
+
+msgid "GLYCOGEN_PHOSPHORYLASE"
+msgstr ""
+
+#, fuzzy
+msgid "GLYCOGEN_PHOSPHORYLASE_DESCRIPTION"
+msgstr "Аеробна фиксација на азот"
+
+#, fuzzy
+msgid "GLYCOGEN_PHOSPHORYLASE_PROCESSES_DESCRIPTION"
+msgstr "3Д Едитор"
+
+msgid "GLYCOGEN_SYNTHASE"
+msgstr ""
+
+#, fuzzy
+msgid "GLYCOGEN_SYNTHASE_DESCRIPTION"
+msgstr "Аеробна фиксација на азот"
+
+#, fuzzy
+msgid "GLYCOGEN_SYNTHASE_PROCESSES_DESCRIPTION"
+msgstr "3Д Едитор"
+
 msgid "GLYCOLYSIS"
 msgstr ""
+
+msgid "GLYCOPLAST"
+msgstr ""
+
+#, fuzzy
+msgid "GLYCOPLAST_DESCRIPTION"
+msgstr "Аеробна фиксација на азот"
+
+#, fuzzy
+msgid "GLYCOPLAST_PROCESSES_DESCRIPTION"
+msgstr "3Д Едитор"
 
 msgid "GODMODE"
 msgstr ""
@@ -2390,6 +2459,9 @@ msgid "INDICATOR_SPECIES_MUTATED"
 msgstr ""
 
 msgid "INDUSTRIAL_STAGE"
+msgstr ""
+
+msgid "INFECTED_MARINE_SNOW"
 msgstr ""
 
 msgid "INFINITE_COMPOUNDS"
@@ -3825,6 +3897,12 @@ msgstr ""
 msgid "NOTICE_DAMAGED_BY_NO_ATP"
 msgstr ""
 
+msgid "NOTICE_DAMAGED_BY_RADIATION"
+msgstr ""
+
+msgid "NOTICE_DAMAGED_BY_VIRUS"
+msgstr ""
+
 msgid "NOTICE_ENGULF_DAMAGE_FROM_TOXIN"
 msgstr ""
 
@@ -5027,6 +5105,24 @@ msgstr ""
 
 msgid "STARCH"
 msgstr ""
+
+msgid "STARCH_DIGESTION"
+msgstr ""
+
+msgid "STARCH_SYNTHASE"
+msgstr ""
+
+#, fuzzy
+msgid "STARCH_SYNTHASE_DESCRIPTION"
+msgstr "Аеробна фиксација на азот"
+
+#, fuzzy
+msgid "STARCH_SYNTHASE_PROCESSES_DESCRIPTION"
+msgstr "3Д Едитор"
+
+#, fuzzy
+msgid "STARCH_SYNTHESIS"
+msgstr "Аеробна фиксација на азот"
 
 msgid "START"
 msgstr ""

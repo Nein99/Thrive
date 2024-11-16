@@ -218,6 +218,16 @@
       "phosphates": 0.08
     }
   },
+  "cytoplasm_virus_reaction": {
+    "Name": "CYTOPLASM_VIRUS_REACTION",
+    "Inputs": {
+      "virus": 0.1
+    },
+    "Outputs": {
+      "temperature": 0.0001
+    },
+    "IsMetabolismProcess": false
+  },
   "protein_respiration": {
     "Name": "RESPIRATION",
     "Inputs": {
@@ -366,6 +376,16 @@
       "oxygen": 0.081
     }
   },
+  "cytoplasm_radionuclides_reaction": {
+    "Name": "CYTOPLASM_RADIONUCLIDES_REACTION",
+    "Inputs": {
+      "radionuclides": 0.1
+    },
+    "Outputs": {
+      "temperature": 0.0001
+    },
+    "IsMetabolismProcess": false
+  },
   "iron_chemolithoautotrophy": {
     "Name": "IRON_CHEMOLITHOAUTOTROPHY",
     "Inputs": {
@@ -436,6 +456,46 @@
     "Outputs": {
       "phosphates": 0.04,
       "ammonia": 0.04
+    }
+  },
+  "starch_synthesis": {
+    "Name": "STARCH_SYNTHESIS",
+    "Inputs": {
+      "glucose": 8.0,
+      "atp": 0.01
+    },
+    "Outputs": {
+      "starch": 1.0
+    }
+  },
+  "starch_digestion": {
+    "Name": "STARCH_DIGESTION",
+    "Inputs": {
+      "starch": 1.0,
+      "atp": 0.01
+    },
+    "Outputs": {
+      "glucose": 8.0
+    }
+  },
+  "glycogenesis": {
+    "Name": "GLYCOGENESIS",
+    "Inputs": {
+      "glucose": 2.0,
+      "atp": 0.01
+    },
+    "Outputs": {
+      "glycogen": 0.5
+    }
+  },
+  "glycogenolysis": {
+    "Name": "GLYCOGENOLYSIS",
+    "Inputs": {
+      "glycogen": 0.5,
+      "atp": 0.01
+    },
+    "Outputs": {
+      "glucose": 2.0
     }
   }
 }

@@ -607,6 +607,9 @@ public static class SpawnHelpers
             {
                 storage.Compounds.AddInitialCompounds(species.InitialCompounds);
 
+                storage.Compounds.TakeCompound(Compound.Radionuclides, 100);
+                storage.Compounds.TakeCompound(Compound.Virus, 100);
+
                 // Extra initial compounds if close to night
                 species.HandleNightSpawnCompounds(storage.Compounds, spawnEnvironment);
             }

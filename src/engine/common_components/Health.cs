@@ -172,6 +172,10 @@ public static class HealthHelpers
         {
             canApplyDamageReduction = false;
         }
+        else if (damageSource == "virusDamage")
+        {
+            canApplyDamageReduction = false;
+        }
 
         if (!cellProperties.IsBacteria && canApplyDamageReduction)
         {

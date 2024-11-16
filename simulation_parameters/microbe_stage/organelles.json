@@ -1634,6 +1634,246 @@
     "EditorButtonOrder": 13,
     "LAWK": false
   },
+  "glycogenSynthase": {
+    "MPCost": 50,
+    "InitialComposition": {
+      "ammonia": 1,
+      "phosphates": 1
+    },
+    "Hexes": [
+      {
+        "r": 0,
+        "q": 0
+      }
+    ],
+    "Processes": {
+      "glycogenesis": 1
+    },
+    "Components": {
+      "Storage": {
+        "Capacity": 0.5
+      }
+    },
+    "Density": 1200,
+    "Graphics": {
+      "ScenePath": "res://assets/models/organelles/GlycogenSynthase.tscn"
+    },
+    "Name": "GLYCOGEN_SYNTHASE",
+    "Description": "GLYCOGEN_SYNTHASE_DESCRIPTION",
+    "ProcessesDescription": "GLYCOGEN_SYNTHASE_PROCESSES_DESCRIPTION",
+    "ProductionColour": "#6a5cc6",
+    "ConsumptionColour": "#ad5161",
+    "IconPath": "res://assets/textures/gui/bevel/parts/HydrogenaseIcon.svg",
+    "EditorButtonGroup": "Protein",
+    "EditorButtonOrder": 8,
+    "LAWK": false,
+    "EndosymbiosisUnlocks": "glycoplast"
+  },
+  "glycogenPhosphorylase": {
+    "MPCost": 50,
+    "InitialComposition": {
+      "ammonia": 1,
+      "phosphates": 1
+    },
+    "Hexes": [
+      {
+        "r": 0,
+        "q": 0
+      }
+    ],
+    "Processes": {
+      "glycogenolysis": 1
+    },
+    "Components": {
+      "Storage": {
+        "Capacity": 0.5
+      }
+    },
+    "Density": 1200,
+    "Graphics": {
+      "ScenePath": "res://assets/models/organelles/GlycogenPhosphorylase.tscn"
+    },
+    "Name": "GLYCOGEN_PHOSPHORYLASE",
+    "Description": "GLYCOGEN_PHOSPHORYLASE_DESCRIPTION",
+    "ProcessesDescription": "GLYCOGEN_PHOSPHORYLASE_PROCESSES_DESCRIPTION",
+    "ProductionColour": "#6a5cc6",
+    "ConsumptionColour": "#ad5161",
+    "IconPath": "res://assets/textures/gui/bevel/parts/MetabolosomeIcon.png",
+    "EditorButtonGroup": "Protein",
+    "EditorButtonOrder": 8,
+    "LAWK": false
+  },
+  "glycoplast": {
+    "MPCost": 40,
+    "InitialComposition": {
+      "ammonia": 2,
+      "phosphates": 2
+    },
+    "Hexes": [
+      {
+        "r": 0,
+        "q": 0
+      },
+      {
+        "r": -1,
+        "q": 0
+      },
+      {
+        "r": -1,
+        "q": 1
+      }
+    ],
+    "Processes": {
+      "glycogenesis": 1,
+      "glycogenolysis": 1
+    },
+    "Components": {
+      "Storage": {
+        "Capacity": 1.5
+      }
+    },
+    "Density": 1200,
+    "Graphics": {
+      "ScenePath": "res://assets/models/organelles/Glycoplast.tscn"
+    },
+    "Name": "GLYCOPLAST",
+    "Description": "GLYCOPLAST_DESCRIPTION",
+    "ProcessesDescription": "GLYCOPLAST_PROCESSES_DESCRIPTION",
+    "IconPath": "res://assets/textures/gui/bevel/parts/ChloroplastIcon.png",
+    "UnlockConditions": [
+      {
+        "ReproduceWithOrganelle": {
+          "Organelle": "glycogenSynthase",
+          "Generations": 6,
+          "InARow": true,
+          "MinimumCount": 4
+        }
+      }
+    ],
+    "RequiresNucleus": true,
+    "EditorButtonGroup": "Organelle",
+    "EditorButtonOrder": 20
+  },
+  "starchSynthase": {
+    "MPCost": 50,
+    "InitialComposition": {
+      "ammonia": 1,
+      "phosphates": 1
+    },
+    "Hexes": [
+      {
+        "r": 0,
+        "q": 0
+      }
+    ],
+    "Processes": {
+      "starch_synthesis": 1
+    },
+    "Components": {
+      "Storage": {
+        "Capacity": 0.5
+      }
+    },
+    "Density": 1200,
+    "Graphics": {
+      "ScenePath": "res://assets/models/organelles/StarchSynthase.tscn"
+    },
+    "Name": "STARCH_SYNTHASE",
+    "Description": "STARCH_SYNTHASE_DESCRIPTION",
+    "ProcessesDescription": "STARCH_SYNTHASE_PROCESSES_DESCRIPTION",
+    "ProductionColour": "#6a5cc6",
+    "ConsumptionColour": "#ad5161",
+    "IconPath": "res://assets/textures/gui/bevel/parts/HydrogenaseIcon.svg",
+    "EditorButtonGroup": "Protein",
+    "EditorButtonOrder": 8,
+    "LAWK": false,
+    "EndosymbiosisUnlocks": "amyloplast"
+  },
+  "amylase": {
+    "MPCost": 50,
+    "InitialComposition": {
+      "ammonia": 1,
+      "phosphates": 1
+    },
+    "Hexes": [
+      {
+        "r": 0,
+        "q": 0
+      }
+    ],
+    "Processes": {
+      "starch_digestion": 1
+    },
+    "Components": {
+      "Storage": {
+        "Capacity": 0.5
+      }
+    },
+    "Density": 1200,
+    "Graphics": {
+      "ScenePath": "res://assets/models/organelles/Amylase.tscn"
+    },
+    "Name": "AMYLASE",
+    "Description": "AMYLASE_DESCRIPTION",
+    "ProcessesDescription": "AMYLASE_PROCESSES_DESCRIPTION",
+    "ProductionColour": "#6a5cc6",
+    "ConsumptionColour": "#ad5161",
+    "IconPath": "res://assets/textures/gui/bevel/parts/MetabolosomeIcon.png",
+    "EditorButtonGroup": "Protein",
+    "EditorButtonOrder": 8,
+    "LAWK": false
+  },
+  "amyloplast": {
+    "MPCost": 40,
+    "InitialComposition": {
+      "ammonia": 2,
+      "phosphates": 2
+    },
+    "Hexes": [
+      {
+        "r": 0,
+        "q": 0
+      },
+      {
+        "r": -1,
+        "q": 0
+      },
+      {
+        "r": -1,
+        "q": 1
+      }
+    ],
+    "Processes": {
+      "starch_synthesis": 1,
+      "starch_digestion": 1
+    },
+    "Components": {
+      "Storage": {
+        "Capacity": 1.5
+      }
+    },
+    "Density": 1200,
+    "Graphics": {
+      "ScenePath": "res://assets/models/organelles/Amyloplast.tscn"
+    },
+    "Name": "AMYLOPLAST",
+    "Description": "AMYLOPLAST_DESCRIPTION",
+    "ProcessesDescription": "AMYLOPLAST_PROCESSES_DESCRIPTION",
+    "IconPath": "res://assets/textures/gui/bevel/parts/ChloroplastIcon.png",
+    "UnlockConditions": [
+      {
+        "ReproduceWithOrganelle": {
+          "Organelle": "starchSynthase",
+          "Generations": 6,
+          "InARow": true,
+          "MinimumCount": 4
+        }
+      }
+    ],
+    "RequiresNucleus": true,
+    "EditorButtonGroup": "Organelle",
+    "EditorButtonOrder": 20
+  },
   "cytoplasm": {
     "MPCost": 22,
     "InitialComposition": {
@@ -1647,7 +1887,9 @@
       }
     ],
     "Processes": {
-      "glycolysis_cytoplasm": 1
+      "glycolysis_cytoplasm": 1,
+      "cytoplasm_virus_reaction": 1,
+      "cytoplasm_radionuclides_reaction": 1
     },
     "Components": {
       "Storage": {

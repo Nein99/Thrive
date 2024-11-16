@@ -197,9 +197,9 @@
     "CanBeDistributed": true,
     "Digestible": true,
     "Colour": {
-      "r": 0.863,
-      "g": 0.290,
-      "b": 0.376
+      "r": 1.0,
+      "g": 0,
+      "b": 0
     },
     "BarColour": {
       "r": 0.863,
@@ -304,11 +304,11 @@
       "b": 0.0
     },
     "BarColour": {
-      "r": 0.925,
-      "g": 1.0,
-      "b": 0.380
+      "r": 1.0,
+      "g": 0.835,
+      "b": 0
     },
-    "IconPath": "res://assets/textures/gui/bevel/Radionuclides.png"
+    "IconPath": "res://assets/textures/gui/bevel/Radionuclides2.png"
   },
   "oxygen": {
     "Name": "OXYGEN",

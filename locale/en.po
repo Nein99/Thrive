@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-11-10 17:32-0600\n"
-"PO-Revision-Date: 2024-11-11 13:21-0600\n"
+"POT-Creation-Date: 2024-11-16 11:01-0600\n"
+"PO-Revision-Date: 2024-11-16 11:05-0600\n"
 "Last-Translator: Henri Hyyryläinen <hhyyrylainen@revolutionarygamesstudio.com>\n"
 "Language-Team: English <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/en/>\n"
 "Language: en\n"
@@ -214,6 +214,24 @@ msgstr "Amount of autosaves to keep:"
 
 msgid "AMOUNT_OF_QUICKSAVE_TO_KEEP"
 msgstr "Amount of quicksaves to keep:"
+
+msgid "AMYLASE"
+msgstr "Amylase"
+
+msgid "AMYLASE_DESCRIPTION"
+msgstr "Amylase is a protein in the cytoplasm that is able to use [thrive:compound type=\"atp\"][/thrive:compound] to digest [thrive:compound type=\"starch\"][/thrive:compound] into [thrive:compound type=\"glucose\"][/thrive:compound] in a process called [b]starch digestion[/b]. Storage using [thrive:compound type=\"glycogen\"][/thrive:compound] is faster but less energy-efficient than storage using [thrive:compound type=\"starch\"][/thrive:compound]. In real life, animals store [thrive:compound type=\"glucose\"][/thrive:compound] as [thrive:compound type=\"glycogen\"][/thrive:compound], and plants store it as [thrive:compound type=\"starch\"][/thrive:compound]. Since the amylasem  is suspended directly in the cytoplasm, the surrounding fluid performs some [b]glycolysis[/b]."
+
+msgid "AMYLASE_PROCESSES_DESCRIPTION"
+msgstr "Uses [thrive:compound type=\"atp\"][/thrive:compound] to digest [thrive:compound type=\"starch\"][/thrive:compound] into [thrive:compound type=\"glucose\"][/thrive:compound]."
+
+msgid "AMYLOPLAST"
+msgstr "Amyloplast"
+
+msgid "AMYLOPLAST_DESCRIPTION"
+msgstr "The amyloplast is a double membrane structure which produces, stores and can break down starch. It is able to use [thrive:compound type=\"atp\"][/thrive:compound] to polymerize [thrive:compound type=\"glucose\"][/thrive:compound] into [thrive:compound type=\"starch\"][/thrive:compound] for storage in a process called [b]starch synthesis[/b]. It is also able to use [thrive:compound type=\"atp\"][/thrive:compound] to digest [thrive:compound type=\"starch\"][/thrive:compound] into [thrive:compound type=\"glucose\"][/thrive:compound] in a process called [b]starch digestion[/b]. *These processes can be turned on and off in the [b]process panel[/b].*"
+
+msgid "AMYLOPLAST_PROCESSES_DESCRIPTION"
+msgstr "Uses [thrive:compound type=\"atp\"][/thrive:compound] to polymerize [thrive:compound type=\"glucose\"][/thrive:compound] into [thrive:compound type=\"starch\"][/thrive:compound]. Uses [thrive:compound type=\"atp][/thrive:compound] to digest [thrive:compound type=\"starch\"][/thrive:compound] into [thrive:compound type=\"glucose\"][/thrive:compound]."
 
 msgid "ANAEROBIC_NITROGEN_FIXATION"
 msgstr "Anaerobic Nitrogen Fixation"
@@ -661,16 +679,16 @@ msgid "CAROTENOID_CHLOROPLAST"
 msgstr "Carotenoid Chloroplast"
 
 msgid "CAS9"
-msgstr "Cas9"
+msgstr "CRISPR-Cas"
 
 msgid "CAS9_DESCRIPTION"
-msgstr "Cas9 is an immunological protein in the cytoplasm that is able to convert [thrive:compound type=\"virus\"] into [thrive:compound type=\"phosphates][/thrive:compound] in a process called [b]CRISPR interference[/b]. Since the cas9 is suspended directly in the cytoplasm, the surrounding fluid performs some [b]glycolysis[/b]."
+msgstr "CRISPR-Cas is an immunological protein in the cytoplasm that is able to convert [thrive:compound type=\"virus\"] into [thrive:compound type=\"phosphates][/thrive:compound] in a process called [b]CRISPR-Cas immune defense[/b]. Since the CRISPR-Cas is suspended directly in the cytoplasm, the surrounding fluid performs some [b]glycolysis[/b]."
 
 msgid "CAS9_PROCESSES_DESCRIPTION"
 msgstr "Turns [thrive:compound type=\"virus\"] into [thrive:compound type=\"phosphates\"][/thrive:compound]. Also turns [thrive:compound type=\"glucose\"][/thrive:compound] into [thrive:compound type=\"atp\"][/thrive:compound]."
 
 msgid "CAS9_REACTION"
-msgstr "CRISPR interference"
+msgstr "CRISPR-Cas immune defense"
 
 msgid "CATEGORY_AN_ABUNDANCE"
 msgstr "an abundance"
@@ -1391,6 +1409,12 @@ msgstr "Cytoplasm Glycolysis"
 
 msgid "CYTOPLASM_PROCESSES_DESCRIPTION"
 msgstr "Turns [thrive:compound type=\"glucose\"][/thrive:compound] into [thrive:compound type=\"atp\"][/thrive:compound]."
+
+msgid "CYTOPLASM_RADIONUCLIDES_REACTION"
+msgstr "Radionuclide decay"
+
+msgid "CYTOPLASM_VIRUS_REACTION"
+msgstr "CRISPR-Cas immune defense"
 
 msgid "CYTOTOXIN_SYNTHESIS"
 msgstr "Cytotoxin Synthesis"
@@ -2301,8 +2325,41 @@ msgstr "Glucose concentrations have drastically dropped!"
 msgid "GLYCOGEN"
 msgstr "Glycogen"
 
+msgid "GLYCOGENESIS"
+msgstr "Glycogenesis"
+
+msgid "GLYCOGENOLYSIS"
+msgstr "Glycogenolysis"
+
+msgid "GLYCOGEN_PHOSPHORYLASE"
+msgstr "Glycogen Phosphorylase"
+
+msgid "GLYCOGEN_PHOSPHORYLASE_DESCRIPTION"
+msgstr "Glycogen phosphorylase is a protein in the cytoplasm that is able to use [thrive:compound type=\"atp\"][/thrive:compound] to digest [thrive:compound type=\"glycogen\"][/thrive:compound] into [thrive:compound type=\"glucose\"][/thrive:compound] in a process called [b]glycogenolysis[/b]. Storage using [thrive:compound type=\"glycogen\"][/thrive:compound] is faster but less energy-efficient than storage using [thrive:compound type=\"starch\"][/thrive:compound]. In real life, animals store [thrive:compound type=\"glucose\"][/thrive:compound] as [thrive:compound type=\"glycogen\"][/thrive:compound], and plants store it as [thrive:compound type=\"starch\"][/thrive:compound]. Since the glycogen phosphorylase is suspended directly in the cytoplasm, the surrounding fluid performs some [b]glycolysis[/b]."
+
+msgid "GLYCOGEN_PHOSPHORYLASE_PROCESSES_DESCRIPTION"
+msgstr "Uses [thrive:compound type=\"atp\"][/thrive:compound] to digest [thrive:compound type=\"glycogen\"][/thrive:compound] into [thrive:compound type=\"glucose\"][/thrive:compound]."
+
+msgid "GLYCOGEN_SYNTHASE"
+msgstr "Glycogen Synthase"
+
+msgid "GLYCOGEN_SYNTHASE_DESCRIPTION"
+msgstr "Glycogen synthase is a protein in the cytoplasm that is able to use [thrive:compound type=\"atp\"][/thrive:compound] to polymerize [thrive:compound type=\"glucose\"][/thrive:compound] into [thrive:compound type=\"glycogen\"][/thrive:compound] for storage in a process called [b]glycogenesis[/b]. Storage using [thrive:compound type=\"glycogen\"][/thrive:compound] is faster but less energy-efficient than storage using [thrive:compound type=\"starch\"][/thrive:compound]. In real life, animals store [thrive:compound type=\"glucose\"][/thrive:compound] as [thrive:compound type=\"glycogen\"][/thrive:compound], and plants store it as [thrive:compound type=\"starch\"][/thrive:compound]. Since the glycogen synthase is suspended directly in the cytoplasm, the surrounding fluid performs some [b]glycolysis[/b]."
+
+msgid "GLYCOGEN_SYNTHASE_PROCESSES_DESCRIPTION"
+msgstr "Uses [thrive:compound type=\"atp\"][/thrive:compound] to polymerize [thrive:compound type=\"glucose\"][/thrive:compound] into [thrive:compound type=\"glycogen\"][/thrive:compound]."
+
 msgid "GLYCOLYSIS"
 msgstr "Glycolysis"
+
+msgid "GLYCOPLAST"
+msgstr "Glycoplast"
+
+msgid "GLYCOPLAST_DESCRIPTION"
+msgstr "The glycoplast is a double membrane structure which produces, stores and can break down glycogen. It is able to use [thrive:compound type=\"atp\"][/thrive:compound] to polymerize [thrive:compound type=\"glucose\"][/thrive:compound] into [thrive:compound type=\"glycogen\"][/thrive:compound] for storage in a process called [b]glycogenesis[/b]. It is also able to use [thrive:compound type=\"atp\"][/thrive:compound] to digest [thrive:compound type=\"glycogen\"][/thrive:compound] into [thrive:compound type=\"glucose\"][/thrive:compound] in a process called [b]glycogenolysis[/b]. *These processes can be turned on and off in the [b]process panel[/b].*"
+
+msgid "GLYCOPLAST_PROCESSES_DESCRIPTION"
+msgstr "Uses [thrive:compound type=\"atp\"][/thrive:compound] to polymerize [thrive:compound type=\"glucose\"][/thrive:compound] into [thrive:compound type=\"glycogen\"][/thrive:compound]. Uses [thrive:compound type=\"atp][/thrive:compound] to digest [thrive:compound type=\"glycogen\"][/thrive:compound] into [thrive:compound type=\"glucose\"][/thrive:compound]."
 
 msgid "GODMODE"
 msgstr "Godmode"
@@ -2475,6 +2532,9 @@ msgstr "Indicates that this species has mutated during this auto-evo cycle"
 
 msgid "INDUSTRIAL_STAGE"
 msgstr "Industrial Stage"
+
+msgid "INFECTED_MARINE_SNOW"
+msgstr "Infected Cell Matter"
 
 msgid "INFINITE_COMPOUNDS"
 msgstr "Infinite Compounds"
@@ -4082,6 +4142,12 @@ msgstr "Nothing to interact with"
 msgid "NOTICE_DAMAGED_BY_NO_ATP"
 msgstr "Damaged due to not having any ATP"
 
+msgid "NOTICE_DAMAGED_BY_RADIATION"
+msgstr "Damaged by ionizing radiation due to radionuclides"
+
+msgid "NOTICE_DAMAGED_BY_VIRUS"
+msgstr "Damaged due to viral infection"
+
 msgid "NOTICE_ENGULF_DAMAGE_FROM_TOXIN"
 msgstr "Damaged by toxins in ingested matter"
 
@@ -5325,6 +5391,21 @@ msgstr "Pause menu"
 
 msgid "STARCH"
 msgstr "Starch"
+
+msgid "STARCH_DIGESTION"
+msgstr "Starch digestion"
+
+msgid "STARCH_SYNTHASE"
+msgstr "Starch Synthase"
+
+msgid "STARCH_SYNTHASE_DESCRIPTION"
+msgstr "Starch synthase is a protein in the cytoplasm that is able to use [thrive:compound type=\"atp\"][/thrive:compound] to polymerize [thrive:compound type=\"glucose\"][/thrive:compound] into [thrive:compound type=\"starch\"][/thrive:compound] for storage in a process called [b]starch synthesis[/b]. Storage using [thrive:compound type=\"glycogen\"][/thrive:compound] is faster but less energy-efficient than storage using [thrive:compound type=\"starch\"][/thrive:compound]. In real life, animals store [thrive:compound type=\"glucose\"][/thrive:compound] as [thrive:compound type=\"glycogen\"][/thrive:compound], and plants store it as [thrive:compound type=\"starch\"][/thrive:compound]. Since the starch synthase is suspended directly in the cytoplasm, the surrounding fluid performs some [b]glycolysis[/b]."
+
+msgid "STARCH_SYNTHASE_PROCESSES_DESCRIPTION"
+msgstr "Uses [thrive:compound type=\"atp\"][/thrive:compound] to polymerize [thrive:compound type=\"glucose\"][/thrive:compound] into [thrive:compound type=\"starch\"][/thrive:compound]."
+
+msgid "STARCH_SYNTHESIS"
+msgstr "Starch synthesis"
 
 msgid "START"
 msgstr "Start"
@@ -8440,9 +8521,6 @@ msgstr "Zoom in"
 
 msgid "ZOOM_OUT"
 msgstr "Zoom out"
-
-#~ msgid "NOTICE_DAMAGED_BY_RADIATION"
-#~ msgstr "Damaged by ionizing radiation due to radionuclides"
 
 #~ msgid "THE_AMOUNT_OF_GLUCOSE_HAS_BEEN_REDUCED"
 #~ msgstr "The amount of glucose has been reduced to {0} of the previous amount."

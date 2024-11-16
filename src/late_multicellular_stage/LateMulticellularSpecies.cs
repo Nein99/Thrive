@@ -114,6 +114,8 @@ public class LateMulticellularSpecies : Species
         else
         {
             SetInitialCompoundsForDefault();
+            SetInitialCompoundsForRadionuclides();
+            SetInitialCompoundsForVirus();
         }
     }
 
@@ -246,6 +248,18 @@ public class LateMulticellularSpecies : Species
     {
         SetInitialCompoundsForDefault();
         InitialCompounds.Add(Compound.Hydrogensulfide, 90);
+    }
+
+    private void SetInitialCompoundsForRadionuclides()
+    {
+        SetInitialCompoundsForDefault();
+        InitialCompounds.Add(Compound.Hydrogensulfide, 0);
+    }
+
+    private void SetInitialCompoundsForVirus()
+    {
+        SetInitialCompoundsForDefault();
+        InitialCompounds.Add(Compound.Hydrogensulfide, 0);
     }
 
     private void CalculateBrainPower()
