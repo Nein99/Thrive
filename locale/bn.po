@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Thrive VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-11-10 17:32-0600\n"
+"POT-Creation-Date: 2024-11-16 11:01-0600\n"
 "PO-Revision-Date: 2023-09-10 12:18+0000\n"
 "Last-Translator: Mahbeer Alam Sarker <mahbeeralamsarker@gmail.com>\n"
 "Language-Team: Bengali <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/bn/>\n"
@@ -213,6 +213,28 @@ msgstr ""
 
 msgid "AMOUNT_OF_QUICKSAVE_TO_KEEP"
 msgstr ""
+
+msgid "AMYLASE"
+msgstr ""
+
+#, fuzzy
+msgid "AMYLASE_DESCRIPTION"
+msgstr "সবাত নাইট্রোজেন ফিক্সেশন"
+
+#, fuzzy
+msgid "AMYLASE_PROCESSES_DESCRIPTION"
+msgstr "সবাত নাইট্রোজেন ফিক্সেশন"
+
+msgid "AMYLOPLAST"
+msgstr ""
+
+#, fuzzy
+msgid "AMYLOPLAST_DESCRIPTION"
+msgstr "সবাত নাইট্রোজেন ফিক্সেশন"
+
+#, fuzzy
+msgid "AMYLOPLAST_PROCESSES_DESCRIPTION"
+msgstr "সবাত নাইট্রোজেন ফিক্সেশন"
 
 msgid "ANAEROBIC_NITROGEN_FIXATION"
 msgstr ""
@@ -1345,6 +1367,12 @@ msgstr ""
 msgid "CYTOPLASM_PROCESSES_DESCRIPTION"
 msgstr ""
 
+msgid "CYTOPLASM_RADIONUCLIDES_REACTION"
+msgstr ""
+
+msgid "CYTOPLASM_VIRUS_REACTION"
+msgstr ""
+
 #, fuzzy
 msgid "CYTOTOXIN_SYNTHESIS"
 msgstr "সবাত নাইট্রোজেন ফিক্সেশন"
@@ -2219,8 +2247,49 @@ msgstr ""
 msgid "GLYCOGEN"
 msgstr ""
 
+#, fuzzy
+msgid "GLYCOGENESIS"
+msgstr "সবাত নাইট্রোজেন ফিক্সেশন"
+
+#, fuzzy
+msgid "GLYCOGENOLYSIS"
+msgstr "সবাত নাইট্রোজেন ফিক্সেশন"
+
+msgid "GLYCOGEN_PHOSPHORYLASE"
+msgstr ""
+
+#, fuzzy
+msgid "GLYCOGEN_PHOSPHORYLASE_DESCRIPTION"
+msgstr "সবাত নাইট্রোজেন ফিক্সেশন"
+
+#, fuzzy
+msgid "GLYCOGEN_PHOSPHORYLASE_PROCESSES_DESCRIPTION"
+msgstr "সবাত নাইট্রোজেন ফিক্সেশন"
+
+msgid "GLYCOGEN_SYNTHASE"
+msgstr ""
+
+#, fuzzy
+msgid "GLYCOGEN_SYNTHASE_DESCRIPTION"
+msgstr "সবাত নাইট্রোজেন ফিক্সেশন"
+
+#, fuzzy
+msgid "GLYCOGEN_SYNTHASE_PROCESSES_DESCRIPTION"
+msgstr "সবাত নাইট্রোজেন ফিক্সেশন"
+
 msgid "GLYCOLYSIS"
 msgstr ""
+
+msgid "GLYCOPLAST"
+msgstr ""
+
+#, fuzzy
+msgid "GLYCOPLAST_DESCRIPTION"
+msgstr "সবাত নাইট্রোজেন ফিক্সেশন"
+
+#, fuzzy
+msgid "GLYCOPLAST_PROCESSES_DESCRIPTION"
+msgstr "সবাত নাইট্রোজেন ফিক্সেশন"
 
 msgid "GODMODE"
 msgstr ""
@@ -2394,6 +2463,9 @@ msgid "INDICATOR_SPECIES_MUTATED"
 msgstr "প্রজাতিকে মিউটেশন করা নিষিদ্ধ করুন (যদি কোন ভাল মিউটেশন পাওয়া না যায়)"
 
 msgid "INDUSTRIAL_STAGE"
+msgstr ""
+
+msgid "INFECTED_MARINE_SNOW"
 msgstr ""
 
 msgid "INFINITE_COMPOUNDS"
@@ -3842,6 +3914,12 @@ msgstr ""
 msgid "NOTICE_DAMAGED_BY_NO_ATP"
 msgstr ""
 
+msgid "NOTICE_DAMAGED_BY_RADIATION"
+msgstr ""
+
+msgid "NOTICE_DAMAGED_BY_VIRUS"
+msgstr ""
+
 msgid "NOTICE_ENGULF_DAMAGE_FROM_TOXIN"
 msgstr ""
 
@@ -5058,6 +5136,24 @@ msgstr ""
 
 msgid "STARCH"
 msgstr ""
+
+msgid "STARCH_DIGESTION"
+msgstr ""
+
+msgid "STARCH_SYNTHASE"
+msgstr ""
+
+#, fuzzy
+msgid "STARCH_SYNTHASE_DESCRIPTION"
+msgstr "সবাত নাইট্রোজেন ফিক্সেশন"
+
+#, fuzzy
+msgid "STARCH_SYNTHASE_PROCESSES_DESCRIPTION"
+msgstr "সবাত নাইট্রোজেন ফিক্সেশন"
+
+#, fuzzy
+msgid "STARCH_SYNTHESIS"
+msgstr "সবাত নাইট্রোজেন ফিক্সেশন"
 
 msgid "START"
 msgstr ""

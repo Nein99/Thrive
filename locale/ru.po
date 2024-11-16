@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-11-10 17:32-0600\n"
+"POT-Creation-Date: 2024-11-16 11:01-0600\n"
 "PO-Revision-Date: 2024-10-21 16:34+0000\n"
 "Last-Translator: Sentry Primis <sentryprime92@gmail.com>\n"
 "Language-Team: Russian <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/ru/>\n"
@@ -224,6 +224,29 @@ msgstr "Количество записей автосохранения:"
 
 msgid "AMOUNT_OF_QUICKSAVE_TO_KEEP"
 msgstr "Количество записей быстрого сохранения:"
+
+msgid "AMYLASE"
+msgstr ""
+
+#, fuzzy
+msgid "AMYLASE_DESCRIPTION"
+msgstr "Липаза позволяет клетке разрушать большинство типов мембран. Ваша клетка уже производит некоторые ферменты без лизосомы, но выбрав этот тип вы повысите эффективность."
+
+#, fuzzy
+msgid "AMYLASE_PROCESSES_DESCRIPTION"
+msgstr "Повышает скорость поворота клеток."
+
+#, fuzzy
+msgid "AMYLOPLAST"
+msgstr "Хемопласт"
+
+#, fuzzy
+msgid "AMYLOPLAST_DESCRIPTION"
+msgstr "Хемопласт — двумембранная структура, содержащая белки, способные превращать [thrive:compound type=\"hydrogensulfide\"][/thrive:compound], воду и [thrive:compound type=\"carbondioxide\"][/thrive:compound] в [thrive:compound type=\"glucose\"][/thrive:compound] в процессе [b]сероводородного хемосинтеза[/b]. Скорость производства [thrive:compound type=\"glucose\"][/thrive:compound] зависит от концентрации [thrive:compound type=\"carbondioxide\"][/thrive:compound]."
+
+#, fuzzy
+msgid "AMYLOPLAST_PROCESSES_DESCRIPTION"
+msgstr "Превращает [thrive:compound type=\"hydrogensulfide\"][/thrive:compound] в [thrive:compound type=\"glucose\"][/thrive:compound]. Скорость увеличивается при повышении концентрации [thrive:compound type=\"carbondioxide\"][/thrive:compound]."
 
 msgid "ANAEROBIC_NITROGEN_FIXATION"
 msgstr "Анаэробная азотфиксация"
@@ -1429,6 +1452,14 @@ msgstr "Цитоплазматический гликолиз"
 msgid "CYTOPLASM_PROCESSES_DESCRIPTION"
 msgstr "Превращает [thrive:compound type=\"=glucose\"][/thrive:compound] в [thrive:compound type=\"atp\"][/thrive:compound]."
 
+#, fuzzy
+msgid "CYTOPLASM_RADIONUCLIDES_REACTION"
+msgstr "Превращает [thrive:compound type=\"=glucose\"][/thrive:compound] в [thrive:compound type=\"atp\"][/thrive:compound]."
+
+#, fuzzy
+msgid "CYTOPLASM_VIRUS_REACTION"
+msgstr "Липкие внутренности клетки. Цитоплазма - это полужидкое содержимое клетки из смеси ионов, белков и других веществ, которые заполняют внутреннюю часть клетки. Одна из функций, которую она (цитоплазма) выполняет, это [b]гликолиз[/b], преобразование [thrive:compound type=\"glucose\"][/thrive:compound] в [thrive:compound type=\"atp\"][/thrive:compound]. У клеток, в которых отсутствуют органеллы для более продвинутого метаболизма, цитоплазма является основным источником энергии. Она также используется для хранения молекул в клетке и увеличения размера клетки."
+
 msgid "CYTOTOXIN_SYNTHESIS"
 msgstr "Синтез Цитотоксина"
 
@@ -2341,8 +2372,51 @@ msgstr "Концентрация глюкозы резко упала!"
 msgid "GLYCOGEN"
 msgstr "Гидрогеназа"
 
+#, fuzzy
+msgid "GLYCOGENESIS"
+msgstr "Гидрогеназа"
+
+#, fuzzy
+msgid "GLYCOGENOLYSIS"
+msgstr "Гликолиз"
+
+msgid "GLYCOGEN_PHOSPHORYLASE"
+msgstr ""
+
+#, fuzzy
+msgid "GLYCOGEN_PHOSPHORYLASE_DESCRIPTION"
+msgstr "Использует водород для получения энергии из [thrive:compound type=\\\"glucose\\\"][/thrive:compound]. Более эффективен при низком содержании [thrive:compound type=\\\"oxygen\\\"][/thrive:compound] , в отличии от метаболосом.Большое количество организмов, живущих в гипоксических средах используют гидрогеносомы в качестве основного источника энергии."
+
+#, fuzzy
+msgid "GLYCOGEN_PHOSPHORYLASE_PROCESSES_DESCRIPTION"
+msgstr "Преобразовывает [thrive:compound type=\\\"glucose\\\"][/thrive:compound] в [thrive:compound type=\\\"atp\\\"][/thrive:compound]."
+
+#, fuzzy
+msgid "GLYCOGEN_SYNTHASE"
+msgstr "Гидрогеназа"
+
+#, fuzzy
+msgid "GLYCOGEN_SYNTHASE_DESCRIPTION"
+msgstr "Использует водород для получения энергии из [thrive:compound type=\\\"glucose\\\"][/thrive:compound]. Более эффективен при низком содержании [thrive:compound type=\\\"oxygen\\\"][/thrive:compound] , в отличии от метаболосом.Большое количество организмов, живущих в гипоксических средах используют гидрогеносомы в качестве основного источника энергии."
+
+#, fuzzy
+msgid "GLYCOGEN_SYNTHASE_PROCESSES_DESCRIPTION"
+msgstr "Преобразовывает [thrive:compound type=\\\"glucose\\\"][/thrive:compound] в [thrive:compound type=\\\"atp\\\"][/thrive:compound]."
+
 msgid "GLYCOLYSIS"
 msgstr "Гликолиз"
+
+#, fuzzy
+msgid "GLYCOPLAST"
+msgstr "Хемопласт"
+
+#, fuzzy
+msgid "GLYCOPLAST_DESCRIPTION"
+msgstr "Хемопласт — двумембранная структура, содержащая белки, способные превращать [thrive:compound type=\"hydrogensulfide\"][/thrive:compound], воду и [thrive:compound type=\"carbondioxide\"][/thrive:compound] в [thrive:compound type=\"glucose\"][/thrive:compound] в процессе [b]сероводородного хемосинтеза[/b]. Скорость производства [thrive:compound type=\"glucose\"][/thrive:compound] зависит от концентрации [thrive:compound type=\"carbondioxide\"][/thrive:compound]."
+
+#, fuzzy
+msgid "GLYCOPLAST_PROCESSES_DESCRIPTION"
+msgstr "Превращает [thrive:compound type=\"hydrogensulfide\"][/thrive:compound] в [thrive:compound type=\"glucose\"][/thrive:compound]. Скорость увеличивается при повышении концентрации [thrive:compound type=\"carbondioxide\"][/thrive:compound]."
 
 msgid "GODMODE"
 msgstr "Режим Бога"
@@ -2524,6 +2598,10 @@ msgstr "Показывает, что данный вид мутировал во
 
 msgid "INDUSTRIAL_STAGE"
 msgstr "Индустриальная стадия"
+
+#, fuzzy
+msgid "INFECTED_MARINE_SNOW"
+msgstr "Морской снег"
 
 msgid "INFINITE_COMPOUNDS"
 msgstr "Бесконечные Соединения"
@@ -4153,6 +4231,14 @@ msgstr "Не с чем взаимодействовать"
 msgid "NOTICE_DAMAGED_BY_NO_ATP"
 msgstr "Вы теряете здоровье из-за отсутствия АТФ"
 
+#, fuzzy
+msgid "NOTICE_DAMAGED_BY_RADIATION"
+msgstr "Вы теряете здоровье из-за отсутствия АТФ"
+
+#, fuzzy
+msgid "NOTICE_DAMAGED_BY_VIRUS"
+msgstr "Вы теряете здоровье из-за отсутствия АТФ"
+
 msgid "NOTICE_ENGULF_DAMAGE_FROM_TOXIN"
 msgstr "Вы теряете здоровье из-за токсинов в поглощенном организме"
 
@@ -5409,6 +5495,26 @@ msgstr "Меню паузы"
 #, fuzzy
 msgid "STARCH"
 msgstr "Март"
+
+#, fuzzy
+msgid "STARCH_DIGESTION"
+msgstr "Радиус Поиска:"
+
+#, fuzzy
+msgid "STARCH_SYNTHASE"
+msgstr "Термосинтез"
+
+#, fuzzy
+msgid "STARCH_SYNTHASE_DESCRIPTION"
+msgstr "Термосинтаза — это белок, использующий конвекцию для изменения своей формы, что позволяет ему складываться и захватывать АДФ при нагревании, а затем раскладываться и перерабатывать АДФ в [thrive:compound type=\"atp\"][/thrive:compound] при более низких температурах в процессе, называемом [b]\"термосинтез\"[/b]. Скорость производства [thrive:compound type=\"atp\"][/thrive:compound] изменяется с [thrive:compound type=\"temperature\"][/thrive:compound]."
+
+#, fuzzy
+msgid "STARCH_SYNTHASE_PROCESSES_DESCRIPTION"
+msgstr "Производит [thrive:compound type=\"atp\"][/thrive:compound] используя температурные градиенты. Скорость зависит от [thrive:compound type=\"temperature\"]."
+
+#, fuzzy
+msgid "STARCH_SYNTHESIS"
+msgstr "Хемосинтез"
 
 msgid "START"
 msgstr "Начать"
@@ -8157,10 +8263,6 @@ msgstr "Увеличить масштаб"
 
 msgid "ZOOM_OUT"
 msgstr "Уменьшить масштаб"
-
-#, fuzzy
-#~ msgid "NOTICE_DAMAGED_BY_RADIATION"
-#~ msgstr "Вы теряете здоровье из-за отсутствия АТФ"
 
 #~ msgid "THE_AMOUNT_OF_GLUCOSE_HAS_BEEN_REDUCED"
 #~ msgstr "Количество глюкозы было уменьшено до {0} по сравнению с предыдущим количеством."

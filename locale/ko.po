@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-11-10 17:32-0600\n"
+"POT-Creation-Date: 2024-11-16 11:01-0600\n"
 "PO-Revision-Date: 2024-10-17 07:24+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Korean <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/ko/>\n"
@@ -231,6 +231,29 @@ msgstr "저장할 수 있는 자동저장 갯수:"
 
 msgid "AMOUNT_OF_QUICKSAVE_TO_KEEP"
 msgstr "저장할 수 있는 빠른저장 갯수:"
+
+msgid "AMYLASE"
+msgstr ""
+
+#, fuzzy
+msgid "AMYLASE_DESCRIPTION"
+msgstr "끈적끈적한 세포 내부. 세포질은 이온, 단백질 및 세포 내부를 채우는 물에 용해된 기타 물질의 기본 혼합물입니다. 이것의 기능 중 하나는 발효를 통해 포도당을 ATP 에너지로 전환시키는 것 입니다. 세포 소 기관이 부족하고 세포가 더 발전된 신진 대사를 하는 경우, 에너지에 더욱 의존하게 됩니다. 또한 분자를 세포에 저장하고 세포의 크기를 성장시키는 데 사용됩니다."
+
+#, fuzzy
+msgid "AMYLASE_PROCESSES_DESCRIPTION"
+msgstr "끈적끈적한 세포 내부. 세포질은 이온, 단백질 및 세포 내부를 채우는 물에 용해된 기타 물질의 기본 혼합물입니다. 이것의 기능 중 하나는 발효를 통해 포도당을 ATP 에너지로 전환시키는 것 입니다. 세포 소 기관이 부족하고 세포가 더 발전된 신진 대사를 하는 경우, 에너지에 더욱 의존하게 됩니다. 또한 분자를 세포에 저장하고 세포의 크기를 성장시키는 데 사용됩니다."
+
+#, fuzzy
+msgid "AMYLOPLAST"
+msgstr "화학 기관"
+
+#, fuzzy
+msgid "AMYLOPLAST_DESCRIPTION"
+msgstr "화학 세포는 황화수소 화학 합성 이라는 과정을 통해 황화수소, 물 및 기체 이산화탄소를 포도당으로 전환 할 수 있는 단백질을 포함하는 이중 막 구조입니다. 포도당 생산 속도는 이산화탄소의 농도에 따라 달라집니다."
+
+#, fuzzy
+msgid "AMYLOPLAST_PROCESSES_DESCRIPTION"
+msgstr "화학 세포는 황화수소 화학 합성 이라는 과정을 통해 황화수소, 물 및 기체 이산화탄소를 포도당으로 전환 할 수 있는 단백질을 포함하는 이중 막 구조입니다. 포도당 생산 속도는 이산화탄소의 농도에 따라 달라집니다."
 
 msgid "ANAEROBIC_NITROGEN_FIXATION"
 msgstr "혐기성 질소 고정"
@@ -1492,6 +1515,14 @@ msgid "CYTOPLASM_PROCESSES_DESCRIPTION"
 msgstr "끈적끈적한 세포 내부. 세포질은 이온, 단백질 및 세포 내부를 채우는 물에 용해된 기타 물질의 기본 혼합물입니다. 이것의 기능 중 하나는 발효를 통해 포도당을 ATP 에너지로 전환시키는 것 입니다. 세포 소 기관이 부족하고 세포가 더 발전된 신진 대사를 하는 경우, 에너지에 더욱 의존하게 됩니다. 또한 분자를 세포에 저장하고 세포의 크기를 성장시키는 데 사용됩니다."
 
 #, fuzzy
+msgid "CYTOPLASM_RADIONUCLIDES_REACTION"
+msgstr "끈적끈적한 세포 내부. 세포질은 이온, 단백질 및 세포 내부를 채우는 물에 용해된 기타 물질의 기본 혼합물입니다. 이것의 기능 중 하나는 발효를 통해 포도당을 ATP 에너지로 전환시키는 것 입니다. 세포 소 기관이 부족하고 세포가 더 발전된 신진 대사를 하는 경우, 에너지에 더욱 의존하게 됩니다. 또한 분자를 세포에 저장하고 세포의 크기를 성장시키는 데 사용됩니다."
+
+#, fuzzy
+msgid "CYTOPLASM_VIRUS_REACTION"
+msgstr "끈적끈적한 세포 내부. 세포질은 이온, 단백질 및 세포 내부를 채우는 물에 용해된 기타 물질의 기본 혼합물입니다. 이것의 기능 중 하나는 발효를 통해 포도당을 ATP 에너지로 전환시키는 것 입니다. 세포 소 기관이 부족하고 세포가 더 발전된 신진 대사를 하는 경우, 에너지에 더욱 의존하게 됩니다. 또한 분자를 세포에 저장하고 세포의 크기를 성장시키는 데 사용됩니다."
+
+#, fuzzy
 msgid "CYTOTOXIN_SYNTHESIS"
 msgstr "산소 합성"
 
@@ -2481,8 +2512,51 @@ msgstr ""
 msgid "GLYCOGEN"
 msgstr "황화수소"
 
+#, fuzzy
+msgid "GLYCOGENESIS"
+msgstr "황화수소"
+
+#, fuzzy
+msgid "GLYCOGENOLYSIS"
+msgstr "포도당"
+
+msgid "GLYCOGEN_PHOSPHORYLASE"
+msgstr ""
+
+#, fuzzy
+msgid "GLYCOGEN_PHOSPHORYLASE_DESCRIPTION"
+msgstr "니트로게나아제는 ATP 형태의 기체 질소와 세포 에너지를 사용하여 세포의 핵심 성장 영양소 인 암모니아를 생성 할 수있는 단백질입니다. 이것은 혐기성 질소 고정이라고하는 과정입니다. 질소 분해 효소가 세포질에 의해 직접 둘러싸이면 주변 유체가 일부 발효를 수행합니다."
+
+#, fuzzy
+msgid "GLYCOGEN_PHOSPHORYLASE_PROCESSES_DESCRIPTION"
+msgstr "니트로게나아제는 ATP 형태의 기체 질소와 세포 에너지를 사용하여 세포의 핵심 성장 영양소 인 암모니아를 생성 할 수있는 단백질입니다. 이것은 혐기성 질소 고정이라고하는 과정입니다. 질소 분해 효소가 세포질에 의해 직접 둘러싸이면 주변 유체가 일부 발효를 수행합니다."
+
+#, fuzzy
+msgid "GLYCOGEN_SYNTHASE"
+msgstr "황화수소"
+
+#, fuzzy
+msgid "GLYCOGEN_SYNTHASE_DESCRIPTION"
+msgstr "니트로게나아제는 ATP 형태의 기체 질소와 세포 에너지를 사용하여 세포의 핵심 성장 영양소 인 암모니아를 생성 할 수있는 단백질입니다. 이것은 혐기성 질소 고정이라고하는 과정입니다. 질소 분해 효소가 세포질에 의해 직접 둘러싸이면 주변 유체가 일부 발효를 수행합니다."
+
+#, fuzzy
+msgid "GLYCOGEN_SYNTHASE_PROCESSES_DESCRIPTION"
+msgstr "니트로게나아제는 ATP 형태의 기체 질소와 세포 에너지를 사용하여 세포의 핵심 성장 영양소 인 암모니아를 생성 할 수있는 단백질입니다. 이것은 혐기성 질소 고정이라고하는 과정입니다. 질소 분해 효소가 세포질에 의해 직접 둘러싸이면 주변 유체가 일부 발효를 수행합니다."
+
 msgid "GLYCOLYSIS"
 msgstr "포도당"
+
+#, fuzzy
+msgid "GLYCOPLAST"
+msgstr "화학 기관"
+
+#, fuzzy
+msgid "GLYCOPLAST_DESCRIPTION"
+msgstr "화학 세포는 황화수소 화학 합성 이라는 과정을 통해 황화수소, 물 및 기체 이산화탄소를 포도당으로 전환 할 수 있는 단백질을 포함하는 이중 막 구조입니다. 포도당 생산 속도는 이산화탄소의 농도에 따라 달라집니다."
+
+#, fuzzy
+msgid "GLYCOPLAST_PROCESSES_DESCRIPTION"
+msgstr "화학 세포는 황화수소 화학 합성 이라는 과정을 통해 황화수소, 물 및 기체 이산화탄소를 포도당으로 전환 할 수 있는 단백질을 포함하는 이중 막 구조입니다. 포도당 생산 속도는 이산화탄소의 농도에 따라 달라집니다."
 
 msgid "GODMODE"
 msgstr ""
@@ -2677,6 +2751,10 @@ msgstr "종이 변이하지 않을 수 있도록 허용 (좋은 변이가 발견
 
 msgid "INDUSTRIAL_STAGE"
 msgstr ""
+
+#, fuzzy
+msgid "INFECTED_MARINE_SNOW"
+msgstr "바다눈"
 
 #, fuzzy
 msgid "INFINITE_COMPOUNDS"
@@ -4387,6 +4465,12 @@ msgstr ""
 msgid "NOTICE_DAMAGED_BY_NO_ATP"
 msgstr ""
 
+msgid "NOTICE_DAMAGED_BY_RADIATION"
+msgstr ""
+
+msgid "NOTICE_DAMAGED_BY_VIRUS"
+msgstr ""
+
 msgid "NOTICE_ENGULF_DAMAGE_FROM_TOXIN"
 msgstr ""
 
@@ -5776,6 +5860,26 @@ msgstr "새로운 키 배치 추가"
 #, fuzzy
 msgid "STARCH"
 msgstr "시작하는 중"
+
+#, fuzzy
+msgid "STARCH_DIGESTION"
+msgstr "취소 및 계속"
+
+#, fuzzy
+msgid "STARCH_SYNTHASE"
+msgstr "열합성 효소"
+
+#, fuzzy
+msgid "STARCH_SYNTHASE_DESCRIPTION"
+msgstr "열 세포는 감 열성 안료가 막질 주머니에 함께 쌓여있는 이중 막 구조입니다. 진핵 숙주가 사용하기 위해 동화 된 원핵 생물입니다. 열 세포의 안료는 열 합성 이라는 과정에서 물과 기체 이산화탄소에서 포도당을 생성하기 위해 주변의 열 차이 에너지를 사용할 수 있습니다. 포도당 생산 속도는 이산화탄소 농도와 온도에 따라 달라집니다."
+
+#, fuzzy
+msgid "STARCH_SYNTHASE_PROCESSES_DESCRIPTION"
+msgstr "열 세포는 감 열성 안료가 막질 주머니에 함께 쌓여있는 이중 막 구조입니다. 진핵 숙주가 사용하기 위해 동화 된 원핵 생물입니다. 열 세포의 안료는 열 합성 이라는 과정에서 물과 기체 이산화탄소에서 포도당을 생성하기 위해 주변의 열 차이 에너지를 사용할 수 있습니다. 포도당 생산 속도는 이산화탄소 농도와 온도에 따라 달라집니다."
+
+#, fuzzy
+msgid "STARCH_SYNTHESIS"
+msgstr "화학적 합성"
 
 #, fuzzy
 msgid "START"

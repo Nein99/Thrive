@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-11-10 17:32-0600\n"
+"POT-Creation-Date: 2024-11-16 11:01-0600\n"
 "PO-Revision-Date: 2024-10-17 07:24+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Catalan <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/ca/>\n"
@@ -232,6 +232,29 @@ msgstr "Màxim nombre d'arxius d'autoguardat:"
 
 msgid "AMOUNT_OF_QUICKSAVE_TO_KEEP"
 msgstr "Màxim nombre d'arxius de guardat ràpid:"
+
+msgid "AMYLASE"
+msgstr ""
+
+#, fuzzy
+msgid "AMYLASE_DESCRIPTION"
+msgstr "La lipasa permet a la cèl·lula digerir la major part de membranes. La teva cèl·lula ja produeix una certa quantitat d'aquest enzim sense lisosoma, però seleccionant aquest tipus n'augmentaràs l'efectivitat."
+
+#, fuzzy
+msgid "AMYLASE_PROCESSES_DESCRIPTION"
+msgstr "Augmenta la velocitat de gir de grans cèl·lules."
+
+#, fuzzy
+msgid "AMYLOPLAST"
+msgstr "Quimioplast"
+
+#, fuzzy
+msgid "AMYLOPLAST_DESCRIPTION"
+msgstr "El Quimioplast és una estructura de doble membrana que conté proteïnes que transformen Àcid Sulfhídric, Aigua i Diòxid de Carboni en Glucosa, mitjançant un procés anomenat Quimiosíntesi de l'Àcid Sulfhídric. La velocitat de producció de Glucosa augmenta proporcionalment a la concentració de Diòxid de Carboni."
+
+#, fuzzy
+msgid "AMYLOPLAST_PROCESSES_DESCRIPTION"
+msgstr "Transforma [thrive:compound type=\"hydrogensulfide\"][/thrive:compound] en [thrive:compound type=\"glucose\"][/thrive:compound]. La velocitat és proporcional a la concentració de [thrive:compound type=\"carbondioxide\"][/thrive:compound]."
 
 msgid "ANAEROBIC_NITROGEN_FIXATION"
 msgstr "Fixació Anaeròbica de Nitrogen"
@@ -1453,6 +1476,14 @@ msgid "CYTOPLASM_PROCESSES_DESCRIPTION"
 msgstr "Transforma [thrive:compound type=\"glucose\"][/thrive:compound] en [thrive:compound type=\"atp\"][/thrive:compound]."
 
 #, fuzzy
+msgid "CYTOPLASM_RADIONUCLIDES_REACTION"
+msgstr "Transforma [thrive:compound type=\"glucose\"][/thrive:compound] en [thrive:compound type=\"atp\"][/thrive:compound]."
+
+#, fuzzy
+msgid "CYTOPLASM_VIRUS_REACTION"
+msgstr "És la substància que forma l'interior de la cèl·lula. El Citoplasma és una barreja d'ions, proteïnes i altres substàncies dissoltes a l'aigua. Una de les seves funcions principals és dur a terme el procés de Fermentació, en el qual la Glucosa és transformada en ATP. Moltes cèl·lules simples, que no tenen orgànuls especialitzats, depenen totalment del seu citoplasma per tal de viure - és a dir, per tal de nutrir-se, relacionar-se i reproduïr-se."
+
+#, fuzzy
 msgid "CYTOTOXIN_SYNTHESIS"
 msgstr "Síntesi de les toxines OxyToxy"
 
@@ -2460,8 +2491,51 @@ msgstr "Les concentracions de Glucosa han disminuït dràsticament!"
 msgid "GLYCOGEN"
 msgstr "Àcid Sulfhídric"
 
+#, fuzzy
+msgid "GLYCOGENESIS"
+msgstr "Àcid Sulfhídric"
+
+#, fuzzy
+msgid "GLYCOGENOLYSIS"
+msgstr "Glicòlisi"
+
+msgid "GLYCOGEN_PHOSPHORYLASE"
+msgstr ""
+
+#, fuzzy
+msgid "GLYCOGEN_PHOSPHORYLASE_DESCRIPTION"
+msgstr "La Nitrogenasa és una proteïna capaç de produïr Amoníac, nutrient bàsic per al desenvolupament i reproducció de les cèl·lules, mitjançant Nitrogen i mol·lècules d'ATP. Aquest procés s'anomena Fixació de Nitrogen Anaeròbica. Com que la Nitrogenasa està suspesa en el Citoplasma, aquest fluid duu a terme una certa Glicòlisi."
+
+#, fuzzy
+msgid "GLYCOGEN_PHOSPHORYLASE_PROCESSES_DESCRIPTION"
+msgstr "Transforma [thrive:compound type=\"atp\"][/thrive:compound] en [thrive:compound type=\"ammonia\"][/thrive:compound]. La velocitat és proporcional a la concentració de [thrive:compound type=\"nitrogen\"][/thrive:compound]."
+
+#, fuzzy
+msgid "GLYCOGEN_SYNTHASE"
+msgstr "Àcid Sulfhídric"
+
+#, fuzzy
+msgid "GLYCOGEN_SYNTHASE_DESCRIPTION"
+msgstr "La Nitrogenasa és una proteïna capaç de produïr Amoníac, nutrient bàsic per al desenvolupament i reproducció de les cèl·lules, mitjançant Nitrogen i mol·lècules d'ATP. Aquest procés s'anomena Fixació de Nitrogen Anaeròbica. Com que la Nitrogenasa està suspesa en el Citoplasma, aquest fluid duu a terme una certa Glicòlisi."
+
+#, fuzzy
+msgid "GLYCOGEN_SYNTHASE_PROCESSES_DESCRIPTION"
+msgstr "Transforma [thrive:compound type=\"atp\"][/thrive:compound] en [thrive:compound type=\"ammonia\"][/thrive:compound]. La velocitat és proporcional a la concentració de [thrive:compound type=\"nitrogen\"][/thrive:compound]."
+
 msgid "GLYCOLYSIS"
 msgstr "Glicòlisi"
+
+#, fuzzy
+msgid "GLYCOPLAST"
+msgstr "Quimioplast"
+
+#, fuzzy
+msgid "GLYCOPLAST_DESCRIPTION"
+msgstr "El Quimioplast és una estructura de doble membrana que conté proteïnes que transformen Àcid Sulfhídric, Aigua i Diòxid de Carboni en Glucosa, mitjançant un procés anomenat Quimiosíntesi de l'Àcid Sulfhídric. La velocitat de producció de Glucosa augmenta proporcionalment a la concentració de Diòxid de Carboni."
+
+#, fuzzy
+msgid "GLYCOPLAST_PROCESSES_DESCRIPTION"
+msgstr "Transforma [thrive:compound type=\"hydrogensulfide\"][/thrive:compound] en [thrive:compound type=\"glucose\"][/thrive:compound]. La velocitat és proporcional a la concentració de [thrive:compound type=\"carbondioxide\"][/thrive:compound]."
 
 msgid "GODMODE"
 msgstr "Mode Déu"
@@ -2658,6 +2732,10 @@ msgstr "ha mutat"
 
 msgid "INDUSTRIAL_STAGE"
 msgstr ""
+
+#, fuzzy
+msgid "INFECTED_MARINE_SNOW"
+msgstr "Neu marina"
 
 msgid "INFINITE_COMPOUNDS"
 msgstr "Compostos infinits"
@@ -4396,6 +4474,12 @@ msgstr ""
 msgid "NOTICE_DAMAGED_BY_NO_ATP"
 msgstr ""
 
+msgid "NOTICE_DAMAGED_BY_RADIATION"
+msgstr ""
+
+msgid "NOTICE_DAMAGED_BY_VIRUS"
+msgstr ""
+
 msgid "NOTICE_ENGULF_DAMAGE_FROM_TOXIN"
 msgstr ""
 
@@ -5739,6 +5823,26 @@ msgstr "Menú de pausa"
 #, fuzzy
 msgid "STARCH"
 msgstr "Març"
+
+#, fuzzy
+msgid "STARCH_DIGESTION"
+msgstr "Radi de cerca:"
+
+#, fuzzy
+msgid "STARCH_SYNTHASE"
+msgstr "Termosintasa"
+
+#, fuzzy
+msgid "STARCH_SYNTHASE_DESCRIPTION"
+msgstr "La termosintasa és una proteïna que fa servir la convecció tèrmica per canviar la seva forma, permetent-li plegar-se i adherir-se a l'ADP quan és exposada a la temperature, tot seguit desplegar-se i reciclar-la en ATP quan s'exposa a temperatures més baixes en un procés anomenat termosíntesi. La velocitat de la producció d'ATP és proporcional a la temperatura."
+
+#, fuzzy
+msgid "STARCH_SYNTHASE_PROCESSES_DESCRIPTION"
+msgstr "Produeix [thrive:compound type=\"atp\"][/thrive:compound] fent servir gradients de temperatura. La velocitat és proporcional a [thrive:compound type=\"temperature\"][/thrive:compound]."
+
+#, fuzzy
+msgid "STARCH_SYNTHESIS"
+msgstr "Quimiosíntesi"
 
 #, fuzzy
 msgid "START"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-11-10 17:32-0600\n"
+"POT-Creation-Date: 2024-11-16 11:01-0600\n"
 "PO-Revision-Date: 2024-10-17 07:24+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Serbian (Latin script) <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/sr_Latn/>\n"
@@ -230,6 +230,29 @@ msgstr "Količina automatskog čuvanja da zadržati:"
 
 msgid "AMOUNT_OF_QUICKSAVE_TO_KEEP"
 msgstr "Količina brzog čuvanja da zadržati:"
+
+msgid "AMYLASE"
+msgstr ""
+
+#, fuzzy
+msgid "AMYLASE_DESCRIPTION"
+msgstr "Lepljiva unutrašnjost ćelije. Citoplazma je osnovna smeša jona, proteina i drugih supstanci rastvorenih u vodi koja ispunjava unutrašnjost ćelije. Jedna od funkcija koju obavlja je fermentacija, pretvaranje glukoze u ATP energiju. Da bi ćelije kojima nedostaju organeli imali napredniji metabolizam, na to se oslanjaju u energiji. Takođe se koristi za skladištenje molekula u ćeliji i za povećanje veličine ćelije."
+
+#, fuzzy
+msgid "AMYLASE_PROCESSES_DESCRIPTION"
+msgstr "Lepljiva unutrašnjost ćelije. Citoplazma je osnovna smeša jona, proteina i drugih supstanci rastvorenih u vodi koja ispunjava unutrašnjost ćelije. Jedna od funkcija koju obavlja je fermentacija, pretvaranje glukoze u ATP energiju. Da bi ćelije kojima nedostaju organeli imali napredniji metabolizam, na to se oslanjaju u energiji. Takođe se koristi za skladištenje molekula u ćeliji i za povećanje veličine ćelije."
+
+#, fuzzy
+msgid "AMYLOPLAST"
+msgstr "Hemoplast"
+
+#, fuzzy
+msgid "AMYLOPLAST_DESCRIPTION"
+msgstr "Hemoplast je dvostruka membranska struktura koja sadrži proteine koji su sposobni da pretvore vodonik-sulfid, vodu i gasoviti ugljen-dioksid u glukozu u procesu koji se naziva Hemosinteza vodonik-sulfida. Stopa njegove proizvodnje glukoze skalira se sa koncentracijom vode i ugljen-dioksida."
+
+#, fuzzy
+msgid "AMYLOPLAST_PROCESSES_DESCRIPTION"
+msgstr "Hemoplast je dvostruka membranska struktura koja sadrži proteine koji su sposobni da pretvore vodonik-sulfid, vodu i gasoviti ugljen-dioksid u glukozu u procesu koji se naziva Hemosinteza vodonik-sulfida. Stopa njegove proizvodnje glukoze skalira se sa koncentracijom vode i ugljen-dioksida."
 
 msgid "ANAEROBIC_NITROGEN_FIXATION"
 msgstr "Anaerobna Fiksacija Azota"
@@ -1482,6 +1505,14 @@ msgid "CYTOPLASM_PROCESSES_DESCRIPTION"
 msgstr "Lepljiva unutrašnjost ćelije. Citoplazma je osnovna smeša jona, proteina i drugih supstanci rastvorenih u vodi koja ispunjava unutrašnjost ćelije. Jedna od funkcija koju obavlja je fermentacija, pretvaranje glukoze u ATP energiju. Da bi ćelije kojima nedostaju organeli imali napredniji metabolizam, na to se oslanjaju u energiji. Takođe se koristi za skladištenje molekula u ćeliji i za povećanje veličine ćelije."
 
 #, fuzzy
+msgid "CYTOPLASM_RADIONUCLIDES_REACTION"
+msgstr "Lepljiva unutrašnjost ćelije. Citoplazma je osnovna smeša jona, proteina i drugih supstanci rastvorenih u vodi koja ispunjava unutrašnjost ćelije. Jedna od funkcija koju obavlja je fermentacija, pretvaranje glukoze u ATP energiju. Da bi ćelije kojima nedostaju organeli imali napredniji metabolizam, na to se oslanjaju u energiji. Takođe se koristi za skladištenje molekula u ćeliji i za povećanje veličine ćelije."
+
+#, fuzzy
+msgid "CYTOPLASM_VIRUS_REACTION"
+msgstr "Lepljiva unutrašnjost ćelije. Citoplazma je osnovna smeša jona, proteina i drugih supstanci rastvorenih u vodi koja ispunjava unutrašnjost ćelije. Jedna od funkcija koju obavlja je fermentacija, pretvaranje glukoze u ATP energiju. Da bi ćelije kojima nedostaju organeli imali napredniji metabolizam, na to se oslanjaju u energiji. Takođe se koristi za skladištenje molekula u ćeliji i za povećanje veličine ćelije."
+
+#, fuzzy
 msgid "CYTOTOXIN_SYNTHESIS"
 msgstr "Sinteza OksiToksi"
 
@@ -2450,8 +2481,51 @@ msgstr ""
 msgid "GLYCOGEN"
 msgstr "Vodonik Sulfid"
 
+#, fuzzy
+msgid "GLYCOGENESIS"
+msgstr "Vodonik Sulfid"
+
+#, fuzzy
+msgid "GLYCOGENOLYSIS"
+msgstr "Glikoliza"
+
+msgid "GLYCOGEN_PHOSPHORYLASE"
+msgstr ""
+
+#, fuzzy
+msgid "GLYCOGEN_PHOSPHORYLASE_DESCRIPTION"
+msgstr "Nitrogenaza je protein u stanju da koristi gasoviti azot i ćelijsku energiju u obliku ATP za proizvodnju amonijaka, ključnog hranljivog sastojka za rast ćelija. Ovo je proces koji se naziva anaerobna fiksacija azota. Pošto je nitrogenaza suspendovana direktno u citoplazmi, okolna tečnost vrši fermentaciju."
+
+#, fuzzy
+msgid "GLYCOGEN_PHOSPHORYLASE_PROCESSES_DESCRIPTION"
+msgstr "Nitrogenaza je protein u stanju da koristi gasoviti azot i ćelijsku energiju u obliku ATP za proizvodnju amonijaka, ključnog hranljivog sastojka za rast ćelija. Ovo je proces koji se naziva anaerobna fiksacija azota. Pošto je nitrogenaza suspendovana direktno u citoplazmi, okolna tečnost vrši fermentaciju."
+
+#, fuzzy
+msgid "GLYCOGEN_SYNTHASE"
+msgstr "Vodonik Sulfid"
+
+#, fuzzy
+msgid "GLYCOGEN_SYNTHASE_DESCRIPTION"
+msgstr "Nitrogenaza je protein u stanju da koristi gasoviti azot i ćelijsku energiju u obliku ATP za proizvodnju amonijaka, ključnog hranljivog sastojka za rast ćelija. Ovo je proces koji se naziva anaerobna fiksacija azota. Pošto je nitrogenaza suspendovana direktno u citoplazmi, okolna tečnost vrši fermentaciju."
+
+#, fuzzy
+msgid "GLYCOGEN_SYNTHASE_PROCESSES_DESCRIPTION"
+msgstr "Nitrogenaza je protein u stanju da koristi gasoviti azot i ćelijsku energiju u obliku ATP za proizvodnju amonijaka, ključnog hranljivog sastojka za rast ćelija. Ovo je proces koji se naziva anaerobna fiksacija azota. Pošto je nitrogenaza suspendovana direktno u citoplazmi, okolna tečnost vrši fermentaciju."
+
 msgid "GLYCOLYSIS"
 msgstr "Glikoliza"
+
+#, fuzzy
+msgid "GLYCOPLAST"
+msgstr "Hemoplast"
+
+#, fuzzy
+msgid "GLYCOPLAST_DESCRIPTION"
+msgstr "Hemoplast je dvostruka membranska struktura koja sadrži proteine koji su sposobni da pretvore vodonik-sulfid, vodu i gasoviti ugljen-dioksid u glukozu u procesu koji se naziva Hemosinteza vodonik-sulfida. Stopa njegove proizvodnje glukoze skalira se sa koncentracijom vode i ugljen-dioksida."
+
+#, fuzzy
+msgid "GLYCOPLAST_PROCESSES_DESCRIPTION"
+msgstr "Hemoplast je dvostruka membranska struktura koja sadrži proteine koji su sposobni da pretvore vodonik-sulfid, vodu i gasoviti ugljen-dioksid u glukozu u procesu koji se naziva Hemosinteza vodonik-sulfida. Stopa njegove proizvodnje glukoze skalira se sa koncentracijom vode i ugljen-dioksida."
 
 msgid "GODMODE"
 msgstr ""
@@ -2642,6 +2716,10 @@ msgstr "ima mutaciju"
 
 msgid "INDUSTRIAL_STAGE"
 msgstr ""
+
+#, fuzzy
+msgid "INFECTED_MARINE_SNOW"
+msgstr "Morski sneg"
 
 #, fuzzy
 msgid "INFINITE_COMPOUNDS"
@@ -4268,6 +4346,12 @@ msgstr ""
 msgid "NOTICE_DAMAGED_BY_NO_ATP"
 msgstr ""
 
+msgid "NOTICE_DAMAGED_BY_RADIATION"
+msgstr ""
+
+msgid "NOTICE_DAMAGED_BY_VIRUS"
+msgstr ""
+
 msgid "NOTICE_ENGULF_DAMAGE_FROM_TOXIN"
 msgstr ""
 
@@ -5642,6 +5726,26 @@ msgstr "Dodajte novo vezivanje tastera"
 #, fuzzy
 msgid "STARCH"
 msgstr "Počinje"
+
+#, fuzzy
+msgid "STARCH_DIGESTION"
+msgstr "Odbaci i nastavi"
+
+#, fuzzy
+msgid "STARCH_SYNTHASE"
+msgstr "Hemosinteza"
+
+#, fuzzy
+msgid "STARCH_SYNTHASE_DESCRIPTION"
+msgstr "Termoplast je dvostruka membranska struktura koja sadrži termosenzibilne pigmente složene zajedno u membranske vrećice. To je prokariot koji je asimilirao za upotrebu od svog eukariotskog domaćina. Pigmenti u termoplastu mogu da koriste energiju toplotnih razlika u okolini za proizvodnju glukoze iz vode i gasovitog ugljen-dioksida u procesu koji se naziva termosinteza. Stopa njegove proizvodnje glukoze skalira se sa koncentracijom ugljen-dioksida i temperaturom."
+
+#, fuzzy
+msgid "STARCH_SYNTHASE_PROCESSES_DESCRIPTION"
+msgstr "Termoplast je dvostruka membranska struktura koja sadrži termosenzibilne pigmente složene zajedno u membranske vrećice. To je prokariot koji je asimilirao za upotrebu od svog eukariotskog domaćina. Pigmenti u termoplastu mogu da koriste energiju toplotnih razlika u okolini za proizvodnju glukoze iz vode i gasovitog ugljen-dioksida u procesu koji se naziva termosinteza. Stopa njegove proizvodnje glukoze skalira se sa koncentracijom ugljen-dioksida i temperaturom."
+
+#, fuzzy
+msgid "STARCH_SYNTHESIS"
+msgstr "Hemosinteza"
 
 #, fuzzy
 msgid "START"

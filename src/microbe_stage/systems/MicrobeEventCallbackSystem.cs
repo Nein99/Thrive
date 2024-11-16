@@ -112,6 +112,18 @@ public sealed class MicrobeEventCallbackSystem : AEntitySetSystem<float>
                     new SimpleHUDMessage(Localization.Translate("NOTICE_DAMAGED_BY_NO_ATP"),
                         DisplayDuration.Short));
             }
+            else if (damageEvent.DamageSource == "radiationDamage")
+            {
+                entity.SendNoticeIfPossible(() =>
+                    new SimpleHUDMessage(Localization.Translate("NOTICE_DAMAGED_BY_RADIATION"),
+                        DisplayDuration.Short));
+            }
+            else if (damageEvent.DamageSource == "virusDamage")
+            {
+                entity.SendNoticeIfPossible(() =>
+                    new SimpleHUDMessage(Localization.Translate("NOTICE_DAMAGED_BY_VIRUS"),
+                        DisplayDuration.Short));
+            }
         }
     }
 }

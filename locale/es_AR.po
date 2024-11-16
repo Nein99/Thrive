@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-11-10 17:32-0600\n"
+"POT-Creation-Date: 2024-11-16 11:01-0600\n"
 "PO-Revision-Date: 2024-10-16 05:52+0000\n"
 "Last-Translator: fideos con queso <whipstickagostopp@gmail.com>\n"
 "Language-Team: Spanish (Argentina) <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/es_AR/>\n"
@@ -227,6 +227,29 @@ msgstr "Cantidad de autoguardados a almacenar:"
 
 msgid "AMOUNT_OF_QUICKSAVE_TO_KEEP"
 msgstr "Cantidad de guardados rápidos a almacenar:"
+
+msgid "AMYLASE"
+msgstr ""
+
+#, fuzzy
+msgid "AMYLASE_DESCRIPTION"
+msgstr "población:"
+
+#, fuzzy
+msgid "AMYLASE_PROCESSES_DESCRIPTION"
+msgstr "población:"
+
+#, fuzzy
+msgid "AMYLOPLAST"
+msgstr "Quimioplastia"
+
+#, fuzzy
+msgid "AMYLOPLAST_DESCRIPTION"
+msgstr "población:"
+
+#, fuzzy
+msgid "AMYLOPLAST_PROCESSES_DESCRIPTION"
+msgstr "población:"
 
 msgid "ANAEROBIC_NITROGEN_FIXATION"
 msgstr "Fijación anaeróbica de nitrógeno"
@@ -1409,6 +1432,14 @@ msgid "CYTOPLASM_PROCESSES_DESCRIPTION"
 msgstr ""
 
 #, fuzzy
+msgid "CYTOPLASM_RADIONUCLIDES_REACTION"
+msgstr "Núcleo"
+
+#, fuzzy
+msgid "CYTOPLASM_VIRUS_REACTION"
+msgstr "Cancelar acción actual"
+
+#, fuzzy
 msgid "CYTOTOXIN_SYNTHESIS"
 msgstr "Fotosíntesis"
 
@@ -2366,8 +2397,51 @@ msgid "GLYCOGEN"
 msgstr "Sulfuro de hidrógeno"
 
 #, fuzzy
+msgid "GLYCOGENESIS"
+msgstr "Sulfuro de hidrógeno"
+
+#, fuzzy
+msgid "GLYCOGENOLYSIS"
+msgstr "Nivel de Glucósis"
+
+msgid "GLYCOGEN_PHOSPHORYLASE"
+msgstr ""
+
+#, fuzzy
+msgid "GLYCOGEN_PHOSPHORYLASE_DESCRIPTION"
+msgstr "población:"
+
+#, fuzzy
+msgid "GLYCOGEN_PHOSPHORYLASE_PROCESSES_DESCRIPTION"
+msgstr "población:"
+
+#, fuzzy
+msgid "GLYCOGEN_SYNTHASE"
+msgstr "Sulfuro de hidrógeno"
+
+#, fuzzy
+msgid "GLYCOGEN_SYNTHASE_DESCRIPTION"
+msgstr "población:"
+
+#, fuzzy
+msgid "GLYCOGEN_SYNTHASE_PROCESSES_DESCRIPTION"
+msgstr "población:"
+
+#, fuzzy
 msgid "GLYCOLYSIS"
 msgstr "Nivel de Glucósis"
+
+#, fuzzy
+msgid "GLYCOPLAST"
+msgstr "Quimioplastia"
+
+#, fuzzy
+msgid "GLYCOPLAST_DESCRIPTION"
+msgstr "población:"
+
+#, fuzzy
+msgid "GLYCOPLAST_PROCESSES_DESCRIPTION"
+msgstr "población:"
 
 msgid "GODMODE"
 msgstr ""
@@ -2556,6 +2630,10 @@ msgstr "No mutar (Solo si no hay buenas mutaciones)"
 
 msgid "INDUSTRIAL_STAGE"
 msgstr ""
+
+#, fuzzy
+msgid "INFECTED_MARINE_SNOW"
+msgstr "Nieve marina(?"
 
 msgid "INFINITE_COMPOUNDS"
 msgstr ""
@@ -4232,6 +4310,12 @@ msgstr ""
 msgid "NOTICE_DAMAGED_BY_NO_ATP"
 msgstr ""
 
+msgid "NOTICE_DAMAGED_BY_RADIATION"
+msgstr ""
+
+msgid "NOTICE_DAMAGED_BY_VIRUS"
+msgstr ""
+
 msgid "NOTICE_ENGULF_DAMAGE_FROM_TOXIN"
 msgstr ""
 
@@ -5525,6 +5609,25 @@ msgstr ""
 #, fuzzy
 msgid "STARCH"
 msgstr "Empezando"
+
+#, fuzzy
+msgid "STARCH_DIGESTION"
+msgstr "población:"
+
+msgid "STARCH_SYNTHASE"
+msgstr ""
+
+#, fuzzy
+msgid "STARCH_SYNTHASE_DESCRIPTION"
+msgstr "población:"
+
+#, fuzzy
+msgid "STARCH_SYNTHASE_PROCESSES_DESCRIPTION"
+msgstr "población:"
+
+#, fuzzy
+msgid "STARCH_SYNTHESIS"
+msgstr "Fotosíntesis"
 
 #, fuzzy
 msgid "START"

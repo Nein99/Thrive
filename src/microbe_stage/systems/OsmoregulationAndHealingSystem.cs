@@ -93,6 +93,8 @@ public sealed class OsmoregulationAndHealingSystem : AEntitySetSystem<float>
                 return;
 
             ApplyATPDamage(compounds, ref health, ref cellProperties);
+            ApplyRadiationDamage(compounds, ref health, ref cellProperties);
+            ApplyVirusDamage(compounds, ref health, ref cellProperties);
         }
     }
 
@@ -140,6 +142,24 @@ public sealed class OsmoregulationAndHealingSystem : AEntitySetSystem<float>
 
         health.DealMicrobeDamage(ref cellProperties, health.MaxHealth * Constants.NO_ATP_DAMAGE_FRACTION,
             "atpDamage");
+    }
+
+    private void ApplyRadiationDamage(CompoundBag compounds, ref Health health, ref CellProperties cellProperties)
+    {
+        if (compounds.GetCompoundAmount(Compound.Radionuclides) < Constants.ATP_DAMAGE_THRESHOLD)
+            return;
+
+        health.DealMicrobeDamage(ref cellProperties, health.MaxHealth * Constants.NO_ATP_DAMAGE_FRACTION,
+            "radiationDamage");
+    }
+
+    private void ApplyVirusDamage(CompoundBag compounds, ref Health health, ref CellProperties cellProperties)
+    {
+        if (compounds.GetCompoundAmount(Compound.Virus) < Constants.ATP_DAMAGE_THRESHOLD)
+            return;
+
+        health.DealMicrobeDamage(ref cellProperties, health.MaxHealth * Constants.NO_ATP_DAMAGE_FRACTION,
+            "virusDamage");
     }
 
     /// <summary>

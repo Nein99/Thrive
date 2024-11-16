@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-11-10 17:32-0600\n"
+"POT-Creation-Date: 2024-11-16 11:01-0600\n"
 "PO-Revision-Date: 2024-10-17 07:24+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/pt_BR/>\n"
@@ -227,6 +227,29 @@ msgstr "Quantidade de salvamentos automáticos para manter:"
 
 msgid "AMOUNT_OF_QUICKSAVE_TO_KEEP"
 msgstr "Quantidade de salvamentos rápidos para manter:"
+
+msgid "AMYLASE"
+msgstr ""
+
+#, fuzzy
+msgid "AMYLASE_DESCRIPTION"
+msgstr "A lipase permite que a célula quebre a maioria das membranas. Sua célula já produz um pouco dessa enzima sem o lisossomo, mas ao selecionar essa opção você aumentará sua eficácia."
+
+#, fuzzy
+msgid "AMYLASE_PROCESSES_DESCRIPTION"
+msgstr "Aumenta a velocidade de rotação das células maiores."
+
+#, fuzzy
+msgid "AMYLOPLAST"
+msgstr "Quimioplasto"
+
+#, fuzzy
+msgid "AMYLOPLAST_DESCRIPTION"
+msgstr "O quimioplasto é uma estrutura de membrana dupla contendo proteínas capazes de converter sulfeto de hidrogênio, água, e gás carbônico em glicose em um processo chamado Quimiossíntese de Sulfeto de Hidrogênio. A proporção de sua produção de glicose aumenta com a concentração de dióxido de carbono."
+
+#, fuzzy
+msgid "AMYLOPLAST_PROCESSES_DESCRIPTION"
+msgstr "Transforma [thrive:compound type=\"hydrogensulfide\"][/thrive:compound] em [thrive:compound type=\"glucose\"][/thrive:compound]. Quantidade aumenta com a concentração de [thrive:compound type=\"carbondioxide\"][/thrive:compound]."
 
 msgid "ANAEROBIC_NITROGEN_FIXATION"
 msgstr "Fixação Anaeróbica de Nitrogênio"
@@ -1466,6 +1489,14 @@ msgid "CYTOPLASM_PROCESSES_DESCRIPTION"
 msgstr "Transforma [thrive:compound type=\"glucose\"][/thrive:compound] em [thrive:compound type=\"atp\"][/thrive:compound]."
 
 #, fuzzy
+msgid "CYTOPLASM_RADIONUCLIDES_REACTION"
+msgstr "Transforma [thrive:compound type=\"glucose\"][/thrive:compound] em [thrive:compound type=\"atp\"][/thrive:compound]."
+
+#, fuzzy
+msgid "CYTOPLASM_VIRUS_REACTION"
+msgstr "As entranhas pegajosas de uma célula. O citoplasma é a mistura básica de íons, proteínas, e outras substâncias dissolvidas na água que preenchem o interior da célula. Uma das funções que realiza é a Fermentação, a conversão de glicose em ATP. Para as células que carecem de organelas para ter metabolismos avançados, é disso que elas dependem para produzir energia. Também é usado para armazenar moléculas na célula para aumentar o tamanho dela."
+
+#, fuzzy
 msgid "CYTOTOXIN_SYNTHESIS"
 msgstr "Síntese de Oxitoxina"
 
@@ -2390,8 +2421,51 @@ msgstr "As concentrações de glicose caíram drasticamente!"
 msgid "GLYCOGEN"
 msgstr "Sulfeto de Hidrogênio"
 
+#, fuzzy
+msgid "GLYCOGENESIS"
+msgstr "Sulfeto de Hidrogênio"
+
+#, fuzzy
+msgid "GLYCOGENOLYSIS"
+msgstr "Glicólise"
+
+msgid "GLYCOGEN_PHOSPHORYLASE"
+msgstr ""
+
+#, fuzzy
+msgid "GLYCOGEN_PHOSPHORYLASE_DESCRIPTION"
+msgstr "Nitrogenase é uma enzima que consegue usar nitrogênio gasoso e energia celular na forma de ATP para sintetizar amônia, um nutriente essencial para o crescimento das células. Esse processo é chamado de Fixação de Nitrogênio. Como a nitrogenase é suspensa diretamente no citoplasma, os fluidos em volta realizam a Fermentação."
+
+#, fuzzy
+msgid "GLYCOGEN_PHOSPHORYLASE_PROCESSES_DESCRIPTION"
+msgstr "Transforma [thrive:compound type=\"atp\"][/thrive:compound] em [thrive:compound type=\"ammonia\"][/thrive:compound]. Quantidade aumenta com a concentração de [thrive:compound type=\"nitrogen\"][/thrive:compound]."
+
+#, fuzzy
+msgid "GLYCOGEN_SYNTHASE"
+msgstr "Sulfeto de Hidrogênio"
+
+#, fuzzy
+msgid "GLYCOGEN_SYNTHASE_DESCRIPTION"
+msgstr "Nitrogenase é uma enzima que consegue usar nitrogênio gasoso e energia celular na forma de ATP para sintetizar amônia, um nutriente essencial para o crescimento das células. Esse processo é chamado de Fixação de Nitrogênio. Como a nitrogenase é suspensa diretamente no citoplasma, os fluidos em volta realizam a Fermentação."
+
+#, fuzzy
+msgid "GLYCOGEN_SYNTHASE_PROCESSES_DESCRIPTION"
+msgstr "Transforma [thrive:compound type=\"atp\"][/thrive:compound] em [thrive:compound type=\"ammonia\"][/thrive:compound]. Quantidade aumenta com a concentração de [thrive:compound type=\"nitrogen\"][/thrive:compound]."
+
 msgid "GLYCOLYSIS"
 msgstr "Glicólise"
+
+#, fuzzy
+msgid "GLYCOPLAST"
+msgstr "Quimioplasto"
+
+#, fuzzy
+msgid "GLYCOPLAST_DESCRIPTION"
+msgstr "O quimioplasto é uma estrutura de membrana dupla contendo proteínas capazes de converter sulfeto de hidrogênio, água, e gás carbônico em glicose em um processo chamado Quimiossíntese de Sulfeto de Hidrogênio. A proporção de sua produção de glicose aumenta com a concentração de dióxido de carbono."
+
+#, fuzzy
+msgid "GLYCOPLAST_PROCESSES_DESCRIPTION"
+msgstr "Transforma [thrive:compound type=\"hydrogensulfide\"][/thrive:compound] em [thrive:compound type=\"glucose\"][/thrive:compound]. Quantidade aumenta com a concentração de [thrive:compound type=\"carbondioxide\"][/thrive:compound]."
 
 msgid "GODMODE"
 msgstr "Modo Deus"
@@ -2581,6 +2655,10 @@ msgstr "Permitir que a espécie não mute"
 
 msgid "INDUSTRIAL_STAGE"
 msgstr "Estágio Industrial"
+
+#, fuzzy
+msgid "INFECTED_MARINE_SNOW"
+msgstr "Neve marinha"
 
 msgid "INFINITE_COMPOUNDS"
 msgstr "Compostos infinitos"
@@ -4256,6 +4334,14 @@ msgstr "Não há nada para interagir"
 msgid "NOTICE_DAMAGED_BY_NO_ATP"
 msgstr "Ferido devido à falta de ATP"
 
+#, fuzzy
+msgid "NOTICE_DAMAGED_BY_RADIATION"
+msgstr "Ferido devido à falta de ATP"
+
+#, fuzzy
+msgid "NOTICE_DAMAGED_BY_VIRUS"
+msgstr "Ferido devido à falta de ATP"
+
 msgid "NOTICE_ENGULF_DAMAGE_FROM_TOXIN"
 msgstr "Ferido por toxinas devido à ingestão de matéria"
 
@@ -5531,6 +5617,26 @@ msgstr "Menu de pausa"
 #, fuzzy
 msgid "STARCH"
 msgstr "Março"
+
+#, fuzzy
+msgid "STARCH_DIGESTION"
+msgstr "Raio de Procura:"
+
+#, fuzzy
+msgid "STARCH_SYNTHASE"
+msgstr "Termossintase"
+
+#, fuzzy
+msgid "STARCH_SYNTHASE_DESCRIPTION"
+msgstr "A termossintase é uma proteína que muda de forma usando a convecção térmica. Quando exposta ao calor, ela se dobra ligando-se ao ADP. Quando resfriada, ela se desdobra e é reciclada em ATP em um processo chamado termossíntese. A taxa de produção de ATP aumenta com a temperatura ambiente."
+
+#, fuzzy
+msgid "STARCH_SYNTHASE_PROCESSES_DESCRIPTION"
+msgstr "Produz [thrive:compound type=\"atp\"][/thrive:compound]. Quantidade aumenta com a [thrive:compound type=\"temperature\"][/thrive:compound]."
+
+#, fuzzy
+msgid "STARCH_SYNTHESIS"
+msgstr "Quimiossíntese"
 
 #, fuzzy
 msgid "START"
@@ -8364,10 +8470,6 @@ msgstr "Aumentar o zoom"
 
 msgid "ZOOM_OUT"
 msgstr "Diminuir o zoom"
-
-#, fuzzy
-#~ msgid "NOTICE_DAMAGED_BY_RADIATION"
-#~ msgstr "Ferido devido à falta de ATP"
 
 #~ msgid "THE_AMOUNT_OF_GLUCOSE_HAS_BEEN_REDUCED"
 #~ msgstr "A quantidade de glicose foi reduzida para {0} da quantidade anterior."

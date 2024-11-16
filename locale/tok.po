@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Thrive VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-11-10 17:32-0600\n"
+"POT-Creation-Date: 2024-11-16 11:01-0600\n"
 "PO-Revision-Date: 2023-02-06 07:13+0000\n"
 "Last-Translator: jan-sopi <jansopi303@genocide.fun>\n"
 "Language-Team: Toki Pona <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/tok/>\n"
@@ -228,6 +228,28 @@ msgstr "nanpa ni: sona musi ilo lon ilo nanpa sina:"
 
 msgid "AMOUNT_OF_QUICKSAVE_TO_KEEP"
 msgstr "nanpa ni: sona musi lili lon ilo nanpa sina:"
+
+msgid "AMYLASE"
+msgstr ""
+
+#, fuzzy
+msgid "AMYLASE_DESCRIPTION"
+msgstr "pali pi kon ilo kepeken kon ala"
+
+#, fuzzy
+msgid "AMYLASE_PROCESSES_DESCRIPTION"
+msgstr "pali pi kon ilo kepeken kon ala"
+
+msgid "AMYLOPLAST"
+msgstr ""
+
+#, fuzzy
+msgid "AMYLOPLAST_DESCRIPTION"
+msgstr "pali pi kon ilo kepeken kon ala"
+
+#, fuzzy
+msgid "AMYLOPLAST_PROCESSES_DESCRIPTION"
+msgstr "pali pi kon ilo kepeken kon ala"
 
 msgid "ANAEROBIC_NITROGEN_FIXATION"
 msgstr "pali pi kon ilo kepeken kon ala"
@@ -1391,6 +1413,14 @@ msgid "CYTOPLASM_PROCESSES_DESCRIPTION"
 msgstr ""
 
 #, fuzzy
+msgid "CYTOPLASM_RADIONUCLIDES_REACTION"
+msgstr "pali pi kon ilo kepeken kon ala"
+
+#, fuzzy
+msgid "CYTOPLASM_VIRUS_REACTION"
+msgstr "pali pi kon ilo kepeken kon ala"
+
+#, fuzzy
 msgid "CYTOTOXIN_SYNTHESIS"
 msgstr "kama ante pi sike ante"
 
@@ -2268,8 +2298,49 @@ msgstr ""
 msgid "GLYCOGEN"
 msgstr ""
 
+#, fuzzy
+msgid "GLYCOGENESIS"
+msgstr "kama ante pi sike ante"
+
+#, fuzzy
+msgid "GLYCOGENOLYSIS"
+msgstr "kama ante pi sike ante"
+
+msgid "GLYCOGEN_PHOSPHORYLASE"
+msgstr ""
+
+#, fuzzy
+msgid "GLYCOGEN_PHOSPHORYLASE_DESCRIPTION"
+msgstr "pali pi kon ilo kepeken kon ala"
+
+#, fuzzy
+msgid "GLYCOGEN_PHOSPHORYLASE_PROCESSES_DESCRIPTION"
+msgstr "pali pi kon ilo kepeken kon ala"
+
+msgid "GLYCOGEN_SYNTHASE"
+msgstr ""
+
+#, fuzzy
+msgid "GLYCOGEN_SYNTHASE_DESCRIPTION"
+msgstr "pali pi kon ilo kepeken kon ala"
+
+#, fuzzy
+msgid "GLYCOGEN_SYNTHASE_PROCESSES_DESCRIPTION"
+msgstr "pali pi kon ilo kepeken kon ala"
+
 msgid "GLYCOLYSIS"
 msgstr ""
+
+msgid "GLYCOPLAST"
+msgstr ""
+
+#, fuzzy
+msgid "GLYCOPLAST_DESCRIPTION"
+msgstr "pali pi kon ilo kepeken kon ala"
+
+#, fuzzy
+msgid "GLYCOPLAST_PROCESSES_DESCRIPTION"
+msgstr "pali pi kon ilo kepeken kon ala"
 
 msgid "GODMODE"
 msgstr ""
@@ -2444,6 +2515,9 @@ msgid "INDICATOR_SPECIES_MUTATED"
 msgstr ""
 
 msgid "INDUSTRIAL_STAGE"
+msgstr ""
+
+msgid "INFECTED_MARINE_SNOW"
 msgstr ""
 
 msgid "INFINITE_COMPOUNDS"
@@ -3903,6 +3977,12 @@ msgstr ""
 msgid "NOTICE_DAMAGED_BY_NO_ATP"
 msgstr ""
 
+msgid "NOTICE_DAMAGED_BY_RADIATION"
+msgstr ""
+
+msgid "NOTICE_DAMAGED_BY_VIRUS"
+msgstr ""
+
 msgid "NOTICE_ENGULF_DAMAGE_FROM_TOXIN"
 msgstr ""
 
@@ -5112,6 +5192,24 @@ msgstr ""
 #, fuzzy
 msgid "STARCH"
 msgstr "ma pi sitelen musi"
+
+msgid "STARCH_DIGESTION"
+msgstr ""
+
+msgid "STARCH_SYNTHASE"
+msgstr ""
+
+#, fuzzy
+msgid "STARCH_SYNTHASE_DESCRIPTION"
+msgstr "pali pi kon ilo kepeken kon ala"
+
+#, fuzzy
+msgid "STARCH_SYNTHASE_PROCESSES_DESCRIPTION"
+msgstr "pali pi kon ilo kepeken kon ala"
+
+#, fuzzy
+msgid "STARCH_SYNTHESIS"
+msgstr "kama ante pi sike ante"
 
 #, fuzzy
 msgid "START"

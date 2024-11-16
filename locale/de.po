@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-11-10 17:32-0600\n"
+"POT-Creation-Date: 2024-11-16 11:01-0600\n"
 "PO-Revision-Date: 2024-10-17 07:24+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: German <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/de/>\n"
@@ -230,6 +230,29 @@ msgstr "Anzahl der Autospeicherungen:"
 
 msgid "AMOUNT_OF_QUICKSAVE_TO_KEEP"
 msgstr "Anzahl der Schnellspeicherungen:"
+
+msgid "AMYLASE"
+msgstr ""
+
+#, fuzzy
+msgid "AMYLASE_DESCRIPTION"
+msgstr "Lipase ermöglicht es der Zelle die meisten Membranen zu zersetzen. Etwas davon wird auch ohne Lysosom von deiner Zelle produziert, aber es hier auszuwählen erhöht die Effizienz des Prozesses."
+
+#, fuzzy
+msgid "AMYLASE_PROCESSES_DESCRIPTION"
+msgstr "Erhöht die Wendigkeit von großen Zellen."
+
+#, fuzzy
+msgid "AMYLOPLAST"
+msgstr "Chemoplast"
+
+#, fuzzy
+msgid "AMYLOPLAST_DESCRIPTION"
+msgstr "Der Chemoplast ist eine doppelte Membranstruktur, die Proteine enthält, die in der Lage sind, Schwefelwasserstoff, Wasser und gasförmiges Kohlendioxid in einem Prozess namens Schwefelwasserstoff-Chemosynthese in Glukose umzuwandeln. Die Rate seiner Glukoseproduktion skaliert mit der Konzentration von Wasser und Kohlendioxid."
+
+#, fuzzy
+msgid "AMYLOPLAST_PROCESSES_DESCRIPTION"
+msgstr "Verwandelt [thrive:compound type=\"hydrogensulfide\"][/thrive:compound] in [thrive:compound type=\"glucose\"][/thrive:compound]. Die Rate hängt von der Konzentration von [thrive:compound type=\"carbondioxide\"][/thrive:compound] ab."
 
 msgid "ANAEROBIC_NITROGEN_FIXATION"
 msgstr "Anaerobe Stickstofffixierung"
@@ -1479,6 +1502,14 @@ msgid "CYTOPLASM_PROCESSES_DESCRIPTION"
 msgstr "Wandelt [thrive:compound type=\"glucose\"][/thrive:compound] in [thrive:compound type=\"atp\"][/thrive:compound] um."
 
 #, fuzzy
+msgid "CYTOPLASM_RADIONUCLIDES_REACTION"
+msgstr "Wandelt [thrive:compound type=\"glucose\"][/thrive:compound] in [thrive:compound type=\"atp\"][/thrive:compound] um."
+
+#, fuzzy
+msgid "CYTOPLASM_VIRUS_REACTION"
+msgstr "Die klebrigen Innereien einer Zelle. Das Zytoplasma ist die Grundmischung aus Ionen, Proteinen und anderen in Wasser gelösten Stoffen, die das Innere der Zelle ausfüllt. Eine der Funktionen, die es erfüllt, ist die [b]Glykolyse[/b], die Umwandlung von [thrive:compound type=\"glucose\"][/thrive:compound] in [thrive:compound type=\"atp\"][/thrive:compound]-Energie. Zellen, denen Organellen für einen komplexeren Stoffwechsel fehlen, sind auf diese Energieform angewiesen. Sie wird auch dazu verwendet, Moleküle in der Zelle zu speichern und die Zelle zu vergrössern."
+
+#, fuzzy
 msgid "CYTOTOXIN_SYNTHESIS"
 msgstr "OxyToxid-Synthese"
 
@@ -2472,8 +2503,51 @@ msgstr "Die Glukosekonzentration ist drastisch gesunken!"
 msgid "GLYCOGEN"
 msgstr "Schwefelwasserstoff"
 
+#, fuzzy
+msgid "GLYCOGENESIS"
+msgstr "Schwefelwasserstoff"
+
+#, fuzzy
+msgid "GLYCOGENOLYSIS"
+msgstr "Glykolyse"
+
+msgid "GLYCOGEN_PHOSPHORYLASE"
+msgstr ""
+
+#, fuzzy
+msgid "GLYCOGEN_PHOSPHORYLASE_DESCRIPTION"
+msgstr "Nitrogenase ist ein Protein, das in der Lage ist, gasförmigen Stickstoff und zelluläre Energie in Form von ATP zu nutzen, um Ammoniak, einen wichtigen Wachstumsnährstoff für Zellen, zu produzieren. Dies ist ein Prozess, der als anaerobe Stickstofffixierung bezeichnet wird. Da die Nitrogenase direkt im Zytoplasma untergebracht ist, führt die umgebende Flüssigkeit glykolyse durch."
+
+#, fuzzy
+msgid "GLYCOGEN_PHOSPHORYLASE_PROCESSES_DESCRIPTION"
+msgstr "Wandelt [thrive:compound type=\"atp\"][/thrive:compound] in [thrive:compound type=\"ammonia\"][/thrive:compound] um. Rate skaliert mit der Konzentration von [thrive:compound type=\"nitrogen\"][/thrive:compound]."
+
+#, fuzzy
+msgid "GLYCOGEN_SYNTHASE"
+msgstr "Schwefelwasserstoff"
+
+#, fuzzy
+msgid "GLYCOGEN_SYNTHASE_DESCRIPTION"
+msgstr "Nitrogenase ist ein Protein, das in der Lage ist, gasförmigen Stickstoff und zelluläre Energie in Form von ATP zu nutzen, um Ammoniak, einen wichtigen Wachstumsnährstoff für Zellen, zu produzieren. Dies ist ein Prozess, der als anaerobe Stickstofffixierung bezeichnet wird. Da die Nitrogenase direkt im Zytoplasma untergebracht ist, führt die umgebende Flüssigkeit glykolyse durch."
+
+#, fuzzy
+msgid "GLYCOGEN_SYNTHASE_PROCESSES_DESCRIPTION"
+msgstr "Wandelt [thrive:compound type=\"atp\"][/thrive:compound] in [thrive:compound type=\"ammonia\"][/thrive:compound] um. Rate skaliert mit der Konzentration von [thrive:compound type=\"nitrogen\"][/thrive:compound]."
+
 msgid "GLYCOLYSIS"
 msgstr "Glykolyse"
+
+#, fuzzy
+msgid "GLYCOPLAST"
+msgstr "Chemoplast"
+
+#, fuzzy
+msgid "GLYCOPLAST_DESCRIPTION"
+msgstr "Der Chemoplast ist eine doppelte Membranstruktur, die Proteine enthält, die in der Lage sind, Schwefelwasserstoff, Wasser und gasförmiges Kohlendioxid in einem Prozess namens Schwefelwasserstoff-Chemosynthese in Glukose umzuwandeln. Die Rate seiner Glukoseproduktion skaliert mit der Konzentration von Wasser und Kohlendioxid."
+
+#, fuzzy
+msgid "GLYCOPLAST_PROCESSES_DESCRIPTION"
+msgstr "Verwandelt [thrive:compound type=\"hydrogensulfide\"][/thrive:compound] in [thrive:compound type=\"glucose\"][/thrive:compound]. Die Rate hängt von der Konzentration von [thrive:compound type=\"carbondioxide\"][/thrive:compound] ab."
 
 msgid "GODMODE"
 msgstr "Unbesiegbar"
@@ -2668,6 +2742,10 @@ msgstr "Verbiete der Spezies zu mutieren (wenn keine gute Mutation gefunden wird
 
 msgid "INDUSTRIAL_STAGE"
 msgstr "Industrielle Stufe"
+
+#, fuzzy
+msgid "INFECTED_MARINE_SNOW"
+msgstr "Meeresschnee"
 
 msgid "INFINITE_COMPOUNDS"
 msgstr "Unendlich Substanzen"
@@ -4357,6 +4435,14 @@ msgid "NOTICE_DAMAGED_BY_NO_ATP"
 msgstr ""
 
 #, fuzzy
+msgid "NOTICE_DAMAGED_BY_RADIATION"
+msgstr "Schaden durch Gift in der aufgenommenen Materie"
+
+#, fuzzy
+msgid "NOTICE_DAMAGED_BY_VIRUS"
+msgstr "Schaden durch Gift in der aufgenommenen Materie"
+
+#, fuzzy
 msgid "NOTICE_ENGULF_DAMAGE_FROM_TOXIN"
 msgstr "Schaden durch Gift in der aufgenommenen Materie"
 
@@ -5685,6 +5771,26 @@ msgstr "Pause-Menü"
 #, fuzzy
 msgid "STARCH"
 msgstr "März"
+
+#, fuzzy
+msgid "STARCH_DIGESTION"
+msgstr "Suchradius:"
+
+#, fuzzy
+msgid "STARCH_SYNTHASE"
+msgstr "Thermosynthese"
+
+#, fuzzy
+msgid "STARCH_SYNTHASE_DESCRIPTION"
+msgstr "Thermosynthase ist ein Protein, welches Temperaturveränderungen benutzt um seine Form zu ändern. Bei Erwärmung faltet sich das Protein zusammen und bindet sich an ADP. Dieses wird in einem Prozess names [b]Thermosynthese[/b] zu [thrive:compound type=\"atp\"][/thrive:compound] umgewandelt, wenn das Protein sich unter Einwirkung von Kälte wieder entfaltet. Die Rate der [thrive:compound type=\"atp\"][/thrive:compound] Produktion skaliert mit der [thrive:compound type=\"temperature\"][/thrive:compound]."
+
+#, fuzzy
+msgid "STARCH_SYNTHASE_PROCESSES_DESCRIPTION"
+msgstr "Produziert [thrive:compound type=\"atp\"][/thrive:compound] mithilfe von Temperaturgefällen. Die Rate hängt von der Temperatur ab."
+
+#, fuzzy
+msgid "STARCH_SYNTHESIS"
+msgstr "Chemo-Synthese"
 
 #, fuzzy
 msgid "START"
@@ -8509,10 +8615,6 @@ msgstr "Hereinzoomen"
 
 msgid "ZOOM_OUT"
 msgstr "Herauszoomen"
-
-#, fuzzy
-#~ msgid "NOTICE_DAMAGED_BY_RADIATION"
-#~ msgstr "Schaden durch Gift in der aufgenommenen Materie"
 
 #~ msgid "THE_AMOUNT_OF_GLUCOSE_HAS_BEEN_REDUCED"
 #~ msgstr "Die Glukosemenge wurde auf {0} der vorherigen Menge reduziert."

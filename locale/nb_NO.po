@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-11-10 17:32-0600\n"
+"POT-Creation-Date: 2024-11-16 11:01-0600\n"
 "PO-Revision-Date: 2023-03-10 06:53+0000\n"
 "Last-Translator: Jonas Lindberg <eksno@pm.me>\n"
 "Language-Team: Norwegian Bokmål <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/nb_NO/>\n"
@@ -231,6 +231,28 @@ msgstr "Antall autolagringer å beholde:"
 
 msgid "AMOUNT_OF_QUICKSAVE_TO_KEEP"
 msgstr "Antall hurtiglagringer å beholde:"
+
+msgid "AMYLASE"
+msgstr ""
+
+#, fuzzy
+msgid "AMYLASE_DESCRIPTION"
+msgstr "Anaerob Nitrogenfiksering"
+
+#, fuzzy
+msgid "AMYLASE_PROCESSES_DESCRIPTION"
+msgstr "Anaerob Nitrogenfiksering"
+
+msgid "AMYLOPLAST"
+msgstr ""
+
+#, fuzzy
+msgid "AMYLOPLAST_DESCRIPTION"
+msgstr "Anaerob Nitrogenfiksering"
+
+#, fuzzy
+msgid "AMYLOPLAST_PROCESSES_DESCRIPTION"
+msgstr "Anaerob Nitrogenfiksering"
 
 msgid "ANAEROBIC_NITROGEN_FIXATION"
 msgstr "Anaerob Nitrogenfiksering"
@@ -1392,6 +1414,14 @@ msgid "CYTOPLASM_PROCESSES_DESCRIPTION"
 msgstr ""
 
 #, fuzzy
+msgid "CYTOPLASM_RADIONUCLIDES_REACTION"
+msgstr "Anaerob Nitrogenfiksering"
+
+#, fuzzy
+msgid "CYTOPLASM_VIRUS_REACTION"
+msgstr "Anaerob Nitrogenfiksering"
+
+#, fuzzy
 msgid "CYTOTOXIN_SYNTHESIS"
 msgstr "AI mutasjonshastighet"
 
@@ -2276,8 +2306,49 @@ msgstr ""
 msgid "GLYCOGEN"
 msgstr ""
 
+#, fuzzy
+msgid "GLYCOGENESIS"
+msgstr "AI mutasjonshastighet"
+
+#, fuzzy
+msgid "GLYCOGENOLYSIS"
+msgstr "AI mutasjonshastighet"
+
+msgid "GLYCOGEN_PHOSPHORYLASE"
+msgstr ""
+
+#, fuzzy
+msgid "GLYCOGEN_PHOSPHORYLASE_DESCRIPTION"
+msgstr "Anaerob Nitrogenfiksering"
+
+#, fuzzy
+msgid "GLYCOGEN_PHOSPHORYLASE_PROCESSES_DESCRIPTION"
+msgstr "Anaerob Nitrogenfiksering"
+
+msgid "GLYCOGEN_SYNTHASE"
+msgstr ""
+
+#, fuzzy
+msgid "GLYCOGEN_SYNTHASE_DESCRIPTION"
+msgstr "Anaerob Nitrogenfiksering"
+
+#, fuzzy
+msgid "GLYCOGEN_SYNTHASE_PROCESSES_DESCRIPTION"
+msgstr "Anaerob Nitrogenfiksering"
+
 msgid "GLYCOLYSIS"
 msgstr ""
+
+msgid "GLYCOPLAST"
+msgstr ""
+
+#, fuzzy
+msgid "GLYCOPLAST_DESCRIPTION"
+msgstr "Anaerob Nitrogenfiksering"
+
+#, fuzzy
+msgid "GLYCOPLAST_PROCESSES_DESCRIPTION"
+msgstr "Anaerob Nitrogenfiksering"
 
 msgid "GODMODE"
 msgstr ""
@@ -2453,6 +2524,9 @@ msgid "INDICATOR_SPECIES_MUTATED"
 msgstr "Tillat arter å ikke mutere (hvis ingen god mutasjon er funnet)"
 
 msgid "INDUSTRIAL_STAGE"
+msgstr ""
+
+msgid "INFECTED_MARINE_SNOW"
 msgstr ""
 
 msgid "INFINITE_COMPOUNDS"
@@ -3930,6 +4004,12 @@ msgstr ""
 msgid "NOTICE_DAMAGED_BY_NO_ATP"
 msgstr ""
 
+msgid "NOTICE_DAMAGED_BY_RADIATION"
+msgstr ""
+
+msgid "NOTICE_DAMAGED_BY_VIRUS"
+msgstr ""
+
 msgid "NOTICE_ENGULF_DAMAGE_FROM_TOXIN"
 msgstr ""
 
@@ -5143,6 +5223,24 @@ msgstr ""
 
 msgid "STARCH"
 msgstr ""
+
+msgid "STARCH_DIGESTION"
+msgstr ""
+
+msgid "STARCH_SYNTHASE"
+msgstr ""
+
+#, fuzzy
+msgid "STARCH_SYNTHASE_DESCRIPTION"
+msgstr "Anaerob Nitrogenfiksering"
+
+#, fuzzy
+msgid "STARCH_SYNTHASE_PROCESSES_DESCRIPTION"
+msgstr "Anaerob Nitrogenfiksering"
+
+#, fuzzy
+msgid "STARCH_SYNTHESIS"
+msgstr "AI mutasjonshastighet"
 
 msgid "START"
 msgstr ""

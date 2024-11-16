@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-11-10 17:32-0600\n"
+"POT-Creation-Date: 2024-11-16 11:01-0600\n"
 "PO-Revision-Date: 2024-10-21 02:55+0000\n"
 "Last-Translator: Guno haozheum <guhaozhe@hsefz.cn>\n"
 "Language-Team: Chinese (Simplified Han script) <https://translate.revolutionarygamesstudio.com/projects/thrive/thrive-game/zh_Hans/>\n"
@@ -225,6 +225,29 @@ msgstr "要保留的自动保存存档数："
 
 msgid "AMOUNT_OF_QUICKSAVE_TO_KEEP"
 msgstr "要保留的快速保存存档数："
+
+msgid "AMYLASE"
+msgstr ""
+
+#, fuzzy
+msgid "AMYLASE_DESCRIPTION"
+msgstr "脂肪酶使细胞能够分解大多数类型的膜。就算没有溶酶体你的细胞也能产生一些这种酶，但通过选择这种类型，你将增加其有效性。"
+
+#, fuzzy
+msgid "AMYLASE_PROCESSES_DESCRIPTION"
+msgstr "增加大体型细胞的转向速度。"
+
+#, fuzzy
+msgid "AMYLOPLAST"
+msgstr "化学质体"
+
+#, fuzzy
+msgid "AMYLOPLAST_DESCRIPTION"
+msgstr "化学质体是一种双层膜结构，其中包含的蛋白质可以通过[b]硫化氢化合[/b]合成将[thrive:compound type=\"hydrogensulfide\"][/thrive:compound]，水和气态[thrive:compound type=\"carbondioxide\"][/thrive:compound]转换成[thrive:compound type=\"glucose\"][/thrive:compound]。[thrive:compound type=\"glucose\"][/thrive:compound]的产出速率跟[thrive:compound type=\"carbondioxide\"][/thrive:compound]的浓度成正比。"
+
+#, fuzzy
+msgid "AMYLOPLAST_PROCESSES_DESCRIPTION"
+msgstr "将[thrive:compound type=\"hydrogensulfide\"][/thrive:compound]转换成[thrive:compound type=\"glucose\"][/thrive:compound]。速率跟[thrive:compound type=\"carbondioxide\"][/thrive:compound]浓度成正比。"
 
 msgid "ANAEROBIC_NITROGEN_FIXATION"
 msgstr "无氧固氨"
@@ -1432,6 +1455,14 @@ msgstr "细胞质糖酵解"
 msgid "CYTOPLASM_PROCESSES_DESCRIPTION"
 msgstr "将[thrive:compound type=\"glucose\"][/thrive:compound]转换成[thrive:compound type=\"atp\"][/thrive:compound]。"
 
+#, fuzzy
+msgid "CYTOPLASM_RADIONUCLIDES_REACTION"
+msgstr "将[thrive:compound type=\"glucose\"][/thrive:compound]转换成[thrive:compound type=\"atp\"][/thrive:compound]。"
+
+#, fuzzy
+msgid "CYTOPLASM_VIRUS_REACTION"
+msgstr "细胞粘稠的内脏。细胞质是溶解在水中的离子，蛋白质和其它物质的基本混合物，充满了细胞的内部。它其中一个功能是[b]糖酵解[/b]，作用是将葡萄糖转换成ATP能量。对于缺少细胞器而不能进行更高级代谢活动的细胞而言就是它们能量的来源。它同样还能用来储存收集到的化合物和增加细胞的大小。"
+
 msgid "CYTOTOXIN_SYNTHESIS"
 msgstr "细胞毒素合成"
 
@@ -2345,8 +2376,51 @@ msgstr "葡萄糖的浓度大幅度降低了！"
 msgid "GLYCOGEN"
 msgstr "氢化酶"
 
+#, fuzzy
+msgid "GLYCOGENESIS"
+msgstr "氢化酶"
+
+#, fuzzy
+msgid "GLYCOGENOLYSIS"
+msgstr "糖酵解"
+
+msgid "GLYCOGEN_PHOSPHORYLASE"
+msgstr ""
+
+#, fuzzy
+msgid "GLYCOGEN_PHOSPHORYLASE_DESCRIPTION"
+msgstr "氢化酶使用氢气来分解[thrive:compound type=\\\"glucose\\\"][/thrive:compound]获取能量。相比代谢体，它们在[thrive:compound type=\\\"oxygen\\\"][/thrive:compound]浓度较低时更加高效。许多生活在缺少氧气的环境中的生物都以此为主要的能量来源。"
+
+#, fuzzy
+msgid "GLYCOGEN_PHOSPHORYLASE_PROCESSES_DESCRIPTION"
+msgstr "将[thrive:compound type=\\\"glucose\\\"][/thrive:compound]转换成[thrive:compound type=\\\"atp\\\"][/thrive:compound]。"
+
+#, fuzzy
+msgid "GLYCOGEN_SYNTHASE"
+msgstr "氢化酶"
+
+#, fuzzy
+msgid "GLYCOGEN_SYNTHASE_DESCRIPTION"
+msgstr "氢化酶使用氢气来分解[thrive:compound type=\\\"glucose\\\"][/thrive:compound]获取能量。相比代谢体，它们在[thrive:compound type=\\\"oxygen\\\"][/thrive:compound]浓度较低时更加高效。许多生活在缺少氧气的环境中的生物都以此为主要的能量来源。"
+
+#, fuzzy
+msgid "GLYCOGEN_SYNTHASE_PROCESSES_DESCRIPTION"
+msgstr "将[thrive:compound type=\\\"glucose\\\"][/thrive:compound]转换成[thrive:compound type=\\\"atp\\\"][/thrive:compound]。"
+
 msgid "GLYCOLYSIS"
 msgstr "糖酵解"
+
+#, fuzzy
+msgid "GLYCOPLAST"
+msgstr "化学质体"
+
+#, fuzzy
+msgid "GLYCOPLAST_DESCRIPTION"
+msgstr "化学质体是一种双层膜结构，其中包含的蛋白质可以通过[b]硫化氢化合[/b]合成将[thrive:compound type=\"hydrogensulfide\"][/thrive:compound]，水和气态[thrive:compound type=\"carbondioxide\"][/thrive:compound]转换成[thrive:compound type=\"glucose\"][/thrive:compound]。[thrive:compound type=\"glucose\"][/thrive:compound]的产出速率跟[thrive:compound type=\"carbondioxide\"][/thrive:compound]的浓度成正比。"
+
+#, fuzzy
+msgid "GLYCOPLAST_PROCESSES_DESCRIPTION"
+msgstr "将[thrive:compound type=\"hydrogensulfide\"][/thrive:compound]转换成[thrive:compound type=\"glucose\"][/thrive:compound]。速率跟[thrive:compound type=\"carbondioxide\"][/thrive:compound]浓度成正比。"
 
 msgid "GODMODE"
 msgstr "上帝模式"
@@ -2528,6 +2602,10 @@ msgstr "该物种在这一轮auto-evo中发生了变异"
 
 msgid "INDUSTRIAL_STAGE"
 msgstr "工业阶段"
+
+#, fuzzy
+msgid "INFECTED_MARINE_SNOW"
+msgstr "海洋雪"
 
 msgid "INFINITE_COMPOUNDS"
 msgstr "无限化合物"
@@ -4161,6 +4239,14 @@ msgstr "没有可以交互的物体"
 msgid "NOTICE_DAMAGED_BY_NO_ATP"
 msgstr "因ATP耗尽而受伤"
 
+#, fuzzy
+msgid "NOTICE_DAMAGED_BY_RADIATION"
+msgstr "因ATP耗尽而受伤"
+
+#, fuzzy
+msgid "NOTICE_DAMAGED_BY_VIRUS"
+msgstr "因ATP耗尽而受伤"
+
 msgid "NOTICE_ENGULF_DAMAGE_FROM_TOXIN"
 msgstr "由于摄入物体中的毒素而受伤"
 
@@ -5418,6 +5504,26 @@ msgstr "暂停菜单"
 #, fuzzy
 msgid "STARCH"
 msgstr "三月"
+
+#, fuzzy
+msgid "STARCH_DIGESTION"
+msgstr "搜索半径："
+
+#, fuzzy
+msgid "STARCH_SYNTHASE"
+msgstr "热合成酶"
+
+#, fuzzy
+msgid "STARCH_SYNTHASE_DESCRIPTION"
+msgstr "热合酶是一种利用热对流改变自身形态的蛋白质，它可以在受热时折叠并结合ADP，然后在降温时展开并生成ATP。这一过程被称为[b]热合成[/b]。其ATP生成速率与温度有关。"
+
+#, fuzzy
+msgid "STARCH_SYNTHASE_PROCESSES_DESCRIPTION"
+msgstr "利用温度梯度生产[thrive:compound type=\"atp\"][/thrive:compound]。速度与[thrive:compound type=\"temperature\"][/thrive:compound]有关。"
+
+#, fuzzy
+msgid "STARCH_SYNTHESIS"
+msgstr "化学合成"
 
 msgid "START"
 msgstr "开始"
@@ -8373,10 +8479,6 @@ msgstr "放大"
 
 msgid "ZOOM_OUT"
 msgstr "缩小"
-
-#, fuzzy
-#~ msgid "NOTICE_DAMAGED_BY_RADIATION"
-#~ msgstr "因ATP耗尽而受伤"
 
 #~ msgid "THE_AMOUNT_OF_GLUCOSE_HAS_BEEN_REDUCED"
 #~ msgstr "环境中的葡萄糖已减少到原先量的{0}。"
